@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": null,
+  "status": "running",
+  "current_batch": "2.1",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -9,12 +9,12 @@
     "1.2"
   ],
   "next_batch": "2.1",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-06T20:10:03.662913+00:00",
+  "run_id": "continuation-20261006T2015Z",
+  "lease_expires_at": "2026-10-06T20:45:53+00:00",
+  "updated_at": "2026-10-06T20:15:53+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB1.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Phase 1 complete; 641 distinct methods passed. Ready for FB2.1 workflow self-route selection."
+  "activity": "Reading FB2.1 contracts and preparing prospective selection protocol."
 }
