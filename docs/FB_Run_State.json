@@ -1,17 +1,17 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": null,
+  "status": "running",
+  "current_batch": "0.2",
   "completed_batches": [
     "0.1"
   ],
   "next_batch": "0.2",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-06T18:26:36.034232+00:00",
+  "run_id": "continuation-20261006T1935Z",
+  "lease_expires_at": "2026-10-06T20:06:04.233Z",
+  "updated_at": "2026-10-06T19:36:04.232Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB0.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Batch 0.1 verified and saved. Continue batch 0.2 automatically."
+  "activity": "Reading final protocol requirements for batch 0.2"
 }
