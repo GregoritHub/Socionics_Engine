@@ -1,0 +1,11 @@
+{
+  "status": "probe",
+  "failed_attempts": [
+    {
+      "operation": "GitHub create_tree",
+      "error": "RemoteProtocolError: Server disconnected without sending a response",
+      "effect": "No branch ref advanced; raw blobs preserved",
+      "retry": "Same base tree and same artifact bytes; no engine change"
+    }
+  ]
+}

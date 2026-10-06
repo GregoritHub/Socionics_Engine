@@ -1,0 +1,9 @@
+{
+  "path": "evidence/FB1.1/Raw_Evidence.zip",
+  "sha256": "96c582c2384935888db5e40b9c894a891d16374387c3f1ade39cdcf932a5b280",
+  "bytes": 201710,
+  "files": 89,
+  "manifest": "evidence/FB1.1/Raw_SHA256.json",
+  "extract": "python -m zipfile -e evidence/FB1.1/Raw_Evidence.zip <fresh-directory>",
+  "description": "Unmodified raw regression/new-test logs, source manifests, per-method outcomes and summaries; native originals remain in Git."
+}

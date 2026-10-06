@@ -1,0 +1,11 @@
+{
+  "status": "probe",
+  "passed": true,
+  "batch": "1.1",
+  "inherited_methods": 625,
+  "new_structure_methods": 8,
+  "frozen_files": 1313,
+  "changed_frozen_files": [],
+  "protocol_sha256": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf",
+  "no_release_decision": true
+}

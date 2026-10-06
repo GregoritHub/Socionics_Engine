@@ -1,0 +1,17 @@
+[
+  {
+    "command": "python tools/test_c6.py evidence/FB1.1/model-g-tests tests_g",
+    "exit_code": 0,
+    "tests": 8
+  },
+  {
+    "command": "python tools/regress_c7_parallel.py evidence/FB1.1/inherited-regression",
+    "exit_code": 0,
+    "tests": 602
+  },
+  {
+    "command": "python tools/test_c6.py evidence/FB1.1/workflow-tests tests_c7_workflow",
+    "exit_code": 0,
+    "tests": 23
+  }
+]

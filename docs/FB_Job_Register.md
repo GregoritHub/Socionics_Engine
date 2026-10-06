@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | 0.1 | Intake and reproduction | complete; see FB0.1_Record.md | |
 | 0.2 | The final protocol | complete; see FB0.2_Record.md | |
-| 1.1 | The Model G layer | pending | |
+| 1.1 | The Model G layer | complete; see FB1.1_Record.md | |
 | 1.2 | The axis layer | pending | |
 | 2.1 | Workflow selection: the four self-routes | pending | |
 | 2.2 | Workflow selection: crossings that end in I, IT or ITS for one actor | pending | |
@@ -27,4 +27,4 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 is not yet complete. Batches 0.1 and 0.2 passed; batch 1.1 is next.
+[open] Release 1.0 is not yet complete. Completed through batch 1.1; batch 1.2 is next.

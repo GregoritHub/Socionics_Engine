@@ -1,0 +1,306 @@
+{
+  "schema": "hle-model-g-source-table-v1",
+  "status": "source_defined as transcribed; not reread",
+  "transcribed_not_reread": true,
+  "provenance": "CT Tables 9 and 10; matching literal source tables in project_sources/closure_probes.py (not computed from the new module)",
+  "citations": [
+    {
+      "author": "V. Gulenko",
+      "title": "Energy model G in Humanitarian socionics. What is it?",
+      "site": "socioniks.net",
+      "via": "Model G on the Model A Carrier v0.4",
+      "access_date_in_author_note": "2026-09-26"
+    },
+    {
+      "author": "School of Humanitarian Socionics",
+      "title": "Model G. Energy. Table",
+      "site": "socioniks.net",
+      "via": "Model G on the Model A Carrier v0.4",
+      "access_date_in_author_note": "2026-09-26"
+    }
+  ],
+  "positions": [
+    {
+      "g_position": 1,
+      "name": "Leading",
+      "block": "Social mission",
+      "leading_driven": "leading",
+      "stable_unstable": "stable",
+      "external_internal": "external",
+      "grade": 3
+    },
+    {
+      "g_position": 2,
+      "name": "Creative",
+      "block": "Social mission",
+      "leading_driven": "leading",
+      "stable_unstable": "unstable",
+      "external_internal": "external",
+      "grade": 2
+    },
+    {
+      "g_position": 3,
+      "name": "Role-playing",
+      "block": "Social adaptation",
+      "leading_driven": "driven",
+      "stable_unstable": "stable",
+      "external_internal": "external",
+      "grade": 1
+    },
+    {
+      "g_position": 4,
+      "name": "Launching",
+      "block": "Social adaptation",
+      "leading_driven": "driven",
+      "stable_unstable": "unstable",
+      "external_internal": "external",
+      "grade": 0
+    },
+    {
+      "g_position": 5,
+      "name": "Demonstrative",
+      "block": "Creative self-realization",
+      "leading_driven": "leading",
+      "stable_unstable": "unstable",
+      "external_internal": "internal",
+      "grade": 3
+    },
+    {
+      "g_position": 6,
+      "name": "Manipulative",
+      "block": "Creative self-realization",
+      "leading_driven": "driven",
+      "stable_unstable": "stable",
+      "external_internal": "internal",
+      "grade": 2
+    },
+    {
+      "g_position": 7,
+      "name": "Braking",
+      "block": "Inflation",
+      "leading_driven": "driven",
+      "stable_unstable": "unstable",
+      "external_internal": "internal",
+      "grade": 1
+    },
+    {
+      "g_position": 8,
+      "name": "Controlling",
+      "block": "Inflation",
+      "leading_driven": "leading",
+      "stable_unstable": "stable",
+      "external_internal": "internal",
+      "grade": 0
+    }
+  ],
+  "types": {
+    "ile": {
+      "signed_stack": [
+        "+Ne",
+        "-Te",
+        "+Se",
+        "-Fe",
+        "+Ti",
+        "-Si",
+        "+Fi",
+        "-Ni"
+      ],
+      "label": "positivist"
+    },
+    "sei": {
+      "signed_stack": [
+        "-Si",
+        "+Fi",
+        "-Ni",
+        "+Ti",
+        "-Fe",
+        "+Ne",
+        "-Te",
+        "+Se"
+      ],
+      "label": "negativist"
+    },
+    "ese": {
+      "signed_stack": [
+        "+Fe",
+        "-Se",
+        "+Te",
+        "-Ne",
+        "+Si",
+        "-Ti",
+        "+Ni",
+        "-Fi"
+      ],
+      "label": "positivist"
+    },
+    "lii": {
+      "signed_stack": [
+        "-Ti",
+        "+Ni",
+        "-Fi",
+        "+Si",
+        "-Ne",
+        "+Fe",
+        "-Se",
+        "+Te"
+      ],
+      "label": "negativist"
+    },
+    "eie": {
+      "signed_stack": [
+        "-Fe",
+        "+Ne",
+        "-Te",
+        "+Se",
+        "-Ni",
+        "+Ti",
+        "-Si",
+        "+Fi"
+      ],
+      "label": "negativist"
+    },
+    "lsi": {
+      "signed_stack": [
+        "+Ti",
+        "-Si",
+        "+Fi",
+        "-Ni",
+        "+Se",
+        "-Fe",
+        "+Ne",
+        "-Te"
+      ],
+      "label": "positivist"
+    },
+    "sle": {
+      "signed_stack": [
+        "-Se",
+        "+Te",
+        "-Ne",
+        "+Fe",
+        "-Ti",
+        "+Ni",
+        "-Fi",
+        "+Si"
+      ],
+      "label": "negativist"
+    },
+    "iei": {
+      "signed_stack": [
+        "+Ni",
+        "-Fi",
+        "+Si",
+        "-Ti",
+        "+Fe",
+        "-Se",
+        "+Te",
+        "-Ne"
+      ],
+      "label": "positivist"
+    },
+    "see": {
+      "signed_stack": [
+        "+Se",
+        "-Fe",
+        "+Ne",
+        "-Te",
+        "+Fi",
+        "-Ni",
+        "+Ti",
+        "-Si"
+      ],
+      "label": "positivist"
+    },
+    "ili": {
+      "signed_stack": [
+        "-Ni",
+        "+Ti",
+        "-Si",
+        "+Fi",
+        "-Te",
+        "+Se",
+        "-Fe",
+        "+Ne"
+      ],
+      "label": "negativist"
+    },
+    "lie": {
+      "signed_stack": [
+        "+Te",
+        "-Ne",
+        "+Fe",
+        "-Se",
+        "+Ni",
+        "-Fi",
+        "+Si",
+        "-Ti"
+      ],
+      "label": "positivist"
+    },
+    "esi": {
+      "signed_stack": [
+        "-Fi",
+        "+Si",
+        "-Ti",
+        "+Ni",
+        "-Se",
+        "+Te",
+        "-Ne",
+        "+Fe"
+      ],
+      "label": "negativist"
+    },
+    "lse": {
+      "signed_stack": [
+        "-Te",
+        "+Se",
+        "-Fe",
+        "+Ne",
+        "-Si",
+        "+Fi",
+        "-Ni",
+        "+Ti"
+      ],
+      "label": "negativist"
+    },
+    "eii": {
+      "signed_stack": [
+        "+Fi",
+        "-Ni",
+        "+Ti",
+        "-Si",
+        "+Ne",
+        "-Te",
+        "+Se",
+        "-Fe"
+      ],
+      "label": "positivist"
+    },
+    "iee": {
+      "signed_stack": [
+        "-Ne",
+        "+Fe",
+        "-Se",
+        "+Te",
+        "-Fi",
+        "+Si",
+        "-Ti",
+        "+Ni"
+      ],
+      "label": "negativist"
+    },
+    "sli": {
+      "signed_stack": [
+        "+Si",
+        "-Ti",
+        "+Ni",
+        "-Fi",
+        "+Te",
+        "-Ne",
+        "+Fe",
+        "-Se"
+      ],
+      "label": "positivist"
+    }
+  }
+}

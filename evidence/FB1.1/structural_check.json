@@ -1,0 +1,12 @@
+{
+  "status": "probe",
+  "source_unchanged": true,
+  "frozen_files": 1313,
+  "inherited_source_edits": 0,
+  "engine_imports_of_model_g": [],
+  "new_module_imports": [
+    "hle.model_a"
+  ],
+  "baseline_manifest": "C7_Second_Setting_Delivered_Source_Manifest_v1.json",
+  "protocol_sha256": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf"
+}
