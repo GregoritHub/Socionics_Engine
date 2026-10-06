@@ -1,0 +1,22 @@
+{
+  "schema": "hle-u5-completion-v1",
+  "progress": "5/14",
+  "next": "U6",
+  "cases": {
+    "U5-01": "established",
+    "U5-02": "established",
+    "U5-03": "established"
+  },
+  "tests": {
+    "u5": 38,
+    "u4": 45,
+    "u3": 32,
+    "u2": 31,
+    "legacy": 143
+  },
+  "distinct_tests": 289,
+  "u5_witness_checks": 28,
+  "execution_manifest_sha256": "588cabbc38cd28871ad8664bcbb6356efb78369d5a7e267f5fb8956548086d5d",
+  "passed": true,
+  "scope": "Finite native workshop development acceptance; U6-U14 and release claims remain open."
+}

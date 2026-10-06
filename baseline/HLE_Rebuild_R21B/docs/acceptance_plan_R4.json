@@ -1,0 +1,49 @@
+{
+  "milestone": "R4",
+  "declared_before_acceptance": true,
+  "policy": "docs/Metabolism_R4.md",
+  "fixtures": "Deterministic ownership demands, all sixteen Model A types, matched evidence and resource controls; no random participant or supplied inference answers.",
+  "acceptance": [
+    "Actual Theorize/Apply/Embody operators derive an account from exact recalled memory, execute paid world effects and retain changed content or reusable capacity.",
+    "Alternate Understand movement produces a personal memory without enforcing a universal circuit; unsupported movement faces reject.",
+    "All sixteen types route through transported Model A adjacency and declared polarity support seats; matched type/neutral controls separate numerical assumptions from semantic evidence.",
+    "Held-out objects reuse an experience-derived inspection guard, with no-capacity controls showing a different action and consequence.",
+    "No hidden world fact/evaluator conclusion affects preparation or selection; inaccessible, ambiguous, truncated and stale evidence remains explicit.",
+    "Partial, deferred, failed and idempotent operations preserve paid work and exact histories; concurrent stale memory replacement fails without overwrite.",
+    "Every integrated demo prefix replays and continues identically; rehashed tampered routing, state and content reject.",
+    "Incremental state agrees with independent transaction folding; guarded execution avoids global journal and unrelated indexes.",
+    "All 107 inherited verification cases pass; delivered extracted source passes, with complete failure history retained."
+  ],
+  "controls": {
+    "types": "all 16",
+    "python_hash_seeds": [
+      0,
+      1,
+      777
+    ],
+    "resource_grid": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      32
+    ],
+    "inactive_events": [
+      0,
+      2000
+    ],
+    "inactive_memories": [
+      0,
+      400
+    ],
+    "profile_repeats": 3,
+    "profile_operations": 16
+  },
+  "limits": [
+    "Four realized movement/face pairs, not all 32",
+    "Procedural guard acquisition within a supplied grammar, not unrestricted invention",
+    "No empirical calibration, IDEA verdict or Shell clearance claim",
+    "Sustained efficiency acceptance remains R10"
+  ]
+}

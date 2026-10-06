@@ -1,0 +1,28 @@
+{
+  "version": "C4-v1",
+  "declared_before_evaluation": true,
+  "gate": "Five generated connected families, explicit context transfer, paid bounded nesting with constituent accountability",
+  "families": ["Theorize-Apply-Embody", "Share-Commune-Identify", "Coordinate-Mobilize", "Institutionalize-Educate", "Organize-Integrate-Apply"],
+  "scope": "Consumable workshop; fixture-selected opportunities; engineered content adapters and parent contract; no universal cross-level equivalence",
+  "limits": {"inputs": 8, "children": 8, "nested_depth": 4, "distinct_cited_operations": 64, "social_members": 2, "demand_max": 1000},
+  "coverage": {"types": 16, "mixed_polarities": true, "causal_pairs_minimum": 7, "continuation_boundaries": ["one paid unit", "first semantic result", "ready before commit"]},
+  "controls": ["wrong schema", "wrong context", "unread output", "foreign binding", "fabricated child", "disconnected handoff", "child cancellation", "child material failure", "exhaustion", "membership change", "withdrawn stance", "stale parent reuse", "duplicate charges", "shared descendant", "borrowed competence", "raw mutations", "formal inverse does not undo effects"],
+  "performance": {
+    "reference": "C3 five-route unchanged-contract panel, CrossingEngine versus CompositionEngine",
+    "reference_repeats": 3,
+    "median_ratio_limit": 1.5,
+    "fixed_panel": "five connected families with downstream uses",
+    "inactive_history": [0, 100, 1000],
+    "history_shapes": ["shared", "unique"],
+    "timing_repeats": 2,
+    "trace_repeats": 1,
+    "active_history_ratio_limit": 1.75,
+    "active_access_counts_must_match": true,
+    "depth_sizes": [1, 2, 4],
+    "dependency_sizes": [1, 2, 4],
+    "growth_repeats": 2,
+    "unassessed_axes": ["larger populations", "alternative search"],
+    "separate_costs": ["active wall", "active CPU", "checkpoint", "restore", "audit", "raw and compressed bytes", "incremental peak", "store resolutions", "modeled spending", "demonstrated consequences"]
+  },
+  "preservation": "Retain failed runs and amendments; no speedup or bounded total history claim"
+}

@@ -1,0 +1,1309 @@
+HLE Final Build: Companion Theory
+The carrier, the Crux, the relations, Model G, the layer below DCNH, and the energy and conditioning proposals — everything the build plan relies on
+Version 1.0 · 2026-10-06 · companion to HLE Final Build Plan v1.0 · tables generated from, and identities checked against, the unmodified R21B kernel in HLE_Full_Crux_C7_Source_v2 · sealed 5.2.1 pyref not available · no claim about people
+1. Purpose, status and sources
+This paper holds the theory needed to carry out the HLE Final Build Plan. It is written to be read by someone who has the engine archive but none of the author's other papers. It contains three kinds of statement and keeps them apart.
+What the sealed kernel computes. Tables and identities marked [machine-checked] were computed from, or checked against, the unmodified R21B rebuild kernel at baseline/HLE_Rebuild_R21B/hle in HLE_Full_Crux_C7_Source_v2. Two probe files travel with this paper and reproduce every such statement: closure_probes.py (checks CL1–CL10) and below_dcnh_probes.py (checks QE1–QE17). The author's sealed 5.2.1 reference kernel (the pyref) was not available; reruns against it are owed.
+What a source says. Statements marked [source_defined] come from a text: Build Specification v10 and the contracts in the archive; Gulenko's article on Model G and the School of Humanitarian Socionics table, as transcribed in the author's note Model G on the Model A Carrier v0.4; the DCNH formulas as given in the author's Unified Mathematical Architecture of Socionics §15. The Gulenko pages were not re-read when this paper was written, and the DCNH formulas were not checked against Gulenko's own text.
+What is proposed. Statements marked [interpretive] are readings. Statements in section 8 are engineering proposals in the sense the specification uses that phrase: choices made so that something can be built and tested, not derivations.
+Other tags used: [derived] for a consequence of definitions, [probe] for a result of the probe's own protocol where that is not the engine's, [bridge] for a correspondence between two vocabularies, [open] for what is unsettled. Nothing here is a claim about people. The whole of it is a claim about finite tables and about a simulation.
+A naming hazard. In the archive, C1–C7 are build milestones. In the author's corpus, C1–C46 is a register of open items. This paper writes milestone C7 or register C7.
+2. The carrier
+2.1 Positions
+[machine-checked] Model A gives each type eight positions. The kernel writes a position as three bits (a, v, r): a = 0 accepting, 1 producing; v = 0 valued, 1 unvalued; r = 0 mental ring, 1 vital ring. Position p has bits a = (p−1) & 1, v = ((p−1) >> 1) & 1, r = ((p−1) >> 2) & 1. Every other positional attribute is a function of these three bits:
+strong = 1 ⊕ v ⊕ r (strong exactly when v = r)
+contact = a ⊕ v ⊕ r (otherwise inert)
+bold = 1 ⊕ a ⊕ r (otherwise cautious)
+dimensionality = 1 + 2·strong + bold, an integer 1 to 4
+The symbol ⊕ is addition modulo 2. A field is called affine when it is a sum of bits and possibly 1, as these are. The kernel function is hle.model_a.fields(p).
+Position
+a v r
+a
+v
+ring
+strength
+contact
+boldness
+dim
+Model G position
+Grade
+A1 leading
+000
+acc
+valued
+mental
+strong
+inert
+bold
+4
+G1 Leading
+3 maximum
+A2 creative
+100
+prod
+valued
+mental
+strong
+contact
+cautious
+3
+G5 Demonstrative
+3 maximum
+A3 role
+010
+acc
+unvalued
+mental
+weak
+contact
+bold
+2
+G3 Role-playing
+1 minimum
+A4 vulnerable
+110
+prod
+unvalued
+mental
+weak
+inert
+cautious
+1
+G7 Braking
+1 minimum
+A5 suggestive
+001
+acc
+valued
+vital
+weak
+contact
+cautious
+1
+G6 Manipulative
+2 optimum
+A6 mobilizing
+101
+prod
+valued
+vital
+weak
+inert
+bold
+2
+G4 Launching
+0 pessimum
+A7 ignoring
+011
+acc
+unvalued
+vital
+strong
+inert
+cautious
+3
+G8 Controlling
+0 pessimum
+A8 demonstrative
+111
+prod
+unvalued
+vital
+strong
+contact
+bold
+4
+G2 Creative
+2 optimum
+Table 1. The eight positions. The last two columns belong to Model G (section 6) and are not kernel fields.
+2.2 Information elements
+[machine-checked] There are eight elements, written with three bits (q, e, n): q = 1 rational (T, F), 0 irrational (N, S); e = 1 extraverted; n = 1 internal (N and F elements), 0 external (S and T elements). The kernel table is hle.model_a.ELEMENT.
+Element
+q e n
+Rationality
+Attitude
+Internal / external
+Si
+000
+irrational
+introverted
+external (S/T)
+Ni
+001
+irrational
+introverted
+internal (N/F)
+Se
+010
+irrational
+extraverted
+external (S/T)
+Ne
+011
+irrational
+extraverted
+internal (N/F)
+Ti
+100
+rational
+introverted
+external (S/T)
+Fi
+101
+rational
+introverted
+internal (N/F)
+Te
+110
+rational
+extraverted
+external (S/T)
+Fe
+111
+rational
+extraverted
+internal (N/F)
+Table 2. The eight information elements in kernel coordinates.
+2.3 A type is a frame
+[machine-checked] A type is an invertible affine map from positions to elements: element = M·position ⊕ origin, where origin is the type's leading element, and the matrix M has columns t, (0,0,1), (0,1,1), with t = leading ⊕ creative. In words: stepping from accepting to producing adds t; stepping from valued to unvalued flips n only; stepping from the mental to the vital ring flips e and n. The kernel function is hle.model_a.frame(tim); stack(tim) lists the eight elements in position order, position_of(tim, element) inverts it.
+[derived, machine-checked — QE1] The second column is the same for all sixteen types. So in every type, a position and its partner across value hold two elements that differ only in internal/external: Ne with Se, Ni with Si, Te with Fe, Ti with Fi. This one fact carries section 7.
+Type
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+A8
+Club
+ILE
+Ne
+Ti
+Se
+Fi
+Si
+Fe
+Ni
+Te
+NT
+SEI
+Si
+Fe
+Ni
+Te
+Ne
+Ti
+Se
+Fi
+SF
+ESE
+Fe
+Si
+Te
+Ni
+Ti
+Ne
+Fi
+Se
+SF
+LII
+Ti
+Ne
+Fi
+Se
+Fe
+Si
+Te
+Ni
+NT
+EIE
+Fe
+Ni
+Te
+Si
+Ti
+Se
+Fi
+Ne
+NF
+LSI
+Ti
+Se
+Fi
+Ne
+Fe
+Ni
+Te
+Si
+ST
+SLE
+Se
+Ti
+Ne
+Fi
+Ni
+Fe
+Si
+Te
+ST
+IEI
+Ni
+Fe
+Si
+Te
+Se
+Ti
+Ne
+Fi
+NF
+SEE
+Se
+Fi
+Ne
+Ti
+Ni
+Te
+Si
+Fe
+SF
+ILI
+Ni
+Te
+Si
+Fe
+Se
+Fi
+Ne
+Ti
+NT
+LIE
+Te
+Ni
+Fe
+Si
+Fi
+Se
+Ti
+Ne
+NT
+ESI
+Fi
+Se
+Ti
+Ne
+Te
+Ni
+Fe
+Si
+SF
+LSE
+Te
+Si
+Fe
+Ni
+Fi
+Ne
+Ti
+Se
+ST
+EII
+Fi
+Ne
+Ti
+Se
+Te
+Si
+Fe
+Ni
+NF
+IEE
+Ne
+Fi
+Se
+Ti
+Si
+Te
+Ni
+Fe
+NF
+SLI
+Si
+Te
+Ni
+Fe
+Ne
+Fi
+Se
+Ti
+ST
+Table 3. The sixteen Model A stacks from hle.model_a.stack, grouped by quadra (Alpha, Beta, Gamma, Delta, four rows each).
+2.4 Type coordinates
+[machine-checked] hle.model_a.jungian(tim) returns four bits (E, N, T, irrational). Note the fourth bit is 1 for irrational types. The fifteen Reinin dichotomies are the fifteen non-zero bit-masks w, evaluated as the sum modulo 2 of the masked bits: character(w, tim). The kernel names both poles but, for nine of the fifteen, the author has not locked which value is which pole (register C3). Two are fixed by the published Model G material: for mask (1,1,1,0), value 1 is positivist; for mask (0,1,1,1), value 1 is process [machine-checked against the published lists — CL4, CL10; subject to the author locking that source].
+Mask (E N T irr)
+Kernel name
+Mask
+Kernel name
+1000
+extraverted/introverted
+0101
+tactical/strategic
+0100
+intuitive/sensing
+0011
+constructivist/emotivist
+0010
+logical/ethical
+1110
+positivist/negativist
+0001
+irrational/rational
+1101
+judicious/decisive
+1100
+carefree/farsighted
+1011
+subjectivist/objectivist
+1010
+yielding/obstinate
+0111
+process/result
+1001
+static/dynamic
+1111
+asking/declaring
+0110
+democratic/aristocratic
+
+
+Table 4. The fifteen Reinin characters as bit-masks over (E, N, T, irrational), with the kernel's names (hle.model_a.REININ). The order of the two words in a name does not tell which value is which pole.
+The club of a type is its N/S and T/F letters: NT, NF, ST, SF. The quadra is the set of elements in positions 1, 2, 5, 6. A type is democratic when N and T agree (NT, SF) and aristocratic otherwise (NF, ST).
+3. The Crux
+3.1 Four perspectives
+[source_defined] Content stands in one of four perspectives: I (personal), IT (concrete), WE (shared), ITS (systemic). The kernel codes them I = 0, IT = 1, WE = 2, ITS = 3 (hle.crux.CODE).
+3.2 Sixteen routes, two polarities
+[source_defined] A route is an ordered pair of perspectives, origin then destination. Every pair has a name. With two polarities there are 32 cells, which is the unit of acceptance throughout the build.
+Origin → destination
+I
+IT
+WE
+ITS
+I
+Contemplate
+Express
+Share
+Theorize
+IT
+Embody
+Act
+Coordinate
+Organize
+WE
+Identify
+Mobilize
+Commune
+Institutionalize
+ITS
+Understand
+Apply
+Educate
+Integrate
+Table 5. The fixed route map (hle.crux.ROUTE_NAMES). The diagonal holds the four self-routes.
+Accumulation registers, contains, refines or prepares content. Expenditure externalizes, couples, populates or hands content over. Both cost paid work. Accumulation is not a refund and does not mean private; Expenditure does not mean public.
+Eight rules bind every implementation [source_defined, Build Specification v10 §2]:
+A movement is origin, destination and polarity. Whether it conducts is an assessed outcome, not part of its identity.
+Every type uses the same map. A native origin influences access and forbids nothing.
+Both polarities require paid work.
+Perspective, polarity, element attitude, actual access and material truth are separate things.
+Composition tracks endpoints; a mixed-polarity sequence keeps each step's polarity.
+A formal inverse reverses endpoints only. It undoes no material effect, refunds nothing, erases no memory.
+A self-route is an identity in the endpoint grammar; its content may change greatly and it still pays for its work.
+A Shell alters a realization. It adds no seventeenth route and completes nothing that was not completed.
+3.3 The Fold: which crossings are single steps
+[source_defined; kernel hle.concept_structure.EDGES] Each function family joins exactly two perspectives: F joins I and WE; S joins IT and WE; N joins I and ITS; T joins IT and ITS. A crossing along one of these four edges is realized by one element of that family, at whatever position that element holds in the actor's type (bridge(tim, element, origin)).
+I–IT and WE–ITS are not edges. A crossing between them is composite: two Fold steps through a third perspective, with the intermediate result kept. An implementation must reject a claimed single-function I–IT or WE–ITS crossing. Self-routes have their own explicit realization policy (milestone C2); zero displacement grants no free work.
+Family
+Joins
+Elements
+Composite instead
+F (ethics)
+I — WE
+Fi, Fe
+—
+S (sensing)
+IT — WE
+Si, Se
+—
+N (intuition)
+I — ITS
+Ni, Ne
+—
+T (logic)
+IT — ITS
+Ti, Te
+—
+none
+I — IT
+—
+via WE (F then S) or via ITS (N then T)
+none
+WE — ITS
+—
+via I (F then N) or via IT (S then T)
+Table 6. The Fold bridge.
+3.4 How processing is priced now
+[source_defined; kernel hle.processing._route_geometry, engine hle_unified.cognitive_routes.route] To realize a Fold step, the actor's processing moves across its own cube of positions from the currently active element to the target element, passing through a support seat. Under Accumulation the support seats are A5 and A7; under Expenditure, A6 and A8. Each step into an element costs 5 minus the dimensionality of the position that element holds in the actor's type, so 1 to 4 units. Among all shortest paths through either support seat, the engine takes the minimum by (total charge, path length, path, seat). The content itself costs the same unit price at the target seat times content size.
+The kernel labels these numbers a legacy hypothesis (R4), not a source law. They are the behaviour to preserve. Section 8 proposes a second ledger beside them, not a replacement.
+3.5 Clubs and perspectives
+[bridge, postulate] The author's corpus pairs clubs with perspectives: I = NF, IT = ST, WE = SF, ITS = NT. It is consistent with the Fold (each club's two letters are the two families meeting at its perspective) and is a postulate. Nothing in the plan depends on it.
+4. Relations between types
+[machine-checked] The relation between types A and B is the map relation(a, b) = frame(a)⁻¹ after frame(b), which sends B's positions to A's. It is an affine map of the position cube: x ↦ L·x ⊕ b. Only two linear parts occur: the identity I, and K, which sends v to a ⊕ v and fixes a and r. There are sixteen such maps; together they form the relation group G16.
+landing_position(sender, p, receiver) says at which of the receiver's positions the element in the sender's position p arrives. Table 7 lists the sixteen relations from ILE.
+Relation (kernel label, read from ILE)
+Partner
+L
+b (a v r)
+ILE's leading lands at
+ILE's creative lands at
+Identity  identity
+ILE
+I
+000
+A1
+A2
+Dual  duality
+SEI
+I
+001
+A5
+A6
+Activation  activation
+ESE
+I
+101
+A6
+A5
+Mirror  mirror
+LII
+I
+100
+A2
+A1
+Benefit (ILE gives)  benefit
+EIE
+K
+101
+A8
+A5
+Supervision (ILE supervises)  supervision
+LSI
+K
+100
+A4
+A1
+Business (look-alike)  business
+SLE
+K
+010
+A3
+A2
+Mirage  mirage
+IEI
+K
+011
+A7
+A6
+Super-Ego  super_ego
+SEE
+I
+010
+A3
+A4
+Contrary (extinguishment)  contrary
+ILI
+I
+011
+A7
+A8
+Quasi-identity  quasi_identity
+LIE
+I
+111
+A8
+A7
+Conflict  conflict
+ESI
+I
+110
+A4
+A3
+Benefit, inverse (ILE receives)  benefit_inverse
+LSE
+K
+111
+A6
+A7
+Supervision, inverse (ILE is supervised)  supervision_inverse
+EII
+K
+110
+A2
+A3
+Kindred  kindred
+IEE
+K
+000
+A1
+A4
+Semi-dual  semi_duality
+SLI
+K
+001
+A5
+A8
+Table 7. The sixteen relations as affine maps, from relation('ile', partner) and the kernel label file relation_labels.json, key ile:partner. In that file supervision on key x:y means x supervises y, and benefit means x is the benefactor of y.
+[machine-checked] Twelve relations are their own inverse. Four are not: supervision and benefit, each in two directions. These have order four, and applying one twice gives Super-Ego. They are exactly the relations between two types that differ both in rationality and in democratic/aristocratic. Each forms rings of four types; the kernel's benefit ring from ILE runs ILE → EIE → SEE → LSE (CL9).
+5. The symmetry groups of the position cube
+The plan does not ask Astra to implement these groups. They are here because section 6 and section 7 are stated in terms of them, and because the supplied probes check them on the kernel.
+Group
+Order
+Generated by
+What it is
+G16
+16
+the sixteen relations
+Maps that carry a type to a type. Linear parts I and K.
+H
+32
+G16 and ζ
+ζ(a,v,r) = (a, v⊕r, r): leave the mental ring alone, flip value on the vital ring. Every element of H acts on each ring as a classical relation; the sixteen new ones act as a relation on the mental ring and its Super-Ego twist on the vital ring. H is extraspecial of plus type, 2¹⁺⁴₊: centre = commutators = squares = {Identity, Super-Ego}; 19 involutions; 12 elements of order four.
+G64
+64
+H and σ
+σ(a,v,r) = (r,v,a): exchange accepting/producing with mental/vital. The kernel's extended_group() (relations plus the estafette quarter-turn (a,v,r) ↦ (r, v, 1⊕a)) is this group. It is the largest 2-group of affine symmetries of the cube. Its centre is still {Identity, Super-Ego}.
+G128
+128
+G64 and CZ
+CZ(a,v,r) = (a, v ⊕ a·r, r): flip value where producing and vital, that is, exchange A6 with A8. This map is not affine. It is the one further step available among maps that respect the Super-Ego pairing.
+B4
+384
+all permutations of positions commuting with Super-Ego
+The symmetries of four axes each with two poles. 192 of them are affine. G128 is its 2-part.
+Table 8. The tower G16 < H < G64 < G128 < B4, each of index two in the next until the last [machine-checked — CL6–CL8, QE2, QE4].
+Super-Ego here means the map that flips v: A1↔A3, A2↔A4, A5↔A7, A6↔A8. It is the centre of every group in the tower. Section 7 is the study of what remains when it is divided out and what it leaves behind.
+6. Model G
+6.1 Source
+[source_defined, as transcribed] Model G is Gulenko's energy model. It gives each type eight positions in four blocks, assigns each position three polarities and an energy grade, signs every element + or −, and labels each type positivist or negativist. Gulenko states that Model G cannot be translated into Model A's language without distortion. The findings below concern the two published tables only; they do not show that his concepts mean what Model A's mean.
+6.2 The reindexing
+[machine-checked — CL1] For every one of the sixteen types, the element in Model G position k is the element in Model A position π(k), with
+k     =  G1  G2  G3  G4  G5  G6  G7  G8
+π(k)  =  A1  A8  A3  A6  A2  A5  A4  A7
+
+and π is the only one of the 40,320 permutations of eight positions for which this holds across all 128 cells. So Model G places the same elements on the same carrier. Two names cross: Model G's Creative (G2) is Model A's demonstrative (A8), and Model G's Demonstrative (G5) is Model A's creative (A2).
+G
+Name
+Block
+= A
+Polarities
+Grade
+Description (paraphrase)
+G1
+Leading
+Social mission
+A1 leading
+leading · stable · external
+3 maximum
+decides, allocates resources
+G2
+Creative
+Social mission
+A8 demonstrative
+leading · unstable · external
+2 optimum
+implements the mission; boosted by G1
+G3
+Role-playing
+Social adaptation
+A3 role
+driven · stable · external
+1 minimum
+trained to norms; decays without input
+G4
+Launching
+Social adaptation
+A6 mobilizing
+driven · unstable · external
+0 pessimum
+the impulse that initiates G1
+G5
+Demonstrative
+Creative self-realization
+A2 creative
+leading · unstable · internal
+3 maximum
+acts impulsively, against local norms
+G6
+Manipulative
+Creative self-realization
+A5 suggestive
+driven · stable · internal
+2 optimum
+long-term habits; replenishes reserves
+G7
+Braking
+Inflation
+A4 vulnerable
+driven · unstable · internal
+1 minimum
+point of energy loss; resists load
+G8
+Controlling
+Inflation
+A7 ignoring
+leading · stable · internal
+0 pessimum
+controls by restriction; 'I know, but I can't'
+Table 9. The eight Model G positions. Names, blocks, polarities and grades are the source's; the A column is the reindexing. These names and blocks are the content of register C1 and C2.
+6.3 The three polarities are three Model A fields
+[machine-checked — CL2] As sets of positions: leading = strong; stable = accepting; external = bold. So G1–G4 are exactly Model A's bold positions {1, 3, 6, 8}, called here the external plane, and G5–G8 are the cautious positions {2, 4, 5, 7}, the internal plane. This is a coincidence of extension. It may be by construction.
+6.4 Blocks
+[machine-checked — CL3] The four blocks are, in Model A positions, {A1, A8}, {A3, A6}, {A2, A5}, {A4, A7}. The map sending each position to its block partner is β(a,v,r) = (1⊕a, 1⊕a⊕v⊕r, 1⊕r). It lies in H and is not a relation.
+6.5 The grade
+[machine-checked — CL3, QE9] Write the grade as an integer: maximum 3, optimum 2, minimum 1, pessimum 0. Equal grades pair {A1,A2}, {A5,A8}, {A3,A4}, {A6,A7}; the pairing map is γ(a,v,r) = (1⊕a, v⊕r, r), also in H. The grade itself is
+grade  =  2 · high  +  low
+low    =  1 ⊕ r                  (1 on the mental ring)
+high   =  1 ⊕ v ⊕ a·r
+       =  valued  where the position is accepting   (A1, A3, A5, A7)
+       =  strong  where the position is producing   (A2, A4, A6, A8)
+
+The term a·r is a product, so the high bit is not affine: no sum of position bits gives it. Read plainly: energy ranks what is taken in by value, and what is put out by strength. This form of the statement is new in this paper; the equivalent form in the author's note is 'value on the mental ring, contact on the vital ring'.
+6.6 Signs
+[machine-checked — CL4] An element's sign is + exactly when (type is positivist) differs from (the position is on the vital ring). The positivist label is the Reinin character with mask (1,1,1,0), value 1.
+Type
+G1
+G2
+G3
+G4
+G5
+G6
+G7
+G8
+Label
+ILE
++Ne
+−Te
++Se
+−Fe
++Ti
+−Si
++Fi
+−Ni
+positivist
+SEI
+−Si
++Fi
+−Ni
++Ti
+−Fe
++Ne
+−Te
++Se
+negativist
+ESE
++Fe
+−Se
++Te
+−Ne
++Si
+−Ti
++Ni
+−Fi
+positivist
+LII
+−Ti
++Ni
+−Fi
++Si
+−Ne
++Fe
+−Se
++Te
+negativist
+EIE
+−Fe
++Ne
+−Te
++Se
+−Ni
++Ti
+−Si
++Fi
+negativist
+LSI
++Ti
+−Si
++Fi
+−Ni
++Se
+−Fe
++Ne
+−Te
+positivist
+SLE
+−Se
++Te
+−Ne
++Fe
+−Ti
++Ni
+−Fi
++Si
+negativist
+IEI
++Ni
+−Fi
++Si
+−Ti
++Fe
+−Se
++Te
+−Ne
+positivist
+SEE
++Se
+−Fe
++Ne
+−Te
++Fi
+−Ni
++Ti
+−Si
+positivist
+ILI
+−Ni
++Ti
+−Si
++Fi
+−Te
++Se
+−Fe
++Ne
+negativist
+LIE
++Te
+−Ne
++Fe
+−Se
++Ni
+−Fi
++Si
+−Ti
+positivist
+ESI
+−Fi
++Si
+−Ti
++Ni
+−Se
++Te
+−Ne
++Fe
+negativist
+LSE
+−Te
++Se
+−Fe
++Ne
+−Si
++Fi
+−Ni
++Ti
+negativist
+EII
++Fi
+−Ni
++Ti
+−Si
++Ne
+−Te
++Se
+−Fe
+positivist
+IEE
+−Ne
++Fe
+−Se
++Te
+−Fi
++Si
+−Ti
++Ni
+negativist
+SLI
++Si
+−Ti
++Ni
+−Fi
++Te
+−Ne
++Fe
+−Se
+positivist
+Table 10. The sixteen signed Model G stacks, regenerated from the kernel by the three rules above and equal, cell for cell, to the published table as transcribed (CL1, CL4).
+6.7 The spine
+[source_defined] The source makes two directed statements: Launching initiates Leading, and Creative receives its boost from Leading. In Model A positions: A6 → A1 → A8.
+[machine-checked — QE13] Any map that respects the Super-Ego pairing and carries A6 to A1 and A1 to A8 must continue A8 → A3 → A6. So the spine is two steps of one quarter-turn around the external plane, G4 → G1 → G2 → G3. Four elements of G64 do this. They differ on the internal plane: two (both in H) turn it, in opposite senses, A5 → A2 → A7 → A4 or A5 → A4 → A7 → A2; two hold one internal axis fixed and flip the other. [open] No source statement was found that chooses among the four. The plan implements only the source's two steps.
+7. Below DCNH: axes, load and tilt
+The author's earlier finding was that the finite geometry reaches the DCNH subtype layer and stops, with energy and functional conditioning unaccounted for. This section says why it stops there and what sits underneath. It is the theory behind batches 1.2 and 7.3.
+7.1 The four axes
+[machine-checked — QE1, QE3] Pair each position with its partner across value. This gives four axes: {A1,A3}, {A2,A4}, {A5,A7}, {A6,A8}. The first-named is the valued pole. An axis is fixed by the two bits (a, r): accepting-mental, producing-mental, accepting-vital, producing-vital. By section 2.3 the two poles of an axis always hold two elements differing only in internal/external.
+The engine already singles out two of them: {A5,A7} are the Accumulation support seats and {A6,A8} the Expenditure support seats (section 3.4).
+7.2 DCNH is the set of axes
+[source_defined, via UMA §15] The four DCNH subtypes are Dominant, Creative, Normalizing, Harmonizing. Their core element pairs are D = {Te, Fe}, C = {Se, Ne}, N = {Ti, Fi}, H = {Si, Ni}: the four ways of fixing rationality and attitude while leaving internal/external free.
+[machine-checked — QE1] Therefore in every type the four axes hold exactly the four DCNH pairs, one each. If the leading element has bits (q, e), the axis at (a, r) holds the pair with rationality q ⊕ a and attitude e ⊕ a ⊕ r. DCNH is the picture, on the element side, of positions with value divided out; and value-flip is the centre of the symmetry group. There is nothing further to divide by. That is why the finite geometry ends at DCNH.
+Type
+{A1,A3}
+{A2,A4}
+{A5,A7}
+{A6,A8}
+D formula
+C formula
+N formula
+H formula
+ILE
+C
+N
+H
+D
+A3,A6,A8
+A1,A3,A6
+A2,A4,A5
+A4,A5,A7
+SEI
+H
+D
+C
+N
+A2,A4,A7
+A2,A5,A7
+A1,A6,A8
+A1,A3,A8
+ESE
+D
+H
+N
+C
+A1,A3,A8
+A1,A6,A8
+A2,A5,A7
+A2,A4,A7
+LII
+N
+C
+D
+H
+A4,A5,A7
+A2,A4,A5
+A1,A3,A6
+A3,A6,A8
+EIE
+D
+H
+N
+C
+A1,A3,A6
+A1,A6,A8
+A4,A5,A7
+A2,A4,A7
+LSI
+N
+C
+D
+H
+A2,A5,A7
+A2,A4,A5
+A1,A3,A8
+A3,A6,A8
+SLE
+C
+N
+H
+D
+A1,A6,A8
+A1,A3,A6
+A2,A4,A7
+A4,A5,A7
+IEI
+H
+D
+C
+N
+A2,A4,A5
+A2,A5,A7
+A3,A6,A8
+A1,A3,A8
+SEE
+C
+N
+H
+D
+A1,A6,A8
+A1,A3,A8
+A2,A4,A7
+A2,A5,A7
+ILI
+H
+D
+C
+N
+A2,A4,A5
+A4,A5,A7
+A3,A6,A8
+A1,A3,A6
+LIE
+D
+H
+N
+C
+A1,A3,A6
+A3,A6,A8
+A4,A5,A7
+A2,A4,A5
+ESI
+N
+C
+D
+H
+A2,A5,A7
+A2,A4,A7
+A1,A3,A8
+A1,A6,A8
+LSE
+D
+H
+N
+C
+A1,A3,A8
+A3,A6,A8
+A2,A5,A7
+A2,A4,A5
+EII
+N
+C
+D
+H
+A4,A5,A7
+A2,A4,A7
+A1,A3,A6
+A1,A6,A8
+IEE
+C
+N
+H
+D
+A3,A6,A8
+A1,A3,A8
+A2,A4,A5
+A2,A5,A7
+SLI
+H
+D
+C
+N
+A2,A4,A7
+A4,A5,A7
+A1,A6,A8
+A1,A3,A6
+Table 11. For each type: the DCNH cell on each axis, and the three positions of each 2+1 subtype formula.
+7.3 The 2+1 formulas
+[source_defined, via UMA §15; not checked against Gulenko's text] Each subtype strengthens three elements, its core pair and one more: D = Te, Fe + Se; C = Se, Ne + Fe; N = Ti, Fi + Si; H = Si, Ni + Fi.
+[machine-checked — QE14] Each formula is the four elements of one attitude with one left out. The one left out is always an N or T element (Ne, Te, Ni, Ti for D, C, N, H). The added element is always an S or F element.
+7.4 Each formula lies in one Model G plane
+[machine-checked — QE15] In every type, the three positions of a formula are three of the four positions of one plane. The two subtypes that share the type's own attitude (D and C for an extravert, N and H for an introvert) fill the external plane, G1–G4. The other two fill the internal plane, G5–G8. This is the link between the subtype layer and the energy model: a subtype is three quarters of an energy plane.
+7.5 Load and tilt
+[derived, machine-checked — QE12] Take any quantity that has an integer value at each of the eight positions: a count of use, a grade, a price. For each axis form
+load  =  value at the valued pole  +  value at the unvalued pole
+tilt  =  value at the valued pole  −  value at the unvalued pole
+
+Four loads and four tilts recover the eight values exactly. The split is the natural one: the symmetry group H mixes loads only with loads and tilts only with tilts, and the four tilts cannot be split further.
+DCNH reads the loads: which axis carries most. The tilts say, on each axis, which pole. For a two-valued field the tilts are a pattern of four signs. Table 12 gives the cases that matter.
+Field
+{A1,A3}
+{A2,A4}
+{A5,A7}
+{A6,A8}
+Parity
+valued
++
++
++
++
+even
+strong
++
++
+−
+−
+even
+contact
+−
++
++
+−
+even
+Model G grade, high bit
++
++
++
+−
+odd
+Table 12. Sign patterns on the four axes: + means the valued pole has the higher value [machine-checked — QE7].
+[machine-checked — QE8] A sign pattern comes from an affine field exactly when it has an even number of minus signs. There are sixteen patterns; affine geometry over two-valued coordinates holds eight. The Model G grade is one of the other eight. This is the precise sense in which the algebra could not account for energy: not because energy is elsewhere, but because it is the odd half.
+[machine-checked — QE10] Three comparisons, each differing on exactly one axis or agreeing:
+Grade against value: they disagree only on {A6,A8}, the Expenditure axis. Value prefers A6; energy prefers A8.
+Grade against strength (and so against dimensionality): they disagree only on {A5,A7}, the Accumulation axis. Strength prefers A7; energy prefers A5.
+On the two mental axes all three agree.
+So energy follows value where the engine accumulates and strength where it spends. This restates section 6.5 on the engine's own support seats.
+7.6 The quaternion reading
+[machine-checked — QE5, QE6] Label the positions by the eight quaternion units: A1 = 1, A3 = −1, A2 = i, A4 = −i, A5 = j, A7 = −j, A6 = k, A8 = −k. Then the 32 maps x ↦ p·x·q, with p and q quaternion units, are exactly the group H. Super-Ego is multiplication by −1. The swap σ and the quadratic move CZ both reverse the order of products; CZ is quaternion conjugation (equivalently, inversion of a unit) up to an element of H. Conjugation is the symmetry that affine geometry cannot express.
+[machine-checked — QE11] The eight positions, the eight even sign patterns (halved) and the eight odd sign patterns (halved) are together the 24 Hurwitz unit quaternions, which are closed under multiplication. The even patterns are one coset of the eight units, the odd patterns the inverse coset.
+[interpretive] This gives the author's thesis, one structure, two quantities, an exact shape: positions, information-type fields and energy-type fields are the three classes of one 24-element group, and the information class and the energy class are inverse to each other. It is a shape and not a proof. On eight positions many assignments can be expressed in Model A's cuts, and only dynamics could separate one structure from two that share a carrier. The plan ships none of this subsection in the engine.
+7.7 What this section does not supply
+No number. The geometry fixes the form of energy and of conditioning (which axis, which pole, even or odd) and gives no rate, unit or threshold.
+No subtype for anyone. A subtype would be a fact about a history of use (section 8.3), and the engine has no rule that gives it force.
+No direction on the internal plane (section 6.7).
+8. Energy and conditioning as engineering proposals
+Everything in this section is a proposal to be built behind a switch and tested (Phase 7 of the plan), and only if the author rules that it should be.
+8.1 What the engine does now
+[probe — QE17; source scan] Each participant has a wallet with two integer currencies, energy and time. Every expenditure record in the R21B rebuild spends the same amount of each (18 of 18 sites). In the unified engine the raw auditor requires the two deltas to be equal, and the cognitive auditor recomputes each step price as 5 minus dimensionality. No rule in the engine regenerates energy; wallets are funded once, by the harness.
+[probe — QE16, the probe's own protocol] If steps were priced by 4 minus grade instead of 5 minus dimensionality, and paths chosen by that price, the chosen path would change in 904 of 2,048 route cases on the kernel (16 types × 8 active elements × 8 targets × 2 polarities). The choice of price is therefore not idle.
+8.2 The energy contract (proposal)
+Position
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+A8
+dimensionality
+4
+3
+2
+1
+1
+2
+3
+4
+time per step = 5 − dim
+1
+2
+3
+4
+4
+3
+2
+1
+grade
+3
+3
+1
+1
+2
+0
+0
+2
+energy per step = 4 − grade
+1
+1
+3
+3
+2
+4
+4
+2
+energy − time
+0
+−1
+0
+−1
+−2
++1
++2
++1
+Table 13. The two price tables. Both rows of prices sum to 20 across the eight positions; they distribute the same total differently.
+A world carries a resource_model: legacy-r4 (the default, today's behaviour exactly) or grade-v1. It is set at creation, stored in every checkpoint, and never changes within a world.
+Under grade-v1, the path, the support seat and every time charge are computed exactly as now. Path choice still minimizes the time charge. Only the energy charge changes: a step into a position costs 4 minus that position's grade, and content at a seat costs that unit price times content size.
+Work that is not Model A processing (material work, delivery, reading as priced today) charges energy equal to time, as now. The theory says nothing about it.
+A step may begin only if the wallet holds its energy charge and at least one unit of time. Exhaustion of either currency stops the work; what was spent stays spent.
+One detail must be fixed by Astra against the code in batch 7.1: how a step's energy is debited when a job is paid in partial quanta. The rule must be integer-exact, deterministic and reproducible on continuation. The recommended rule is to debit a step's whole energy charge when its first unit of time is paid, with no refund on cancellation. If the job records make another exact rule simpler, use it and state it.
+The auditors are versioned by resource_model. For a legacy world nothing changes.
+Why path choice is left alone: with ample wallets the two models then produce identical paths, identical content and identical time charges, so any difference observed is a difference of energy accounting and nothing else. A later contract could let energy steer; that is a second experiment.
+8.3 The conditioning ledger (proposal)
+Functional conditioning is the strengthening of functions by use, on which the DCNH layer rests. The engine admits no float, weight or rate, and the theory supplies none. The proposal is therefore a ledger and not a force:
+For an actor, count the completed paid Model A steps into each element: eight non-negative integers. The count is computed by an auditor from committed records. Nothing is stored in the world.
+From the counts and the actor's type: the four axis loads and the four axis tilts (section 7.5), and for each of D, C, N, H the sum of the counts over its three formula elements (section 7.3).
+Report the cell with the greatest load, and ties as ties. Do not call it the actor's subtype.
+Nothing reads the ledger. No price, selection or Shell rule depends on it.
+This leaves register C14 as it stands: Function Profile has no effect in the engine. What changes is that it becomes visible, in the form section 7 says it must take.
+8.4 Predictions to preregister
+P1, invariance. With wallets large enough that neither currency runs out, every path, support seat, time charge, semantic output and public output is identical under the two models, on the whole matched panel. A single difference fails P1.
+P2, accounting. Under grade-v1, each step's energy charge equals Table 13 for the position the element holds in the actor's type, on every step of every world, as recomputed by the independent auditor.
+P3, divergence under scarcity. With tight wallets, there exist matched worlds in which the two models stop at different points, and in each such world the currency that ran out first is the one Table 13 predicts from the positions traversed. If no such world exists in the panel, P3 is reported as not tested.
+No prediction says that grade-v1 is more realistic. That is not a question a simulation can answer.
+8.5 Left out on purpose
+Replenishment. The source says the Manipulative position (A5) replenishes reserves. The engine has no regeneration, and no rule is proposed here.
+Any effect of conditioning on anything.
+The state-dependent statements of the source (Launching reverses at close range; Role-playing decays without input).
+9. Engine concepts used by the plan
+All [source_defined] from Build Specification v10 and the contracts in the archive, condensed. Where this section and the specification differ, the specification governs.
+9.1 Objects, access, work
+One object store. Content is versioned objects with identities and revisions. Exact particulars are compact evidence records. Fool's Memory holds conceptual relations, tension and contextual continuity.
+Access is paid and receipted. A participant knows only what was delivered to it and it paid to read. Hidden world changes do not enter its memory.
+Work is paid from a finite wallet. Semantic steps, material work and communication are each paid. Cancellation and exhaustion preserve spending and what was already realized.
+Material law is native. Custody, stock, condition and exact revision checks govern physical work. A hypothetical completion never substitutes for it.
+Checkpoints continue exactly. Restoring a checkpoint reproduces the same command identities, paid progression and effects. Each engine restores its own schema.
+9.2 What counts as arriving
+Destination
+Evidence required of a realized result
+I
+An actor-owned change in interpretation, conceptual relation, intention or retained response, available to later processing.
+IT
+The concrete result the operation specifies: an actual act, artifact, arrangement or material change. An imagined effect stays hypothetical.
+WE
+A scoped shared interpretation or relationship grounded in actual exchange and uptake. Agreement, understanding, assent and dissent stay distinct.
+ITS
+An explicit model, dependency structure, procedure organization or institution, with scope, provenance and usable constraints.
+Table 14. The four destination obligations.
+A privately imagined agreement is a representation of an agreement. Sending a theory does not make it understood. Reading or assenting to a procedure confers no practiced skill. A draft is not an authorized rule. Two members cannot commit a third.
+9.3 The three questions
+Every claimed realization must show, from committed evidence: what changed (exact before and after revisions); how it changed (versioned recipe, actual intermediate handoffs, evidence accessed, actors, authority, paid work); and what becomes possible afterward (a downstream consumer that actually uses the output, with a matched control). Proposed possibility, verified applicability and demonstrated downstream use are three different things. The executor must pass each step's result to the next; computing an answer independently and attaching a route label afterward does not count.
+9.4 Selection
+A participant chooses its movement from its own demand, accessible content, uncertainty, resources, relationships and acquired capacities. A candidate generator proposes applicable movements with reasons and costs; a selector may continue, defer, ask for help or stop. The request names an outcome and never a route or recipe. Comparison, admission and the realized destination are separate records. An evaluator's label or hidden state never selects. In the archive this exists for the original content as SelectionRequest, selection_policy.proposals and SelectionEngine (milestone C6); the workflow domain has scripted coverage only.
+9.5 Composition and nesting
+Formal compatibility of endpoints is necessary and not sufficient: the next operator must be able to consume the previous result's schema, scope, evidence and completion state. Five families must run from generated intermediate results: Theorize → Apply → Embody; Share → Commune → Identify; Coordinate → Mobilize; Institutionalize → Educate; Organize → Integrate → Apply. A bounded parent may claim a result only when the child results it names are present, compatible and authorized; child failure stays visible; each operation is charged once; a summary grants no member knowledge or competence.
+9.6 Populations
+Population schedules one independently owned demand per actor in deterministic round-robin turns of a declared work quantum. It chooses whose turn runs and nothing else. It stops a demand after two equal qualifying retained results by default; this is a stopping policy and says nothing about truth or exhaustion. There is no replenishment, no new goal formation and no growth of the population.
+9.7 Auditors and controls
+An independent auditor reconstructs access, scope, steps, authority, outputs and prices from committed objects and receipts without importing the code it audits. A separately implemented validator checks semantic postconditions; the presence of a label such as 'Realized Commune' is never the test. A defining-step control replaces the resolved content with an empty, non-authorizing result (or withholds the material command) at equal main cost and with a fixed downstream question; it must change the downstream result and must be rejected by the ordinary auditor.
+9.8 The two settings
+The first setting is the inherited canonical one: condition and repair of items, scalar resource caps, static interfaces. The second, added in the supplied source, is timed maintenance runbooks: tasks with predecessors, earliest and latest slots and a responsible actor; reciprocal commitments; learner answers; real handover and return of equipment. Its bounds are eight tasks, eight inputs, two participants, unit-duration serial slots, local slots 0–1,000, and the primitives inspection, care, use, transfer, return. WorkflowEngine extends SelectionEngine; WorkflowRequest names its recipe. The contract states that automatic selection, Shell application and population scheduling are not credited to this setting. Phases 2 to 5 of the plan exist to supply them.
+10. The Shell
+[source_defined] A Shell deforms a realization: it changes actual content processing or a later decision. It adds no route and completes nothing.
+Five effect kinds (what a Shell does)
+Kernel names, hle_unified.shell_records.KINDS
+attributed approval
+approval — the only kind generated from an implemented evidence rule in the archive
+obligation
+obligation — fixture
+salience
+salience — fixture; may be negative
+adverse forecast
+forecast — fixture
+action exclusion
+exclude_route — fixture
+Table 15a. Effect kinds.
+Four diagnostic signs (how a Shell shows)
+Required trace and control
+premature translation
+An early substitution or polarity change with the original obligation still unmet; compared with an available supported continuation.
+forced placement
+Requested destination and actual result both kept; a result in the wrong perspective cannot satisfy the contract.
+new defensive structure
+The added attribution or restriction traced to the changed demand; ordinary resource or safety limits kept as separate explanations.
+residual fragmentation
+The same source material followed through correction and renewed demand; recurrence kept, on the same or another target.
+Table 15b. Diagnostic signs. Five kinds and four signs are different lists and must not be treated as one.
+Two control forms exist per cell in the archive (milestone C5): prevention of initiation, and active interruption, in which the first paid intermediate is kept and the rest cancelled without claiming the destination. Correction follows the original material and its scope; a local correction clears one target; clearance is never blanket. Missing resources, missing information, valid refusal and real danger are legitimate reasons for non-completion and are not Shells.
+11. What is not claimed, and what is open
+Not claimed by any release: unrestricted human meaning; a universal Shell detector; a derivation of developmental altitude; spontaneous institutions or goals; general learning; general cross-owner nesting; optimal scheduling; open-ended development; any optimization gain; any statement about people.
+Not claimed by the extension: that energy in a person follows the grade; that the conditioning ledger measures a subtype; any calibrated rate, unit or threshold.
+Open, source owed: the DCNH formulas against Gulenko's text; the Gulenko pages re-read; the direction of the internal plane; replenishment; the state-dependent statements of Model G.
+Open, kernel owed: every probe rerun against the sealed 5.2.1 pyref.
+Open, the author's: locking the Model G source; nine (or, with that lock, seven) Reinin pole names; whether the thesis of section 7.6 is adopted as a hypothesis; whether the extension is built; whether grade-v1 ever becomes a default.
+12. Glossary
+Term
+Meaning here
+accepting / producing
+bit a of a position; odd-numbered positions accept
+axis
+a position and its partner across value: {A1,A3}, {A2,A4}, {A5,A7}, {A6,A8}
+cell
+one route under one polarity; there are 32
+club
+NT, NF, ST or SF
+control
+a matched run with the defining step removed
+DCNH
+Dominant, Creative, Normalizing, Harmonizing: the four subtype cells, one per axis
+external / internal plane
+Model G positions G1–G4 = A{1,3,6,8}; G5–G8 = A{2,4,5,7}
+face
+a polarity of a route
+Fold
+the four single-function edges between perspectives
+frame
+a type as an affine map from positions to elements
+grade
+Model G energy grade of a position, 0 to 3
+load, tilt
+sum and difference of a quantity over the two poles of an axis
+polarity
+Accumulation or Expenditure
+pyref
+the author's sealed 5.2.1 reference kernel; not in the archive
+R21B
+the rebuild kernel in baseline/HLE_Rebuild_R21B; sealed for this build
+setting
+a content domain in which the cells are realized; two exist
+Super-Ego (map)
+flip of the value bit; the centre of the symmetry groups
+support seat
+A5, A7 under Accumulation; A6, A8 under Expenditure
+witness
+a saved raw world that shows a claimed result
+Table 16. Terms.
+13. Probe index
+Check
+What it establishes on the R21B kernel
+CL1
+the reindexing π, unique among 40,320
+CL2
+the three polarities equal strong, accepting, bold
+CL3
+blocks, grade pairing, grade bits
+CL4
+positivist label and the sign rule on 128 cells
+CL5
+positions of G3, G5, G8
+CL6–CL8
+H: order 32, extraspecial; ring-split table; G64 = H split by σ
+CL9
+benefit direction in the kernel label file
+CL10
+process pole
+QE1–QE3
+the four axes hold the four DCNH pairs in all types; Super-Ego central
+QE4
+B4 has order 384, 192 affine; CZ gives order 128
+QE5–QE6
+H as left and right quaternion multiplication; σ and CZ reverse products
+QE7–QE8
+sign patterns and parity; affine iff even
+QE9–QE10
+the grade law; one-axis disagreements with value and with dimensionality
+QE11
+the 24 units and the two cosets
+QE12
+load/tilt decomposition; invariant forms
+QE13
+the spine as a quarter-turn; four carriers
+QE14–QE15
+the 2+1 formulas; one plane each
+QE16
+dimensionality price against grade price, 2,048 route cases
+QE17
+energy and time spent equally at all 18 sites
+Table 17. closure_probes.py (10 of 10) and below_dcnh_probes.py (17 of 17). Run each from the source root with the path baseline/HLE_Rebuild_R21B.
+Sources. Build Specification v10; C7 Second-Setting Contract v1; C7 Architecture and Scope v1; Release-Candidate Reports v1 and v2 (all in the archive). Model G on the Model A Carrier v0.4 and The Ring-Split Group v0.1 (the author's notes), which cite V. Gulenko, 'Energy model G in Humanitarian socionics. What is it?' and School of Humanitarian Socionics, 'Model G. Energy. Table' (socioniks.net, accessed by the author's notes on 2026-09-26). A Unified Mathematical Architecture of Socionics (Verified Revision) §§13–17. Closure Ledger and Final-Build Plan v0.1.

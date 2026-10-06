@@ -1,0 +1,76 @@
+{
+  "schema": "hle-unified-u5-protocol-v1",
+  "frozen_before_implementation": true,
+  "date": "2026-09-21",
+  "scope": "deterministic development acceptance; no held-out release seeds",
+  "cases": {
+    "U5-01": "Assistance on one identified damaged tool -> contextual recall -> paid plan -> paid repair -> delivered and read outcome -> paid integration -> later paid plan and use. Same object identity, exact revisions and causal provenance throughout.",
+    "U5-02": "Only incident Fold edges; missing I-IT and WE-ITS primitives rejected; composition is charged through Model A cube paths; dimensionality remains separate.",
+    "U5-03": "All 16 TIMs receive identical initial history, inputs, and budget. Unlimited completion gives the same grounded result; equal limited work yields actual cost/progress differences."
+  },
+  "controls": [
+    "insufficient energy and time",
+    "partial resume, cancel and idempotence",
+    "hidden-world variants and different actor isolation",
+    "wrong target, context, time and unsupported offer",
+    "conflicting and truncated recall",
+    "unspecified source meanings",
+    "multiple contexts and linked cue reuse",
+    "stale own account and policy dependencies",
+    "forged checkpoint and audit tampering",
+    "retention ablation changes later choice",
+    "separate exact target, relation and historical scope",
+    "old entrusted-use prototype preserved"
+  ],
+  "policy": "Native finite property reconciliation and plan policy; no learned general competence, autonomous scheduler, curvature law, diagnosis or Shell-clearance claim.",
+  "routing": {
+    "support_accumulation": [
+      5,
+      7
+    ],
+    "support_expenditure": [
+      6,
+      8
+    ],
+    "price": "5 - fixed dimensionality",
+    "topology": "Model A transported cube adjacency",
+    "content": "one priced quantum per perspective edge",
+    "recall": "one unit per visited binding plus one per supplied evidence field, minimum one",
+    "default_plan": [
+      "fi",
+      "si"
+    ],
+    "default_integrate": [
+      "si",
+      "fi"
+    ]
+  },
+  "resource_conditions": {
+    "default_energy_and_time": 500,
+    "limited_concept_work": [
+      0,
+      1,
+      8
+    ],
+    "workshop_stock": 2,
+    "recall_limit": 32
+  },
+  "fresh_gates": [
+    "tests_u5",
+    "tests_u4",
+    "tests_u3",
+    "tests_u2",
+    "71 selected inherited regressions",
+    "additional inherited math, Crux, metabolism and entire entrusted-use integration modules with deduplication",
+    "U2/U3/U4/U5 raw witnesses",
+    "baseline hash preservation"
+  ],
+  "retention_scope": "exact actor, item identity, relation and context; revised condition on same tool, no cross-tool skill claim",
+  "open": [
+    "U6-U14",
+    "geometric curvature law",
+    "unspecified card meanings and card-to-Crux law",
+    "unrestricted complexity",
+    "R21C release"
+  ]
+}

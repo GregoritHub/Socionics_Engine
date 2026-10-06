@@ -1,0 +1,27 @@
+{
+  "version": "C3-source-transfer-v1",
+  "reason": "In the standard social panel the receiver's own limit is tighter than the offered constraint. Add cases where newly received source content is the binding limit and changes an existing receiver choice.",
+  "runtime_changes": false,
+  "routes": [
+    "Share",
+    "Coordinate",
+    "Educate"
+  ],
+  "polarities": [
+    "accumulation",
+    "expenditure"
+  ],
+  "types": 16,
+  "type_cases": 96,
+  "matched_pairs": 6,
+  "criteria": [
+    "Receiver's paid prior choice is four units",
+    "Source constraint reduces the new choice to one (Share/Coordinate) or two (Educate)",
+    "Receiver cap remains five; prior choice and source provenance remain recoverable",
+    "Expenditure produces actual receiver consumption; accumulation produces a participation proposal",
+    "Matched main semantic ablation changes later use at equal main work",
+    "Raw audit and exact restore pass for healthy witnesses"
+  ],
+  "performance_relation": "Additional transfer evidence. The predeclared fixed measurement panel and its source fixtures are unchanged.",
+  "control": "Preserve the receiver's own prior cap of five in the completed shared result while ignoring the received tighter constraint. The later answer stays four; records, usable output, assent and main work remain present."
+}

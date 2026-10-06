@@ -1,0 +1,46 @@
+{
+  "milestone": "R7",
+  "declared_before_acceptance_runs": true,
+  "law": "versioned contextual DAG proposal v1",
+  "resources": "one energy and time quantum per declared unit; structural assembly and traversal explicit",
+  "controls": [
+    "capability inclusion/exclusion from same learned prefix",
+    "same constituent in two contexts",
+    "contradictory parent assertion",
+    "child memory and composite revision",
+    "independent energy/time shortages",
+    "shared DAG and depth 72",
+    "scope-boundary and hidden-state changes",
+    "archive extraction and three hash seeds"
+  ],
+  "gates": [
+    {
+      "id": "Q01",
+      "criterion": "Versioned owned acyclic composition and exact lossless unfolding; historical references never resolve latest."
+    },
+    {
+      "id": "Q02",
+      "criterion": "Context selection, shared constituents and distinct roles preserve exact claims, owners and times."
+    },
+    {
+      "id": "Q03",
+      "criterion": "Paid access supplies real learned capacity to inherited Theorize, Apply and Embody on a held-out object."
+    },
+    {
+      "id": "Q04",
+      "criterion": "Declared cross-level claims can fail; factual agreement, freshness, organization identity, path and retained use remain separate."
+    },
+    {
+      "id": "Q05",
+      "criterion": "Changed children invalidate only affected contextual ancestors and tests; independent whole-journal comparison."
+    },
+    {
+      "id": "Q06",
+      "criterion": "Partial funding, competing revisions, duplicate commands, deep composition, replay and queued continuation."
+    },
+    {
+      "id": "Q07",
+      "criterion": "Preserve inherited tests and references; fresh extracted release, explicit hypothesis grade and unassessed general closure."
+    }
+  ]
+}

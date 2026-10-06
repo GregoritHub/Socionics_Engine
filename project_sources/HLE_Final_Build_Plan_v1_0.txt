@@ -1,0 +1,392 @@
+HLE Final Build Plan
+From the C7 second-setting source to Release 1.0, and to Release 1.1 — a batched work order for Astra
+Version 1.0 · 2026-10-06 · starts from HLE_Full_Crux_C7_Source_v2 (milestone C7 held, 6 of 7; 625 passing methods; source freeze v4) · companion: HLE Final Build: Companion Theory v1.0 · probes: closure_probes.py (10/10), below_dcnh_probes.py (17/17), both on the unmodified R21B kernel · the sealed 5.2.1 pyref was not available when this was written
+0. What this document is
+This is the work order for taking the HLE Full Crux engine from the state of the archive HLE_Full_Crux_C7_Source_v2 (milestone C7 held, progress 6 of 7) to a finished release. It is written for Astra, who receives it together with the source archive, the evidence archive, the companion paper HLE Final Build: Companion Theory, the Closure Ledger, and two probe files. Every term of theory used below is defined in the companion paper; section references of the form CT §n point there.
+What finished means. Two releases, in order. Release 1.0 is milestone C7 complete: every requirement of Build Specification v10 §9 satisfied for all 32 route-and-polarity cells in both content settings, with the Model G and axis layers present as read-only structure. Release 1.1 adds the energy and conditioning extension as a declared engineering hypothesis behind a switch. Release 1.1 needs the author's ruling before it starts (Phase 7). If no ruling is on file, stop after Release 1.0.
+How the batches are sized. [assumption] The author did not state Astra's capacity. Batches are sized from the record of earlier deliveries in the archive: the whole second setting (five modules, about 750 lines, plus tests and tools) was one delivery. Each batch here is smaller than that: at most three new or changed source modules, one test directory, one evaluation run and one short record. Each batch also names a split point, so a batch that proves too large can be stopped half-way without leaving the source in a broken state. If Astra's real capacity is different, merge or split along those points; do not reorder phases.
+Two things are both called C7. In the archive, C1–C7 are the seven build milestones. In the author's corpus, C1–C46 is a register of open theoretical items. This document always writes milestone C7 or register C7. Astra never closes a register item; only the author does.
+1. Standing rules
+These hold in every batch. They restate the practice already visible in the archive's records; none is new.
+The baseline kernel is sealed. Nothing under baseline/ is edited, moved or reformatted. hle_unified imports Model A from baseline/HLE_Rebuild_R21B/hle; new structure goes in new hle_unified modules. Inherited evidence archives are never rewritten.
+Python 3 and the standard library only. No floats, weights, rates or randomness in engine code. Integers and exact structures only. Seeds appear only in evaluation fixtures.
+Protocol before implementation. Each phase starts from a protocol file in contracts/ that states gates, panels, seeds, denominators and tolerances. It is hashed before the code it governs is written. Later amendments are separate files; the original stays.
+Freeze before evaluation. An evaluation counts only if it ran on a recorded source freeze and every executed-file hash matches. A run that overlaps a source change is preserved and not counted.
+Failures are kept. A failed test, a stalled run or a wrong expectation is recorded with its fix. Nothing failed or source-changed is relabelled a pass.
+Independent audit. Auditors reconstruct claims from committed objects, events and access receipts. They do not import the participant selector, the executor or the scheduler they audit.
+Controls must bite. A control removes the defining step at matched main cost against a fixed downstream question. It must change the downstream result and must be rejected by the ordinary auditor.
+Labels create nothing. A type label, a route name or a record count never manufactures competence, knowledge, consent or authority. Abilities are established in fixtures or acquired through paid work.
+Existing names keep their meaning. The native request called integrate realizes IT → I, which is Embody. The Crux route Integrate is ITS → ITS. No inherited API or record changes meaning.
+Claims stay inside the declared domain. The workflow domain has at most eight tasks, eight inputs, two participants, unit-duration serial scheduling and local slots 0–1,000. Nothing proved there is reported as general.
+Status tags. Every statement in a report carries one of: source_defined, derived, probe, bridge, interpretive, open, machine-checked. Machine-checked means checked on the R21B kernel; say so.
+Stop and report to the author, without working around it, when: a gate fails twice after a correction; a change would touch baseline/ or alter an inherited contract; a ruling listed in section 10 is needed; or a result contradicts a statement in the companion paper. In the last case report the contradiction; do not tune toward the paper.
+Every batch ends with a handoff record in docs/, named FB<batch>_Record.md: what changed, how, what becomes possible, commands run with counts, failures and fixes, the source-freeze identifier, and the next batch's entry state. The three questions are the specification's own standard (CT §9.3).
+2. The road in one table
+Phase
+Work
+Specification gate
+Batches
+0
+Intake, baseline reproduction, final protocol
+§9.12 regression baseline
+0.1, 0.2
+1
+Model G layer and axis layer, read-only
+none changed; register C1, C2 code
+1.1, 1.2
+2
+Automatic selection in the workflow domain
+§9.10
+2.1 – 2.4
+3
+Shell coverage in the workflow domain
+§9.9
+3.1 – 3.3
+4
+Composition, nesting and polarity faces in the workflow domain
+§9.5, §9.6, §9.11
+4.1, 4.2
+5
+Sustained populations on workflow content
+milestone C7 deliverable
+5.1, 5.2
+6
+Joint §9 ledger, freeze, measurement, package: Release 1.0
+all of §9
+6.1 – 6.3
+7
+Energy and conditioning extension: Release 1.1 (ruling required)
+§9.12, declared change
+7.1 – 7.4
+Table 1. Twenty-one batches. Phases 2 to 5 exist because the second-setting contract says, in its last paragraph, that automatic selection, Shell application and population scheduling are inherited evidence for the original content language and are not credited to workflow content.
+3. Phase 0 — Intake
+No engine source changes in this phase.
+Batch 0.1 — Intake and reproduction
+Goal. Establish that the source Astra holds is the delivered source and that it still does what the release report says.
+Read first. README.md; docs/HLE_Full_Crux_C7_Release_Candidate_Report_v2.md; docs/C7_Second_Setting_Contract_v1.md; Build Specification v10 §§2, 4, 9, 10; CT §§1–3 and §9.
+Do.
+Unpack the source archive, and the evidence archive beside it. Check every file against C7_Second_Setting_Delivered_Source_Manifest_v1.json and source freeze v4.
+From the source root run the six commands of the release report (listed below) into fresh output directories.
+Run the two supplied probes against the sealed kernel: python3 closure_probes.py baseline/HLE_Rebuild_R21B and python3 below_dcnh_probes.py baseline/HLE_Rebuild_R21B. The second takes a few minutes.
+Record the counts obtained beside the counts expected.
+Do not.
+Do not repair anything. A mismatch here is a finding for the author.
+Exit gate.
+File hashes match the delivered manifest.
+625 distinct passing methods (602 inherited, 23 workflow); 512 of 512 native workflow cases; 512 ordinary reconstructions pass and 32 controls are rejected.
+Inactive-history ratio within 3.0×; unchanged-native ratio within 2.0×.
+closure_probes.py 10 of 10; below_dcnh_probes.py 17 of 17; kernel file hashes printed by the probes recorded.
+If the batch is too large. Stop after the test and verify commands; run the two measurement commands in a second sitting.
+python tools/test_c6.py new-workflow-tests tests_c7_workflow
+python tools/evaluate_c7_settings.py new-setting-matrix
+python tools/verify_c7_settings.py new-setting-matrix
+python tools/regress_c7_parallel.py new-regression
+python tools/measure_c7_settings.py new-workflow-costs
+python tools/measure_c6.py new-native-costs
+
+Batch 0.2 — The final protocol
+Goal. Declare, before any code, what Release 1.0 must show.
+Read first. contracts/C7_Protocol_v1.json, C7_Second_Setting_Protocol_v1.json, C6_Protocol_v1.json, C5_Protocol_v1.json, Efficiency_Acceptance_v1.json; Build Specification v10 §§8.1, 9.
+Do.
+Write contracts/C7_Final_Protocol_v1.json. For each of §9.1–§9.12 state: the panel, its denominator (cells × types × settings), the seeds, the control, the auditor that checks it, and the pass condition. Use the denominators given in Phases 2–5 below.
+State the tolerances carried forward: 3.0× inactive-history, 2.0× unchanged-native. State the workflow domain bounds verbatim.
+State what will not be claimed (CT §11).
+Hash the protocol; record the hash in contracts/Contract_Manifest.json by the archive's existing convention.
+Open docs/FB_Job_Register.md listing every batch as a job. Leave the D-series column empty: the author assigns those numbers.
+Do not.
+Do not set a tolerance after seeing a measurement.
+Do not number jobs in the D-series or the C-series.
+Exit gate.
+Protocol file present and hashed; register opened; no source file changed (manifest still matches).
+If the batch is too large. The protocol can be written §9 item by item; it is complete only when all twelve are stated.
+4. Phase 1 — Model G and axes (read-only)
+Two new modules that add structure and change no behaviour. They are first because later phases report against them and because they are regression-neutral by construction: no existing file is edited.
+Batch 1.1 — The Model G layer
+Goal. Give the engine Model G's positions, names, blocks, polarities, grades and signs as derived fields over the sealed Model A. This retires the two unresolved returns behind register C1 and C2.
+Read first. CT §6 (complete); baseline/HLE_Rebuild_R21B/hle/model_a.py; closure_probes.py checks CL1–CL5.
+Do.
+Add contracts/sources/Model_G_Table_v1.json: the sixteen signed stacks and labels of CT Table 10, the position attributes of CT Table 9, the two citations, and the flag transcribed_not_reread: true.
+Add hle_unified/model_g.py exposing, as pure functions of type and position: the reindexing (G position ↔ A position), G name, block, the three polarities, grade (0–3) with its name, sign, block partner, grade partner, and the spine. Implement each from the formula in CT §6, not from the table.
+Add tests_g/test_model_g.py: the formulas reproduce all 128 table cells and all 128 signs; the reindexing is the only one of 40,320 that does; grade bits equal the two formulas of CT §6.5; the positivist label equals kernel character (1,1,1,0).
+Do not.
+Do not edit model_a.py or any inherited module.
+Do not use grade or sign anywhere in execution, pricing or selection. They are read-only until Phase 7.
+Exit gate.
+New tests pass; all 625 inherited methods pass unchanged; the delivered-source manifest still matches for every pre-existing file.
+If the batch is too large. Table file and module first; the uniqueness test over 40,320 permutations can follow.
+Batch 1.2 — The axis layer
+Goal. Give the engine the four Super-Ego axes, the DCNH cell on each axis for each type, the 2+1 subtype formulas as positions, and the load/tilt decomposition of an integer field on positions.
+Read first. CT §7 (complete); below_dcnh_probes.py checks QE1, QE7–QE10, QE12, QE14, QE15.
+Do.
+Add hle_unified/axes.py: the axes {A1,A3}, {A2,A4}, {A5,A7}, {A6,A8}; for a type, the DCNH cell on each axis (CT §7.2 rule and Table 11); the three positions of each 2+1 formula and its plane; load(field) and tilt(field) for any mapping position → integer; the sign vector and parity of a two-valued field.
+Add tests_g/test_axes.py: Table 11 is reproduced for all sixteen types; every formula lies in one plane as CT §7.4 states; valued, strong, contact have even parity and the grade's high bit has odd parity; grade = 2·[valued if accepting else strong] + [mental] on all eight positions; for any integer field, load and tilt together recover the field exactly.
+Do not.
+Do not implement the quaternion reading or the group of order 128 in the engine. They are theory (CT §5 and §7.6) and are checked by the supplied probe, not shipped.
+Do not attach a subtype to any participant. Nothing in Release 1.0 has a subtype.
+Exit gate.
+As for 1.1.
+If the batch is too large. Axes and DCNH cells first; load, tilt and parity second.
+5. Phase 2 — Automatic selection on workflow content (§9.10)
+The gap. §9.10 requires at least one automatic witness per cell: a participant chooses the movement from its own demand, content and capacities, with no route or recipe in the request. In the archive, SelectionRequest and selection_policy.proposals do this for the original content language. WorkflowRequest carries its recipe, so the 512 workflow cases are scripted coverage. This phase gives workflow content the same paid selection.
+Shape of the work. A request type that names an outcome demand and accessible content but no route; a candidate generator that proposes applicable workflow recipes with reasons and Model A cost estimates; the existing paid comparison and admission; the native workflow movement as child; a later consumer. Mirror the C6 design; read selection_records.py, selection_policy.py, selection_execution.py, selection_audit.py and the C6 report before writing anything.
+Batch 2.1 — Workflow selection: the four self-routes
+Goal. Automatic witnesses for Contemplate, Act, Commune and Integrate, both faces: 8 cells.
+Read first. CT §§3, 9.1–9.4; the C6 modules named above; workflow_content.py, workflow_execution.py, workflow_records.py; docs/HLE_Full_Crux_C6_Report_v1.md.
+Do.
+Write contracts/C7_Workflow_Selection_Protocol_v1.json (panel: 32 cells; this batch 8) and hash it.
+Add hle_unified/workflow_selection_records.py: a request record with actor, context, demand and accessible references; no route, face or recipe field.
+Add hle_unified/workflow_selection_policy.py: candidate rows for the eight self-route recipes, each with the content condition that makes it applicable, the reason, and the cost estimate from the participant's own type frame. Candidates come only from content the actor has paid to read.
+Extend WorkflowEngine (or a subclass, if that keeps the inherited checkpoint schema untouched) so the selection launches the chosen WorkflowRequest as a native child. Comparison, admission and realized destination stay separate records, as in C6.
+Tests: for each of the 8 cells one automatic witness whose output a later paid query consumes; one choice-withholding control per cell that keeps comparison spending, has no native child and fails the ordinary choice contract.
+Do not.
+Do not pass an evaluator label, hidden world state or the intended cell into the selector.
+Do not make a self-route a mandatory waiting state or impose an order on cells.
+Exit gate.
+8 automatic witnesses and 8 controls on the IEE frame; inherited 625 methods unchanged; old SelectionEngine and workflow checkpoints still restore.
+If the batch is too large. Records and the generator for Contemplate and Act first; Commune and Integrate need the two-member group and can follow.
+Batch 2.2 — Workflow selection: crossings that end in I, IT or ITS for one actor
+Goal. Automatic witnesses for Express, Embody, Theorize, Understand, Apply and Organize, both faces: 12 cells.
+Read first. CT §3.3 (the Fold: which crossings are single-function edges and which are composite); second-setting contract rows for these six routes.
+Do.
+Extend the generator with the twelve recipes. A composite crossing (I–IT, WE–ITS) proposes its two Fold steps with the intermediate retained; a claimed single-step I–IT crossing must be rejected.
+Witness and control per cell as in 2.1. Apply and Express expenditure perform real paid material work; the selector may not count a hypothetical completion as physical work.
+Do not.
+Do not let a selected Apply bypass custody, stock or revision checks.
+Exit gate.
+20 of 32 cells now have automatic witnesses and controls; inherited methods unchanged.
+If the batch is too large. The six accumulation faces, then the six expenditure faces.
+Batch 2.3 — Workflow selection: the social crossings
+Goal. Automatic witnesses for Share, Coordinate, Identify, Mobilize, Institutionalize and Educate, both faces: the last 12 cells.
+Read first. CT §9.2 (WE obligations); second-setting contract paragraph on shared content: real scoped group, offer with owned stance, delivery, paid reading, receiver-computed answer, exact source/offer/reply triple.
+Do.
+Extend the generator. A social candidate is applicable only when a real scoped group and the needed exchange exist or can be started by the actor's own paid offer.
+Witness and control per cell. The receiver's uptake is the receiver's own paid work; assent, understanding and practiced skill stay three facts.
+Do not.
+Do not let two members commit a non-member. Do not count one delivered event twice. Do not let teaching confer practiced skill.
+Exit gate.
+32 of 32 cells have an automatic witness with a later consumer and a matched withholding control.
+If the batch is too large. Share, Coordinate, Identify first; Mobilize, Institutionalize, Educate (which touch authority and allowances) second.
+Batch 2.4 — Type matrix, responsiveness and the selection auditor
+Goal. Close §9.10 for workflow content.
+Read first. selection_audit.py; tools/evaluate_c6.py; C6 report sections on the seven responsiveness worlds.
+Do.
+Add hle_unified/workflow_selection_audit.py: reconstruct paid access, candidate joins, admission and the native child from committed records, without importing the selector or executor.
+Add tools/evaluate_c7_workflow_selection.py: all 32 cells × 16 type frames = 512 automatic cases, each saved as a raw world.
+Responsiveness witnesses, at least: relevant new information delivered and read changes the choice; a capacity acquired by practice changes the choice on a held-out target; a hidden world change that was not delivered changes nothing before delivery.
+Freeze the source; run the panel and the auditor on the freeze.
+Do not.
+Do not count a scripted sweep as automatic selection; keep the 512 scripted cases as the separate coverage test they are.
+Exit gate.
+512 of 512 automatic cases pass the independent auditor; 32 controls rejected; three responsiveness witnesses and their matched non-responsive controls saved; record written.
+If the batch is too large. The auditor and a 32-case IEE panel first; the 16-type matrix second.
+6. Phase 3 — Shell coverage on workflow content (§9.9)
+The gap. §9.9 requires, for each of the 32 cells, an applicable deformation-and-control comparison with the effect and the opportunity stated, every supported effect kind exercised across the panel, each operationalized diagnostic sign exercised, and separate controls for correction, recurrence and unsupported clearance. C5 supplies this for the original content. WorkflowEngine inherits from CruxShellEngine, but the contract does not credit workflow content with it. The first act of this phase is to find out, by test, what the inherited Shell gate already does to a WorkflowRequest.
+Batch 3.1 — Prevention of initiation
+Goal. For every cell, a Shell that prevents a workflow movement from starting, with its control.
+Read first. CT §10 (Shell: five effect kinds, four signs, and why they are different lists); shell_records.py, shell_policy.py, crux_shell_execution.py, crux_shell_audit.py; docs/HLE_Full_Crux_C5_Report_v1.md.
+Do.
+Write contracts/C7_Workflow_Shell_Protocol_v1.json and hash it.
+Write a diagnostic test that applies each of the five effect kinds to one WorkflowRequest and records what the inherited gate does. Keep the result, whatever it is.
+Where the gate does not apply or applies wrongly, extend it for workflow recipes: the Shell record keeps intended destination, target, projecting owner, carrier, bearer of consequences and the demand.
+32 prevention witnesses with matched undeformed controls, each followed by paid correction and an actual native consumer.
+Do not.
+A Shell never adds a route and never makes an unfinished destination count as finished.
+Missing resources, missing information, valid refusal and real danger are not Shells; keep them as separate explanations.
+Exit gate.
+32 prevention/control pairs pass a Shell auditor that does not import the executor; inherited C5 worlds still pass.
+If the batch is too large. The diagnostic test and the 8 self-route cells first.
+Batch 3.2 — Active interruption
+Goal. For every cell, a Shell that interrupts a movement already under way.
+Read first. C5 completion record in Build Specification v10: the active witness retains the first paid intermediate and cancels the remaining work and commit without claiming the destination; where a recipe has one semantic step, the boundary is before retention or material commitment.
+Do.
+32 interruption witnesses with controls. Spending already made stays spent; the first intermediate stays in history; one-attempt allowances are not restored by the interruption.
+Do not.
+Do not relabel a prevention witness as an interruption.
+Exit gate.
+32 interruption/control pairs pass the auditor; exact continuation from a checkpoint taken at the interruption reproduces the same paid progression.
+If the batch is too large. Single-step recipes and multi-step recipes are natural halves.
+Batch 3.3 — Effects, signs, correction and recurrence
+Goal. Finish §9.9 for workflow content.
+Read first. CT §10; Build Specification v10 §7 table of four concerns and the paragraph on correction.
+Do.
+Across the 64 witnesses of 3.1 and 3.2, show each of the five effect kinds at least once in workflow content. State which are generated from an evidence rule (in the archive, only approval) and which are fixtures.
+Operationalize in workflow content each diagnostic sign the archive already operationalizes; list any that are not operationalized as not operationalized.
+Controls for: scoped correction that follows the original material; recurrence on the same and on a changed target after renewed demand; an unsupported clearance claim that must be refused.
+Freeze; run; audit.
+Do not.
+No blanket clearance. A local correction clears one target.
+Exit gate.
+Every effect kind and every operationalized sign appears in the workflow ledger column; correction, recurrence and refused-clearance controls saved; record written.
+If the batch is too large. Effect-kind coverage first; correction and recurrence second.
+7. Phase 4 — Composition, nesting and faces on workflow content (§9.5, §9.6, §9.11)
+The gap. §9.5 asks for the five connected families run from generated intermediate results; §9.6 for matched starts where the two faces differ; §9.11 for a parent's result reconstructed from child evidence. In workflow content the release report records two family witnesses only (generated rule → teaching → governed Apply; generated models → Integrate → Apply).
+Batch 4.1 — The five families in workflow content
+Goal. Run each family of Build Specification v10 §6 from generated results in the workflow setting.
+Read first. Build Specification v10 §6; crux_composition_* modules; docs/HLE_Full_Crux_C4_Report_v1.md.
+Do.
+Theorize → Apply → Embody: a runbook model yields a real maintenance trial whose observed result changes a retained response.
+Share → Commune → Identify: a personal contribution changes a shared commitment, which changes an owned stance.
+Coordinate → Mobilize: observed activity supports shared participation and then a paid care task.
+Institutionalize → Educate, and Organize → Integrate → Apply: confirm the two existing witnesses satisfy the family contract as stated, or extend them.
+For each family: each step consumes the exact previous result; mixed polarities are kept; an inherited conflict survives the return to the origin perspective; one ablation per family removes an intermediate and the end result changes.
+Do not.
+Do not compress a family into one endpoint record. Equal endpoints do not license substituting one realized path for another.
+Exit gate.
+Five family worlds and five ablations pass the composition auditor.
+If the batch is too large. The three new families first; the two confirmations second.
+Batch 4.2 — Nested accountability and the two faces
+Goal. Close §9.11 and §9.6 for workflow content.
+Read first. nesting.py; C4 report on the bounded parent–child contract; second-setting contract table (both faces of every route).
+Do.
+One bounded parent in workflow content whose claimed result is reconstructed from child results; then the same with a failed child, with a membership change, and with a withdrawn participant. No operation is charged twice and no member gains competence from a summary.
+For each of the 16 routes, a matched start run under both faces, with the difference in responsibility shown in content, interaction, commitment or usable output. Where the faces legitimately converge on the same final answer, say so and do not force a difference.
+Do not.
+General cross-owner nesting is outside this build. Do not claim it.
+Exit gate.
+Four nesting worlds and 16 face comparisons audited; record written.
+If the batch is too large. Nesting first; the 16 face comparisons second.
+8. Phase 5 — Sustained populations on workflow content
+The gap. Population accepts only SelectionRequest and so has only ever run the original content; its six diagnostic worlds exercised two cells. Milestone C7's deliverable is mixed-type continued runs.
+Batch 5.1 — Population over workflow selection
+Goal. Let the fair scheduler run participants whose demands are served by workflow selection.
+Read first. population.py, population_audit.py, docs/C7_Architecture_and_Scope_v1.md, contracts/C7_Stop_Policy_v2.json.
+Do.
+Extend the scheduler to accept the Phase 2 request type alongside SelectionRequest. It still chooses only whose paid turn runs; it supplies no route, result, skill, truth or resource.
+New checkpoint schema version; the old hle-c7-population-v2 checkpoints still restore with their own engine.
+Extend population_audit to the new records, still without importing the scheduler, the engine or the selector.
+Tests mirroring the ten existing C7 tests: exact interrupted continuation, fairness, foreign demand rejected, finite horizon, paid material feedback, exhaustion, repetition stop, fabricated audit summary rejected.
+Do not.
+No replenishment, no new goal formation, no growing population. The repetition stop is a stopping policy and proves nothing about truth or exhaustion.
+Exit gate.
+New tests pass; old population tests and checkpoints unchanged.
+If the batch is too large. Scheduler and schema first; auditor second.
+Batch 5.2 — Sustained panel and costs
+Goal. Run and measure mixed-type populations on workflow content.
+Read first. Release-candidate report v1 (how the six diagnostic worlds were reported); Build Specification v10 §8.1.
+Do.
+Panel declared in the protocol of 0.2: seeds 17, 43, 89; two actors of different types (the domain bound); 24 episodes per actor; default repetition stop, and one diagnostic run with the stop disabled.
+Report which of the 32 cells each population actually exercised. Report repeated outputs as repeated outputs.
+Measure with isolated workers: fixed active work against 0, 100 and 1,000 inactive records; task count 2, 4, 8; cold restoration; raw audit. Compare with the declared tolerances.
+Do not.
+Do not report repeated use of one model as new capacities. Do not claim route-wide sustained development unless the coverage table shows it.
+Exit gate.
+All worlds reconstruct under the independent population auditor; ratios within tolerance or the failure reported; coverage table written.
+If the batch is too large. The three default-stop worlds first; diagnostics and measurement second.
+9. Phase 6 — Joint assessment and Release 1.0
+Batch 6.1 — The joint §9 ledger
+Goal. One 32-row ledger in which every §9 column is filled from evidence, for both settings.
+Read first. C7_Second_Setting_Ledger_v1.json, C7_Progress_Ledger_v1.json, tools/evaluate_c7_settings.py.
+Do.
+Add tools/evaluate_c7_final.py building C7_Final_Ledger_v1.json. Per cell and per setting: implemented semantics; what changed; how; downstream consequence; automatic selection; controls; Shell; composition and nesting where applicable; costs; remaining limits. Each entry is a reference to a saved raw world with its hash, not a sentence.
+full_release_complete is true for a cell only if every applicable §9 item passes in both settings. A cell that fails stays false and is listed with the missing item.
+Do not.
+A module count, a percentage or a long run never closes a cell.
+Exit gate.
+Ledger built from evidence only; a verifier that reads the saved worlds, and not the builder's output, agrees with it on all 32 rows.
+If the batch is too large. Ledger builder first; independent verifier second.
+Batch 6.2 — Freeze, regression and measurement
+Goal. The evidence run for the release decision.
+Read first. C7_Second_Setting_Source_Freeze_v4.json; tools/regress_c7_parallel.py; tools/verify_c7_settings.py.
+Do.
+Source freeze v5 over every source, contract and tool file.
+On the freeze: all inherited methods; all new methods; the 512 scripted and 512 automatic workflow cases; Shell, family, nesting, face and population panels; all independent verifiers; both measurement protocols.
+Rerun closure_probes.py and below_dcnh_probes.py; the kernel hashes must equal those of 0.1.
+If the author has supplied the sealed 5.2.1 pyref by now, rerun the two probes against it and record the result separately. If not, record that the rerun is owed.
+Do not.
+If any source file changes after the freeze, the run does not count. Freeze again and rerun.
+Exit gate.
+Every executed-file hash equals the freeze; all panels pass or each failure is recorded against its cell.
+If the batch is too large. Tests and panels in one sitting; measurements in another.
+Batch 6.3 — Package and decide
+Goal. Release 1.0, or a held release with reasons.
+Read first. tools/build_c7_delivery_v2.py, tools/package_c7.py, tools/verify_c7_delivery.py, the inspector verifiers.
+Do.
+Build the evidence archive, the standalone inspector (three-question view per cell with links), and HLE_Full_Crux_C7_Release_Report_v3.md.
+Update the specification to v11: status paragraph and a milestone C7 completion record in the style of the C5 and C6 records.
+The decision: if all 32 rows are complete, declare milestone C7 complete, progress 7 of 7. If not, hold, and list the open rows. Either is an acceptable outcome of this batch.
+Do not.
+Do not claim pixel rendering of the inspector verified unless it was. Do not claim an optimization gain.
+Exit gate.
+Delivery verifies from a clean unpack with the reproduce commands in the report.
+If the batch is too large. Archive and report first; inspector second.
+10. Phase 7 — Energy and conditioning extension, Release 1.1
+Entry condition. A written ruling from the author that the extension is to be built (ruling R5 of the Closure Ledger). Without it, the build ends at 6.3.
+What it is. Today every expenditure record in the engine spends the same amount of energy and of time, the raw auditor requires the two deltas to be equal, and route prices are 5 minus dimensionality. The theory (CT §6.5, §7.5, §8) says information and energy rank the eight positions differently on exactly one axis each way. The extension lets the wallet's two currencies diverge accordingly and adds a conditioning ledger as a view over history. It is an engineering hypothesis in the specification's sense. It is off by default and changes nothing in Release 1.0 behaviour when off.
+Batch 7.1 — Contract and predictions
+Goal. Declare the change prospectively, as §9.12 requires.
+Read first. CT §8 (complete); hle_unified/cognitive_routes.py, cognitive_audit.py, operations.py, crux_execution.py, operation_audit.py; contracts/Efficiency_Acceptance_v1.json.
+Do.
+Read how a job stores required work, per-step charges and partial payment, and where energy and time are debited. Write down every site that assumes the two are equal.
+Write contracts/Energy_Contract_v1.md from CT §8.2, fixing the one open detail there (the integer rule for charging a step's energy under partial payment) against what the code actually does.
+Write contracts/Energy_Protocol_v1.json with the three predictions of CT §8.4 and their pass conditions, the matched panel, and the statement that no claim of realism is made. Hash both.
+Do not.
+No engine code in this batch.
+Exit gate.
+Contract and protocol hashed; list of equal-delta sites complete (check it by search for the two currency names across hle_unified).
+If the batch is too large. The reading and the site list are a sitting on their own.
+Batch 7.2 — Two-ledger pricing behind a switch
+Goal. Implement resource_model with values legacy-r4 (default) and grade-v1.
+Read first. Energy_Contract_v1; model_g.py from batch 1.1.
+Do.
+The model is fixed when a world is created, stored in every checkpoint, and cannot change during a world's life.
+Under grade-v1: the path, support seat and time charges of every Model A step are computed exactly as now; the energy charge of a step into a position is 4 minus that position's grade. Work that is not Model A processing charges energy equal to time, as now.
+Version the auditors: for a legacy-r4 world the existing checks run byte-for-byte as before; for a grade-v1 world the auditor recomputes both charges independently from the type frame.
+Tests: a legacy world is unchanged in every record; the two models give identical paths and time charges; energy charges equal the table of CT §8.2; exhaustion of either currency stops work with spending preserved; exact continuation under grade-v1.
+Do not.
+Do not change path selection. Do not edit baseline/. Do not change the default.
+Exit gate.
+All Release 1.0 methods pass with the default; new tests pass; a legacy world saved before this batch restores and audits identically.
+If the batch is too large. Pricing and wallet first; auditor versioning second. Do not stop between them with the default path altered.
+Batch 7.3 — The conditioning ledger
+Goal. Make functional conditioning observable without giving it any force.
+Read first. CT §7.3–7.5 and §8.3; axes.py from batch 1.2.
+Do.
+Add an auditor-side function that, from an actor's committed paid Model A steps alone, returns eight integer counts by element; from those, the four axis loads, the four axis tilts, and for each of D, C, N, H the integer sum over its three formula elements.
+Report ties as ties. Report the reading as 'the cell with the greatest load', never as the actor's subtype.
+Tests: the counts are reproduced from raw records without calling the engine; two histories that differ in one step differ in exactly one count.
+Do not.
+The ledger stores nothing in the world and feeds nothing back: no price, selection or Shell rule may read it. Any such use is a new contract and needs a new ruling.
+Exit gate.
+Ledger reproducible from raw records for every saved world of Phase 5; no engine record changed.
+If the batch is too large. Counts first; loads, tilts and formula sums second.
+Batch 7.4 — Evaluation and decision
+Goal. Test the three predictions and hand the author a decision.
+Read first. Energy_Protocol_v1.
+Do.
+Run the matched panel under both models on a new freeze: the 512 automatic workflow cases with ample wallets, and the Phase 5 populations with ample and with tight wallets.
+Report prediction by prediction: held, failed, or not testable, with the worlds.
+Report the conditioning ledger for the populations as a table and nothing more.
+Write HLE_Energy_Extension_Report_v1.md and package as Release 1.1 candidate. The default stays legacy-r4 unless the author rules otherwise.
+Do not.
+Do not tune prices after seeing results. A failed prediction is the result.
+Exit gate.
+Report delivered with every claim tagged; legacy behaviour verified unchanged on the same freeze.
+If the batch is too large. Ample-wallet panel first; tight-wallet panel second.
+11. Points that need the author
+When
+Question
+If no answer
+Before 1.1
+Is the published Model G article and table locked as a project source? (Closure Ledger R1, R2)
+Proceed; the table file carries transcribed_not_reread. The module is read-only either way.
+Before 0.2 closes
+D-series numbers for the jobs.
+Leave the column empty.
+Any time
+The sealed 5.2.1 pyref with its probes.
+Record every pyref rerun as owed. Release 1.0 does not wait on it.
+Before 7.1
+Is the extension to be built? (R5)
+Stop after 6.3.
+After 7.4
+Does grade-v1 become the default?
+It does not.
+On any contradiction
+A run contradicts the companion paper.
+Stop, report, do not tune.
+Table 2. Rulings. Nothing else in the plan waits on the author.
+12. What Astra hands back
+Per batch: the record FB<batch>_Record.md, the changed source, the tests, the raw evidence with hashes.
+At 6.3: Release 1.0 source archive, evidence archive, inspector, release report v3, specification v11, the final ledger, and the job register.
+At 7.4, if reached: the extension report, the two contracts, the Release 1.1 candidate.
+At every stage: the list of things not claimed (CT §11), kept current.

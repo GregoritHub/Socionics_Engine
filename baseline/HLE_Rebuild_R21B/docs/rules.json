@@ -1,0 +1,941 @@
+{
+  "version": "R10-rules-v1",
+  "authority_order": [
+    "user clarifications as recorded in supplied foundation",
+    "governing source with original claim grade",
+    "explicit engineering choices"
+  ],
+  "sources": {
+    "UMA": "reference/originals/02-A_Unified_Mathematical_Architecture_of_Socionics_Verified_Revision.docx",
+    "MANUAL": "reference/originals/06-Fools_Memory_Path_Manual-1-.docx",
+    "SHELL": "reference/originals/07-Unified_Shell_Geometry_and_Developmental_Dynamics_Readable_Edition.docx",
+    "CRUX": "reference/originals/10-The_Crux_v6_Readable_Examined_Edition.docx",
+    "IDEA": "reference/originals/04-Canon_of_Permanent_Truth_IDEA_v2_1_Corrected.pdf",
+    "DENSE": "reference/originals/05-Dense_Consciousness_Developed_Edition_v6_0.docx",
+    "FOUNDATION": "reference/originals/08-HLE_New_Build_Foundation_v1.md",
+    "ROADMAP": "reference/originals/09-HLE_New_Build_Roadmap_v1.md",
+    "ARCHIVE": "reference/originals/HolonicLivingEngine5_2_1_canon.zip"
+  },
+  "rules": [
+    {
+      "id": "M01",
+      "status": "source-defined",
+      "source_grade": "derived conditional mathematics",
+      "source": "UMA",
+      "locator": "Parts I-III; source mathematics uses exact GF(2)",
+      "statement": "Exact finite binary linear and affine algebra; compose means self after other.",
+      "implementation": "hle/gf2.py"
+    },
+    {
+      "id": "M02",
+      "status": "source-defined",
+      "source_grade": "derived coordinate atlas and fields",
+      "source": "UMA",
+      "locator": "\u00a7\u00a72-3; P0054-P0155",
+      "statement": "Position and IE spaces are separate GF(2)^3 atlases; dimension and strength follow the stated formulas.",
+      "implementation": "hle/model_a.py:POSITION,ELEMENT,fields"
+    },
+    {
+      "id": "M03",
+      "status": "source-defined",
+      "source_grade": "imported canonical data, retained from the supplied archive",
+      "source": "ARCHIVE",
+      "locator": "clean/pyref/core.py:DEFINITIVE_STACKS; UMA \u00a718 P0417-P0420 confirms the IEE example",
+      "statement": "The 16 named ego-pair anchors use the old table as input. Exhaustive agreement is not independent empirical confirmation of that table.",
+      "implementation": "hle/model_a.py:EGO; tests/stack_fixture.json"
+    },
+    {
+      "id": "M04",
+      "status": "source-defined",
+      "source_grade": "derived under canonical stack inputs",
+      "source": "UMA",
+      "locator": "\u00a74; P0156-P0182",
+      "statement": "f(a,v,r)=l+a*t+(v XOR r)*S+r*O; eight origins and two lawful orientations give sixteen frames.",
+      "implementation": "hle/model_a.py:frame,stack"
+    },
+    {
+      "id": "M05",
+      "status": "source-defined",
+      "source_grade": "derived adjacency, not an actual transition policy",
+      "source": "UMA",
+      "locator": "\u00a718 P0407-P0422; \u00a724 P0535",
+      "statement": "Transported cube adjacency and shortest paths; Ti to Si for IEE requires three primitive edges. No shortest-path result prescribes recall.",
+      "implementation": "hle/model_a.py:neighbors,distance,shortest_paths"
+    },
+    {
+      "id": "M06",
+      "status": "source-defined",
+      "source_grade": "derived atlas and imported dichotomy names",
+      "source": "UMA",
+      "locator": "\u00a7\u00a75-6 P0183-P0237",
+      "statement": "Jungian coordinates and 15 nonzero binary characters; verbal pole labels beyond the explicit coordinates are not inferred.",
+      "implementation": "hle/model_a.py:jungian,REININ,character,club"
+    },
+    {
+      "id": "M07",
+      "status": "source-defined",
+      "source_grade": "derived structural frame action",
+      "source": "UMA",
+      "locator": "\u00a79 P0273-P0290; ARCHIVE clean/metabolism/exchange.py:landing_position",
+      "statement": "Sixteen relations act on frames. Source-to-receiver seat transfer uses the inverse map and preserves the information element. Names of asymmetric human relations are not elected in this core.",
+      "implementation": "hle/relations.py:relation,apply_relation,landing_position"
+    },
+    {
+      "id": "M08",
+      "status": "source-defined",
+      "source_grade": "source-defined permutation and derived finite group",
+      "source": "UMA",
+      "locator": "\u00a710 P0291-P0304",
+      "statement": "Estafette R(a,v,r)=(r,v,1 XOR a); relation extension has 64 elements. Static permutation is not a clock or energy law.",
+      "implementation": "hle/relations.py:ESTAFETTE,extended_group"
+    },
+    {
+      "id": "C01",
+      "status": "source-defined",
+      "source_grade": "imported perspectives; conventional bit coding",
+      "source": "CRUX",
+      "locator": "\u00a7\u00a73-4 P0043-P0099; SHELL \u00a73 P0074-P0089",
+      "statement": "I=00, IT=01, WE=10, ITS=11. Perspective labels, not array position in another source, identify the coordinate.",
+      "implementation": "hle/crux.py:Perspective,CODE"
+    },
+    {
+      "id": "C02",
+      "status": "source-defined",
+      "source_grade": "derived pair groupoid; conventional route names",
+      "source": "CRUX",
+      "locator": "\u00a7\u00a75-6 P0100-P0165",
+      "statement": "Origin-by-destination route table; composable routes have matching endpoints; displacement composes by XOR. Route.then is temporal order.",
+      "implementation": "hle/crux.py:Route,ROUTE_NAMES"
+    },
+    {
+      "id": "C03",
+      "status": "source-defined",
+      "source_grade": "derived count; conventional polarity labels and bit layout",
+      "source": "CRUX",
+      "locator": "\u00a79 P0209-P0230; SHELL \u00a72 P0053-P0073",
+      "statement": "Origin, destination and polarity give 32 formal movements. Five-bit serialization follows the archive and is a coding convention.",
+      "implementation": "hle/crux.py:FormalMovement,movements"
+    },
+    {
+      "id": "C04",
+      "status": "user clarification",
+      "source_grade": "explicit boundary in supplied foundation",
+      "source": "FOUNDATION",
+      "locator": "\u00a7\u00a72,4-5",
+      "statement": "A formal inverse does not recover lost content, undo a consequence, refund cost or establish an assessed return. R1 provides no realized content operators.",
+      "implementation": "hle/crux.py; hle/contracts.py:MovementRecord"
+    },
+    {
+      "id": "E01",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "Strict finite input checks: Invalid bits, dimensions, bool-as-integer inputs and unknown labels reject; immutable tuples and maps avoid silent mutation.",
+      "implementation": "hle/gf2.py; hle/model_a.py"
+    },
+    {
+      "id": "E02",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "Stable versioned references: Reference identity includes kind, key and positive revision. Historical links never mean latest automatically. Nested records are frozen and reject mutable containers.",
+      "implementation": "hle/contracts.py:Ref,Record"
+    },
+    {
+      "id": "E03",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a72-3; MANUAL P0004-P0012,P0083-P0117,P0230-P0267",
+      "statement": "Relational memory interface: Variable content/links, separate cue descriptors and bindings, versioned context, source observations, consecutive memory revisions and separate cursor state. No replay, capacity or rank-from-edges policy.",
+      "implementation": "hle/contracts.py:MemoryRevision,CueDescriptor,CueBinding,CursorState"
+    },
+    {
+      "id": "E04",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "World and observation interface: Explicit ordered time, scoped propositions, before/after changes, causal rule witnesses and corrective events. Cross-record validity remains R2.",
+      "implementation": "hle/contracts.py:WorldEvent,Observation,Proposition"
+    },
+    {
+      "id": "E05",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,8; UMA \u00a7\u00a720-21",
+      "statement": "Resource accounting interface: Integer quanta with a versioned unit rule; before+credits-charges=after; outcomes preserve partial, failed and deferred work. No psychophysical price or automatic drain is chosen.",
+      "implementation": "hle/contracts.py:ResourceAmount,WorkRecord"
+    },
+    {
+      "id": "E06",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "Participant boundary: Typed participant input accepts only delivered observations and owned memories with no future timestamps. Runtime isolation requires R2 enforcement and intervention tests.",
+      "implementation": "hle/contracts.py:ParticipantInput,ActionRequest; hle/ports.py"
+    },
+    {
+      "id": "E07",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a75; IDEA \u00a7\u00a73-6 pp5-10",
+      "statement": "Assessment interface: Versioned identity criterion, explicit features, protocols, domain, resources, path rules, tested sequences and established/failed/unassessed outcomes. Local shapes do not implement the Canon assessor.",
+      "implementation": "hle/contracts.py:ProtocolSpec,AssessmentSpec,AssessmentResult,IdeaCell"
+    },
+    {
+      "id": "E08",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a75-6; IDEA \u00a73",
+      "statement": "Separate assessment dimensions: Factual agreement, identity return, path conditions and retained capacity are separately representable. Endorsed memory is not a truth verdict.",
+      "implementation": "hle/contracts.py:ClaimStatus,Dimension"
+    },
+    {
+      "id": "E09",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "Movement history interface: Realized attempts reference content, demand, operation, processing sequence, actual work, outcome and retained changes. Cost and reference resolution remain later work.",
+      "implementation": "hle/contracts.py:MovementRecord,ProcessingStep",
+      "r4_resolution": "MovementRecord is now populated by R4 with funded processing histories and realized output references."
+    },
+    {
+      "id": "E10",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "Dependency isolation: No legacy or third-party runtime imports; no eager layer initialization; old archive and extracted papers are reference-only data.",
+      "implementation": "hle/__init__.py; tests/test_isolation.py"
+    },
+    {
+      "id": "E11",
+      "status": "implementation choice",
+      "source_grade": "engineering definition; not source-derived",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a71-3,7-8; ROADMAP R1",
+      "statement": "Verification provenance: Every test names registry rules. Source snapshots, acceptance plan, audit, commands, all failures and new runs are preserved. Old test counts are not new passes.",
+      "implementation": "tools/verify.py; tools/audit_sources.py"
+    },
+    {
+      "id": "U01",
+      "status": "user clarification",
+      "source_grade": "model clarification recorded in the supplied foundation and revised manual",
+      "source": "MANUAL",
+      "locator": "P0004-P0012,P0083-P0117,P0230-P0267; FOUNDATION \u00a72",
+      "statement": "One card may cue multiple memories, one memory may have several cues, and organization need not require skilled deliberate navigation. No fixed capacity or universal three-vertex traversal.",
+      "implementation": "hle/contracts.py memory boundary; runtime retrieval deferred"
+    },
+    {
+      "id": "O01",
+      "status": "open",
+      "source_grade": "unresolved or unelected mechanism",
+      "source": "FOUNDATION",
+      "locator": "MANUAL P0117,P0263-P0267; FOUNDATION \u00a79",
+      "statement": "Id/Identity cycle: No exact traversal elected.",
+      "implementation": "not implemented"
+    },
+    {
+      "id": "O02",
+      "status": "open",
+      "source_grade": "unresolved or unelected mechanism",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a79 R3",
+      "statement": "Navigation and link selection: No default recall policy in R1.",
+      "implementation": "not implemented"
+    },
+    {
+      "id": "O03",
+      "status": "open",
+      "source_grade": "unresolved or unelected mechanism",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a79 R4",
+      "statement": "Crux to card correspondence: Separate coordinates; no mapping elected.",
+      "implementation": "not implemented"
+    },
+    {
+      "id": "O04",
+      "status": "open",
+      "source_grade": "unresolved or unelected mechanism",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a79 R7; CRUX \u00a7\u00a715-18",
+      "statement": "Recursive coherence and development: No tier law, closure selector, color ladder or nesting policy imported.",
+      "implementation": "not implemented"
+    },
+    {
+      "id": "O05",
+      "status": "open",
+      "source_grade": "unresolved or unelected mechanism",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a76; SHELL \u00a7\u00a76-7; DENSE \u00a7\u00a74-5",
+      "statement": "Shell evidence and false-account cost law: Maintenance must charge actual modeled work. R1 neither labels every error a Shell nor invents a universal decay/drain rate.",
+      "implementation": "not implemented"
+    },
+    {
+      "id": "O06",
+      "status": "open",
+      "source_grade": "unresolved or unelected mechanism",
+      "source": "FOUNDATION",
+      "locator": "UMA \u00a7\u00a720-21,28; FOUNDATION \u00a7\u00a72,9",
+      "statement": "Model A numerical dynamics: Processing, energy, timing and learned cost effects require explicit R4 implementation and controls.",
+      "implementation": "not implemented",
+      "r4_resolution": "R4 elects explicit testable numerical hypotheses under P02/P06. Empirical price/transition calibration remains open."
+    },
+    {
+      "id": "O07",
+      "status": "open",
+      "source_grade": "postulate in the source; correspondence not elected for runtime",
+      "source": "CRUX",
+      "locator": "CRUX \u00a78.2 P0185-P0206",
+      "statement": "Club-to-perspective interpretation: The source supplies NF/I, ST/IT, SF/WE, NT/ITS as a postulate. Not a mathematical derivation from IE bits; not elected as a runtime mapping in R1.",
+      "implementation": "not implemented"
+    },
+    {
+      "id": "W01",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Exact actor/object descriptors and consecutive metadata revisions; one active revision per identity. Configured initial identities and ownership are public. Historical lookups never substitute latest.",
+      "implementation": "hle/world_records.py; hle/world.py:TruthView.resolve"
+    },
+    {
+      "id": "W02",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "One ordered transaction per committed simulator command; public logical clock, exact fact deltas, referenced actual work and rule-grounded causal predecessors. Ordinary state updates use direct indexes.",
+      "implementation": "hle/world.py:World.execute,World._commit"
+    },
+    {
+      "id": "W03",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Participant views contain only inbox suffix, own current belief records, own resources and the public clock. Policy execution receives no Truth/evaluator port. Cooperative API isolation, not hostile-code sandboxing.",
+      "implementation": "hle/world.py:World.participant_input,World.run_policy"
+    },
+    {
+      "id": "W04",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Directed explicit messages preserve attributed unverified content. Transfer witnesses receive declared full or occurrence-only projections. Private citations and unresolved payload references reject before execution; unavailable valid channels fail after paid work.",
+      "implementation": "hle/world.py:World._validate_attempt,World.execute"
+    },
+    {
+      "id": "W05",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Retained beliefs are participant-supplied R2 fixtures, with separate held_by facts and content. Pointwise factual checks at an explicit scoped time are established/failed/unassessed; unknown semantics or future facts are unassessed. No IDEA or Shell conclusion follows.",
+      "implementation": "hle/world.py:TruthView.check; hle/world.py:World.execute"
+    },
+    {
+      "id": "W06",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Versioned experimental costs: transfer two work units; inspect/send/retain one; each consumes one energy and one time quantum. Explicit credits only. Paid failure, cumulative partial work and deferred work persist. IDs deduplicate retries; task continuation fixes the original specification and rechecks domain preconditions.",
+      "implementation": "hle/world_records.py:COSTS; hle/world.py:World.execute"
+    },
+    {
+      "id": "W07",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Simulator-only correction appends a prospective ownership assertion linked to the current head event. It preserves original events, past as-recorded meanings, observations and all charges. Non-head or ambiguous corrections reject. A correction is not an automatic refund, transfer, retroactive causal rewrite or participant notification.",
+      "implementation": "hle/world.py:World.execute; hle/world.py:TruthView.is_current"
+    },
+    {
+      "id": "W08",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Allowlisted typed JSON with corruption checksum; restore reexecutes commands and compares every generated transaction. Persisted commands, task progress, deliveries and records reconstruct all runtime indexes. Hash is integrity checking, not authentication.",
+      "implementation": "hle/codec.py; hle/world.py:World.checkpoint,World.restore"
+    },
+    {
+      "id": "W09",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Versioned fact keys invalidate only dependent pointwise checks. Indexed inbox/change cursors avoid global history traversal during active execution. Full historical folds, checkpoints and replay are explicit offline operations and grow with retained history.",
+      "implementation": "hle/world.py:TruthView.check,TruthView.changed_since,World._commit"
+    },
+    {
+      "id": "W10",
+      "status": "implementation choice",
+      "source_grade": "engineering operationalization; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73,5,7\u20138; ROADMAP R2",
+      "statement": "Predeclared R2 gates, independent finite oracles, bounded resource/history controls, all failures, source hashes, illustrative trace and extracted-source verification define release acceptance.",
+      "implementation": "docs/acceptance_plan_R2.json; tests/test_world.py; tools/verify.py"
+    },
+    {
+      "id": "F01",
+      "status": "source-defined",
+      "source_grade": "source arrangement",
+      "source": "MANUAL",
+      "locator": "P0021-P0117, P0120-P0150",
+      "statement": "The source card catalog preserves printed sequence, courts, fold and layers; Id/Identity traversal remains open.",
+      "implementation": "hle/cards.py"
+    },
+    {
+      "id": "F02",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 2, 3, 8; MANUAL P0004, P0229-P0236",
+      "statement": "Owner-specific contextual cue buckets bind exact memory revisions, with many-to-many associations and explicit time scopes.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F03",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 7-9; MANUAL P0230-P0236",
+      "statement": "Paid contextual breadth-first retrieval returns matched proposition indexes, exact visit paths and explicit truncation; no fixed three-vertex replay.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F04",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 2 and 9; MANUAL P0182-P0200",
+      "statement": "Configured navigation competence is independent of retained organization; direct recall works without an elected linked policy.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F05",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 3 and 8",
+      "statement": "Explicit expected-head writes/rebindings retain historical references and reject stale completion after paid work. Observation-copy revision preserves provenance and treats testimony as tentative.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F06",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 3, 7 A03",
+      "statement": "Selective participant inputs and private record resolution expose only owned memories and delivered observations.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F07",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 3 and 8",
+      "statement": "Declared integer prices debit R2 wallets. Partial retrieval/writes retain work; continuation and retry do not double-charge.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F08",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 7 A14 and 8",
+      "statement": "One journal includes memory commands, records, recall jobs and inbox/navigation cursors; typed replay rebuilds all derived indexes.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F09",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 7 A15 and 8",
+      "statement": "Normal R3 paths use cue/context buckets and exact references; offline comparison and replay may traverse full history.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "F10",
+      "status": "implementation choice",
+      "source_grade": "experimental operational rule; not a theorem",
+      "source": "FOUNDATION",
+      "locator": "sections 4 and 7 A01-A02",
+      "statement": "A supplied observation-copy and ownership-action fixture connects cues through retained content to permitted actions; it establishes neither autonomous learning nor Shell clearance.",
+      "implementation": "hle/memory.py"
+    },
+    {
+      "id": "P01",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "CRUX \u00a7\u00a75,9\u201310; UMA \u00a718",
+      "statement": "Four executable movement/face pairs connect exact participant-owned content: Theorize accumulation, Apply expenditure, Embody accumulation, Understand accumulation. Route grammar does not prove successful identity return.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P02",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "UMA \u00a7\u00a72,17\u201321; CRUX \u00a710",
+      "statement": "Transported Model A paths visit one stated polarity support seat. Operator IE targets, least-priced shortest-leg selection, 5-dimensionality node prices and reference-frame ablations are explicit experimental choices, not psychological laws.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P03",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a73\u20134,7 A03/A12",
+      "statement": "Theorize aligns recalled subject/relation/context/time, rejects truncated certainty and equal-time conflict, and retains exact sources. No evaluator or hidden ownership input enters derivation or action choice.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P04",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a74,7 A10",
+      "statement": "Apply executes inspect/transfer with R2 prices and visibility; successful inspection conditionally enables transfer on a subsequent paid transaction. Failure remains recorded; selecting an action alone does not complete Apply.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P05",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a74,7 A10",
+      "statement": "Embody retains delivered consequence and, after observed disagreement or a failed transfer, instantiates the supplied generic inspect-before-transfer procedure. Exact recalled capabilities alter later and held-out actions. This is bounded acquisition, not unrestricted rule invention.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P06",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a7\u00a72\u20133,8",
+      "statement": "Routing/content/action work shares R2 wallets. Exact partial jobs, active IE, perspective, resource charges, terminal outcomes and chronological processing witnesses survive continuation. One unfinished movement per actor prevents routing interleaving.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P07",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a73,7 A03/A14",
+      "statement": "Only owned references enter movement operations. Expected-head retention failures preserve costs. Codec allowlists immutable movement values and rebuilds state through deterministic command replay.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P08",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a77 A15,8",
+      "statement": "Affected processing state has an indexed event suffix; ordinary commands resolve only requested records and update the acting holon. Offline state folding and guarded inactive-history tests verify these boundaries.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "P09",
+      "status": "implementation choice",
+      "source_grade": "experimental executable policy; source structural inputs retain their original grades",
+      "source": "FOUNDATION",
+      "locator": "FOUNDATION \u00a77\u20138; ROADMAP R4",
+      "statement": "Predeclared circuits, alternate route, all-type independent route oracle, neutral controls, held-out capacity ablation, resource matrix, all-prefix continuation and packaged-source verification bound R4 acceptance.",
+      "implementation": "hle/metabolism.py; hle/processing.py; docs/Metabolism_R4.md"
+    },
+    {
+      "id": "S01",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "IDEA",
+      "locator": "sections 3-6; Equations 3,17,18",
+      "statement": "Declared exact feature maps and executed sequences; failures retained. The finite-domain closure utility exhaustively checks Eq.17; growing-world closure remains unassessed.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S02",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "FOUNDATION",
+      "locator": "sections 5-6; A04-A07",
+      "statement": "Factual agreement, adjudicable/contradicted/unresolved counts, and delivered/retained coverage are separate from identity, path and capability. Zero denominator is unassessed.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S03",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "FOUNDATION",
+      "locator": "sections 6-7; A06/A09",
+      "statement": "Opportunity quotes validate actual owned R4 payload and perspective and conservative complete next-movement energy/time needs. Only direct current interpretable observation establishes corrective opportunity; testimony and mere delivery are insufficient.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S04",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "SHELL",
+      "locator": "sections 4-7; IDEA section 4 endpoint versus path",
+      "statement": "Path assessment retains actual costs, discrepancies, external attribution, and paid contradicted reconstruction. Feature visibility/net/cancellation/recurrence is an explicit limited projection, not the complete twelve OIG quotients.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S05",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "SHELL",
+      "locator": "sections 6-7; DENSE P0571-P0574",
+      "statement": "Two successive named affordable, interpretable opportunities are required for prevention candidates. Compensation requires witnessed paid repeated reconstruction against direct counterevidence. Quiet intervals cannot clear a prior candidate. All detector choices remain explicitly injected.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S06",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "FOUNDATION",
+      "locator": "sections 4,6,7 A10",
+      "statement": "Retained correction is assessed through actual renewed and held-out checking use; clearance of a fixture candidate additionally requires repeated completed corrective trials. Same-demand and held-out matched ablations preserve earlier history and resources.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S07",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "FOUNDATION",
+      "locator": "section 6; A11; Shadow Complex reference retained",
+      "statement": "Experimental paid material grammar links generated Account to owned/unowned treatment, recipient-carrier selection, directed attribution message, delivered consequence, reownership and later withheld expression. Supplied treatment decisions test detection; no autonomous projection claim.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S08",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "FOUNDATION",
+      "locator": "sections 3,7 A03/A14",
+      "statement": "Single journal preserves assessment declarations/trials/reports/material operations and exact R4 costs. Deterministic replay rebuilds queues and indexes; assessments have no participant observation channel.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "S09",
+      "status": "implementation choice",
+      "source_grade": "experimental application of source framework; source theorem grades retained, no empirical validation",
+      "source": "FOUNDATION",
+      "locator": "sections 7 A01-A15,8",
+      "statement": "Reverse dependencies schedule affected studies; bounded draining retains unfinished assessment work. Full independent journal comparisons, no-walk guards, source hashes and descriptive inactive-history profiles check the delivered source.",
+      "implementation": "hle/assessment.py; hle/assessment_records.py; hle/idea.py; docs/Assessment_R5.md"
+    },
+    {
+      "id": "X01",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "independently selected replies from owned memory and observation suffix; hidden facts and evaluator output unavailable to policy",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X02",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "element-preserving source/landing mapping with actual paid receiver route and retained partial progress",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X03",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "delivery, reception, retention, recall/account, application and retained effects separately witnessed; malformed or stale testimony cannot count as current knowledge",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X04",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "both participants acquire their own checking procedures from consequences; subsequent response and held-out use change under matched lesson controls",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X05",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "crossed type/price controls and independent observation, history, resource and response-policy controls distinguish mechanisms",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X06",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "exact checkpoint continuation including queued goals, partial jobs, waiting and assessments; malformed/tampered replay rejects",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X07",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "explicit predeclared WE dyadic predicate; missing return remains unassessed, failed earlier trial retained; endpoint and path reported separately",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X08",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "affected dyadic scheduling agrees with independent full-journal reference and does not traverse inactive history or unrelated studies",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "X09",
+      "status": "implementation choice",
+      "source_grade": "operational hypothesis; source mathematical grades unchanged; no empirical calibration",
+      "source": "FOUNDATION",
+      "locator": "sections 2-8; roadmap R6; UMA section 9; Canon sections 7-8",
+      "statement": "all inherited 187 tests pass unchanged and source references preserved; final extracted release reproduced",
+      "implementation": "hle/socion.py; hle/socion_policy.py; hle/socion_assessment.py; docs/Socion_R6.md"
+    },
+    {
+      "id": "Q01",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Versioned owned acyclic composition and exact lossless unfolding; historical references never resolve latest.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "Q02",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Context selection, shared constituents and distinct roles preserve exact claims, owners and times.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "Q03",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Paid access supplies real learned capacity to inherited Theorize, Apply and Embody on a held-out object.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "Q04",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Declared cross-level claims can fail; factual agreement, freshness, organization identity, path and retained use remain separate.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "Q05",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Changed children invalidate only affected contextual ancestors and tests; independent whole-journal comparison.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "Q06",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Partial funding, competing revisions, duplicate commands, deep composition, replay and queued continuation.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "Q07",
+      "status": "implementation choice",
+      "source_grade": "proposed operational hypothesis; not recursive Cross theorem",
+      "source": "ROADMAP",
+      "locator": "R7; FOUNDATION sections 3 and 5; Canon section 6 eq.17 is a separate obligation",
+      "statement": "Preserve inherited tests and references; fresh extracted release, explicit hypothesis grade and unassessed general closure.",
+      "implementation": "hle/composition.py; hle/composition_records.py; hle/composition_assessment.py"
+    },
+    {
+      "id": "L01",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Owned acquired relation patterns, nested compositions and exact versions",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "L02",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Ordinary paid delivery, Model A reception and independently checked repair",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "L03",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Held-out requests and explanations, novel combinations, labels and contexts",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "L04",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Commitment expectations distinct from actual linked costly fulfillment",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "L05",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Unknown, false, conflicting, stale, refusal and hidden state controls",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "L06",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Partial funding, exact replay, changed continuation and tampering",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "L07",
+      "status": "engineering-choice",
+      "source_grade": "declared bounded language hypothesis",
+      "source": "ROADMAP",
+      "locator": "R8; docs/r8/acceptance.md",
+      "statement": "Inherited tests and sources, reproducible release and runnable demo",
+      "implementation": "hle/language.py"
+    },
+    {
+      "id": "G01",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Participant builds terms from at least two own fulfilled acquired-language plans; history/sequence/label and no-history controls.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "G02",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Paid directed transmission and Model A reception; independent semantic/evidence/policy review; exact all-member consent; refusals and missing/mixed votes preserved.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "G03",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Recurring conditional rule enactment, actual transfers and charges; false/unknown/stale/hidden-state and action-tamper controls.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "G04",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Paid failure-backed disputes suspend only informed local members; revised terms require new consent; unresolved dispute cannot silently clear.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "G05",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Newcomer checks acquired meaning; remaining member generates revision after founder exit; actual successor practice; final departure dissolves local organization.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "G06",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Partial semantic/physical work, independent resource shortages, idempotence, stale continuation, checkpoint replay and rehashed tampering rejection.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "G07",
+      "status": "implementation choice",
+      "source_grade": "elected finite organizational hypothesis, not a derived or calibrated law",
+      "source": "ROADMAP",
+      "locator": "R9; FOUNDATION sections 1, 3, 5, 8; docs/r9/acceptance.md",
+      "statement": "Inherited tests/references unchanged; independent bounded consent/action oracle; hash-seed replay; fixed-active/inactive-history profile; fresh extraction verification.",
+      "implementation": "hle/organization.py; hle/organization_policy.py; hle/organization_records.py"
+    },
+    {
+      "id": "V01",
+      "status": "implementation-choice",
+      "source_grade": "declared engineering evaluation policy; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "sections 1, 3, 7 and 8; ROADMAP R10",
+      "statement": "Predeclared supplied sustained workloads vary population, acquired history, resources and seeds. External scheduling and credits are experimental conditions, not emergent motivation.",
+      "implementation": "tools/r10_workloads.py"
+    },
+    {
+      "id": "V02",
+      "status": "implementation-choice",
+      "source_grade": "declared engineering evaluation policy; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "sections 1, 3, 7 and 8; ROADMAP R10",
+      "statement": "Independent bounded journal reconstruction checks accounting, physical outcomes, local exact consent and maintained practice; it is not independent scientific validation.",
+      "implementation": "tools/r10_oracle.py"
+    },
+    {
+      "id": "V03",
+      "status": "implementation-choice",
+      "source_grade": "declared engineering evaluation policy; not a derived psychological law",
+      "source": "FOUNDATION",
+      "locator": "sections 1, 3, 7 and 8; ROADMAP R10",
+      "statement": "Fixed-active, growing-active, archival and continuation gates are quantified separately; exact checkpoint continuation and preserved source are release requirements.",
+      "implementation": "tools/r10_evidence.py"
+    }
+  ]
+}

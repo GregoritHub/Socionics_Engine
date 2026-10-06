@@ -1,0 +1,87 @@
+{
+  "schema": "hle-u12-progress-v1",
+  "milestone": "U12",
+  "status": "complete",
+  "completed_milestones": 12,
+  "remaining_milestones": 2,
+  "next_milestone": "U13",
+  "source_execution_manifest_sha256": "b892bea9e54f0cd63bb3c7613996cb7de8cf554a7c926f7e16d33f736ef8529b",
+  "cases": [
+    {
+      "id": "U12-01",
+      "criterion": "Participants generate a proposal from situated demand and acquired primitives, communicate it, independently consider it, and enact only exact consented terms; disagreement and counterproposals remain explicit.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u12/summary.json",
+        "final_run/u12_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U12-02",
+      "criterion": "A generated U7 attribution influences a communicated proposal, receives independent uptake, governs repeated observed work, and becomes a maintained public rule. Consequences name the actual bearer and preserve the causal chain.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u12/summary.json",
+        "final_run/u12_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U12-03",
+      "criterion": "U8 personal correction alone leaves public rules and obligations intact; public revision needs fresh current-member participation and changes later practice. Genuine danger, refusal, insufficient skill, missing access and low resources are distinct controls.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u12/summary.json",
+        "final_run/u12_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U12-04",
+      "criterion": "An active institution survives consented coordinator succession and founder departure. A newcomer is taught, processes the terms, and separately assents; teaching never grants primitive mastery.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u12/summary.json",
+        "final_run/u12_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U12-05",
+      "criterion": "Disputes, consent withdrawal and collective dissolution preserve prior costs, actual consequences, original commitments and unfinished work. Partial operations and changed authority cannot authorize stale or duplicated effects.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u12/summary.json",
+        "final_run/u12_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U12-06",
+      "criterion": "Independent raw audit checks institutional provenance, votes, rule versions, repetition, affected identities and inherited accounting. Exact checkpoint continuation, observation isolation, baseline integrity, and all 734 inherited distinct tests pass.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u12/summary.json",
+        "final_run/u12_witnesses/summary.json"
+      ]
+    }
+  ],
+  "original_acceptance_crosswalk": {
+    "U12-01": [
+      "U12-01",
+      "U12-06"
+    ],
+    "U12-02": [
+      "U12-02",
+      "U12-03",
+      "U12-06"
+    ],
+    "U12-03": [
+      "U12-04",
+      "U12-05",
+      "U12-06"
+    ]
+  }
+}

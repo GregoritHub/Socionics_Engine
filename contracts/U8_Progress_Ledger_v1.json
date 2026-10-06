@@ -1,0 +1,35 @@
+{
+  "schema": "hle-unified-u8-progress-v1",
+  "milestones_complete": 8,
+  "milestones_remaining": 6,
+  "next": "U9 \u2014 expandable concepts and procedure composition",
+  "cases": {
+    "U8-01": "established",
+    "U8-02": "established",
+    "U8-03": "established",
+    "U8-04": "established",
+    "U8-05": "established"
+  },
+  "distinct_tests": 610,
+  "test_counts": {
+    "u8": 34,
+    "u7": 42,
+    "u6": 40,
+    "u5": 38,
+    "u4": 45,
+    "u3": 32,
+    "u2": 31,
+    "legacy": 348
+  },
+  "u8_witness_checks": 26,
+  "earlier_witness_counts": {
+    "u2": 12,
+    "u3": 15,
+    "u4": 22,
+    "u5": 28,
+    "u6": 28,
+    "u7": 25
+  },
+  "execution_identity": "7efdf41c25106f25766475833fabcdba28a751e107e5f61ee5e0fb517e071e9b",
+  "scope": "Finite development acceptance; U14 and R21C remain open"
+}

@@ -1,0 +1,643 @@
+P0001 A Unified Mathematical Architecture of Socionics
+P0002 Finite Affine Kinematics, Relation Groups, Multiscale Energy Dynamics, and Cognitive-State Control
+P0003 Abstract
+P0004 This paper gives a conditional mathematical reconstruction of Socionics. It starts from fixed Model A stacks, intertype relations, Reinin dichotomies, information-element dichotomies, small groups, Observational Information Geometry (OIG), and Humanitarian Socionics Model G.
+P0005 The static architecture is finite and affine. Model A positions form P≅AG3,2, and the eight information elements form an independent space E≅AG3,2. Each lawful TIM is an affine isomorphism fT:P→E. The sixteen TIMs therefore form sixteen lawful frames between two binary three-spaces. TIM space also admits a Jungian atlas TJ≅AG4,2. Its fifteen nonzero linear characters are exactly the fifteen Jungian/Reinin dichotomies. Pairs, quartets, and octets then appear as affine cosets, and their shared Reinin traits are given by annihilator subspaces.
+P0006 Intertype relations act as frame transformations. Adding the estafette extends the relation action to a sixty-four-element dynamical group F23⋊D4. OIG appears as an observational quotient of the same positional geometry and identifies Contrary partners under its locked observables.
+P0007 Static Model G does not require a second eight-position carrier. Its positions are related to Model A by a TIM-independent affine coordinate change. Humanitarian Socionics does, however, require additional state variables. The resulting multiscale state is
+P0008 Ψt=T,σt,ρt,xt,Rt,
+P0009 where T is TIM, σt subtype, ρt functional profile, xt current functional state, and Rt energetic reserve.
+P0010 A TIM transports the Model A cube into a type-specific routing graph on information-element space. Model G adds directed energetic chords and state-dependent energetic constraints. Deliberate cognitive routing can therefore be formulated as a finite optimal-control problem.
+P0011 This paper does not validate Socionics empirically. It shows that, if the canonical structures are accepted as inputs, many classical and Humanitarian Socionic systems admit one finite mathematical architecture. The same reconstruction does not derive a continuous three-torus T3. Any toroidal completion remains an additional assumption.
+P0012 1. Scope, status, and notation
+P0013 This paper concerns the internal mathematical structure of Socionics. It does not address whether Socionic typing is empirically valid.
+P0014 Three evidentiary levels are used throughout:
+P0015 Level
+P0016 Meaning
+P0017 Examples
+P0018 Source-defined
+P0019 Structure stated in the Socionics source system.
+P0020 Model A stacks, Reinin dichotomies, intertype relations, DCNH formulas, Model G positions.
+P0021 Derived
+P0022 Structure obtained algebraically or combinatorially from source-defined data.
+P0023 Affine position space, the Frame Theorem, Reinin duality, annihilator results.
+P0024 Proposed completion
+P0025 Mathematical structure added to formalize qualitative dynamics not numerically specified by the source.
+P0026 KT, Rt, transition costs, profile adaptation.
+P0027 The main symbols are:
+P0028 Symbol
+P0029 Meaning
+P0030 P
+P0031 Model A position space.
+P0032 E
+P0033 Information-element space.
+P0034 TF
+P0035 TIM space in affine-frame coordinates.
+P0036 TJ
+P0037 TIM space in Jungian coordinates.
+P0038 fT
+P0039 Model A stack map for TIM T.
+P0040 Grel
+P0041 Classical intertype relation group.
+P0042 ΓT
+P0043 TIM-specific routing cube in IE space.
+P0044 σt
+P0045 Subtype state.
+P0046 ρt
+P0047 Functional profile.
+P0048 xt
+P0049 Current functional state.
+P0050 Rt
+P0051 Energetic reserve.
+P0052 The argument proceeds in six stages. First, Model A and IE space are coordinatized. Second, TIM space and Reinin duality are derived. Third, relation actions and OIG are placed on the same carrier. Fourth, Model G and Humanitarian Socionics supply energetic and multiscale state structure. Fifth, the transported routing cube becomes a control graph. Sixth, the architecture is summarized as a kinematic, dynamic, and control system.
+P0053 Part I. Static Affine Architecture
+P0054 2. Model A position space
+P0055 Label each Model A position by three binary coordinates:
+P0056 a=0accepting1producing,  v=0valued1unvalued,  r=0mental1vital.
+P0057 The eight positions are therefore:
+P0058 Position
+P0059 a
+P0060 v
+P0061 r
+P0062 1
+P0063 0
+P0064 0
+P0065 0
+P0066 2
+P0067 1
+P0068 0
+P0069 0
+P0070 3
+P0071 0
+P0072 1
+P0073 0
+P0074 4
+P0075 1
+P0076 1
+P0077 0
+P0078 5
+P0079 0
+P0080 0
+P0081 1
+P0082 6
+P0083 1
+P0084 0
+P0085 1
+P0086 7
+P0087 0
+P0088 1
+P0089 1
+P0090 8
+P0091 1
+P0092 1
+P0093 1
+P0094 Hence the Model A carrier is
+P0095 P=F23=AG3,2.
+P0096 This is an exact coordinatization. Each Model A position is one point of a three-dimensional affine space over F2.
+P0097 Changing one coordinate at a time gives the cube graph
+P0098 Q3=Cay​F23,{ea,ev,er}.
+P0099 Several familiar Model A properties are derived fields on P. In this coordinate convention,
+P0100 strong⇔v=r,
+P0101 contact=a⊕v⊕r,
+P0102 bold=1⊕a⊕r.
+P0103 If S denotes strength and B boldness, dimensionality is
+P0104 d=1+2S+B.
+P0105 This reproduces the standard sequence 4,3,2,1,1,2,3,4 for positions 1 through 8.
+P0106 The key point is structural. Model A can be treated as one affine three-space with derived fields, not as eight unrelated slots.
+P0107 3. Information-element space
+P0108 The eight information elements admit an independent three-bit atlas. Let
+P0109 q=0irrational1rational,  e=0introverted1extroverted,  n=0external1internal.
+P0110 One convenient coordinatization is:
+P0111 IE
+P0112 q
+P0113 e
+P0114 n
+P0115 Si
+P0116 0
+P0117 0
+P0118 0
+P0119 Ni
+P0120 0
+P0121 0
+P0122 1
+P0123 Se
+P0124 0
+P0125 1
+P0126 0
+P0127 Ne
+P0128 0
+P0129 1
+P0130 1
+P0131 Ti
+P0132 1
+P0133 0
+P0134 0
+P0135 Fi
+P0136 1
+P0137 0
+P0138 1
+P0139 Te
+P0140 1
+P0141 1
+P0142 0
+P0143 Fe
+P0144 1
+P0145 1
+P0146 1
+P0147 Thus
+P0148 E=F23=AG3,2.
+P0149 The seven nonzero linear forms on E are
+P0150 q, e, n, q+e, q+n, e+n, q+e+n.
+P0151 Under the adopted atlas, these are the seven balanced IE dichotomies used in the project: rational/irrational, extroverted/introverted, external/internal, static/dynamic, abstract/involved, Alpha/Gamma, and Beta/Delta.
+P0152 Therefore
+P0153 {w∈E∨:w≠0}
+P0154 is the seven-element IE dichotomy system.
+P0155 Quadra-valued IE sets also become geometric. Alpha and Gamma are level sets of one nonzero functional. Beta and Delta are level sets of another. The quadra partitions are therefore affine hyperplane partitions of E.
+P0156 4. TIMs as affine frames: the Frame Theorem
+P0157 For each TIM T, define the stack map
+P0158 fT:P→E,
+P0159 which sends a Model A position to the IE occupying that position.
+P0160 Let
+P0161 l=fT0,0,0
+P0162 be the leading IE. Let
+P0163 S=0,0,1,  O=0,1,0
+P0164 be the SIB and OPP displacements used in the project derivation.
+P0165 All sixteen canonical Model A stacks satisfy
+P0166 fTa,v,r=l+a t+v⊕rS+rO,
+P0167 where the leading-to-creative displacement is restricted to
+P0168 t∈{1,1,0,1,1,1}.
+P0169 Equivalently,
+P0170 fTx=l+LTx,
+P0171 with
+P0172 LT= t∣S∣S+O .
+P0173 Each permitted LT is invertible. Hence every lawful TIM is an affine isomorphism
+P0174 fT:P→∼E.
+P0175 There are eight possible origins l∈E and two lawful linear frames. Therefore
+P0176 8×2=16.
+P0177 The sixteen TIMs are recovered as the sixteen lawful affine frames between P and E.
+P0178 The binary choice of leading-to-creative displacement matches the Democratic/Aristocratic partition in the locked TIM table. A TIM can therefore be written in frame coordinates as
+P0179 T=l,d∈F23×F2.
+P0180 As a coordinate set,
+P0181 TF≅F24.
+P0182 This is a coordinate statement, not a claim that the intertype relation group is the additive group F24.
+P0183 5. Two atlases on TIM space
+P0184 The same sixteen TIMs also carry the four Jungian dichotomies:
+P0185 E,N,T,P∈F24.
+P0186 Call this atlas TJ.
+P0187 The frame atlas lq,le,ln,d and the Jungian atlas E,N,T,P are related by a bijection, but not by an affine map. In the adopted convention, extraversion and rationality read off the leading element affinely,
+P0188 E=le,  P=1⊕lq,
+P0189 while the intuition and logic coordinates acquire a quadratic correction:
+P0190 N=ln⊕lqd,
+P0191 T=1⊕ln⊕d⊕lqd.
+P0192 The term lqd is quadratic. It cannot be removed by an affine change of coordinates.
+P0193 Thus
+P0194 TF≅F24,  TJ≅F24
+P0195 are two distinct linearizations of the same sixteen-element set.
+P0196 This distinction matters later. Reinin dichotomies are linear in the Jungian atlas, while some corresponding expressions are nonlinear in frame coordinates.
+P0197 Part II. TIM Duality and Small Groups
+P0198 6. Reinin duality
+P0199 In Jungian coordinates E,N,T,P, the fifteen canonical type dichotomies are exactly the fifteen nonzero linear forms on F24:
+P0200 Linear form
+P0201 Dichotomy
+P0202 E
+P0203 Extraverted / Introverted
+P0204 N
+P0205 Intuitive / Sensing
+P0206 T
+P0207 Logical / Ethical
+P0208 P
+P0209 Irrational / Rational
+P0210 E+N
+P0211 Carefree / Farsighted
+P0212 E+T
+P0213 Yielding / Obstinate
+P0214 E+P
+P0215 Static / Dynamic
+P0216 N+T
+P0217 Democratic / Aristocratic
+P0218 N+P
+P0219 Tactical / Strategic
+P0220 T+P
+P0221 Constructivist / Emotivist
+P0222 E+N+T
+P0223 Positivist / Negativist
+P0224 E+N+P
+P0225 Judicious / Decisive
+P0226 E+T+P
+P0227 Subjectivist / Objectivist
+P0228 N+T+P
+P0229 Process / Result
+P0230 E+N+T+P
+P0231 Asking / Declaring
+P0232 Therefore
+P0233 Reinin dichotomies={χ∈TJ∨:χ≠0}.
+P0234 Because 24−1=15, the canonical Reinin system exhausts the nontrivial binary characters of Jungian TIM space.
+P0235 Composition of dichotomies is addition in the dual space:
+P0236 χu+χv=χu+v.
+P0237 The fifteen Reinin dichotomies are therefore not fifteen independent dimensions. They are the complete nonzero dual of a four-dimensional binary space.
+P0238 7. Subgroup-trait duality
+P0239 Let H≤TJ be a k-dimensional linear subspace. Each affine coset x+H contains 2k TIMs.
+P0240 A Reinin character χw is constant on every coset of H exactly when
+P0241 w∈H⊥.
+P0242 Therefore a k-dimensional Socionic group shares
+P0243 24−k−1
+P0244 nontrivial Reinin traits.
+P0245 Group size
+P0246 dimH
+P0247 Shared nontrivial traits
+P0248 2
+P0249 1
+P0250 7
+P0251 4
+P0252 2
+P0253 3
+P0254 8
+P0255 3
+P0256 1
+P0257 16
+P0258 4
+P0259 0
+P0260 This gives the recurrent 7/3/1 pattern directly.
+P0261 A dual pair is an affine line. A canonical quartet is an affine plane. An eight-type ring or dichotomy pole is an affine hyperplane. In each case, the shared traits are the nonzero elements of the annihilator of the direction space.
+P0262 8. The thirty-five quartet geometries
+P0263 The number of two-dimensional linear subspaces of F24 is the Gaussian binomial coefficient
+P0264 422=24−124−222−122−2=35.
+P0265 TIM space therefore contains exactly thirty-five affine quartet decompositions.
+P0266 Dually, every two-dimensional subspace of TJ∨ has three nonzero characters {u,v,u+v}. Those three characters jointly partition the sixteen TIMs into four affine cosets of size four.
+P0267 Named Socionic small groups fit this scheme. For example:
+P0268 Temperaments correspond to ⟨E,P⟩ and share E/I, j/p, and Static/Dynamic.
+P0269 Clubs correspond to ⟨N,T⟩ and share N/S, T/F, and Democratic/Aristocratic.
+P0270 The same construction applies to other canonical quartets, including quadras and the Benefit and Supervision ring decompositions used in the project.
+P0271 The claim is structural, not psychological. The affine geometry classifies possible quartet partitions. It does not assign equal empirical importance to every named quartet.
+P0272 Part III. Relation Actions and Observational Quotients
+P0273 9. Intertype relations as frame transformations
+P0274 The sixteen standard intertype position permutations act affinely on
+P0275 P=F23.
+P0276 Eight are pure translations. They form the translation subgroup
+P0277 N≅F23.
+P0278 The remaining eight have one common involutive linear part K and differ by translation. In one convenient coordinate convention,
+P0279 Ka,v,r=a,a⊕v,r.
+P0280 Hence the classical relation group is
+P0281 Grel≅F23⋊C2.
+P0282 In the project representation, this group is isomorphic to D4×C2.
+P0283 The action of Grel on the sixteen lawful TIM frames is simply transitive. TIM space is therefore a torsor for the relation group. For any ordered pair of TIMs, exactly one relation transformation carries the first frame to the second.
+P0284 Choose a reference frame f0:P→E. Conjugation transfers the position-side action to information space:
+P0285 H=f0Grelf0−1.
+P0286 Precomposition and postcomposition commute, so the lawful frames support
+P0287 h∘fT∘g,
+P0288 with h∈H and g∈Grel. Thus the TIM frames form an
+P0289 H,Grel-bitorsor.
+P0290 An intertype relation can therefore be read in either direction: as a transformation of the positional frame or as the corresponding transformation of the information frame.
+P0291 10. Estafette extension and the finite dynamical group
+P0292 The estafette quarter-turn acts on position coordinates as
+P0293 Ra,v,r=r,v,1⊕a.
+P0294 It generates two parallel four-cycles, one valued and one unvalued. Its square is
+P0295 R2a,v,r=1⊕a,v,1⊕r,
+P0296 which is the Activation position permutation.
+P0297 Adjoining R to the sixteen intertype relations gives
+P0298 G=F23⋊D4,
+P0299 with
+P0300 G=64.
+P0301 The derived group has exponent four and a two-element center consisting of Identity and Super-Ego. It also contains coupled, noncommuting estafette and Benefit/Supervision four-phases.
+P0302 This separates two ideas that are often conflated:
+P0303 carrier geometry≠dynamics acting on the carrier.
+P0304 The same affine cube can support several distinct lawful cycle structures.
+P0305 11. OIG as an observational quotient
+P0306 OIG introduces domain, access, and route quotients over the Model A carrier. In the bridge computation used by this project, the TIM-dependent reach family reduces to four affine half-spaces: strength, contact, and their complements.
+P0307 TIM dependence changes the labeling of the lens. It does not change the underlying half-space geometry.
+P0308 The stack-lawful intertype subgroup preserves this lens structure. The induced action on TIMs remains simply transitive before the observational quotient is taken.
+P0309 The quotient creates a degeneracy:
+P0310 ΓT=ΓContraryT.
+P0311 The sixteen TIMs therefore produce only eight distinct OIG fingerprints. Under the locked OIG observables, Contrary partners are indistinguishable.
+P0312 Within the unified architecture, OIG is best represented as
+P0313 an observational quotient of the affine Model A/frame structure.
+P0314 12. Why the finite architecture does not derive T3
+P0315 The carrier F23 is isomorphic to the eight two-torsion points of a three-torus:
+P0316 T32≅F23.
+P0317 This compatibility does not determine the ambient continuous topology.
+P0318 A periodic 2×2×2 cubulation of T3 requires wraparound edges and faces that are absent from the ordinary cube graph Q3. The locked transition observables are also endpoint-based and symmetric. They do not supply a nontrivial torsion-free winding invariant.
+P0319 Therefore
+P0320 T3
+P0321 is a possible extension, but not a derived underlying space.
+P0322 The structure established by the locked observables is the finite affine carrier together with its group actions.
+P0323 Part IV. Model G and Multiscale State
+P0324 13. Model G as an alternate affine atlas
+P0325 Model G defines eight energetic positions grouped into Social Mission, Social Adaptation, Creative Self-Realization, and Inflation blocks. It also assigns leading/driven, stable/unstable, and external/internal polarities, together with energetic grades.
+P0326 Comparison of the sixteen Model G stacks with the fixed Model A stacks gives a TIM-independent position permutation:
+P0327 G1,G2,G3,G4,G5,G6,G7,G8=A1,A8,A3,A6,A2,A5,A4,A7.
+P0328 Thus Model G uses the same eight IEs on a fixed reindexing of the Model A carrier.
+P0329 Its three binary positional variables are affine functions of Model A coordinates:
+P0330 λ=1⊕v⊕r,  σ=1⊕a,  ξ=1⊕a⊕r.
+P0331 These correspond, respectively, to Model A strength, accepting/producing polarity, and bold/cautious polarity.
+P0332 The transformation is invertible. Hence
+P0333 PG≅PA≅AG3,2.
+P0334 Static Model G therefore does not add a second eight-point state space. It gives an energetic atlas on the existing carrier. Its grades, blocks, and signs become derived fields on P, with some nonlinear assignments.
+P0335 14. The multiscale state
+P0336 Humanitarian Socionics distinguishes several levels of temporal rigidity:
+P0337 TIM is treated as the deepest and most stable layer.
+P0338 Subtype is semi-rigid and can change after major adaptation or disruption.
+P0339 Functional profile reflects sustained adaptation over longer periods.
+P0340 Current functional state is situational and can change over minutes or hours.
+P0341 These distinctions motivate
+P0342 Ψt=T,σt,ρt,xt,Rt.
+P0343 Here:
+P0344 Variable
+P0345 Interpretation
+P0346 Relative timescale
+P0347 T
+P0348 TIM
+P0349 Invariant in the model.
+P0350 σt
+P0351 Subtype
+P0352 Slow.
+P0353 ρt
+P0354 Functional profile
+P0355 Medium-term.
+P0356 xt
+P0357 Current functional state
+P0358 Fast.
+P0359 Rt
+P0360 Energetic reserve
+P0361 Fast to medium.
+P0362 The first four variables follow directly from the Humanitarian Socionics layer distinction. The reserve variable is a proposed completion. Model G repeatedly distinguishes replenishment, depletion, overload, recovery, and remaining energy. Those distinctions require a stock variable if depletion is to affect future transitions.
+P0363 Without Rt, two states with identical T,σt,ρt,xt but different depletion levels would have identical mathematical descriptions. If depletion changes what transitions remain feasible, the model is not dynamically closed without an additional reserve variable.
+P0364 15. DCNH as a quotient of IE space
+P0365 The DCNH subtype formulas used in the source model are
+P0366 D=PF+E,  C=EI+F,  N=LS+R,  H=TR+S.
+P0367 Their energetic cores pair the information elements as follows:
+P0368 DCNH state
+P0369 IE pair
+P0370 Fixed q,e
+P0371 D
+P0372 {Te,Fe}
+P0373 1,1
+P0374 C
+P0375 {Se,Ne}
+P0376 0,1
+P0377 N
+P0378 {Ti,Fi}
+P0379 1,0
+P0380 H
+P0381 {Si,Ni}
+P0382 0,0
+P0383 Within each pair, the two IE vertices differ only in the internal/external coordinate n.
+P0384 These are exactly the pairs whose joint strengthening defines the four subtypes in the source description: the linear-assertive pair (E, P), the flexible-maneuvering pair (I, F), the balanced-stable pair (L, R), and the receptive-adaptive pair (S, T). In each formula, two of the three listed elements form the canonical pair and the third is auxiliary.
+P0385 Therefore the four DCNH cores are naturally represented by the quotient
+P0386 Σ=E/⟨en⟩≅F22.
+P0387 This is a derived coarse-graining of the IE cube. It should not be read as a claim that Gulenko defines DCNH through quotient geometry.
+P0388 16. Functional profile as a field
+P0389 The functional profile represents persistent enhancement and weakening across information elements while TIM remains fixed. The natural formal object is a field
+P0390 ρt:E→L,
+P0391 where L is an ordered set of relative enhancement levels.
+P0392 A quantitative model could take L⊆R, but the source theory does not provide a canonical numerical scale.
+P0393 Subtype can then be treated as a slower coarse-graining of the profile. If ρ is numerical, one simple aggregation over the quotient cells is
+P0394 ρq,e=n∈F2​ρq,e,n.
+P0395 The four values of q,e correspond to the D, C, N, and H core pairs listed above.
+P0396 The exact weighting implied by the source model's 2+1 subtype formulas is not numerically specified. Any such weighting must remain a parameter rather than an assumed constant.
+P0397 17. Current functional state
+P0398 The fast state is
+P0399 xt∈E.
+P0400 Humanitarian Socionics allows people of different TIMs to enter the same short-lived functional state under situational pressure. This separates type from current activation.
+P0401 TIM remains fixed while the active state changes:
+P0402 T=constant,  xt variable.
+P0403 Therefore
+P0404 Model A position of an IE≠current functional state.
+P0405 A structurally weak IE can be the current active state without becoming structurally strong.
+P0406 Part V. Routing and Control
+P0407 18. The transported routing cube
+P0408 The current state xt lives in generic IE space E. A TIM adds a type-specific adjacency structure.
+P0409 Because
+P0410 fT:P→E
+P0411 is an affine isomorphism, the three primitive directions of the Model A cube transport to IE space. Define
+P0412 ΓT=fTQ3.
+P0413 Then
+P0414 ΓT≅Q3
+P0415 is the TIM-specific routing cube.
+P0416 This graph is not the same object as the canonical IE cube generated by the semantic coordinates q,e,n. Two IEs can be adjacent in ΓT even when they are not adjacent in the canonical IE atlas.
+P0417 For IEE, the Model A stack is
+P0418 Ne,Fi,Se,Ti,Si,Te,Ni,Fe.
+P0419 In the transported cube, Ti has three primitive neighbors:
+P0420 Se,Fi,Fe.
+P0421 Thus a deliberate route into Ti can be classified by which of these three adjacent states is used as the entry state.
+P0422 This defines the phrase routing through information elements precisely: the route follows the Model A frame transported into IE space, not necessarily the semantic IE-coordinate edges.
+P0423 19. Model G directed chords
+P0424 The routing cube provides undirected primitive adjacency. Model G adds asymmetric energetic relations.
+P0425 The source model gives the directional relations
+P0426 G4→G1
+P0427 because Launching initiates the Leader, and
+P0428 G1→G2
+P0429 because the Creative receives an energy boost from the Leader.
+P0430 Using the fixed Model G to Model A reindexing gives the universal positional spine
+P0431 A6→A1→A8.
+P0432 These are directed long-range chords, not ordinary edges of Q3.
+P0433 Each TIM therefore has a hybrid graph
+P0434 GT=ΓT+{A6→A1, A1→A8}.
+P0435 Other Model G positions modify node costs and reserve behavior. In the source description, G6 replenishes reserves, G7 inhibits and loses energy, G3 depends strongly on external support, and the Inflation block has poor energetic efficiency.
+P0436 The resulting control substrate combines affine routing geometry with directed energetic asymmetry.
+P0437 20. Controlled state transitions
+P0438 Let
+P0439 xt∈E
+P0440 be the current functional state. Let ut denote environmental and task conditions. Let ct denote deliberate control, such as attention, notation, pacing, task framing, physical setup, emotional activation, external tools, or selected intermediate operations.
+P0441 A general fast dynamic compatible with the source distinctions is
+P0442 xt+1∼KT​⋅∣xt,ρt,σt,Rt,ut,ct.
+P0443 Existing Socionics does not supply numerical transition probabilities. The kernel KT is therefore a proposed empirical object.
+P0444 The control problem is
+P0445 choose ct to move xt toward a target state under energetic and switching constraints.
+P0446 21. Transition cost and energetic reserve
+P0447 A qualitative edge cost can be written as
+P0448 CTx→y=Croute+Crole+Cexit+Creserve+Cprofile−Btrigger.
+P0449 The terms have distinct roles:
+P0450 Term
+P0451 Interpretation
+P0452 Croute
+P0453 Geometric complexity in GT.
+P0454 Crole
+P0455 Model G positional difficulty.
+P0456 Cexit
+P0457 Inertia of the current state.
+P0458 Creserve
+P0459 Cost caused by low remaining reserve.
+P0460 Cprofile
+P0461 Practice-dependent access cost.
+P0462 Btrigger
+P0463 Environmental support for the target state.
+P0464 This decomposition is proposed, not source-defined.
+P0465 The least-cost route is
+P0466 CToptx,y=minπ:x→ye∈π​CTe.
+P0467 Reserve is modeled separately from current IE identity:
+P0468 Rt+1=Rt+GTxt,ut−DTxt,ut.
+P0469 Here GT denotes replenishment and DT depletion. The source model provides qualitative sign constraints but no numerical rates.
+P0470 The separation between output and reserve is important:
+P0471 energetic expression≠remaining energetic reserve.
+P0472 A state can support high immediate output while reducing later capacity.
+P0473 22. Learning and profile deformation
+P0474 Repeated occupation of a state can alter the medium-term profile without changing TIM.
+P0475 One minimal adaptation law is
+P0476 ρt+1=1−ηρt+ηΦxt,ut,  0<η≪1.
+P0477 This equation is a proposed completion. It formalizes the source distinction between short-lived state and longer-term functional profile.
+P0478 Its qualitative content is
+P0479 repeated state occupation→profile reinforcement.
+P0480 Persistent profile changes can, in principle, alter the slower subtype organization while TIM remains fixed. The hierarchy is therefore
+P0481 xt→ρt→σt,
+P0482 with increasing integration timescale.
+P0483 23. Weak-function access
+P0484 Weak-function training is easier to formalize when structural capacity, activation, practice, and reserve are kept separate.
+P0485 For a target IE y,
+P0486 target performance=routing+target activation+reserve+learned profile.
+P0487 At least five variables are distinct:
+P0488 Concept
+P0489 Formal representation
+P0490 Structural capacity
+P0491 Model A position of the IE.
+P0492 Energetic role
+P0493 Model G position of the IE.
+P0494 Learned availability
+P0495 ρt.
+P0496 Current activation
+P0497 xt.
+P0498 Current endurance
+P0499 Rt.
+P0500 A structurally weak IE can therefore acquire high learned competence without any change of TIM. The model predicts that competence and endurance need not rise together.
+P0501 24. Worked example: IEE and vulnerable Ti
+P0502 For IEE,
+P0503 Ne1,Fi2,Se3,Ti4,Si5,Te6,Ni7,Fe8.
+P0504 Under the fixed Model G reindexing:
+P0505 Model G position
+P0506 IE
+P0507 G1
+P0508 Ne
+P0509 G2
+P0510 Fe
+P0511 G3
+P0512 Se
+P0513 G4
+P0514 Te
+P0515 G5
+P0516 Fi
+P0517 G6
+P0518 Si
+P0519 G7
+P0520 Ti
+P0521 G8
+P0522 Ni
+P0523 Thus
+P0524 Ti=A4=G7.
+P0525 In Model A, Ti is 1D vulnerable. In Model G, it occupies Braking, which the source model describes as inhibitory and associated with energy loss under workload.
+P0526 In the IEE routing cube, Ti is adjacent to
+P0527 Se,Fi,Fe.
+P0528 Fe is especially relevant because it occupies G2, the Creative position. The universal Model G spine becomes
+P0529 Te→Ne→Fe.
+P0530 Since Fe↔Ti is a primitive routing edge in ΓIEE, one derived control route is
+P0531 Te→Ne→Fe⇢Ti.
+P0532 The first two transitions come from the Model G directional relations. The final step comes from the transported Model A routing cube.
+P0533 IEE Si occupies G6, the reserve-replenishing Manipulative position. A candidate experimental cycle is therefore
+P0534 Si→Te→Ne→Fe→Ti⇝Si.
+P0535 The first four transitions are lawful single moves: Si→Te and Fe→Ti are primitive edges of ΓIEE, and Te→Ne→Fe is the Model G spine. The closing return Ti⇝Si is not a primitive move: A4 and A5 differ in all three cube coordinates, so no single routing edge joins Ti to Si, and no source-defined chord supplies the step. The shortest lawful returns are three-edge routing paths, for example Ti→Fi→Te→Si, which exits through G5 and the Launching position G4 before re-entering the replenishing G6 state, or Ti→Se→Ni→Si. The cycle is therefore a five-stage energetic schedule whose return leg is a multi-edge relaxation path rather than a single transition.
+P0536 This cycle is not asserted as a universal psychic law. It is a proposed control policy assembled from source-defined energetic roles and derived routing adjacency.
+P0537 Part VI. Synthesis, Limits, and Tests
+P0538 25. Kinematics, dynamics, and control
+P0539 The unified architecture separates into three mathematical levels.
+P0540 25.1 Kinematics
+P0541 Kinematics specifies the admissible static structures:
+P0542 P=AG3,2,  E=AG3,2,  TJ=AG4,2,
+P0543 lawful frames fT:P→E, Reinin characters, affine type groups, and intertype frame transformations.
+P0544 25.2 Dynamics
+P0545 Dynamics specifies changes through time:
+P0546 σt,  ρt,  xt,  Rt.
+P0547 Humanitarian Socionics supplies the hierarchy of temporal rigidity. Model G supplies energetic roles and partial directional constraints.
+P0548 25.3 Control
+P0549 Control asks how deliberate intervention changes a state trajectory:
+P0550 ct↦xt+1.
+P0551 For fixed TIM T, the central question is
+P0552 How can the system reach target state y at minimum admissible cost?
+P0553 This is the mathematical form of deliberate cognitive routing used in this paper.
+P0554 26. The unified object
+P0555 The architecture can be summarized by the following dependency chain:
+P0556 TJ=AG4,2↓ selects a lawful TIM frameP=AG3,2↔fTE=AG3,2↓Model G energetic atlas↓ΓT+directed energetic chords↓Ψt=T,σt,ρt,xt,Rt↓controlled cognitive trajectories.
+P0557 The principal associated structures are:
+P0558 Structure
+P0559 Mathematical form
+P0560 Reinin dichotomies
+P0561 Nonzero elements of TJ∨.
+P0562 Type groups
+P0563 Affine subspaces and cosets of TJ.
+P0564 Shared traits of group H
+P0565 Nonzero elements of H⊥.
+P0566 Intertype relations
+P0567 Grel.
+P0568 Relation + estafette dynamics
+P0569 F23⋊D4.
+P0570 OIG
+P0571 Observational quotient of the affine carrier.
+P0572 Type-specific routing
+P0573 ΓT=fTQ3.
+P0574 Controlled state
+P0575 Ψt=T,σt,ρt,xt,Rt.
+P0576 The unification is therefore not one new object replacing all Socionic models. It is one carrier architecture on which the different models become coordinates, quotients, fields, or dynamics.
+P0577 27. Structural results
+P0578 Within the locked model, the reconstruction gives the following results:
+P0579 Eight Model A positions. They exhaust F23.
+P0580 Seven nontrivial position dichotomies. A three-dimensional binary space has 23−1=7 nonzero linear characters.
+P0581 Eight IEs and seven IE dichotomies. IE space is a second copy of F23.
+P0582 Sixteen lawful TIM stacks. There are eight IE origins and two lawful frame orientations.
+P0583 Fifteen Reinin dichotomies. Jungian TIM space is F24, whose nonzero dual has 24−1=15 elements.
+P0584 The 7/3/1 group pattern. Pair, quartet, and octet traits are given by annihilator dimensions.
+P0585 Thirty-five quartet geometries. F24 has thirty-five two-dimensional linear subspaces.
+P0586 Coherent intertype action. The relation group acts simply transitively on lawful TIM frames.
+P0587 OIG Contrary degeneracy. Contrary lies in the kernel of the induced OIG lens action.
+P0588 Model A and Model G share one carrier. Their static positions differ by an invertible affine reindexing.
+P0589 Weakness and competence are independent variables. Model A position, profile, current activation, and reserve are distinct state components.
+P0590 Deliberate non-native access does not require type change. It is represented by a controlled trajectory of xt on GT.
+P0591 These results divide naturally into two classes. Items 1 through 10 concern finite static structure and group action. Items 11 and 12 depend on the multiscale dynamical completion.
+P0592 28. Open parameters and limits
+P0593 The finite affine reconstruction is more complete than the control-theoretic layer. Several dynamical quantities remain unspecified:
+P0594 No source-derived numerical transition kernel KTy∣x is known.
+P0595 No calibrated transition-cost matrix CTx→y is known.
+P0596 No canonical scalar unit for energetic reserve Rt is supplied.
+P0597 No empirical learning rate η has been established for profile adaptation.
+P0598 No subtype transition or barrier matrix is known.
+P0599 The proposed control theory therefore has a finite topology and qualitative constraints, but not calibrated numerical parameters.
+P0600 The torus question has a separate limit. The finite carrier is compatible with T32, but the locked observables do not determine the continuous topology of T3. A toroidal completion must remain explicitly additional.
+P0601 These limits should be kept separate. Failure of a proposed dynamical law would not, by itself, refute the affine reconstruction. Likewise, the affine reconstruction does not establish the psychological validity of Socionics.
+P0602 29. Empirical program
+P0603 The architecture suggests a direct testing program for a fixed TIM T.
+P0604 Repeated tasks can be used to estimate:
+P0605 Pxt+1=y∣xt,ut,ct,
+P0606 transition latency,
+P0607 state dwell time,
+P0608 subjective and behavioral fatigue,
+P0609 recovery time,
+P0610 practice-dependent changes in access cost.
+P0611 The dynamical completion predicts that:
+P0612 Transition costs depend on TIM-specific routing, not only on generic IE identity.
+P0613 Repeated routing can reduce access cost without changing TIM.
+P0614 A structurally weak IE can show high practiced competence but lower endurance.
+P0615 Model G Braking and Manipulative positions can differ in energetic cost even when Model A dimensionality matches.
+P0616 An indirect route can be cheaper than direct target-state entry when an intermediate state has better energetic or routing support.
+P0617 These predictions are falsifiable. Negative results would constrain the proposed transition kernel, cost model, reserve dynamics, or profile adaptation law. They would not automatically invalidate the finite affine results that do not depend on those parameters.
+P0618 30. Conclusion
+P0619 The strongest structure recovered from the canonical Socionic tables is finite rather than continuous.
+P0620 Model A position space is
+P0621 P=AG3,2.
+P0622 Information-element space is
+P0623 E=AG3,2.
+P0624 Each TIM is a lawful affine frame
+P0625 fT:P→∼E.
+P0626 The sixteen TIMs also admit a Jungian atlas
+P0627 TJ=AG4,2,
+P0628 whose nonzero dual gives the fifteen Reinin dichotomies. Affine subspaces of TJ give the canonical pair, quartet, and octet geometry. Their shared traits are annihilators.
+P0629 Intertype relations act on the lawful frames. The estafette enlarges this action to a finite noncommutative dynamical group. OIG is an observational quotient of the same carrier. Static Model G is an energetic atlas on that carrier rather than a second static space.
+P0630 Humanitarian Socionics then adds the variables needed to describe change through time:
+P0631 Ψt=T,σt,ρt,xt,Rt.
+P0632 The remaining mathematical problem is therefore not another static classification. It is the dynamics of movement through a known finite state architecture.
+P0633 That problem has a natural control-theoretic form:
+P0634 finite affine kinematics+group actions+multiscale energetic dynamics+controlled state transitions.
+P0635 The resulting claim is conditional:
+P0636 If the canonical Socionic structures are accepted as inputs, they admit a substantially unified finite mathematical architecture.
+P0637 Whether that architecture accurately describes human cognition remains a separate empirical question.
+P0638 Appendix A. Machine verification
+P0639 Every finite claim of Parts I–III, and every static claim of Parts IV–V, was checked exhaustively by direct computation over the sixteen canonical Model A stacks. The checks are summarized below; all of them pass.
+P0640 Static architecture. The Frame Theorem of Section 4 holds for all sixteen stacks: each stack satisfies the displayed formula with the leading-to-creative displacement restricted to the two lawful values, the sixteen origin–orientation pairs are pairwise distinct, and the orientation bit takes the value 1 exactly on the Democratic types. The Jungian coordinate change of Section 5, completed by the affine relations E=le and P=1⊕lq, reproduces the four Jungian coordinates of all sixteen TIMs. The dimensionality formula of Section 2 reproduces the sequence 4, 3, 2, 1, 1, 2, 3, 4, and the strength, contact, and bold fields select positions {1, 2, 7, 8}, {2, 3, 5, 8}, and {1, 3, 6, 8} respectively. The seven nonzero forms on information-element space reproduce the canonical static, abstract, and quadra-valued partitions of the eight elements.
+P0641 Duality. All fifteen Reinin assignments of Section 6 agree with the canonical membership lists of the sixteen types. Dual pairs share exactly seven nontrivial Reinin traits; quadras, temperaments, and clubs share exactly three each, and the shared traits are exactly the annihilator characters named in Sections 7 and 8. Four-dimensional binary space contains exactly thirty-five two-dimensional subspaces.
+P0642 Relation actions. The sixteen relation maps computed from the canonical stacks are independent of the base TIM, affine, and closed under composition. Exactly eight are translations, and the remaining eight share the involutive linear part stated in Section 9. The group is nonabelian with element orders 1 (once), 2 (eleven times), and 4 (four times), matching the direct product of the dihedral group of order eight with a two-element group; the four order-four elements are precisely the benefit and supervision relations. Adjoining the estafette quarter-turn yields a group of order sixty-four with exponent four and center consisting of Identity and Super-Ego, and the square of the quarter-turn equals the Activation translation, as stated in Section 10.
+P0643 Model G, DCNH, and routing. The Model G reindexing of Section 13 is an invertible permutation consistent with the worked IEE table of Section 24; the first and third Model G polarity fields coincide with the strength and bold fields, and the polarity triple is an invertible affine change of coordinates. Each DCNH core pair of Section 15 differs only in the internal/external coordinate. In the transported IEE routing cube, Ti has primitive neighbors Se, Fi, and Fe; the positional spine reads Te, then Ne, then Fe; and the closing return of the Section 24 cycle is confirmed to require a three-edge routing path, as now stated there.

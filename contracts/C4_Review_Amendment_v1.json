@@ -1,0 +1,9 @@
+{
+  "version": "C4-review-v1",
+  "reason": "A separate review probe accepted the same paid renewal exchange under another operation key, producing another authorized commitment.",
+  "rule": "A C4 Commune expenditure attempt consumes its exact actor/offer/reply tuple at start. Cancellation, later failure and checkpoint restoration preserve this consumption. A new commitment requires a new exchange.",
+  "scope": "C4 renewal only; default inherited C1-C3 contracts unchanged",
+  "controls": ["completed attempt reuse", "cancelled attempt reuse", "reuse after exact restoration"],
+  "performance_tolerances_unchanged": true,
+  "prior_evidence": "renewal_review_probe.log; initial witnesses retained separately"
+}

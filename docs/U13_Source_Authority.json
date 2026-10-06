@@ -1,0 +1,64 @@
+{
+  "schema": "hle-u13-authority-v1",
+  "rules": [
+    {
+      "mechanism": "compiled shape predicates",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    },
+    {
+      "mechanism": "equality-verified integer structural pool",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    },
+    {
+      "mechanism": "32-revision anchors",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    },
+    {
+      "mechanism": "indexed identity membership",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    },
+    {
+      "mechanism": "typed particular query keys",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    },
+    {
+      "mechanism": "post-restore immutable sharing",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    },
+    {
+      "mechanism": "actor-specific per-command read checks with commit-time invalidation",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap; fixed semantic preservation and paid-work requirements"
+    },
+    {
+      "mechanism": "256-transaction archival segments",
+      "status": "implementation_choice",
+      "basis": "U13 roadmap and foundation section 8"
+    }
+  ],
+  "performance_targets": "unchanged U1 Efficiency_Acceptance_v1 plus prospective U13_Protocol_v1 native panel",
+  "unassessed": [
+    "U14 held-out release",
+    "R21C release",
+    "unrestricted performance scaling",
+    "broader psychological validity"
+  ],
+  "input_files": {
+    "HLE_Unified_Object_Engine_Implementation_Roadmap_After_U12(1).md": "449425ff071da01f84c30e596e87063d77487780d6c4b50414611debf8caa7ad",
+    "HLE_Unified_U12_Report_v1.md": "3c16d236a6b38197e6176aec98c6ccb86c30b08820318bba106ce0844937a3c4",
+    "HLE_Unified_U12_Evidence_v1.zip": "a02a0c04cf65e1254b22a7d5a7aaf4038efb45a944295cc5d44cc9250628ef04",
+    "HLE_Unified_U12_Source_v1.zip": "732eaebef90261fbdbc617388e5277d854c1d7a9ac6065ecc649df6caa3032ff"
+  },
+  "fresh_inspection": [
+    "Supplied U12 source, evidence, report and roadmap",
+    "Frozen U1 Efficiency_Acceptance_v1 and inherited performance worker",
+    "Foundation section 8 exact reconstruction and separation of machine cost from modeled cost"
+  ],
+  "authority_limit": "Physical engineering improvements only. Existing theory constraints and their status are inherited; no new source-derived psychological mechanism or empirical claim."
+}

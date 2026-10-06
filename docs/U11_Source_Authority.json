@@ -1,0 +1,25 @@
+{
+  "execution_manifest_sha256": "95fe6b58d3f314b4f0959535c736a30ebaab0e0e68cbc844a9113f3043ae897e",
+  "execution_file_count": 319,
+  "predecessor_changed": [
+    "README.md",
+    "hle_unified/operation_audit.py"
+  ],
+  "frozen_baseline_files": 3044,
+  "baseline_runtime_modules": 98,
+  "schema": "hle-u11-source-authority-v1",
+  "input_archive": "HLE_Unified_U10_Source_v1(1).zip",
+  "input_sha256": "806c9f390f1c1c445e7bee61ec4b136f53e60e670cf9dde0d9842426dec1d1f5",
+  "authoritative_writer": "native U4 OperationStore, through CollectiveEngine extending LanguageEngine",
+  "baseline": "All 3044 frozen R21B members including 98 runtime modules remain unchanged.",
+  "inherited_changes": [
+    "README.md: U11 reproduction entry point",
+    "hle_unified/operation_audit.py: U11 route marker accepted by the existing extent-validation hook"
+  ],
+  "new_runtime": [
+    "hle_unified/collective_records.py",
+    "hle_unified/nesting.py",
+    "hle_unified/collective.py",
+    "hle_unified/collective_audit.py"
+  ]
+}

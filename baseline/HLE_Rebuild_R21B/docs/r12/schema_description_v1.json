@@ -1,0 +1,930 @@
+{
+  "schema": "hle-r12-record-description-v1",
+  "records": {
+    "VersionOne": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        }
+      ]
+    },
+    "StructuralFingerprint": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "tim",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "model_a_stack",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "dimensions",
+          "type": "tuple[int, ...]",
+          "keyword_only": false
+        }
+      ]
+    },
+    "ResourceEnvelope": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "energy",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        },
+        {
+          "name": "time",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        },
+        {
+          "name": "replenishment_rule",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        }
+      ]
+    },
+    "Requirement": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "name",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "magnitude",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        }
+      ]
+    },
+    "DevelopmentalDemand": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "origin",
+          "type": "<enum 'Origin'>",
+          "keyword_only": false
+        },
+        {
+          "name": "origin_events",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "discovered_from",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "family",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "comparison_protocol",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "required_outcomes",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "movements",
+          "type": "tuple[hle.crux.FormalMovement, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "context",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "participants",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "material_lineage",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "constraints",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "duration",
+          "type": "<class 'hle.contracts.TimeScope'>",
+          "keyword_only": false
+        },
+        {
+          "name": "resources",
+          "type": "<class 'hle.development_contracts.ResourceEnvelope'>",
+          "keyword_only": false
+        },
+        {
+          "name": "requirements",
+          "type": "tuple[hle.development_contracts.Requirement, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "prior_demand",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        }
+      ]
+    },
+    "DemandComparison": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "current",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "prior",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "relation",
+          "type": "<enum 'Comparison'>",
+          "keyword_only": false
+        },
+        {
+          "name": "changes",
+          "type": "tuple[tuple[str, int, int], ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "reason",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        }
+      ]
+    },
+    "Opportunity": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "actor",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "demand",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "at",
+          "type": "<class 'hle.contracts.Moment'>",
+          "keyword_only": false
+        },
+        {
+          "name": "demand_active",
+          "type": "<class 'bool'>",
+          "keyword_only": false
+        },
+        {
+          "name": "observation_refs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "interpretation",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        },
+        {
+          "name": "available_operator",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        },
+        {
+          "name": "required_units",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        },
+        {
+          "name": "resources",
+          "type": "<class 'hle.development_contracts.ResourceEnvelope'>",
+          "keyword_only": false
+        },
+        {
+          "name": "blocking_constraints",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "block_position",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        },
+        {
+          "name": "queue_entered",
+          "type": "hle.contracts.Moment | None",
+          "keyword_only": false
+        },
+        {
+          "name": "eligible_engagements",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        }
+      ]
+    },
+    "MaterialTreatment": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "lineage",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "origin_actor",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "source_events",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "treating_actor",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "treatment",
+          "type": "<enum 'Treatment'>",
+          "keyword_only": false
+        },
+        {
+          "name": "carrier",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        },
+        {
+          "name": "previous_revision",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        },
+        {
+          "name": "selection_evidence",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "work_refs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "consequences",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        }
+      ]
+    },
+    "DevelopmentalWork": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "actor",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "demand",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "operator",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "movement",
+          "type": "<class 'hle.crux.FormalMovement'>",
+          "keyword_only": false
+        },
+        {
+          "name": "inputs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "event_refs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "work_refs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "required_units",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        },
+        {
+          "name": "paid_units",
+          "type": "<class 'int'>",
+          "keyword_only": false
+        },
+        {
+          "name": "status",
+          "type": "<enum 'WorkStatus'>",
+          "keyword_only": false
+        },
+        {
+          "name": "outputs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        }
+      ]
+    },
+    "RetainedCapacity": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "holder",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "content_aspect",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "operator",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "binding",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "context",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "material_lineage",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "acquisition_work",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "practice_events",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "dependencies",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "status",
+          "type": "<enum 'CapacityStatus'>",
+          "keyword_only": false
+        },
+        {
+          "name": "supersedes",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        }
+      ]
+    },
+    "ShellEpisode": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "actor",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "material_lineage",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "demands",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "signs",
+          "type": "tuple[hle.development_contracts.ShellSign, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "mechanism",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        },
+        {
+          "name": "opportunities",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "trajectory_events",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "protocol",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "status",
+          "type": "<enum 'EvidenceStatus'>",
+          "keyword_only": false
+        },
+        {
+          "name": "capacity_revisions",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "earlier_episode",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        }
+      ]
+    },
+    "ClosureEvidence": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "organization",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "lower_organizations",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "demand",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "repertoire",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "repertoire_exhausted",
+          "type": "<class 'bool'>",
+          "keyword_only": false
+        },
+        {
+          "name": "search_censored",
+          "type": "<class 'bool'>",
+          "keyword_only": false
+        },
+        {
+          "name": "alternatives_evidence",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "retained_lower_evidence",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "new_capacity_evidence",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "coherence_evidence",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "minimality_order",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "equal_minima",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "status",
+          "type": "<enum 'EvidenceStatus'>",
+          "keyword_only": false
+        }
+      ]
+    },
+    "ResidualObservations": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "events",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "queue_entered",
+          "type": "hle.contracts.Moment | None",
+          "keyword_only": false
+        },
+        {
+          "name": "observed_at",
+          "type": "<class 'hle.contracts.Moment'>",
+          "keyword_only": false
+        },
+        {
+          "name": "eligible_engagements",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "canceled_work",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "intensity_measurement",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        }
+      ]
+    },
+    "DevelopmentalState": {
+      "module": "hle.development_contracts",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "actor",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "at",
+          "type": "<class 'hle.contracts.Moment'>",
+          "keyword_only": false
+        },
+        {
+          "name": "gamma",
+          "type": "<class 'hle.development_contracts.StructuralFingerprint'>",
+          "keyword_only": false
+        },
+        {
+          "name": "organization",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "movement",
+          "type": "<class 'hle.crux.FormalMovement'>",
+          "keyword_only": false
+        },
+        {
+          "name": "content",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "shell_episodes",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "phase",
+          "type": "<enum 'Phase'>",
+          "keyword_only": false
+        },
+        {
+          "name": "phase_evidence",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "residual",
+          "type": "<class 'hle.development_contracts.ResidualObservations'>",
+          "keyword_only": false
+        },
+        {
+          "name": "demands",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "opportunities",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "resources",
+          "type": "<class 'hle.development_contracts.ResourceEnvelope'>",
+          "keyword_only": false
+        },
+        {
+          "name": "material_lineage",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "capacities",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "trajectory_events",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        }
+      ]
+    },
+    "IdentityContract": {
+      "module": "hle.development_protocol",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "state_domain",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "features",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "discriminating_pairs",
+          "type": "tuple[tuple[str, str], ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "scope",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        }
+      ]
+    },
+    "ReturnProtocol": {
+      "module": "hle.development_protocol",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "ref",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "identity",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "transformation",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "return_policy",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "applicability",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "resource_protocol",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "path_conditions",
+          "type": "tuple[str, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "sequences",
+          "type": "tuple[tuple[str, ...], ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "equivalence_proof",
+          "type": "hle.contracts.Ref | None",
+          "keyword_only": false
+        }
+      ]
+    },
+    "AcceptanceEvidence": {
+      "module": "hle.development_protocol",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "case_id",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "protocol_sha256",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "status",
+          "type": "<enum 'EvidenceStatus'>",
+          "keyword_only": false
+        },
+        {
+          "name": "run_kind",
+          "type": "<class 'str'>",
+          "keyword_only": false
+        },
+        {
+          "name": "evidence_refs",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        }
+      ]
+    },
+    "LensContent": {
+      "module": "hle.development_structure",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "<class 'int'>",
+          "keyword_only": true
+        },
+        {
+          "name": "domains",
+          "type": "tuple[hle.crux.Perspective, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "foreign",
+          "type": "tuple[hle.contracts.Ref, ...]",
+          "keyword_only": false
+        },
+        {
+          "name": "context",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        },
+        {
+          "name": "projection_contract",
+          "type": "<class 'hle.contracts.Ref'>",
+          "keyword_only": false
+        }
+      ]
+    }
+  }
+}

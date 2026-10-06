@@ -1,0 +1,18 @@
+{
+  "schema": "hle-u13-interaction-protocol-v1",
+  "frozen_utc": "2026-09-21T17:01:16.599925+00:00",
+  "status": "supplemental stricter coverage; no original gate is replaced or weakened",
+  "cases": [
+    "tool",
+    "pump"
+  ],
+  "warmup_runs": 1,
+  "measured_runs": 3,
+  "timing_scope": "Complete fresh two-participant institutional episodes, including fixture initialization and paid acquisition; offline audit, serialization and compression are outside timing. These episode timings are additional to the primary participant-only samples.",
+  "episode": "Generate and maintain a rule; record a public approval delay and dispute; private correction cannot amend without partner consent; preserve rejected amendment; independent partner correction permits counterproposal, collective revision and actual constituent work.",
+  "geometric_mean_episode_time_ratio_max": 0.85,
+  "each_episode_time_ratio_max": 1.1,
+  "protected": "Exact checkpoint, transaction, actor-view, wallet accounting, refusal and public outcome equality on every repetition.",
+  "execution": "Sequential reference and candidate workers on the same interpreter and machine. Immutable U12 reference and U13 runtime. No runtime tuning after this declaration without retaining all measurements and rerunning this supplement.",
+  "relation_to_U13": "Explicit participant-interaction coverage in addition to the original shared, unique and densely linked storage cases. Existing numeric budgets and all original cases remain mandatory."
+}

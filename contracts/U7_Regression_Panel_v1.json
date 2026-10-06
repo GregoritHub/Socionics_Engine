@@ -1,0 +1,10 @@
+{
+  "schema": "hle-u7-regression-panel-v1",
+  "declared_before_final_run": true,
+  "base": "U6 selected legacy regressions, deduplicated by test ID",
+  "additional_full_modules": [
+    "tests.test_assessment",
+    "tests_r15.test_compensation"
+  ],
+  "reason": "Retain demand-conditioned Shell assessment, actual paid compensation, carrier, counterevidence and isolation controls in the untouched legacy namespace."
+}

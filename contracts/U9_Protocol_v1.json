@@ -1,0 +1,48 @@
+{
+  "schema": "hle-unified-u9-protocol-v1",
+  "declared_utc": "2026-09-21T12:09:04.783215+00:00",
+  "cases": {
+    "U9-01": "Acquired primitives, relational conditions, sequences, alternatives and finite reusable calls; absent complete answer synthesized and physically tested.",
+    "U9-02": "Useful composition transfers to unfamiliar materials; names and evaluator labels cannot change semantic choice.",
+    "U9-03": "Observed failed generalization creates discrepancy and consequence demands; paid search, test and conditional revision preserve prior history.",
+    "U9-04": "Search existing capacities first, save frontier and deferred work, extend funded depth with no fixed representation cap; distinguish limited budget and bounded repertoire exhaustion.",
+    "U9-05": "Paid work, actor-owned acquisition, hidden-state isolation, stale dependencies, no effect from prediction, exact partial replay and raw auditing; U2-U8 and inherited protected regressions."
+  },
+  "language": [
+    "acquired material action",
+    "sequence",
+    "conditional",
+    "alternative",
+    "versioned subprocedure call",
+    "field/value and field/field relation"
+  ],
+  "domain": "Finite U4 workshop material laws. Complete procedures are runtime outputs. Initial needs, affordances and primitive practice opportunities are supplied.",
+  "search": "Breadth first over acquired primitive actions and retained macro calls. Each ticket is finite and paid. Depth may increase without deleting deferred nodes. No solution claims beyond explicit depth/repertoire.",
+  "induction": "Initial concept uses observed starting condition. Counterexamples trigger a separator from observed feature differences and preserve successful branch as a versioned subprocedure. This is a declared engineering induction rule.",
+  "panel": {
+    "training": {
+      "max_wear": 3,
+      "condition": "damaged",
+      "required_uses": 1
+    },
+    "transfer": {
+      "max_wear": 4,
+      "condition": "damaged",
+      "required_uses": 1
+    },
+    "counterexample": {
+      "max_wear": 1,
+      "condition": "damaged",
+      "required_uses": 1
+    },
+    "revised_return": {
+      "max_wear": 1,
+      "condition": "damaged",
+      "required_uses": 1
+    },
+    "depth_extension_uses": 3
+  },
+  "held_out_scope": "Transfer fixtures excluded from acquisition and induction until first execution; declared development panel, not U14 release holdouts.",
+  "regression": "Reproduce U8 610 distinct tests, all U2-U8 native witnesses, and preserve all baseline bytes.",
+  "claim_boundary": "No arbitrary semantics, unbounded practical search, natural-language generation, spontaneous institution, or arbitrary-composition closure."
+}

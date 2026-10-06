@@ -1,0 +1,677 @@
+P0001 PARAMETRIC FIELD PSYCHOLOGY
+P0002 DENSE CONSCIOUSNESS
+P0003 Developed Edition — Version 6.0
+P0004 Psychiatry, Psychology, and the Growth of Stable Organization
+P0005 Rebuilt against kernel 5.2, Unified Shell Geometry v1.1, the Topographical Atlas v0.1, A Fresh Perspective on Disorder v1.0, and Holonic Living Engine Consolidated Edition 1.0. Incorporates the August 28 closure ledger. This edition develops the clinical reading as a standalone document: it carries the tables the clinic needs, operationalizes the observations the theory already states, and does not add a theorem.
+P0006 Scope and status.
+P0007 This is a formal-model document with a clinical reading attached, not a clinical document. Every psychological, physiological, or social reading herein is [interpretive] and non-load-bearing for the algebra. Nothing in this document diagnoses, treats, or describes any person.
+P0008 v5.1 carried a seven-grade status ledger. This edition maps that ledger onto the ten-grade scale of Holonic Living Engine Consolidated Edition 1.0, Appendix A, so the two documents can be read against one another without translation.
+P0009 The development adds no theorem, no completion, and no election. Where a table is absorbed from the Atlas or the Disorder paper it is marked carried. Where an observational protocol is written, it operationalizes a prediction the sources already state. Sentences that exist only to make the clinical reading self-sufficient carry the tag [development note] and can be struck without touching the algebra.
+P0011 The model in three statements.
+P0012 1. Biological instability can disrupt thought, emotion, and action.
+P0013 2. Stable psychological organization — density — can keep a person oriented during that instability.
+P0014 3. Psychiatry and psychology support different levels of one nested living system, and the kernel now states exactly where each level enters.
+P0016 What changed since v5.1, in one paragraph.
+P0017 v5.1 closed the v4 holes: density identified with the retained complement under A23 refined; effective dimensionality retired; Item 10 dissolved and replaced by Item 10′; fifth Shell sign and Demand-Blindness adopted; CAPE mapped to the crossing and the gate; Practice priced by time reversal; joint load × lap-step prediction stated. What v5.1 could not do, as a standalone paper, was be used. The ordering prediction lived in the Atlas. The expected / necessary / converted grammar lived in the Disorder paper. Demand-Blindness was stated and not operationalized. The dual-first stall — the clinical face of Item 10’s dissolution — was one sentence. There were no figures. This edition carries those tables, writes the protocols the predictions already imply, expands the dual findings, adds five figures, and keeps every open item open.
+P0019 How to read this edition
+P0020 The paper has four movements. Part I states the object: density, the four levels, capacity under load, and the two load terms. Part II states the dynamics the clinic walks: conductivity and the five signs, CAPE as crossing and gate, the terrain, and the Disorder paper’s three claims. Part III is practice: the division of labor, the four-stage path, how density grows, an observational protocol, and worked examples. Part IV is the ledger.
+P0021 A reader who wants only the clinical path can start at §9 and follow the pointers down. Nothing in an upper section is asserted that a lower section does not carry. A reader who wants only what the kernel proves can read the status ledger in §19 and stop.
+P0022 Two projections observe one object. The Crux projection answers what transformation is being attempted. The OIG projection answers what changed, what persisted, what cancelled, what returned. They are two resolutions of one realized trajectory, never two mechanisms. Demand is required to tell them apart from rest.
+P0024 Source
+P0025 What this edition carries from it
+P0026 Grade of the carrying
+P0027 Kernel 5.2 (sealed pyref)
+P0028 Facet law; A23 refined; no-altitude-branch; 2+2 under relay+gate; State queue
+P0029 derived / implemented
+P0030 Unified Shell Geometry v1.1
+P0031 Five signs; demand clause; joint detector; generator; altitude as search
+P0032 source
+P0033 Topographical Atlas v0.1
+P0034 Terrain, clock, portages, theorems, Chart T4 itineraries
+P0035 carried; derived in Atlas
+P0036 A Fresh Perspective on Disorder v1.0
+P0037 Expected / necessary / converted; five inversions; falsifiers
+P0038 carried; grades as sourced
+P0039 HLE Consolidated Edition 1.0
+P0040 Ten-grade scale; Part VI compression; C-register numbers
+P0041 alignment [development note]
+P0042 Dense Consciousness v5.1
+P0043 Every closed claim of that edition, restated, not re-argued
+P0044 prior edition
+P0046 Terms to know first
+P0047 Term
+P0048 Plain meaning
+P0049 Kernel-adjacent statement
+P0050 Density
+P0051 Strong internal organization. Values, skills, relationships, and goals form a stable whole that contains lower-level turbulence.
+P0052 The retained complement in the holon tower. Under A23 refined, retention is the only thing that stops the relay from dropping to the Super-Ego under pressure.
+P0053 Capacity under load
+P0054 How much of the situation a function can hold and use while turbulence is present. Replaces v4 “effective dimensionality.”
+P0055 Locked facets of the position (facet law) plus what the tower has retained. Development changes what arrives at a position, never how many parameters it processes.
+P0056 Conductivity
+P0057 A movement completes cleanly under demand. No persistent defensive distortion remains.
+P0058 C(H, D) ≠ ∅ for the required movement; realization (m, ∅, 0).
+P0059 Shell
+P0060 A self-maintaining distortion of an otherwise coherent movement, present only under demand.
+P0061 x = (m, S, ι), S ≠ ∅, π(m, S, ι) = m. Detected jointly: D_Shell = (D, Π_C, Π_O).
+P0062 Foreclosure
+P0063 Demand is present and the required movement never starts. Fifth Shell sign.
+P0064 Pure A under demand. Indistinguishable from rest without the demand term (Demand-Blindness).
+P0065 Ground state
+P0066 The native self-route of the current holon, running on two strong valued functions at displacement 00.
+P0067 Free, non-pathological, no architectural gradient out of it. Demand is required to initiate movement.
+P0068 CAPE
+P0069 A four-phase cycle — Release, Leadership, Reversion, Re-ownership — that tests and restores conductivity.
+P0070 Phase φ_t in the unified state X_t. Not in the kernel. Proxies: hold-charge (A37), cp crossing, time-reversal, A23 gate.
+P0071 Function State
+P0072 Short-term change in available bandwidth and demand threshold from acute chemistry.
+P0073 A reading of the pending Super-Ego queue at the occupied seat. Already in State. No float.
+P0074 Function Profile
+P0075 Stable shift in circuit baselines from chronic exposure and plasticity.
+P0076 No effect in 5.2 as a Shell-threshold gate at Role/Vulnerable. If it enters, it enters as persistence of the Super-Ego queue across laps.
+P0077 Altitude
+P0078 Developmental organization earned through repeated high-conductivity closures.
+P0079 h(H) = recursive depth of completed coherent closure. No successor function on tiers; counted, not indexed.
+P0080 Portage
+P0081 One of three cube translations that move a distortion without changing its accepting/producing directive.
+P0082 n compensation +(0,1,0); cp individuation +(0,0,1); a opposition +(0,1,1).
+P0083 Lap
+P0084 One four-step orbit of the estafette. Valued: 1→5→6→2. Subdued: 3→7→8→4.
+P0085 Directive bits 0,0,1,1 on both. The 2+2 anabolic/catabolic rhythm.
+P0086 Part I — The object
+P0087 1. The core idea
+P0088 Dense consciousness means strong internal organization. It does not mean physical thickness or constant mental activity.
+P0089 A dense psyche connects experience, values, skills, relationships, and long-term direction so that these parts support one another during stress. Lower-level changes can still be intense. The person notices the disturbance and keeps the larger direction of life in view.
+P0090 v4 could describe this; it could not say what it was in the model. The engine can now. Under the refined gate A23, a holon under pressure relays to its Super-Ego — the compensatory block — only while the complementary perspective is not retained. Once the tower has retained the complement, the same pressure no longer produces the drop. That retention is density. It is not a mood, a skill, or a chemical level; it is what the system carries back from the crossing and keeps.
+P0092 Formal mapping  [derived from A23 refinement; identification with v4 “density” is interpretive].
+P0093 Density(H) = the retained complementary capacity of the current holon. At a given altitude, density contains lower-level turbulence without residual Shell exactly when the pressure produced by that turbulence does not trigger the relay drop. Repeated high-conductivity closures increase retention, and retention is the only channel through which development changes the tick.
+P0096 Figure 2. Density is the retained complement under A23 refined.
+P0097 2. Four nested levels, and where the kernel begins
+P0098 The model describes four nested levels. Each depends on the levels below it and organizes their activity; influence also moves downward, as a stable value, habit, or relationship guides the response to a chemical change. The kernel begins at level 3. Levels 1 and 2 are below the sealed algebra and enter it, if at all, only as modulation of access parameters.
+P0099 The higher levels do not separate from biology. They describe more organized patterns within the same living system. The kernel’s discipline is the converse: the lower levels do not rewrite the higher ones. Chemistry changes access, not informational primitives, not the Model A baseline, not the sixteen-route grammar.
+P0102 Figure 1. Four nested levels. The kernel begins at level 3.
+P0103 Level
+P0104 What it includes
+P0105 Model term
+P0106 Kernel status
+P0107 1. Chemical
+P0108 Neurotransmitters, hormones, ions, receptors, metabolism.
+P0109 Function State — short-term bandwidth and threshold.
+P0110 Not in kernel. Proposed load instrument.
+P0111 2. Neuronal
+P0112 Cell firing, synapses, local circuits; recurring activity patterns.
+P0113 Function Profile — stable baselines and Shell thresholds.
+P0114 Not in kernel. Candidate for Item 10′.
+P0115 3. Cognitive
+P0116 Perception, memory, thought, emotion, decisions coordinating the current situation.
+P0117 CAPE frame; Situation, Time, route, polarity, destination under demand.
+P0118 Implemented: crux/, demand/, metabolism/. Facets by the facet law.
+P0119 4. Integrated psyche
+P0120 Identity, values, relationships, life story, long-term direction.
+P0121 Altitude and retained complement; subtype as local expression of the TIM.
+P0122 Implemented: holon_tower/ with no tier successor; retention gate A23.
+P0124 The four-level picture is [interpretive] as a clinical frame. The level-3 / level-4 boundary is not: it is the kernel boundary. A different elected clinical vocabulary would relabel the levels without changing a theorem.
+P0125 3. Capacity under load (formerly Residual #2)
+P0126 v4 stated that effective dimensionality has two independent sources: the locked Model A baseline and a developmental radial contribution. The idea survives; the noun does not.
+P0127 3.1 Why “dimensionality” cannot carry the developmental term
+P0128 In the kernel, dimensionality is a defined quantity: the number of parameters a function processes (P1, Bukalov). verify_v5 enumerates all assignments of the four facets to boolean functions of (strong, bold) and finds exactly one nested law consistent with the dimension formula dim = 1 + 2·strong + bold.
+P0129 Facet
+P0130 Present when
+P0131 Positions
+P0132 experience
+P0133 always
+P0134 all eight
+P0135 norms
+P0136 strong ∨ bold
+P0137 absent only on the 1D pair {4, 5}
+P0138 situation
+P0139 strong
+P0140 the strong/weak dichotomy itself
+P0141 time
+P0142 strong ∧ bold
+P0143 the 4D pair {1, 8}
+P0145 Nothing developmental can add a facet. v4 already conceded this — “development does not equalize dimensions” — while using a phrase that implied otherwise. This edition retires “effective dimensionality” and uses capacity under load. A 1D function is 1D at every altitude.
+P0146 3.2 The two sources, restated
+P0147 Locked baseline. Position fixes dimensionality (4-3-2-1-1-2-3-4), valuation, mental/vital ring, and accepting/producing directive. These are the three coordinates (a, v, r) of the terrain and the facet law over them.
+P0148 Retained complement. The tower’s retained complementary capacity changes what arrives at a position under pressure. It does not change the position. A 1D function remains 1D; what changes is whether pressure on it is registered as demand the current holon can meet or as a trigger for the compensatory relay.
+P0149 Chemical and neuronal conditions modulate how much of the retained contribution is available under load. They do not change the information element, and they do not make positions equal. The same chemical event affects positions differently, and the ordering of that effect is fixed by the facet count.
+P0152 Figure 5. Capacity under load has two sources. Chemistry modulates access to both.
+P0153 3.3 Item 10 dissolved; Item 10′ recorded
+P0154 The kernel’s ledger recorded a theory-level tension: with dimensionality fixed by Model A, continuous directed pressure on a Role or Vulnerable function overloads it on every tick it arrives, so Shell Geometry §16.2 (“same or greater demand + less persistent distortion”) cannot be met under sustained load, and clearance is observed only when pressure pauses. The dual-first stall was cited as the reproduction. The ledger stated two ways out: either retention must change how Role/Vulnerable register pressure on the retained perspective — a reading of compensation — or clearance must be judged elsewhere.
+P0155 Function Profile was the first option written in prose, and v5.0 proposed it as the Item 10 term. It was then tested (probe_item10_clearance.py, 9/9). Both halves of Item 10 fail to reproduce in 5.2.
+P0156 Directed pressure at Role or Vulnerable never produces a persistent overload, because R3 queues mental-block input and A23 engages the Super-Ego for one tick and returns, so hits alternate and the streak never exceeds one.
+P0157 The dual-first plateau cited as the reproduction is starvation — an empty world with developed hunger — not overload.
+P0158 What the dynamics obstruct is retention, not clearance. A Function Profile gate on the complex threshold at 3/4 changes nothing in any regime; there is no activation to gate. Item 10′ replaces it: A27’s clearance test at the compensation carriers is vacuous in 5.2 (in a full socion flood the complex activates only at positions 2, 5, 6, 7, never at 3 or 4). Two readings stand, neither elected: count the overload streak per engagement of the block; or read the pending Super-Ego queue as the Shell’s metabolic observable. The second matches Demand-Blindness and Atlas 8.6. This edition does not elect (C9).
+P0160 What survives of Residual #2.
+P0161 The two-source structure of capacity under load is intact, and density as the retained complement is intact — that rests on A23, not on Item 10. What is retired is the claim that the developmental term enters at a Shell threshold. In engine terms the only load the seat ever sees is (i) facets it cannot process, already recorded as dropped residue under R1, and (ii) the queue of Super-Ego packets pending while the relay is elsewhere. Neither is a new number. Function Profile is no_effect_in_5_2; Function State survives as a reading of the queue.
+P0162 4. Function State and Function Profile as load terms
+P0163 Term
+P0164 Time scale
+P0165 Meaning
+P0166 Where it would enter the engine
+P0167 Grade
+P0168 Function State
+P0169 Short term
+P0170 Acute chemical and neuronal change alters current bandwidth and the demand threshold.
+P0171 The pending Super-Ego queue at the occupied compensation carrier — demand present, movement not yet processed. Seat-level foreclosure geometry (Atlas 8.6). Already in State.
+P0172 proposed completion
+P0173 Function Profile
+P0174 More stable
+P0175 Chronic exposure and plasticity alter usual baselines and Shell thresholds.
+P0176 Formerly the Item 10 term (a Shell-threshold gate at Role/Vulnerable). Tested: no effect in 5.2. If it enters at all, it enters as the persistence of the Super-Ego queue across laps.
+P0177 no effect in 5.2
+P0179 Constraint carried from the kernel.
+P0180 No float, no weight, no rate. The kernel and every V5 package are exact. A load term that enters as a continuous number would breach the seal. Two admissible forms remain: (i) an instrument switch with a small ordered set of values, default off, in the pattern of FIRING_POLICY and RELAY_GATE; (ii) a demand-magnitude ordering on D, which is already a first-class object. Which form is a build decision to be made against a source or a preregistered observation, not here (C13).
+P0182 Neither term touches dimensionality, the facet law, the estafette, the chords, or POS_COORD. They modulate access. This is the same posture the v4 edition took; it is now stated at the interface where it would be enforced.
+P0183 Part II — Dynamics the clinic walks
+P0184 5. Conductivity, the five Shell signs, and Demand-Blindness
+P0185 Conductivity asks one question: does the movement complete cleanly when demand increases? A conductive movement leaves no persistent defensive distortion after CAPE. A non-conductive movement leaves one or more Shell signs. v4 listed four; Shell Geometry 1.1 has five, and the fifth is the one that matters most for this document.
+P0186 Shell sign
+P0187 What it means
+P0188 Movement started?
+P0189 Π_O visibility
+P0190 Premature translation
+P0191 The active drive becomes a story, strategy, or opposite-polarity function too early.
+P0192 Yes
+P0193 Partial (144/192); remainder needs Π_C
+P0194 Forced placement
+P0195 The content moves toward a destination that does not match the active parameters.
+P0196 Yes
+P0197 Partial (1920/2040); remainder needs Π_C
+P0198 New defensive structure
+P0199 A defensive structure appears only after demand increases.
+P0200 Yes
+P0201 Fully Π_O-visible
+P0202 Residual fragmentation
+P0203 The same material still produces Shell signs after CAPE phases 1–3.
+P0204 Yes
+P0205 Fully Π_O-visible
+P0206 Foreclosure
+P0207 Under a specified demand requiring a non-current movement, the movement does not activate; the prevention persists through the conductivity test.
+P0208 No
+P0209 Fully Π_O-visible (pure A under demand)
+P0211 Π_O signatures for all five signs are derived (probe_shell_signatures.py, 13/13). Implementation remaining: metabolism/observe.py should carry the three fully-visible signatures; the two partial ones belong with Π_C in demand/detector.py. One protocol correction is owed: content_path(foreign=…) carries foreign content from the origin and cannot render sign 3, which is about appearance (C8).
+P0212 5.1 The demand clause
+P0213 The ground state — the native self-route of the current holon, running on two strong valued functions at displacement 00 — is free and non-pathological. There is no architectural gradient out of it; demand is required to initiate movement. Rest (no demand, self-route running) and foreclosure (demand present, movement not initiated) are therefore indistinguishable from the trajectory alone. This is the Demand-Blindness theorem, and it is why the detector is joint: D_Shell = (D, Π_C, Π_O).
+P0214 For a clinical reading the consequence is direct. A stabilized patient at rest and a stabilized patient foreclosed look the same to any observation that omits demand. The chemical stage of care cannot be judged successful on trajectory evidence without a specified demand.
+P0215 5.2 Rest versus foreclosure — the operational differential  [development note]
+P0216 v5.1 stated Demand-Blindness and stopped. The differential is already in the joint detector; this subsection only writes the observation in order.
+P0217 Step
+P0218 What is specified
+P0219 What is observed
+P0220 Reading if the sign is present
+P0221 Reading if the sign is absent
+P0222 0
+P0223 Nothing. Trajectory only.
+P0224 Self-route running, or stillness.
+P0225 Indeterminate. Rest and foreclosure are identical here.
+P0226 Indeterminate.
+P0227 1
+P0228 A demand D that requires a non-current movement.
+P0229 Whether m initiates.
+P0230 Foreclosure: pure A under demand. Prevention persists.
+P0231 Movement started. Not foreclosure. Inspect the other four signs.
+P0232 2
+P0233 The same D, after CAPE 1–3.
+P0234 Whether any of the five signs remain.
+P0235 Non-conductive. Name the sign. Do not call it altitude.
+P0236 Conductive under this D. Density may or may not yet hold under a harder D.
+P0237 3
+P0238 A harder D′ (more detail, more time, or a different route).
+P0239 Whether the A23 drop recurs.
+P0240 Complement not retained under D′. Gate still open.
+P0241 Gate holds under D′. Retention present at this demand.
+P0243 The differential does not invent an instrument. It uses D, Π_C and Π_O in the order Shell Geometry already requires. What it forbids is the sentence “the person is stable” said of a trajectory that was never placed under demand.
+P0244 6. CAPE as the crossing and the gate
+P0245 CAPE is a four-phase cycle that tests and restores conductivity. Phase φ_t is carried in the unified state X_t and is not in the kernel. The engine’s proxies are hold-charge under A37, the cp portage, time-reversal, and the A23 retention gate. The mapping is [interpretive] as a clinical cycle and derived as a correspondence to those proxies.
+P0248 Figure 4. CAPE mapped onto engine proxies. φ_t is not in the kernel; these are.
+P0249 Phase
+P0250 Plain instruction
+P0251 Engine proxy
+P0252 Sign the phase is designed not to leave
+P0253 Portage / gate
+P0254 1. Release
+P0255 Let the active drive remain present. Do not convert it into a story or action too early.
+P0256 Accepting seats hold charge (A37: under relay firing, charge waits for the expenditure turn rather than leaking).
+P0257 Premature translation
+P0258 None. Hold.
+P0259 2. Leadership
+P0260 Expand Situation and Time until the raw material has a stable frame.
+P0261 Re-aim from the n-image of the seat to its cp-image, against the lap. Situation and time are the strong and 4D facets.
+P0262 Forced placement
+P0263 cp begins
+P0264 3. Reversion
+P0265 Allow temporary disorder while the frame changes.
+P0266 Do not force a closure that would produce residual fragmentation. Terrain theorem 2: cp reverses the clock, so this phase runs against traffic and is priced accordingly.
+P0267 Residual fragmentation
+P0268 cp continues (against traffic)
+P0269 4. Re-ownership
+P0270 Test the stance under greater detail, time, or demand.
+P0271 The complement is carried back and kept. The relay no longer drops under the re-applied demand.
+P0272 New defensive structure; foreclosure
+P0273 Return + A23 gate
+P0275 Conductivity returns only when no Shell sign — including foreclosure — remains under re-applied demand. Insight can re-aim. It cannot walk the lap. That is §7.3.
+P0276 7. The terrain reading: which distortion, when, and at what cost
+P0277 The Atlas and the Disorder paper supply three results that v4 had no access to. Each changes a clinical sentence in this document from an assertion into a consequence. This edition carries the charts a clinical reader needs, so the prediction in §16 can be stated without opening a second file.
+P0278 7.1 Which distortion
+P0279 Each type seats the eight elements at the corners of the (a, v, r) cube, and each element carries an elected disorder label. distortion(T, p) = DISORDER[element_at(T, p)]. There is no distortion-free position and no distortion-free type; a system that shows compensatory distortion is exhibiting the model, not malfunctioning relative to it.
+P0280 The clinical corollary: “falling into chemicals” does not produce arbitrary disorganization. It produces the distortion of the seat under load, and the seat is known.
+P0281 Pos
+P0282 (a, v, r)
+P0283 Archetype
+P0284 Directive
+P0285 Tonicity
+P0286 Ring
+P0287 Dim
+P0288 1
+P0289 (0,0,0)
+P0290 Saint
+P0291 accepting
+P0292 valued
+P0293 mental
+P0294 4
+P0295 2
+P0296 (1,0,0)
+P0297 Missionary
+P0298 producing
+P0299 valued
+P0300 mental
+P0301 3
+P0302 3
+P0303 (0,1,0)
+P0304 Devil
+P0305 accepting
+P0306 subdued
+P0307 mental
+P0308 2
+P0309 4
+P0310 (1,1,0)
+P0311 Serpent
+P0312 producing
+P0313 subdued
+P0314 mental
+P0315 1
+P0316 5
+P0317 (0,0,1)
+P0318 God
+P0319 accepting
+P0320 valued
+P0321 vital
+P0322 1
+P0323 6
+P0324 (1,0,1)
+P0325 Innocent
+P0326 producing
+P0327 valued
+P0328 vital
+P0329 2
+P0330 7
+P0331 (0,1,1)
+P0332 Savage
+P0333 accepting
+P0334 subdued
+P0335 vital
+P0336 3
+P0337 8
+P0338 (1,1,1)
+P0339 Prophet
+P0340 producing
+P0341 subdued
+P0342 vital
+P0343 4
+P0345 Carried from Atlas Chart T0. Archetypes are position labels. The disorder vocabulary is an election from the Shadow Complex tables; a different elected table would relabel the corners without changing a theorem. The Si compulsion-versus-paranoia inconsistency is load-free for every topography verdict (Atlas T9; C37).
+P0346 7.2 When
+P0347 The estafette tours each type’s terrain in two four-step laps, valued and subdued, with the directive bits in the order 0, 0, 1, 1 on both — two accepting steps, then two producing. This is the 2+2 anabolic/catabolic rhythm the V5.2 pure finding measures at altitude (balance 0.000 under relay firing with the gate), here following from cube geometry. A distortion attributed to a seat should surface at that seat’s lap step.
+P0348 Psychiatric stabilization, in these terms, is what lets the lap run: it lowers turbulence so that accumulation is not spent on the wrong turn and the creative does not arrive to an empty psyche. That sentence inherits the off-by-default status of FIRING_POLICY = "relay" and RELAY_GATE = True (C16).
+P0349 7.3 At what cost
+P0350 Compensation n is the unique portage that commutes with the clock; individuation cp and opposition a reverse it. No portage changes the directive: only the estafette carries content across the accepting/producing divide. Together: a Shell is cheap to maintain because its upkeep runs with traffic; unwinding is expensive because it runs against the lap; and transformation cannot be performed instantaneously by any symmetry operation of the model. Content that must change directive has to be lived through the clock.
+P0353 Figure 3. Two laps, three portages. Only the clock crosses the directive.
+P0354 What this buys the clinical reading.
+P0355 v4’s Practice stage — “use the new patterns during ordinary stress until they become reliable” — was good advice with no formal ground. It now has one. Insight is a symmetry operation; it can re-aim from the n-image to the cp-image of a seat. It cannot cross the directive. The laps have to be walked. This is the formal skeleton under the old observation that insight alone does not cure, and it is why stabilization is a platform and not altitude.
+P0356 7.4 Carried itineraries — Atlas Chart T4
+P0357 Each row is the temporal order in which distortions appear as the relay tours that type’s terrain. The valued itinerary is the terrain of ordinary development. The subdued itinerary is the shadow country reached by the opposition portage, and it is the n-image of the valued lap read at the same steps. All sixteen valued itineraries are distinct. Carried from the Atlas; regenerated August 28 by probe_consolidated_terrain.py, 24/24.
+P0358 TIM
+P0359 Valued lap  Saint → God → Innocent → Missionary
+P0360 Subdued lap  Devil → Savage → Prophet → Serpent
+P0361 EIE
+P0362 dissociative → avoidant → passive-aggr. → narcissism
+P0363 schizoid → dependent → antisocial → paranoia
+P0364 EII
+P0365 dependent → schizoid → paranoia → antisocial
+P0366 avoidant → dissociative → narcissism → passive-aggr.
+P0367 ESE
+P0368 dissociative → avoidant → antisocial → paranoia
+P0369 schizoid → dependent → passive-aggr. → narcissism
+P0370 ESI
+P0371 dependent → schizoid → narcissism → passive-aggr.
+P0372 avoidant → dissociative → paranoia → antisocial
+P0373 IEE
+P0374 antisocial → paranoia → schizoid → dependent
+P0375 passive-aggr. → narcissism → dissociative → avoidant
+P0376 IEI
+P0377 narcissism → passive-aggr. → avoidant → dissociative
+P0378 paranoia → antisocial → dependent → schizoid
+P0379 ILE
+P0380 antisocial → paranoia → dissociative → avoidant
+P0381 passive-aggr. → narcissism → schizoid → dependent
+P0382 ILI
+P0383 narcissism → passive-aggr. → dependent → schizoid
+P0384 paranoia → antisocial → avoidant → dissociative
+P0385 LIE
+P0386 schizoid → dependent → passive-aggr. → narcissism
+P0387 dissociative → avoidant → antisocial → paranoia
+P0388 LII
+P0389 avoidant → dissociative → paranoia → antisocial
+P0390 dependent → schizoid → narcissism → passive-aggr.
+P0391 LSE
+P0392 schizoid → dependent → antisocial → paranoia
+P0393 dissociative → avoidant → passive-aggr. → narcissism
+P0394 LSI
+P0395 avoidant → dissociative → narcissism → passive-aggr.
+P0396 dependent → schizoid → paranoia → antisocial
+P0397 SEE
+P0398 passive-aggr. → narcissism → schizoid → dependent
+P0399 antisocial → paranoia → dissociative → avoidant
+P0400 SEI
+P0401 paranoia → antisocial → avoidant → dissociative
+P0402 narcissism → passive-aggr. → dependent → schizoid
+P0403 SLE
+P0404 passive-aggr. → narcissism → dissociative → avoidant
+P0405 antisocial → paranoia → schizoid → dependent
+P0406 SLI
+P0407 paranoia → antisocial → dependent → schizoid
+P0408 narcissism → passive-aggr. → avoidant → dissociative
+P0410 These labels name corners of a terrain, not persons. A study that uses this table specifies a TIM, a lap step, and a demand; it does not type a patient from a sign, and this paper does not either.
+P0411 8. Expected, necessary, converted
+P0412 A Fresh Perspective on Disorder v1.0 states the framework’s reading of compensatory distortion as three claims, each at a different epistemic grade, and records what would falsify it. The sentence documented is: compensatory cognitive distortions are expected, necessary, and the path forward that must be overcome. The framework endorses a corrected form, and the correction in the third clause is not a softening; it is what the algebra and the engine both say. This section carries that document into the clinical reading.
+P0413 Claim
+P0414 Statement
+P0415 Grade
+P0416 Expected — totality
+P0417 Every type carries a disorder label at every corner. A system showing compensatory distortion is exhibiting the model.
+P0418 derived, given the elected tables
+P0419 Expected — ordering
+P0420 A distortion attributed to a seat surfaces at that seat’s lap step, in the itinerary fixed per type.
+P0421 derived; stated testable (C31)
+P0422 Necessary
+P0423 Compensatory distortion is necessary at altitude boundaries, and only there, by the definition of the altitude law.
+P0424 definitional
+P0425 Converted
+P0426 Unwinding is transport, not erasure: n-image → cp-image of the same seat, against the lap, at the cost of time reversal. Retention is the closure condition.
+P0427 model-specified / derived / completion implemented
+P0428 Not instantaneous
+P0429 Transformation cannot be performed by any symmetry operation of the model. Content that must change directive has to be lived through the clock.
+P0430 derived (terrain theorems 1 and 2)
+P0432 8.1 Five inversions  [interpretive]
+P0433 If the three claims hold, five properties of “disorder” invert. None of this romanticizes distortion. The unhealthy trajectory is stated with equal force. The perspective is fresh because it declares distortion legible.
+P0434 Inversion
+P0435 Instead of
+P0436 The model says
+P0437 Positional, not essential
+P0438 what a system is
+P0439 where content sits on a terrain
+P0440 Scheduled, not random
+P0441 noise, or a type-free crisis
+P0442 it surfaces at its lap step; the itinerary differs by type
+P0443 Priced, not gratuitous
+P0444 perverse persistence
+P0445 maintenance is the one time-invariant route, so persistence is rational
+P0446 Informative, not merely obstructive
+P0447 a problem to silence
+P0448 a persistent Shell under demand marks the exact boundary where the current organization ends
+P0449 Material, not waste
+P0450 content to discard
+P0451 the compensatory regime carries what the higher closure retains; discard it and there is nothing to convert
+P0453 8.2 What would falsify it
+P0454 Three observables carry the synthetic content. All are stated by the sources as testable under specified conditions without new assumptions. None has been tested against human data. Until then the empirical column of the theory is a set of commitments, not results.
+P0455 C31 Ordering. Failure = off-schedule surface, or no type difference across itineraries.
+P0456 C32 Boundary signature. V high, N limited, K ≠ ∅ with recurrent Shell at boundaries; absent at horizontal adaptation. Failure = the signature under conductive realization, or its absence at boundaries.
+P0457 C33 Post-closure relief. Less compensatory complexity, less cancellation, less recurrence, greater retention after integration. Failure = closure without cost reduction, or reduction without retention.
+P0458 Part III — Practice
+P0459 9. Psychiatry and psychology support different levels
+P0460 Approach
+P0461 Primary work
+P0462 Purpose in this model
+P0463 In terrain terms
+P0464 Psychiatry
+P0465 Chemical and neuronal levels.
+P0466 Reduce severe instability; create a platform on which CAPE can operate under load.
+P0467 Lower Function State load so the lap runs 2+2 and foreclosure lifts.
+P0468 Psychology
+P0469 Thought, emotion, relationships, skills, identity, meaning.
+P0470 Build durable organization: density and conductive nesting.
+P0471 Transport n-image → cp-image against the lap; carry the complement back; close the retention gate.
+P0472 Joint work
+P0473 Connect biological stability with psychological growth.
+P0474 Meet greater demand without residual Shell.
+P0475 Same demand, fewer signs, greater retained complementary capacity (Shell Geometry §16.2).
+P0477 Medication can leave psychological work unfinished: the lap runs but nothing is transported. Psychological work can fail when biological instability remains severe: the crossing is attempted at a load the seat cannot hold and leaves residual fragmentation or foreclosure. The chemical platform supports development, but it is not altitude. Altitude is counted in closures, and closures require retention.
+P0478 The division of labor is [interpretive]. The claim it rests on is not: chemistry modulates access and does not rewrite primitives.
+P0479 10. A four-stage path toward greater stability
+P0480 The stages can overlap. A person can return to an earlier stage when conditions change. Autonomy is a direction, not a demand.
+P0481 Stage
+P0482 Plain purpose
+P0483 Integrated reading
+P0484 1. Stabilize
+P0485 Reduce severe turbulence when it blocks sleep, learning, reflection, or self-control.
+P0486 Lower the load at the occupied seat until Release can hold the active drive without premature translation and without foreclosure. The lap begins to run 2+2.
+P0487 2. Integrate
+P0488 Build stronger patterns of thought, identity, relationship, meaning, and action.
+P0489 Leadership: expand Situation and Time; re-aim from the compensating seat to its individuating partner. The crossing into the complement.
+P0490 3. Practice
+P0491 Use the new patterns during ordinary stress until they become reliable.
+P0492 Live the change through the clock. Repeated conductive laps under re-applied demand consolidate whatever Profile exists and build reversion tolerance. No shortcut exists (terrain theorems 1 and 2).
+P0493 4. Increase autonomy
+P0494 Use the least external support that remains safe and effective.
+P0495 The retention gate closes: the relay no longer drops to the Super-Ego under pressure because the complement is retained. The altitude is owned with less scaffolding.
+P0497 Important limit.
+P0498 Autonomy is a direction, not a demand. Some people need long-term support, and development does not equalize dimensions. Nothing in the model licenses withdrawing support on schedule; the gate closes when retention is present, and retention is observable only under specified demand.
+P0499 11. How psychological density grows
+P0500 Density grows through repeated experiences that strengthen higher-level organization. The formal model reads these experiences as conductive route compositions whose retained material survives the return. As these capacities strengthen, lower-level signals enter a larger context. The weather remains within the climate.
+P0501 Capacity
+P0502 Plain effect
+P0503 Model interpretation
+P0504 Coherence
+P0505 Thoughts, emotions, goals, and actions support one another.
+P0506 Routes remain distinct; their composition does not fragment. Low cancellation K relative to cumulative visibility V.
+P0507 Self-regulation
+P0508 The person notices a signal without immediately obeying it.
+P0509 Release holds the charge on an accepting seat; no premature translation.
+P0510 Secure relationships
+P0511 Trust reduces fear and corrects distorted expectations.
+P0512 WE-scale nesting; the dual carries the destination content at the mirrored archetype, so the complement is available from outside before it is retained inside.
+P0513 Narrative continuity
+P0514 A connected life story links past, present, and future.
+P0515 ITS-scale ordering; the temporal profile R preserves the history of closures that endpoint summaries miss.
+P0516 Values and purpose
+P0517 Commitments guide action when mood or conditions change.
+P0518 Retained complement prevents a secondary chemical event from cancelling the primary route — the A23 gate holding.
+P0519 Competence and community
+P0520 Useful work and shared responsibility strengthen identity.
+P0521 IT and WE composition; joint provenance (A38): content produced across holons and owned by neither.
+P0522 11.1 The dual as external complement
+P0523 v5.1 gave this one sentence. It is the paper’s cleanest clinical mechanism and it is already in the algebra.
+P0524 The return route is complementary → native for every TIM. The dual’s leading function is the requester’s suggestive; the dual’s creative lands on the requester’s activating. Both are checked for all sixteen TIMs. Content the current holon has not retained is therefore available, in the pair, from outside — at the mirrored archetype, along the return chord A6→A1 gated on retention.
+P0525 In clinical vocabulary [interpretive]: a reliable dual-scale relationship can hold the destination content while the crossing is unfinished. That is not altitude. It is an external scaffold for the complement. Density is what remains when the scaffold is no longer doing the holding — when A23 no longer drops because the complement has been carried back and kept. This is why Stage 4 is a direction measured under demand, not a calendar.
+P0526 11.2 Dual-first starvation — the clinical face of Item 10’s dissolution
+P0527 The dual-first plateau was cited in v4/v5.0 as the reproduction of Item 10: Role/Vulnerable overload under sustained load, clearance only when pressure pauses. In 5.2 the plateau is not overload. It is starvation. An empty world with developed hunger. The holon has requested on the suggestive; nothing arrives; retention cannot complete; the generator stalls at altitude 2.
+P0528 The clinical reading [interpretive] is exact and limited. Pairing with the dual does not by itself produce density. If the dual is absent, silent, or itself undeveloped, the suggestive request has nowhere to land and the activating never receives the creative that would feed the next closure. Flooding the field (a full socion) produces a different stall — activation at 2, 5, 6, 7, never at 3 or 4 — which is why Item 10′ is about the queue, not the Role/Vulnerable threshold.
+P0529 What the finding forbids: treating “find the dual” as a developmental completion. Regime I says pair development is a function of relation alone. It does not say the pair is sufficient under every delivery policy, and it does not say the pair writes retention. Retention is still the gate.
+P0530 12. Observational protocol
+P0531 The joint prediction and the ordering prediction are already stated. This section writes the observation in an order a study can follow. It adds no assumption. Every step names a term that already exists.
+P0532 12.1 Specifying demand
+P0533 A demand D is first-class. For a conductivity test it must name at least: the required movement (origin perspective, destination perspective, polarity), the TIM under observation, and whether the world is empty, paired, or populated. Without D, rest and foreclosure are the same observation (Demand-Blindness). Without the TIM, the itinerary is not fixed and C31 cannot fail.
+P0534 12.2 Reading D_Shell
+P0535 The detector is joint: D_Shell = (D, Π_C, Π_O). Π_C answers what transformation is being attempted. Π_O answers what changed (V), persisted (N), cancelled (K), returned (R). Maintenance is V = 1, N = 0, K = 1. Foreclosure is pure A under demand. New defensive structure and residual fragmentation are fully Π_O-visible. Premature translation and forced placement are partly Π_O-visible and need Π_C for the remainder.
+P0536 12.3 Protocol for the joint load × lap-step prediction (C34)
+P0537 #
+P0538 Specify
+P0539 Observe
+P0540 Predicted
+P0541 Failure
+P0542 1
+P0543 TIM T; current lap step (seat p); demand D of stated magnitude.
+P0544 Which Shell sign appears first, and at which seat.
+P0545 The first sign is the Atlas label of the occupied seat p.
+P0546 A sign surfaces at a seat other than p.
+P0547 2
+P0548 The same event at two seats of different facet count.
+P0549 Relative severity (queue length at the occupied carrier; residue dropped under R1).
+P0550 Severity orders inversely by facet count. {4, 5} worse than {1, 8}.
+P0551 Severity fails to order by facet count.
+P0552 3
+P0553 The Super-Ego queue at the occupied carrier.
+P0554 Whether the queue grows while the relay is elsewhere.
+P0555 Function State as queue growth, not as a rewritten dimension.
+P0556 Queue silent while signs appear, or dimensions appear to equalize.
+P0558 This is the first place Function State would enter the engine as something other than prose: a load term at the occupied seat, not a change to dimensionality. The form of that term remains open (C13).
+P0559 12.4 Protocol for the ordering prediction (C31)
+P0560 A distortion attributed to a seat should surface at that seat’s lap step, in the itinerary of Chart T4 for that TIM. Failure = off-schedule surface, or itineraries that do not differ by type. The study must specify demand and lap step. A retrospective chart that does not record seat and demand cannot test this claim, and cannot be cited as supporting it.
+P0561 13. Worked examples
+P0562 Every example below is [interpretive] as a reading and uses only terms already introduced. None describes a person.
+P0563 13.1 Four-layer reading of the podcast scenario
+P0564 The scenario describes an acute rattlesnake encounter followed by chronic hypervigilance, fragmented processing, spatial disorientation, stalled learning, and residual fear memories. It cites Baik (2020) on cortisol and serotonin effects and a 125–250 percent mesolimbic dopamine increase. The physiological figures are external_secondary and carried, not adjudicated.
+P0565 Chemical layer — Function State. An acute threat produces rapid cortisol and dopamine changes. The racing heart, impaired decisions, and cited dopamine surge fit Function State: a transient rise in load at the occupied seat. Se registers embodied force and boundary threat; Fe registers internal activation and fear charge. These are readings of the stimulus, not assignments of elements to brain structures (C15). Chemistry changes access, not primitives.
+P0566 Neuronal layer — Function Profile. Persistent startle weeks later is not Function State. The podcast links prolonged cortisol to reduced hippocampal volume and plasticity, dopamine fluctuation to impaired plasticity, low serotonin to impaired neurogenesis. Together these form a Profile shift: baselines move, and less of the retained contribution remains available under load. In 5.2 this cannot be a Role/Vulnerable threshold. If it is anything in the engine, it is persistence of the Super-Ego queue across laps.
+P0567 Cognitive layer — CAPE frame. The false “run” signal, flashbacks, fragmented retrieval, and spatial disorientation show incomplete processing under load. They map to four of the five signs: premature translation (the survival charge becomes an immediate story); forced placement (the charge goes to a mismatched destination); residual fragmentation (the material still produces signs after CAPE 1–3); and foreclosure (“stalled learning” and the “continuous state of survival”) — under a demand that requires a non-current movement, the movement does not initiate. Spatial disruption can also impair Si simultaneous-state indexing or Ni temporal indexing. Applying CAPE: Release holds the raw charge without an immediate story; Leadership expands Situation and Time and re-anchors the map; Reversion tolerates the trough; Re-ownership re-applies real demand. Conductivity returns only when no sign remains.
+P0568 Integrated psyche — density and altitude. A “continuous state of survival” is an arrested generator: C(H_k, D) = ∅ with no minimal higher closure found, because the load prevents the crossing from completing. Density cannot contain the chemical load; the relay drops under pressure because the complement is not retained; foreclosure holds the seat. Repeated successful CAPE cycles restore availability; each closure adds to retention. The weather then stays within the climate of direction.
+P0569 Limits of the mapping.
+P0570 This example assigns no informational primitives to brain structures. It uses the architecture to organize the scenario’s load dynamics — retained capacity becoming less available and CAPE failing to complete — and nothing more. The Baik citation is carried from v2.1 and v4 unchanged.
+P0571 13.2 Rest versus foreclosure under specified demand  [development note]
+P0572 Two observations that look identical on a quiet afternoon.
+P0573 Observation A. No demand is named. The self-route is running. Π_O is silent. This is rest, or it is foreclosure. The trajectory cannot say which.
+P0574 Observation B. Demand is named: a WE-destination route that the current holon does not dwell in, of stated polarity, under a world that actually requires the coordination. The movement does not initiate. Π_O reads pure A. The prevention persists through the conductivity test. This is foreclosure.
+P0575 A chemical intervention that returns Observation B to Observation A has built a platform. It has not closed an altitude. The next test is Observation B again, after CAPE, under the same D, then under a harder D′. Retention is the difference between “the afternoon is quiet” and “the gate holds.”
+P0576 13.3 Type itinerary under load — IEE as an Atlas row
+P0577 The IEE row of Chart T4 is used here as a terrain, not as a person. Valued lap, Saint → God → Innocent → Missionary: antisocial → paranoia → schizoid → dependent. Subdued lap: passive-aggressive → narcissism → dissociative → avoidant.
+P0578 Under acute load, C34 says the first Shell sign is the distortion of the currently occupied seat, with severity inverse to facet count. If the relay is on seat 1 (Saint, 4D, Ne in IEE), the predicted first sign is antisocial / immorality — the leading function depreciating the pole it regulates, per the Atlas distortion grammar. If the relay is on seat 5 (God, 1D, Si in IEE), the predicted first sign is paranoia, and the 1D seat holds experience only, so the same chemical event is predicted to present more severely here than at seat 1.
+P0579 Unwinding a Shell that has settled at the n-image of a seat is not insight. For IEE the compensation of leading Ne-antisocial is the n-flip onto the subdued lap at the same directive. Individuation is the cp-image, against the lap. The dual (SLI) already carries the destination content at the mirrored archetype. The pair can scaffold. It cannot close the gate.
+P0580 Failure of this reading is C31 and C34: the sign surfaces off-seat, or IEE and LII itineraries do not differ, or severity does not order by facet count.
+P0581 13.4 Type itinerary under load — LII as contrast
+P0582 The LII row, valued lap: avoidant → dissociative → paranoia → antisocial. Same clock, different seating. Seat 1 in LII is Ti, 4D, avoidant. Seat 5 is Fe, 1D, dissociative. The same chemical event that presented as antisocial-at-1 in the IEE row presents as avoidant-at-1 in the LII row. That is the whole content of the ordering claim. If a study cannot tell these two rows apart under specified demand and specified lap step, C31 has failed, and the clinical reading of §7.1 has nothing to stand on.
+P0583 The contrast also shows what the paper will not do. It will not say that IEE “is” antisocial or that LII “is” avoidant. Every type carries every label, at a different corner, on a schedule. Totality first; then the itinerary.
+P0584 Part IV — Ledger
+P0585 14. Rising into information and falling into chemicals
+P0586 14.1 Rising
+P0587 Rising into information means that repeated experience creates a more stable level of organization. The phrase does not describe escape from biology; it describes a higher organization of biological and psychological activity. v4’s five-stage “generative radial engine” is the development generator of Shell Geometry §11–13:
+P0588 A capacity solves the current problem: the current holon H_k meets demand D conductively.
+P0589 Success changes the conditions: persistent consequence N_W of the action, not temporary excursion V_W, generates a new demand.
+P0590 Repetition of the old pattern leaves a new problem or residual Shell: C(H_k, D_(k+1)) = ∅.
+P0591 The same sixteen-route grammar makes a new class of clean solutions available: H_(k+1) = min{H′ > H_k : C(H′, D) ≠ ∅}.
+P0592 The dominant character of those solutions becomes the next altitude: χ_(k+1) = Profile(C(H_(k+1), D) − C(H_k, D)). If several minimal solutions exist, development branches, and the theory keeps the branch.
+P0593 The earlier capacity remains available inside the new altitude. Layers are preserved without collapse. Tiers are emergent summaries of generated trajectories, not primitive coordinates. Stage colours, if used, are names for clusters and nothing more. The derivation claim for the colour line was withdrawn in the Crux Examined Edition.
+P0594 14.2 Falling
+P0595 Formal mapping  [proposed; reading interpretive].
+P0596 Chemical turbulence raises the load at the occupied seat above what the retained complement can absorb. The relay drops to the Super-Ego (A23 not yet satisfied). The realization leaves one of the five signs — and foreclosure is the sign v4 could not name: the required movement never initiates, and the system preserves its current organization under a demand it cannot meet. CAPE does not complete.
+P0598 The Beige → Purple illustration of v4 is kept as a profile, not a tier: immediate survival under scarcity (ST-origin expenditure) succeeds; isolated survival creates no shared memory; WE-destination routes create coordination; the generated character is dominated by IT → WE displacement. A stage colour is a name for this cluster.
+P0599 15. What remains fixed in the formal model
+P0600 Chemistry and neuronal dynamics modulate access parameters; they do not rewrite informational primitives.
+P0601 The facet law is unique given P1 and P2 and admits no developmental facet.
+P0602 A Shell changes the realization of a route; it does not create a seventeenth route.
+P0603 No portage changes the directive; only the estafette does.
+P0604 Subtype is a local developmental expression of the TIM, not a separate Cross.
+P0605 Perspective, route, polarity, conductivity, retention, and altitude remain separate coordinates.
+P0606 Altitude is counted in closures and has no successor function on tiers.
+P0607 Development changes the tick only through retention. tick() contains no altitude branch.
+P0608 Stimulus-to-element readings (Se for boundary threat, Fe for fear charge) are assignments made by the reader, not by the model (C15).
+P0609 The clinical vocabulary of this document is an election. A different elected frame would relabel the levels without changing the theorems.
+P0610 16. The joint prediction the sources do not state separately
+P0611 Three documents together yield synthetic content none of them contains alone.
+P0612 Atlas: a seat’s attributed distortion surfaces at that seat’s lap step, in a per-type itinerary.
+P0613 Dense Consciousness: the same chemical event affects positions unequally; dimensions remain unequal.
+P0614 Facet law: the inequality is ordered — 1D seats {4, 5} carry experience only; 4D seats {1, 8} carry all four facets.
+P0615 Prediction  [stated testable; untested].
+P0616 Under acute load, the Shell sign that appears is the distortion of the seat the relay currently occupies, and its severity is ordered inversely by that seat’s facet count. This is a per-type, per-lap-step, load-conditioned ordering claim. It is testable with the existing joint detector D_Shell = (D, Π_C, Π_O), provided the demand and the lap step are specified, and it would be the first place Function State enters the engine as something other than prose: a load term at the occupied seat, not a change to dimensionality.
+P0617 Failure mode. Signs surface at seats other than the occupied one; or severity fails to order by facet count; or the itinerary does not differ by type as charted.
+P0618 17. Limits and clinical realities
+P0619 Biology and personal history vary. Some conditions require long-term chemical support. Over-medicalization can neglect density-building work; under-treatment can demand growth before biological stability is sufficient. Development can improve recognition, cooperation, external calibration, and circuit integrity, but it does not erase locked access regimes. The same chemical event can affect Model A positions differently. Dimensions remain unequal.
+P0620 Nothing in this document licenses a treatment plan, a medication decision, a typing, or the withdrawal of support. Retention is observable only under specified demand. Demand is specified by a study or a clinician who accepts that responsibility; the model does not.
+P0621 18. Open items
+P0622 Carried forward without resolution, in the tradition of recording rather than repairing. Numbers in parentheses are the HLE Consolidated Edition C-register.
+P0623 #
+P0624 Item
+P0625 What would close it
+P0626 C9
+P0627 Item 10′. Two readings, neither elected: overload streak per block engagement, or the pending Super-Ego queue as the Shell’s metabolic observable.
+P0628 An election against a source, or a preregistered observation. The queue reading matches Demand-Blindness and Atlas 8.6.
+P0629 C13
+P0630 Form of the load term. No complex threshold exists to modulate. Remaining candidates: a magnitude ordering on D, or the queue. No float either way.
+P0631 A build decision against a source or a preregistered observation.
+P0632 C8 / C39
+P0633 Sign → (K, R) remaining implementation; probes not in the canon zip.
+P0634 Ship observe.py / detector.py changes; pin probes by hash.
+P0635 C16
+P0636 Relay firing with the refined gate is not the default. The 2+2 finding and “stabilization lets the lap run” inherit that status.
+P0637 Empirical: supervisor’s first closure under the two policies; more broadly whether supervision structures transmit content under distance.
+P0638 C31–C34
+P0639 Ordering; boundary signature; post-closure relief; joint load × lap-step. Stated testable; untested against human data.
+P0640 Studies with demand and lap step specified. Failure modes are written in §8.2 and §12.
+P0641 C15
+P0642 Stimulus-to-element readings are the reader’s assignments, unverified.
+P0643 Not a model item. Recorded so it is not mistaken for one.
+P0644 C7
+P0645 Mode-pair polarity on the trails.
+P0646 An election against a source; none proposed.
+P0647 C37
+P0648 Si compulsion (headers) vs paranoia (tables). Tables authoritative; relabel load-free.
+P0649 Nothing rests on it unless a source decides the header.
+P0650 19. Status ledger
+P0651 Grades follow HLE Consolidated Edition 1.0, Appendix A. Interpretive readings remain non-load-bearing for the algebra.
+P0652 Claim
+P0653 Grade
+P0654 Model A dimensionality 4-3-2-1-1-2-3-4 and the facet law
+P0655 derived, conditional on P1 and P2; verified in verify_v5
+P0656 No developmental term can add a facet; “effective dimensionality” retired
+P0657 derived (facet uniqueness)
+P0658 Density = retained complement gating the relay drop
+P0659 derived from A23 refined; identification with v4 “density” is interpretive
+P0660 Development changes the tick only through retention (no altitude branch)
+P0661 implemented; verified textually in verify_v5_2
+P0662 2+2 rhythm on both laps
+P0663 derived from cube geometry; measured as V5.2 pure finding under relay + gate
+P0664 n uniquely commutes with the clock; cp and a reverse it; no portage crosses the directive
+P0665 derived (terrain theorems)
+P0666 Transformation cannot be instantaneous; Practice is priced by time reversal
+P0667 derived; clinical reading interpretive
+P0668 Five Shell signs; demand clause; joint detector
+P0669 source-defined (Shell Geometry 1.1); implemented; Π_O signatures derived 13/13
+P0670 Rest vs foreclosure operational differential
+P0671 development note; uses only D, Π_C, Π_O
+P0672 Chart T4 itineraries as carried data in this paper
+P0673 derived in Atlas; regenerated 24/24 August 28
+P0674 Expected / necessary / converted; five inversions
+P0675 carried from Disorder v1.0; inversions interpretive
+P0676 Foreclosure as the sign of “falling into chemicals” and “stalled learning”
+P0677 interpretive; non-load-bearing
+P0678 Function State as the Super-Ego queue at the occupied seat
+P0679 proposed_completion; observable exists in State; no float
+P0680 Function Profile as a Shell-threshold gate at Role/Vulnerable
+P0681 no_effect_in_5_2; Item 10 dissolved, Item 10′ recorded
+P0682 Dual as external complement; return route complementary → native
+P0683 derived (all 16 TIMs); clinical scaffold reading interpretive
+P0684 Dual-first plateau is starvation, not overload
+P0685 derived (re-read in 5.2); clinical reading interpretive
+P0686 Four nested levels; psychiatry / psychology division of labor
+P0687 interpretive; the level-3/4 boundary is the kernel boundary
+P0688 Generator stages (§14.1)
+P0689 restatement of Shell Geometry §11–13
+P0690 Stage colours
+P0691 illustrative only; colour derivation withdrawn
+P0692 Podcast physiology (Baik 2020; dopamine figures)
+P0693 external_secondary; carried, not adjudicated
+P0694 Joint load × lap-step prediction (§16), operationalized in §12
+P0695 stated testable; untested against human data
+P0696 Observational protocols in §12
+P0697 development note; no new assumption
+P0698 Every clinical sentence in this document
+P0699 interpretive; stands or falls with §16 and §19
+P0700 20. Provenance
+P0701 Kernel: HolonicLivingEngine5_2_canon.zip; sealed pyref imported read-only. Facet law, Kępiński coordinates, return chord: NOTE_V5 and algebra/facets.py, algebra/kepinski.py. Pure finding, relay firing (A37), provenance walks (A38), A23 refinement, no-altitude-branch check: NOTE_V5_2 and verify_v5_2. Unresolved Item 10: docs/UNRESOLVED_SOURCE_ITEMS.md. Dimensionality by position: crux/typemap.py.
+P0702 Shell, five signs, demand clause, joint detector, altitude rule, generator, health criteria: Unified Shell Geometry and Developmental Dynamics, Readable Edition of Version 1.1. Terrain, portages, laps, dyad calculus, itineraries, terrain theorems: A Topographical Atlas of Transformation, Version 0.1 Readable Edition; companion probe_consolidated_terrain.py 24/24, August 28. Expected / necessary / converted, cost derivation, retention as closure condition: A Fresh Perspective on Disorder, Version 1.0. Alignment of grades and C-register: Holonic Living Engine, Consolidated Edition 1.0. Prior editions: Dense Consciousness v2.1, Readable Parametric Field Edition v4 (July 2026), Integrated Edition v5.1 (August 28, 2026).
+P0703 All [interpretive] readings remain non-load-bearing for the algebra. All [development note] sentences can be struck without touching a theorem.
+P0705 Version note.
+P0706 Version 6.0 (August 29, 2026) develops v5.1 as a standalone clinical reading. Added: how-to-read and reading map; five figures; rest-versus-foreclosure operational differential; exhaustive CAPE correspondence; carried Chart T0 and Chart T4; carried expected / necessary / converted with five inversions and falsifiers; expanded dual-as-external-complement and dual-first starvation; observational protocols for C31 and C34; two type-itinerary worked examples (IEE and LII as Atlas rows); ten-grade ledger aligned to HLE Appendix A.
+P0707 Not added: a theorem, a completion, an election of C9 / C13 / C16 / C7, a test against human data, a treatment recommendation, or a description of any person.
+P0708 Version 5.1 applied the August 28 closure ledger. Version 5.0 replaced v4. Locked terms, sixteen-route grammar, four CAPE phases, and position-to-access asymmetry are preserved.
+P0710 Parametric Field — Dense Consciousness, Developed Edition v6.0 — August 29, 2026
+P0711 Nothing in this document diagnoses, treats, or describes any person.

@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "full_r11_tests": 353,
+  "full_r11_test_modules": 14,
+  "study_tests": 10,
+  "empirical_cases_excluding_historical_probes": 1216,
+  "independent_route_cost_checks": 4096,
+  "element_preservation_checks": 4096,
+  "determinism": {
+    "r10": {
+      "sha256": "8e07d992d83494f0ad564f199d385ee474d1b3916ee51899367869158aa41fc0",
+      "bytes": 5702502,
+      "same_bytes_with_pythonhashseed_19": true
+    },
+    "r11": {
+      "sha256": "cb84cb67e72e35b96225205de04e82c9f929f21e74ba35959b04c294811a2096",
+      "bytes": 5706416,
+      "same_bytes_with_pythonhashseed_19": true
+    }
+  }
+}

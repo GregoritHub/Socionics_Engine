@@ -1,0 +1,65 @@
+{
+  "schema": "u1-contract-manifest-v1",
+  "files": [
+    {
+      "path": "contracts/Efficiency_Acceptance_v1.json",
+      "sha256": "29fd79023b4afcb1c5704ce860271073ef9503264df36d336fd00e0bd6d2f4ed",
+      "bytes": 3281
+    },
+    {
+      "path": "contracts/Input_Manifest.json",
+      "sha256": "c9009c73a5d6d88729ee015335e23961d9e581811244b93a42e6d5ecbd1cc2b0",
+      "bytes": 614012
+    },
+    {
+      "path": "contracts/Migration_Contract_v1.md",
+      "sha256": "7da4b4d989d2d8eeed1885231f04c217c08bfcf8386046e7eeb5741e8a0a8355",
+      "bytes": 10647
+    },
+    {
+      "path": "contracts/Module_Migration_Map_v1.json",
+      "sha256": "4a252ec4f5dc5e094f6ddff213e8703517905f341376ed7b13e8cfc3ec890b1c",
+      "bytes": 130530
+    },
+    {
+      "path": "contracts/New_Engine_Acceptance_v1.json",
+      "sha256": "f10131ac91e008b5b75c3c737eb28d1425db07e276621b9478a0efcbc035bf1a",
+      "bytes": 19296
+    },
+    {
+      "path": "contracts/Original_Evidence_Inventory.json",
+      "sha256": "00d78edae92950d52c752c2eecd18a3311d7022920a9c0f3173f57e6019b5317",
+      "bytes": 187686
+    },
+    {
+      "path": "contracts/Protection_Regression_Index_v1.json",
+      "sha256": "d42d4b28f97c3340090a3b99d67e72992642448eeb156ea16ab279d95bdd0db4",
+      "bytes": 8022
+    },
+    {
+      "path": "contracts/Roadmap_at_U1_Start.md",
+      "sha256": "ff270163027dddd955bd9605f4fa90872dcfec8429f0da3516bfdc59a6c9cb30",
+      "bytes": 31022
+    },
+    {
+      "path": "contracts/Scope_Ledger_v1.json",
+      "sha256": "1b131eb557a9e0a9d6fec31c947e61e1837a4c6e2cbfb517db28d8b99d907bca",
+      "bytes": 1510
+    },
+    {
+      "path": "contracts/Target_Conception_v1.md",
+      "sha256": "b8f562efa1cd24aab31c08658c83f3bce96b52edb67ef78dfcbc6295d4ae237b",
+      "bytes": 34166
+    },
+    {
+      "path": "contracts/U1_Protocol_v1.json",
+      "sha256": "cca6719b97953a7a44cc5e2eb687d1dcac0fae85601a9423e0c06088d67f47a2",
+      "bytes": 13441
+    },
+    {
+      "path": "contracts/U1_Protocol_v1.sha256",
+      "sha256": "fac96c7dd0a4bc8adb466e2f1cbe1181e108c5762e666e4cf78d4797b054290a",
+      "bytes": 86
+    }
+  ]
+}

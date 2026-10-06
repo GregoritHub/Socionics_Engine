@@ -1,0 +1,145 @@
+{
+  "accounting": {
+    "charge_reconciliation": "each WorkRecord against wallet before, charged and after",
+    "initial_energy_per_actor": 10000,
+    "initial_time_per_actor": 10000,
+    "learner_type_control": "all sixteen TIMs with identical programs and demands",
+    "retrieval": "explicit owned address, no new search/navigation cost model"
+  },
+  "assessment": {
+    "action": "paid inspection, then paid transfer from learner to requesting partner",
+    "baseline_trials": 2,
+    "conditions": [
+      "no_instruction",
+      "help_only",
+      "search_only",
+      "boundary_only",
+      "both_retained",
+      "both_without_return",
+      "quiet_after_help"
+    ],
+    "full_individuation": "unassessed",
+    "held_out_trials": 12,
+    "held_out_widths": [
+      3,
+      4,
+      5
+    ],
+    "object_ids": "disjoint from training, practice and baseline",
+    "requesting_partners": 2
+  },
+  "claim_status": {
+    "adopted_bridge": [
+      "NF=I, ST=It, SF=We, NT=Its; F,T columns and N,S diagonals"
+    ],
+    "implementation_choice": [
+      "Ne-like offered-alternative enumeration",
+      "Fi-like explicit partner acceptance filtering",
+      "Three-hypothesis version-space induction per operator family",
+      "First-item and ignore-constraint default shared by every TIM",
+      "Only endorsed current owned rule memories enter the controller after support withdrawal",
+      "Elected processing targets and inherited R11 numeric route prices",
+      "Task-level conjunction named retained_complement_candidate_in_tested_task"
+    ],
+    "source_defined": [
+      "Model A native positions 1,2 and complementary valued positions 5,6",
+      "A content route is not retained developmental capacity",
+      "Renewed demand is necessary for clearance assessment"
+    ],
+    "unassessed": [
+      "General content-to-element semantics",
+      "Full Si-Ne-Fi-Te developmental dynamics",
+      "Generated compensation, cancellation and Shell clearance",
+      "Dual/kindred individuation schedules",
+      "Altitude change",
+      "Human validation"
+    ],
+    "user_clarification": [
+      "No primitive horizontal function connection; individuation concerns the retained crossing"
+    ]
+  },
+  "content_control": {
+    "families": [
+      "Ne search demonstration",
+      "Fi boundary demonstration"
+    ],
+    "matched_pairs": 32,
+    "receiver_types": 16,
+    "sender_activities": [
+      "Fe hold",
+      "Ti inference"
+    ],
+    "unchanged": [
+      "body sha256",
+      "content aspect",
+      "receiver landing",
+      "reception units"
+    ]
+  },
+  "limitations": [
+    "Task evidence is truthful and directed channels are reliable",
+    "No primitive function edges or horizontal Crux movements are added",
+    "No checkpoint codec for experimental commands; checkpoint and restore explicitly unsupported",
+    "Help-only drops temporary receipts from the durable-capacity interface, not from the world journal",
+    "Successful learning is not SLI-specific; Ne-Fi is complementary only for SLI and LSE",
+    "No generated Shell detector or automatic developmental law"
+  ],
+  "purpose": "Separate immutable content aspect from activity; test retained finite complementary capacity and consequential unsupported return.",
+  "runtime": "vendored R11 plus experiments/runtime.py adapter; original vendor modules unchanged",
+  "schema": "experimental-crossing-protocol-v1",
+  "sources": [
+    {
+      "filename": "SLI_The_Crossing_Narrative_v0_1.docx",
+      "redistributed": false,
+      "sha256": "d975e8cd813c9833f210c85bbcd0e23b13af9b645cb51af88ce6d15981c73fc1"
+    },
+    {
+      "filename": "The_Kindred_Fold_v0.2.docx",
+      "redistributed": false,
+      "sha256": "c588a10256117ce72d7c208ed3ffafc496656d5adc6ac7674a9b676f7a65e182"
+    },
+    {
+      "filename": "The_Crux_v6_Readable_Examined_Edition (1).docx",
+      "redistributed": false,
+      "sha256": "13a6732c95983c0a7847f9650dd435c6e7425c030a8893c2cb5d581c234841ab"
+    },
+    {
+      "filename": "02-A_Unified_Mathematical_Architecture_of_Socionics_Verified_Revision.docx",
+      "redistributed": false,
+      "sha256": "41ebe1b128c805ae5f48c85f8029d611e6c49d0c0983a58631fc8750689d3a79"
+    },
+    {
+      "filename": "07-Unified_Shell_Geometry_and_Developmental_Dynamics_Readable_Edition.docx",
+      "redistributed": false,
+      "sha256": "176fc991d82574a0c8d64a78f0142e27b7593d4b9088545ca1650a2cb251665c"
+    },
+    {
+      "filename": "08-HLE_New_Build_Foundation_v1.md",
+      "redistributed": false,
+      "sha256": "a655f106fcdc1f2c03df1bbc04e51a8ee5e3a7d83bead0a07c53a39d2d6c28e7"
+    },
+    {
+      "filename": "09-HLE_New_Build_Roadmap_v1.md",
+      "redistributed": false,
+      "sha256": "951c6d400c876f70083a8e223205176064189206cfaf235509ecfd811fc3a31b"
+    }
+  ],
+  "training": {
+    "acceptance": "one surviving program per component; ambiguous or inconsistent evidence fails",
+    "boundary_hypotheses": [
+      "ignore",
+      "respect",
+      "reverse"
+    ],
+    "demonstrations_per_component": 2,
+    "search_hypotheses": [
+      "first",
+      "last",
+      "all"
+    ],
+    "widths": [
+      2,
+      3
+    ]
+  }
+}

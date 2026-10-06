@@ -1,0 +1,15 @@
+test_all_coverage_subsets_are_observed (test_findings.Findings.test_all_coverage_subsets_are_observed) ... ok
+test_budget_limited_unfinished_output_is_unpublished (test_findings.Findings.test_budget_limited_unfinished_output_is_unpublished) ... ok
+test_completed_produce_has_one_element_for_all_sender_types (test_findings.Findings.test_completed_produce_has_one_element_for_all_sender_types) ... ok
+test_exact_historical_probe_detects_r11_change (test_findings.Findings.test_exact_historical_probe_detects_r11_change) ... ok
+test_extractor_type_changes_cost_not_ample_extraction (test_findings.Findings.test_extractor_type_changes_cost_not_ample_extraction) ... ok
+test_history_control_changes_reception_with_identical_packet (test_findings.Findings.test_history_control_changes_reception_with_identical_packet) ... ok
+test_q4_member_costs_match_quiet_baseline (test_findings.Findings.test_q4_member_costs_match_quiet_baseline) ... ok
+test_restoration_requires_new_consent_but_not_six_extra_runs (test_findings.Findings.test_restoration_requires_new_consent_but_not_six_extra_runs) ... ok
+test_routes_change_cost_without_changing_ample_policy_outcomes (test_findings.Findings.test_routes_change_cost_without_changing_ample_policy_outcomes) ... ok
+test_stopping_is_controlled_by_supplied_patience (test_findings.Findings.test_stopping_is_controlled_by_supplied_patience) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.053s
+
+OK

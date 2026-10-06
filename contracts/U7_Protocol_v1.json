@@ -1,0 +1,51 @@
+{
+  "schema": "hle-unified-u7-protocol-v1",
+  "status": "declared_before_implementation_and_evaluation",
+  "cases": [
+    "U7-01",
+    "U7-02",
+    "U7-03",
+    "U7-04"
+  ],
+  "construction": "Deterministic finite workshop; no reserved evaluation or legacy release seeds used.",
+  "targets": [
+    "tool",
+    "person",
+    "group",
+    "rule",
+    "memory",
+    "possibility",
+    "action",
+    "relation"
+  ],
+  "effects": [
+    "obligation",
+    "salience",
+    "forecast",
+    "exclude_route",
+    "approval"
+  ],
+  "generation": "Two distinct paid encounters with processed blame under active demand generate an actor-owned unresolved accountability material and reusable approval requirement. Inputs supply blame and an affordance; they supply no Shell label or finished generated pattern.",
+  "scope": "Match exact owner, context, cue and processed affordance identity; bind exact target revision, carrier and consequence bearer. Names and target roles do not select patterns.",
+  "assessor": "At least two changed paid encounters under demand, adequate processing, available safe route, no actual approval requirement and processed contradictory permission facts; incomplete/missing/threat/refusal/disagreement/rest controls are distinguished. This is a versioned operational detector, not a derived clinical diagnosis.",
+  "acceptance": [
+    "A generated common pattern binds all eight target categories and changes processing intentions; a material U6 witness also changes actual action/effect.",
+    "All five declared effects execute in explicitly marked injected fixtures.",
+    "Same labels with unrelated affordance, other context/cue/owner, missing/unread/hidden facts do not transfer knowledge or create false maintenance findings.",
+    "Distinct owners can maintain incompatible accounts of the same target without cross-owner access.",
+    "Partial work, costs, cancellation, exact checkpoints and continuations preserve lineage; journal audit catches tampered charges and causal roles.",
+    "All U2-U6 tests/witnesses and the selected legacy panel pass; frozen baseline hashes remain unchanged."
+  ],
+  "resources": {
+    "ordinary_budget": 6000,
+    "scarcity": "remaining wallet smaller than operation extent",
+    "work_chunk": 1,
+    "recall_limit": 32,
+    "generation_threshold": 2
+  },
+  "limits": [
+    "Initial repertoire is finite and versioned; no U8 correction/clearance claim.",
+    "Transfer over declared affordances, not arbitrary semantic understanding.",
+    "Generated policy and encounters are development cases, not held-out release acceptance."
+  ]
+}

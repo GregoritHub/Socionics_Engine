@@ -1,0 +1,3330 @@
+{
+  "eie:eie": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "eie:eii": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "eie:ese": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "eie:esi": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "eie:iee": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "eie:iei": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "eie:ile": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "eie:ili": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "eie:lie": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "eie:lii": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "eie:lse": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "eie:lsi": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "eie:see": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "eie:sei": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "eie:sle": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "eie:sli": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "eii:eie": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "eii:eii": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "eii:ese": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "eii:esi": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "eii:iee": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "eii:iei": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "eii:ile": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "eii:ili": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "eii:lie": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "eii:lii": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "eii:lse": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "eii:lsi": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "eii:see": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "eii:sei": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "eii:sle": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "eii:sli": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "ese:eie": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "ese:eii": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "ese:ese": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "ese:esi": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "ese:iee": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "ese:iei": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "ese:ile": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "ese:ili": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "ese:lie": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "ese:lii": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "ese:lse": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "ese:lsi": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "ese:see": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "ese:sei": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "ese:sle": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "ese:sli": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "esi:eie": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "esi:eii": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "esi:ese": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "esi:esi": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "esi:iee": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "esi:iei": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "esi:ile": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "esi:ili": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "esi:lie": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "esi:lii": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "esi:lse": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "esi:lsi": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "esi:see": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "esi:sei": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "esi:sle": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "esi:sli": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "iee:eie": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "iee:eii": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "iee:ese": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "iee:esi": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "iee:iee": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "iee:iei": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "iee:ile": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "iee:ili": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "iee:lie": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "iee:lii": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "iee:lse": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "iee:lsi": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "iee:see": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "iee:sei": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "iee:sle": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "iee:sli": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "iei:eie": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "iei:eii": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "iei:ese": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "iei:esi": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "iei:iee": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "iei:iei": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "iei:ile": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "iei:ili": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "iei:lie": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "iei:lii": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "iei:lse": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "iei:lsi": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "iei:see": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "iei:sei": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "iei:sle": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "iei:sli": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "ile:eie": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "ile:eii": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "ile:ese": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "ile:esi": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "ile:iee": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "ile:iei": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "ile:ile": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "ile:ili": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "ile:lie": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "ile:lii": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "ile:lse": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "ile:lsi": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "ile:see": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "ile:sei": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "ile:sle": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "ile:sli": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "ili:eie": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "ili:eii": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "ili:ese": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "ili:esi": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "ili:iee": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "ili:iei": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "ili:ile": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "ili:ili": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "ili:lie": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "ili:lii": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "ili:lse": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "ili:lsi": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "ili:see": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "ili:sei": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "ili:sle": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "ili:sli": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "lie:eie": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "lie:eii": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "lie:ese": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "lie:esi": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "lie:iee": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "lie:iei": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "lie:ile": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "lie:ili": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "lie:lie": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "lie:lii": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "lie:lse": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "lie:lsi": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "lie:see": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "lie:sei": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "lie:sle": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "lie:sli": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "lii:eie": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "lii:eii": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "lii:ese": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "lii:esi": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "lii:iee": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "lii:iei": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "lii:ile": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "lii:ili": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "lii:lie": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "lii:lii": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "lii:lse": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "lii:lsi": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "lii:see": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "lii:sei": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "lii:sle": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "lii:sli": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "lse:eie": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "lse:eii": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "lse:ese": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "lse:esi": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "lse:iee": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "lse:iei": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "lse:ile": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "lse:ili": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "lse:lie": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "lse:lii": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "lse:lse": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "lse:lsi": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "lse:see": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "lse:sei": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "lse:sle": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "lse:sli": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "lsi:eie": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "lsi:eii": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "lsi:ese": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "lsi:esi": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "lsi:iee": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "lsi:iei": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "lsi:ile": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "lsi:ili": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "lsi:lie": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "lsi:lii": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "lsi:lse": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "lsi:lsi": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "lsi:see": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "lsi:sei": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "lsi:sle": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "lsi:sli": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "see:eie": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "see:eii": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "see:ese": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "see:esi": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "see:iee": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "see:iei": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "see:ile": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "see:ili": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "see:lie": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "see:lii": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "see:lse": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "see:lsi": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "see:see": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "see:sei": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "see:sle": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "see:sli": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "sei:eie": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "sei:eii": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "sei:ese": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "sei:esi": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "sei:iee": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "sei:iei": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "sei:ile": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "sei:ili": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "sei:lie": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "sei:lii": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "sei:lse": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "sei:lsi": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "sei:see": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "sei:sei": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "sei:sle": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "sei:sli": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "sle:eie": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "sle:eii": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "sle:ese": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "sle:esi": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "sle:iee": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "sle:iei": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "sle:ile": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "sle:ili": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "sle:lie": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "sle:lii": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "sle:lse": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "sle:lsi": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "sle:see": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "sle:sei": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "sle:sle": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "sle:sli": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "sli:eie": {
+    "relation": "conflict",
+    "landing_permutation": [
+      4,
+      3,
+      2,
+      1,
+      8,
+      7,
+      6,
+      5
+    ]
+  },
+  "sli:eii": {
+    "relation": "activation",
+    "landing_permutation": [
+      6,
+      5,
+      8,
+      7,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  "sli:ese": {
+    "relation": "supervision_inverse",
+    "landing_permutation": [
+      2,
+      3,
+      4,
+      1,
+      6,
+      7,
+      8,
+      5
+    ]
+  },
+  "sli:esi": {
+    "relation": "benefit",
+    "landing_permutation": [
+      8,
+      5,
+      6,
+      7,
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  "sli:iee": {
+    "relation": "duality",
+    "landing_permutation": [
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "sli:iei": {
+    "relation": "super_ego",
+    "landing_permutation": [
+      3,
+      4,
+      1,
+      2,
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  "sli:ile": {
+    "relation": "semi_duality",
+    "landing_permutation": [
+      5,
+      8,
+      7,
+      6,
+      1,
+      4,
+      3,
+      2
+    ]
+  },
+  "sli:ili": {
+    "relation": "business",
+    "landing_permutation": [
+      3,
+      2,
+      1,
+      4,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  "sli:lie": {
+    "relation": "supervision",
+    "landing_permutation": [
+      4,
+      1,
+      2,
+      3,
+      8,
+      5,
+      6,
+      7
+    ]
+  },
+  "sli:lii": {
+    "relation": "benefit_inverse",
+    "landing_permutation": [
+      6,
+      7,
+      8,
+      5,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  "sli:lse": {
+    "relation": "mirror",
+    "landing_permutation": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      8,
+      7
+    ]
+  },
+  "sli:lsi": {
+    "relation": "quasi_identity",
+    "landing_permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "sli:see": {
+    "relation": "mirage",
+    "landing_permutation": [
+      7,
+      6,
+      5,
+      8,
+      3,
+      2,
+      1,
+      4
+    ]
+  },
+  "sli:sei": {
+    "relation": "kindred",
+    "landing_permutation": [
+      1,
+      4,
+      3,
+      2,
+      5,
+      8,
+      7,
+      6
+    ]
+  },
+  "sli:sle": {
+    "relation": "contrary",
+    "landing_permutation": [
+      7,
+      8,
+      5,
+      6,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  "sli:sli": {
+    "relation": "identity",
+    "landing_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

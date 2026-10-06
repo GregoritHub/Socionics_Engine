@@ -1,0 +1,34 @@
+{
+  "experiment": "Id/Identity recurrence probe after R11",
+  "status_at_declaration": "declared before implementation and evaluation",
+  "source": "reference/extracted/06-Fools_Memory_Path_Manual-1-.txt, P0107-P0117 and P0265",
+  "source_boundary": "Three Id cycles per Ego cycle; parallel Ego and Super-Ego. Traversal and Id/Identity equivalence remain unspecified. All schedules below are experimental choices.",
+  "candidate": "Outer position e in Z9; inner position i in Z3. A completed frame consults Super-Ego e+1, Ego e+10, Identity order[i], then advances (e,i) by (1,1). Nine frames close one outer lap and three inner laps. Card folds never change.",
+  "seeds": [17, 43, 91, 137, 211, 307],
+  "static_layouts": ["direct", "shared", "revised"],
+  "query_targets": "All 21 objects, equally weighted, with seeded cue assignments and alternating ownership.",
+  "budgets": [8, 16, 32, 64, 128],
+  "policies": ["recurrence_192021", "recurrence_192120", "recurrence_201921", "recurrence_202119", "recurrence_211920", "recurrence_212019", "same_order_unique", "flat_unique", "shuffled_repeated", "batch_unique", "generic_same_sequence"],
+  "dynamic": {
+    "seed": 17,
+    "changed_cues": "Every Major Arcana cue 1 through 21, separately",
+    "update_slots": [18, 36],
+    "policies": ["recurrence_192021", "same_order_unique", "flat_unique", "shuffled_repeated", "batch_unique", "generic_same_sequence"],
+    "horizon": 128,
+    "update": "One real ownership transfer, observed revision, and explicit rebind. Equal external scheduling slots for all policies, including idle slots after completion. Update costs recorded separately from recall allowance."
+  },
+  "gates": {
+    "S1": "All 27 start pairs and six Identity permutations have minimal joint period 9, three inner laps, and one outer lap. A dwell schedule with only one inner lap fails the ratio.",
+    "S2": "130 original cue descriptors, fixed folds, and distinct co-folded cue addresses remain unchanged; no compulsory three-vertex memory graph.",
+    "F1": "No completed result or cursor advancement for unpaid unfinished work; exact retry is idempotent; depleted energy and time can independently resume.",
+    "F2": "Checkpoint/restore at partial and complete frame boundaries reproduces full engine state and probe cursor; rehashed altered cursor is rejected.",
+    "F3": "Context separation, exact revision bindings, frozen pending queries, and linked walks longer than three vertices are preserved.",
+    "U1": "At 128 units all static policies recover every latest ownership claim and all consequent physical actions are appropriate and complete.",
+    "U2": "Practical static advantage requires canonical recurrence mean correct recall at budgets 8/16/32/64 to exceed the best generic control by at least 5 percentage points overall, without a lower mean in any layout.",
+    "U3": "Report dynamic correction accuracy by changed register and update time. An identical unnamed repeat schedule must be identical; any matched benefit is generic revisitation, not evidence for special Identity semantics."
+  },
+  "scoring": "Only published RecallResult hits may enter a conclusion. Most recent proposition scope wins; equal-time conflict or absence yields unknown. Truth is used only after the participant decision for evaluation. Partial job internals and current inbox are excluded from conclusion inputs.",
+  "action": "A declared common decision adapter transfers when recalled owner is self; otherwise it inspects. Real R2 actions run inside R11 OrganizationWorld. Adapter computation has no additional charge and is not a new learned or Model A decision process.",
+  "stopping_rule": "Run this fixed panel and fidelity tests; do not tune schedules to obtain a favorable result. Preserve R11. Adoption requires useful evidence, not phase closure alone.",
+  "limits": "Synthetic memory fixtures; no human recall study, psychological validation, autonomous semantic recurrence, language/organization recurrence integration, or claim of unique direction/phase."
+}

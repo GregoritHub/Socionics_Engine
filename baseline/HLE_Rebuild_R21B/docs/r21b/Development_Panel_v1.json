@@ -1,0 +1,326 @@
+{
+  "schema": "r21b-development-panel-v1",
+  "declared_before_v3_execution": true,
+  "protocol_sha256": "03d563755b2a1a2da88a98939fcf882189e4563216e4467b23af0dc40e822d20",
+  "cases": [
+    {
+      "tim": "eie",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "eie",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "eie",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "eii",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "eii",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "eii",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "ese",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "ese",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "ese",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "esi",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "esi",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "esi",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "iee",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "iee",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "iee",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "iei",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "iei",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "iei",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "ile",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "ile",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "ile",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "ili",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "ili",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "ili",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "lie",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "lie",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "lie",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "lii",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "lii",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "lii",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "lse",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "lse",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "lse",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "lsi",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "lsi",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "lsi",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "see",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "see",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "see",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "sei",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "sei",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "sei",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "sle",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "sle",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "sle",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "sli",
+      "seed": 11,
+      "regime": "adequate"
+    },
+    {
+      "tim": "sli",
+      "seed": 11,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "sli",
+      "seed": 11,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "iee",
+      "seed": 12,
+      "regime": "adequate"
+    },
+    {
+      "tim": "iee",
+      "seed": 12,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "iee",
+      "seed": 12,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "iee",
+      "seed": 13,
+      "regime": "adequate"
+    },
+    {
+      "tim": "iee",
+      "seed": 13,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "iee",
+      "seed": 13,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "sli",
+      "seed": 12,
+      "regime": "adequate"
+    },
+    {
+      "tim": "sli",
+      "seed": 12,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "sli",
+      "seed": 12,
+      "regime": "inadequate"
+    },
+    {
+      "tim": "sli",
+      "seed": 13,
+      "regime": "adequate"
+    },
+    {
+      "tim": "sli",
+      "seed": 13,
+      "regime": "constrained_feasible"
+    },
+    {
+      "tim": "sli",
+      "seed": 13,
+      "regime": "inadequate"
+    }
+  ],
+  "episodes": 60,
+  "independent_executions": 60,
+  "purpose": "All 16 types at longest historical exposure, plus all three history lengths for IEE/SLI. Development evidence only.",
+  "controls": [
+    {
+      "tim": "iee",
+      "seed": 12,
+      "regime": "constrained_feasible",
+      "mode": "no_reuse"
+    },
+    {
+      "tim": "iee",
+      "seed": 12,
+      "regime": "constrained_feasible",
+      "mode": "legacy_cost"
+    }
+  ],
+  "held_out_seeds_used": [],
+  "acceptance": "Every positive candidate and independent execution completes all 13 challenges and 100 subsequent opportunities, all zero-budget cases defer, all raw audits pass. Failed or partial runs remain in denominator."
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "hle-full-crux-c2-protocol-v1",
+  "scope": "Eight bounded self-route contracts, explicit paid return paths; C3-C7 remain open.",
+  "policy": "Contemplate N/N; Act T/T; Commune F/F; Integrate N/N. Supporting offer/reply and downstream use have separately paid recipes. No empty route may complete.",
+  "behavior": {
+    "cells": 8,
+    "types": 16,
+    "cases": [
+      "causal downstream consumer per cell",
+      "matched defining-semantic ablation per cell",
+      "both polarity starts",
+      "unread or foreign inputs",
+      "missing reciprocal assent",
+      "conflicting or cyclic systems",
+      "invalid material resources",
+      "stale inputs and authority",
+      "partial cancellation and exhaustion",
+      "exact checkpoint continuation",
+      "independent raw audit corruption controls"
+    ],
+    "regression": "475 current inherited native tests plus C2; no new claim on 840 historical legacy tests"
+  },
+  "efficiency": {
+    "reference": "C1 inherited circuit executed by C1 and C2 runtime; same inputs and semantics",
+    "paired_samples": 5,
+    "relative_median_tolerance": 1.5,
+    "inactive_records": [
+      100,
+      1000,
+      10000
+    ],
+    "history_shapes": [
+      "shared",
+      "unique"
+    ],
+    "new_workload_samples": 3,
+    "new_workload": "Fixed complete eight-cell witness panel plus necessary exchange and paid downstream consumers",
+    "instrumentation": "Sequential isolated timing workers; separate tracemalloc workers; setup excluded; active, restore, audit separate",
+    "gates": [
+      "matched C1 outcomes and charges",
+      "C1 active median <= 1.5 times paired C1 reference",
+      "C2 resolution counts and charges independent of inactive history",
+      "exact restore and healthy independent audit",
+      "all raw samples retained"
+    ],
+    "budgets": "Explicit input list, at most 16 system nodes; two participants per exchange; no automatic full-matrix selection or unbounded search",
+    "dominant_prior_cost": "C1 full checkpoint restore/replay and exact history storage. No compaction optimization claimed in C2."
+  }
+}

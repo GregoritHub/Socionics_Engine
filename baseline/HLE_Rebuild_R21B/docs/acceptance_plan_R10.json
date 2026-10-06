@@ -1,0 +1,60 @@
+{
+  "milestone": "R10",
+  "version": 1,
+  "declared_before_acceptance": true,
+  "date": "2026-09-17",
+  "scope": "Sustained evaluation of the R9 finite ownership-procedure engine under supplied opportunities. No new autonomy, natural language, general Shell emergence, or universal scaling claim.",
+  "main_panel": {
+    "populations": [4, 8, 16],
+    "initial_inspection_prefixes": [0, 2],
+    "resources": ["ample", "replenished"],
+    "workload_seeds": [17, 43, 91],
+    "cycles": 3,
+    "initial_rounds": 6,
+    "revised_rounds": 2,
+    "successor_rounds": 6,
+    "ample_energy_and_time": 1000000,
+    "replenished_initial_energy_and_time": 1,
+    "external_credit_quantum": 64,
+    "cohort": "population minus one; last configured actor joins when the founder leaves",
+    "seed_effects": "permuted Model A profiles, demonstration/packet ordering, 0-2 inactive ticks between stages",
+    "organization_policy": "max_members=population, max_action_cost=12, minimum_support=2",
+    "expected": "All 36 cases complete three formations, disputes, checked revisions, founder successions and dissolutions, without unpriced participant work. Every elected rule has owned supporting practice. All planned ordinary enactments fulfill. An injected ownership change causes a paid failed transfer or an inspection-blocked plan. Zero terminal organization backlog."
+  },
+  "controls": {
+    "exhaustion": "4 participants, each of zero energy, zero time, and 400 energy/time without replenishment; stop explicitly at the first unavailable work, preserve partial payment and checkpoint",
+    "refusal": "4 and 16 participants; one independently configured silent reviewer refuses and all local ratifications remain unagreed",
+    "no_history": "4 and 16 participants; formulation remains unresolved before acquired-language practice",
+    "resource_comparison": "Main-panel ample/replenished pairs have the same elected step sequences, memberships, lifecycle statuses and physical outcomes, with all extra credits and deferrals reported"
+  },
+  "profiles": {
+    "inactive_histories": [0, 1000, 10000],
+    "history_kinds": ["tick", "unrelated_paid_inspection"],
+    "active_repertoires": [1, 4, 16, 64],
+    "cohort_sizes": [3, 7, 15, 31, 63],
+    "warmups": 3,
+    "measurements": 21,
+    "command_work_limit": 1000000,
+    "inactive_gate": "Fixed active formulation has identical simulated charges and one candidate visit for every history condition; no evaluator/candidate visits during inactive ticks or unrelated inspections. Median <= max(3 * zero-history median, 2ms), p95 <= 10ms.",
+    "active_gate": "Exactly K summary visits per formulation; charged extent matches the declared R9 formula including candidate steps, partners, retained content and selected cohort. Median <= 5ms + 0.25ms * K for repertoire panels; <= 5ms + 0.25ms * N for cohort panels.",
+    "sustained_gate": "Main-panel paid command p95 <= 20ms and last-quarter median <= max(4 * first-quarter median, 2ms). Retained checkpoint bytes / journal event <= 20000; serialized event data is measured independently from active work.",
+    "archive_gate": "Checkpoint save <= 2ms/event + 1s and replay <= 5ms/event + 1s. No bounded-history or bounded-memory claim. Record actual bytes, save/replay, indexes, historical tasks and unfinished jobs separately.",
+    "evaluator_gate": "Offline accounting, consent and practice reference check <= 5ms/event + 1s, zero mismatches; keep evaluator timing outside participant timing. Inherited incremental assessment/reference tests must pass."
+  },
+  "replay": {
+    "main_panel": "For each case restore a checkpoint after the second cycle and replay the exact suffix; final checkpoints must be byte-identical. Restore exhaustion checkpoints unchanged.",
+    "hash_seeds": [0, 1, 77],
+    "hash_workload": "population 4, prefix 0, ample resources, workload seed 17, three cycles; identical checkpoint hash across Python hash seeds",
+    "release": "All inherited tests unchanged and passing, all governing references unchanged, manifest verification, full fresh-extraction tests and R10 evaluation"
+  },
+  "gate_ids": {
+    "S01": "Sustained varied lifecycle and paired resource behavior",
+    "S02": "Explicit exhaustion, no-history and refusal controls",
+    "S03": "Independent accounting, exact local consent and practice reconstruction",
+    "S04": "Fixed-active inactive-history and growing active-extent efficiency",
+    "S05": "Sustained timing, storage, backlog and checkpoint cost",
+    "S06": "Exact continuation and Python hash-order reproducibility",
+    "S07": "Unchanged inherited tests/sources, fresh extracted release verification"
+  },
+  "failure_policy": "Retain failed construction and evaluation results. Fix concrete defects without weakening declared gates or inherited tests. If any acceptance gate remains failed, keep R10 open and publish numbered replacement work before claiming completion."
+}

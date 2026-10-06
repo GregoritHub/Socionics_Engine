@@ -1,0 +1,389 @@
+"""R18 consequential four-perspective circuits in the continuing workshop.
+
+The participant reads authorized bulletins, messages, own retained procedures
+and delivered consequences. Only physical enactment reads world constraints.
+The evaluator never feeds its verdict into this implementation.
+"""
+from dataclasses import replace
+import hashlib
+from .individuation_records import *
+from .individuation_logic import select, infer, constraints
+from .conversion import ConversionWorld, CONVERSION_SEAL
+from .reconciliation import ACCOUNT_SEAL
+from .compensation import RELEASE_SEAL
+from .concept_structure import SEAL
+from .contracts import Moment, ResourceAmount, Cause, Change, TimeScope, Proposition
+from .world_records import Wallet, ENERGY, TIME, Attempt, Tick, Credit
+from .world import amounts, fact_key
+from .processing import _route_geometry, route_active
+from .model_a import element_at, position_of
+from .development_structure import portage, lap
+from .crux import Perspective as P, Polarity, Route, FormalMovement
+
+CIRCUIT_SEAL=hashlib.sha256(b'r18:v1:owned-contrast:independent-partner:shared-work:reverse-lap:current-dependencies').hexdigest()
+CIRCUITS=((P.I,P.ITS,P.IT,P.WE,P.I),(P.I,P.WE,P.ITS,P.IT,P.I))
+DONE=(WorkStatus.COMPLETED,WorkStatus.FAILED)
+
+def phase_seat(seat, phase):
+    for _ in range(phase): seat=lap(seat)
+    return portage(seat,'cp')
+
+class IndividuationWorld(ConversionWorld):
+    def __init__(self,*args,circuit_policy=None,partners=(),**kwargs):
+        self.circuit_policy=circuit_policy or CircuitPolicy()
+        self.circuit_partners=partners
+        self._circuit_orders={};self._aspect_caps={};self._tentative={};self._circuit_accounts={}
+        self._circuit_jobs={};self._circuit_active={};self._work_partners={p.actor:p for p in partners}
+        self._partner_versions={};self._circuit_work={};self._shared_used={};self._shared_output=0
+        super().__init__(*args,**kwargs)
+        if partners and set(self._work_partners)!=set(self.config.actors): raise ValueError('one work partner policy per actor')
+        if not partners:
+            self.circuit_partners=tuple(WorkPartner(a) for a in self.config.actors)
+            self._work_partners={p.actor:p for p in self.circuit_partners}
+        for ref in (CIRCUIT_RULE,CIRCUIT_WORK):
+            self._records[ref]=ref
+            for known in self._known.values(): known.add(ref)
+        for p in self.circuit_partners:
+            r=Ref(Kind.MEMORY,'r18:partner:'+p.actor.key,1)
+            self._partner_versions[p.actor]=r
+            self._register(r,p,p.actor,self._journal[0].event.ref)
+
+    def _read_circuit(self,actor,ref,cls):
+        if ref not in self._known[actor] or type(self._records.get(ref)) is not cls:
+            raise ValueError('unknown or foreign circuit content')
+        return self._records[ref]
+
+    def _root_available(self,actor):
+        c=self._capacities.get(actor)
+        return (self.circuit_policy.material_access and self._accessible(actor) and c is not None and c.current
+                and all(r in self._records and r in self._known[actor] for r in (c.ref,c.material,c.rule)))
+
+    def _current_aspects(self,actor):
+        if not self._root_available(actor): return {}
+        found={a:c for (owner,a),c in self._aspect_caps.items() if owner==actor and c.current
+            and c.ref in self._known[actor] and c.material in self._known[actor] and c.material in self._records}
+        # This bounded eight-aspect dependency graph is separate from history.
+        while True:
+            live={c.ref for c in found.values()}
+            reduced={a:c for a,c in found.items() if set(c.dependencies)<=live}
+            if reduced==found:return found
+            found=reduced
+
+    def _signature(self,actor):
+        root=self._capacities.get(actor)
+        return (() if root is None or not self._root_available(actor) else (root.ref,)) + tuple(c.ref for a,c in sorted(self._current_aspects(actor).items()))
+
+    def _select_work_option(self, offer, menu, current, pending):
+        return select(offer, menu, set(current) | set(pending))
+
+    def _offer(self,cmd):
+        if cmd.key in self._circuit_orders or not {cmd.learner,cmd.partner,cmd.helper}<=self._actors:
+            raise ValueError('duplicate or foreign order')
+        if not self._root_available(cmd.learner): raise ValueError('current owned R17 conversion and material required')
+        when=Moment(len(self._journal),0);er=Ref(Kind.EVENT,'event:'+str(when.tick),1)
+        br=Ref(Kind.OBSERVATION,'r18:offer:'+cmd.key,1)
+        state=CircuitOrder(Ref(Kind.MEMORY,'r18:order:'+cmd.key,1),cmd,br)
+        event=WorldEvent(er,when,(),(),'r18.offer',self.config.context,(),(),(),WorkStatus.COMPLETED,'external work opportunity; no answer or capacity supplied')
+        self._commit(CircuitTransaction(cmd,event,(),order=state))
+        return event
+
+    def _phase(self,order,op):
+        phases=('choose','apply','coordinate','feedback') if order.offer.circuit==0 else ('choose','organize','apply','feedback')
+        return phases.index(op) if op in phases else None
+
+    def _prepare_circuit(self,cmd):
+        actor=cmd.actor;op=cmd.operator
+        if actor not in self._actors: raise ValueError('unknown actor')
+        order=None;basis=();phase=None
+        if op in ('support','boundary'):
+            basis=(self._partner_versions[actor],)
+        elif op=='withdraw':
+            cap=self._aspect_caps.get((actor,cmd.aspect))
+            if cap is None or not cap.current: raise ValueError('current own capacity required')
+            basis=(cap.ref,)
+        else:
+            order=self._circuit_orders.get(cmd.order)
+            if order is None: raise ValueError('unknown order')
+            offer=self._read_circuit(actor,order.bulletin,CircuitOffer)
+            if order.closed: raise ValueError('order already closed')
+            basis=(order.bulletin,order.ref)
+            phase=self._phase(order,op)
+            if op in ('menu','review','refresh'):
+                if actor!=offer.partner: raise ValueError('actual partner must answer')
+                if op=='menu' and (order.menu is not None or order.stage): raise ValueError('menu already supplied')
+                if op=='refresh' and (order.menu is None or order.stage or order.outcome is not None):
+                    raise ValueError('refresh requires an unchosen observed order')
+                if op=='review' and (order.review is not None or order.stage!=(2 if offer.circuit==0 else 1)):
+                    raise ValueError('no reviewable contribution or proposal')
+                basis+=(self._partner_versions[actor],)
+                if order.outcome is not None: basis+=(order.outcome,)
+            elif op in ('inspect','consult'):
+                expected=offer.learner if op=='inspect' else offer.helper
+                if actor!=expected or order.outcome is None or order.signal is not None:
+                    raise ValueError('authorized completed outcome required')
+                if op=='consult' and not self._work_partners[actor].helper_available: raise ValueError('helper withdrawn')
+                if op=='inspect' and self.circuit_policy.correction!='self' and self._work_partners[offer.helper].helper_available:
+                    raise ValueError('offered correction channel requires real helper processing')
+                basis+=(order.outcome,)
+            elif phase is not None:
+                if actor!=offer.learner and op!='apply': raise ValueError('learner must own processing')
+                if actor not in (offer.learner,offer.helper): raise ValueError('no delegated work authorization')
+                if actor==offer.helper and not self._work_partners[actor].helper_available:raise ValueError('helper withdrawn')
+                if order.stage!=phase: raise ValueError('consequential phase not ready')
+                if phase>0 and op!='feedback':
+                    current_refs={c.ref for c in self._current_aspects(offer.learner).values()}
+                    if not self._root_available(offer.learner) or not set(order.uses)<=current_refs:
+                        raise ValueError('procedure dependency changed since proposal')
+                if order.menu is None: raise ValueError('actual partner menu required')
+                self._read_circuit(actor,order.menu,CircuitMessage)
+                basis+=(order.menu,)
+                if op=='choose':
+                    if not self._root_available(actor): raise ValueError('material or conversion unavailable')
+                    basis+=self._signature(actor)+tuple(self._tentative.get(actor,{}).values())
+                elif op in ('coordinate','organize'):
+                    if order.review is None: raise ValueError('independent partner response required')
+                    basis+=(order.review,)
+                elif op=='feedback':
+                    if order.signal is None: raise ValueError('delivered consequence required')
+                    basis+=(order.signal,)+order.uses
+                elif op=='apply': basis+=order.uses
+            else: raise ValueError('invalid order operator')
+        tim=self._profiles[actor].tim if self.policy.typed_routing else 'ile'
+        if phase is None:
+            target=element_at(tim,5) if order is None else order.offer.focus
+        else:
+            target=element_at(tim,phase_seat(position_of(tim,order.offer.focus),phase))
+        polarity=Polarity.ACCUMULATION if phase in (None,0,3) else Polarity.EXPENDITURE
+        path,seats,support,offset,units,price=_route_geometry(tim,self.processing_state(actor).active,target,polarity,self.policy.positional_prices)
+        extent=2 if order is None else 2+len(order.offer.options)*8
+        plan=RoutePlan(self._profiles[actor].tim,tim,path,seats,support,offset,units,extent*price)
+        return CircuitJob(cmd,plan,tuple(dict.fromkeys(basis)),None if order is None else order.ref,self._signature(actor))
+
+    def _actual_menu(self,order):
+        """An independently responding partner's own permissions and schedule."""
+        p=self._work_partners[order.offer.partner]
+        permissions=tuple((x.key,x.license in p.licenses) for x in order.offer.options)
+        acks=tuple((x.key,p.willing and x.start not in p.unavailable_slots and x.load<=p.max_load) for x in order.offer.options)
+        return permissions,acks
+
+    def _changes_for(self,subject,values,when):
+        return tuple(Change(self._facts.get((subject,k,self.config.context)),Proposition(subject,k,v,self.config.context,TimeScope(when,None))) for k,v in values)
+
+    def _produce_circuit(self,j,when,er,wr):
+        cmd=j.command;actor=cmd.actor;op=cmd.operator
+        order=self._circuit_orders.get(cmd.order);message=signal=account=partner=None;caps=();tentative=None;changes=()
+        def revision(**kw): return replace(order,ref=replace(order.ref,revision=order.ref.revision+1),**kw)
+        if op in ('support','boundary'):
+            p=self._work_partners[actor]
+            partner=replace(p,**({'helper_available':cmd.flag} if op=='support' else {'willing':cmd.flag}))
+            return None,None,None,(),None,partner,None,()
+        if op=='withdraw':
+            c=self._aspect_caps[actor,cmd.aspect]
+            caps=(replace(c,ref=replace(c.ref,revision=c.ref.revision+1),current=False,previous=c.ref),)
+            return None,None,None,caps,None,None,None,()
+        offer=order.offer;phase=self._phase(order,op)
+        nr=lambda kind,label:Ref(kind,'r18:'+label+':'+str(when.tick),1)
+        if op in ('menu','refresh'):
+            permissions,acks=self._actual_menu(order)
+            message=CircuitMessage(nr(Kind.MESSAGE,'menu'),actor,offer.learner,offer.key,permissions,acks,source=order.bulletin)
+            order=revision(menu=message.ref)
+        elif op=='choose':
+            menu=self._read_circuit(actor,order.menu,CircuitMessage)
+            current=self._current_aspects(actor);pending=self._tentative.get(actor,{})
+            chosen=self._select_work_option(offer,menu,current,pending)
+            order=revision(chosen=chosen,uses=tuple(c.ref for a,c in sorted(current.items())),provisional=tuple(sorted(pending)))
+            # ITS draft is externally available board state, not personal text.
+            if offer.circuit==0: changes=self._changes_for(order.bulletin,(('r18.plan',chosen or 'defer'),),when)
+            else:
+                message=CircuitMessage(nr(Kind.MESSAGE,'proposal'),actor,offer.partner,offer.key,source=order.ref)
+        elif op=='review':
+            permissions,acks=self._actual_menu(order)
+            accepted=bool(dict(permissions).get(order.chosen,False) and dict(acks).get(order.chosen,False))
+            if offer.circuit==0:
+                result=self._read_circuit(actor,order.outcome,CircuitSignal)
+                accepted=accepted and result.success and result.produced>=offer.minimum_output
+            message=CircuitMessage(nr(Kind.MESSAGE,'review'),actor,offer.learner,offer.key,permissions,acks,accepted,order.outcome or order.ref)
+            order=revision(review=message.ref)
+        elif op in ('coordinate','organize'):
+            review=self._read_circuit(actor,order.review,CircuitMessage)
+            if op=='coordinate':
+                result=self._read_circuit(actor,order.outcome,CircuitSignal)
+                credited=review.accepted and result.success
+                changes=self._changes_for(order.bulletin,(('r18.accepted_output',result.produced if credited else 0),),when)
+                order=revision(credited=credited)
+            else:
+                changes=self._changes_for(order.bulletin,(('r18.reservation',order.chosen if review.accepted else 'declined'),),when)
+                order=revision(credited=review.accepted)
+        elif op=='apply':
+            # World enactment checks current physical/shared constraints. These
+            # checks return observed consequences; they do not choose a plan.
+            permissions,acks=self._actual_menu(order)
+            option=next((x for x in offer.options if x.key==order.chosen),None)
+            errors=('no_feasible_choice',) if option is None else tuple(a for a,v in constraints(offer,option,dict(permissions),dict(acks)).items() if not v)
+            if offer.circuit==1 and not order.credited: errors=tuple(dict.fromkeys(errors+('unaccepted_arrangement',)))
+            used=0 if option is None else self._shared_used.get((offer.partner,offer.epoch,option.start),0)
+            if option is not None and used+option.load>offer.budget:errors=tuple(dict.fromkeys(errors+('shared_load_exhausted',)))
+            output=0 if errors else option.output
+            signal=CircuitSignal(nr(Kind.OBSERVATION,'outcome'),offer.learner,er,offer.key,order.chosen or '',not errors,errors,output,actor)
+            changes=self._changes_for(order.bulletin,(('r18.produced',output),('r18.used_load',0 if errors else option.load),('r18.spent_credits',0 if errors else option.cost)),when)
+            if output:
+                shared=Ref(Kind.MEMORY,'r18:shared:'+offer.partner.key+':'+str(offer.epoch)+':'+str(option.start),1)
+                changes+=self._changes_for(shared,(('r18.total_load',used+option.load),),when)
+                changes+=self._changes_for(CIRCUIT_WORK,(('r18.total_output',self._shared_output+output),),when)
+            order=revision(outcome=signal.ref,performer=actor,credited=order.credited and not errors)
+        elif op in ('inspect','consult'):
+            source=self._read_circuit(actor,order.outcome,CircuitSignal)
+            signal=replace(source,ref=nr(Kind.OBSERVATION,'delivered'),observer=offer.learner,source=er)
+            order=revision(signal=signal.ref)
+        elif op=='feedback':
+            sample=self._read_circuit(actor,order.signal,CircuitSignal)
+            menu=self._read_circuit(actor,order.menu,CircuitMessage)
+            pending=dict(self._tentative.get(actor,{}));new=[]
+            if not sample.success:
+                for a in infer(offer,menu,sample):pending[a]=sample.ref
+            elif (sample.performer==actor and order.credited and self._root_available(actor)):
+                current=self._current_aspects(actor)
+                for a in order.provisional:
+                    if a not in pending:continue
+                    failure=self._read_circuit(actor,pending[a],CircuitSignal)
+                    if failure.order==offer.key or failure.success:continue
+                    # The candidate guard must reject the prior failed option,
+                    # and a distinct actual own successful practice must use it.
+                    dependencies=()
+                    seat=position_of(self._profiles[actor].tim,a)
+                    if seat in (5,3):
+                        previous=tuple(element_at(self._profiles[actor].tim,p) for p in (1,7,6,4,2,8))
+                        if not all(x in current for x in previous):continue
+                        dependencies=tuple(current[x].ref for x in previous)
+                    prior=self._aspect_caps.get((actor,a));root=self._capacities[actor]
+                    if self.circuit_policy.retention:
+                        c=AspectCapacity(Ref(Kind.MEMORY,'r18:capacity:'+actor.key+':'+a,1 if prior is None else prior.ref.revision+1),
+                            actor,a,root.material,failure.ref,sample.ref,
+                            tuple(self._circuit_work.get((actor,failure.order),()))+tuple(self._circuit_work.get((actor,offer.key),()))+(wr,),dependencies,True,None if prior is None else prior.ref)
+                        new.append(c)
+                    pending.pop(a,None)
+            caps=tuple(new);tentative=tuple(sorted(pending.items()))
+            old=self._circuit_accounts.get(actor)
+            current=self._current_aspects(actor);current.update({c.aspect:c for c in new})
+            account=CircuitAccount(Ref(Kind.MEMORY,'r18:account:'+actor.key,1 if old is None else old.ref.revision+1),actor,
+                self._capacities[actor].material,tuple(c.ref for a,c in sorted(current.items())),
+                (() if old is None else old.self_performed)+((sample.ref,) if sample.success and sample.performer==actor and order.credited else ()),
+                (() if old is None else old.revised_expectations)+((sample.ref,) if not sample.success else ()),None if old is None else old.ref)
+            order=revision(closed=True)
+        if phase is not None:
+            movement=FormalMovement(Route(CIRCUITS[offer.circuit][phase],CIRCUITS[offer.circuit][phase+1]),
+                Polarity.ACCUMULATION if phase in (0,3) else Polarity.EXPENDITURE)
+            order=replace(order,stage=phase+1,movements=order.movements+(movement,),phase_work=order.phase_work+(wr,))
+        return order,message,signal,caps,account,partner,tentative,changes
+
+    def _circuit_work_step(self,cmd):
+        actor=cmd.actor
+        if actor not in self._actors:raise ValueError('unknown actor')
+        old=self._circuit_jobs.get((actor,cmd.task_id));ps=self.processing_state(actor)
+        if old is not None:
+            if old.outcome in DONE or self._circuit_active.get(actor)!=cmd.task_id:raise ValueError('terminal or foreign job')
+            if replace(cmd,command_id=old.command.command_id,work_limit=old.command.work_limit)!=old.command:raise ValueError('changed continuation')
+        elif ps.busy is not None or actor in self._receiving or actor in self._active_turn:raise ValueError('processing already owned')
+        old=old or self._prepare_circuit(cmd)
+        order=self._circuit_orders.get(cmd.order)
+        stale=(None if order is None else order.ref)!=old.version or self._signature(actor)!=old.signature
+        # A partially funded private decision cannot survive a changed own policy.
+        stale=stale or any(r.key.startswith('r18:partner:') and r!=self._partner_versions[actor] for r in old.basis)
+        when=Moment(len(self._journal),0);er=Ref(Kind.EVENT,'event:'+str(when.tick),1);wr=Ref(Kind.WORK,'work:'+str(when.tick)+':circuit',1)
+        wallet=self._wallets[actor];spent=min(cmd.work_limit,wallet.energy,wallet.time,old.plan.required-old.paid);paid=old.paid+spent
+        status=WorkStatus.FAILED if stale else WorkStatus.COMPLETED if paid==old.plan.required else WorkStatus.PARTIAL if spent else WorkStatus.DEFERRED
+        outputs=(None,None,None,(),None,None,None,()) if status!=WorkStatus.COMPLETED else self._produce_circuit(old,when,er,wr)
+        processing=replace(ps,ref=replace(ps.ref,revision=ps.ref.revision+1),active=route_active(old.plan,paid),busy=None if status in DONE else 'r18:'+cmd.task_id)
+        reason='changed owned input; no publication' if stale else 'paid work-order processing; physical success reported separately'
+        work=WorkRecord(wr,actor,CIRCUIT_WORK,amounts(wallet),(),(ResourceAmount(ENERGY,spent),ResourceAmount(TIME,spent)),
+            amounts(Wallet(actor,wallet.energy-spent,wallet.time-spent)),old.plan.required-old.paid,spent,status,reason)
+        causes=tuple(dict.fromkeys(Cause(self._origins[r],CIRCUIT_RULE) for r in old.basis if r in self._origins))
+        event=WorldEvent(er,when,(actor,),(),'r18.'+cmd.operator,self.config.context,outputs[-1],causes,(wr,),status,reason)
+        self._commit(CircuitTransaction(cmd,event,(work,),job=replace(old,paid=paid,outcome=status),processing=processing,
+            order=outputs[0],communication=outputs[1],signal=outputs[2],capacities=outputs[3],account=outputs[4],partner=outputs[5],tentative=outputs[6]))
+        return event
+
+    def execute(self,cmd):
+        prior=self._commands.get(cmd.command_id)
+        if prior is not None:
+            if prior.command!=cmd:raise ValueError('command identity reused')
+            return prior.event
+        if type(cmd) is CircuitOffer:return self._offer(cmd)
+        if type(cmd) is CircuitCommand:return self._circuit_work_step(cmd)
+        actor=cmd.action.actor if type(cmd) is Attempt else getattr(cmd,'actor',None)
+        if actor in self._circuit_active and type(cmd) not in (Tick,Credit):raise ValueError('unfinished circuit owns processing')
+        return super().execute(cmd)
+
+    def _commit(self,tx):
+        super()._commit(tx)
+        if type(tx) is not CircuitTransaction:return
+        cmd=tx.command;er=tx.event.ref
+        if tx.order is not None:
+            o=tx.order;self._circuit_orders[o.offer.key]=o
+            for actor in (o.offer.learner,o.offer.partner,o.offer.helper):self._register(o.ref,o,actor,er)
+            if type(cmd) is CircuitOffer:
+                for actor in (cmd.learner,cmd.partner,cmd.helper):self._register(o.bulletin,cmd,actor,er)
+        if tx.communication is not None:
+            m=tx.communication;offer=self._circuit_orders[m.order].offer
+            for a in (m.sender,m.recipient,offer.helper):self._register(m.ref,m,a,er)
+        if tx.signal is not None:
+            s=tx.signal;offer=self._circuit_orders[s.order].offer
+            if type(cmd) is CircuitCommand and cmd.operator=='apply' and s.success:
+                offer=self._circuit_orders[s.order].offer
+                option=next(o for o in offer.options if o.key==s.option)
+                key=(offer.partner,offer.epoch,option.start)
+                self._shared_used[key]=self._shared_used.get(key,0)+option.load
+                self._shared_output+=s.produced
+            # Public production outcome has declared witnesses; correction is
+            # still a distinct paid delivery consumed by the learner.
+            for a in (offer.learner,offer.partner,offer.helper):self._register(s.ref,s,a,er)
+        if tx.job is not None:
+            actor=cmd.actor;j=tx.job;self._circuit_jobs[actor,cmd.task_id]=j
+            self._circuit_work.setdefault((actor,cmd.order),[]).extend(w.ref for w in tx.works)
+            if j.outcome in DONE:self._circuit_active.pop(actor,None)
+            else:self._circuit_active[actor]=cmd.task_id
+            self._processing_states[actor]=tx.processing
+            self._register(tx.processing.ref,tx.processing,actor,er)
+            self._processing_changes[-1]=er,(actor,)
+        for c in tx.capacities:
+            self._aspect_caps[c.owner,c.aspect]=c;self._register(c.ref,c,c.owner,er)
+        if tx.account is not None:
+            c=tx.account;self._circuit_accounts[c.owner]=c;self._register(c.ref,c,c.owner,er)
+        if tx.partner is not None:
+            p=tx.partner;self._work_partners[p.actor]=p
+            r=replace(self._partner_versions[p.actor],revision=self._partner_versions[p.actor].revision+1)
+            self._partner_versions[p.actor]=r;self._register(r,p,p.actor,er)
+        if tx.tentative is not None:self._tentative[cmd.actor]=dict(tx.tentative)
+
+    def checkpoint(self):
+        from .codec import dumps,loads
+        return dumps(CircuitCheckpoint('hle-r18-v1',loads(super().checkpoint()),self.circuit_policy,self.circuit_partners,CIRCUIT_SEAL))
+
+    @classmethod
+    def restore(cls,text):
+        from .codec import loads
+        return cls._restore_checkpoint(loads(text))
+
+    @classmethod
+    def _restore_checkpoint(cls,cp):
+        if type(cp) is not CircuitCheckpoint or cp.schema!='hle-r18-v1' or cp.seal!=CIRCUIT_SEAL:raise ValueError('unsupported R18 checkpoint')
+        v=cp.base;r=v.base;b=r.base;c=b.base.base
+        if (v.schema!='hle-r17-v1' or v.seal!=CONVERSION_SEAL or r.schema!='hle-r16b-v1' or r.seal!=ACCOUNT_SEAL
+            or b.schema!='hle-r15-v1' or b.reference_seal!=RELEASE_SEAL or b.base.schema!='hle-r145-v1' or b.base.reference_seal!=SEAL
+            or c.schema!='hle-r14-v1' or b.base.journal or c.journal or b.imported_prefix or b.base.migration_prefix):raise ValueError('unsupported R18 parent')
+        w=cls(c.config,c.profiles,c.policy,c.agents,c.organization_policies,c.semantic_policy,c.workshop,c.autonomy,
+            release=b.release,reviewers=b.reviewers,account_policy=r.account_policy,conversion_policy=v.policy,
+            circuit_policy=cp.policy,partners=cp.partners)
+        if not b.journal or w._journal[0]!=b.journal[0]:raise ValueError('R18 genesis mismatch')
+        for i,tx in enumerate(b.journal[1:],1):
+            if tx.command is None or tx.command.command_id in w._commands:raise ValueError('missing or repeated command')
+            w.execute(tx.command)
+            if w._journal[-1]!=tx:raise ValueError('R18 replay mismatch at '+str(i))
+        return w
+
+    @classmethod
+    def import_r17(cls,text,circuit_policy=None,partners=()):
+        from .codec import dumps,loads
+        source=ConversionWorld.restore(text)
+        if not partners:partners=tuple(WorkPartner(a) for a in source.config.actors)
+        return cls.restore(dumps(CircuitCheckpoint('hle-r18-v1',loads(source.checkpoint()),circuit_policy or CircuitPolicy(),partners,CIRCUIT_SEAL)))

@@ -1,0 +1,18 @@
+{
+  "parent_acceptance_changed": false,
+  "test_adaptation": {
+    "test": "tests_r12.test_specification.Specification.test_pinned_crossing_archive_and_all_42_runtime_modules",
+    "original_preserved": "reference/r12_tests/test_specification.py",
+    "reason": "The R12 stage asserted zero behavioral runtime changes. R13 necessarily registers new codec records and switches release entrypoints. Requiring all 42 files remain byte-identical is no longer the current release scope.",
+    "replacement": "Verify all 42 historical R11 module bytes against pinned R12 release manifest and enforce only __init__, __main__, codec changed among them. No behavioral acceptance or negative control is relaxed."
+  },
+  "observed_repairs": [
+    "The first continuation/audit tests used ResourceAmount.resource rather than the source-defined unit field; corrected the audit, not the ledger.",
+    "Organization test fixture needed explicit participant provenance and the existing endpoint label withdrawn, not left.",
+    "Material fixture needed the full runtime actor-policy constructor argument.",
+    "A new current-capacity guard initially rejected tentative experience memories. Repaired to distinguish tentative belief from a legitimately acquired R4 checking procedure; withdrawn/disputed/superseded owners still cannot execute.",
+    "Evidence exporter initially treated a (reference, body) return as a reference; corrected to verify both against owned content.",
+    "Status view redacts private incomplete content candidates; the journal retains them only for replay validation."
+  ],
+  "initial_logs_retained": true
+}

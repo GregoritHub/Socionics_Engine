@@ -1,0 +1,34 @@
+# Holonic Living Engine — R19
+
+R19 establishes scoped Shell clearance and recurrence in the continuing finite workshop. R12–R21 progress is **8/10**. Next: **R20 — recursive and shared closure**. R21 release/efficiency acceptance remains open.
+
+Run a small complete R19 demonstration with a standard Python runtime:
+
+```bash
+python -m hle.clearance_demo
+```
+
+Reproduce the full checks and evidence:
+
+```bash
+python tools/r19_validate.py
+python tools/r19_evidence.py
+```
+
+The validation command runs the inherited suites and 37 R19 tests. The evidence command runs all sixteen types, two/five threshold sensitivity, continuation of the preserved R18 checkpoint, and the recurrence/replay branch. These full commands take several minutes. No network or third-party Python dependency is required.
+
+The final verification has **825 distinct passing tests**, with the initial import-isolation failure repaired and narrowly rechecked. The repaired runtime reproduces the same complete journal and assessment and restores the delivered checkpoint exactly. See `evidence/r19/validation/summary.json` for the explicit combination of the full run and the corrective check; earlier failures remain in `validation_initial` and diagnostic logs.
+
+The sixteen-type panel passes **208/208** original and held-out demands. It measures five historical release-account mechanisms against retained original material, nine current capacity revisions, two possible carriers and actual own actions. It is a finite, supplied-opportunity evaluation, not unrestricted development or human empirical validation.
+
+- `docs/r19/Step_R19_Report.md`: results, controls and limits.
+- `docs/r19/Progress_After_R19.md`: R20 handoff and two remaining milestones.
+- `docs/r19/Integration_R19.md`: mechanisms and source decisions.
+- `docs/r19/Protocol_R19_v1.json`: R19 operationalization of the unchanged R12 gates.
+- `hle/clearance.py`: continuing runtime and exact checkpoint support.
+- `hle/clearance_runtime.py`: read-only scoped verdict and recurrence.
+- `hle/clearance_reference.py`: independent raw-journal reconstruction.
+- `evidence/r19/panel/continued_r18.checkpoint.json.gz`: cleared checkpoint continuing the supplied R18 build.
+- `evidence/r19/panel/recurrence.checkpoint.json.gz`: separate deliberate recurrence control.
+
+The complete prior sources, source documents, reports and evidence remain included. Full historical storage still grows. A later invalidation reopens current clearance without erasing history; this release does not implement a second full reclearance window.

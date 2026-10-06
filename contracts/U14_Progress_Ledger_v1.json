@@ -1,0 +1,23 @@
+{
+  "schema": "hle-u14-progress-ledger-v1",
+  "unified_progress": [
+    14,
+    14
+  ],
+  "remaining": 0,
+  "next": null,
+  "release_assessment": "v2",
+  "passed": true,
+  "original_assessment_passed": false,
+  "original_failed_expectations": 8,
+  "distinct_tests": 1366,
+  "case_executions": 226,
+  "open": [
+    "R21C separate release",
+    "general 4D geometry",
+    "arbitrary-domain Shell recognition",
+    "broad aggregation equivalence",
+    "unrestricted language and development",
+    "cause of incomplete monolithic legacy execution attempts"
+  ]
+}

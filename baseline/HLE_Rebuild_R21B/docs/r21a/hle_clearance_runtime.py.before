@@ -1,0 +1,240 @@
+"""Read-only incremental clearance observer over the continuing actor.
+
+An absence result is licensed by a completed own conditional return, current
+material/capacities, and actual held-out work. Quiet time has no such effect.
+The five historical mechanisms are scoped to the original release account.
+"""
+from dataclasses import replace
+from .clearance_records import *
+from .contracts import Kind, WorkStatus, Moment, TimeScope
+from .development_contracts import DevelopmentalDemand, Origin, ResourceEnvelope, Requirement, compare_demands
+from .crux import Perspective as P, Route, FormalMovement, Polarity
+from .conversion_records import ConversionTransaction
+from .compensation_records import ReleaseTransaction, REQUIRED
+from .development_contracts import Treatment
+from .reconciliation_records import AccountTransaction
+from .individuation_records import CircuitTransaction, CircuitOffer, ASPECTS
+from .autonomy_records import WorkshopCommand
+from .shell_records import SIGNS
+from .shell_assessment import assess_engagement, reftext, json_value
+
+DEFENSIVE = ('translate','place','maintain','construct','block')
+
+def demand(actor,material,context,partner,case,offers,wallet,event):
+    family,variation=case.split('.')
+    if family=='selection':requirements=(Requirement('offered_alternatives',len(offers[0].options)),Requirement('partner_constraints',1))
+    elif family=='temporal':requirements=(Requirement('temporal_dependencies',len(offers)-1),Requirement('missing_testimony',int(variation=='delay_or_changed_testimony')))
+    else:requirements=(Requirement('simultaneous_obligations',len(offers)),Requirement('partner_constraints',1))
+    return DevelopmentalDemand(Ref(Kind.DEMAND,'r19:'+case+':'+str(event.revision)+':'+event.key,1),Origin.CONSEQUENCE,(event,),
+        (material,),family,Ref(Kind.PROTOCOL,'r19.held_out.v1',1),('accepted own production and authorized clean tool return',),
+        (FormalMovement(Route(P.I,P.IT),Polarity.EXPENDITURE),),context,(actor,partner),(material,),
+        ('own action','current accepted terms','budget=3','credits=3','minimum_output=3'),TimeScope(Moment(0,0),Moment(10000,0)),
+        ResourceEnvelope(wallet.energy,wallet.time,None),requirements,None)
+
+class ClearanceMonitor:
+    def __init__(self,w):
+        self._actors=w._actors
+        self.actor=None;self.material=None;self.account_material=None
+        self.baseline=[];self.baseline_signs={s:0 for s in SIGNS}
+        self.rows=[];self.active=None;self.history=[];self.status='unassessed'
+        self.reason='no declared clearance window';self.start=None;self.original_item=None
+        self.signature=();self.dependencies=set();self.latch=None
+        self.recurrences={s:set() for s in SIGNS};self.seen_traces=0
+        self.family_bases={};self.window_signs={s:0 for s in SIGNS};self.paid=0
+
+    def validate(self,c):
+        if c.actor not in self.w_actors:raise ValueError('unknown assessed actor')
+        if c.operation=='begin':
+            if self.start is not None:raise ValueError('one frozen window per continuing checkpoint')
+        else:
+            if self.start is None or c.actor!=self.actor:raise ValueError('begin the same actor window first')
+            if c.operation=='open':
+                if self.active is not None or c.case in {r['case'] for r in self.rows}:raise ValueError('duplicate or overlapping case')
+                if c.case!='original' and not any(r['case']=='original' for r in self.rows):raise ValueError('original demand must be reapplied first')
+            elif self.active is None:raise ValueError('no open case')
+
+    @property
+    def w_actors(self):return self._actors
+
+    def _transition(self,w,status,reason):
+        if (status,reason)==(self.status,self.reason):return
+        self.status=status;self.reason=reason
+        self.history.append({'at':reftext(w._journal[-1].event.ref),'status':status,'reason':reason,
+            'completed_cases':len(self.rows),'capacity_revisions':[reftext(r) for r in self.signature]})
+
+    def _supports(self,w):
+        a=self.actor
+        if a is None:return False
+        if (w._tensions.get(a) is None or w._tensions[a].ref!=self.material or not w._accessible(a)
+            or w._signature(a)!=self.signature or len(w._current_aspects(a))!=8):return False
+        if not all(w._evidence_live(r) for r in self.dependencies):return False
+        if any(r.kind in (Kind.MEMORY,Kind.OBSERVATION) and r not in w._known[a] for r in self.dependencies):return False
+        return True
+
+    def _carriers(self,w):
+        return tuple(a for a in w.config.actors if a!=self.actor and w._willing[a]
+            and w._review_policies[a].may_review and (self.actor,a) in w._offers
+            and w._offers[self.actor,a] in w._known[self.actor]
+            and min(w._wallets[a].energy,w._wallets[a].time)>0)
+
+    def _begin(self,w,tx):
+        self.actor=tx.command.actor;self.start=tx.event.ref
+        study=w._studies.get(self.actor);root=w._tensions.get(self.actor)
+        self.material=None if root is None else root.ref
+        self.account_material=None if study is None else study.account_material
+        self.signature=w._signature(self.actor)
+        for t in w.account_monitor.traces:
+            if t.actor!=self.actor or t.lineage!=self.account_material:continue
+            row=assess_engagement(t)
+            self.baseline.append(row)
+            if row['opportunity']=='eligible':
+                for s in SIGNS:
+                    if row['signs'][s]['observation']=='positive':self.baseline_signs[s]+=1
+                if any(row['signs'][s]['observation']=='positive' for s in SIGNS):
+                    self.dependencies.update(op.event for op in t.operations)
+                    if self.original_item is None:
+                        self.original_item=w._records[t.engagement].objects[0]
+        self.baseline_work=sum(op.units for t in w.account_monitor.traces if t.actor==self.actor
+            and t.lineage==self.account_material for op in t.operations if op.name in DEFENSIVE)
+        self.seen_traces=len(w.account_monitor.traces)
+        if study is not None:self.dependencies.update((study.material,study.concept_origin,study.account_material))
+        c=w._capacities.get(self.actor)
+        if c is not None:
+            r=w._candidates[c.rule]
+            self.dependencies.update((c.ref,c.rule,c.material)+c.acquisition+c.practice+r.sources)
+        for c in w._current_aspects(self.actor).values():
+            self.dependencies.update((c.ref,c.material,c.failure,c.practice)+c.acquisition+c.dependencies)
+        self._transition(w,'incomplete','original renewal and frozen held-out panel required')
+
+    def feed(self,w,tx):
+        self._actors=w._actors
+        c=tx.command
+        if type(c) is ClearanceBoundary and c.operation=='begin':self._begin(w,tx);return
+        if self.start is None:return
+        self.paid+=sum(x.completed_units for x in tx.works)
+        if type(c) is ClearanceBoundary and c.operation=='open':
+            self.active={'command':c,'start':tx.event.ref,'wallet':w._wallets[self.actor],
+                'signature':w._signature(self.actor),'carriers':self._carriers(w),'events':[],
+                'loans':[],'uses':[],'returns':[],'account_work':0,'optional_confirmation_work':0,
+                'shifts':[],'refreshes':[],'ticks':0,'positive':{s:0 for s in SIGNS}}
+        a=self.active
+        if a is not None:
+            a['events'].append(tx.event.ref)
+            if type(c) is PartnerShift:a['shifts'].append(tx.event.ref)
+            if type(c).__name__=='Tick':a['ticks']+=1
+            if type(c) is WorkshopCommand and tx.event.outcome==WorkStatus.COMPLETED:
+                if c.operation=='lend' and c.inputs==(a['command'].item,self.actor):a['loans'].append(tx.event.ref)
+                if c.operation=='return' and c.actor==self.actor and c.inputs==(a['command'].item,):a['returns'].append(tx.event.ref)
+            if type(tx) is ConversionTransaction and tx.use is not None:a['uses'].append(tx.use)
+            if type(tx) is AccountTransaction and tx.command.actor==self.actor:a['account_work']+=sum(x.completed_units for x in tx.works)
+            if type(tx) is ReleaseTransaction and tx.job.view is not None and not tx.job.view.required:
+                a['optional_confirmation_work']+=sum(x.completed_units for x in tx.works)
+            if type(tx) is CircuitTransaction and getattr(c,'operator',None)=='refresh' and tx.event.outcome==WorkStatus.COMPLETED:
+                a['refreshes'].append(tx.event.ref)
+        # R17 can retain the old prerequisite as a fallback even when its
+        # current concept omits the relation. A real response assimilation
+        # externalizing that same material supplies the maintaining witness.
+        if (type(tx) is ReleaseTransaction and c.actor==self.actor and c.operator=='assimilate'
+            and tx.event.outcome==WorkStatus.COMPLETED and tx.treatment is not None
+            and tx.treatment.treatment==Treatment.EXTERNALIZE and tx.job.view is not None
+            and tx.job.view.dependency and not tx.job.view.required):
+            v=tx.job.view
+            if v.clean and v.owned and v.due and v.loan not in self.recurrences['forced_placement']:
+                self.recurrences['forced_placement'].add(v.loan);self.window_signs['forced_placement']+=1
+                if a is not None:a['positive']['forced_placement']+=1
+                self.latch='positive target mechanism returned'
+        for t in w.account_monitor.traces[self.seen_traces:]:
+            if t.actor==self.actor and t.lineage==self.account_material:
+                r=assess_engagement(t)
+                for s in SIGNS:
+                    if r['opportunity']=='eligible' and r['signs'][s]['observation']=='positive':
+                        if t.engagement not in self.recurrences[s]:
+                            self.recurrences[s].add(t.engagement);self.window_signs[s]+=1
+                            if a is not None:a['positive'][s]+=1
+                        self.latch='positive target mechanism returned'
+        self.seen_traces=len(w.account_monitor.traces)
+        if (type(c) is WorkshopCommand and c.actor==self.actor and c.operation=='return'
+            and tx.event.outcome==WorkStatus.FAILED):self.latch='failed consequential return'
+        if (type(tx) is CircuitTransaction and getattr(c,'operator',None)=='apply' and tx.signal is not None
+            and tx.signal.observer==self.actor and not tx.signal.success):self.latch='failed retained work under renewed demand'
+        if type(c) is ClearanceBoundary and c.operation=='close':self._close(w,tx)
+        if not self._supports(w):self.latch='supporting material, capacity or evidence invalidated'
+        if self.status=='cleared_in_scope' and len(self._carriers(w))<2:self.latch='two-carrier comparison is no longer available'
+        if any(len(v)>=3 for v in self.recurrences.values()):
+            self._transition(w,'recurrent','target mechanism recurred in three eligible engagements')
+        elif self.latch:self._transition(w,'unresolved',self.latch)
+
+    def _close(self,w,tx):
+        a=self.active;c=a['command'];orders=[w._circuit_orders[k] for k in c.orders if k in w._circuit_orders]
+        current=self._supports(w) and a['signature']==self.signature
+        successful=len(orders)==len(c.orders) and all(o.closed and o.credited and o.performer==self.actor
+            and o.outcome is not None and w._records[o.outcome].success and len(o.uses)==8
+            and set(o.uses)==set(self.signature[1:]) for o in orders)
+        unsupported=all(not w._work_partners[o.offer.helper].helper_available for o in orders)
+        uses=[u for u in a['uses'] if u.owner==self.actor and u.item==c.item and u.loan in a['loans']
+            and u.capacity==self.signature[0] and u.material==self.material] if self.signature else []
+        grounded=bool(uses) and all(u.required==next(p.object for p in w._records[u.terms].content
+            if p.subject==u.item and p.relation==REQUIRED) for u in uses)
+        fact=lambda r:w._facts[c.item,r,w.config.context].object
+        physical=bool(a['returns']) and fact('condition')=='clean' and fact('loan_active') is False and fact('owned_by')==fact('return_to')
+        carriers=len(set(a['carriers']) & set(self._carriers(w)))>=2
+        no_defense=not any(a['positive'].values()) and a['account_work']==0 and a['optional_confirmation_work']==0
+        row={'case':c.case,'window':[reftext(a['start']),reftext(tx.event.ref)],'orders':list(c.orders),
+            'own_work':successful,'unsupported':unsupported,'current_capacities':current,'physical_return':physical,
+            'grounded_conditional_return':grounded,'two_carriers':carriers,'carriers':[reftext(x) for x in a['carriers']],
+            'no_target_mechanism':no_defense,'account_work':a['account_work'],'optional_confirmation_work':a['optional_confirmation_work'],
+            'positive_signs':dict(a['positive']),'comparison':'original_reapplication','shape':True,
+            'loan_events':[reftext(x) for x in a['loans']],'return_events':[reftext(x) for x in a['returns']],
+            'conversion_uses':[reftext(x.ref) for x in uses],'capacity_revisions':[reftext(r) for r in a['signature']]}
+        if c.case=='original':
+            row['shape']=c.item==self.original_item and grounded and not any(u.required for u in uses)
+        else:
+            family,variation=c.case.split('.');offers=[o.offer for o in orders]
+            row['shape']=bool(offers)
+            if offers:
+                d=demand(self.actor,self.material,w.config.context,offers[0].partner,c.case,offers,a['wallet'],a['start'])
+                if variation=='equal_renewal':
+                    self.family_bases[family]=d
+                    row['comparison']='equal'
+                elif family in self.family_bases:
+                    cmp=compare_demands(d,self.family_bases[family]);row['comparison']=cmp.relation.value
+                    row['requirement_changes']=[list(v) for v in cmp.changes]
+                else:row['comparison']='unassessed'
+                expected=3 if variation=='increased_requirement' else 2
+                if family=='selection':row['shape'] &= len(offers)==1 and len(offers[0].options)==(12 if variation=='increased_requirement' else 10)
+                elif family=='temporal':
+                    row['shape'] &= len(offers)==expected and all(w._order_dependencies.get(y.key)==x.key for x,y in zip(offers,offers[1:]))
+                else:row['shape'] &= len(offers)==expected and len({(o.epoch,o.partner) for o in offers})==1
+                if variation=='increased_requirement':row['shape'] &= row['comparison']=='greater'
+                if variation=='changed_context_partner':row['shape'] &= row['comparison']=='incomparable'
+                if variation=='delay_or_changed_testimony':row['shape'] &= bool(a['shifts'] and a['refreshes'] and a['ticks']>=3)
+                row['requirements']={r.name:r.magnitude for r in d.requirements}
+            row['budget_scope']={'energy':a['wallet'].energy,'time':a['wallet'].time}
+        row['passed']=all(row[k] for k in ('own_work','unsupported','current_capacities','physical_return','grounded_conditional_return','two_carriers','no_target_mechanism','shape'))
+        self.rows.append(row)
+        self.dependencies.update(a['returns'])
+        self.dependencies.update(u.ref for u in uses)
+        for o in orders:
+            self.dependencies.update(r for r in (o.outcome,o.signal,o.menu,o.review) if r is not None)
+        self.active=None
+        established=all(n>=3 for n in self.baseline_signs.values())
+        if len(self.rows)==13 and {r['case'] for r in self.rows}==set(CASES) and established and all(r['passed'] for r in self.rows) and not self.latch:
+            self._transition(w,'cleared_in_scope','all thirteen demands passed with retained material and current own capacity')
+        elif not row['passed']:self._transition(w,'incomplete','a declared challenge has not established clearance')
+
+    def report(self,w):
+        self._actors=w._actors
+        if self.start is not None and not self._supports(w):
+            self.latch='supporting material, capacity or evidence invalidated'
+            if self.status!='recurrent':self._transition(w,'unresolved',self.latch)
+        return json_value({'schema':'r19-clearance-v1','status':self.status,'reason':self.reason,
+            'actor':None if self.actor is None else reftext(self.actor),'material':None if self.material is None else reftext(self.material),
+            'account_material':None if self.account_material is None else reftext(self.account_material),
+            'baseline_signs':self.baseline_signs,'sensitivity':{str(n):all(v>=n for v in self.baseline_signs.values()) for n in (2,3,5)},
+            'historical_positive_assessments':self.baseline,'window_signs':self.window_signs,
+            'rows':self.rows,'open_case':None if self.active is None else self.active['command'].case,
+            'history':self.history,'recurrence_counts':{s:len(v) for s,v in self.recurrences.items()},
+            'baseline_defensive_work':getattr(self,'baseline_work',0),'paid_work_in_window':self.paid,
+            'capacity_revisions':[reftext(r) for r in self.signature],
+            'support_references':sorted(reftext(r) for r in self.dependencies),
+            'scope':'five original release-account mechanisms; finite workshop demand window; no universal or permanent clearance claim'})

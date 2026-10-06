@@ -1,0 +1,111 @@
+{
+  "schema": "r21-release-protocol-v1",
+  "parent_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "parent_evaluation": {
+    "types": [
+      "eie",
+      "eii",
+      "ese",
+      "esi",
+      "iee",
+      "iei",
+      "ile",
+      "ili",
+      "lie",
+      "lii",
+      "lse",
+      "lsi",
+      "see",
+      "sei",
+      "sle",
+      "sli"
+    ],
+    "development_seeds": [
+      11,
+      17,
+      23,
+      29
+    ],
+    "evaluation_seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "regimes": {
+      "adequate": {
+        "energy": 100000,
+        "time": 100000
+      },
+      "constrained_feasible": {
+        "energy": 20000,
+        "time": 20000
+      },
+      "inadequate": {
+        "energy": 0,
+        "time": 0
+      }
+    },
+    "resource_regime_validation": "Adequate/constrained scenarios need a separately executed legal successful policy within that budget; otherwise gate fails and a new protocol version is required. Inadequate outcomes must honestly defer.",
+    "individual_episodes": 480,
+    "minimum_adequate_success_fraction": [
+      1,
+      1
+    ],
+    "minimum_constrained_success_fraction": [
+      1,
+      1
+    ],
+    "inadequate_expected": "deferral or unresolved; no coerced development",
+    "continuation_eligible_opportunities": 100,
+    "continuation_demand_changes": 2,
+    "exclude_incomplete_from_denominator": false
+  },
+  "parent_performance": {
+    "active_work_items": 32,
+    "inactive_history_sizes": [
+      100,
+      1000,
+      10000
+    ],
+    "warmup_runs": 2,
+    "measured_runs": 9,
+    "max_median_tick_ratio_first_to_last": [
+      2,
+      1
+    ],
+    "max_affected_record_visits_ratio": [
+      2,
+      1
+    ],
+    "max_checkpoint_bytes_ratio_per_10x_history": [
+      25,
+      1
+    ],
+    "checkpoint_and_offline_replay_costs_report_separately": true,
+    "unfinished_queue_must_be_accounted": true,
+    "no_missed_eligible_demand_due_to_discard": true
+  },
+  "budget_interpretation": "One genesis allocation per actor, covers history, acquisition, clearance and all later opportunities. No replenishment in the 480-case panel.",
+  "prior_development_failure": "development/pilot_v1.log; seed 11; budgets exhausted; retained before freezing evaluation schedule",
+  "histories": "history = 3 + seed % 3; three later maintaining engagements; real required/optional accepted terms",
+  "seed_effects": [
+    "actor identities",
+    "actual historical loan count",
+    "deterministic permutation of each held-out option menu",
+    "three sustained family blocks"
+  ],
+  "continuation": "100 actually completed paid challenges, two family changes before opportunities 35 and 68; rotate four variants; no quiet ticks counted",
+  "feasibility": "Separately execute the legal command policy from each episode at the same genesis and budget, reconcile every resulting transaction with independent raw assessment. A failed policy is not proof of impossibility; without a successful legal witness the feasibility gate fails.",
+  "controls": "R20 inherited causal controls rerun on delivered source; extra R21 budget, denominator, replay, continuation and no-credit controls",
+  "original_continuation": "Continue the exact supplied R20 checkpoint for 100 opportunities without new credit. Separately labeled diagnostic branch may receive an explicit recorded allocation to measure a sufficient horizon; never counts in the frozen panel.",
+  "performance": "Full ClosureWorld, 32 pending participant work orders, 100/1000/10000 extra inactive events; two warmups and nine measured 32-choice batches. Participant and online observer timing separated; archive, checkpoint, restore and raw reference timing separate. Historical replay remains complete.",
+  "completion_rule": "All gates required. Record all attempted/incomplete/censored cases and keep failed gates open. No threshold/price changes in R21.",
+  "source_status": "Implementation choices for finite evaluation environment; no claim of unrestricted development."
+}

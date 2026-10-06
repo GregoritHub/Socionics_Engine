@@ -1,0 +1,23 @@
+{
+  "schema": "hle-unified-u6-progress-v1",
+  "milestones_complete": 6,
+  "milestones_remaining": 8,
+  "next": "U7 \u2014 Shell patterns across arbitrary targets",
+  "cases": {
+    "U6-01": "established",
+    "U6-02": "established",
+    "U6-03": "established"
+  },
+  "distinct_tests": 382,
+  "test_counts": {
+    "u6": 40,
+    "u5": 38,
+    "u4": 45,
+    "u3": 32,
+    "u2": 31,
+    "legacy": 196
+  },
+  "u6_witness_checks": 28,
+  "execution_identity": "57976f2554975c72d6b41966ed4ff1b91a7e67baecff34dcdeafd5cf595fed6b",
+  "scope": "bounded development acceptance; U14 and R21C release remain open"
+}

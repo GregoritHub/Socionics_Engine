@@ -1,0 +1,2431 @@
+{
+  "schema": "hle-unified-u2-legacy-adapter-scope-v1",
+  "scope": "Structural wire support for every frozen allowlisted dataclass; semantics only as declared in hle_unified.legacy._roles. This inventory is not a claim that every class has an independently executed fixture.",
+  "authoritative_writer": "legacy.r21b",
+  "record_tags": {
+    "Account": [
+      "ref",
+      "owner",
+      "item",
+      "recipient",
+      "claim",
+      "evidence",
+      "recall",
+      "guard",
+      "uncertainty"
+    ],
+    "AccountCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "item",
+      "source",
+      "work_limit"
+    ],
+    "AccountJob": [
+      "command",
+      "operation",
+      "plan",
+      "movements",
+      "view",
+      "prior",
+      "basis",
+      "correction_quote",
+      "paid",
+      "outcome"
+    ],
+    "AccountPacket": [
+      "kind",
+      "owner",
+      "item",
+      "loan",
+      "requires",
+      "complete",
+      "first_notice",
+      "obligations"
+    ],
+    "AccountPart": [
+      "ref",
+      "lineage",
+      "owner",
+      "item",
+      "loan",
+      "role",
+      "requires",
+      "basis"
+    ],
+    "AccountState": [
+      "ref",
+      "owner",
+      "item",
+      "loan",
+      "terms",
+      "concept",
+      "lineage",
+      "done",
+      "parts",
+      "notice",
+      "reply",
+      "complete",
+      "permission",
+      "closed"
+    ],
+    "AccountTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "job",
+      "processing",
+      "state",
+      "parts",
+      "concept"
+    ],
+    "AckDraft": [
+      "expected",
+      "through"
+    ],
+    "Act": [
+      "operation",
+      "item",
+      "recipient"
+    ],
+    "ActionRequest": [
+      "actor",
+      "operation",
+      "inputs",
+      "based_on"
+    ],
+    "AddGoal": [
+      "command_id",
+      "goal"
+    ],
+    "AgentPolicy": [
+      "owner",
+      "response",
+      "ask",
+      "use_lesson",
+      "patience",
+      "work_limit"
+    ],
+    "AgentState": [
+      "ref",
+      "owner",
+      "cursor",
+      "goals",
+      "goal",
+      "phase",
+      "mode",
+      "item",
+      "partner",
+      "notice",
+      "query",
+      "received",
+      "account",
+      "application",
+      "lesson",
+      "pending",
+      "waiting"
+    ],
+    "AgentView": [
+      "state",
+      "policy",
+      "context",
+      "now",
+      "notice",
+      "memory",
+      "lesson",
+      "binding",
+      "lesson_binding",
+      "result",
+      "account",
+      "application",
+      "observations",
+      "pending_status",
+      "energy",
+      "time"
+    ],
+    "Application": [
+      "ref",
+      "owner",
+      "account",
+      "enactments",
+      "observations",
+      "discrepancy",
+      "outcome"
+    ],
+    "ApplyDraft": [
+      "account"
+    ],
+    "AspectCapacity": [
+      "ref",
+      "owner",
+      "aspect",
+      "material",
+      "failure",
+      "practice",
+      "acquisition",
+      "dependencies",
+      "current",
+      "previous"
+    ],
+    "AssessCompositions": [
+      "command_id",
+      "limit"
+    ],
+    "AssessDyads": [
+      "command_id",
+      "limit"
+    ],
+    "AssessPending": [
+      "command_id",
+      "limit"
+    ],
+    "AssessmentCheckpoint": [
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "journal"
+    ],
+    "AssessmentResult": [
+      "spec",
+      "protocol",
+      "dimension",
+      "status",
+      "evidence",
+      "tested_sequences",
+      "reason"
+    ],
+    "AssessmentSpec": [
+      "ref",
+      "declared_at",
+      "state_space",
+      "identity_criterion",
+      "identity_features",
+      "protocols",
+      "comparison_rule",
+      "scope",
+      "composition_claim"
+    ],
+    "AssessmentTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra"
+    ],
+    "Attempt": [
+      "command_id",
+      "task_id",
+      "action",
+      "message",
+      "memory"
+    ],
+    "Attend": [
+      "state",
+      "notice"
+    ],
+    "AutonomousCheckpoint": [
+      "schema_version",
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "agents",
+      "organization_policies",
+      "semantic_policy",
+      "workshop",
+      "autonomy",
+      "journal"
+    ],
+    "AutonomousTransaction": [
+      "schema_version",
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "workshop_job",
+      "decision_job",
+      "participant",
+      "processing",
+      "demands"
+    ],
+    "AutonomyJob": [
+      "schema_version",
+      "command",
+      "snapshot",
+      "plan",
+      "paid",
+      "outcome"
+    ],
+    "AutonomyPolicy": [
+      "schema_version",
+      "owner",
+      "intentions",
+      "primitives",
+      "may_lend",
+      "may_ask",
+      "reserve",
+      "work_limit"
+    ],
+    "AutonomyState": [
+      "schema_version",
+      "ref",
+      "owner",
+      "cursor",
+      "initialized",
+      "phase",
+      "pending",
+      "patches",
+      "catalog",
+      "requests",
+      "active_notice",
+      "handled",
+      "asked",
+      "attempts",
+      "last_access",
+      "dirty",
+      "decision",
+      "discrepancies",
+      "failures",
+      "failed_targets"
+    ],
+    "AutonomyTurn": [
+      "schema_version",
+      "command_id",
+      "task_id",
+      "actor",
+      "work_limit"
+    ],
+    "BeginTrial": [
+      "command_id",
+      "key",
+      "study",
+      "demanded",
+      "offer",
+      "corrective"
+    ],
+    "BindDraft": [
+      "key",
+      "cue",
+      "context",
+      "target",
+      "scope",
+      "expected"
+    ],
+    "CancelDevelopment": [
+      "schema_version",
+      "command_id",
+      "task_id",
+      "actor",
+      "reason"
+    ],
+    "CancelSemantic": [
+      "command_id",
+      "task_id",
+      "actor",
+      "family",
+      "reason"
+    ],
+    "Capability": [
+      "ref",
+      "owner",
+      "rule",
+      "application",
+      "evidence"
+    ],
+    "CarrierOption": [
+      "actor",
+      "evidence",
+      "quoted_units"
+    ],
+    "CarrierUse": [
+      "ref",
+      "owner",
+      "material",
+      "carrier",
+      "message",
+      "outcome"
+    ],
+    "Cause": [
+      "event",
+      "rule"
+    ],
+    "Change": [
+      "before",
+      "after"
+    ],
+    "Checkpoint": [
+      "schema",
+      "config",
+      "journal"
+    ],
+    "CircuitAccount": [
+      "ref",
+      "owner",
+      "material",
+      "capacities",
+      "self_performed",
+      "revised_expectations",
+      "previous"
+    ],
+    "CircuitCheckpoint": [
+      "schema",
+      "base",
+      "policy",
+      "partners",
+      "seal"
+    ],
+    "CircuitCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "order",
+      "operator",
+      "work_limit",
+      "aspect",
+      "flag"
+    ],
+    "CircuitJob": [
+      "command",
+      "plan",
+      "basis",
+      "version",
+      "signature",
+      "paid",
+      "outcome"
+    ],
+    "CircuitMessage": [
+      "ref",
+      "sender",
+      "recipient",
+      "order",
+      "permissions",
+      "acknowledgments",
+      "accepted",
+      "source"
+    ],
+    "CircuitOffer": [
+      "command_id",
+      "key",
+      "learner",
+      "partner",
+      "helper",
+      "options",
+      "focus",
+      "circuit",
+      "epoch",
+      "due",
+      "budget",
+      "credits",
+      "minimum_output"
+    ],
+    "CircuitOrder": [
+      "ref",
+      "offer",
+      "bulletin",
+      "menu",
+      "chosen",
+      "stage",
+      "uses",
+      "provisional",
+      "review",
+      "outcome",
+      "signal",
+      "performer",
+      "credited",
+      "closed",
+      "movements",
+      "phase_work"
+    ],
+    "CircuitPolicy": [
+      "correction",
+      "retention",
+      "material_access"
+    ],
+    "CircuitSignal": [
+      "ref",
+      "observer",
+      "source",
+      "order",
+      "option",
+      "success",
+      "errors",
+      "produced",
+      "performer"
+    ],
+    "CircuitTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "job",
+      "processing",
+      "order",
+      "communication",
+      "signal",
+      "capacities",
+      "account",
+      "partner",
+      "tentative"
+    ],
+    "ClearanceBoundary": [
+      "command_id",
+      "actor",
+      "operation",
+      "case",
+      "orders",
+      "item"
+    ],
+    "ClearanceCheckpoint": [
+      "schema",
+      "base",
+      "seal"
+    ],
+    "ClearanceTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task"
+    ],
+    "CloseRound": [
+      "command_id",
+      "start"
+    ],
+    "ClosureCheckpoint": [
+      "schema",
+      "base",
+      "seal"
+    ],
+    "ClosureCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "operation",
+      "inputs",
+      "label",
+      "work_limit",
+      "search_limit"
+    ],
+    "ClosureEvidence": [
+      "schema_version",
+      "ref",
+      "organization",
+      "lower_organizations",
+      "demand",
+      "repertoire",
+      "repertoire_exhausted",
+      "search_censored",
+      "alternatives_evidence",
+      "retained_lower_evidence",
+      "new_capacity_evidence",
+      "coherence_evidence",
+      "minimality_order",
+      "equal_minima",
+      "status"
+    ],
+    "ClosureJob": [
+      "command",
+      "required",
+      "candidate",
+      "basis",
+      "paid",
+      "outcome",
+      "result"
+    ],
+    "ClosurePacket": [
+      "sender",
+      "record",
+      "readable"
+    ],
+    "ClosureResult": [
+      "ref",
+      "owner",
+      "plan",
+      "activation",
+      "duties",
+      "root",
+      "depth",
+      "status",
+      "predicates",
+      "dependencies",
+      "current_states"
+    ],
+    "ClosureTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra",
+      "job"
+    ],
+    "CompensationCheckpoint": [
+      "schema",
+      "base",
+      "release",
+      "reviewers",
+      "journal",
+      "reference_seal",
+      "imported_prefix"
+    ],
+    "CompositionCheckpoint": [
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "agents",
+      "journal"
+    ],
+    "CompositionCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "payload",
+      "work_limit"
+    ],
+    "CompositionJob": [
+      "command",
+      "completed",
+      "node_paid",
+      "frontier",
+      "nodes",
+      "edges",
+      "hits",
+      "capabilities",
+      "outcome",
+      "result"
+    ],
+    "CompositionReport": [
+      "ref",
+      "test",
+      "at",
+      "nodes",
+      "stale",
+      "accesses",
+      "uses",
+      "agreement",
+      "capacity",
+      "freshness",
+      "cross_level",
+      "identity",
+      "factual",
+      "path",
+      "usefulness",
+      "factual_counts",
+      "closure"
+    ],
+    "CompositionRevision": [
+      "ref",
+      "owner",
+      "at",
+      "parts",
+      "previous",
+      "law"
+    ],
+    "CompositionTest": [
+      "ref",
+      "request",
+      "at"
+    ],
+    "CompositionTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra",
+      "job"
+    ],
+    "ConceptAddress": [
+      "folded_position",
+      "file",
+      "depth",
+      "apex",
+      "cue"
+    ],
+    "ConceptCheckpoint": [
+      "schema",
+      "base",
+      "journal",
+      "migration_prefix",
+      "reference_seal"
+    ],
+    "ConceptCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "operator",
+      "sources",
+      "recipient",
+      "item",
+      "work_limit"
+    ],
+    "ConceptJob": [
+      "command",
+      "plan",
+      "previous",
+      "movements",
+      "paid",
+      "outcome"
+    ],
+    "ConceptState": [
+      "ref",
+      "owner",
+      "reference",
+      "context",
+      "address",
+      "relations",
+      "tensions",
+      "evidence",
+      "previous",
+      "practiced"
+    ],
+    "ConceptTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "job",
+      "processing",
+      "concept"
+    ],
+    "ConfigureAgent": [
+      "command_id",
+      "policy",
+      "reason"
+    ],
+    "ContentCommand": [
+      "schema_version",
+      "command_id",
+      "task_id",
+      "actor",
+      "operator",
+      "sources",
+      "access",
+      "work_limit"
+    ],
+    "ContextDraft": [
+      "key",
+      "label"
+    ],
+    "Contrast": [
+      "perspective",
+      "left",
+      "right"
+    ],
+    "ConversionCapacity": [
+      "ref",
+      "owner",
+      "material",
+      "rule",
+      "acquisition",
+      "practice",
+      "current",
+      "previous"
+    ],
+    "ConversionCheckpoint": [
+      "schema",
+      "base",
+      "policy",
+      "seal"
+    ],
+    "ConversionCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "operator",
+      "item",
+      "work_limit"
+    ],
+    "ConversionJob": [
+      "command",
+      "operation",
+      "plan",
+      "movements",
+      "basis",
+      "study",
+      "capacity",
+      "accessible",
+      "view",
+      "result",
+      "paid",
+      "outcome"
+    ],
+    "ConversionPolicy": [
+      "material_access",
+      "practice",
+      "retention"
+    ],
+    "ConversionStudy": [
+      "ref",
+      "owner",
+      "material",
+      "concept_origin",
+      "account_material",
+      "context_sources",
+      "candidate",
+      "active",
+      "paused"
+    ],
+    "ConversionTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "job",
+      "processing",
+      "study",
+      "candidate",
+      "capacity",
+      "use",
+      "treatment",
+      "concept"
+    ],
+    "ConversionUse": [
+      "ref",
+      "owner",
+      "material",
+      "rule",
+      "capacity",
+      "item",
+      "loan",
+      "terms",
+      "required",
+      "event"
+    ],
+    "Correction": [
+      "command_id",
+      "target",
+      "replacement_owner",
+      "reason"
+    ],
+    "Credit": [
+      "command_id",
+      "actor",
+      "energy",
+      "time",
+      "reason"
+    ],
+    "CueBinding": [
+      "ref",
+      "owner",
+      "cue",
+      "context",
+      "target",
+      "scope",
+      "learned_from"
+    ],
+    "CueDescriptor": [
+      "ref",
+      "symbol",
+      "deck",
+      "suit",
+      "rank",
+      "folded_location",
+      "layer_label"
+    ],
+    "CursorDraft": [
+      "cues",
+      "policy",
+      "max_hops",
+      "expected"
+    ],
+    "CursorState": [
+      "ref",
+      "owner",
+      "current_cues",
+      "policy",
+      "practice_evidence"
+    ],
+    "DeclareCompositionTest": [
+      "command_id",
+      "key",
+      "root",
+      "context",
+      "claims",
+      "required_rules",
+      "max_units"
+    ],
+    "DeclareDyad": [
+      "command_id",
+      "key",
+      "left",
+      "right",
+      "item",
+      "max_units"
+    ],
+    "DeclareStudy": [
+      "command_id",
+      "study"
+    ],
+    "DemandComparison": [
+      "schema_version",
+      "current",
+      "prior",
+      "relation",
+      "changes",
+      "reason"
+    ],
+    "DemandRecord": [
+      "schema_version",
+      "specification",
+      "owner",
+      "item",
+      "status",
+      "reason"
+    ],
+    "DemandSketch": [
+      "schema_version",
+      "family",
+      "item",
+      "material",
+      "observations",
+      "goal",
+      "units",
+      "priority"
+    ],
+    "DetailQuery": [
+      "keys",
+      "context",
+      "at",
+      "subject",
+      "relation",
+      "visit_limit"
+    ],
+    "DevelopmentCheckpoint": [
+      "schema_version",
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "agents",
+      "organization_policies",
+      "semantic_policy",
+      "journal"
+    ],
+    "DevelopmentJob": [
+      "schema_version",
+      "command",
+      "started_at",
+      "plan",
+      "candidate",
+      "sources",
+      "dependencies",
+      "paid",
+      "outcome",
+      "result"
+    ],
+    "DevelopmentTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "state",
+      "job",
+      "messages",
+      "memories",
+      "task"
+    ],
+    "DevelopmentalDemand": [
+      "schema_version",
+      "ref",
+      "origin",
+      "origin_events",
+      "discovered_from",
+      "family",
+      "comparison_protocol",
+      "required_outcomes",
+      "movements",
+      "context",
+      "participants",
+      "material_lineage",
+      "constraints",
+      "duration",
+      "resources",
+      "requirements",
+      "prior_demand"
+    ],
+    "DevelopmentalState": [
+      "schema_version",
+      "actor",
+      "at",
+      "gamma",
+      "organization",
+      "movement",
+      "content",
+      "shell_episodes",
+      "phase",
+      "phase_evidence",
+      "residual",
+      "demands",
+      "opportunities",
+      "resources",
+      "material_lineage",
+      "capacities",
+      "trajectory_events"
+    ],
+    "DevelopmentalWork": [
+      "schema_version",
+      "ref",
+      "actor",
+      "demand",
+      "operator",
+      "movement",
+      "inputs",
+      "event_refs",
+      "work_refs",
+      "required_units",
+      "paid_units",
+      "status",
+      "outputs"
+    ],
+    "Dispute": [
+      "run"
+    ],
+    "Dyad": [
+      "ref",
+      "request",
+      "at"
+    ],
+    "DyadReport": [
+      "ref",
+      "study",
+      "rounds",
+      "phases",
+      "identity",
+      "path",
+      "meaning",
+      "closure"
+    ],
+    "Edge": [
+      "parent",
+      "part"
+    ],
+    "EmbodyDraft": [
+      "application",
+      "key",
+      "expected"
+    ],
+    "Enactment": [
+      "ref",
+      "owner",
+      "account",
+      "request",
+      "observation",
+      "outcome"
+    ],
+    "EndTrial": [
+      "command_id",
+      "trial"
+    ],
+    "Entity": [
+      "ref",
+      "label",
+      "role"
+    ],
+    "EpisodeResourceContract": [
+      "command_id",
+      "episode_id",
+      "regime",
+      "seed",
+      "protocol_id",
+      "protocol_sha256"
+    ],
+    "Expectation": [
+      "subject",
+      "relation",
+      "value"
+    ],
+    "FactCheck": [
+      "claim",
+      "at",
+      "status",
+      "evidence",
+      "dependency_revision",
+      "checked_at",
+      "reason"
+    ],
+    "FoldDraft": [
+      "key",
+      "parts",
+      "expected"
+    ],
+    "FormalMovement": [
+      "route",
+      "polarity"
+    ],
+    "Formulate": [
+      "access",
+      "state"
+    ],
+    "Goal": [
+      "key",
+      "actor",
+      "item",
+      "partner"
+    ],
+    "GoalResult": [
+      "ref",
+      "owner",
+      "goal",
+      "received",
+      "account",
+      "application",
+      "retained"
+    ],
+    "IdeaCell": [
+      "phase",
+      "perspective"
+    ],
+    "InboxState": [
+      "ref",
+      "owner",
+      "after"
+    ],
+    "Intend": [
+      "utterance",
+      "access"
+    ],
+    "Interpret": [
+      "observation",
+      "access"
+    ],
+    "Interpretation": [
+      "ref",
+      "owner",
+      "source",
+      "access",
+      "speech",
+      "status",
+      "definitions",
+      "reason",
+      "debtor"
+    ],
+    "Join": [
+      "offer",
+      "access"
+    ],
+    "LanguageCheckpoint": [
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "agents",
+      "journal",
+      "semantic_policy"
+    ],
+    "LanguageCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "payload",
+      "work_limit"
+    ],
+    "LanguageJob": [
+      "command",
+      "required",
+      "candidate",
+      "paid",
+      "outcome",
+      "result",
+      "route"
+    ],
+    "LanguageTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra",
+      "job",
+      "state"
+    ],
+    "Learn": [
+      "token",
+      "access",
+      "observation",
+      "expected"
+    ],
+    "Leave": [
+      "state",
+      "reason"
+    ],
+    "Lexeme": [
+      "ref",
+      "owner",
+      "meaning",
+      "access",
+      "previous",
+      "source"
+    ],
+    "LoanDue": [
+      "command_id",
+      "item",
+      "loan"
+    ],
+    "LocalDecision": [
+      "schema_version",
+      "kind",
+      "reason",
+      "demands",
+      "need_count",
+      "discrepancy_count",
+      "pressure_units",
+      "repeated_unsuccessful_attempts"
+    ],
+    "LocalRequest": [
+      "schema_version",
+      "observation",
+      "sender",
+      "packet",
+      "memory"
+    ],
+    "LocalView": [
+      "schema_version",
+      "state",
+      "policy",
+      "now",
+      "context",
+      "observation",
+      "sender",
+      "packet",
+      "head",
+      "binding",
+      "pending_status",
+      "result",
+      "memories",
+      "recall",
+      "energy",
+      "time",
+      "origins",
+      "access_valid"
+    ],
+    "MaterialCommand": [
+      "command_id",
+      "actor",
+      "key",
+      "operation",
+      "source"
+    ],
+    "MaterialState": [
+      "ref",
+      "owner",
+      "account",
+      "treatment",
+      "carrier",
+      "previous",
+      "basis"
+    ],
+    "MaterialTreatment": [
+      "schema_version",
+      "ref",
+      "lineage",
+      "origin_actor",
+      "source_events",
+      "treating_actor",
+      "treatment",
+      "carrier",
+      "previous_revision",
+      "selection_evidence",
+      "work_refs",
+      "consequences"
+    ],
+    "Meaning": [
+      "token",
+      "patterns",
+      "arity"
+    ],
+    "MeaningCommand": [
+      "schema_version",
+      "command_id",
+      "task_id",
+      "actor",
+      "cue",
+      "context",
+      "scene",
+      "experience",
+      "application",
+      "access",
+      "key",
+      "expected",
+      "work_limit"
+    ],
+    "MemoryCheckpoint": [
+      "schema",
+      "config",
+      "journal"
+    ],
+    "MemoryCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "payload",
+      "based_on",
+      "work_limit"
+    ],
+    "MemoryContext": [
+      "ref",
+      "owner",
+      "label"
+    ],
+    "MemoryDraft": [
+      "key",
+      "content",
+      "attitude",
+      "reason"
+    ],
+    "MemoryJob": [
+      "command",
+      "completed_units",
+      "outcome",
+      "selected_at",
+      "navigation",
+      "max_hops",
+      "bindings",
+      "frontier",
+      "visited",
+      "hits",
+      "truncated",
+      "result"
+    ],
+    "MemoryPointer": [
+      "schema_version",
+      "key",
+      "item",
+      "memory",
+      "binding"
+    ],
+    "MemoryRevision": [
+      "ref",
+      "owner",
+      "retained_at",
+      "content",
+      "links",
+      "observations",
+      "derived_from",
+      "claim_status",
+      "capabilities",
+      "replaces",
+      "reason"
+    ],
+    "MemoryTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "bindings",
+      "contexts",
+      "navigations",
+      "inboxes",
+      "recalls",
+      "job"
+    ],
+    "Message": [
+      "ref",
+      "sender",
+      "receiver",
+      "event",
+      "at",
+      "content",
+      "based_on"
+    ],
+    "MessageDraft": [
+      "content"
+    ],
+    "MetabolicCheckpoint": [
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "journal"
+    ],
+    "MetabolicCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "payload",
+      "work_limit"
+    ],
+    "MetabolicJob": [
+      "command",
+      "plan",
+      "basis",
+      "completed_units",
+      "action_units",
+      "phase",
+      "action",
+      "enactments",
+      "observations",
+      "discrepancy",
+      "history",
+      "attempts",
+      "outcome",
+      "result"
+    ],
+    "MetabolicTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra",
+      "state",
+      "job"
+    ],
+    "Moment": [
+      "tick",
+      "order"
+    ],
+    "MovementRecord": [
+      "ref",
+      "holon",
+      "demand",
+      "formal",
+      "operation",
+      "preconditions",
+      "content",
+      "history",
+      "outcome",
+      "retained",
+      "reason"
+    ],
+    "NativeBinding": [
+      "ref",
+      "owner",
+      "root",
+      "access",
+      "material",
+      "capacities",
+      "production",
+      "conditional_use",
+      "returned"
+    ],
+    "Navigation": [
+      "cursor",
+      "max_hops"
+    ],
+    "Notice": [
+      "observation",
+      "source",
+      "sender",
+      "kind",
+      "claim",
+      "reply_to",
+      "sender_type",
+      "element"
+    ],
+    "Observation": [
+      "ref",
+      "observer",
+      "source",
+      "source_time",
+      "delivered_at",
+      "content",
+      "channel_rule",
+      "visibility",
+      "uncertainty"
+    ],
+    "ObservationPatch": [
+      "schema_version",
+      "key",
+      "item",
+      "content",
+      "observation",
+      "sender"
+    ],
+    "OpenRound": [
+      "command_id",
+      "study",
+      "key"
+    ],
+    "Opportunity": [
+      "required",
+      "affordable",
+      "interpretable",
+      "contradiction",
+      "reason"
+    ],
+    "OrderDependency": [
+      "command_id",
+      "predecessor",
+      "successor"
+    ],
+    "OrganizationCheckpoint": [
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "agents",
+      "organization_policies",
+      "journal",
+      "semantic_policy"
+    ],
+    "OrganizationCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "payload",
+      "work_limit"
+    ],
+    "OrganizationJob": [
+      "command",
+      "required",
+      "candidate",
+      "paid",
+      "outcome",
+      "result",
+      "route"
+    ],
+    "OrganizationPacket": [
+      "kind",
+      "sender",
+      "terms",
+      "status",
+      "reason"
+    ],
+    "OrganizationPolicy": [
+      "owner",
+      "max_action_cost",
+      "max_members",
+      "minimum_support"
+    ],
+    "OrganizationResult": [
+      "ref",
+      "owner",
+      "kind",
+      "terms",
+      "status",
+      "reason",
+      "sources",
+      "previous",
+      "speech"
+    ],
+    "OrganizationTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra",
+      "job",
+      "state"
+    ],
+    "Ownership": [
+      "item",
+      "owner"
+    ],
+    "Part": [
+      "role",
+      "target",
+      "context"
+    ],
+    "ParticipantInput": [
+      "actor",
+      "at",
+      "observations",
+      "own_memories",
+      "available",
+      "demands"
+    ],
+    "PartnerShift": [
+      "command_id",
+      "actor",
+      "unavailable_slots"
+    ],
+    "Pattern": [
+      "subject",
+      "owner"
+    ],
+    "Perform": [
+      "state",
+      "access"
+    ],
+    "PhaseEvidence": [
+      "cell",
+      "status",
+      "evidence",
+      "reason"
+    ],
+    "PlanTurn": [
+      "command_id",
+      "actor"
+    ],
+    "Practice": [
+      "item",
+      "meaning",
+      "steps",
+      "partners",
+      "successes",
+      "failures",
+      "examples"
+    ],
+    "ProcessingPolicy": [
+      "typed_routing",
+      "positional_prices"
+    ],
+    "ProcessingState": [
+      "ref",
+      "owner",
+      "active",
+      "perspective",
+      "busy"
+    ],
+    "ProcessingStep": [
+      "order",
+      "operation",
+      "inputs",
+      "outputs",
+      "work"
+    ],
+    "Produce": [
+      "speech"
+    ],
+    "Profile": [
+      "owner",
+      "tim",
+      "active",
+      "perspective"
+    ],
+    "Proposition": [
+      "subject",
+      "relation",
+      "object",
+      "context",
+      "scope"
+    ],
+    "ProtocolSpec": [
+      "ref",
+      "transform",
+      "return_policy",
+      "domain",
+      "resource_conditions",
+      "path_conditions"
+    ],
+    "Ratify": [
+      "review",
+      "votes"
+    ],
+    "RecallHit": [
+      "memory",
+      "proposition_indexes"
+    ],
+    "RecallQuery": [
+      "cues",
+      "context",
+      "at",
+      "subject",
+      "relation",
+      "visit_limit"
+    ],
+    "RecallResult": [
+      "ref",
+      "owner",
+      "query",
+      "selected_at",
+      "navigation",
+      "max_hops",
+      "bindings",
+      "visited",
+      "hits",
+      "truncated"
+    ],
+    "ReceiveCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "observation",
+      "work_limit"
+    ],
+    "Reception": [
+      "ref",
+      "owner",
+      "command",
+      "source",
+      "sender",
+      "source_position",
+      "landing_position",
+      "plan",
+      "completed",
+      "outcome"
+    ],
+    "ReconciliationCheckpoint": [
+      "schema",
+      "base",
+      "account_policy",
+      "seal"
+    ],
+    "ReconciliationPolicy": [
+      "distinction_unit",
+      "scaffold_unit",
+      "guard_unit",
+      "cross_check",
+      "willing"
+    ],
+    "Ref": [
+      "kind",
+      "key",
+      "revision"
+    ],
+    "ReleaseCommand": [
+      "command_id",
+      "task_id",
+      "actor",
+      "operator",
+      "item",
+      "source",
+      "willingness",
+      "work_limit"
+    ],
+    "ReleaseConfig": [
+      "required_items",
+      "revision_unit"
+    ],
+    "ReleaseDecision": [
+      "ref",
+      "owner",
+      "view",
+      "selection",
+      "material",
+      "treatment"
+    ],
+    "ReleaseJob": [
+      "command",
+      "plan",
+      "movements",
+      "view",
+      "selection",
+      "basis",
+      "previous",
+      "paid",
+      "outcome"
+    ],
+    "ReleasePacket": [
+      "kind",
+      "item",
+      "loan",
+      "decision",
+      "request",
+      "approved",
+      "required",
+      "material",
+      "reason"
+    ],
+    "ReleaseSelection": [
+      "mode",
+      "carrier",
+      "extent",
+      "alternatives",
+      "reason"
+    ],
+    "ReleaseTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "job",
+      "processing",
+      "material",
+      "treatment",
+      "decision",
+      "concept"
+    ],
+    "ReleaseView": [
+      "owner",
+      "item",
+      "loan",
+      "terms",
+      "required",
+      "clean",
+      "due",
+      "owned",
+      "concept",
+      "dependency",
+      "supports",
+      "carriers",
+      "refused",
+      "prior_treatment"
+    ],
+    "Requirement": [
+      "schema_version",
+      "name",
+      "magnitude"
+    ],
+    "ResidualObservations": [
+      "schema_version",
+      "events",
+      "queue_entered",
+      "observed_at",
+      "eligible_engagements",
+      "canceled_work",
+      "intensity_measurement"
+    ],
+    "ResourceAmount": [
+      "unit",
+      "amount"
+    ],
+    "ResourceEnvelope": [
+      "schema_version",
+      "energy",
+      "time",
+      "replenishment_rule"
+    ],
+    "RetainedCapacity": [
+      "schema_version",
+      "ref",
+      "holder",
+      "content_aspect",
+      "operator",
+      "binding",
+      "context",
+      "material_lineage",
+      "acquisition_work",
+      "practice_events",
+      "dependencies",
+      "status",
+      "supersedes"
+    ],
+    "ReviewPolicy": [
+      "owner",
+      "may_review",
+      "review_units"
+    ],
+    "ReviewTerms": [
+      "proposal",
+      "access"
+    ],
+    "RootGrant": [
+      "ref",
+      "owner",
+      "source",
+      "plan",
+      "readable"
+    ],
+    "RoundResult": [
+      "ref",
+      "start",
+      "study",
+      "uses",
+      "identity",
+      "path",
+      "meaning",
+      "units",
+      "reason"
+    ],
+    "RoundStart": [
+      "ref",
+      "study",
+      "at",
+      "owner",
+      "cursor",
+      "left_spent",
+      "right_spent"
+    ],
+    "Route": [
+      "origin",
+      "destination"
+    ],
+    "RoutePlan": [
+      "declared_type",
+      "routing_type",
+      "path",
+      "positions",
+      "support_position",
+      "support_index",
+      "hop_units",
+      "content_units"
+    ],
+    "ScopeCandidate": [
+      "ref",
+      "owner",
+      "material",
+      "context",
+      "table",
+      "sources",
+      "practice",
+      "failures",
+      "covered",
+      "previous",
+      "preconditions"
+    ],
+    "SearchResult": [
+      "ref",
+      "owner",
+      "demand",
+      "current",
+      "rows",
+      "candidates",
+      "equal_minima",
+      "status",
+      "required",
+      "unfinished",
+      "departed"
+    ],
+    "SemanticPolicy": [
+      "enabled"
+    ],
+    "SemanticRoute": [
+      "family",
+      "operation",
+      "start_state",
+      "movement",
+      "extent",
+      "plan"
+    ],
+    "SharedActivation": [
+      "ref",
+      "owner",
+      "plan",
+      "votes"
+    ],
+    "SharedDemand": [
+      "ref",
+      "owner",
+      "binding",
+      "item",
+      "members",
+      "obligations",
+      "parent",
+      "previous_terms",
+      "previous_generation"
+    ],
+    "SharedPlan": [
+      "ref",
+      "owner",
+      "demand",
+      "root",
+      "access",
+      "search",
+      "operation",
+      "identity",
+      "generation",
+      "terms_digest",
+      "members",
+      "assignments",
+      "start",
+      "state",
+      "parent_root"
+    ],
+    "SharedVote": [
+      "ref",
+      "owner",
+      "plan",
+      "approved",
+      "reason",
+      "state",
+      "own_units",
+      "limit"
+    ],
+    "ShellEpisode": [
+      "schema_version",
+      "ref",
+      "actor",
+      "material_lineage",
+      "demands",
+      "signs",
+      "mechanism",
+      "opportunities",
+      "trajectory_events",
+      "protocol",
+      "status",
+      "capacity_revisions",
+      "earlier_episode"
+    ],
+    "Snapshot": [
+      "at",
+      "memory",
+      "claims",
+      "capacities",
+      "capacity_rules",
+      "processing",
+      "perspective",
+      "checks",
+      "fact_evidence",
+      "current_delivery"
+    ],
+    "SocionCheckpoint": [
+      "schema",
+      "config",
+      "profiles",
+      "policy",
+      "agents",
+      "journal"
+    ],
+    "SocionTransaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task",
+      "extra"
+    ],
+    "Speech": [
+      "mode",
+      "calls",
+      "actions"
+    ],
+    "StructuralFingerprint": [
+      "schema_version",
+      "tim",
+      "model_a_stack",
+      "dimensions"
+    ],
+    "Study": [
+      "spec",
+      "actor",
+      "memory_key",
+      "item",
+      "operations",
+      "max_units",
+      "forbid_discrepancy",
+      "recurrence",
+      "provenance",
+      "contrasts"
+    ],
+    "StudyAggregate": [
+      "ref",
+      "study",
+      "trials",
+      "blocked_run",
+      "reconstruction_run",
+      "candidate_seen",
+      "corrected_run",
+      "capacity_items",
+      "last",
+      "failed_return"
+    ],
+    "StudyReport": [
+      "ref",
+      "study",
+      "at",
+      "snapshot",
+      "results",
+      "adjudicable",
+      "contradicted",
+      "unresolved",
+      "relevant",
+      "delivered",
+      "retained",
+      "shell",
+      "provenance",
+      "aggregate",
+      "phases",
+      "closure"
+    ],
+    "Task": [
+      "actor",
+      "key",
+      "request",
+      "message",
+      "memory",
+      "required",
+      "completed",
+      "outcome"
+    ],
+    "TensionMaterial": [
+      "ref",
+      "owner",
+      "reference",
+      "address",
+      "constraint",
+      "origin_event",
+      "concept_at_origin",
+      "evidence_at_origin"
+    ],
+    "Terms": [
+      "identity",
+      "generation",
+      "predecessor",
+      "item",
+      "meaning",
+      "steps",
+      "members"
+    ],
+    "TheorizeDraft": [
+      "recall",
+      "item",
+      "recipient"
+    ],
+    "Tick": [
+      "command_id"
+    ],
+    "TimeScope": [
+      "start",
+      "end"
+    ],
+    "Transaction": [
+      "command",
+      "event",
+      "works",
+      "observations",
+      "messages",
+      "memories",
+      "task"
+    ],
+    "TrialResult": [
+      "ref",
+      "start",
+      "study",
+      "end",
+      "events",
+      "works",
+      "units",
+      "completed_operations",
+      "identity",
+      "path",
+      "initiated",
+      "blocked",
+      "reconstruction",
+      "discrepancy",
+      "externalized_action",
+      "successful_capacity_items",
+      "visibility",
+      "net",
+      "cancellation",
+      "recurrence",
+      "reason"
+    ],
+    "TrialStart": [
+      "ref",
+      "request",
+      "snapshot",
+      "opportunity",
+      "actor_cursor",
+      "item_cursor"
+    ],
+    "UnderstandDraft": [
+      "account",
+      "key",
+      "expected"
+    ],
+    "UnfoldDraft": [
+      "root",
+      "context",
+      "at"
+    ],
+    "UnfoldResult": [
+      "ref",
+      "owner",
+      "query",
+      "nodes",
+      "edges",
+      "hits",
+      "capabilities",
+      "units",
+      "truncated"
+    ],
+    "UseWitness": [
+      "access",
+      "account",
+      "application",
+      "retained",
+      "units"
+    ],
+    "Utterance": [
+      "ref",
+      "owner",
+      "speech",
+      "definitions"
+    ],
+    "VersionOne": [
+      "schema_version"
+    ],
+    "ViewSnapshot": [
+      "schema_version",
+      "state",
+      "now",
+      "observation",
+      "head",
+      "binding",
+      "pending_status",
+      "result",
+      "memories",
+      "recall",
+      "energy",
+      "time",
+      "access_valid"
+    ],
+    "Visit": [
+      "memory",
+      "parent",
+      "depth"
+    ],
+    "Wallet": [
+      "actor",
+      "energy",
+      "time"
+    ],
+    "WithdrawEvidence": [
+      "command_id",
+      "source",
+      "reason"
+    ],
+    "Witness": [
+      "observer",
+      "item",
+      "mode"
+    ],
+    "WordUse": [
+      "token",
+      "fingerprint",
+      "arguments"
+    ],
+    "WorkOption": [
+      "key",
+      "available",
+      "condition",
+      "observed_epoch",
+      "start",
+      "ready_at",
+      "duration",
+      "load",
+      "output",
+      "cost",
+      "claims",
+      "license"
+    ],
+    "WorkPartner": [
+      "actor",
+      "licenses",
+      "unavailable_slots",
+      "willing",
+      "max_load",
+      "helper_available"
+    ],
+    "WorkRecord": [
+      "ref",
+      "owner",
+      "operation",
+      "before",
+      "credited",
+      "charged",
+      "after",
+      "required_units",
+      "completed_units",
+      "outcome",
+      "reason"
+    ],
+    "WorkshopCommand": [
+      "schema_version",
+      "command_id",
+      "task_id",
+      "actor",
+      "operation",
+      "inputs",
+      "based_on",
+      "request",
+      "work_limit"
+    ],
+    "WorkshopConfig": [
+      "schema_version",
+      "conditions",
+      "wear_after_use",
+      "due_after_use"
+    ],
+    "WorkshopJob": [
+      "schema_version",
+      "command",
+      "required",
+      "paid",
+      "outcome"
+    ],
+    "WorkshopPacket": [
+      "schema_version",
+      "kind",
+      "item",
+      "topic",
+      "accept_return",
+      "explanation"
+    ],
+    "WorldConfig": [
+      "context",
+      "entities",
+      "actors",
+      "ownership",
+      "wallets",
+      "witnesses",
+      "message_links"
+    ],
+    "WorldEvent": [
+      "ref",
+      "when",
+      "actors",
+      "objects",
+      "action",
+      "context",
+      "changes",
+      "causes",
+      "work",
+      "outcome",
+      "reason",
+      "corrects"
+    ],
+    "WriteDraft": [
+      "key",
+      "content",
+      "links",
+      "attitude",
+      "expected",
+      "reason"
+    ],
+    "hle.development_contracts.Opportunity": [
+      "schema_version",
+      "ref",
+      "actor",
+      "demand",
+      "at",
+      "demand_active",
+      "observation_refs",
+      "interpretation",
+      "available_operator",
+      "required_units",
+      "resources",
+      "blocking_constraints",
+      "block_position",
+      "queue_entered",
+      "eligible_engagements"
+    ]
+  },
+  "excluded_non_dataclass_registry_entries": [
+    "Record"
+  ],
+  "enum_tags": {
+    "CapacityStatus": [
+      "current",
+      "superseded",
+      "withdrawn"
+    ],
+    "ClaimStatus": [
+      "tentative",
+      "endorsed",
+      "disputed",
+      "retracted"
+    ],
+    "Comparison": [
+      "equal",
+      "greater",
+      "lesser",
+      "incomparable"
+    ],
+    "Dimension": [
+      "factual_agreement",
+      "identity_return",
+      "path_conditions",
+      "retained_capacity"
+    ],
+    "EvidenceStatus": [
+      "established",
+      "failed",
+      "unassessed"
+    ],
+    "IdeaPhase": [
+      "initiate",
+      "define",
+      "engage",
+      "align"
+    ],
+    "Kind": [
+      "entity",
+      "context",
+      "event",
+      "message",
+      "observation",
+      "memory",
+      "cue",
+      "binding",
+      "cursor",
+      "procedure",
+      "demand",
+      "movement",
+      "work",
+      "rule",
+      "identity",
+      "protocol",
+      "assessment",
+      "evidence"
+    ],
+    "Origin": [
+      "fixture",
+      "consequence",
+      "participant"
+    ],
+    "Perspective": [
+      "I",
+      "IT",
+      "WE",
+      "ITS"
+    ],
+    "Phase": [
+      "unassessed",
+      "release",
+      "leadership",
+      "reversion",
+      "reownership"
+    ],
+    "Polarity": [
+      "accumulation",
+      "expenditure"
+    ],
+    "ShellSign": [
+      "premature_translation",
+      "forced_placement",
+      "new_defensive_structure",
+      "residual_fragmentation",
+      "foreclosure"
+    ],
+    "Treatment": [
+      "hold",
+      "revise",
+      "restrict_access",
+      "externalize",
+      "reown"
+    ],
+    "WorkStatus": [
+      "pending",
+      "completed",
+      "partial",
+      "deferred",
+      "failed"
+    ]
+  }
+}

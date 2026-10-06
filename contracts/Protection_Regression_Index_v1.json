@@ -1,0 +1,218 @@
+{
+  "schema": "u1-protection-regression-index-v1",
+  "scope": "Selected executable baseline witnesses, not a claim of complete coverage of the future generalized property. All belong to the declared inherited validation; index entries are not extra tests.",
+  "properties": [
+    {
+      "protected_property": "P01",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests/test_contracts.py",
+          "test_id": "tests.test_contracts.BoundaryContracts.test_historical_references_distinguish_versions_kinds_and_people"
+        }
+      ]
+    },
+    {
+      "protected_property": "P02",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests/test_contracts.py",
+          "test_id": "tests.test_contracts.BoundaryContracts.test_revision_keeps_old_content_and_pins_exact_predecessor"
+        },
+        {
+          "path": "tests/test_memory.py",
+          "test_id": "tests.test_memory.RevisionTests.test_old_binding_remains_exact_until_explicit_rebind"
+        }
+      ]
+    },
+    {
+      "protected_property": "P03",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests/test_contracts.py",
+          "test_id": "tests.test_contracts.BoundaryContracts.test_belief_existence_uses_shared_vocabulary_without_truth_flag"
+        },
+        {
+          "path": "tests/test_assessment.py",
+          "test_id": "tests.test_assessment.IdeaAndError.test_a07_stable_false_account_returns_identity_without_becoming_true"
+        }
+      ]
+    },
+    {
+      "protected_property": "P04",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_hidden_world_state_cannot_change_same_local_decision"
+        },
+        {
+          "path": "tests/test_memory.py",
+          "test_id": "tests.test_memory.BoundariesAndActions.test_private_records_cannot_be_read_bound_linked_or_selected"
+        }
+      ]
+    },
+    {
+      "protected_property": "P05",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_instruction_supply_practice_are_distinct"
+        },
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_shared_access_is_explicit_and_does_not_confer_native_competence"
+        }
+      ]
+    },
+    {
+      "protected_property": "P06",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_detail_query_cannot_fetch_meaning"
+        },
+        {
+          "path": "tests/test_contracts.py",
+          "test_id": "tests.test_contracts.BoundaryContracts.test_rank_fold_content_and_cursor_competence_are_independent"
+        }
+      ]
+    },
+    {
+      "protected_property": "P07",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_all_types_and_fixed_dimensionality"
+        },
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_fold_bridge_retains_coordinates"
+        },
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_concept_path_paid_and_recorded"
+        }
+      ]
+    },
+    {
+      "protected_property": "P08",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests/test_contracts.py",
+          "test_id": "tests.test_contracts.BoundaryContracts.test_partial_failed_and_deferred_work_keep_charges"
+        },
+        {
+          "path": "tests_r21b/test_paid_policy.py",
+          "test_id": "tests_r21b.test_paid_policy.IntegratedPolicy.test_withdrawal_during_partial_reuse_fails_without_refund"
+        }
+      ]
+    },
+    {
+      "protected_property": "P09",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r21b/test_paid_policy.py",
+          "test_id": "tests_r21b.test_paid_policy.IntegratedPolicy.test_changed_partner_schedule_still_causes_a_fresh_physical_failure"
+        }
+      ]
+    },
+    {
+      "protected_property": "P10",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r21b/test_paid_policy.py",
+          "test_id": "tests_r21b.test_paid_policy.IntegratedPolicy.test_partial_work_neither_populates_cache_nor_publishes_choice"
+        },
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_partial_search_checkpoint_resumes_with_exact_debit"
+        }
+      ]
+    },
+    {
+      "protected_property": "P11",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_withdrawal_is_delivered"
+        },
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_changed_child_invalidates_both_affected_parent_claims"
+        },
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_unrelated_revision_does_not_invalidate_parent"
+        }
+      ]
+    },
+    {
+      "protected_property": "P12",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests/test_assessment.py",
+          "test_id": "tests.test_assessment.DemandPathAndRetention.test_a06_energy_and_time_limit_do_not_become_foreclosure"
+        },
+        {
+          "path": "tests/test_assessment.py",
+          "test_id": "tests.test_assessment.DemandPathAndRetention.test_a09_matched_quiet_trajectories_need_demand_to_imply_foreclosure"
+        },
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_legitimate_controls_are_not_tension_or_shell"
+        }
+      ]
+    },
+    {
+      "protected_property": "P13",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r145/test_integration.py",
+          "test_id": "tests_r145.test_integration.Integration.test_after_supply_removal_held_out_action_is_independent"
+        },
+        {
+          "path": "tests_r21b/test_paid_policy.py",
+          "test_id": "tests_r21b.test_paid_policy.IntegratedPolicy.test_withdrawn_capacity_cannot_be_replaced_by_cached_predicates"
+        }
+      ]
+    },
+    {
+      "protected_property": "P14",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_withdrawn_member_commitment_cannot_support_settlement"
+        },
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_shared_access_is_explicit_and_does_not_confer_native_competence"
+        }
+      ]
+    },
+    {
+      "protected_property": "P15",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests_r20/test_closure.py",
+          "test_id": "tests_r20.test_closure.ClosureTests.test_no_search_work_is_not_empty_conductivity"
+        }
+      ]
+    },
+    {
+      "protected_property": "P16",
+      "selected_baseline_regressions": [
+        {
+          "path": "tests/test_contracts.py",
+          "test_id": "tests.test_contracts.BoundaryContracts.test_stability_accuracy_path_and_capacity_have_separate_results"
+        },
+        {
+          "path": "tests_r12/test_contracts.py",
+          "test_id": "tests_r12.test_contracts.AntiAwardTests.test_failures_and_protocol_identity_cannot_be_erased"
+        },
+        {
+          "path": "tests_r21b/test_paid_policy.py",
+          "test_id": "tests_r21b.test_paid_policy.IntegratedPolicy.test_duplicate_horizon_rows_cannot_replace_later_paid_opportunities"
+        }
+      ]
+    }
+  ]
+}

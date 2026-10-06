@@ -1,0 +1,579 @@
+P0001 Parametric Field Team  |  The Crux — Readable Examined Edition  |  Version 6  |  August 2026
+P0002 The Recursive Cross of Perspectives
+P0003 One System of Content Motion and Development
+P0004 Readable Examined Edition — Version 6  |  Technical meaning and status labels preserved
+P0005 The system in plain language.  The model follows content as it moves between four perspectives. Each movement has an origin, a destination, and an inward or outward polarity. A movement is conductive when it completes without persistent distortion. Persistent distortion under increased demand is called a Shell. The model can describe development against the Spiral Dynamics color line, but it does not derive that line.
+P0007 1. Status Convention
+P0008 Each claim uses one of the labels below. An unlabeled sentence inherits the status of its section.
+P0009 Label
+P0010 Meaning
+P0011 Imported
+P0012 Taken from a named source framework. This paper does not establish it.
+P0013 Postulate
+P0014 Assumed inside this model without derivation.
+P0015 Convention
+P0016 A chosen label, coding, origin, or coordinate order. It carries no substantive claim.
+P0017 Derived
+P0018 Follows from imports, postulates, conventions, and arithmetic.
+P0019 Interpretive
+P0020 Restates material in Cross vocabulary without deriving it.
+P0021 Proposed operationalization
+P0022 A proposed measurement or simulation procedure. It is untested unless stated otherwise.
+P0023 Open
+P0024 Identified but unresolved.
+P0026 2. The Conditional Frame
+P0027 This paper is conditional. It asks what structure follows if several outside frameworks are used together.
+P0028 The inputs are:
+P0029 The AQAL quadrant scheme.
+P0030 The Spiral Dynamics color line.
+P0031 The Model A stacks and their two-cube encoding from The Whole Machine.
+P0032 The vital-ring support table from the Libido Atlas.
+P0033 One Model G polarity line: Bold/Cautious.
+P0034 The CAPE cycle.
+P0035 This paper describes the routing structure that results from those inputs. It does not validate any of the inputs.
+P0036 The paper does not type people, run a quiz, or give advice. No claim in this paper is a claim about persons.
+P0037 Simple illustration (Interpretive).  A teacher has an insight. The teacher tests a method. A group uses the method. A school makes the method part of its system. The same content now appears in personal, physical, social, and systemic forms.
+P0039 How to read the paper.  Part I defines the formal map. Part II defines one movement through that map. Part III shows how the same vocabulary can redescribe an imported developmental sequence. Part IV separates established structure from open questions.
+P0041 PART I — THE MAP
+P0042 Four perspectives, one two-bit coordinate, sixteen routes, and the anchors that connect the Cross to the two-cube machine.
+P0043 3. Four Perspectives on One Event
+P0044 Status: Imported (AQAL). The labels and readings come from Integral Theory and remain fixed throughout the model.
+P0045 The model reads one event from four perspectives. Each perspective asks a different question.
+P0046 The perspectives do not compete. They describe different aspects of the same event.
+P0047 Label
+P0048 Domain
+P0049 AQAL position
+P0050 Guiding question
+P0051 I
+P0052 Psychological content
+P0053 Interior-individual
+P0054 What does the individual experience?
+P0055 IT
+P0056 Physical or concrete reality
+P0057 Exterior-individual
+P0058 What exists or happens physically?
+P0059 WE
+P0060 Social or collective life
+P0061 Interior-collective
+P0062 What do people share as a group?
+P0063 ITS
+P0064 Intellectual or universal pattern
+P0065 Exterior-collective
+P0066 What system organizes the whole?
+P0068 4. The Quadrant Square Is a Two-Bit Space
+P0069 Status: Convention for the coding. Derived for the three folds.
+P0070 Direction-2 selects a destination with two binary choices. One bit selects scale. The other bit selects surface.
+P0071 Use e for scale: 0 means individual and 1 means collective. Use s for surface: 0 means interior and 1 means exterior.
+P0072 These pole assignments are conventions. The results below must not depend on which pole receives 0 or 1.
+P0073 Quadrant
+P0074 e
+P0075 s
+P0076 AQAL reading
+P0077 I
+P0078 0
+P0079 0
+P0080 Interior-individual
+P0081 IT
+P0082 0
+P0083 1
+P0084 Exterior-individual
+P0085 WE
+P0086 1
+P0087 0
+P0088 Interior-collective
+P0089 ITS
+P0090 1
+P0091 1
+P0092 Exterior-collective
+P0094 A fold divides the four quadrants into two pairs. A two-bit space has exactly three nontrivial linear folds because 2² − 1 = 3.
+P0095 Scale fold: {I, IT} | {WE, ITS}.
+P0096 Surface fold: {I, WE} | {IT, ITS}.
+P0097 Diagonal fold: {I, ITS} | {IT, WE}.
+P0098 AQAL supplies names for the first two folds. The sources used here do not supply an anchored name for the diagonal fold.
+P0099 For that reason, this paper leaves the diagonal fold unnamed.
+P0100 5. Sixteen Routes: The Pair Groupoid
+P0101 Status: Derived for the structure. Convention for the route names.
+P0102 A route is an ordered pair: an origin quadrant and a destination quadrant.
+P0103 Four possible origins times four possible destinations gives sixteen routes. The route names are conventions that describe the intended movement.
+P0104 Origin → Destination
+P0105 I
+P0106 IT
+P0107 WE
+P0108 ITS
+P0109 I
+P0110 Contemplate
+P0111 Express
+P0112 Share
+P0113 Theorize
+P0114 IT
+P0115 Embody
+P0116 Act
+P0117 Coordinate
+P0118 Organize
+P0119 WE
+P0120 Identify
+P0121 Mobilize
+P0122 Commune
+P0123 Institutionalize
+P0124 ITS
+P0125 Understand
+P0126 Apply
+P0127 Educate
+P0128 Integrate
+P0130 The sixteen routes form the pair groupoid on four objects. This single identification supplies the formal route rules.
+P0131 Exactly one route connects each ordered pair of quadrants.
+P0132 Two routes compose when the first destination equals the second origin.
+P0133 Route composition is associative.
+P0134 Each diagonal route is the identity route for its quadrant.
+P0135 Every route X → Y has the inverse route Y → X.
+P0136 Closure, associativity, stable quadrant labels, and well-defined endpoints follow from this groupoid structure.
+P0137 Scope note.  Groupoid equality tracks endpoints only. I → WE followed by WE → ITS has the same endpoints as I → ITS. Direction-3 asks whether the transit through WE leaves a residue.
+P0139 6. The Displacement Grading
+P0140 Status: Derived.
+P0141 Each quadrant has a two-bit code. The displacement of a route is the XOR difference between its origin and destination.
+P0142 Formally, disp(X → Y) = X ⊕ Y. This divides the sixteen routes into four classes of four routes each.
+P0143 disp
+P0144 Reading
+P0145 Routes
+P0146 (0, 0)
+P0147 Stay
+P0148 Contemplate, Act, Commune, Integrate
+P0149 (0, 1)
+P0150 Flip surface
+P0151 Express, Embody, Institutionalize, Educate
+P0152 (1, 0)
+P0153 Flip scale
+P0154 Share, Identify, Organize, Apply
+P0155 (1, 1)
+P0156 Flip both
+P0157 Theorize, Understand, Coordinate, Mobilize
+P0159 Displacement is homomorphic under route composition. If X → Y → Z, then disp(X → Z) = disp(X → Y) ⊕ disp(Y → Z).
+P0160 Therefore, route sequences project onto the Klein group V₄. The four diagonal routes form the kernel because their displacement is (0, 0).
+P0161 The three nonzero displacement classes also reproduce the three folds from Section 4.
+P0162 Surface-flip displacement pairs quadrants that share scale. It reproduces the scale fold.
+P0163 Scale-flip displacement pairs quadrants that share surface. It reproduces the surface fold.
+P0164 Double-flip displacement reproduces the diagonal fold.
+P0165 The folds and the nonzero displacement classes are two descriptions of the same structure.
+P0166 7. Fifteen Route Cuts and the Two Sixteens
+P0167 Status: Derived for the cuts. Scope note for the relation between routes and TIM columns.
+P0168 A route carries four bits: two origin bits and two destination bits. Equivalently, it carries two origin bits and two displacement bits.
+P0169 Each nonzero linear function of those four bits divides the sixteen routes into two groups of eight.
+P0170 There are 2⁴ − 1 = 15 such linear route cuts.
+P0171 This number mirrors the fifteen Reinin-style cuts on the sixteen TIM columns in The Whole Machine.
+P0172 The mirror is structural only. The sixteen routes and the sixteen TIM columns are different sets.
+P0173 A type fixes an origin through its club, as Section 8 states. A type does not fix a destination.
+P0174 Therefore, no canonical one-to-one pairing exists between routes and types. Any such pairing would be a convention and must be labeled as one.
+P0175 8. Clubs: Anchor and Correspondence
+P0176 Status: Derived for the club definition. Postulate for the club–quadrant correspondence.
+P0177 8.1 The club is derived from the generator
+P0178 In the two-cube generator of The Whole Machine, the ego pair of a laying is {l, l ⊕ t}.
+P0179 The pair contains the origin reading and its a-step image.
+P0180 Both turns flip the q-bit. Therefore, one member is perceiving with q = 0, and one member is judging with q = 1.
+P0181 For the perceiving member, the n-bit gives Sensing at 0 or Intuition at 1.
+P0182 For the judging member, the n-bit gives Logic at 0 or Ethics at 1.
+P0183 The club is the joint value of those two bits. It is also the joint class of the Intuitive/Sensing and Logical/Ethical cuts.
+P0184 The club is therefore computable from the generator. Version 5 asserted the club without this anchor.
+P0185 8.2 The club–quadrant map is a postulate
+P0186 The model then pairs the four clubs with the four quadrants. This pairing is a chosen bijection between two four-element sets.
+P0187 The only stated support is the domain resonance shown below.
+P0188 Perspective
+P0189 Native club
+P0190 Domain resonance — the only support
+P0191 I
+P0192 NF
+P0193 Psychology, values, meaning
+P0194 IT
+P0195 ST
+P0196 Physical force and efficiency
+P0197 WE
+P0198 SF
+P0199 Social atmosphere and care
+P0200 ITS
+P0201 NT
+P0202 Systems, patterns, structure
+P0204 An affine-map argument cannot strengthen this postulate. Over F₂, every permutation of four points is affine because AGL(2, 2) is S₄.
+P0205 Therefore, affine structure supplies no independent evidence for this specific pairing.
+P0206 The postulate stands or falls on the resonance readings. Section 26 asks whether any later result actually depends on it.
+P0207 PART II — ONE MOVEMENT
+P0208 Polarity, destination, conductivity, Shells, and CAPE, with the formal and empirical parts kept separate.
+P0209 9. Three Directions and One Empirical Outcome
+P0210 Status: Derived for the bit count. Convention for the labels.
+P0211 Direction
+P0212 Function
+P0213 Formal content
+P0214 Result
+P0215 Direction-1
+P0216 Polarity
+P0217 One bit
+P0218 Accumulation or Expenditure
+P0219 Direction-2
+P0220 Destination
+P0221 Two bits
+P0222 I, IT, WE, or ITS
+P0223 Direction-3
+P0224 Conductivity
+P0225 Not a formal coordinate
+P0226 Conductive or non-conductive. This is an empirical outcome.
+P0228 A complete formal movement consists of origin, destination, and polarity. Origin and destination use four bits. Polarity adds one bit.
+P0229 The formal movement therefore uses five bits and has thirty-two possible movement types.
+P0230 Conductivity is not a sixth bit. It describes how a formally specified movement is realized.
+P0231 Conductivity is also the only place in this model where observation enters.
+P0232 Version 5 presented the three directions as parallel coordinates. Version 6 makes their asymmetry explicit.
+P0233 10. Direction-1: Polarity Anchored to the Vital Ring
+P0234 Status: Imported for the support table. Derived for the bit identity.
+P0235 The Libido Atlas assigns Accumulation to seats 5 and 7: suggestive and ignoring.
+P0236 It assigns Expenditure to seats 6 and 8: mobilizing and demonstrative.
+P0237 The P-cube coordinates from The Whole Machine give the vital ring as r = 1.
+P0238 Its four seats are suggestive (0, 0, 1), mobilizing (1, 0, 1), ignoring (0, 1, 1), and demonstrative (1, 1, 1).
+P0239 The Accumulation pair is exactly a = 0. The Expenditure pair is exactly a = 1.
+P0240 Bold is the a = r line. On the vital ring, Expenditure is therefore the Bold pair and Accumulation is the Cautious pair.
+P0241 Two imported structures coincide under the P-cube coordinates: the Atlas support table and the Model G Bold/Cautious polarity.
+P0242 That coincidence is the derived result. Version 5 stated the support table without this formal anchor.
+P0243 Face
+P0244 Turn
+P0245 What the movement does
+P0246 Vital support
+P0247 Accumulation
+P0248 Inward
+P0249 Register, contain, refine, or prepare content before a hand-off.
+P0250 Suggestive (5) + Ignoring (7): a = 0
+P0251 Expenditure
+P0252 Outward
+P0253 Externalize, couple, populate, or hand content over.
+P0254 Mobilizing (6) + Demonstrative (8): a = 1
+P0256 The same route can use either face.  Theorize under Accumulation refines personal meaning into a pattern before release. Theorize under Expenditure packages and presents that pattern to a larger intellectual domain. Name a complete movement with both its route and polarity face.
+P0258 11. Direction-2: Destination Selection
+P0259 Status: Convention for the coding. Imported for the AQAL and sign readings.
+P0260 Direction-2 uses the same two bits introduced in Section 4.
+P0261 I/E selects scale. Introverted points to the individual, and extraverted points to the collective.
+P0262 The sign selects surface. Involution (−) points to the interior, and evolution (+) points to the exterior.
+P0263 I/E
+P0264 Sign
+P0265 Destination
+P0266 AQAL reading
+P0267 Introverted
+P0268 Involution (−)
+P0269 I
+P0270 Interior-individual
+P0271 Introverted
+P0272 Evolution (+)
+P0273 IT
+P0274 Exterior-individual
+P0275 Extraverted
+P0276 Involution (−)
+P0277 WE
+P0278 Interior-collective
+P0279 Extraverted
+P0280 Evolution (+)
+P0281 ITS
+P0282 Exterior-collective
+P0284 Direction-2 does not add a new destination catalogue. It selects one destination inside the existing sixteen-route groupoid.
+P0285 12. Direction-3 and Shells
+P0286 Status: Proposed operationalization. It is untested, and no inter-rater procedure exists.
+P0287 Direction-3 measures conductivity. A conductive movement reaches its selected destination without a persistent defensive distortion.
+P0288 A persistent defensive distortion is called a Shell. A Shell appears when increased demand prevents clean completion of the movement.
+P0289 Sign
+P0290 What to observe after demand increases
+P0291 Premature translation
+P0292 The active drive immediately becomes story, strategy, or an opposite-polarity function before its cycle completes.
+P0293 Forced placement
+P0294 Content is pushed into a destination that does not match the active Direction-2 parameters.
+P0295 New defensive structure
+P0296 A rigid posture, rationalization, or compensatory Role/Vulnerable behavior appears only after demand increases.
+P0297 Residual fragmentation
+P0298 The same material still produces one or more signs after CAPE steps 1 through 3.
+P0300 Use the following judgment rule after the demand increase and a full CAPE cycle.
+P0301 Conductive: no diagnostic sign remains.
+P0302 Non-conductive: one or more diagnostic signs remain.
+P0303 Graded measure: count the signs that remain.
+P0304 A claim that one movement was conductive is refuted if one or more defined signs persist after CAPE.
+P0305 This per-movement falsification condition survives from Version 5.
+P0306 No inter-rater procedure exists for the four signs. No field data has been collected under this definition.
+P0307 The Holonic Living Engine has an executable Shell state. Section 19 uses that machine-checked state.
+P0308 Until a rater protocol exists, claims about observed episodes remain proposed operationalizations, not measurements.
+P0309 Important distinction.  A Shell changes how a route is realized. It does not create a seventeenth route. It also does not change the formal grammar of the Cross.
+P0311 13. CAPE
+P0312 Status: Proposed operationalization. CAPE exists as explicit engine state, but it remains untested as a field protocol.
+P0313 Step
+P0314 Purpose
+P0315 1. Release
+P0316 Let the active drive remain present. Do not translate it too early into story, strategy, or an opposing function.
+P0317 2. Leadership
+P0318 Expand Situation + Time until a stable anchor forms.
+P0319 3. Reversion
+P0320 Allow temporary disorder while the frame changes. Do not force closure.
+P0321 4. Re-ownership
+P0322 Test the stance with more detail or a longer horizon. Confirm that no new defensive structure appears.
+P0324 14. One Complete Movement
+P0325 Status: Interpretive illustration. The first five rows are formal. The last three rows are empirical.
+P0326 Parameter
+P0327 Value
+P0328 Context
+P0329 A person has a personal insight and prepares a new model for a team. The presentation is tomorrow.
+P0330 Origin and club
+P0331 I — NF. The club uses the Section 8 anchor. The origin uses the Section 8 postulate.
+P0332 Direction-2
+P0333 Extraverted + Evolution (+) → ITS
+P0334 Route
+P0335 Theorize, with displacement (1, 1)
+P0336 Direction-1 face
+P0337 Expenditure, the Bold vital pair
+P0338 Demand increase
+P0339 The person must present the model tomorrow.
+P0340 Possible Shell
+P0341 The person reduces the model to a rigid efficiency script or refuses all group feedback.
+P0342 CAPE result
+P0343 Use Release, Leadership, Reversion, and Re-ownership. The movement is conductive when no diagnostic sign remains.
+P0345 Read the example in two layers. The origin, destination, route, and polarity define the formal movement.
+P0346 The increased demand, possible Shell, and CAPE result describe the proposed empirical test of that movement.
+P0347 PART III — DEVELOPMENTAL ALTITUDE: AN INTERPRETIVE MAPPING
+P0348 The color line is an imported input. The Cross can redescribe it, and the engine can model arrest. The selection problem remains open.
+P0349 15. What Part III Is, and What Claim Is Withdrawn
+P0350 Status: Imported for the color line. The withdrawal corrects the record from Version 5.
+P0351 The Beige-through-Coral sequence is the Spiral Dynamics color line. This paper imports that sequence as an input.
+P0352 Version 5 claimed that recursive route motion generated the sequence rather than importing it. Version 6 withdraws that claim.
+P0353 The claim fails a surrogate test. The five-stage schema in Section 16 reproduces the transition table without using any route.
+P0354 The schema only needs success, changed conditions, a repetition limit, a new solution, and a new altitude reading.
+P0355 That structure is a generic developmental engine. It closely follows the imported emergent-cyclical logic and a general equilibration pattern.
+P0356 In Version 5, routes only annotated transition narratives that were already complete without them.
+P0357 A mechanism that does no necessary work in a derivation cannot receive credit for the result.
+P0358 The same surrogate test removed an earlier simulation framework in this project. Version 6 applies the same standard here.
+P0359 What Part III now claims.  The Cross vocabulary can redescribe each imported transition. This redescription can show where routes, polarities, and Shells would sit if a valid selection rule existed. Part III does not claim to derive the color line.
+P0361 16. The Five-Stage Schema
+P0362 Status: Interpretive.
+P0363 Stage
+P0364 What happens
+P0365 1. Successful capacity
+P0366 High-conductivity routes solve the dominant problems of the current altitude.
+P0367 2. Changed conditions
+P0368 The success of those routes changes the environment and creates new demands.
+P0369 3. Limit of repetition
+P0370 Repeated use of the successful pattern now leaves unsolved problems or residual Shell.
+P0371 4. New conductive solution
+P0372 A new class of clean solutions becomes available.
+P0373 5. Generated altitude
+P0374 The dominant character of those solutions is read as the next altitude. Earlier capacity remains available.
+P0376 Stage 5 uses the phrase “is read as” deliberately. The schema can accommodate the imported line, but it does not select that line.
+P0377 17. The Transitions, Graded
+P0378 Status: Interpretive. Grades indicate how strongly each row is anchored inside the source tradition.
+P0379 Grade A rows have the strongest anchoring in core Spiral Dynamics literature, which is itself empirically contested.
+P0380 Grade B rows rely mainly on phenomenological and integral-theory literature. Grade C rows are speculative even inside that source tradition.
+P0381 Transition
+P0382 Problem
+P0383 Cross reading of the solution
+P0384 Character / Grade
+P0385 Beige → Purple
+P0386 Resources gained today are lost tomorrow. Other agents remain pure competitors.
+P0387 WE-oriented routes build a protective band: Coordinate, Commune, and proto-Share under Accumulation.
+P0388 Kinship bonding and ancestral continuity — A
+P0389 Purple → Red
+P0390 Band rules suppress individual power, even when decisive action would protect the band.
+P0391 Assertive IT- and I-origin Expenditure routes center personal force.
+P0392 Impulsive power and dominance — A
+P0393 Red → Blue
+P0394 Constant contest destroys the resources that power requires.
+P0395 WE- and ITS-origin Accumulation routes install lasting rules and purpose: Commune, Institutionalize, Educate, Integrate.
+P0396 Lawful order and duty — A
+P0397 Blue → Orange
+P0398 Rigid rules suppress initiative. Tradition replaces tested results.
+P0399 I- and IT-origin Expenditure routes orient to results: Express, Act, Organize, Theorize.
+P0400 Achievement and strategic efficacy — A
+P0401 Orange → Green
+P0402 Competition creates exclusion. External costs return to the system.
+P0403 WE-centered, multi-perspective routes restore inclusion and shared voice.
+P0404 Pluralism and inclusion — A
+P0405 Green → Yellow
+P0406 Endless validation causes decision paralysis. Necessary distinctions are read as oppression.
+P0407 ITS-centered, explicitly recursive routes restore competent integration.
+P0408 Systemic and multi-perspectival — A
+P0409 Yellow → Turquoise
+P0410 The self still stands outside the system that it manages.
+P0411 Fully mutual routes dissolve the remaining subject–object split.
+P0412 Unitive and planetary — B
+P0413 Turquoise → Coral
+P0414 Unitive identity becomes another fixed center.
+P0415 Non-preferential routes release even unitive identity.
+P0416 Translucent and non-preferential — C
+P0418 The solution column keeps the route annotations from Version 5. The machinery does not select those annotations.
+P0419 That missing selection mechanism is the open problem in Section 18.
+P0420 18. What a Derivation Would Require
+P0421 Status: Open. This section states the research program required to restore the withdrawn derivation claim.
+P0422 A valid derivation needs three things.
+P0423 1. Formal definitions in Cross terms for “problem,” “limit of repetition,” and “conductive solution.” Residual Shell patterns are one possible basis.
+P0424 2. A selection theorem. Given altitude k and the machinery from Parts I and II, the theorem must select the character of altitude k + 1.
+P0425 3. At least one new prediction that the imported color line does not already make. A dominant club, origin, or polarity profile could qualify.
+P0426 The prediction must be checkable against the engine or independently coded observations.
+P0427 A schema that reproduces the imported line and nothing else has not derived the line.
+P0428 19. Operational Semantics: The Holon Tower
+P0429 Status: Proposed operationalization. Implemented and machine-checked in Holonic Living Engine V2: NOTE_V2 and verify_v2.py.
+P0430 The Holonic Living Engine V2 implements the arrest half of Part III as an explicit predicate.
+P0431 The engine allows center advancement only when all four quadrants of the current center are active and bloom reaches at least Apply.
+P0432 Bloom is monotone inside one center and resets after advancement. Activation cannot skip more than one level above center. Sealing is one-way.
+P0433 Each rule is a named check in the engine verification suite.
+P0434 This makes the statement “Shells arrest the sequence” testable in simulation.
+P0435 An engine trajectory either satisfies the advancement predicate or it does not. The predicate can also be changed and retested.
+P0436 The engine does not solve the selection problem. It still takes the color order as an input.
+P0437 Nomenclature flag (Open).  The engine bloom scale reuses ITS-row route names. It appears to use Understand < Apply < Educate < Integrate as an ordinal. Document that borrowing if it is intentional. Rename one system if the overlap is accidental.
+P0439 20. Falsifiability Ledger
+P0440 Status: Mixed. Each row states its own status.
+P0441 Claim
+P0442 Falsification condition
+P0443 Status
+P0444 One movement was conductive
+P0445 One or more of the four Shell signs persists after a full CAPE cycle.
+P0446 Falsifiable in principle. No rater protocol. Untested.
+P0447 Shells arrest development in the engine
+P0448 A trajectory violates the tower predicate but advances, or satisfies the predicate but fails to advance.
+P0449 Testable now in simulation.
+P0450 Shells arrest development in the field
+P0451 No falsification condition is stated.
+P0452 Open.
+P0453 The machinery selects the next altitude
+P0454 As stated, any result can be narrated after the fact as solution or arrest.
+P0455 Not falsifiable. Version 6 does not make this claim.
+P0457 PART IV — INTEGRATION, SCOPE, AND FRONTIER
+P0458 What the model fixes, what remains conventional, what the engine tests, and what research is still open.
+P0459 21. Types as Local Forms
+P0460 Status: Mixed. Each dependency has its own status.
+P0461 A TIM column determines several local features in a fixed order.
+P0462 1. Its ego pair determines its club. This step is Derived in Section 8.
+P0463 2. The club maps to an origin quadrant through the Section 8 postulate.
+P0464 3. Its vital-ring support supplies a polarity anchor. The table is Imported, and the bit identity is Derived in Section 10.
+P0465 4. Its complete Model A positional metabolism is Imported.
+P0466 A type therefore fixes a native origin and a polarity support inside this model.
+P0467 A type does not fix a destination and does not receive a private route system.
+P0468 All sixteen types use the same sixteen-route pair groupoid.
+P0469 22. Nesting and Recursion
+P0470 Status: Open.
+P0471 Version 5 claimed that a complete Cross repeats inside every perspective and every route.
+P0472 It also claimed that arrival at one quadrant can seed a new origin. Version 5 did not provide a formal definition.
+P0473 Version 6 also leaves the claim open rather than pretending that a formalization exists.
+P0474 The current candidate is the engine holon tree. Each node could carry Cross state, while the tower predicate governs vertical movement.
+P0475 No cross-level coherence law has been defined.
+P0476 One possible future law would relate a parent route to the displacement grading of its child Cross. That proposal remains unformulated.
+P0477 23. Terminology Disambiguation
+P0478 Term
+P0479 Possible collision
+P0480 Rule in this paper
+P0481 Routes vs. types
+P0482 Both sets contain sixteen elements.
+P0483 They are different sets. No canonical bijection exists. See Section 7.
+P0484 Bloom stages vs. ITS-row routes
+P0485 The engine reuses route names as ordinal labels.
+P0486 This is flagged Open in Section 19.
+P0487 Creative cell vs. creative seat
+P0488 One is a cell of the four-cell square. The other is seat 2 of P.
+P0489 The terms come from The Whole Machine and are never interchanged.
+P0490 Club vs. quadrant
+P0491 A club is a type property. A quadrant is a position.
+P0492 Only the Section 8 postulate connects them.
+P0493 Cross vs. cubes
+P0494 The Cross is the quadrant pair groupoid. E and P are the element and seat cubes.
+P0495 They are different objects. Sections 8 and 10 state the specific connections.
+P0497 24. What This Edition Establishes
+P0498 1. The quadrant square has an explicit two-bit coordinate. Its three folds are derived, and one fold remains unnamed because the sources do not anchor a name.
+P0499 2. The sixteen routes form the pair groupoid on four objects. Closure, associativity, identities, and inverses follow from that one structure.
+P0500 3. Displacement gives a V₄-grading that is homomorphic under composition. The diagonal routes form its kernel.
+P0501 4. The three nonzero displacement classes and the three folds are dual descriptions of the same structure.
+P0502 5. Routes have fifteen linear cuts. Routes and TIM types are different sixteen-element sets with no canonical bijection.
+P0503 6. A type club is computable from the two-cube generator as the joint value of two classical cuts.
+P0504 7. Direction-1 is the Bold/Cautious polarity restricted to the vital ring. Two imported structures coincide under the P-cube coordinates.
+P0505 8. A complete formal movement uses five bits and has thirty-two movement types. Conductivity is an empirical outcome, not a formal coordinate.
+P0506 9. The Holonic Living Engine V2 implements an executable arrest rule with named machine checks.
+P0507 25. What It Does Not Establish
+P0508 1. The validity of AQAL, Spiral Dynamics, or the Model A tables. All of them are inputs. Spiral Dynamics is specifically noted as empirically contested.
+P0509 2. A derivation of the Spiral Dynamics color line. Version 6 withdraws the Version 5 claim.
+P0510 3. Conductivity as a measured field construct. No rater protocol or field data exists.
+P0511 4. A formal theory of nesting.
+P0512 5. A non-conventional basis for the club–quadrant correspondence.
+P0513 6. Anything about persons.
+P0514 26. Examiner Checklist
+P0515 The dependency points below provide an efficient order for testing the paper. Failure at an early point can affect later results.
+P0516 Failure at a late point does not automatically reopen the foundation.
+P0517 Dependency
+P0518 Examiner question
+P0519 Quadrant coding
+P0520 Does any result depend on the pole choices in Section 4? Nothing should.
+P0521 Pair groupoid
+P0522 Do the sixteen named routes behave exactly as ordered pairs under composition? Does any route name add unstated structure?
+P0523 Displacement grading
+P0524 Verify the homomorphism and the fold duality directly on the route matrix.
+P0525 Club anchor
+P0526 Recompute the club from {l, l ⊕ t} for all sixteen columns of The Whole Machine.
+P0527 Correspondence postulate
+P0528 Change the club–quadrant bijection. Does any later result change? If yes, the postulate is load-bearing and needs stronger support.
+P0529 Polarity anchor
+P0530 Check that {5, 7} and {6, 8} are the Cautious and Bold vital pairs in the P-cube table.
+P0531 Shell diagnostics
+P0532 Can two raters agree on the four signs? No procedure exists, so treat field conductivity claims accordingly.
+P0533 Tower predicate
+P0534 Run verify_v2.py and confirm the advancement and arrest checks.
+P0535 Surrogate test
+P0536 Recreate the Section 17 table from the five-stage schema alone. Version 6 claims that the routes are unnecessary for this reproduction.
+P0537 Selection rule
+P0538 Does a proposed Section 18 rule actually output the color line, or does it merely restate the imported line?
+P0540 27. Open Questions
+P0541 1. Find a selection rule for altitude character. This is the only path back to the withdrawn derivation claim.
+P0542 2. Define a field-side falsification condition for developmental arrest.
+P0543 3. Create an inter-rater protocol for the four Shell signs.
+P0544 4. Formally define nested Crosses. The engine holon tree is the current candidate.
+P0545 5. Decide the name and status of the diagonal fold {I, ITS} | {IT, WE}.
+P0546 6. Clarify the bloom-scale nomenclature. Document the route-name reuse or rename one system.
+P0547 7. Test whether any downstream result depends on the club–quadrant postulate.
+P0548 28. Quick Reference
+P0549 Term
+P0550 Plain meaning
+P0551 Status
+P0552 Quadrant
+P0553 One of four fixed perspectives.
+P0554 Imported (AQAL)
+P0555 Route
+P0556 One ordered origin–destination pair. The sixteen routes form the pair groupoid.
+P0557 Derived structure; conventional names
+P0558 Displacement
+P0559 XOR of origin and destination. This gives a V₄-grading of the routes.
+P0560 Derived
+P0561 Fold
+P0562 One of three linear pairings of the four quadrants.
+P0563 Derived; one unnamed
+P0564 Club
+P0565 The joint value of two classical cuts, read from the ego pair.
+P0566 Derived
+P0567 Club–quadrant map
+P0568 A chosen bijection supported by domain resonance.
+P0569 Postulate
+P0570 Direction-1
+P0571 The Bold/Cautious polarity on the vital ring.
+P0572 Imported + Derived
+P0573 Direction-2
+P0574 The two destination bits.
+P0575 Convention coding
+P0576 Direction-3
+P0577 The conductivity of one realized movement.
+P0578 Empirical outcome; proposed operationalization
+P0579 Shell
+P0580 Persistent defensive distortion under increased demand.
+P0581 Proposed operationalization
+P0582 CAPE
+P0583 A four-step test-and-restore protocol.
+P0584 Proposed operationalization; engine state
+P0585 Altitude
+P0586 A position on the Spiral Dynamics color line.
+P0587 Imported
+P0588 Five-stage schema
+P0589 Success → problem → limit → solution → altitude.
+P0590 Interpretive
+P0591 Tower predicate
+P0592 The machine-checked rule for advancement and arrest.
+P0593 Implemented
+P0594 Nesting
+P0595 Cross-within-cross repetition.
+P0596 Open
+P0598 Sources, Split
+P0599 Imported input frameworks, not validated here: AQAL / Integral Theory; Spiral Dynamics (Graves; Beck–Cowan), which is contested; Model A function stacks; Libido Vital Ring Atlas; Gulenko Model G, one polarity line only; CAPE cycle; Curation Codex v1.1.
+P0600 Derived and operational apparatus: The Whole Machine for the two-cube generator, P-cube coordinates, cuts, folds, and Bold; Observational Information Geometry — Essential Theory, Examiner Edition for status discipline and examiner apparatus; Holonic Living Engine V2 for NOTE_V2, verify_v2.py, tower legality, CAPE phase, and Shell payloads.
+P0601 Version Note
+P0602 Version 6 supersedes Version 5. It keeps the route grammar, the three directions, the Shell diagnostics, CAPE, and the transition material.
+P0603 It withdraws the derivation claim, adds the status taxonomy and formal skeleton, and states the open research frontier.
+P0604 As in A Finite Object, superseded claims are not repeated unless the paper must record their withdrawal.
+P0605 Transparency is the code. Ascending only. Layers preserved without collapse.

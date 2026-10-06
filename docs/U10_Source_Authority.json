@@ -1,0 +1,49 @@
+{
+  "schema": "hle-u10-source-authority-v1",
+  "read_for_this_step": [
+    {
+      "file": "HLE_Unified_Object_Engine_Implementation_Roadmap_After_U9.md",
+      "sha256": "be38f2ef1588cbc14cef9005990973a60012163d86880d9ec17c2caf79e6d983",
+      "used_for": "Current U10 gates and remaining milestones."
+    },
+    {
+      "file": "HLE_Unified_U9_Report_v1.md",
+      "sha256": "2a73a12b7585d4cb938dfc32597dbdda1d15dee07cb06cc7942ecf32a5ab40f3",
+      "used_for": "Predecessor claims, mechanisms and limitations."
+    },
+    {
+      "file": "08-HLE_New_Build_Foundation_v1.md",
+      "sha256": "a655f106fcdc1f2c03df1bbc04e51a8ee5e3a7d83bead0a07c53a39d2d6c28e7",
+      "used_for": "Grounded participant access, paid work, source fidelity and scoped evidence."
+    },
+    {
+      "file": "09-HLE_New_Build_Roadmap_v1.md",
+      "sha256": "951c6d400c876f70083a8e223205176064189206cfaf235509ecfd811fc3a31b",
+      "used_for": "R8 language and receiver-repair objectives; historical plan, not current completion status."
+    }
+  ],
+  "implementation_input": {
+    "name": "HLE_Unified_U9_Source_v1.zip",
+    "bytes": 246460883,
+    "sha256": "15f34655b7d2793141862768f45bf8044065e64922644cf4e7a77d79f79a4e64",
+    "entries": 3246,
+    "bad_member": null
+  },
+  "theoretical_material": "Source-defined memory, Model A and Crux structures are inherited from U5-U9. This milestone does not claim a fresh mathematical or psychological verification of all seven theoretical attachments.",
+  "engineering_choices": [
+    "Typed workshop speech acts and controlled wording",
+    "Partner/context-specific lexical entries over finite procedural semantics",
+    "Two distinct observed positive targets per trace group before stable use",
+    "A separating observed max_wear, condition or wear field for two conflicting trace groups; unresolved cases remain tentative, challenged or ambiguous",
+    "Explicit paid actor response, unmastered procedural hypothesis, and actual U9/U4 execution",
+    "Explicit unilateral promises, with separate actual observed fulfillment"
+  ],
+  "open": [
+    "Unrestricted natural language acquisition or fluent generation",
+    "General semantic induction beyond the declared trace/split rule",
+    "Automatic scheduling of every teaching and repair opportunity",
+    "Collective capacity, institutions and succession (U11-U12)",
+    "Performance and release acceptance (U13-U14)",
+    "General psychological validity and the Canon arbitrary-composition claim"
+  ]
+}

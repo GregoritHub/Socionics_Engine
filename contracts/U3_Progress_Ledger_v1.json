@@ -1,0 +1,46 @@
+{
+  "schema": "hle-unified-u3-progress-v1",
+  "date": "2026-09-21",
+  "completed_milestones": [
+    "U1",
+    "U2",
+    "U3"
+  ],
+  "completed": 3,
+  "total": 14,
+  "remaining": 11,
+  "next": "U4 \u2014 common operation lifecycle and material interactions",
+  "execution_source_manifest_sha256": "1abf46b04785b872eda4a7048e62dacd2b7eda0f1987caeec1c7ad002a8fd168",
+  "cases": [
+    {
+      "id": "U3-01",
+      "name": "private_difference",
+      "status": "established",
+      "criterion": "No difference in pre-delivery view, reasons, or participant choice.",
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_U3_01_hidden_changes_leave_views_reasons_and_choices_equal"
+    },
+    {
+      "id": "U3-02",
+      "name": "shared_definition",
+      "status": "established",
+      "criterion": "No unearned competence, confidence, or recalled content.",
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_U3_02_shared_structure_keeps_actor_learning_separate"
+    },
+    {
+      "id": "U3-03",
+      "name": "detail_concept",
+      "status": "established",
+      "criterion": "Keep direct detail lookup separate from conceptual traversal; both cite the correct revisions.",
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_U3_03_indexed_particulars_and_concept_binding_share_exact_refs"
+    }
+  ],
+  "final_tests": {
+    "u3": 32,
+    "u2": 31,
+    "legacy": 71
+  },
+  "total_distinct_tests": 134,
+  "held_out_seeds_used": [],
+  "legacy_release_acceptance": "open",
+  "unified_efficiency_acceptance": "open"
+}

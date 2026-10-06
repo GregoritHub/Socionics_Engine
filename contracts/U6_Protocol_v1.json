@@ -1,0 +1,66 @@
+{
+  "schema": "hle-unified-u6-protocol-v1",
+  "frozen_before_implementation": true,
+  "date": "2026-09-21",
+  "scope": "Deterministic development panel, not held-out release acceptance",
+  "cases": {
+    "U6-01": "Paid bounded forecasts change an affordable action; exact delivered and read surprise triggers paid investigation and U5 account revision; hypothetical records remain hypothetical.",
+    "U6-02": "Wait names an observation or assistance/resource condition; no busy polling; checkpoint retains unfinished reasoning, actions and pending intent; meaningful accessible delivery resumes work.",
+    "U6-03": "Pressure from outstanding demand, fear from processed threat, fatigue from charged work, scarcity from own finite wallet and processed resources, boredom from repeated observed outcomes affect declared decisions without awarding skill or development."
+  },
+  "controls": [
+    "forecast selection ablation with matched processing",
+    "hidden condition and hidden resource variants",
+    "wrong event actor target and context",
+    "delivery without reading",
+    "finite budget exhaustion and no refunds",
+    "partial anticipation, partial Model A planning, partial action and exact restore",
+    "repeated failure changes strategy",
+    "acquired procedure required for procedure candidate",
+    "bounded search censorship retained",
+    "all 16 type routes retain U5 regression coverage",
+    "rest lowers fatigue only; energy and time never replenish",
+    "actual request is paid; partner response not scripted by requester",
+    "stopped and waiting actors do not spin",
+    "raw independent accounting and tamper rejection"
+  ],
+  "world_contract": "u6.continuing-finite-workshop-v1 supplements unchanged u4.finite-workshop-v1; resting costs one energy and time quantum, lowers fatigue debt only, creates no energy, stock, skill or development.",
+  "bounds": {
+    "forecast_horizon": [
+      1,
+      2
+    ],
+    "max_nodes": [
+      1,
+      16
+    ],
+    "default_nodes": 8,
+    "default_visit_limit": 32,
+    "default_work_quantum": 8,
+    "default_goal_uses": 2,
+    "repeated_failure_threshold": 2,
+    "development_driver_horizon": 240,
+    "driver_observation_latency": [
+      0,
+      2
+    ]
+  },
+  "policy_status": "All dynamics, motivations, utility coefficients and prices added in U6 are engineering choices, not empirical psychological laws.",
+  "fresh_gates": [
+    "tests_u6",
+    "tests_u5",
+    "tests_u4",
+    "tests_u3",
+    "tests_u2",
+    "U5 inherited 143-regression selection plus complete R14 autonomy tests with deduplication",
+    "U2-U6 raw witnesses",
+    "frozen baseline preservation"
+  ],
+  "open": [
+    "U7-U14",
+    "general learning of dynamics",
+    "autonomous social negotiation",
+    "unrestricted search and language",
+    "R21C release"
+  ]
+}

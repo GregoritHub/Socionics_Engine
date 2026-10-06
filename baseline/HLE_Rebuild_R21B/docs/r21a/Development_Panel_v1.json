@@ -1,0 +1,13 @@
+{
+  "schema": "r21a-development-panel-v1",
+  "purpose": "Contract diagnostics across three historical lengths, two distinct type costs and three unchanged allocations. This is not held-out release evidence.",
+  "timing": "Declared after the IEE/seed-12 three-budget implementation smoke check; no statistical novelty claim.",
+  "types": ["iee", "sli"],
+  "seeds": [11, 12, 13],
+  "regimes": ["adequate", "constrained_feasible", "inadequate"],
+  "planned_episodes": 18,
+  "independent_executions": 18,
+  "v1_control": {"tim": "iee", "seed": 12, "budget": 100000},
+  "contract_gate": "All executed journals agree with raw accounting and comparison, exact scenario scopes match separately constructed policies, increased-demand rows use greater requirement order with declining actual wallets, and v1 still fails its three comparisons.",
+  "feasibility_gate": "Separately reported; full paid horizon required. Budget failure does not fail the correctness of an honest resource/comparison contract."
+}

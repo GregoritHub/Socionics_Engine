@@ -1,0 +1,13 @@
+# U11 development record
+
+21 September 2026. All execution failures and partial outcomes are retained in the evidence package.
+
+1. The supplied after-U10 roadmap and U10 report already marked U10 complete. Work continued with their U11 handoff. The pristine supplied U10 source was separately reproduced without edits; its execution-manifest digest matched the supplied report exactly and all predecessor stages passed.
+2. Six bounded U11 acceptance cases were specified and the protocol was hashed before implementation. No reserved U14 or legacy-release seeds were used.
+3. The first workshop circuit completed. The first independent audit found that successful U11 coordination lacked the inherited native processing receipt. The implementation was corrected to retain a real actor-owned binding and paid receipt, together with the same operation's perspective surfaces. The corrected circuit passed the raw audit and exact restoration.
+4. The first development test run executed 36 tests: 35 passed and one test had a missing helper import (`address`). No behavioral assertion failed. That import was corrected. Two concrete boundary checks were added for structural cache independence from ordinary leaf revisions and resource traversal budgets. The resulting 38-test run passed with no failures, errors or skips and unchanged execution source.
+5. The first witness exporter saved both main circuits, then stopped on a missing `raw_attrs` import in its readable comparison stage. The import was fixed. The next complete witness stage passed all 30 declared checks. This did not require changing physical, membership or consent behavior.
+6. Source review identified that the new batch override had changed a legacy lineage reason string. The original string was preserved so old checkpoints could replay byte-exactly. A new U10 adoption test then passed, including continued language operations with identical world and access checkpoints. A context-boundary control was also added to prevent linking executable groups across incompatible contexts or cues. The raw auditor checks this boundary independently.
+7. The final 40-test panel and all witness tooling were frozen together before final reproduction. The final report and acceptance ledger contain the final outcomes and exact source digest. Reports and README edits are not execution-code changes. All preliminary logs, noncompletion controls, manifests, raw journals and continuing checkpoints are retained.
+
+Earlier U1 and R21B panels beyond the inherited regression selection remain historical evidence. These development cases do not establish U14 release acceptance, arbitrary aggregate equivalence, psychological validity or U13 performance acceptance.

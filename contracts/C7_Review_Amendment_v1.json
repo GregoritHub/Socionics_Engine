@@ -1,0 +1,7 @@
+{
+  "version": "c7-review-v1",
+  "reason": "The first sustained evaluator completed and saved a population but failed to serialize its summary: the strict C6 audit codec intentionally rejects machine-time floats. Scheduler checkpoint serialization is unchanged. Summaries now use ordinary JSON with explicit dataclass serialization. Failed logs and saved worlds remain evidence.",
+  "scope": "evidence exporter only; no runtime or acceptance-threshold change",
+  "amendment_2": "Population fixture omitted per-actor pattern configuration and neutral opportunity evidence. Final native completion assertions added; a horizon without real work cannot pass. First final-named run interrupted and retained; folder name does not confer acceptance.",
+  "amendment_3": "Diagnostic populations completed 360 native movements, dominated by repeated Understand on the same model. Introduced v2 scheduler with default stop after two identical scoped retained results. Diagnostic population fixtures explicitly disable this stop to measure 24 episodes per actor; both modes are disclosed. No claim of novel capacity from repetition."
+}

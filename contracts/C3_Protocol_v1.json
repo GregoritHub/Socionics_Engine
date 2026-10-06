@@ -1,0 +1,70 @@
+{
+  "version": "C3-v1",
+  "created": "2026-09-22",
+  "gate": "24 bounded crossing contracts, generated outputs, actual downstream uses, independent audit, access and authority",
+  "scope": "Finite consumable allocation and stock-observation language in the inherited workshop; fixture-selected routes; no full-release credit for autonomy, Shells, nesting or distinct semantic domains",
+  "types": 16,
+  "faces": [
+    "accumulation",
+    "expenditure"
+  ],
+  "causal_pairs": 24,
+  "continuation_boundaries": [
+    "after one quantum",
+    "after first semantic step",
+    "ready before commit"
+  ],
+  "controls": [
+    "unread and foreign inputs",
+    "forged output",
+    "missing reciprocal reply",
+    "dissent",
+    "stale group",
+    "stale stance",
+    "draft versus ratified",
+    "repeat authorization",
+    "material failure",
+    "cancellation",
+    "exhaustion",
+    "wrong scope",
+    "hidden stock state",
+    "corrupted audit"
+  ],
+  "performance": {
+    "reference": "unchanged C2 eight-cell panel on SelfRouteEngine versus CrossingEngine",
+    "reference_repeats": 3,
+    "median_ratio_limit": 1.5,
+    "fixed_panel": "24 crossing cells including setup contributions and downstream users",
+    "inactive_history": [
+      0,
+      100,
+      1000
+    ],
+    "history_shapes": [
+      "shared",
+      "unique"
+    ],
+    "timing_repeats": 2,
+    "trace_repeats": 1,
+    "active_history_ratio_limit": 1.75,
+    "active_access_counts_must_match": true,
+    "dependency_sizes": [
+      1,
+      2,
+      4
+    ],
+    "growth_axis": "number of independently received stock inspection observations for Organize; other growth axes remain bounded/unassessed",
+    "growth_repeats": 2,
+    "record": [
+      "wall and CPU active",
+      "restore",
+      "raw audit",
+      "checkpoint bytes",
+      "tracemalloc incremental peak",
+      "world.resolve count",
+      "modeled work",
+      "outcomes"
+    ]
+  },
+  "retention": "Preserve every failed evaluation and version amendments. No performance speedup claim."
+}

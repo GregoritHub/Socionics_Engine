@@ -1,0 +1,80 @@
+--- before/hle/shell_records.py
++++ after/hle/shell_records.py
+@@ -98,6 +98,7 @@
+     queue_entered: int
+     current_movement: FormalMovement | None = None
+     required_movement: FormalMovement | None = None
++    engaged_at: int | None = None
+ 
+     def __post_init__(self):
+         super().__post_init__()
+@@ -106,6 +107,8 @@
+             raise ValueError('negative opportunity resource/time')
+         if self.required_units is not None and self.required_units < 1:
+             raise ValueError('positive work quote required')
++        if self.engaged_at is not None and self.engaged_at < self.queue_entered:
++            raise ValueError('engagement cannot precede queue entry')
+ 
+ 
+ @dataclass(frozen=True)
+@@ -165,6 +168,8 @@
+         if len(set(self.measured)) != len(self.measured) or any(s not in SIGNS for s in self.measured):
+             raise ValueError('unknown or duplicate measurement channel')
+         if self.opportunity.queue_entered > self.end: raise ValueError('future queue entry')
++        if self.opportunity.engaged_at is not None and not self.start <= self.opportunity.engaged_at <= self.end:
++            raise ValueError('engagement time must fall within the observed window')
+         for e in self.evidence:
+             if e.owner != self.actor or e.delivered > self.end:
+                 raise ValueError('foreign or future evidence')
+--- before/hle/shell_assessment.py
++++ after/hle/shell_assessment.py
+@@ -31,9 +31,11 @@
+     o = trace.opportunity
+     if o.demand is None: return 'no_demand'
+     if o.refusal_evidence: return 'legitimate_refusal'
+-    if not trace.evidence: return 'no_delivery'
+-    if not any(e.interpreted is not None for e in trace.evidence): return 'not_interpreted'
+-    known = constraints(trace, trace.end)
++    if o.engaged_at is None: return 'unknown_engagement_time'
++    if not any(e.delivered <= o.engaged_at for e in trace.evidence): return 'no_delivery'
++    if not any(e.interpreted is not None and e.interpreted <= o.engaged_at for e in trace.evidence):
++        return 'not_interpreted_at_engagement'
++    known = constraints(trace, o.engaged_at)
+     used = {c.key for op in trace.operations for c in op.claims} | {c.key for p in trace.parts for c in p.claims}
+     if not known.keys() & used: return 'no_unambiguous_scoped_constraint'
+     if not o.capacity_evidence or o.necessary_operator not in o.available_operators:
+--- before/hle/shell_runtime.py
++++ after/hle/shell_runtime.py
+@@ -91,7 +91,7 @@
+                    'reconcile', ('reconcile',) if eligible_facts and cap else (), cap, quote,
+                    before[ENERGY], before[TIME], True, (),
+                    tx.event.when.tick if demand is None else demand.specification.duration.start.tick,
+-                   current, None)
++                   current, None, tx.event.when.tick)
+         part_claim = self._claim(actor, v.item, v.loan, v.required or dependency)
+         parts = {} if concept is None else {concept.ref: ContentPart(concept.ref, lineage, 0, (part_claim,))}
+         b = {'actor': actor, 'item': v.item, 'loan': v.loan, 'lineage': lineage,
+--- before/hle/shell_fixtures.py
++++ after/hle/shell_fixtures.py
+@@ -25,7 +25,7 @@
+     evidence = LocalEvidence(ref(Kind.OBSERVATION, 'terms:' + str(index)), actor,
+          start, start + 1, ref(Kind.EVENT, 'interpret:' + str(index)), (expected,))
+     opportunity = OpportunityEvidence(ref(Kind.DEMAND, 'demand:' + str(index)), 'differentiate',
+-         ('differentiate',), (raw,), 5, 100, 100, True, (), start, inner, necessary)
++         ('differentiate',), (raw,), 5, 100, 100, True, (), start, inner, necessary, start+2)
+     parts = [ContentPart(raw, lineage, start, (expected,))]
+     ops = []
+     def op(name, offset, inputs=(), outputs=(), claims=(), target='', movement=outward, domains=(P.I, P.WE)):
+--- before/tests_r16a/test_witnesses.py
++++ after/tests_r16a/test_witnesses.py
+@@ -130,7 +130,9 @@
+ 
+     def test_late_interpretation_cannot_retroactively_condemn_an_action(self):
+         t = fixture('forced_placement'); e = replace(t.evidence[0], interpreted=t.end)
+-        self.assertEqual(self.assess('forced_placement', evidence=(e,))['observation'], 'negative')
++        self.assertEqual(self.assess('forced_placement', evidence=(e,))['observation'], 'unassessed')
++        self.assertEqual(self.assess('forced_placement', opportunity=replace(t.opportunity, engaged_at=None))['observation'], 'unassessed')
++        with self.assertRaises(ValueError): replace(t, opportunity=replace(t.opportunity, engaged_at=t.end+1))
+ 
+     def test_unpaid_or_movementless_operations_do_not_prove_a_sign(self):
+         for sign in SIGNS:

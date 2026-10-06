@@ -1,0 +1,3 @@
+"""HLE R20: recursive shared closure and consented inherited obligations."""
+__version__ = "1.10.0"
+MILESTONE = "R20"

@@ -1,0 +1,28 @@
+{
+  "schema": "hle-full-crux-c1-protocol-v1",
+  "date": "2026-09-22",
+  "scope": "Three bounded accumulation recipes establishing the common content executor; no 32-cell release claim.",
+  "standard": ["what changed", "how it changed", "what becomes possible afterward because it changed"],
+  "recipes": ["condition-hypothesis-v1", "condition-trial-v1", "condition-retention-v1"],
+  "behavior": {
+    "all_model_a_types": 16,
+    "cases_per_type": ["mistaken damaged prior; actual serviceable", "mistaken serviceable prior; actual damaged", "matching serviceable prior", "matching damaged prior"],
+    "transfer_targets": ["saw", "saw2"],
+    "controls": ["paid comparison ablation", "paid cancellation without retention", "unread observation", "foreign model", "wrong context", "wrong model trial", "stale dependency", "hidden material change before delivery", "resource exhaustion", "forged semantic output", "forged work debit", "intermediate predecessor corruption"],
+    "continuation": "Restore before/after semantic thresholds, before physical completion, and after receipt; compare entire canonical checkpoint after identical continuation.",
+    "gates": ["all declared cases pass", "independent content and resource auditors accept healthy traces", "semantic ablation defeats the positive downstream result and fails ordinary semantic acceptance", "no free knowledge or material work", "legacy integrate API remains Embody", "C1 import preserves U14 world/access/commands"],
+    "regression": "All 454 inherited native U2-U14 tests, plus targeted old-circuit/institution compatibility in CruxEngine. Original legacy runtime is unchanged; 840 historical legacy passes are not rerun claims."
+  },
+  "efficiency": {
+    "kind": "Initial C1 baseline, not a speedup claim",
+    "inactive_records": [100, 1000, 10000],
+    "history_shapes": ["shared", "unique"],
+    "samples": 5,
+    "execution": "Sequential fresh worker per sample; no concurrent task-owned tests or profiling.",
+    "active_work": "One identical Theorize-Apply-Embody circuit and downstream action; initialization, serialization, restoration, and audit excluded from active timing.",
+    "measures": ["active wall and CPU time", "incremental active traced peak and retained allocation in separate worker", "total world and engine checkpoint bytes", "compressed world history bytes", "restore and audit times", "movement attempts and completions", "semantic step count", "modeled work", "verified downstream effects", "active source records resolved"],
+    "gates": ["identical active outcomes and modeled charges across inactive-history counts", "identical relevant-record resolution counts across inactive-history counts", "exact restoration and audit in every measured case", "all raw samples retained"],
+    "latency_budget": "No absolute latency or speedup threshold invented before the first C1 baseline. Any optimization will require a prospectively frozen same-semantics reference and tolerance.",
+    "future_scaling": "Participants, alternatives and composition depth are C4-C7 workload extensions; current C1 recipes have one actor, one explicit candidate and at most two semantic steps. These limits are reported."
+  }
+}

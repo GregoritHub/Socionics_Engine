@@ -1,0 +1,69 @@
+{
+  "schema": "hle-unified-efficiency-acceptance-v1",
+  "status": "frozen_after_baseline_measurement_before_U2_and_optimization",
+  "frozen_utc": "2026-09-21T06:41:14.060469+00:00",
+  "claim_status": "prospective engineering targets; not observed improvements or source-derived laws",
+  "baseline_evidence_sha256": {
+    "performance/summary.json": "0b86abffade3c20a94e4f357a1fc10b13c6f1b56b90c08f5ce4ffda127fd5485",
+    "checkpoints/summary.json": "fa078a9c12b270940279e7cf06a9b7bab1e931accdb98bfe4d40bc13cd5d308a"
+  },
+  "comparison": "rerun baseline and candidate on the same hardware/interpreter or a newly preregistered equivalent platform, at identical semantic workload and protected outputs",
+  "execution": "sequential isolated workers; same warmups, measured repetitions, seeds, input history, cache state, and completed work; retain every measured sample",
+  "primary_gates": {
+    "geometric_mean_active_participant_time_ratio_max": [
+      85,
+      100
+    ],
+    "geometric_mean_restored_python_live_allocation_ratio_max": [
+      85,
+      100
+    ],
+    "rationale": "A 15 percent margin defines a material improvement beyond small timing differences; it is an elected target, not a forecast."
+  },
+  "regression_guards": {
+    "each_active_time_ratio_max": [
+      110,
+      100
+    ],
+    "each_live_allocation_ratio_max": [
+      110,
+      100
+    ],
+    "each_compressed_checkpoint_bytes_ratio_max": [
+      110,
+      100
+    ],
+    "each_restore_time_ratio_max": [
+      125,
+      100
+    ],
+    "each_traced_restore_peak_ratio_max": [
+      1,
+      1
+    ],
+    "active_history_100_to_10000_time_ratio_max": [
+      2,
+      1
+    ],
+    "affected_record_visit_history_ratio_max": [
+      2,
+      1
+    ]
+  },
+  "metrics_scope": {
+    "active_time": "participant time excluding online assessor feed, measured on the six inherited matched workloads; report total and assessor time too",
+    "live_allocation": "Python allocations retained after restoring each of the two v4 checkpoints, with checkpoint text allocated before tracing and equivalent warm import state",
+    "restore_peak": "all traced transient allocations during that restoration; distinct from process maximum RSS",
+    "compressed_checkpoint": "deterministic gzip level 9, including the already-compressed baseline; raw bytes remain descriptive",
+    "restore_time": "untimed profiling pass is separate; report serialization, compression, restore, and offline reconstruction costs separately"
+  },
+  "functional_gates": {
+    "protected_semantic_mismatches_allowed": 0,
+    "unearned_knowledge_or_competence_allowed": false,
+    "simulated_price_changes_allowed": false,
+    "unfinished_work_discard_allowed": false,
+    "exact_history_and_declared_replay_required": true
+  },
+  "new_capabilities": "Compare a same-feature reference and optimized implementation under a prospectively frozen stage-specific workload; do not score additional functionality against an older engine that lacks it. General unique-history and dense-interaction workloads remain required by U13/U14.",
+  "failures": "Any failed mandatory target keeps U13 efficiency acceptance open. Amended targets need a new version, preserved failure evidence, and evaluation cases not tuned against the former failure."
+}

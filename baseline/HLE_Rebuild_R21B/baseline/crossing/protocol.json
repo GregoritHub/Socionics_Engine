@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "status": "bridge",
+  "declared_before_panel": true,
+  "study_kind": "matched reconstruction and extension; original A/B scripts unavailable",
+  "date": "2026-09-17",
+  "releases": ["r10", "r11"],
+  "wallet_energy_and_time_each": 20000,
+  "member_types": ["lse", "iee", "lsi"],
+  "default_extractor_type": "eii",
+  "study_a": {
+    "rounds": 12,
+    "target_order": ["alice", "bob", "cara"],
+    "attempts_per_round": "visit every target once until two consecutive entire rounds give no observed payoff",
+    "payoff": "one unit per delivered reply, plus one per fulfilled requested transfer; a supplied controller score, not engine energy or human utility",
+    "stop_patience_rounds": 2,
+    "member_actions": "after each round, one organization Perform by the scheduled alice/bob/cara member; never select the worker from hidden ownership",
+    "q1": "all read and interpret, explain back, and enact accepted transfer requests",
+    "q2": "alice ignores messages; bob and cara use Q1",
+    "q3": "all read and interpret and explain back, but never enact the requested transfer; paid reactive reply proxy only, no cruelty or emotion modeled; replies contain the required inspect action suggestion and are read but not interpreted or enacted by the extractor",
+    "q4": "all ignore delivered messages before paid reception; no institutional Leave or reconfiguration",
+    "refusal_filter": "free external policy assignment at the boundary, not learned detection",
+    "setup_costs": "reported separately from the 12-round assay",
+    "restoration": "Q4 only; six scheduled organization runs, unearned formulation and no-seat controls, then paid Join and Attend and an exact four-party successor agreement, followed by four scheduled runs",
+    "negative_controls": "12-round quiet no-extractor baseline; all eight covered-member subsets; refusal patience 1 and 4; admission from the initially prepared organization with zero extra practice",
+    "development_note": "One Q4 restoration fixture and one EII to LSE attention fixture were inspected during harness development before final panel execution; this is not a blind preregistration"
+  },
+  "study_b": {
+    "analytic_seat_one": "all 256 type pairs; emit sender leading element and start receiver at leading element",
+    "analytic_element_state": "all 16 receivers x 8 emitted elements x 8 receiver starts",
+    "empirical": "all 256 pairs; independently acquire kept, Produce request, send, read, acquire fresh evidence, Interpret; receiver starts Ti after Learn in R11 and Ne in R10",
+    "history_control": "all 256 pairs; send the exact same retained utterance after a second paid Learn changes sender activity to Ti in R11; matched receiver history",
+    "bounded_opportunity": "all 16 sender types; one Produce command with work_limit 20, after Learn; partial outputs cannot be sent"
+  },
+  "extension": {
+    "one_ask": "all 16 extractor types x each of three members, independent identically prepared worlds",
+    "full_q1": "12 rounds for every extractor type"
+  },
+  "checks": [
+    "Per-operation wallet differences equal sum of journal work debits for both energy and time",
+    "Physical transfers and organization fulfillment are read from engine outcomes",
+    "All analytical reception charges agree with an independent exhaustive route oracle",
+    "Empirical reading equals the analytical charge at the actual emitted element and receiver start",
+    "All 2048 type-pair and element landings preserve the emitted element",
+    "Attention responses and stopping behavior are explicitly supplied and are not counted as emergent findings",
+    "Repeated complete study execution produces identical JSON results"
+  ],
+  "interpretation_boundary": "Finite deterministic supplied policies and uncalibrated Model A prices; no inference about real people, malicious psychology, punishment optimality, Shell clearance, or developmental closure"
+}

@@ -1,0 +1,26 @@
+{
+  "changed_inherited_files": [
+    {
+      "path": "README.md",
+      "before": "d549f44470447acbdb7be7781caff1a0a9b41e0072cc3c8a8a2a3ffec2aef3ec",
+      "after": "d5fec00dc30e765da14523d31ec3d732879cf1c8787c65e4745826aebb4f2cc6"
+    },
+    {
+      "path": "hle/__init__.py",
+      "before": "43004d9a9101ed69cd2917e74f7d58e787b618b000bf1173258e2b0969fd0343",
+      "after": "f33df57056a5e7c08ea6f98b1aa38e2b95df8567cb5a6f683c7c98b31d7a29bb"
+    },
+    {
+      "path": "hle/__main__.py",
+      "before": "5bd038251f44183d723216b744147e8873e4d0314ef92fbba8e90b340c0bca8a",
+      "after": "94e5b224e6a2ffb7591d7f396ae8c982e376b58e1f0ff30d80b36ffba375de81"
+    },
+    {
+      "path": "hle/codec.py",
+      "before": "34f71063161cf1bee41ad9e4bbdaddb3e69f76ffbced57d9f19e40340ea9d599",
+      "after": "30fe02b9662dd93f5da994518fc2e72b178481dd97a225c333fb00982c0e2470"
+    }
+  ],
+  "behavioral_assertions_changed": [],
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b"
+}

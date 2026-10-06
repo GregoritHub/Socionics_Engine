@@ -1,0 +1,132 @@
+{
+  "schema": "hle-unified-u2-protocol-v1",
+  "scope": "Deterministic U2 structural substrate and read-only R21B adapters. Native structural commands are simulator bookkeeping; no new participant paid operations are claimed.",
+  "cases": [
+    {
+      "id": "U2-01",
+      "name": "instances",
+      "milestone": "U2",
+      "setup": "Two objects share a definition and equal values.",
+      "criterion": "Keep distinct instance identities, custody, and histories.",
+      "protects": [
+        "P01"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-02",
+      "name": "nonmental_material",
+      "milestone": "U2",
+      "setup": "Create a tool with material roles and no cognitive capability.",
+      "criterion": "Supported material interactions work without allocating a full mind.",
+      "protects": [
+        "P01",
+        "P03"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-03",
+      "name": "relation_identity",
+      "milestone": "U2",
+      "setup": "Revise an addressable obligation relation.",
+      "criterion": "Preserve participants, scope, prior revision, and causal provenance.",
+      "protects": [
+        "P02",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-04",
+      "name": "hypothesis",
+      "milestone": "U2",
+      "setup": "Store a false possible continuation.",
+      "criterion": "Record the hypothesis without adding an actual physical event.",
+      "protects": [
+        "P03"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-05",
+      "name": "historical_revision",
+      "milestone": "U2",
+      "setup": "Change a definition or interpretation after a remembered event.",
+      "criterion": "Reconstruct the earlier meaning without consulting only the mutable head.",
+      "protects": [
+        "P02",
+        "P06"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-06",
+      "name": "split_merge",
+      "milestone": "U2",
+      "setup": "Divide and combine objects under declared material laws.",
+      "criterion": "Keep explicit lineage and enforce resource ownership.",
+      "protects": [
+        "P01",
+        "P02",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-07",
+      "name": "finite_cycle",
+      "milestone": "U2",
+      "setup": "A member represents a group that contains the member.",
+      "criterion": "Use finite references without recursive whole-world copying.",
+      "protects": [
+        "P01",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-08",
+      "name": "legacy_adapter",
+      "milestone": "U2",
+      "setup": "Convert a legacy Ref, transaction, and checkpoint into the object form and back.",
+      "criterion": "Exactly recover all promised legacy data and its protected semantic projection.",
+      "protects": [
+        "P02",
+        "P03",
+        "P10"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    }
+  ],
+  "additional_checks": [
+    "optimistic revision conflict and atomic batch rejection",
+    "single writer and immutable history",
+    "allowlisted codec and invalid replay rejection",
+    "material conservation and owner/custody enforcement",
+    "replacement and membership lineage",
+    "definition source status and optional roles",
+    "all legacy Ref kinds and all codec-supported record families via structural adapter",
+    "legacy participant view isolation and paid partial continuation"
+  ],
+  "legacy_regressions": {
+    "full_modules": [
+      "tests.test_contracts",
+      "tests.test_world"
+    ],
+    "index": "contracts/Protection_Regression_Index_v1.json",
+    "deduplicate_test_ids": true
+  },
+  "gates": {
+    "mandatory_U2_cases": 8,
+    "mandatory_fraction": [
+      1,
+      1
+    ],
+    "equivalence_mismatches_allowed": 0,
+    "unassessed_is_pass": false
+  },
+  "new_held_out_seeds_used": [],
+  "timing_acceptance": "U13 remains open; no performance gate claimed in U2",
+  "input_acceptance_sha256": "f10131ac91e008b5b75c3c737eb28d1425db07e276621b9478a0efcbc035bf1a"
+}

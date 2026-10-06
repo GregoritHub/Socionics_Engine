@@ -1,0 +1,45 @@
+{
+  "schema": "hle-unified-u10-protocol-v1",
+  "declared_utc": "2026-09-21T13:12:51.300192+00:00",
+  "cases": {
+    "U10-01": "Separate intended semantics, transmitted wording, recipient interpretation and actual practical response over shared referents, conditions and U9 procedure constructors.",
+    "U10-02": "Novel procedure communicated to a separately practiced receiver changes paid physical behavior without copying speaker skill or exposing intention.",
+    "U10-03": "Unknown or ambiguous terms generate questions. Independently processed demonstrations stabilize lexical use; an observed failed generalization and counterexamples produce a versioned distinction and changed later behavior.",
+    "U10-04": "Statements, conditions, questions, requests, explanations, intentions and commitments use the same semantics. Requests confer no consent; commitments require explicit speaker action and observed fulfillment.",
+    "U10-05": "No knowledge from delivery alone, hidden changes or rendering; actor/context ownership, exact partial replay, work/material audit and full predecessor panel pass."
+  },
+  "learning_rule": "A local token/speaker/context entry requires two observed successful demonstrations on distinct targets per trace group. Different traces require an observed separating field; conflicting or insufficient evidence remains unresolved. Actual failed performance can challenge an overbroad use. Coining requires an owned retained U9 capacity and two successful observed targets.",
+  "panel": {
+    "teaching_max_wear": [
+      3,
+      4
+    ],
+    "first_unseen_listener_target_max_wear": 5,
+    "counterexample_max_wear": 1,
+    "repair_demonstrations_max_wear": [
+      1,
+      1
+    ],
+    "later_return_max_wear": [
+      1,
+      6
+    ],
+    "control_families": [
+      "unknown_word",
+      "unread_message",
+      "unread_demonstration",
+      "partial_payment",
+      "no_skill",
+      "ambiguous_examples",
+      "hidden_state",
+      "foreign_context",
+      "stale_received_input",
+      "false_statement",
+      "no_consent",
+      "exact_replay"
+    ]
+  },
+  "budget": "Each operation charges syntax/evidence/owned lexical processing plus lawful Model A route work. Each run uses paid U9/U4 actual execution. Finite caller work limits remain explicit.",
+  "regression": "All 651 predecessor tests and U2-U9 raw witnesses; all 3044 frozen baseline members remain unchanged.",
+  "scope": "Finite typed workshop communication and declared induction, not unrestricted natural language or U12 institutions. Opportunities, primitive practice and observation access are supplied; procedures, terms, questions, responses and distinction revision are runtime outputs. Declared development panel, not U14 release holdouts."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "hle-u13-progress-v1",
+  "milestone": "U13",
+  "status": "complete",
+  "completed_milestones": 13,
+  "remaining_milestones": 1,
+  "next_milestone": "U14",
+  "runtime_manifest_sha256": "75c3f8a147878224706939b511b5f6311f9a3cd0458c4f948d519a7b61d0816d",
+  "cases": [
+    {
+      "id": "U13-01",
+      "criterion": "Frozen R21B active-time, retained-allocation and regression budgets pass at exact protected behavior.",
+      "status": "established",
+      "evidence": [
+        "final_measurements/summary.json"
+      ]
+    },
+    {
+      "id": "U13-02",
+      "criterion": "Same-feature U12 shared, unique, linked and institutional-interaction workloads preserve costs, views and history while meeting prospective budgets.",
+      "status": "established",
+      "evidence": [
+        "final_measurements/summary.json"
+      ]
+    },
+    {
+      "id": "U13-03",
+      "criterion": "Lossless segmented history reconstructs exactly, with independent corruption, identity, access and partial-work controls.",
+      "status": "established",
+      "evidence": [
+        "final_witness/summary.json",
+        "final_native_tests/summary.json"
+      ]
+    },
+    {
+      "id": "U13-04",
+      "criterion": "All inherited native and legacy regressions, original institutional witness and frozen source identities remain valid.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_baseline_check.json",
+        "final_runtime_identity.json"
+      ]
+    }
+  ],
+  "limits": [
+    "U14 sustained held-out release",
+    "separate R21C release contract",
+    "general performance scaling",
+    "broader psychological validity"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "hle-unified-u13-protocol-v1",
+  "frozen_utc": "2026-09-21T16:34:32.631621+00:00",
+  "authority": "prospective engineering measurement contract; preserves Efficiency_Acceptance_v1 without changing thresholds",
+  "inherited_contract_sha256": "29fd79023b4afcb1c5704ce860271073ef9503264df36d336fd00e0bd6d2f4ed",
+  "reference": "Unmodified supplied R21B for common workloads; exact U12 Python source under reference_u12 for same-feature native workloads.",
+  "common": {
+    "workloads": [
+      "tick",
+      "completed_inspection"
+    ],
+    "history": [
+      100,
+      1000,
+      10000
+    ],
+    "active_work_items": 32,
+    "warmup_runs": 2,
+    "measured_runs": 9,
+    "source": "baseline/HLE_Rebuild_R21B/tools/r21_performance.py",
+    "checkpoints": [
+      "iee_12_constrained_feasible",
+      "sli_11_constrained_feasible"
+    ],
+    "timed_checkpoint_repetitions": 3
+  },
+  "native": {
+    "workloads": [
+      "shared",
+      "unique",
+      "dense"
+    ],
+    "history": [
+      100,
+      1000,
+      10000
+    ],
+    "active_work_items": 8,
+    "warmup_runs": 1,
+    "measured_runs": 3,
+    "definitions": {
+      "shared": "many distinct inactive objects sharing definition and equal attributes",
+      "unique": "many distinct inactive objects with unique labels and attributes",
+      "dense": "distinct inactive objects with references to the preceding eight objects"
+    },
+    "active_work": "same eight paid read operations on delivered workshop fields per batch; actor alternates Alice/Bob; processing inputs and prices fixed; all outcomes compared",
+    "memory_cases": [
+      "shared:1000",
+      "unique:1000",
+      "dense:1000"
+    ],
+    "timed_checkpoint_repetitions": 3,
+    "primary": {
+      "geomean_participant_seconds_max": 0.85,
+      "geomean_restored_live_bytes_max": 0.85
+    },
+    "guards": {
+      "each_participant_seconds_max": 1.1,
+      "each_live_bytes_max": 1.1,
+      "each_gzip_bytes_max": 1.1,
+      "each_restore_seconds_max": 1.25,
+      "each_restore_peak_max": 1.0,
+      "history_100_to_10000_seconds_max": 2.0,
+      "affected_visits_ratio_max": 2.0
+    }
+  },
+  "execution": "Sequential isolated reference/candidate workers. Same warmup count; all measured samples retained. Traced restore separate from timing. Text allocated before tracing; warm imports equal. Evaluation work timed separately. No reserved U14 release cases used.",
+  "functional": [
+    "exact canonical checkpoint and transaction identity across reference and candidate",
+    "actor views, acquisition, wallets, queues, partial continuation and every historical revision preserved",
+    "U12 full institutional witness parity",
+    "corruption, hidden-state, bool/int distinction, repeated command and cache controls",
+    "all inherited applicable regressions plus legacy optimization regressions"
+  ],
+  "storage": "Lossless only; full original canonical wire formats remain valid. Internal representation may change. Segment archives must independently restore and verify ordered history.",
+  "failure_policy": "Keep every failed gate and development error. Any failed mandatory target leaves U13 open; do not substitute weaker budgets."
+}

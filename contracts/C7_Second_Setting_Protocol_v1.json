@@ -1,0 +1,80 @@
+{
+  "version": "c7-second-setting-v1",
+  "declared_before_final_evaluation": true,
+  "setting": "Timed maintenance runbooks, reciprocal commitments, teaching, and custody restoration/handover",
+  "scope": "Close section 9.3 second-setting coverage; do not assert the remaining integrated C7 release gates",
+  "cells": 32,
+  "type_frames": 16,
+  "matrix_worlds": 512,
+  "canonical_control_type": "iee",
+  "matched_semantic_controls": 32,
+  "interruption_boundaries_per_cell": [
+    "one paid unit",
+    "first semantic threshold",
+    "ready before commit"
+  ],
+  "interrupted_configurations": 96,
+  "controls": "Withhold defining semantic transformation; preserve main request, route, input costs and modeled spending. Downstream query held fixed. Ordinary validator must reject intervention.",
+  "raw_evidence": "Gzipped replay checkpoints plus world/access snapshots; separate reconstruction reads raw world and access without replaying participant code",
+  "limits": {
+    "tasks": 8,
+    "inputs": 8,
+    "participants": 2,
+    "local_task_slot_range": [
+      0,
+      1000
+    ],
+    "duration_per_task": 1,
+    "single_equipment_serial_schedule": true
+  },
+  "fixture_status": "Initial personal intentions, resources, task vocabulary, memberships and opportunities supplied. No spontaneous goal or natural-language learning claim.",
+  "cost_protocol": {
+    "inactive_histories": [
+      0,
+      100,
+      1000
+    ],
+    "history_kinds": [
+      "shared",
+      "unique"
+    ],
+    "timing_workers_per_configuration": 2,
+    "traced_workers_per_configuration": 1,
+    "task_counts": [
+      2,
+      4,
+      8
+    ],
+    "measure_separately": [
+      "setup",
+      "active movement",
+      "downstream query",
+      "checkpoint",
+      "cold restore",
+      "independent audit",
+      "retained bytes",
+      "modeled actor spending"
+    ],
+    "inactive_history_median_ratio_tolerance": 3.0,
+    "tolerance_basis": "Inherited C7/C6 fixed-active history tolerance; no optimization or cost-per-new-capacity claim",
+    "unchanged_native_regression": "tools/measure_c6.py with inherited predeclared C6/C7 tolerance and matched C5 reference"
+  },
+  "gates": [
+    "all 512 worlds complete and pass raw semantic/access/accounting audit",
+    "all 32 fixed-query controls change downstream output at equal main movement spending",
+    "32 controls fail the normal semantic auditor",
+    "96 exact continuations",
+    "new domain boundary tests and inherited U2-U14/C1-C7 regression",
+    "source unchanged across every final panel",
+    "cost protocol and limits reported"
+  ],
+  "final_execution_supplement": {
+    "freeze": "v4",
+    "matrix_type_workers": 4,
+    "inherited_package_workers": 4,
+    "package_timeout_seconds": 900,
+    "grounding": "Observed wear/condition determines readiness and personal response. Worn -> care; maintained -> use; damaged -> inspect. Event labels alone do not determine those responses.",
+    "parallelism": "Independent worlds and regression packages in isolated OS processes; no participant concurrency or semantic schedule change.",
+    "conflicts": "Unresolved action/dependency/assignee conflicts survive repeated reconciliation, offers and teaching; no resolution is inferred by dropping a variant."
+  }
+}

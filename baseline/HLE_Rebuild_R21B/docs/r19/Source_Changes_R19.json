@@ -1,0 +1,113 @@
+{
+  "parent_archive_sha256": "3960d5c2f92119de31d4305a286e5efdcfa321cd0e3fc7cfb696ad74baa485e2",
+  "changes": [
+    {
+      "path": "hle/__init__.py",
+      "change": "modified",
+      "before_sha256": "2b8a05de56ab410d4afd24ff9abb905c711218900ba2970507811cc37c3492e4",
+      "after_sha256": "706958e7c1b49116f198807183ef7c86cd2f7737d91f19cb7612a8758438099f"
+    },
+    {
+      "path": "hle/clearance.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0b7960c2ccda6df7596231848deb79de63511cd7d28ce6d2f95ea3163995b06e"
+    },
+    {
+      "path": "hle/clearance_demo.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "77d04846e50294cc7afe0246464c31a7cfba3e111f5a6e80597e09d260780105"
+    },
+    {
+      "path": "hle/clearance_records.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "89f0313def7c8c4fdca8ab06e03b5b0d487d6c8f4e5d25f263c223f3c49118b9"
+    },
+    {
+      "path": "hle/clearance_reference.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "193a53151716195031c83c9564c8a7f2e80a19ff60c94a9de302c94648667f27"
+    },
+    {
+      "path": "hle/clearance_runtime.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "85bab662d87a010e41d4c514dd69c62e1007f257ffb05e8531eddcaa2b6ba299"
+    },
+    {
+      "path": "hle/clearance_shell.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "713c4882db5908592ca8f8a77d4315818ff988d48582dfc759262a6a17b5fbf4"
+    },
+    {
+      "path": "hle/codec.py",
+      "change": "modified",
+      "before_sha256": "0616e549dd5f97b7c4107fd0c6ff05d64224b612a4c67f0867f5bcd8602214d8",
+      "after_sha256": "82d9642c2ef1be033235e50f22bc452cb32b5f3c00b256e98c623f85b3195011"
+    },
+    {
+      "path": "hle/individuation.py",
+      "change": "modified",
+      "before_sha256": "8fcbb637f7456fe10820821a6026550088d25575b33d9c815ea847cb6fcf940d",
+      "after_sha256": "7eff7fafdf9528836f389a1d83d3ae39ed9dc535e90dd053c6e70feab64ed6ea"
+    },
+    {
+      "path": "hle/individuation_demo.py",
+      "change": "modified",
+      "before_sha256": "ff62b2513ad248d2db97611c1857147f5a5fa35d0252686ca210305878d7681b",
+      "after_sha256": "6bd88f2ca8dfb1dd0214b1554a2af1ef4dbad00edf46d740b90bac97fbdef4b7"
+    },
+    {
+      "path": "hle/individuation_logic.py",
+      "change": "modified",
+      "before_sha256": "b8110c918b7c92bf9700866085fb9e70c633f3b6956ba8a8f2cb6a872eec57e9",
+      "after_sha256": "d277ff222dea798b6c0911c58d886a09e366a161469655e1bf0f1d48f0bf77a7"
+    },
+    {
+      "path": "hle/individuation_records.py",
+      "change": "modified",
+      "before_sha256": "66ad0356eaf2674d118086fe475a9b1abf752b8533630b63149759e39af496b8",
+      "after_sha256": "4dc3624b14c798fa35c28b6ef3e7d4a16a16896bd4be6554c113cb3cc4b9c921"
+    },
+    {
+      "path": "hle/shell_runtime.py",
+      "change": "modified",
+      "before_sha256": "507dbb9a483106f7392481559b29c735a120804b74a074b686e62701118acd3a",
+      "after_sha256": "752ac781729a5cacb8222d87f71b488a4517dec934c8d2656317555ebc892215"
+    },
+    {
+      "path": "tools/r19_evidence.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "721a626200a6b31cfe32d1fe3d0e823c8ace349d54dd5176b3c4f2c811c95052"
+    },
+    {
+      "path": "tools/r19_package.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0c3584d4b689553a06dcae7b65db44f9fa090683839eafd4eb24f1fc3bc53c53"
+    },
+    {
+      "path": "tools/r19_validate.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "1c6343a60b152e15bbc112d85cdfb16eb84e51dc9f900c9261bfb8b37df6fa7b"
+    },
+    {
+      "path": "tests_r19/__init__.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests_r19/test_clearance.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "84948d98734c3835f0b57fffc61fc915a5158477d5ac18830ec663480eca5f73"
+    }
+  ]
+}

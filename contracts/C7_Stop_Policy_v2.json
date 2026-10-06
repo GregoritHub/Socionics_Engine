@@ -1,0 +1,9 @@
+{
+  "version": "c7-population-v2",
+  "status": "engineering stop condition; not a theorem of developmental closure",
+  "default": "stop an actor's supplied demand after two exactly equal successive scoped retained payloads from successful nonpublic, nonmaterial native movements",
+  "evidence": "Both paid outputs and all charges remain in history. Actor, context, target and full proposition relation/object content form the compared signature. The signature is a diagnostic index, not history replacement.",
+  "meaning": "unchanged_retained_result means this run stops repeating the current demand. It does not mean the content is true, the actor has developed, or all future work is exhausted.",
+  "monitoring": "repeat_limit=null intentionally disables this stop for 24-episode diagnostic runs",
+  "measuring": "2 and 3 actors; stop and monitor modes; two independent timing processes and one traced process per configuration; exact restore and raw reconstruction. Report actual work and distinct scoped payloads. No same-semantics speedup claim."
+}

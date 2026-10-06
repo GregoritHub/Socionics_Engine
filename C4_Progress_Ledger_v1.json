@@ -1,0 +1,927 @@
+{
+  "milestones_complete": 4,
+  "milestones_total": 7,
+  "next": "C5",
+  "cells": [
+    {
+      "route": "Contemplate",
+      "origin": "I",
+      "destination": "I",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "Owned meanings become differentiated uncertainty or a retained attention policy.",
+      "how": "A paid intermediate comparison/rehearsal is consumed by retention.",
+      "demonstrated_downstream": "The downstream decision selects inspection; the ablation selects use.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/contemplate-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Contemplate",
+      "origin": "I",
+      "destination": "I",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "Owned meanings become differentiated uncertainty or a retained attention policy.",
+      "how": "A paid intermediate comparison/rehearsal is consumed by retention.",
+      "demonstrated_downstream": "The downstream decision selects inspection; the ablation selects use.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/contemplate-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Express",
+      "origin": "I",
+      "destination": "IT",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An intention obtains actual stock readiness or paid consumption.",
+      "how": "Paid N/T content generates a physical command; the workshop law commits the event.",
+      "demonstrated_downstream": "A later allocation uses observed readiness or actual remaining supply.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/express-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Express",
+      "origin": "I",
+      "destination": "IT",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An intention obtains actual stock readiness or paid consumption.",
+      "how": "Paid N/T content generates a physical command; the workshop law commits the event.",
+      "demonstrated_downstream": "A later allocation uses observed readiness or actual remaining supply.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/express-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Share",
+      "origin": "I",
+      "destination": "WE",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A personal cap enters shared understanding with independent receiver limits and assent.",
+      "how": "An addressed offer and paid receiver answer are checked against the source; differences remain.",
+      "demonstrated_downstream": "The receiver proposes or performs its own later participation at the understood cap.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/share-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Share-Commune-Identify",
+          "evidence": "evidence_c4/witnesses/02-healthy/result.json",
+          "control": "evidence_c4/witnesses/02-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Share",
+      "origin": "I",
+      "destination": "WE",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A personal cap enters shared understanding with independent receiver limits and assent.",
+      "how": "An addressed offer and paid receiver answer are checked against the source; differences remain.",
+      "demonstrated_downstream": "The receiver proposes or performs its own later participation at the understood cap.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/share-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Theorize",
+      "origin": "I",
+      "destination": "ITS",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An owned intention becomes a scoped uncertain allocation model.",
+      "how": "A paid N transformation records a conditional formula, assumptions and a possible test.",
+      "demonstrated_downstream": "A changed demand is evaluated from the generated model and can lead to actual consumption.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/theorize-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Theorize-Apply-Embody",
+          "evidence": "evidence_c4/witnesses/01-healthy/result.json",
+          "control": "evidence_c4/witnesses/01-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Theorize",
+      "origin": "I",
+      "destination": "ITS",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An owned intention becomes a scoped uncertain allocation model.",
+      "how": "A paid N transformation records a conditional formula, assumptions and a possible test.",
+      "demonstrated_downstream": "A changed demand is evaluated from the generated model and can lead to actual consumption.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/theorize-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Embody",
+      "origin": "IT",
+      "destination": "I",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An actual stock observation becomes an owned interpretation or decision policy.",
+      "how": "The actor pays for the observation and T/N handoff into retention.",
+      "demonstrated_downstream": "A later changed demand uses the observed limit in its own decision.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/embody-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Embody",
+      "origin": "IT",
+      "destination": "I",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An actual stock observation becomes an owned interpretation or decision policy.",
+      "how": "The actor pays for the observation and T/N handoff into retention.",
+      "demonstrated_downstream": "A later changed demand uses the observed limit in its own decision.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/embody-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Theorize-Apply-Embody",
+          "evidence": "evidence_c4/witnesses/01-healthy/result.json",
+          "control": "evidence_c4/witnesses/01-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Act",
+      "origin": "IT",
+      "destination": "IT",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "Repair restores a damaged tool, or use increases its wear.",
+      "how": "A generated command is committed under the native material law, with separate material work.",
+      "demonstrated_downstream": "A later use, or a later care operation, succeeds; the ablation leaves its precondition unsatisfied.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/act-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Act",
+      "origin": "IT",
+      "destination": "IT",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "Repair restores a damaged tool, or use increases its wear.",
+      "how": "A generated command is committed under the native material law, with separate material work.",
+      "demonstrated_downstream": "A later use, or a later care operation, succeeds; the ablation leaves its precondition unsatisfied.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/act-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Coordinate",
+      "origin": "IT",
+      "destination": "WE",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Actual observed supply becomes jointly understood participation constraints.",
+      "how": "A stock inspection is offered; the receiver answers and preserves its distinct capacity.",
+      "demonstrated_downstream": "A later receiver proposal or performance uses the reconciled constraint.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/coordinate-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Coordinate",
+      "origin": "IT",
+      "destination": "WE",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Actual observed supply becomes jointly understood participation constraints.",
+      "how": "A stock inspection is offered; the receiver answers and preserves its distinct capacity.",
+      "demonstrated_downstream": "A later receiver proposal or performance uses the reconciled constraint.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/coordinate-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Coordinate-Mobilize",
+          "evidence": "evidence_c4/witnesses/03-healthy/result.json",
+          "control": "evidence_c4/witnesses/03-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Organize",
+      "origin": "IT",
+      "destination": "ITS",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Observed limits become an explicit resource dependency model or governed arrangement.",
+      "how": "Paid T work retains sample provenance and separates physical custody from inferred regularity.",
+      "demonstrated_downstream": "A later demand is governed by the generated arrangement and current stock.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/organize-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Organize",
+      "origin": "IT",
+      "destination": "ITS",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Observed limits become an explicit resource dependency model or governed arrangement.",
+      "how": "Paid T work retains sample provenance and separates physical custody from inferred regularity.",
+      "demonstrated_downstream": "A later demand is governed by the generated arrangement and current stock.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/organize-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Organize-Integrate-Apply",
+          "evidence": "evidence_c4/witnesses/05-healthy/result.json",
+          "control": "evidence_c4/witnesses/05-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Identify",
+      "origin": "WE",
+      "destination": "I",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Shared expectations gain an actor-owned interpretation or explicit stance.",
+      "how": "Paid F work compares received shared content with the actor’s own cap and consent.",
+      "demonstrated_downstream": "Its later choice retains qualification or refusal instead of overwriting assent.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/identify-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Identify",
+      "origin": "WE",
+      "destination": "I",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Shared expectations gain an actor-owned interpretation or explicit stance.",
+      "how": "Paid F work compares received shared content with the actor’s own cap and consent.",
+      "demonstrated_downstream": "Its later choice retains qualification or refusal instead of overwriting assent.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/identify-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Share-Commune-Identify",
+          "evidence": "evidence_c4/witnesses/02-healthy/result.json",
+          "control": "evidence_c4/witnesses/02-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Mobilize",
+      "origin": "WE",
+      "destination": "IT",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An accepted shared intention becomes actual readiness or consumption.",
+      "how": "Paid S work makes an explicit command; each actor pays and can exercise its allowance once.",
+      "demonstrated_downstream": "A later task uses actual readiness or remaining stock.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/mobilize-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Mobilize",
+      "origin": "WE",
+      "destination": "IT",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "An accepted shared intention becomes actual readiness or consumption.",
+      "how": "Paid S work makes an explicit command; each actor pays and can exercise its allowance once.",
+      "demonstrated_downstream": "A later task uses actual readiness or remaining stock.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/mobilize-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Coordinate-Mobilize",
+          "evidence": "evidence_c4/witnesses/03-healthy/result.json",
+          "control": "evidence_c4/witnesses/03-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Commune",
+      "origin": "WE",
+      "destination": "WE",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "The group relationship gains a shared cap, preserved differing positions, and explicit assent status.",
+      "how": "Two paid offers/replies are read, compared and retained; the receiver separately reads the result.",
+      "demonstrated_downstream": "The receiver proposes or consumes two units instead of the ablated four.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/commune-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Commune",
+      "origin": "WE",
+      "destination": "WE",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "The group relationship gains a shared cap, preserved differing positions, and explicit assent status.",
+      "how": "Two paid offers/replies are read, compared and retained; the receiver separately reads the result.",
+      "demonstrated_downstream": "The receiver proposes or consumes two units instead of the ablated four.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/commune-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Share-Commune-Identify",
+          "evidence": "evidence_c4/witnesses/02-healthy/result.json",
+          "control": "evidence_c4/witnesses/02-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Institutionalize",
+      "origin": "WE",
+      "destination": "ITS",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Shared practice becomes a draft rule or a ratified public rule.",
+      "how": "A witnessed group practice supports a draft; two separate paid votes refer to that exact draft.",
+      "demonstrated_downstream": "A draft supports assessment; ratification permits bounded voluntary governed performance.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/institutionalize-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Institutionalize",
+      "origin": "WE",
+      "destination": "ITS",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "Shared practice becomes a draft rule or a ratified public rule.",
+      "how": "A witnessed group practice supports a draft; two separate paid votes refer to that exact draft.",
+      "demonstrated_downstream": "A draft supports assessment; ratification permits bounded voluntary governed performance.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/institutionalize-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Institutionalize-Educate",
+          "evidence": "evidence_c4/witnesses/04-healthy/result.json",
+          "control": "evidence_c4/witnesses/04-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Understand",
+      "origin": "ITS",
+      "destination": "I",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A generated system gains an actor-owned interpretation or decision policy.",
+      "how": "Paid N work relates the conditional model to the actor’s own limits and stance.",
+      "demonstrated_downstream": "A changed demand is answered from retained meaning, with no competence granted by possession.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/understand-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Understand",
+      "origin": "ITS",
+      "destination": "I",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A generated system gains an actor-owned interpretation or decision policy.",
+      "how": "Paid N work relates the conditional model to the actor’s own limits and stance.",
+      "demonstrated_downstream": "A changed demand is answered from retained meaning, with no competence granted by possession.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/understand-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Apply",
+      "origin": "ITS",
+      "destination": "IT",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A generated model becomes a one-unit concrete trial or task execution.",
+      "how": "Paid T work instantiates the model and native consumption preserves actual outcomes.",
+      "demonstrated_downstream": "A later task uses remaining stock; a failed model or trial remains visible.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/apply-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Apply",
+      "origin": "ITS",
+      "destination": "IT",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A generated model becomes a one-unit concrete trial or task execution.",
+      "how": "Paid T work instantiates the model and native consumption preserves actual outcomes.",
+      "demonstrated_downstream": "A later task uses remaining stock; a failed model or trial remains visible.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/apply-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Theorize-Apply-Embody",
+          "evidence": "evidence_c4/witnesses/01-healthy/result.json",
+          "control": "evidence_c4/witnesses/01-control/result.json"
+        },
+        {
+          "family": "Organize-Integrate-Apply",
+          "evidence": "evidence_c4/witnesses/05-healthy/result.json",
+          "control": "evidence_c4/witnesses/05-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Educate",
+      "origin": "ITS",
+      "destination": "WE",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A system enters jointly examined understanding with a receiver-owned answer and question.",
+      "how": "Paid N/F work consumes an actual teaching offer and a separately paid learner reply.",
+      "demonstrated_downstream": "The learner uses the learned constraint at a different demand; attendance grants no skill.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/educate-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Institutionalize-Educate",
+          "evidence": "evidence_c4/witnesses/04-healthy/result.json",
+          "control": "evidence_c4/witnesses/04-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Educate",
+      "origin": "ITS",
+      "destination": "WE",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C3",
+      "full_release_complete": false,
+      "what_changed": "A system enters jointly examined understanding with a receiver-owned answer and question.",
+      "how": "Paid N/F work consumes an actual teaching offer and a separately paid learner reply.",
+      "demonstrated_downstream": "The learner uses the learned constraint at a different demand; attendance grants no skill.",
+      "controls": "matched paid semantic ablation; see final C3 tests for access and authority",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "measurements/summary.json",
+      "inherited_evidence": "witnesses/educate-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Integrate",
+      "origin": "ITS",
+      "destination": "ITS",
+      "polarity": "accumulation",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "Two scoped interfaces gain an explicit dependency graph, conflicts, external requirements, and optional coupling.",
+      "how": "Paid reconciliation produces the graph consumed by a separate retained model/organization.",
+      "demonstrated_downstream": "The consumer predicts a previously unconnected outcome; expenditure executes repair then use.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "This route/polarity is not a principal child in the C4 family panel; full-release coverage remains open",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/integrate-accumulation/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [],
+      "c4_measured_costs": "No new per-cell C4 measurement",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    },
+    {
+      "route": "Integrate",
+      "origin": "ITS",
+      "destination": "ITS",
+      "polarity": "expenditure",
+      "implemented_semantics": "bounded C2",
+      "full_release_complete": false,
+      "what_changed": "Two scoped interfaces gain an explicit dependency graph, conflicts, external requirements, and optional coupling.",
+      "how": "Paid reconciliation produces the graph consumed by a separate retained model/organization.",
+      "demonstrated_downstream": "The consumer predicts a previously unconnected outcome; expenditure executes repair then use.",
+      "controls": "matched semantic ablation",
+      "automatic_selection": "open C6",
+      "shell_coverage": "open C5",
+      "two_distinct_settings": "open",
+      "nested_accountability": "Exercised as an exact child in the bounded C4 family panel",
+      "measured_costs": "inherited C2 measurements; matched panel rerun in C3",
+      "inherited_evidence": "inherited C2 evidence: witnesses/integrate-expenditure/result.json",
+      "inherited_evidence_location": "C3_Progress_Ledger_v1.json and its evidence_c3 or historical C2 evidence",
+      "c4_connected_family_appearances": [
+        {
+          "family": "Organize-Integrate-Apply",
+          "evidence": "evidence_c4/witnesses/05-healthy/result.json",
+          "control": "evidence_c4/witnesses/05-control/result.json"
+        }
+      ],
+      "c4_measured_costs": "evidence_c4/measurements/summary.json; family-level workload, not per-cell price",
+      "remaining_requirements": [
+        "C5 Shell evidence",
+        "C6 automatic selection and distinct-setting transfer",
+        "C7 complete sustained-release assessment"
+      ]
+    }
+  ],
+  "full_release_cells_complete": 0,
+  "c4_gate": "Complete under bounded composition/nested-evidence contract; no blanket cell completion",
+  "c4_scope": "One consumable-workshop language; one actor owns child operations; paid public social contributions; no general cross-owner nesting",
+  "c4_counts": {
+    "tests": 554,
+    "circuit_type_cases": 80,
+    "causal_pairs": 7,
+    "raw_witnesses": 15,
+    "continuation_configurations": 24,
+    "measurement_workers": 36
+  }
+}

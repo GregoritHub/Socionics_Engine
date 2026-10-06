@@ -1,0 +1,354 @@
+P0001 Unified Shell Geometry andDevelopmental Dynamics
+P0002 Readable Edition of Version 1.1
+P0003 One process observed at two resolutions
+P0004 Core idea: The Crux tells us what a movement means. OIG tells us how that movement unfolds through time. Together, they describe one developmental process.
+P0006 This edition preserves the model, equations, route names, and claims of Version 1.1. It reorganizes the explanation so that each section introduces one idea at a time.
+P0008 Quick Map of the Model
+P0009 Concept
+P0010 What it tells us
+P0011 The Crux
+P0012 Identifies perspective, route, polarity, Shell state, closure, and developmental altitude.
+P0013 OIG
+P0014 Tracks content change, persistent change, cancellation, recurrence, and trajectory information.
+P0015 Shell
+P0016 A self-maintaining distortion of a movement that would otherwise be coherent.
+P0017 Holon
+P0018 A coherent organization that can function as one unit at the next recursive scale.
+P0019 Altitude
+P0020 The recursive depth of completed coherent closure.
+P0021 Development
+P0022 The conversion of compensatory possibility into retained coherent capacity.
+P0024 Reading rule: Do not treat the Crux and OIG as two competing systems. They are two projections of the same realized trajectory.
+P0026 1. Purpose
+P0027 This document defines one developmental object and two ways to observe it.
+P0028 The Crux and Observational Information Geometry (OIG) are not separate mechanisms. They describe the same realized process at different resolutions.
+P0029 The Crux focuses on functional meaning. It tracks perspective, route, polarity, conductivity, Shell formation, holonic closure, and altitude.
+P0030 OIG focuses on information geometry. It tracks content state, quotient visibility, persistent change, cancellation, recurrence, and trajectory information.
+P0031 In short: The Crux tells us what transformation is occurring. OIG tells us how that transformation is realized.
+P0033 2. The Unified Object
+P0034 Represent the complete developmental state at time t as:
+P0035 X_t = (Γ, H_t, m_t, c_t, S_t, φ_t, ι_t)
+P0036 Symbol
+P0037 Meaning
+P0038 Γ
+P0039 Fixed structural fingerprint: TIM / Model A stack.
+P0040 H_t
+P0041 Current holonic organization.
+P0042 m_t
+P0043 Formal Cross movement.
+P0044 c_t
+P0045 Current content state.
+P0046 S_t
+P0047 Discrete Shell structure.
+P0048 φ_t
+P0049 CAPE phase.
+P0050 ι_t
+P0051 Continuous residual intensity.
+P0053 A formal movement has three parts:
+P0054 m_t = (o_t, d_t, p_t)
+P0055 Here, o_t is the origin perspective. d_t is the destination perspective. p_t is the polarity: Accumulation or Expenditure.
+P0056 Origin and destination each require two bits. Polarity requires one additional bit. A formal movement therefore uses five bits and has thirty-two possible forms.
+P0057 The four identity movements have o = d and displacement 00. These are the self-routes:
+P0058 Self-route
+P0059 Route name
+P0060 I → I
+P0061 Contemplate
+P0062 IT → IT
+P0063 Act
+P0064 WE → WE
+P0065 Commune
+P0066 ITS → ITS
+P0067 Integrate
+P0069 These routes are the possible dwelling states of the system.
+P0070 Important distinction: A formal movement is only the route specification. A realized movement also includes its content trajectory, Shell state, CAPE phase, and residual intensity.
+P0072 formal movement ≠ realized movement
+P0073 Two realizations can share the same origin and destination while following very different internal trajectories.
+P0074 3. The Crux Resolution
+P0075 The Crux observes the unified object through four perspectives:
+P0076 Q = {I, IT, WE, ITS}
+P0077 Use the following two-bit code:
+P0078 I = 00    IT = 01    WE = 10    ITS = 11
+P0079 The first bit separates individual from collective. The second bit separates interior from exterior.
+P0080 A route is an ordered pair:
+P0081 o → d
+P0082 There are sixteen routes. Together they form the pair groupoid on the four perspectives.
+P0083 Each route has one origin and one destination.
+P0084 Each diagonal route is an identity route.
+P0085 Every route has an inverse.
+P0086 Routes compose when the destination of one route matches the origin of the next.
+P0087 Route displacement is:
+P0088 disp(o → d) = o XOR d
+P0089 This produces four displacement classes: 00, 01, 10, and 11.
+P0090 Crux question: What transformation is the system attempting to complete?
+P0092 The answer gives the functional identity of the trajectory.
+P0093 4. The OIG Resolution
+P0094 OIG observes the same realized trajectory through equivalence relations on content.
+P0095 For a fixed Γ, separate the content state into two parts:
+P0096 c = (D, F)
+P0097 D is the recognized domain component. F is foreign content.
+P0098 OIG defines twelve observational quotient levels. These come from four domain resolutions multiplied by three foreign-content resolutions.
+P0099 For a transition c_t → c_(t+1), OIG records which quotient levels can detect the change.
+P0100 Across a complete trajectory, OIG separates three kinds of visibility:
+P0101 Quantity
+P0102 Meaning
+P0103 V
+P0104 Cumulative visibility: everything that became observationally active.
+P0105 N
+P0106 Net endpoint visibility: what remained changed at the endpoint.
+P0107 K
+P0108 Cancellation geometry: what became active but was not retained.
+P0110 K = V \ N
+P0111 V = N ∪ K
+P0112 OIG also defines the temporal equality profile R.
+P0113 R records when different moments return to the same observational classes. This preserves recurrence that endpoint summaries can miss.
+P0114 OIG question: What changed, what persisted, what cancelled, and what returned?
+P0116 The answer gives the information geometry of the trajectory.
+P0117 5. One Movement, Two Projections
+P0118 Define two observation maps for the same underlying process.
+P0119 The Crux projection is:
+P0120 Π_C(X_t) = (o_t, d_t, p_t, S_t)
+P0121 The OIG projection is:
+P0122 Π_O(X_{0:n}) = (V, N, K, R)
+P0123 These projections answer different questions.
+P0124 For example, the Crux can identify I → ITS as Theorize. That endpoint does not show whether the movement was directly conductive.
+P0125 The same formal origin and destination can be realized through an indirect path such as:
+P0126 I → WE → IT → ITS
+P0127 The pair groupoid reduces this path to the same formal origin and destination. However, the internal trajectory still matters.
+P0128 OIG preserves information about intermediate activation, cancellation, return, recurrence, and persistent endpoint difference.
+P0129 Division of labor: The Crux identifies the transformation. OIG identifies how the transformation was realized.
+P0131 6. The Unified Shell
+P0132 A Shell is a self-maintaining distortion of an otherwise coherent movement.
+P0133 A Shell is not simply failure. The system can still reach the correct destination and preserve an acceptable external form.
+P0134 The distortion lies in the internal path that the system must maintain to keep producing that form.
+P0135 Represent the underlying Shell object as:
+P0136 𝒮
+P0137 6.1 Crux Projection of the Shell
+P0138 The Crux observes five candidate signs of 𝒮:
+P0139 Premature translation.
+P0140 Forced placement.
+P0141 New defensive structure.
+P0142 Residual fragmentation.
+P0143 Foreclosure / prevented initiation.
+P0144 A movement is non-conductive when one or more of these signs persist after increased demand and CAPE.
+P0145 Signs 1–4 assume that the movement became active. Sign 5 covers the case in which the required movement never begins.
+P0146 Foreclosure: Under a specified demand that requires a non-current movement, the selected movement does not activate. The system preserves its current organization, and the prevention persists through the conductivity test.
+P0148 The demand clause is necessary. Without demand, the four self-routes could be misclassified as pathological.
+P0149 The ground state is the native self-route of the current holon. It can run indefinitely on two strong valued functions at displacement 00.
+P0150 The ground state produces no change of perspective. It is free and non-pathological.
+P0151 There is no architectural gradient out of the ground state. Demand is required to initiate movement.
+P0152 Rest and foreclosure can therefore look identical to OIG:
+P0153 Rest: no demand is present, and the native self-route continues.
+P0154 Foreclosure: demand is present, but the required movement does not begin.
+P0155 Pure OIG cannot separate these cases because its projection does not contain demand.
+P0156 The Shell detector must therefore be joint:
+P0157 D_Shell = (D, Π_C, Π_O)
+P0158 6.2 OIG Projection of the Shell
+P0159 OIG observes the trajectory-side footprint of the same Shell:
+P0160 S_O(𝒮) = (K, R, …)
+P0161 K identifies changes that became active but were not retained.
+P0162 R identifies repeated returns and maintained patterns.
+P0163 K and R therefore do not define a second kind of Shell. They describe the trajectory geometry of the same underlying object.
+P0164 𝒮 → { S_C: functional/diagnostic appearance; K,R: trajectory appearance; ι: continuous intensity }
+P0165 The exact mapping from individual Crux Shell signs to specific K and R patterns remains to be derived.
+P0166 7. Shell Maintenance
+P0167 The simplest OIG pattern for maintenance is a return to the starting form:
+P0168 A → B → A
+P0169 The system changed from A to B, so activity occurred. The endpoint then returned to A.
+P0170 At the relevant quotient:
+P0171 V = 1    N = 0    K = 1
+P0172 Meaning: There was observable activity, but no retained transformation at the endpoint.
+P0174 A Shell can therefore require internal structural work while preserving the same external shape.
+P0175 The important variable is not only how much activity occurs. The relationship between V and N matters.
+P0176 A system can show high cumulative activation and low net retention while remaining highly active.
+P0177 This is the information-geometric pattern expected from persistent compensation.
+P0178 Under observation, distinguish three states:
+P0179 Rest: no relevant demand is present, and the native self-route is active.
+P0180 Conductive realization: the system meets the demand without persistent distortion.
+P0181 Shell-mediated realization: demand is present, but distortion or non-initiation persists. This includes foreclosure.
+P0182 Pure A under demand is the observational signature of foreclosure. Pure A without demand is rest.
+P0183 These cases are indistinguishable from Π_O alone.
+P0184 8. Exotic Form and Coherent Form
+P0185 A Shell realization is an exotic realization of an underlying coherent movement.
+P0186 x = (m, S, ι)
+P0187 The coherent realization is:
+P0188 (m, ∅, 0)
+P0189 An exotic realization is:
+P0190 (m, S, ι),    S ≠ ∅
+P0191 Both forms can preserve the same formal movement:
+P0192 π(m, S, ι) = m
+P0193 The Shell therefore does not need to create a new route. It changes the realized form of the route.
+P0194 Residual intensity can vary continuously without changing the discrete Shell identity:
+P0195 ι ∈ [0,1]
+P0196 This creates a continuum of exotic realizations around the same formal movement.
+P0197 developmental direction: exotic realization → coherent realization
+P0198 Movement across an exotic surface is not automatically development.
+P0199 A system can undergo large internal changes while remaining inside the same distorted organization.
+P0200 9. The Holon Tree
+P0201 The holon tree records recursive coherent closure.
+P0202 Activity alone does not define a holon. Reaching a successful endpoint does not define one either.
+P0203 A holon seals when its organization becomes coherent enough to function as one unit at the next recursive scale.
+P0204 E_k → H_k → H_(k+1)
+P0205 Symbol
+P0206 Meaning
+P0207 E_k
+P0208 The exotic deformation space around the current organization.
+P0209 H_k
+P0210 The current coherent form.
+P0211 H_(k+1)
+P0212 The next recursive organization.
+P0214 holonic ascent = repeated exotic-to-coherent closure
+P0215 The lower holon does not disappear. It becomes a constituent of the higher holon.
+P0216 Principle: Layers are preserved without collapse.
+P0218 10. Altitude
+P0219 Altitude is not a preassigned color or stage label.
+P0220 h(H) = recursive depth of completed coherent closure
+P0221 Altitude increases only when the complete current organization cannot meet a generated demand conductively.
+P0222 A larger recursive organization must then become necessary.
+P0223 Difficulty alone is not altitude pressure.
+P0224 One failed route is not altitude pressure.
+P0225 High activity is not altitude.
+P0226 A true altitude boundary appears when the complete available organization cannot meet the active demand without persistent Shell distortion.
+P0227 11. The Development Generator
+P0228 Development is generated by a closed feedback loop.
+P0229 Let H_k be the current coherent holon. Let W_t be the relevant world state.
+P0230 The basic process is:
+P0231 H_k → successful movement → W_(t+1) → new demand → conductivity test
+P0232 Successful action can change the environment.
+P0233 OIG separates persistent environmental change from temporary activity.
+P0234 For a world trajectory W_0 → W_1 → … → W_n, developmental change depends on N_W, not only on V_W.
+P0235 A temporary excursion does not establish a changed developmental condition.
+P0236 changed conditions = persistent consequences of successful action
+P0237 Those persistent consequences can then generate a new demand.
+P0238 12. Horizontal Adaptation Versus Development
+P0239 When a new demand appears, test the movements that the current holon can use.
+P0240 Let C(H,D) be the set of movements that remain conductive under demand D.
+P0241 If the set is not empty:
+P0242 C(H_k, D) ≠ ∅    → horizontal adaptation
+P0243 The current holon can still solve the problem. It may change route, polarity, timing, or strategy without increasing altitude.
+P0244 If the set is empty:
+P0245 C(H_k, D) = ∅    → developmental boundary
+P0246 Now search for the smallest higher organization that can solve the same demand conductively:
+P0247 H_(k+1) = min { H' > H_k : C(H', D) ≠ ∅ }
+P0248 This is the altitude-selection rule.
+P0249 The next altitude is not named in advance. It is generated by the smallest coherent extension that solves the unsolved demand.
+P0250 13. Developmental Character
+P0251 The character of a new altitude is determined after the new organization is generated.
+P0252 C_new = C(H_(k+1), D) − C(H_k, D)
+P0253 C_new contains the movements that became newly conductive.
+P0254 These movements can be measured by origin, destination, displacement, polarity, club, residual family, route composition, and recurrence structure.
+P0255 χ_(k+1) = Profile(C_new)
+P0256 If one structural profile dominates, it describes the generated developmental character.
+P0257 If several equally minimal solutions exist, development branches. The theory must preserve that branch.
+P0258 14. No Fundamental Fixed Tiers
+P0259 The model does not require predetermined developmental tiers.
+P0260 movement → closure → altitude → observed spectrum
+P0261 The generator does not assume a tier in advance.
+P0262 A tier can be introduced later if many generated trajectories form a robust structural cluster or phase transition.
+P0263 tiers are possible emergent summaries, not primitive coordinates
+P0264 A developmental color, tier, or stage is useful only when it describes a stable region of generated trajectories.
+P0265 The machinery can generate altitude without using fixed stage labels.
+P0266 15. TIMs as Local Developmental Biases
+P0267 TIM does not create a private developmental ladder.
+P0268 TIM defines the local information architecture through which developmental demands are encountered.
+P0269 For each TIM, the Ego pair is:
+P0270 E_T = (F_1, F_2)
+P0271 The Super-Id pair is:
+P0272 G_T = (F_5, F_6)
+P0273 Across all sixteen TIMs:
+P0274 G_T = cp(E_T)
+P0275 The counterphase map is:
+P0276 Ne ↔ Si    Se ↔ Ni    Fe ↔ Ti    Te ↔ Fi
+P0277 The Super-Id pair of one TIM is also the Ego pair of its Dual type.
+P0278 First-order individuation therefore has the form:
+P0279 E_T → cp(E_T)
+P0280 The TIM does not change. Instead, the complementary valued domain becomes increasingly available for conductive use.
+P0281 16. Healthy and Unhealthy Development
+P0282 Development cannot be judged from endpoints alone.
+P0283 A system can produce the correct external result through compensatory structure.
+P0284 competence ≠ coherence
+P0285 16.1 Unhealthy Development
+P0286 An unhealthy trajectory can show:
+P0287 Repeated two-quadrant oscillation.
+P0288 Correct endpoints reached through long compensatory paths.
+P0289 High cumulative activity with little retained transformation.
+P0290 Persistent recurrence to the same defensive organization.
+P0291 Increasing Role/Vulnerable compensation.
+P0292 Rising Shell intensity without Shell clearance.
+P0293 Repeated return to the native organization after demand ends.
+P0294 Foreclosure under demand that the current holon cannot yet meet conductively.
+P0295 V high    N limited    K ≠ ∅
+P0296 This pattern becomes more significant when recurrent Shell structure is also present.
+P0297 16.2 Healthy Development
+P0298 Healthy development shows:
+P0299 Wider access to conductive routes.
+P0300 Greater retention of capacities that were previously unstable.
+P0301 Less dependence on compensatory paths.
+P0302 Greater ability to cross the weak complementary surface.
+P0303 Successful return from the complementary domain without collapse.
+P0304 Four-perspective closure under increasing demand.
+P0305 Shell clearance rather than simple Shell suppression.
+P0306 same or greater demand + less persistent distortion + greater retained coherence
+P0307 17. IEE Example
+P0308 For IEE, Ne-Fi is the Ego program.
+P0309 The weak complementary valued pair is Si-Te. The Super-Ego compensatory pair is Se-Ti.
+P0310 Under the club-quadrant correspondence:
+P0311 NF ↔ I    ST ↔ IT
+P0312 First-order IEE individuation therefore requires the surface crossing:
+P0313 I → IT
+P0314 This route is Express. Healthy development, however, cannot stop at Express.
+P0315 One complete developmental circuit is:
+P0316 I —Theorize→ ITS —Apply→ IT —Coordinate→ WE —Identify→ I
+P0317 Read this circuit in four steps:
+P0318 Personal possibility becomes explicit structure.
+P0319 Structure becomes concrete application.
+P0320 Application enters collective practice.
+P0321 Collective consequence returns to the individual and changes the next starting condition.
+P0322 Another valid circuit is:
+P0323 I —Share→ WE —Institutionalize→ ITS —Apply→ IT —Embody→ I
+P0324 In this circuit, personal content enters shared life. Shared life becomes systemic structure.
+P0325 That structure becomes concrete reality. Concrete reality then returns to the individual as an internalized capacity.
+P0326 Key point: Development does not require one mandatory route sequence. It requires increasing ability to complete the relevant circuit without persistent Shell distortion.
+P0328 18. The Meaning of Embodiment
+P0329 The route IT → I is Embody. This route is especially important for individuation.
+P0330 Development is not complete when the weak complementary domain can only be reached temporarily.
+P0331 The new capacity must return to the native organization.
+P0332 integration = cross into the complement and return carrying it
+P0333 For IEE, I → IT → I means that concrete ST reality is no longer only external pressure.
+P0334 ST reality becomes part of the IEE's own functioning.
+P0335 This is the route-level meaning of internal dualization.
+P0336 19. OIG Detection of Developmental Health
+P0337 OIG can separate external appearance from internal trajectory when the demand and intended movement are specified.
+P0338 Two movements can share the same Crux endpoint. One can be direct while the other requires several compensatory intermediate states.
+P0339 The endpoint alone cannot distinguish these realizations. OIG can.
+P0340 A developmental detector should therefore examine the joint object:
+P0341 D_Shell = (D, Π_C, Π_O) = (D, (o, d, p, S), (V, N, K, R))
+P0342 A candidate Shell-maintenance pattern combines:
+P0343 A correct net endpoint, or preservation of the current form.
+P0344 Excess cumulative activation, or non-initiation under demand.
+P0345 Persistent cancellation or recurrence.
+P0346 Recurrent compensatory states.
+P0347 After integration, the same demand should require less compensatory trajectory complexity.
+P0348 It should also produce less persistent cancellation or foreclosure, less Shell recurrence, and greater retention of complementary capacity.
+P0349 Under specified conditions, this makes developmental health observable in principle.
+P0350 20. The Unified Developmental Law
+P0351 The full model can be compressed into one loop:
+P0352 H_k → demand → conductive action or Shell → W_(t+1) → persistent consequence → D_(k+1)
+P0353 D_(k+1) → current repertoire → adaptation or Shell
+P0354 Shell + no current conductive solution → minimal higher closure → H_(k+1)
+P0355 Development is initiated by demand. The system does not spontaneously leave the ground state.
+P0356 OIG observes V, N, K, and R.
+P0357 The Crux observes origin, destination, polarity, Shell state, and altitude.
+P0358 These are two resolutions of the same realized process.
+P0359 Unified developmental law: Development is the recursive conversion of compensatory possibility into retained coherent capacity.
+P0361 The Shell marks the boundary between what the current organization can temporarily produce and what it can genuinely sustain.
+P0362 Holonic ascent occurs when the system resolves that boundary instead of merely maintaining it.
+P0363 Altitude counts coherent recursive closure. Route history gives developmental character. TIM gives local bias.
+P0364 OIG gives trajectory evidence. The Crux gives functional meaning.
+P0365 Together they form one object.
+P0366 Version Note
+P0367 Version 1.1 added five clarifications to the model:
+P0368 Explicit self-routes and the ground state.
+P0369 A fifth Shell sign: Foreclosure.
+P0370 A mandatory demand clause for Foreclosure.
+P0371 A joint, demand-conditioned Shell detector.
+P0372 A demand-initiated developmental generator and a qualified OIG observability claim.

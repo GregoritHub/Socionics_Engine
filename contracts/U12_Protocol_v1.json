@@ -1,0 +1,17 @@
+{
+  "schema": "hle-unified-u12-protocol-v1",
+  "phase": "development criteria recorded before U12 implementation evaluation",
+  "scope": "Finite workshop institutions over directly consenting participants; U9 search generates work from acquired primitives and material goals; U7 attribution can influence proposed authority; U8 correction and public revision remain distinct.",
+  "cases": [
+    {"id":"U12-01","criterion":"Participants generate a proposal from situated demand and acquired primitives, communicate it, independently consider it, and enact only exact consented terms; disagreement and counterproposals remain explicit."},
+    {"id":"U12-02","criterion":"A generated U7 attribution influences a communicated proposal, receives independent uptake, governs repeated observed work, and becomes a maintained public rule. Consequences name the actual bearer and preserve the causal chain."},
+    {"id":"U12-03","criterion":"U8 personal correction alone leaves public rules and obligations intact; public revision needs fresh current-member participation and changes later practice. Genuine danger, refusal, insufficient skill, missing access and low resources are distinct controls."},
+    {"id":"U12-04","criterion":"An active institution survives consented coordinator succession and founder departure. A newcomer is taught, processes the terms, and separately assents; teaching never grants primitive mastery."},
+    {"id":"U12-05","criterion":"Disputes, consent withdrawal and collective dissolution preserve prior costs, actual consequences, original commitments and unfinished work. Partial operations and changed authority cannot authorize stale or duplicated effects."},
+    {"id":"U12-06","criterion":"Independent raw audit checks institutional provenance, votes, rule versions, repetition, affected identities and inherited accounting. Exact checkpoint continuation, observation isolation, baseline integrity, and all 734 inherited distinct tests pass."}
+  ],
+  "gates": {"failures_allowed":0,"errors_allowed":0,"skips_allowed":0,"protected_mismatches_allowed":0,"distinct_inherited_tests":734,"witness_checks_not_added_to_tests":true},
+  "choices": {"enactment":"unanimity of the exact current direct-person electorate; minimum two people", "maintenance":"at least two distinct completed, processed constituent runs", "search":"U9 bounded search, default 128 considerations, depth 6, fuel 128", "coordination_cost":"1 + received particulars + visit/search budget + syntax size + unchanged U11 lawful Model A route", "authority":"voluntary collective service; no new physical law that prevents independent material acts"},
+  "panel": {"deterministic":true,"primary_people":3,"material_contexts":["workshop tool","water pump"],"routes":"all sixteen TIMs", "release_holdouts_used":false},
+  "open": ["Unrestricted institution grammar, natural-language negotiation, coercive enforcement and general political theory.","U13 efficiency, U14 held-out release, R21C acceptance and psychological validity."]
+}

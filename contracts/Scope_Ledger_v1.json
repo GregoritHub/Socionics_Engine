@@ -1,0 +1,41 @@
+{
+  "schema": "u1-scope-ledger-v1",
+  "claims": [
+    {
+      "claim": "R21B development panel: 60 candidates and 60 witnesses",
+      "status": "historical_report_with_packaged_evidence",
+      "u1_action": "Six declared pairs freshly reexecuted; the remaining original panel rows remain historical evidence."
+    },
+    {
+      "claim": "R21B regression validation: 912 distinct tests",
+      "status": "fresh_u1_passed",
+      "u1_action": "All 912 distinct inherited tests passed on the unchanged supplied runtime; complete logs retained."
+    },
+    {
+      "claim": "R21C held-out release acceptance",
+      "status": "open_in_supplied_handoff",
+      "u1_action": "No reserved R21C episodes executed; no later acceptance inferred from source similarity."
+    },
+    {
+      "claim": "General unified object runtime",
+      "status": "specified_not_implemented",
+      "u1_action": "Eight U2 cases and object interface semantics specified."
+    },
+    {
+      "claim": "Arbitrary-domain Shell recognition and numerical 4D curvature",
+      "status": "open_research",
+      "u1_action": "Operational bounded deformations and scope-specific tests are specified; no universal detector or curvature theorem claimed."
+    },
+    {
+      "claim": "Efficiency superiority of the new architecture",
+      "status": "unassessed",
+      "u1_action": "Baseline measurements and prospective targets precede optimization."
+    }
+  ],
+  "u1_complete": true,
+  "unified_progress": [
+    1,
+    14
+  ],
+  "next": "U2"
+}

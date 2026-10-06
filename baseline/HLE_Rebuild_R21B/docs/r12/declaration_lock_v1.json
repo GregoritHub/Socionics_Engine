@@ -1,0 +1,8 @@
+{
+  "schema": "hle-r12-declaration-lock-v1",
+  "files": {
+    "acceptance_v1.json": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+    "source_ledger_v1.json": "bc82c8cd07ed4cadc526ffadc29999913cb6664f132f5ac3c392a4512bbb134b",
+    "operator_registry_v1.json": "a0d439be90c1379ee4dddfbb4ee6a0d16a4c967aa9e362cd6cff4cb201598517"
+  }
+}

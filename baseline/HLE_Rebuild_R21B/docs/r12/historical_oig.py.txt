@@ -1,0 +1,402 @@
+"""OIG (Observational Information Geometry) reference implementation.
+
+Implements the locked Gamma of [OIG] Appendix C exactly:
+  - domain labels ITS, I, WE, IT with class pairs N=ITS+I, S=WE+IT,
+    T=ITS+IT, F=I+WE                                    (source_defined)
+  - reach map pos_G(d) generated from the TIM stack     (derived, generated)
+  - quotient chain dom -> access -> route -> top        (16 -> 10 -> 4 -> 1)
+  - foreign chain unpaired -> paired -> top
+  - 12 product quotients, 12 structured supports S(d,f)
+  - trajectory observations: trace, V, N, K, parity P, temporal profile R
+  - endpoint geometry: 60 (N,V), 49 shells, 16 (V,P)
+  - trace automata M_D (5-state) and M_F (3-state) rebuilt from the carrier
+  - TIM fingerprints; Contrary degeneracy (8 distinct fingerprints)
+
+Status discipline: where [OIG] marks a theorem as not independently
+discharged (the exact meet theorem, section 7.3 / D.7), this module does NOT
+claim stronger verification.  A bounded finite-alphabet consistency probe is
+provided and labeled as such; it is not a discharge of the theorem.
+"""
+
+from itertools import product, combinations
+from .core import (DEFINITIVE_STACKS, TIMS, CLASS, register, element_at)
+
+# ---------------------------------------------------------------------------
+# Locked domain structure ([OIG] C.4) — source_defined
+# ---------------------------------------------------------------------------
+
+register("oig_domain_pairs", "source_defined",
+         "OIG Appendix C.4 (= V11 le_domain_pairs verbatim): "
+         "N=ITS+I, S=WE+IT, T=ITS+IT, F=I+WE")
+
+DOMAINS = ["its", "i", "we", "it"]
+CLASS_PAIR = {"n": {"its", "i"}, "s": {"we", "it"},
+              "t": {"its", "it"}, "f": {"i", "we"}}
+
+DOMAIN_DEPTHS = ["none", "route", "access", "dom"]      # coarser -> finer
+FOREIGN_DEPTHS = ["none", "paired", "unpaired"]         # coarser -> finer
+
+
+def domain_subsets():
+    out = []
+    for r in range(5):
+        for comb in combinations(DOMAINS, r):
+            out.append(frozenset(comb))
+    return out
+
+
+def reach(tim, d):
+    """pos_G(d): stack positions whose element lies in a locked pair
+    containing d ([OIG] C.5, Definition C.1).  Generated, never hand-written."""
+    return frozenset(p for p in range(1, 9)
+                     if d in CLASS_PAIR[CLASS[element_at(tim, p)]])
+
+
+def reach_map(tim):
+    return {d: reach(tim, d) for d in DOMAINS}
+
+
+def delta_access(tim, D):
+    s = frozenset()
+    for d in D:
+        s |= reach(tim, d)
+    return s
+
+
+def delta_route(tim, D):
+    acc = delta_access(tim, D)
+    return (1 in acc, 2 in acc)
+
+
+def domain_classes(tim):
+    """Return dicts: subset -> class id at each level, plus counts."""
+    subs = domain_subsets()
+    dom = {D: D for D in subs}
+    acc = {D: delta_access(tim, D) for D in subs}
+    rou = {D: delta_route(tim, D) for D in subs}
+    top = {D: "*" for D in subs}
+    return dom, acc, rou, top
+
+
+def capacity_tree(tim):
+    """Sizes of access blocks nested inside each route block."""
+    subs = domain_subsets()
+    _, acc, rou, _ = domain_classes(tim)
+    tree = {}
+    for D in subs:
+        tree.setdefault(rou[D], {}).setdefault(acc[D], 0)
+        tree[rou[D]][acc[D]] += 1
+    return {r: sorted(blocks.values(), reverse=True) for r, blocks in tree.items()}
+
+
+def fingerprint(tim):
+    """The OIG fingerprint: the reach family of the locked lens.
+
+    [UMA] section 11: the TIM-dependent reach family always reduces to the
+    same four affine half-spaces; TIM dependence is the LABELING of the lens.
+    The fingerprint is therefore the labeled map domain-label -> reach set."""
+    return tuple(sorted((d, tuple(sorted(reach(tim, d)))) for d in DOMAINS))
+
+
+# ---------------------------------------------------------------------------
+# Content states, D/F split, product quotients — [OIG] sections 2-3
+# ---------------------------------------------------------------------------
+
+
+def split(content):
+    """content: iterable/set of opaque keys.  D/F split per [OIG] C.4."""
+    keys = frozenset(content)
+    D = frozenset(k for k in keys if k in DOMAINS)
+    F = keys - D
+    return D, F
+
+
+QUOTIENTS = [(d, f) for d in ["dom", "access", "route", "top"]
+             for f in ["unpaired", "paired", "top"]]
+Q_PAIR = ("top", "paired")
+
+
+def domain_class_of(tim, D, level):
+    if level == "dom":
+        return D
+    if level == "access":
+        return delta_access(tim, D)
+    if level == "route":
+        return delta_route(tim, D)
+    return "*"
+
+
+def foreign_class_of(F, level):
+    if level == "unpaired":
+        return F
+    if level == "paired":
+        return len(F) > 0
+    return "*"
+
+
+def q_class(tim, content, Q):
+    D, F = split(content)
+    return (domain_class_of(tim, D, Q[0]), foreign_class_of(F, Q[1]))
+
+
+# ---------------------------------------------------------------------------
+# Visibility signatures — [OIG] section 4
+# ---------------------------------------------------------------------------
+
+# fineness order (finest = highest): used to build supports
+_D_ORDER = {"none": 0, "route": 1, "access": 2, "dom": 3}
+_F_ORDER = {"none": 0, "paired": 1, "unpaired": 2}
+# visibility-strength order (bigger support = coarser firing depth):
+# S(route) contains S(access) contains S(dom); S(paired) contains S(unpaired)
+D_STRENGTH = {"none": 0, "dom": 1, "access": 2, "route": 3}
+F_STRENGTH = {"none": 0, "unpaired": 1, "paired": 2}
+
+
+def signature(tim, c0, c1):
+    """Instantaneous 12-bit signature of transition c0 -> c1, plus depths."""
+    bits = {Q: int(q_class(tim, c0, Q) != q_class(tim, c1, Q)) for Q in QUOTIENTS}
+    return bits
+
+
+def depth_pair(tim, c0, c1):
+    """(domain depth, foreign depth) of the transition ([OIG] 4.2).
+
+    The depth is the COARSEST quotient level of the chain at which the
+    change is visible; visibility is monotone toward finer levels."""
+    return _depth_from_bits(signature(tim, c0, c1))
+
+
+def _depth_from_bits(bits):
+    fired = [lvl for lvl in ["route", "access", "dom"] if bits[(lvl, "top")]]
+    dd = fired[0] if fired else "none"
+    ffired = [lvl for lvl in ["paired", "unpaired"] if bits[("top", lvl)]]
+    ff = ffired[0] if ffired else "none"
+    return dd, ff
+
+
+def support_of_depths(dd, ff):
+    """The structured 12-bit support S(d,f): vis(delta,phi) = vis_D or vis_F,
+    with vis_D monotone toward finer domain quotients and vis_F likewise."""
+    visD = {"dom": 0, "access": 0, "route": 0, "top": 0}
+    if dd != "none":
+        for lvl in ["dom", "access", "route"]:
+            if _D_ORDER[lvl] >= _D_ORDER[dd]:
+                visD[lvl] = 1
+    visF = {"unpaired": 0, "paired": 0, "top": 0}
+    if ff != "none":
+        for lvl in ["unpaired", "paired"]:
+            if _F_ORDER[lvl] >= _F_ORDER[ff]:
+                visF[lvl] = 1
+    return {(d, f): int(visD[d] or visF[f]) for d, f in QUOTIENTS}
+
+
+def all_supports():
+    return {(d, f): support_of_depths(d, f)
+            for d in DOMAIN_DEPTHS for f in FOREIGN_DEPTHS}
+
+
+def support_union(dp1, dp2):
+    d = dp1[0] if D_STRENGTH[dp1[0]] >= D_STRENGTH[dp2[0]] else dp2[0]
+    f = dp1[1] if F_STRENGTH[dp1[1]] >= F_STRENGTH[dp2[1]] else dp2[1]
+    return (d, f)
+
+
+# ---------------------------------------------------------------------------
+# Trajectory observations — [OIG] sections 5-8
+# ---------------------------------------------------------------------------
+
+
+def trace(tim, path):
+    return [depth_pair(tim, path[t], path[t + 1]) for t in range(len(path) - 1)]
+
+
+def cumulative_V(tim, path):
+    v = ("none", "none")
+    for s in trace(tim, path):
+        v = support_union(v, s)
+    return v
+
+
+def net_N(tim, path):
+    return depth_pair(tim, path[0], path[-1])
+
+
+def cancellation_K(tim, path):
+    """K = V \\ N as a set of quotients (support difference)."""
+    V = support_of_depths(*cumulative_V(tim, path))
+    N = support_of_depths(*net_N(tim, path))
+    return frozenset(Q for Q in QUOTIENTS if V[Q] and not N[Q])
+
+
+def parity_P(tim, path):
+    return sum(signature(tim, path[t], path[t + 1])[Q_PAIR]
+               for t in range(len(path) - 1)) % 2
+
+
+def temporal_profile(tim, path):
+    """R: for each quotient, the partition of time indices by class equality."""
+    out = {}
+    for Q in QUOTIENTS:
+        classes = {}
+        for i, c in enumerate(path):
+            classes.setdefault(q_class(tim, c, Q), []).append(i)
+        out[Q] = frozenset(frozenset(b) for b in classes.values())
+    return out
+
+
+def summarize_trajectory(tim, path):
+    return {
+        "trace": trace(tim, path),
+        "V": cumulative_V(tim, path),
+        "N": net_N(tim, path),
+        "K": sorted(cancellation_K(tim, path)),
+        "parity": parity_P(tim, path),
+        "temporal_profile": temporal_profile(tim, path),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Endpoint geometry — [OIG] section 6 (counts generated, not memorized)
+# ---------------------------------------------------------------------------
+
+
+def lawful_NV_pairs():
+    out = []
+    for dv in DOMAIN_DEPTHS:
+        for fv in FOREIGN_DEPTHS:
+            for dn in DOMAIN_DEPTHS:
+                for fn in FOREIGN_DEPTHS:
+                    if D_STRENGTH[dn] <= D_STRENGTH[dv] and F_STRENGTH[fn] <= F_STRENGTH[fv]:
+                        out.append(((dn, fn), (dv, fv)))
+    return out
+
+
+def shell_of(N, V):
+    sN = support_of_depths(*N)
+    sV = support_of_depths(*V)
+    return frozenset(Q for Q in QUOTIENTS if sV[Q] and not sN[Q])
+
+
+def meet_VP_classes():
+    """The 16 (V,P) classes: 12 V supports; P free only when V's foreign
+    depth reaches 'paired' or finer."""
+    out = set()
+    for dv in DOMAIN_DEPTHS:
+        for fv in FOREIGN_DEPTHS:
+            if F_STRENGTH[fv] >= F_STRENGTH["paired"]:
+                out.add(((dv, fv), 0))
+                out.add(((dv, fv), 1))
+            else:
+                out.add(((dv, fv), 0))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Trace automata rebuilt from the carrier — [OIG] sections 12, D.5
+# ---------------------------------------------------------------------------
+
+
+def domain_trace_words(tim, length):
+    """Enumerate lawful domain depth-words of given transition count by walking
+    all 16^(length+1) domain trajectories.  Carrier-level, no formulas used."""
+    subs = domain_subsets()
+    words = set()
+
+    def dd_of(D0, D1):
+        if D0 == D1:
+            return None
+        if delta_route(tim, D0) != delta_route(tim, D1):
+            return "route"
+        if delta_access(tim, D0) != delta_access(tim, D1):
+            return "access"
+        return "dom"
+
+    def rec(state, word):
+        if len(word) == length:
+            words.add(tuple(word))
+            return
+        for nxt in subs:
+            d = dd_of(state, nxt)
+            if d is None:
+                continue        # depth 'none' transitions excluded from the
+                                # lawful trace alphabet? -- see note below
+            rec(nxt, word + [d])
+
+    # [OIG] section 12 counts words over the depth alphabet where each
+    # transition is a genuine domain replacement (D changes); T_D(1)=4 counts
+    # {none? } -- T_D(1)=4 means 4 one-letter words: the alphabet includes
+    # 'none'?  No: with D-change forced, letters are {dom,access,route}=3.
+    # T_D(1)=4 therefore includes the 'none' letter: value-only or
+    # foreign-only steps leave D unchanged.  So transitions may keep D fixed.
+    def rec2(state, word):
+        if len(word) == length:
+            words.add(tuple(word))
+            return
+        for nxt in subs:
+            d = dd_of(state, nxt)
+            rec2(nxt, word + [d if d else "none"])
+
+    for s0 in subs:
+        rec2(s0, [])
+    return words
+
+
+def foreign_trace_words(length, alphabet=("x", "y", "z", "w")):
+    """Foreign depth-words over a bounded foreign alphabet (plus empty).
+    Bounded probe only; the true carrier is unbounded."""
+    states = [frozenset()] + [frozenset(c) for r in (1, 2)
+                              for c in combinations(alphabet, r)]
+    words = set()
+
+    def ff_of(F0, F1):
+        if F0 == F1:
+            return "none"
+        if (len(F0) > 0) != (len(F1) > 0):
+            return "paired"
+        return "unpaired"
+
+    def rec(state, word):
+        if len(word) == length:
+            words.add(tuple(word))
+            return
+        for nxt in states:
+            rec(nxt, word + [ff_of(state, nxt)])
+
+    for s0 in states:
+        rec(s0, [])
+    return words
+
+
+def domain_recurrence_count(tim, m):
+    """Count distinct domain temporal-equality profiles over all 16^m
+    trajectories (carrier-level, [OIG] D.5)."""
+    subs = domain_subsets()
+    profiles = set()
+
+    def profile(path):
+        prof = []
+        for level in ["dom", "access", "route", "top"]:
+            classes = {}
+            for i, D in enumerate(path):
+                classes.setdefault(_freeze(domain_class_of(tim, D, level)), []).append(i)
+            prof.append(frozenset(frozenset(b) for b in classes.values()))
+        return tuple(prof)
+
+    def rec(path):
+        if len(path) == m:
+            profiles.add(profile(path))
+            return
+        for nxt in subs:
+            rec(path + [nxt])
+
+    for s0 in subs:
+        rec([s0])
+    return len(profiles)
+
+
+def _freeze(x):
+    if isinstance(x, frozenset):
+        return x
+    if isinstance(x, tuple):
+        return x
+    return str(x)

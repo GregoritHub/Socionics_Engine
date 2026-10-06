@@ -1,0 +1,52 @@
+{
+  "milestone": "R5",
+  "declared_before_evaluation": true,
+  "determinism": "no random input; fixed commands; hash-seeds 1,7,91",
+  "horizons": {
+    "detector_recurrence": 2,
+    "retained_demands": 3,
+    "continuation": "every prefix of integrated demonstration",
+    "inactive_ticks": [
+      0,
+      2000
+    ],
+    "independent_comparison": "all relevant events, all report components; full journal fold"
+  },
+  "resources": {
+    "ample": 4000,
+    "limited": [
+      0,
+      1
+    ],
+    "prices": "inherited R4 + one energy/time per explicit material treatment or expression",
+    "assessment": "bounded evaluator work; never charged to actors"
+  },
+  "pass_criteria": {
+    "regression": "all 141 inherited cases unchanged",
+    "A01_A15": "each distinction has executable positive/negative checks; A11 explicit injection, not generated Shell evidence",
+    "identity": "unknown or unavailable/incomplete protocol stays unassessed; failed repeat preserved",
+    "path": "actual work, discrepancy and external carrier action stay visible despite returned endpoint",
+    "shell": "at least two demanded affordable interpretable opportunities; compensation additionally requires contradiction and actual paid reconstruction; missing information alone cannot establish a candidate",
+    "retention": "same object and held-out object actions demonstrate retained checking",
+    "incremental": "affected reports equal independent full replay/fold; inactive global walks guarded",
+    "continuation": "processing, assessment queue, reports, costs, material and further outputs exact",
+    "scope": "no general closure claim for growing engine; three-state fixture proves repeated return can fail"
+  },
+  "panel": {
+    "A01": "cue reuse",
+    "A02": "variable recall structure",
+    "A03": "observation isolation",
+    "A04": "wrong actor same shape",
+    "A05": "ordinary ignorance",
+    "A06": "resource-limited correction",
+    "A07": "stable false account",
+    "A08": "correct endpoint distorted path",
+    "A09": "rest and foreclosure",
+    "A10": "retained correction",
+    "A11": "projection and reownership",
+    "A12": "Model A participation",
+    "A13": "return composition",
+    "A14": "continuation",
+    "A15": "incremental evaluation"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "hle-u12-source-authority-v1",
+  "status": "Engineering operationalization; source-defined structures retain their prior grades.",
+  "fresh_inspection": [
+    "Supplied U11 source, report, roadmap and original U12 acceptance index",
+    "HLE_New_Build_Foundation_v1.md",
+    "Relevant Crux projection passages and Unified Shell collective-practice passages"
+  ],
+  "inherited_authority": "Other theory was carried through the U11 source constraints; no new empirical or mathematical validity claim.",
+  "input_files": {
+    "HLE_Unified_Object_Engine_Implementation_Roadmap_After_U11(1).md": "ab42174d1f30cb9bd43c875763df54d1bc6499f6201048b14d3d909666e8d6a7",
+    "HLE_Unified_U11_Evidence_v1.zip": "f983d64b1654b44bcaf9c5717e3feb0cb266d61590d00814533adeb5c66fbb0f",
+    "HLE_Unified_U11_Report_v1.md": "dc1b276a8cd529f208900c0f96d738ad81bb9c1f4e09ee74afe54e5c22d0186c",
+    "HLE_Unified_U11_Source_v1(1).zip": "f27e1fdb963a1a15ae5b5600795ebad5d77901fc823870c67fa309e4d4711002",
+    "01-A_Fresh_Perspective_on_Disorder.docx": "97c1df6ace9d5b169431ecd675d18dd1fce3f453335398a481689c99df5fbec5",
+    "02-A_Unified_Mathematical_Architecture_of_Socionics_Verified_Revision.docx": "41ebe1b128c805ae5f48c85f8029d611e6c49d0c0983a58631fc8750689d3a79",
+    "03-Archetypal-Shadow-Complex-The-Crux-in-the-Locus-of-Control.docx": "eb329849dba6e1d4216bdd9f709c75472a8187bbadfb410e5e940e90fdbbf167",
+    "04-Canon_of_Permanent_Truth_IDEA_v2_1_Corrected.pdf": "ae3ce6372d53335efd98fb7a480e8e61a4c38845a2b54fd792ca24c247f63245",
+    "05-Dense_Consciousness_Developed_Edition_v6_0.docx": "ce4b047adcfc672bb986052c5ee0d7be573a30bd743e594a1abb65f4d3aae095",
+    "06-Fools_Memory_Path_Manual-1-.docx": "8c4ce5231afe02027ca91ad0a507035d3529a441606fc06e9b7104cf28c4ab8f",
+    "07-Unified_Shell_Geometry_and_Developmental_Dynamics_Readable_Edition.docx": "176fc991d82574a0c8d64a78f0142e27b7593d4b9088545ca1650a2cb251665c",
+    "08-HLE_New_Build_Foundation_v1.md": "a655f106fcdc1f2c03df1bbc04e51a8ee5e3a7d83bead0a07c53a39d2d6c28e7",
+    "09-HLE_New_Build_Roadmap_v1.md": "951c6d400c876f70083a8e223205176064189206cfaf235509ecfd811fc3a31b"
+  }
+}

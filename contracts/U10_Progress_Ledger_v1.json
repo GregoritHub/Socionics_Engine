@@ -1,0 +1,38 @@
+{
+  "schema": "hle-u10-progress-ledger-v1",
+  "complete": 10,
+  "total": 14,
+  "completed": [
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "U10"
+  ],
+  "remaining": [
+    "U11",
+    "U12",
+    "U13",
+    "U14"
+  ],
+  "next": "U11 \u2014 general nesting and collective capacity",
+  "cases": {
+    "U10-01": "established_within_declared_workshop",
+    "U10-02": "established_within_declared_workshop",
+    "U10-03": "established_within_declared_workshop",
+    "U10-04": "established_within_declared_workshop",
+    "U10-05": "established_within_declared_workshop"
+  },
+  "tests": 694,
+  "u10_tests": 43,
+  "predecessor_tests": 651,
+  "new_raw_checks": 32,
+  "execution_manifest_sha256": "0559622820f0e0c30f1322cd219989d162712a7108b8273843777c603ade3f80",
+  "source_equivalence": "final/source_equivalence.json",
+  "claim_scope": "Finite acquired workshop. No unrestricted natural language, population consensus, institutions, efficiency or sustained release acceptance."
+}

@@ -1,0 +1,42 @@
+{
+  "preserved_inherited_files": 2702,
+  "changed_with_exact_before_snapshots": [
+    {
+      "path": "README.md",
+      "before_sha256": "ed443a459eabdc0536c145a171a9c3122b7da336058bab3353bf1183ec2d3e36",
+      "after_sha256": "f31925ecf8ea6e540e665b3de4f261d36e0c40cd357fdb520959b9edde572563"
+    },
+    {
+      "path": "hle/__init__.py",
+      "before_sha256": "70b5bd64aa0b33e826a19d7c03b96f3037bb724efee4a6fcbbc65a0673ddcbda",
+      "after_sha256": "0dcb212883c4735c8323fb274b44ea127790c982ec22731da71be7efc169d08a"
+    },
+    {
+      "path": "hle/clearance.py",
+      "before_sha256": "a648e321802c443d55ac11804bce4f774448e2382b7b52edbdcc6c20b895b119",
+      "after_sha256": "3247766ee12b60e20d76bcfd2e081ae573ed83b14d5bd6b69ae802edcd77922c"
+    },
+    {
+      "path": "hle/clearance_reference.py",
+      "before_sha256": "c7ca458b56381a664111b8dca68b64072fc471d2a71eb5b36a0487a4dbbe5b1a",
+      "after_sha256": "155df98e2af684902af2babeee421adf1b2c8556d13194580fde0089e19a1b0f"
+    },
+    {
+      "path": "hle/clearance_runtime.py",
+      "before_sha256": "3b56e5145f0328993e0bec6a3958ea97890d2ae3bf4292f5bbaba253388d6ffd",
+      "after_sha256": "3d4ea99f5a8cfe7392c3972eb7bfc36da0b0132f32045d4427bb7a85fbed670f"
+    },
+    {
+      "path": "hle/individuation.py",
+      "before_sha256": "7eff7fafdf9528836f389a1d83d3ae39ed9dc535e90dd053c6e70feab64ed6ea",
+      "after_sha256": "4ad6422d0796327f67f25915e5de954337b59f72fa29409f6fb7ccf32b1d7670"
+    },
+    {
+      "path": "hle/resource_contracts.py",
+      "before_sha256": "9154a0a6a22a3350b3f79358c60aff4e8799e45bb035b9dd202da037547418e5",
+      "after_sha256": "9ae4671b5e7cc1da4ba41c4cca34fe310e866984844b4dc0bed5cd15357ffffd"
+    }
+  ],
+  "deleted_inherited_files": [],
+  "release_manifest": "regenerated separately; exact inherited manifest preserved in release_manifest.json.before"
+}

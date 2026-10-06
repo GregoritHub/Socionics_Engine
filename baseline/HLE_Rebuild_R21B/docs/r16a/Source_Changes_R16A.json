@@ -1,0 +1,43 @@
+{
+  "changed_inherited": [
+    {
+      "path": "README.md",
+      "before": "d5fec00dc30e765da14523d31ec3d732879cf1c8787c65e4745826aebb4f2cc6",
+      "after": "37b9b405eef39b0a2c8e45abe34cfabdee752beefb5b44785b113457f91f262c"
+    },
+    {
+      "path": "hle/__init__.py",
+      "before": "f33df57056a5e7c08ea6f98b1aa38e2b95df8567cb5a6f683c7c98b31d7a29bb",
+      "after": "2b8a05de56ab410d4afd24ff9abb905c711218900ba2970507811cc37c3492e4"
+    },
+    {
+      "path": "hle/__main__.py",
+      "before": "94e5b224e6a2ffb7591d7f396ae8c982e376b58e1f0ff30d80b36ffba375de81",
+      "after": "cb58eb6f782d3bcf5e2ff6f5fc6b5da621a2295c8d1f135df080ad9ddb28fdc9"
+    }
+  ],
+  "added_code_docs_tests": [
+    "docs/r16a/Integration_R16A.md",
+    "docs/r16a/Progress_After_R16A.md",
+    "docs/r16a/Protocol_R16A_v1.json",
+    "docs/r16a/R15_release_manifest.json",
+    "docs/r16a/Source_Changes_R16A.json",
+    "docs/r16a/Source_Input_Check.json",
+    "docs/r16a/Step_R16A_Report.md",
+    "docs/r16a/Test_Evolution_R16A.md",
+    "docs/r16a/Timing_Repair.patch",
+    "hle/shell_assessment.py",
+    "hle/shell_demo.py",
+    "hle/shell_fixtures.py",
+    "hle/shell_records.py",
+    "hle/shell_reference.py",
+    "hle/shell_runtime.py",
+    "tests_r16a/__init__.py",
+    "tests_r16a/test_runtime.py",
+    "tests_r16a/test_witnesses.py",
+    "tools/r16a_evidence.py",
+    "tools/r16a_package.py",
+    "tools/r16a_validate.py"
+  ],
+  "parent_acceptance_unchanged": true
+}

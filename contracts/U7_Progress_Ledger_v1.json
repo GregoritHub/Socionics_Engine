@@ -1,0 +1,32 @@
+{
+  "schema": "hle-unified-u7-progress-v1",
+  "milestones_complete": 7,
+  "milestones_remaining": 7,
+  "next": "U8 \u2014 generalized retained development and correction",
+  "cases": {
+    "U7-01": "established",
+    "U7-02": "established",
+    "U7-03": "established",
+    "U7-04": "established"
+  },
+  "distinct_tests": 502,
+  "test_counts": {
+    "u7": 42,
+    "u6": 40,
+    "u5": 38,
+    "u4": 45,
+    "u3": 32,
+    "u2": 31,
+    "legacy": 274
+  },
+  "u7_witness_checks": 25,
+  "earlier_witness_counts": {
+    "u2": 12,
+    "u3": 15,
+    "u4": 22,
+    "u5": 28,
+    "u6": 28
+  },
+  "execution_identity": "66b5db5b457c5d354705c15f494e769f528a8452345107f26322d5bb054c6a2d",
+  "scope": "bounded development acceptance; U14 and R21C remain open"
+}

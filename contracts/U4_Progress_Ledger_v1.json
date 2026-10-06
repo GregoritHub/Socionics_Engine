@@ -1,0 +1,37 @@
+{
+  "schema": "hle-unified-u4-progress-v1",
+  "completed_milestones": 4,
+  "total_milestones": 14,
+  "remaining_milestones": 10,
+  "next": "U5 \u2014 integrated Fool's Memory, Model A, and Crux",
+  "cases": [
+    {
+      "id": "U4-01",
+      "status": "established",
+      "primary_test": "tests_u4.test_acceptance.U4Acceptance.test_u4_01_paid_repair_interrupt_restore_and_resume"
+    },
+    {
+      "id": "U4-02",
+      "status": "established",
+      "primary_test": "tests_u4.test_acceptance.U4Acceptance.test_u4_02_stale_definition_retains_work_and_earlier_effect"
+    },
+    {
+      "id": "U4-03",
+      "status": "established",
+      "primary_test": "tests_u4.test_acceptance.U4Acceptance.test_u4_03_competing_repairs_never_double_spend"
+    },
+    {
+      "id": "U4-04",
+      "status": "established",
+      "primary_test": "tests_u4.test_acceptance.U4Acceptance.test_u4_04_event_delivery_read_interpretation_retention_are_separate"
+    }
+  ],
+  "distinct_final_tests": 179,
+  "final_test_failures": 0,
+  "final_test_errors": 0,
+  "final_test_skips": 0,
+  "u4_witness_checks": 22,
+  "evaluation_seeds_used": [],
+  "performance_acceptance": "open_U13",
+  "release_acceptance": "open_U14"
+}

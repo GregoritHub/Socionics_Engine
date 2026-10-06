@@ -1,0 +1,152 @@
+{
+  "milestone": "C7",
+  "release_complete": false,
+  "progress": "6/7",
+  "remaining_milestones": 1,
+  "decision": "Release held: second materially different semantic setting per cell unestablished",
+  "final_distinct_passing_methods": 602,
+  "packages": [
+    {
+      "package": "tests_u2",
+      "tests": 31,
+      "passed": true,
+      "evidence": "regressions/tests_u2/summary.json"
+    },
+    {
+      "package": "tests_u3",
+      "tests": 32,
+      "passed": true,
+      "evidence": "regressions/tests_u3/summary.json"
+    },
+    {
+      "package": "tests_u4",
+      "tests": 45,
+      "passed": true,
+      "evidence": "regressions/tests_u4/summary.json"
+    },
+    {
+      "package": "tests_u5",
+      "tests": 38,
+      "passed": true,
+      "evidence": "regressions/tests_u5/summary.json"
+    },
+    {
+      "package": "tests_u6",
+      "tests": 40,
+      "passed": true,
+      "evidence": "regressions/tests_u6/summary.json"
+    },
+    {
+      "package": "tests_u7",
+      "tests": 42,
+      "passed": true,
+      "evidence": "regressions/tests_u7/summary.json"
+    },
+    {
+      "package": "tests_u8",
+      "tests": 34,
+      "passed": true,
+      "evidence": "regressions/tests_u8/summary.json"
+    },
+    {
+      "package": "tests_u9",
+      "tests": 41,
+      "passed": true,
+      "evidence": "regressions/tests_u9/summary.json"
+    },
+    {
+      "package": "tests_u10",
+      "tests": 43,
+      "passed": true,
+      "evidence": "regressions/tests_u10/summary.json"
+    },
+    {
+      "package": "tests_u11",
+      "tests": 40,
+      "passed": true,
+      "evidence": "regression_u11_final/summary.json"
+    },
+    {
+      "package": "tests_u12",
+      "tests": 42,
+      "passed": true,
+      "evidence": "regressions/tests_u12/summary.json"
+    },
+    {
+      "package": "tests_u13",
+      "tests": 17,
+      "passed": true,
+      "evidence": "regressions/tests_u13/summary.json"
+    },
+    {
+      "package": "tests_u14",
+      "tests": 9,
+      "passed": true,
+      "evidence": "regressions/tests_u14/summary.json"
+    },
+    {
+      "package": "tests_c1",
+      "tests": 21,
+      "passed": true,
+      "evidence": "regressions/tests_c1/summary.json"
+    },
+    {
+      "package": "tests_c2",
+      "tests": 28,
+      "passed": true,
+      "evidence": "regressions/tests_c2/summary.json"
+    },
+    {
+      "package": "tests_c3",
+      "tests": 28,
+      "passed": true,
+      "evidence": "regressions/tests_c3/summary.json"
+    },
+    {
+      "package": "tests_c4",
+      "tests": 23,
+      "passed": true,
+      "evidence": "regressions/tests_c4/summary.json"
+    },
+    {
+      "package": "tests_c5",
+      "tests": 19,
+      "passed": true,
+      "evidence": "regressions/tests_c5/summary.json"
+    },
+    {
+      "package": "tests_c6",
+      "tests": 19,
+      "passed": true,
+      "evidence": "regressions/tests_c6/summary.json"
+    },
+    {
+      "package": "tests_c7",
+      "tests": 10,
+      "passed": true,
+      "evidence": "regressions/tests_c7/summary.json"
+    }
+  ],
+  "c7_methods": 10,
+  "sustained_worlds": 6,
+  "sustained_episodes_per_actor": 24,
+  "sustained_native_completions": 360,
+  "generated_output_reuses": 345,
+  "sustained_routes": [
+    "theorize-expenditure-v1",
+    "understand-expenditure-v1"
+  ],
+  "raw_population_worlds": 13,
+  "reverified_c6_worlds": 583,
+  "native_measurement_workers": 33,
+  "population_measurement_workers": 12,
+  "source_scope_amendment": "Source_Scope_Amendment_v1.json",
+  "native_runtime_changed_from_C6": false,
+  "remaining_limits": [
+    "32 cells require second semantic setting",
+    "sustained panel mostly repeats existing interpretation",
+    "supplied initial demands",
+    "two-member shared semantic contracts",
+    "one population session per engine; exact restore supported"
+  ]
+}

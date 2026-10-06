@@ -1,0 +1,10 @@
+{
+  "nodes": [
+    2,
+    8,
+    16
+  ],
+  "samples": 3,
+  "trace_workers": 1,
+  "meaning": "Bounded system interface count, with a repair-to-use fan-out; node and edge growth reported together. No speedup claim."
+}

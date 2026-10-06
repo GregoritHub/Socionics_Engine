@@ -1,0 +1,20 @@
+{
+  "milestone": "C6",
+  "bounded_complete": true,
+  "progress": "6/7",
+  "remaining": [
+    "C7"
+  ],
+  "automatic_cells": 32,
+  "movement_type_cases": 512,
+  "matched_choice_controls": 32,
+  "transfer_history_capacity_worlds": 7,
+  "valid_raw_worlds": 551,
+  "deliberate_ablation_worlds": 32,
+  "final_test_methods": 337,
+  "c6_methods": 19,
+  "inherited_methods": 318,
+  "performance_workers": 33,
+  "tests": "Clean final C6 suite plus completed isolated-package regression continuation; initial failed and interrupted evaluations retained.",
+  "full_release_complete": false
+}

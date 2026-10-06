@@ -1,0 +1,32 @@
+{
+  "schema": "hle-r14-generated-demands-protocol-v1",
+  "date": "2026-09-17",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "source_basis": ["Plan R14", "Shell Geometry sections 11-12", "Foundation sections 3, 8", "R13 Progress handoff"],
+  "implementation_choices": {
+    "domain": "Finite workshop: owned workpieces, reusable tools, wear after use, voluntarily accepted loans and due return after use. No finished work sequence or demand queue supplied.",
+    "root_motives": "Participant-authored paid standing-intention memories. Prepare owned raw workpieces, care for used tools, honor voluntarily accepted return conditions. Motives are seed choices, not derived psychology.",
+    "persistent_effects": "Successful use changes raw piece to ready and, under the elected wear law, clean tool to dirty. Use of a loan activates its accepted return condition. Failures/temporary excursions do not count as retained consequences.",
+    "policy_boundary": "Pure decision function on detached owned observations, completed paid recall, own memory metadata, resource availability and explicit policy. No Truth, other private memory, hidden future or evaluator verdict.",
+    "choices": "Investigation, recall, native action, help request, teaching from owned experience, waiting, justified refusal, revision and finite search exhaustion.",
+    "processing": "Policy interpretation/selection has paid Model A work and resumable jobs. Normal domain actions use actual resource debits. Unpublished candidates stay private. Dispatcher supplies only actor scheduling, never solutions.",
+    "quiet": "No unmet discovered requirement, no unread relevant observation and no pending work means rest. Boredom is recorded from repeated unsuccessful local attempts, not elapsed quiet ticks, and does not force departure.",
+    "comparison": "Demand identity includes participant, affected material, relevant retained intention and required outcome. R12 conservative partial comparison remains unchanged. Opportunity and resource censoring are separate from Shell assessment."
+  },
+  "gates": {
+    "R14.1": "At least two different actual persistent consequences produce different participant-discovered subsequent demands; effect removal and net-reversal controls remove those demands once the participant observes/recalls the change.",
+    "R14.2": "Matched local input under changed hidden Truth produces exactly the same decision; changed delivered observations change the possible response. Foreign/malformed requests reject atomically.",
+    "R14.3": "Quiet rest, waiting, refusal, insufficient resources, finite exhausted search and unresolved needs have honest outcomes without automatic Shell/clearance claims."
+  },
+  "evaluation": {
+    "development_seeds": [11,17],
+    "evaluation_seeds": [101,103,107],
+    "types": "all sixteen fixed TIMs",
+    "population_panel": "16 types x 3 renamed/reordered setups = 48 adequate-resource runs, each with one borrower, one lender and one raw workpiece; scheduler only round-robin actor opportunities",
+    "horizon": 800,
+    "expected_positive": "In every adequate case: participant use completes, persistent wear and return condition cause two subsequent needs, tool is cleaned and returned without external work assignment.",
+    "checks": ["no wear", "no accepted loan", "net reversal before discovery", "held consequence without observation", "matched hidden ownership", "observation change", "lender refusal", "missing tool", "missing technique and actual teaching", "resource depletion/resumption", "two conflicting candidates", "all-prefix bounded continuation", "state/decision/payment tampering"],
+    "no_r21_claim": "The 480-case R21 panel is not executed or replaced. No generated Shell, individuation, clearance or recursive altitude is awarded."
+  },
+  "amendments": "Preserve failures; changes to scope or thresholds require a new version. Bug fixes within the declared scope are recorded separately."
+}

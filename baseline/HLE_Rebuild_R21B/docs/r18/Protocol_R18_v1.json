@@ -1,0 +1,14 @@
+{
+  "schema": "hle-r18-protocol-v1",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "scope": "Continuing R17 workshop actor extends its retained return procedure with eight evidence-acquired work-order constraints, shared production and partner feedback.",
+  "type_order": ["sli","iee","eie","eii","ese","esi","iei","ile","ili","lie","lii","lse","lsi","see","sei","sle"],
+  "acquisition_seats": [1,7,6,4,2,8,5,3],
+  "complexes": {"Hero":[1,7],"Child":[6,4],"Parent":[2,8],"Spirit":[5,3]},
+  "circuits": [["I","ITS","IT","WE","I"],["I","WE","ITS","IT","I"]],
+  "support_modes": ["self","dual","nondual"],
+  "resource_envelope": {"initial_energy_and_time_per_actor":200000,"ordinary_order_limit":128},
+  "acceptance": ["sixteen fixed stacks acquire and retain all eight aspect procedures in the same actor", "both circuits close after helper withdrawal and use all eight current rules", "each aspect withdrawal changes its own held-out trap outcome", "Spirit acquisition depends on current previous six capacities", "own failure, revised candidate and own successful practice precede retention", "partner response, shared output and feedback each have real consequences", "self, dual and nondual deliver identical correction content", "fresh controller and checkpoint continuation agree", "partial work publishes nothing, stale inputs fail and replay rejects fabricated records", "preserve R17 material, history, native workshop functioning, fixed dimensions and inherited gates"],
+  "implementation_hypotheses": ["Eight finite field constraints operationalize information aspects; arbitrary language semantics are excluded", "Actor eliminates the unconditional alternative using observed failure and retains a constraint only after successful own practice", "Four paired acquisition episodes operationalize complex ownership; this is not a psychological diagnosis", "Every four-phase work-order circuit targets cp(E^k(p)); this elected paid protocol realizes the conjugate reverse lap and is not universal memory traversal", "Spirit dependencies require previous six current capacities", "Offers and acquisition opportunities are supplied by the harness", "Work orders extend the workshop with a shared finite production ledger, independent of physical tool ownership"],
+  "excluded": ["R19 clearance and recurrence", "R20 recursive closure", "R21 480-case release", "unrestricted development", "empirical validation of human typology"]
+}

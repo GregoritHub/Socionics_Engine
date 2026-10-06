@@ -1,0 +1,10 @@
+{
+  "version": "c7-release-candidate-v1",
+  "source_status": "engineering construction; no new semantic-domain claim",
+  "declared_before_evaluation": true,
+  "sustained": {"seeds": [17, 43, 89], "episodes_per_actor": 24, "actors_per_world": [2, 3], "quantum": 32, "max_turns": 20000, "exact_midrun_restore": true, "supplied_initial_demands": true, "no_replenishment": true},
+  "tests": "U2-U14 and C1-C7 package runs in isolated processes; no skipped/failed method closes a gate",
+  "efficiency": {"unchanged_api_reference": "byte-preserved C5", "median_tolerance": 2.0, "inactive_history_tolerance": 3.0, "history": [0,100,1000], "alternatives": [1,4,16], "protocol": "existing measure_c6 isolated workers, repeated against delivered runtime"},
+  "release_gate": "Every section 9 requirement must be evidenced. Repetition, type changes, names and numeric cap changes cannot close two-semantic-setting coverage.",
+  "safety_of_claims": "Repeated useful decisions and repeated labels are separately counted. Long runs establish only their finite horizon. Failures and deadlock/energy stops remain visible. Existing raw auditors reconstruct committed worlds without invoking selection policy."
+}

@@ -1,0 +1,613 @@
+{
+  "schema": "hle-unified-prospective-acceptance-v1",
+  "status": "frozen_before_U2_implementation",
+  "case_count": 45,
+  "development_seeds": [
+    3101,
+    3102,
+    3103,
+    3104,
+    3105
+  ],
+  "unified_evaluation_seeds": [
+    50001,
+    50002,
+    50003,
+    50004,
+    50005,
+    50006,
+    50007,
+    50008,
+    50009,
+    50010
+  ],
+  "separate_legacy_release_seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "coverage_rules": [
+    "Use all 16 TIMs when claiming type-dependent processing coverage.",
+    "Hold out object/relation combinations and procedure patterns as well as random seeds.",
+    "Each stage instantiates relevant scenarios, horizons and resource regimes in a versioned execution panel before running its evaluation.",
+    "Structural cases need no artificial random seed when deterministic construction covers the stated property.",
+    "All declared mandatory fixture outcomes must meet their criteria; unexecuted, incomplete, invalid, and failed outcomes are retained.",
+    "Historical R21B compatibility mode keeps its exact original contracts; new world replenishment belongs to a new named contract."
+  ],
+  "gate_policy": {
+    "mandatory_cases_pass_fraction": [
+      1,
+      1
+    ],
+    "protected_equivalence_mismatches_allowed": 0,
+    "unassessed_counts_as_pass": false,
+    "generic_behavioral_success_rate": "Set in the stage-specific execution panel before its evaluation; do not require arbitrary actors to agree or cooperate when refusal is legitimate."
+  },
+  "cases": [
+    {
+      "id": "U2-01",
+      "name": "instances",
+      "milestone": "U2",
+      "setup": "Two objects share a definition and equal values.",
+      "criterion": "Keep distinct instance identities, custody, and histories.",
+      "protects": [
+        "P01"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-02",
+      "name": "nonmental_material",
+      "milestone": "U2",
+      "setup": "Create a tool with material roles and no cognitive capability.",
+      "criterion": "Supported material interactions work without allocating a full mind.",
+      "protects": [
+        "P01",
+        "P03"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-03",
+      "name": "relation_identity",
+      "milestone": "U2",
+      "setup": "Revise an addressable obligation relation.",
+      "criterion": "Preserve participants, scope, prior revision, and causal provenance.",
+      "protects": [
+        "P02",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-04",
+      "name": "hypothesis",
+      "milestone": "U2",
+      "setup": "Store a false possible continuation.",
+      "criterion": "Record the hypothesis without adding an actual physical event.",
+      "protects": [
+        "P03"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-05",
+      "name": "historical_revision",
+      "milestone": "U2",
+      "setup": "Change a definition or interpretation after a remembered event.",
+      "criterion": "Reconstruct the earlier meaning without consulting only the mutable head.",
+      "protects": [
+        "P02",
+        "P06"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-06",
+      "name": "split_merge",
+      "milestone": "U2",
+      "setup": "Divide and combine objects under declared material laws.",
+      "criterion": "Keep explicit lineage and enforce resource ownership.",
+      "protects": [
+        "P01",
+        "P02",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-07",
+      "name": "finite_cycle",
+      "milestone": "U2",
+      "setup": "A member represents a group that contains the member.",
+      "criterion": "Use finite references without recursive whole-world copying.",
+      "protects": [
+        "P01",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U2-08",
+      "name": "legacy_adapter",
+      "milestone": "U2",
+      "setup": "Convert a legacy Ref, transaction, and checkpoint into the object form and back.",
+      "criterion": "Exactly recover all promised legacy data and its protected semantic projection.",
+      "protects": [
+        "P02",
+        "P03",
+        "P10"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U3-01",
+      "name": "private_difference",
+      "milestone": "U3",
+      "setup": "Change a hidden world fact while holding an actor's accessible state fixed.",
+      "criterion": "No difference in pre-delivery view, reasons, or participant choice.",
+      "protects": [
+        "P04"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U3-02",
+      "name": "shared_definition",
+      "milestone": "U3",
+      "setup": "Two actors share stored definition bytes but have different acquired bindings.",
+      "criterion": "No unearned competence, confidence, or recalled content.",
+      "protects": [
+        "P05"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U3-03",
+      "name": "detail_concept",
+      "milestone": "U3",
+      "setup": "Retrieve exact ownership details and traverse a conceptual tension about the same tool.",
+      "criterion": "Keep direct detail lookup separate from conceptual traversal; both cite the correct revisions.",
+      "protects": [
+        "P02",
+        "P06"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-01",
+      "name": "partial_commit",
+      "milestone": "U4",
+      "setup": "Interrupt a paid material operation before completion, then resume it.",
+      "criterion": "No premature result; exact paid progress and supported continuation.",
+      "protects": [
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-02",
+      "name": "stale_basis",
+      "milestone": "U4",
+      "setup": "Change a required dependency during a partial operation.",
+      "criterion": "Reject or replan invalid continuation while retaining spent work and performed effects.",
+      "protects": [
+        "P08",
+        "P09",
+        "P11"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-03",
+      "name": "resource_conflict",
+      "milestone": "U4",
+      "setup": "Two operations compete for the same exclusive resource.",
+      "criterion": "Prevent double spending and retain the failed or delayed attempt.",
+      "protects": [
+        "P08",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-04",
+      "name": "delayed_delivery",
+      "milestone": "U4",
+      "setup": "Deliver evidence of a physical event to actors at different times.",
+      "criterion": "Maintain separate event, delivery, interpretation, and retention times.",
+      "protects": [
+        "P03",
+        "P04"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U5-01",
+      "name": "integrated_circuit",
+      "milestone": "U5",
+      "setup": "Observe a workshop event, retrieve conceptual material, act, and learn from consequence.",
+      "criterion": "Trace one causal lineage through memory, Crux, Model A, work, and retained change.",
+      "protects": [
+        "P02",
+        "P06",
+        "P07",
+        "P13"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U5-02",
+      "name": "lawful_bridge",
+      "milestone": "U5",
+      "setup": "Attempt direct and composed perspective crossings.",
+      "criterion": "Preserve missing single-function I-IT and WE-ITS edges and charge the realized lawful path.",
+      "protects": [
+        "P07",
+        "P08"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U5-03",
+      "name": "type_controls",
+      "milestone": "U5",
+      "setup": "Vary TIM with matched history, observations, and resources.",
+      "criterion": "Attribute measured differences to actual routing/capacity; no type-scripted dialogue.",
+      "protects": [
+        "P04",
+        "P07"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U6-01",
+      "name": "forecast_surprise",
+      "milestone": "U6",
+      "setup": "An accessible prediction conflicts with subsequently delivered evidence.",
+      "criterion": "Paid investigation can revise the account; unseen outcomes cannot.",
+      "protects": [
+        "P03",
+        "P04",
+        "P15"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U6-02",
+      "name": "waiting",
+      "milestone": "U6",
+      "setup": "A needed resource or observation is absent, then arrives.",
+      "criterion": "Preserve pending intent and wake only through an allowed meaningful cause.",
+      "protects": [
+        "P04",
+        "P10"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U6-03",
+      "name": "need_effects",
+      "milestone": "U6",
+      "setup": "Manipulate causal scarcity, fatigue, pressure, or boredom inputs.",
+      "criterion": "Change declared attention/work/exploration effects without creating skill or developmental rank.",
+      "protects": [
+        "P07",
+        "P08",
+        "P13"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U7-01",
+      "name": "cross_target",
+      "milestone": "U7",
+      "setup": "A learned deformation encounters several applicable target categories.",
+      "criterion": "Preserve common pattern lineage and separately scoped bindings; demonstrate executable effects.",
+      "protects": [
+        "P02",
+        "P12"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U7-02",
+      "name": "unrelated_target",
+      "milestone": "U7",
+      "setup": "Encounter a similar-looking object outside the deformation's applicable relation.",
+      "criterion": "Do not transfer the pattern merely by shared labels.",
+      "protects": [
+        "P01",
+        "P12"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U7-03",
+      "name": "legitimate_boundary",
+      "milestone": "U7",
+      "setup": "Supply actual threat, valid refusal, uncertainty, or insufficient resources.",
+      "criterion": "Do not diagnose defensive maintenance from noncompletion alone.",
+      "protects": [
+        "P12"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U7-04",
+      "name": "assessor_isolation",
+      "milestone": "U7",
+      "setup": "Remove or alter evaluator labels while participant inputs stay fixed.",
+      "criterion": "Participant decisions remain unaffected.",
+      "protects": [
+        "P04",
+        "P12",
+        "P16"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U8-01",
+      "name": "local_and_general",
+      "milestone": "U8",
+      "setup": "Correct one encounter and then test related and unrelated bindings.",
+      "criterion": "Distinguish local repair, justified generalization, and surviving recurrence.",
+      "protects": [
+        "P02",
+        "P13"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U8-02",
+      "name": "support_withdrawal",
+      "milestone": "U8",
+      "setup": "Withdraw guidance after practiced learning, and separately before independent acquisition.",
+      "criterion": "Only retained own capacity supports independent later performance.",
+      "protects": [
+        "P05",
+        "P13"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U8-03",
+      "name": "renewed_demand",
+      "milestone": "U8",
+      "setup": "Return the same or greater declared requirement after a quiet interval.",
+      "criterion": "Count retained applicable work, not inactivity or deleted problem history, as clearance evidence.",
+      "protects": [
+        "P08",
+        "P12",
+        "P13"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U9-01",
+      "name": "novel_composition",
+      "milestone": "U9",
+      "setup": "Supply generic acquired operations but withhold a complete useful procedure.",
+      "criterion": "Construct, pay for, enact, and retain a useful new composition.",
+      "protects": [
+        "P08",
+        "P15"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U9-02",
+      "name": "counterexample",
+      "milestone": "U9",
+      "setup": "Give a consequential counterexample to an overbroad concept.",
+      "criterion": "Revise or split the relation and use the change in a later situation.",
+      "protects": [
+        "P02",
+        "P13",
+        "P15"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U9-03",
+      "name": "censored_search",
+      "milestone": "U9",
+      "setup": "Exhaust a small search budget while alternatives remain unexamined.",
+      "criterion": "Report incomplete exploration; preserve frontier and avoid claiming necessary development.",
+      "protects": [
+        "P10",
+        "P15",
+        "P16"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U10-01",
+      "name": "novel_message",
+      "milestone": "U10",
+      "setup": "Compose a grounded request, condition, explanation, or commitment.",
+      "criterion": "Receiver's own interpretation and action demonstrate meaning.",
+      "protects": [
+        "P04",
+        "P05"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U10-02",
+      "name": "repair",
+      "milestone": "U10",
+      "setup": "Sender and receiver initially bind a term differently.",
+      "criterion": "Question, demonstrate, or revise meaning through actual communication.",
+      "protects": [
+        "P04",
+        "P05",
+        "P13"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U10-03",
+      "name": "rendering_boundary",
+      "milestone": "U10",
+      "setup": "Produce optional fluent wording from actor state.",
+      "criterion": "Wording cannot inject nonexistent perceptions, memories, agreements, or capacities.",
+      "protects": [
+        "P03",
+        "P05"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U11-01",
+      "name": "aggregate_equivalence",
+      "milestone": "U11",
+      "setup": "Execute supported observations and actions through detailed and aggregate representations.",
+      "criterion": "Agree under a declared equivalence scope; resolve insufficient summaries before commitment.",
+      "protects": [
+        "P09",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U11-02",
+      "name": "child_change",
+      "milestone": "U11",
+      "setup": "Change relevant and irrelevant child revisions separately.",
+      "criterion": "Invalidate affected parents only, without delivering private child state to actors.",
+      "protects": [
+        "P04",
+        "P11",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U11-03",
+      "name": "membership",
+      "milestone": "U11",
+      "setup": "Change membership in overlapping collectives.",
+      "criterion": "Preserve duties, consent, resource ownership, and distinct personal/collective competence.",
+      "protects": [
+        "P05",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U12-01",
+      "name": "institution_origin",
+      "milestone": "U12",
+      "setup": "Give participants generic communication, commitment, and procedure capacities.",
+      "criterion": "A shared practice arises through their operations rather than a supplied finished institution.",
+      "protects": [
+        "P04",
+        "P14",
+        "P15"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U12-02",
+      "name": "projection_public",
+      "milestone": "U12",
+      "setup": "A personal deformation influences communication, uptake, and enacted practice.",
+      "criterion": "Trace its public effects; individual belief revision alone cannot remove the real constraint.",
+      "protects": [
+        "P02",
+        "P09",
+        "P12",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U12-03",
+      "name": "succession_dispute",
+      "milestone": "U12",
+      "setup": "Founder departure, newcomers, and disagreement challenge a shared practice.",
+      "criterion": "Maintain or revise it through teaching, consent, actual work, and provenance.",
+      "protects": [
+        "P05",
+        "P13",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U13-01",
+      "name": "matched_efficiency",
+      "milestone": "U13",
+      "setup": "Run identical legacy behaviors and separate same-feature reference workloads.",
+      "criterion": "Meet frozen cost targets while all protected results and accounting agree.",
+      "protects": [
+        "P01",
+        "P04",
+        "P08",
+        "P10",
+        "P11"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U13-02",
+      "name": "history_scaling",
+      "milestone": "U13",
+      "setup": "Hold active work fixed across 100, 1000, and 10000 inactive records.",
+      "criterion": "Measure participant, observer, checkpoint, archive, restoration, and queue costs separately.",
+      "protects": [
+        "P10",
+        "P11"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U14-01",
+      "name": "heldout_scope",
+      "milestone": "U14",
+      "setup": "Evaluate frozen source on reserved cases, histories, compositions, partners, and resources.",
+      "criterion": "Report every planned outcome and denominator, including failures and resource censoring.",
+      "protects": [
+        "P15",
+        "P16"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U14-02",
+      "name": "independent_audit",
+      "milestone": "U14",
+      "setup": "Reconstruct behavior and charges from raw committed evidence.",
+      "criterion": "No dependency on runtime selection caches or assessor success flags.",
+      "protects": [
+        "P08",
+        "P16"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U14-03",
+      "name": "sustained_continuation",
+      "milestone": "U14",
+      "setup": "Run changed demands and membership through repeated checkpoints.",
+      "criterion": "Retain ongoing motives, partial work, consequences, and applicable capacities.",
+      "protects": [
+        "P02",
+        "P10",
+        "P13",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    }
+  ]
+}

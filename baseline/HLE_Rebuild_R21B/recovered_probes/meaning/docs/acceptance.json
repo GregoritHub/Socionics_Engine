@@ -1,0 +1,49 @@
+{
+  "experiment": "Holon-owned contextual cue meanings v1 after R11",
+  "declaration": "Declared before implementing or evaluating this learner. Criteria, histories, seeds and intervention times stay fixed; failed gates are reported.",
+  "authority": {
+    "source_defined": "Fool's Memory P0152-P0161, P0228-P0249 and P0258 describe stable cues with learned, contextual, personal associations. P0267 does not require identical interpretations. The 3:1 recurrence does not supply a compulsory phase-to-card meaning.",
+    "user_clarification": "The manual's personal meanings were left open for the user. Holons may assign and revise their own meanings; the user need not supply them.",
+    "implementation_choice": "Bounded contextual episodic learning: each new scene acquires a least-used cue from the three Identity cards, ties by seeded cue order. A tentative meaning retains the three most recent delivered discrepancy outcomes and their exact embodied memories. A majority (ties cautious) predicts that checking is useful. A genuine R4 checking capability may be recalled through that association. Cue names, folds, TIMs and phase numbers never determine that expectation.",
+    "open": "Unrestricted concept or procedure invention; calibrated psychology; unique efficacy of these symbols or 3:1 timing; autonomous developmental closure."
+  },
+  "boundary": "An experimental controller over the unchanged R11 runtime. Source files and the accepted release remain intact. The shared 9/3 clock advances after funded Theorize, Apply, and completed Embody plus semantic publication. Cards are contextual retrieval addresses, not names for these operations.",
+  "learning": {
+    "window": 3,
+    "risk_rule": "check when twice the discrepancy count is at least the nonzero sample count; otherwise use the original recalled ownership claim",
+    "inputs": "Current participant-visible scene label, completed owned recall, owned Application and Embody memory, delivered consequences, and previously published owned meanings. No evaluator owner, future schedule, TIM-based meaning, or peer's private memory enters the pure learner.",
+    "publication": "A meaning becomes usable only after its R3 Write and exact Bind complete. Its proposal is bounded controller computation; R3 bills retention and indexing, not an independently validated cognitive inference cost. The behavior bridge is separately paid, followed by paid recall and actual Model A processing. No claim that all controller computation has a physiological price.",
+    "scope": "Four supplied scene labels share three stable cues. Same cue may mean different things in different contexts; meanings are tentative associations, not Truth facts. Available action and checking grammar remains supplied by R4."
+  },
+  "types": ["iee", "lse", "lsi", "eii"],
+  "seeds": [17, 43],
+  "histories": ["east_reliable", "west_reliable"],
+  "scenes": ["a", "b", "c", "d"],
+  "rounds": 10,
+  "training_rounds": 3,
+  "quiet_ticks": 10,
+  "reversal_round": 5,
+  "settled_reversal_round": 8,
+  "ownership": "Before reversal, east_reliable owns demand items in scenes a,c and not b,d; west_reliable is the inverse. Reverse all four contexts at round 5. Every demand uses a new object with a genuinely retained genesis ownership belief. Scene labels convey no owner or reliability answer.",
+  "policies": ["learned", "frozen", "shuffled", "fixed_direct", "fixed_cautious"],
+  "controls": {
+    "learned": "Learn and publish after every completed consequence.",
+    "frozen": "Publish during the first three rounds; thereafter retain new candidate associations but keep the exact training bindings active.",
+    "shuffled": "Learn normally, but after training select the paired wrong context's meaning (a/b and c/d). This changes grounded semantic content, not just labels.",
+    "fixed_direct": "Learn normally but ignore meanings in action selection; recall the original ownership claim.",
+    "fixed_cautious": "Learn normally but always request an empty account so R4 inspects before acting. Include this control even if it is equally accurate or cheaper."
+  },
+  "main_budget": 8000,
+  "scarce_budget": 600,
+  "scarce_panel": "Both histories, IEE, seed 17, all five policies; report unfinished demands and actual partial costs.",
+  "work_chunk": 16,
+  "gates": {
+    "M1": "All full-budget learned runs acquire meanings solely after owned experience; matched opposite-history holons assign opposing risk expectations to the same cue/context after training. No card encodes a fixed operation.",
+    "M2": "All learned full-budget runs achieve at least 95% appropriate demands in rounds 3-4 (new objects after quiet), and outperform fixed_direct and shuffled by at least 20 percentage points. Meaning selection must change a real R4 account/guard and physical action, not only text labels.",
+    "M3": "All learned full-budget runs achieve at least 95% appropriate demands in rounds 8-9 after reversal, and outperform frozen by at least 20 percentage points. Report every transient failure and inspection; no universal efficiency advantage required.",
+    "M4": "The same card can retain opposite contextual expectations; history swap changes meanings with TIM/seed fixed; discovery-order and cue-label controls preserve outcome semantics. New meaning revisions do not redirect old exact bindings or cross participant boundaries.",
+    "M5": "Budget, idempotency, incomplete Write/Bind activation, energy/time asymmetry, owned-input isolation, checkpoint continuation and tamper rejection pass. Audit the exact declared run grid, every receipt and selected independent R11 replays.",
+    "M6": "Report R5 capacity, path, Shell and closure without equating learned associations or correct actions with higher altitude, Shell clearance, or unrestricted meaning creation."
+  },
+  "stopping_rule": "Run 80 full-budget cases plus 10 scarce cases, the two declared discovery-order/label controls, and meaningful fidelity tests. Preserve the complete ledger and runnable source. Do not alter these gates to force a pass."
+}

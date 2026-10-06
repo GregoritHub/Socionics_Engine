@@ -1,0 +1,5033 @@
+[
+  {
+    "name": "Contemplate",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Reconcile owned task meanings, windows and conflicts",
+    "how_changed": {
+      "recipe": "workflow-contemplate-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-one"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-two"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 32,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal changed-case query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 32,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Contemplate-accumulation-control.json.gz",
+        "sha256": "5f15bdd782f079f48a410d2b96d66176cd092a0ea4cbef7a97f858e5d5d7e6b3",
+        "bytes": 97035
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Contemplate-accumulation.json.gz",
+      "sha256": "78e6170329fd6aa3a7f9df63c1f47a935da3b710cd69432e83fd86e2d2a665c9",
+      "bytes": 97690
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "contemplate-accumulation-v1",
+          "selected": 0,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 42,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 36,
+        "evidence": "evidence_c6/panel_final/iee-Contemplate-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "inspect",
+        "amount": 0,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Contemplate",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Retain rehearsal and hypothetical basis with attention policy",
+    "how_changed": {
+      "recipe": "workflow-contemplate-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-one"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-two"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 38,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal changed-case query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 38,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Contemplate-expenditure-control.json.gz",
+        "sha256": "2d2537db7eda6fb4a858a2960e42bd2de23f2b5b585992fd3bcb7345434a9858",
+        "bytes": 97297
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Contemplate-expenditure.json.gz",
+      "sha256": "bb521dba421c1952ec7d5b4537d6cf275cbf1d3d9a3e55f42cb72e1f0b2df9ea",
+      "bytes": 97844
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "contemplate-expenditure-v1",
+          "selected": 1,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 42,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 42,
+        "evidence": "evidence_c6/panel_final/iee-Contemplate-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "inspect",
+        "amount": 0,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Express",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Inspect equipment as actual preparation for owned runbook",
+    "how_changed": {
+      "recipe": "workflow-express-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-intent"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 32,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid reading and activity-dependent later query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 32,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Express-accumulation-control.json.gz",
+        "sha256": "6dea4740cd9ae52dac81a096c140c1bca5c17037d9a34ca025b90b323b2b4a0f",
+        "bytes": 98268
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Express-accumulation.json.gz",
+      "sha256": "2cbf99359abd272eefadab7baca19312bab9fd297a3aa2a461af725088a16ee5",
+      "bytes": 99260
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "express-accumulation-v1",
+          "selected": 2,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 46,
+        "evidence": "evidence_c6/panel_final/iee-Express-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 6,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Express",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Carry out its assigned first maintenance action",
+    "how_changed": {
+      "recipe": "workflow-express-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-intent"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 43,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid reading and activity-dependent later query",
+      "next_task": "work",
+      "next_action": "use",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 43,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Express-expenditure-control.json.gz",
+        "sha256": "278939417a8e687b8fe120dbe3eaefa8d626770aa447d3d6288c7719aef2ef12",
+        "bytes": 98988
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Express-expenditure.json.gz",
+      "sha256": "1b870d8916ea8a35b62e6f2ab7850b7d8328c7ea2f828d6434c3e5a55643bd59",
+      "bytes": 100660
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "express-expenditure-v1",
+          "selected": 3,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 49,
+        "evidence": "evidence_c6/panel_final/iee-Express-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Share",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Register contribution through offer and computed receiver answer",
+    "how_changed": {
+      "recipe": "workflow-share-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-intent"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 88,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver's own paid query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 88,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Share-accumulation-control.json.gz",
+        "sha256": "8ba4094e0c2fc7d97683fd4855d160831fa39eeec412fc598316888d4243f922",
+        "bytes": 137729
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Share-accumulation.json.gz",
+      "sha256": "5b8338ccd54e02d597974a8942d3c722862a6eb60c1a9108be24c22a66b1debe",
+      "bytes": 138088
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "share-accumulation-v1",
+          "selected": 4,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 48,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 76,
+        "evidence": "evidence_c6/panel_final/iee-Share-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Share",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Make it available for collective use under explicit assent",
+    "how_changed": {
+      "recipe": "workflow-share-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-intent"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 85,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver's own paid query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 85,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Share-expenditure-control.json.gz",
+        "sha256": "64814fa56177b9f44ca19bc61f0f78789292bd6102902112deffd4887ab7c619",
+        "bytes": 137635
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Share-expenditure.json.gz",
+      "sha256": "5bf7951d0f044afe6a98c37af367012f2e55e3d77e214f84d188c9af66d2a932",
+      "bytes": 138070
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "share-expenditure-v1",
+          "selected": 5,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 48,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 78,
+        "evidence": "evidence_c6/panel_final/iee-Share-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Theorize",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Derive schedule, dependencies, missing prerequisites and proposed test",
+    "how_changed": {
+      "recipe": "workflow-theorize-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-intent"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 22,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid system query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 22,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Theorize-accumulation-control.json.gz",
+        "sha256": "b49118a764416b9f7943ccbad6a8b7bcf46df26f63a756ae77708e6270f73584",
+        "bytes": 93544
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Theorize-accumulation.json.gz",
+      "sha256": "cf38b1e81c986985041c2227c9bfb4479eecaf1b0d4b1992f882b34b3fe37217",
+      "bytes": 93627
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "theorize-accumulation-v1",
+          "selected": 6,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 30,
+        "evidence": "evidence_c6/panel_final/iee-Theorize-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Theorize",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Submit the uncertain runbook model",
+    "how_changed": {
+      "recipe": "workflow-theorize-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-intent"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 25,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid system query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 25,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Theorize-expenditure-control.json.gz",
+        "sha256": "4f216e98a59713a67edc6f8278b63095f18b463e16d93540165b70cefd9fc7f6",
+        "bytes": 94059
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Theorize-expenditure.json.gz",
+      "sha256": "e498a6bccdab569e0d730336ed395ea36b6bf2dc6bf0e32a73c8ec3be7d4955f",
+      "bytes": 94199
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "theorize-expenditure-v1",
+          "selected": 7,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 33,
+        "evidence": "evidence_c6/panel_final/iee-Theorize-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Embody",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Incorporate a paid-read event into personal procedural meaning",
+    "how_changed": {
+      "recipe": "workflow-embody-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "387a1259430e9c0c510319445914cca161c110539b94cc5b47a9276ed49e51cc"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 55,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 55,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Embody-accumulation-control.json.gz",
+        "sha256": "fbc62281ca3667a0b45b6f0ca50e51e3dfa1899bb2acb0c8d786a27ffca208b8",
+        "bytes": 97995
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Embody-accumulation.json.gz",
+      "sha256": "2d41660ac531741a85030993faaec2a438ba61ca92113f8c43d47bf21634967d",
+      "bytes": 98549
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "embody-accumulation-v1",
+          "selected": 8,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 65,
+        "evidence": "evidence_c6/panel_final/iee-Embody-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 5,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Embody",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Retain the observed activity as an owned response policy",
+    "how_changed": {
+      "recipe": "workflow-embody-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "387a1259430e9c0c510319445914cca161c110539b94cc5b47a9276ed49e51cc"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 53,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 53,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Embody-expenditure-control.json.gz",
+        "sha256": "9f946dbdb0ab8bd75467dd1f44ce72c0fc9651ea9ad73365e37d7c722bf9bb68",
+        "bytes": 98002
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Embody-expenditure.json.gz",
+      "sha256": "35f27ab7ed3feafb03ae67b4658ea6440a0961a8e07ba844008692ce87ee0898",
+      "bytes": 98428
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "embody-expenditure-v1",
+          "selected": 9,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 65,
+        "evidence": "evidence_c6/panel_final/iee-Embody-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 5,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Act",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Restore a loaned tool to its owner under an exact return obligation",
+    "how_changed": {
+      "recipe": "workflow-act-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "387a1259430e9c0c510319445914cca161c110539b94cc5b47a9276ed49e51cc"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 64,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Actual owner/recipient tool use and paid event query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": "succeeded"
+    },
+    "control": {
+      "spent": 64,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": "failed",
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Act-accumulation-control.json.gz",
+        "sha256": "a557f50ca7e50b33af3658da800b53e579008995c280f93814323db7277979f7",
+        "bytes": 102010
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Act-accumulation.json.gz",
+      "sha256": "48c8563d8e726741eaff041bd7ee7beb30dc57c1ba28218152c22d67f806728c",
+      "bytes": 105386
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "act-accumulation-v1",
+          "selected": 10,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 38,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 44,
+        "evidence": "evidence_c6/panel_final/iee-Act-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "event",
+        "outcome": "succeeded",
+        "ref": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "4a18ee87984d68ebfced0ff4b9d4b0a552b19fb6948b4c4d5afb082d7c6960b0"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Act",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Transfer owned equipment to the named recipient",
+    "how_changed": {
+      "recipe": "workflow-act-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "387a1259430e9c0c510319445914cca161c110539b94cc5b47a9276ed49e51cc"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 54,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Actual owner/recipient tool use and paid event query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": "succeeded"
+    },
+    "control": {
+      "spent": 54,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": "failed",
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Act-expenditure-control.json.gz",
+        "sha256": "9e6064f9df19a8c105644ee65a1db9af893315fe2b640ea624794b0e9abbe970",
+        "bytes": 101635
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Act-expenditure.json.gz",
+      "sha256": "5fd0085e66abc4d05b4d794a84ada9285abe43b5797db51fbbd3deb31d985815",
+      "bytes": 104351
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "act-expenditure-v1",
+          "selected": 11,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 38,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 34,
+        "evidence": "evidence_c6/panel_final/iee-Act-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "event",
+        "outcome": "succeeded",
+        "ref": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "4a18ee87984d68ebfced0ff4b9d4b0a552b19fb6948b4c4d5afb082d7c6960b0"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Coordinate",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Jointly interpret actual observed activity",
+    "how_changed": {
+      "recipe": "workflow-coordinate-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "387a1259430e9c0c510319445914cca161c110539b94cc5b47a9276ed49e51cc"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 107,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver's own query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 107,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Coordinate-accumulation-control.json.gz",
+        "sha256": "842fc3813f2e6103747cf531e3a4709b6656a23267fcbb6f119dd6e1ded82a40",
+        "bytes": 140550
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Coordinate-accumulation.json.gz",
+      "sha256": "c527ad3ae1728cdf4d39a6afe0421a7b6d5f2a45ecef01facb20df222ef1f262",
+      "bytes": 140770
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "coordinate-accumulation-v1",
+          "selected": 12,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 48,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 103,
+        "evidence": "evidence_c6/panel_final/iee-Coordinate-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Coordinate",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Establish understood participation from that activity and both stances",
+    "how_changed": {
+      "recipe": "workflow-coordinate-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "387a1259430e9c0c510319445914cca161c110539b94cc5b47a9276ed49e51cc"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 114,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver's own query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 114,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Coordinate-expenditure-control.json.gz",
+        "sha256": "763eabd54d9a27490f6143d67d6b50ce83d1959bcd8747d728b876fd56547f9c",
+        "bytes": 140654
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Coordinate-expenditure.json.gz",
+      "sha256": "afb612edfd7ffbb9eb1464f7b4361a80c1564ada1f412ba8d3407b3f3cbe4978",
+      "bytes": 140867
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "coordinate-expenditure-v1",
+          "selected": 13,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 48,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 110,
+        "evidence": "evidence_c6/panel_final/iee-Coordinate-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Organize",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Infer scoped procedure order from timestamped real events",
+    "how_changed": {
+      "recipe": "workflow-organize-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "e6211a881fde085f42c8676235c749b6bc78321ab997ad4ab2573218f424946c"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "ff1ba3c20a4ebf6eba422ba38e7b97820f444baa0417442ab39a2661ca45ec02"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 89,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Query selecting the next actual observed primitive",
+      "next_task": "use-1",
+      "next_action": "use",
+      "question_completed": [
+        "care-0"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 89,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Organize-accumulation-control.json.gz",
+        "sha256": "be92af76d151eec13994af088ab836c8bb520537bc2e3e54f9967e22e43aea18",
+        "bytes": 102559
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Organize-accumulation.json.gz",
+      "sha256": "b0963e65af106e164ca1005e840aaaf77936ec4e45b3aa1dd7923ed532fd423a",
+      "bytes": 102896
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "organize-accumulation-v1",
+          "selected": 14,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 60,
+        "evidence": "evidence_c6/panel_final/iee-Organize-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 5,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Organize",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Put the inferred arrangement into operation under the actor's ownership",
+    "how_changed": {
+      "recipe": "workflow-organize-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "e6211a881fde085f42c8676235c749b6bc78321ab997ad4ab2573218f424946c"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "ff1ba3c20a4ebf6eba422ba38e7b97820f444baa0417442ab39a2661ca45ec02"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 87,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Query selecting the next actual observed primitive",
+      "next_task": "use-1",
+      "next_action": "use",
+      "question_completed": [
+        "care-0"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 87,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Organize-expenditure-control.json.gz",
+        "sha256": "56c1689a5f87c21128fd9c21de00b2b47a3dfd2cad89ee9a33d9f3d1375fb0c7",
+        "bytes": 103294
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Organize-expenditure.json.gz",
+      "sha256": "52a672e454f72a1e911518c1834c0f9803fd36801fb7ff6cf8092412e2d96e94",
+      "bytes": 103484
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "organize-expenditure-v1",
+          "selected": 15,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 43,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 60,
+        "evidence": "evidence_c6/panel_final/iee-Organize-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 5,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Identify",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Interpret shared roles through an owned stance",
+    "how_changed": {
+      "recipe": "workflow-identify-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-stance"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 64,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal query with authorization kept separate",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 64,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Identify-accumulation-control.json.gz",
+        "sha256": "cba2c66565b90e9c5ecabdfe5708bf42fb3191ea3f8b351ef9b4352689fa708e",
+        "bytes": 147326
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Identify-accumulation.json.gz",
+      "sha256": "e18959b4409f782405862926afd2cdd939354ebace5af580dcddb0c12edb4ed9",
+      "bytes": 147522
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "identify-accumulation-v1",
+          "selected": 16,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 59,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 54,
+        "evidence": "evidence_c6/panel_final/iee-Identify-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Identify",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Accept, qualify or decline those roles in an owned policy",
+    "how_changed": {
+      "recipe": "workflow-identify-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-stance"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 61,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal query with authorization kept separate",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 61,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Identify-expenditure-control.json.gz",
+        "sha256": "5e0345d9a62219d3b4258ec27079b037d0ee8de7f1e987e2f86771edb91e6893",
+        "bytes": 147158
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Identify-expenditure.json.gz",
+      "sha256": "9ede14a8f235cdb22d4ab88a9df52d61b5ebde6584c918df4829cfb0db5ef89c",
+      "bytes": 147325
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "identify-expenditure-v1",
+          "selected": 17,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 59,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 56,
+        "evidence": "evidence_c6/panel_final/iee-Identify-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Mobilize",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Inspect actual equipment readiness under a shared commitment",
+    "how_changed": {
+      "recipe": "workflow-mobilize-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 58,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Native observation and paid activity query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 58,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Mobilize-accumulation-control.json.gz",
+        "sha256": "3a7171fb332c0885f7b55d4956bfe26aed38eeee953ffcd94f5964160e2743c2",
+        "bytes": 147267
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Mobilize-accumulation.json.gz",
+      "sha256": "5ab5b68023dbfbc0a3622ae7b5c16f22c9241b01a01cfc1d9b91132b62e68862",
+      "bytes": 148071
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "mobilize-accumulation-v1",
+          "selected": 18,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 50,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 58,
+        "evidence": "evidence_c6/panel_final/iee-Mobilize-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 6,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Mobilize",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Perform the assigned first care task under that commitment",
+    "how_changed": {
+      "recipe": "workflow-mobilize-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 68,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Native observation and paid activity query",
+      "next_task": "work",
+      "next_action": "use",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 68,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Mobilize-expenditure-control.json.gz",
+        "sha256": "d56684488ff8d248a565d2072a32da21536d44d50528f5b6dbe769ed60c98b47",
+        "bytes": 148012
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Mobilize-expenditure.json.gz",
+      "sha256": "426c4f34972a409f9d139fede9f938ddcae4eb1e4b3c781538fe5a1f3a31d2a6",
+      "bytes": 149531
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "mobilize-expenditure-v1",
+          "selected": 19,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 50,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 65,
+        "evidence": "evidence_c6/panel_final/iee-Mobilize-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 4,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Commune",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Reconcile existing shared meaning through a fresh exchange",
+    "how_changed": {
+      "recipe": "workflow-commune-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 129,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver's own query using the revised shared result",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 129,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Commune-accumulation-control.json.gz",
+        "sha256": "041ab7ee046d854e1ad83e0b8b4d9bc5e81ba7130c4c1c88c3e6d2bd5e9cc449",
+        "bytes": 168070
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Commune-accumulation.json.gz",
+      "sha256": "17eb677391ac3753626e3b5cb4426ecd6cb5de96a4c4cbb47539673a44885156",
+      "bytes": 168352
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "commune-accumulation-v1",
+          "selected": 20,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 44,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 73,
+        "evidence": "evidence_c6/panel_final/iee-Commune-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "propose",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Commune",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Renew shared commitments through reciprocal acknowledgment",
+    "how_changed": {
+      "recipe": "workflow-commune-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 123,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver's own query using the revised shared result",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 123,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Commune-expenditure-control.json.gz",
+        "sha256": "0ac0148c5114eb30777f54ff13e5c8491cf308e0e37a015379f3368f6317728d",
+        "bytes": 167722
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Commune-expenditure.json.gz",
+      "sha256": "0bdc9134539b5a13b09814f68de665c1b104188d245725bf8339678bea869789",
+      "bytes": 168042
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "commune-expenditure-v1",
+          "selected": 21,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 44,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 72,
+        "evidence": "evidence_c6/panel_final/iee-Commune-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Institutionalize",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Derive draft responsibilities/windows from shared expectations and relevant actual practice",
+    "how_changed": {
+      "recipe": "workflow-institutionalize-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f37293ddb701a8bd110b35c5261629bb445d79a0984d2fbe01f028a6ce4e080f"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "u4.observation",
+            "key": "dcf182e208dc9e6a6556477eaf1a44a4bb78429080c5f77190f58badc405b946"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 103,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "System query; additional ratified-rule-to-Apply control",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 103,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Institutionalize-accumulation-control.json.gz",
+        "sha256": "209c65b2465f59fbc58d6999ca4b0e12427cecb7013b4a2b062263cf4255e0d2",
+        "bytes": 152942
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Institutionalize-accumulation.json.gz",
+      "sha256": "f63d891390d709c2d4beed855c11c68714810239864e379fef8cb0658a70de62",
+      "bytes": 153226
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "institutionalize-accumulation-v1",
+          "selected": 22,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 57,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 85,
+        "evidence": "evidence_c6/panel_final/iee-Institutionalize-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Institutionalize",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Ratify the exact draft with one current vote from each member",
+    "how_changed": {
+      "recipe": "workflow-institutionalize-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "0ed809b98942d058c2ccf00eb72a487e48a16dd1cb91bf8af84aa1177fe632fe"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "f42967b03a2bc10049d00a357c3bfea9f65964671ce26bbc18583044b2e79ef7"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 111,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "System query; additional ratified-rule-to-Apply control",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 111,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Institutionalize-expenditure-control.json.gz",
+        "sha256": "c63b457267706e95e65416c42ab6eff624408b42ce449667850183fe7c1013a6",
+        "bytes": 179247
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Institutionalize-expenditure.json.gz",
+      "sha256": "8e90f823a40f4c34c926795083a6705af90dc12d42808f0e883292be0f837c1a",
+      "bytes": 179497
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "institutionalize-expenditure-v1",
+          "selected": 23,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 81,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 109,
+        "evidence": "evidence_c6/panel_final/iee-Institutionalize-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Understand",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Relate a model to owned procedural constraints",
+    "how_changed": {
+      "recipe": "workflow-understand-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "4e37cc23fab967f9a1e1916b80284ce7bd566b52e674103159b032ed066dcc5e"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-stance"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 45,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal changed-case query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 45,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Understand-accumulation-control.json.gz",
+        "sha256": "30a5d236494f86451ee86ea00a368c01b2a6095d7fed0a3dcbc379eb39a4f730",
+        "bytes": 100586
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Understand-accumulation.json.gz",
+      "sha256": "cc1004e32c5a87820e3732b1ef80724a1cef85b3d81070a4ec89632e18039aa8",
+      "bytes": 100814
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "understand-accumulation-v1",
+          "selected": 24,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 55,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 45,
+        "evidence": "evidence_c6/panel_final/iee-Understand-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 3,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Understand",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Retain an owned decision policy, preserving assent and limits",
+    "how_changed": {
+      "recipe": "workflow-understand-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "4e37cc23fab967f9a1e1916b80284ce7bd566b52e674103159b032ed066dcc5e"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "workshop",
+            "key": "case-stance"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 48,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Paid personal changed-case query",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 48,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Understand-expenditure-control.json.gz",
+        "sha256": "ca81ee16ab550236a1054a38e2cc8ca594e5779f7bafb4a1630b9b69e999c85e",
+        "bytes": 100544
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Understand-expenditure.json.gz",
+      "sha256": "a38a0efd06f8f797f5deaee7de11d14e67711fc663729c7db3b6984c37294c5c",
+      "bytes": 100846
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "understand-expenditure-v1",
+          "selected": 25,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 55,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 48,
+        "evidence": "evidence_c6/panel_final/iee-Understand-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Apply",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Inspect actual equipment in a contained trial",
+    "how_changed": {
+      "recipe": "workflow-apply-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "4e37cc23fab967f9a1e1916b80284ce7bd566b52e674103159b032ed066dcc5e"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 45,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Native observation and paid activity query",
+      "next_task": "maintain",
+      "next_action": "care",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 45,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Apply-accumulation-control.json.gz",
+        "sha256": "f14d0d18837a5009d02eab6dfe9994bc508c175ba6e33ad38d93ebf36a0ccc33",
+        "bytes": 100797
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Apply-accumulation.json.gz",
+      "sha256": "b42018d00e8b0d2d8d38d2922584795dbf1a6cca4fb6ae317c7a5804be09c37f",
+      "bytes": 101523
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "apply-accumulation-v1",
+          "selected": 26,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 48,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 52,
+        "evidence": "evidence_c6/panel_final/iee-Apply-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 5,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Apply",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Execute a ready, assigned care task under current material constraints",
+    "how_changed": {
+      "recipe": "workflow-apply-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "4e37cc23fab967f9a1e1916b80284ce7bd566b52e674103159b032ed066dcc5e"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "116511d34bfaad89c1d1099b3889fa0766d9782d285c9dc27a947e33233cc533"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 53,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Native observation and paid activity query",
+      "next_task": "work",
+      "next_action": "use",
+      "question_completed": [],
+      "question_clock": 0,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 53,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Apply-expenditure-control.json.gz",
+        "sha256": "38eb4ffcf7eb6a981c36518db54a4da4b2d23c95099f4c0249475872a72731f9",
+        "bytes": 101311
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Apply-expenditure.json.gz",
+      "sha256": "98542ae9cb4cb8a1a9ac839f7800adb85b1692475c0d158b31ad62c35c1ea20d",
+      "bytes": 102824
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "apply-expenditure-v1",
+          "selected": 27,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 48,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 52,
+        "evidence": "evidence_c6/panel_final/iee-Apply-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Educate",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Examine a runbook through a receiver-computed hypothetical answer",
+    "how_changed": {
+      "recipe": "workflow-educate-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "4e37cc23fab967f9a1e1916b80284ce7bd566b52e674103159b032ed066dcc5e"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 115,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver answers initial, changed and expired-window cases",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 115,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Educate-accumulation-control.json.gz",
+        "sha256": "8ecac3842f7817717f5b06bfda574d48f81babf00d56746efd72efdefc06f15f",
+        "bytes": 146407
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Educate-accumulation.json.gz",
+      "sha256": "79561abb63d609a39e24311ac80579f6361581c2f6e7c74d8c5193bc2637755a",
+      "bytes": 146621
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "educate-accumulation-v1",
+          "selected": 28,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 53,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 94,
+        "evidence": "evidence_c6/panel_final/iee-Educate-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Educate",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Disseminate the system through actual learner uptake with differences retained",
+    "how_changed": {
+      "recipe": "workflow-educate-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "4e37cc23fab967f9a1e1916b80284ce7bd566b52e674103159b032ed066dcc5e"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "54ff8365cbcefed5db1510390eb9ab9d946f079e686030df42540f129cb39dee"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.message",
+            "key": "06d8ca35c314faa99e89c2b2ab1c0f61398e6265ed830bdb85d9845f5c6fdee0"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 115,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "b7c0d61c099390c458b1f0866dd21862af0f47a680cd04702a16e3716ea80a56"
+        },
+        "revision": 1
+      },
+      "kind": "Receiver answers initial, changed and expired-window cases",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 115,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Educate-expenditure-control.json.gz",
+        "sha256": "5037e64fa688a56b9713f441ecb24fd902368a12b9eed353cf6da5ce3831ae14",
+        "bytes": 146305
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Educate-expenditure.json.gz",
+      "sha256": "bf99249ac3a8d83e09a445ed86264545d90e3fe702671beab40d3429ad3acbfd",
+      "bytes": 146557
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "educate-expenditure-v1",
+          "selected": 29,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 53,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 97,
+        "evidence": "evidence_c6/panel_final/iee-Educate-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Integrate",
+    "face": "accumulation",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Reconcile partial runbooks, including external dependencies and conflicts",
+    "how_changed": {
+      "recipe": "workflow-integrate-accumulation-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "aaaf79a2a0e2b6fd2e6ee3c4c2e1ebfa21e46f80fd820e4a6d754bd937b7bad4"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "327a15ddb306439819ce0fb0f7676d31555e595a0f180275ed4aca610506ccc4"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 63,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Cross-system query and an additional native Apply witness",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 63,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Integrate-accumulation-control.json.gz",
+        "sha256": "bc67632f8cd96074031009627e6a7adb7fab7e73425db9d4ebef91f168d11513",
+        "bytes": 103802
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Integrate-accumulation.json.gz",
+      "sha256": "6884bef3406da9e4e583cc9c90daebad52a0428efd0d53e3ed4c366468240532",
+      "bytes": 104013
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "integrate-accumulation-v1",
+          "selected": 30,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 42,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 40,
+        "evidence": "evidence_c6/panel_final/iee-Integrate-accumulation.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 0,
+        "event": null
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  },
+  {
+    "name": "Integrate",
+    "face": "expenditure",
+    "settings_gate": {
+      "required": 2,
+      "established": 2,
+      "status": "passed",
+      "first": "Inherited canonical condition/resource-cap/static-interface setting",
+      "second": "Timed maintenance, role commitments, teaching and equipment handover"
+    },
+    "what_changed": "Couple the compatible schedule under explicit authority",
+    "how_changed": {
+      "recipe": "workflow-integrate-expenditure-v1",
+      "source_inputs": [
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "aaaf79a2a0e2b6fd2e6ee3c4c2e1ebfa21e46f80fd820e4a6d754bd937b7bad4"
+          },
+          "revision": 1
+        },
+        {
+          "identity": {
+            "namespace": "c7w.output",
+            "key": "327a15ddb306439819ce0fb0f7676d31555e595a0f180275ed4aca610506ccc4"
+          },
+          "revision": 1
+        }
+      ],
+      "main_operation": {
+        "identity": {
+          "namespace": "u4.operation",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 3
+      },
+      "output": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+        },
+        "revision": 1
+      },
+      "modeled_main_work": 69,
+      "mechanism": "Actor-paid native Fold steps, exact retained intermediate content, native material laws and reciprocal receiver work"
+    },
+    "afterward": {
+      "consumer": {
+        "identity": {
+          "namespace": "c7w.output",
+          "key": "07861002e760f5b706c3c1364d720b26250d8dee4a2e785f0101139902dbad5d"
+        },
+        "revision": 1
+      },
+      "kind": "Cross-system query and an additional native Apply witness",
+      "next_task": "handover",
+      "next_action": "transfer",
+      "question_completed": [
+        "maintain"
+      ],
+      "question_clock": 1,
+      "owner_use": null
+    },
+    "control": {
+      "spent": 69,
+      "changed_downstream": true,
+      "matched_main_cost": true,
+      "fixed_downstream_question": true,
+      "next_task": null,
+      "owner_use": null,
+      "ordinary_audit_rejected": true,
+      "raw": {
+        "file": "iee-Integrate-expenditure-control.json.gz",
+        "sha256": "5b086427ef1ced579a24fef2e2853c66d6ade6561e61dcf6ab941bf77091802e",
+        "bytes": 104158
+      }
+    },
+    "second_setting_raw": {
+      "file": "iee-Integrate-expenditure.json.gz",
+      "sha256": "7904f664a711cb8c3d0fa41a371a553e93f1b298f13a5494f90bda05c2f10159",
+      "bytes": 104593
+    },
+    "type_cases": 16,
+    "independent_raw_reconstruction": true,
+    "interruption_boundaries": 3,
+    "full_release_complete": false,
+    "inherited": {
+      "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+      "how_changed": {
+        "selection": {
+          "admission": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+            },
+            "revision": 1
+          },
+          "candidates": {
+            "identity": {
+              "namespace": "c6.candidates",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "completion_claim": false,
+          "failure": null,
+          "operation": {
+            "identity": {
+              "namespace": "u4.operation",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 3
+          },
+          "recipe": "integrate-expenditure-v1",
+          "selected": 31,
+          "snapshot": {
+            "identity": {
+              "namespace": "c6.snapshot",
+              "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+            },
+            "revision": 1
+          },
+          "spent": 42,
+          "status": "launched"
+        },
+        "native_child": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+          },
+          "revision": 1
+        },
+        "native_work": 46,
+        "evidence": "evidence_c6/panel_final/iee-Integrate-expenditure.json.gz"
+      },
+      "afterward": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+          },
+          "revision": 1
+        },
+        "action": "repair",
+        "amount": 0,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": true,
+      "evidence_scope": "Canonical setting; retained as inherited evidence"
+    },
+    "remaining": [
+      "Final joint section 9 assessment, including sustained execution and applicability of inherited selection/Shell evidence to new content"
+    ]
+  }
+]

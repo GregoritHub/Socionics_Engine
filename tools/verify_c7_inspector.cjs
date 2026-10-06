@@ -1,0 +1,22 @@
+const fs=require('fs');
+const path=require('path');
+const {chromium}=require('playwright');
+(async()=>{
+ const file=path.resolve(process.argv[2]);const out=path.resolve(process.argv[3]);fs.mkdirSync(out,{recursive:true});
+ const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:1280,height:1000}});const errors=[];
+ page.on('pageerror',e=>errors.push(String(e)));
+ await page.goto('file://'+file);await page.waitForSelector('#cells details');
+ const all=await page.locator('#cells details').count();if(all!==32)throw Error('missing matrix cells');
+ await page.selectOption('#route','Educate');await page.selectOption('#face','expenditure');
+ if(await page.locator('#cells details').count()!==1)throw Error('filter failed');
+ await page.locator('#cells summary').click();
+ if(!(await page.locator('#cells pre').innerText()).includes('settings_gate'))throw Error('missing open gate');
+ await page.selectOption('#route','');await page.selectOption('#face','');
+ await page.screenshot({path:path.join(out,'desktop.png'),fullPage:true});
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(out,'mobile.png'),fullPage:true});
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+ if(overflow)throw Error('mobile horizontal overflow');if(errors.length)throw Error(errors.join('\n'));
+ fs.writeFileSync(path.join(out,'summary.json'),JSON.stringify({passed:true,cells:all,filter:true,details:true,mobile_overflow:overflow,browser_errors:errors},null,2));
+ await browser.close();console.log('PASS inspector');
+})().catch(e=>{console.error(e);process.exit(1)});

@@ -1,0 +1,2774 @@
+[
+  {
+    "name": "Contemplate",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "contemplate-accumulation-v1",
+        "selected": 0,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 42,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 36,
+      "evidence": "evidence_c6/panel_final/iee-Contemplate-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c2.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "inspect",
+      "amount": 0,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Contemplate-accumulation-control.json.gz",
+        "sha256": "cbd5892e60452df1506e3fed51f09a8f500f0d50928b6355101bacee9cf56fbe"
+      },
+      "spent": 42,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Contemplate",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "contemplate-expenditure-v1",
+        "selected": 1,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 42,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 42,
+      "evidence": "evidence_c6/panel_final/iee-Contemplate-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c2.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "inspect",
+      "amount": 0,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Contemplate-expenditure-control.json.gz",
+        "sha256": "d92167eaf0e25eb37a54bfa3fa5ebc00da4212c3bd34802ee9249b362c9c508a"
+      },
+      "spent": 42,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Express",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "express-accumulation-v1",
+        "selected": 2,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 46,
+      "evidence": "evidence_c6/panel_final/iee-Express-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 6,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Express-accumulation-control.json.gz",
+        "sha256": "9b425e22d23b2324604a6d321ad1595dffe58735842b41cac08e199148addcc5"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Express",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "express-expenditure-v1",
+        "selected": 3,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 49,
+      "evidence": "evidence_c6/panel_final/iee-Express-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 3,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Express-expenditure-control.json.gz",
+        "sha256": "d449edd0fd72b9775708916845b2a71f92237cda78cb4ef0a68f7856d3e8a6af"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Share",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "share-accumulation-v1",
+        "selected": 4,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 48,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 76,
+      "evidence": "evidence_c6/panel_final/iee-Share-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 2,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Share-accumulation-control.json.gz",
+        "sha256": "46b0b07cd72683ccbacde20ad5ebbb80963b1a2f123c20bcc1c24e3cd6b238f8"
+      },
+      "spent": 48,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Share",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "share-expenditure-v1",
+        "selected": 5,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 48,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 78,
+      "evidence": "evidence_c6/panel_final/iee-Share-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 2,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Share-expenditure-control.json.gz",
+        "sha256": "346a02da0c335d86bec7b696cfc73c10d633c591014163d4fb60f381be4f6145"
+      },
+      "spent": 48,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Theorize",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "theorize-accumulation-v1",
+        "selected": 6,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 30,
+      "evidence": "evidence_c6/panel_final/iee-Theorize-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 3,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Theorize-accumulation-control.json.gz",
+        "sha256": "193be8629a065b70611e86ad7ab5e847bbb8091c14af96b828e2d3b2d70953d7"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Theorize",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "theorize-expenditure-v1",
+        "selected": 7,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 33,
+      "evidence": "evidence_c6/panel_final/iee-Theorize-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 3,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Theorize-expenditure-control.json.gz",
+        "sha256": "47a5fdd47e0ec656deeff776b5f381f5a4e6c01759f30dcb5418912711804fd0"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Embody",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "embody-accumulation-v1",
+        "selected": 8,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 65,
+      "evidence": "evidence_c6/panel_final/iee-Embody-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 5,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Embody-accumulation-control.json.gz",
+        "sha256": "4464682bf0a57875c6d9b2ace70faedfe09ec4dd0bf84d73195d358f27458376"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Embody",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "embody-expenditure-v1",
+        "selected": 9,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 65,
+      "evidence": "evidence_c6/panel_final/iee-Embody-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 5,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Embody-expenditure-control.json.gz",
+        "sha256": "7167f91f47c9ac42c5d2e06aa41737c18f948c51784c8303e6b069aea2e62866"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Act",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "act-accumulation-v1",
+        "selected": 10,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 38,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 44,
+      "evidence": "evidence_c6/panel_final/iee-Act-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "event",
+      "outcome": "succeeded",
+      "ref": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "4a18ee87984d68ebfced0ff4b9d4b0a552b19fb6948b4c4d5afb082d7c6960b0"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Act-accumulation-control.json.gz",
+        "sha256": "c887cf0d608770234a2fcc2a1021ddbfb81f93ba11f7b94298c528c547df981e"
+      },
+      "spent": 38,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Act",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "act-expenditure-v1",
+        "selected": 11,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 38,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 34,
+      "evidence": "evidence_c6/panel_final/iee-Act-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "event",
+      "outcome": "succeeded",
+      "ref": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "4a18ee87984d68ebfced0ff4b9d4b0a552b19fb6948b4c4d5afb082d7c6960b0"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Act-expenditure-control.json.gz",
+        "sha256": "8a924cbd8ec9a8f71c085dabb98e3ec5e36c1853f7b6deec7a749aeae6e9353b"
+      },
+      "spent": 38,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Coordinate",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "coordinate-accumulation-v1",
+        "selected": 12,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 48,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 103,
+      "evidence": "evidence_c6/panel_final/iee-Coordinate-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 2,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Coordinate-accumulation-control.json.gz",
+        "sha256": "141f91d30400e7213dec701b907ef8b5bd94ab2a5a950ae5c7256c217f6851b9"
+      },
+      "spent": 48,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Coordinate",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "coordinate-expenditure-v1",
+        "selected": 13,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 48,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 110,
+      "evidence": "evidence_c6/panel_final/iee-Coordinate-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 2,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Coordinate-expenditure-control.json.gz",
+        "sha256": "ab2796f082c5eed86b84a7a11d0ad6ba79ea00db1e9164259c5084b41b683246"
+      },
+      "spent": 48,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Organize",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "organize-accumulation-v1",
+        "selected": 14,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 60,
+      "evidence": "evidence_c6/panel_final/iee-Organize-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 5,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Organize-accumulation-control.json.gz",
+        "sha256": "fcd7611ce6b18daa4fd86001e8aeb4df5098703ab932910f1d6eeb441341baa4"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Organize",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "organize-expenditure-v1",
+        "selected": 15,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 43,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 60,
+      "evidence": "evidence_c6/panel_final/iee-Organize-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 5,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Organize-expenditure-control.json.gz",
+        "sha256": "97071d8adabc3c982ef05323fad165370a97594e861482925925ebb225a268ff"
+      },
+      "spent": 43,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Identify",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "identify-accumulation-v1",
+        "selected": 16,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 59,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 54,
+      "evidence": "evidence_c6/panel_final/iee-Identify-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 2,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Identify-accumulation-control.json.gz",
+        "sha256": "d432cd697ba4c5a40bcd6ef1dab1bd8c431d290c25d07662874f5e73b5a0eeb1"
+      },
+      "spent": 59,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Identify",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "identify-expenditure-v1",
+        "selected": 17,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 59,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 56,
+      "evidence": "evidence_c6/panel_final/iee-Identify-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 2,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Identify-expenditure-control.json.gz",
+        "sha256": "ddd7c5fa0f830458cee742384111a1435865e3e0ec55e6b2f18b271114cf7de1"
+      },
+      "spent": 59,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Mobilize",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "mobilize-accumulation-v1",
+        "selected": 18,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 50,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 58,
+      "evidence": "evidence_c6/panel_final/iee-Mobilize-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 6,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Mobilize-accumulation-control.json.gz",
+        "sha256": "c0d3c19ff0bc8b5e99a1944d5e8d5052d8398f19223a850aeca424585dd0848f"
+      },
+      "spent": 50,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Mobilize",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "mobilize-expenditure-v1",
+        "selected": 19,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 50,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 65,
+      "evidence": "evidence_c6/panel_final/iee-Mobilize-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 4,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Mobilize-expenditure-control.json.gz",
+        "sha256": "3ec3c0300838d5070e16f4495907544ad0548839c50086f0055d10e256b86246"
+      },
+      "spent": 50,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Commune",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "commune-accumulation-v1",
+        "selected": 20,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 44,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 73,
+      "evidence": "evidence_c6/panel_final/iee-Commune-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c2.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "propose",
+      "amount": 2,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Commune-accumulation-control.json.gz",
+        "sha256": "f9291ac4e28bcd0a9508b19dd8b993cbf1f7ce3cf3935928bc3b8094687c4f57"
+      },
+      "spent": 44,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Commune",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "commune-expenditure-v1",
+        "selected": 21,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 44,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 72,
+      "evidence": "evidence_c6/panel_final/iee-Commune-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c2.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 2,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Commune-expenditure-control.json.gz",
+        "sha256": "87af4afa3d2c0c88a55193e3d93c10f1b3d5b19fbd4aea1889f175d29598c9b9"
+      },
+      "spent": 44,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Institutionalize",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "institutionalize-accumulation-v1",
+        "selected": 22,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 57,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 85,
+      "evidence": "evidence_c6/panel_final/iee-Institutionalize-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 2,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Institutionalize-accumulation-control.json.gz",
+        "sha256": "b75a04ea539d676eeab2ff1fa73c0a10bfce36ce5bd72c50f96263e78478c8bd"
+      },
+      "spent": 57,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Institutionalize",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "institutionalize-expenditure-v1",
+        "selected": 23,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 81,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 109,
+      "evidence": "evidence_c6/panel_final/iee-Institutionalize-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 2,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Institutionalize-expenditure-control.json.gz",
+        "sha256": "620d1f06f272feca79d5d07f03d6fd0ed1fb9aa23615b704ea713502ff296f65"
+      },
+      "spent": 81,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Understand",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "understand-accumulation-v1",
+        "selected": 24,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 55,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 45,
+      "evidence": "evidence_c6/panel_final/iee-Understand-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 3,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Understand-accumulation-control.json.gz",
+        "sha256": "908b3c3ed2c14fa7ccf970d7b9b6c3ed0977d2a43365d49525a26ed5f226bc73"
+      },
+      "spent": 55,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Understand",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "understand-expenditure-v1",
+        "selected": 25,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 55,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 48,
+      "evidence": "evidence_c6/panel_final/iee-Understand-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 3,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Understand-expenditure-control.json.gz",
+        "sha256": "bb0c633252c720f5559b6a221f97d5d185f5b872f6f21e0a8726f4f5a0bd77dd"
+      },
+      "spent": 55,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Apply",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "apply-accumulation-v1",
+        "selected": 26,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 48,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 52,
+      "evidence": "evidence_c6/panel_final/iee-Apply-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 5,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Apply-accumulation-control.json.gz",
+        "sha256": "cadcc827d28db64ad1a81d6074f23392a14119202b4374fac6a6958600b42935"
+      },
+      "spent": 48,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Apply",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "apply-expenditure-v1",
+        "selected": 27,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 48,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 52,
+      "evidence": "evidence_c6/panel_final/iee-Apply-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 3,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Apply-expenditure-control.json.gz",
+        "sha256": "b61627886f4139402984aff5443b455d4414416bd7ff7386f7d523dacbfd6d1e"
+      },
+      "spent": 48,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Educate",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "educate-accumulation-v1",
+        "selected": 28,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 53,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 94,
+      "evidence": "evidence_c6/panel_final/iee-Educate-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 2,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Educate-accumulation-control.json.gz",
+        "sha256": "74280e8dc249bf92051278fdd36d5f7d03f49e67ec92c40c3417eddcddcb0f69"
+      },
+      "spent": 53,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Educate",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "educate-expenditure-v1",
+        "selected": 29,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 53,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 97,
+      "evidence": "evidence_c6/panel_final/iee-Educate-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c3.output",
+          "key": "f70b8c00cd4538cf5590950dc15896fcce4f547f4d780b34ad202a9c496c27f5"
+        },
+        "revision": 1
+      },
+      "action": "consume",
+      "amount": 2,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Educate-expenditure-control.json.gz",
+        "sha256": "6731838c65d9b81487d56a168fbef7a0be62eb8e61174ddd0ec9cb57ff7019b8"
+      },
+      "spent": 53,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Integrate",
+    "face": "accumulation",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "integrate-accumulation-v1",
+        "selected": 30,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 42,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 40,
+      "evidence": "evidence_c6/panel_final/iee-Integrate-accumulation.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c2.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "none",
+      "amount": 0,
+      "event": null
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Integrate-accumulation-control.json.gz",
+        "sha256": "704ca1aa92466ca8cd5b9772ef016984eb18d3bf0069580965c9257d411040bd"
+      },
+      "spent": 42,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  },
+  {
+    "name": "Integrate",
+    "face": "expenditure",
+    "automatic_selection": true,
+    "canonical_cell_complete_for_C6": true,
+    "full_release_complete": false,
+    "what_changed": "An owned outcome demand and accessible content selected a native movement; its real result was consumed.",
+    "how_changed": {
+      "selection": {
+        "admission": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "32568ec7937eae76b3590f703a7e3aab2b9befb805ed8aef7cb24f3617def619"
+          },
+          "revision": 1
+        },
+        "candidates": {
+          "identity": {
+            "namespace": "c6.candidates",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "completion_claim": false,
+        "failure": null,
+        "operation": {
+          "identity": {
+            "namespace": "u4.operation",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 3
+        },
+        "recipe": "integrate-expenditure-v1",
+        "selected": 31,
+        "snapshot": {
+          "identity": {
+            "namespace": "c6.snapshot",
+            "key": "83d26a6704518f63ca1dd9ab9270b5ccc5bd53e57d45909043e3aeab4c304936"
+          },
+          "revision": 1
+        },
+        "spent": 42,
+        "status": "launched"
+      },
+      "native_child": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "df0943b6d476db4177f3b822991bb661888945eb649390d8cd69fbafe6f5b20a"
+        },
+        "revision": 1
+      },
+      "native_work": 46,
+      "evidence": "evidence_c6/panel_final/iee-Integrate-expenditure.json.gz"
+    },
+    "afterward": {
+      "kind": "decision",
+      "ref": {
+        "identity": {
+          "namespace": "c2.output",
+          "key": "c42061cd16a635e9d3712b1478353c35e0cbf3d616f4c0b9d9874803dff793cf"
+        },
+        "revision": 1
+      },
+      "action": "repair",
+      "amount": 0,
+      "event": {
+        "identity": {
+          "namespace": "u4.event",
+          "key": "89eda3b5fe3b84f584d682217576106b16f507ba7f2a1eaf5b4bb88641d31e7a"
+        },
+        "revision": 1
+      }
+    },
+    "control": {
+      "raw": {
+        "file": "iee-Integrate-expenditure-control.json.gz",
+        "sha256": "6fd477b6d0a4e274c8b660cd16824547c7332ea6bfd380df1f3eb36d089b37aa"
+      },
+      "spent": 42,
+      "native_child": false,
+      "expected_choice_audit_rejection": "not the accountable best evaluated option",
+      "native_accounting_passed": true
+    },
+    "type_cases": 16,
+    "remaining": [
+      "two distinct applicable semantic settings per cell",
+      "C7 sustained release gates"
+    ]
+  }
+]

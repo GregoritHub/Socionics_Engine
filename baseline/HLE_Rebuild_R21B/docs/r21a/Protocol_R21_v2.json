@@ -1,0 +1,214 @@
+{
+  "schema": "r21-resource-comparison-contract-v2",
+  "protocol_id": "r21.resource-comparison.v2",
+  "status": "R21A contract only; feasibility and release acceptance unestablished",
+  "supersedes_for_new_episodes": "r21-release-protocol-v1",
+  "preserved_v1_sha256": "c91200724308a56e2aaee0f44a627219e69a919390e5905c5fdd8aa616789e57",
+  "r12_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "activation": "Journal an EpisodeResourceContract immediately after genesis and before any paid or unpaid episode command. No retrofit of old checkpoints.",
+  "allocation": {
+    "rule": "single_genesis_allocation_per_actor",
+    "pooling": false,
+    "replenishment": false,
+    "refunding_paid_work": false,
+    "covers": [
+      "historical_exposure",
+      "three_maintaining_engagements",
+      "conversion_acquisition",
+      "eight_aspect_acquisition",
+      "support_withdrawal",
+      "13_clearance_challenges",
+      "100_later_opportunities_with_two_changes"
+    ],
+    "regimes": {
+      "adequate": {
+        "energy": 100000,
+        "time": 100000
+      },
+      "constrained_feasible": {
+        "energy": 20000,
+        "time": 20000
+      },
+      "inadequate": {
+        "energy": 0,
+        "time": 0
+      }
+    },
+    "regime_names_are_claims": false,
+    "regime_validation": "Positive regimes remain proposed until a legal successful independently executed full-horizon witness passes for every planned case.",
+    "spent_work": "Every actor and both energy/time units; partial, failed, canceled and superseded work remain charged. Actual work records and balances are authoritative.",
+    "exhaustion": "Preserve unfinished work; no clearance or recurrence inferred from lack of resources."
+  },
+  "comparison": {
+    "relation": "componentwise requirement order only; never an affordability or global difficulty verdict",
+    "scope": [
+      "same_contract_and_episode",
+      "same_actor_and_genesis_allocation",
+      "family",
+      "comparison_protocol",
+      "required_outcomes",
+      "movements",
+      "context",
+      "participants",
+      "material_lineage",
+      "constraints",
+      "duration_length",
+      "requirement_dimensions"
+    ],
+    "resources": "Keep actual wallets on both demand records. Within the same fixed allocation, balances may decline. Report both snapshots and their headroom relation. A balance increase or replenishment makes the comparison out of scope.",
+    "relations": {
+      "equal": "all elected requirements equal",
+      "greater": "all weakly increase and at least one strictly increases",
+      "lesser": "all weakly decrease and at least one strictly decreases",
+      "incomparable": "scope change, mixed increases/decreases, different dimensions, or an invalid resource frame"
+    },
+    "changed_partner": "incomparable even with otherwise identical requirements",
+    "success": "Comparison alone never passes a challenge; all paid own action, physical/conditional return, capacity, carrier and nondefense predicates remain required."
+  },
+  "feasibility_policy": {
+    "id": "r21a.independent-construction.v1",
+    "entrypoint": "tools/r21a_policy.py:run_reference_policy",
+    "independence": "Construct fresh identical genesis and run the declared schedule without consuming candidate commands, participant evaluator status or candidate cuts. Shared engine primitives are allowed; this is not an independent learning algorithm.",
+    "sequence": [
+      "same seeded historical exposure and 3 maintaining engagements",
+      "paid conversion acquisition",
+      "paid acquisition/practice of all 8 aspects",
+      "withdraw substitute support",
+      "original plus 12 frozen challenges",
+      "attempt all 100 seeded later opportunities, regardless of clearance observer status"
+    ],
+    "participant_information": "Existing participant controllers use owned observations, current permitted terms, own retained capacities and own resources. The environment supplies only declared opportunities.",
+    "stopping": "Resource exhaustion or explicit runtime error, with partial work retained; neither is a successful witness.",
+    "scope_match": [
+      "TIM",
+      "seed",
+      "history_count",
+      "maintained_count",
+      "full_genesis_configuration_and_policies",
+      "resource_contract",
+      "all_planned_challenges",
+      "full_100_opportunity_schedule"
+    ],
+    "acceptance": "Independent raw audit verifies historical maintenance, 8 current aspects plus conversion, all 13 challenges, 100 nonoverlapping paid opportunities with physical conditional returns, two changes, retained validity, and per-actor conservation with zero credit/refund. Replay alone cannot satisfy feasibility.",
+    "currently_expected": "Existing construction policy is a cost baseline; budget failure leaves R21B open. No promise of feasibility is made."
+  },
+  "evaluation": {
+    "types": [
+      "eie",
+      "eii",
+      "ese",
+      "esi",
+      "iee",
+      "iei",
+      "ile",
+      "ili",
+      "lie",
+      "lii",
+      "lse",
+      "lsi",
+      "see",
+      "sei",
+      "sle",
+      "sli"
+    ],
+    "development_seeds": [
+      11,
+      17,
+      23,
+      29,
+      12,
+      13
+    ],
+    "evaluation_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "regimes": {
+      "adequate": {
+        "energy": 100000,
+        "time": 100000
+      },
+      "constrained_feasible": {
+        "energy": 20000,
+        "time": 20000
+      },
+      "inadequate": {
+        "energy": 0,
+        "time": 0
+      }
+    },
+    "resource_regime_validation": "Adequate/constrained scenarios need a separately executed legal successful policy within that budget; otherwise gate fails and a new protocol version is required. Inadequate outcomes must honestly defer.",
+    "individual_episodes": 480,
+    "minimum_adequate_success_fraction": [
+      1,
+      1
+    ],
+    "minimum_constrained_success_fraction": [
+      1,
+      1
+    ],
+    "inadequate_expected": "deferral or unresolved; no coerced development",
+    "continuation_eligible_opportunities": 100,
+    "continuation_demand_changes": 2,
+    "exclude_incomplete_from_denominator": false,
+    "prior_evaluation_seeds_regression_only": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "new_seeds_usage": "Frozen before any v2 run; reserved for R21C. Do not inspect outcomes or tune on these seeds during R21A/R21B."
+  },
+  "performance": {
+    "active_work_items": 32,
+    "inactive_history_sizes": [
+      100,
+      1000,
+      10000
+    ],
+    "warmup_runs": 2,
+    "measured_runs": 9,
+    "max_median_tick_ratio_first_to_last": [
+      2,
+      1
+    ],
+    "max_affected_record_visits_ratio": [
+      2,
+      1
+    ],
+    "max_checkpoint_bytes_ratio_per_10x_history": [
+      25,
+      1
+    ],
+    "checkpoint_and_offline_replay_costs_report_separately": true,
+    "unfinished_queue_must_be_accounted": true,
+    "no_missed_eligible_demand_due_to_discard": true
+  },
+  "unchanged": [
+    "resource_prices",
+    "100000/20000/0_budget_amounts",
+    "100_percent_positive_success_thresholds",
+    "480_case_denominator",
+    "13_clearance_challenges",
+    "100_later_opportunities",
+    "two_changes",
+    "all_structural_and_physical_predicates",
+    "checkpoint_and_performance_gates"
+  ],
+  "amendments": "Any budget, allocation, comparison, policy, seed or threshold change requires a new frozen version and retention of prior failure evidence.",
+  "completion": "R21A closes only contract implementation/validation. R21B must establish feasible integrated and independent policies. R21C must rerun every release gate."
+}

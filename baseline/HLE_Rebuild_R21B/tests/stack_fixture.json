@@ -1,0 +1,162 @@
+{
+  "iee": [
+    "ne",
+    "fi",
+    "se",
+    "ti",
+    "si",
+    "te",
+    "ni",
+    "fe"
+  ],
+  "ile": [
+    "ne",
+    "ti",
+    "se",
+    "fi",
+    "si",
+    "fe",
+    "ni",
+    "te"
+  ],
+  "sle": [
+    "se",
+    "ti",
+    "ne",
+    "fi",
+    "ni",
+    "fe",
+    "si",
+    "te"
+  ],
+  "see": [
+    "se",
+    "fi",
+    "ne",
+    "ti",
+    "ni",
+    "te",
+    "si",
+    "fe"
+  ],
+  "iei": [
+    "ni",
+    "fe",
+    "si",
+    "te",
+    "se",
+    "ti",
+    "ne",
+    "fi"
+  ],
+  "ili": [
+    "ni",
+    "te",
+    "si",
+    "fe",
+    "se",
+    "fi",
+    "ne",
+    "ti"
+  ],
+  "sli": [
+    "si",
+    "te",
+    "ni",
+    "fe",
+    "ne",
+    "fi",
+    "se",
+    "ti"
+  ],
+  "sei": [
+    "si",
+    "fe",
+    "ni",
+    "te",
+    "ne",
+    "ti",
+    "se",
+    "fi"
+  ],
+  "eie": [
+    "fe",
+    "ni",
+    "te",
+    "si",
+    "ti",
+    "se",
+    "fi",
+    "ne"
+  ],
+  "ese": [
+    "fe",
+    "si",
+    "te",
+    "ni",
+    "ti",
+    "ne",
+    "fi",
+    "se"
+  ],
+  "lse": [
+    "te",
+    "si",
+    "fe",
+    "ni",
+    "fi",
+    "ne",
+    "ti",
+    "se"
+  ],
+  "lie": [
+    "te",
+    "ni",
+    "fe",
+    "si",
+    "fi",
+    "se",
+    "ti",
+    "ne"
+  ],
+  "eii": [
+    "fi",
+    "ne",
+    "ti",
+    "se",
+    "te",
+    "si",
+    "fe",
+    "ni"
+  ],
+  "esi": [
+    "fi",
+    "se",
+    "ti",
+    "ne",
+    "te",
+    "ni",
+    "fe",
+    "si"
+  ],
+  "lsi": [
+    "ti",
+    "se",
+    "fi",
+    "ne",
+    "fe",
+    "ni",
+    "te",
+    "si"
+  ],
+  "lii": [
+    "ti",
+    "ne",
+    "fi",
+    "se",
+    "fe",
+    "si",
+    "te",
+    "ni"
+  ]
+}

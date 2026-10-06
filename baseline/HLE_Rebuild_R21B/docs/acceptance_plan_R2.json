@@ -1,0 +1,22 @@
+{
+  "version": "R2-gate-v1",
+  "declared": "2026-09-16, before implementation evaluation",
+  "milestone": "R2",
+  "stochastic_seeds": "none; deterministic ordering, integer resources, no random source",
+  "horizon": "two actors, two objects; bounded controls and replay; inactive history control at 0 and 2000 unrelated events",
+  "resource_conditions": "versioned engineering costs: inspect/send/retain one work unit; transfer two; each unit consumes one energy and one time quantum; explicit external credits only",
+  "gates": [
+    {"id":"W01","required":"All R1 checks still pass; exact versioned actor/object/context references resolve without substitution."},
+    {"id":"W02","required":"Every committed event agrees with the independently folded ownership, balances, tasks and memory heads. Causal and before/after references are valid and ordered."},
+    {"id":"W03","required":"Changing hidden ownership leaves participant input and deterministic policy action identical until permitted inspection, witness observation or message. Private memories, evaluator conclusions and global Truth never enter the participant input."},
+    {"id":"W04","required":"Explicit directed messages preserve sender, recipient, content, provenance and unverified status; denied channels cannot deliver content. Citation of another actor's private evidence rejects without mutation."},
+    {"id":"W05","required":"A retained endorsed belief is recorded as held while its ownership content fails factual agreement; correct, contradicted, unknown, wrong-context, wrong-time and wrong-revision claims remain distinguishable."},
+    {"id":"W06","required":"Failed work keeps actual charges; partial work retains progress without changing ownership; zero-budget work defers; continuation charges only remaining units; retries are idempotent and conflicting IDs reject."},
+    {"id":"W07","required":"An explicit prospective record correction preserves the original event, observations, work and resource charges, updates the current fact, and invalidates dependent factual checks. Corrections cannot silently rewrite non-head causal history."},
+    {"id":"W08","required":"Typed JSON checkpoint/replay reproduces complete relevant state and byte-identical subsequent commands, events, observations, work, beliefs and messages. Corrupt or semantically inconsistent logs reject."},
+    {"id":"W09","required":"Affected fact checks match independent full comparison. Ordinary commits use direct indexes, with zero inactive-log iterations under fixed active work at 0 and 2000 unrelated events; checkpoint work is reported separately."},
+    {"id":"W10","required":"Runnable source, exact source hashes, all verification attempts, representative trace, correction/failure controls and extracted-release replay are delivered. All new operational rules have explicit implementation-choice status."}
+  ],
+  "pass_policy":"All required checks pass, with zero failures/errors/skips on delivered source; retain failed attempts and repairs. Report exact tested scope.",
+  "not_claimed":["autonomous belief formation or relational retrieval (R3)","realized Crux/Model A processing (R4)","full A01-A15 demonstrator or IDEA/Shell assessment (R5)","psychological energy law", "arbitrary retroactive world-history rewriting", "hostile Python-code security isolation", "sustained population efficiency acceptance"]
+}

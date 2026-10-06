@@ -1,0 +1,1436 @@
+{
+  "version": "C5-v1",
+  "cells": 32,
+  "bounded_shell_coverage": true,
+  "full_release_cells_complete": 0,
+  "rows": [
+    {
+      "route": "Contemplate",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "contemplate-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 38,
+          "corrected_admission": 38
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "inspect",
+        "amount": 0,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Contemplate-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Contemplate-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Contemplate",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "contemplate-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 38,
+          "corrected_admission": 38
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "inspect",
+        "amount": 0,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Contemplate-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Contemplate-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Express",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "express-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 37,
+          "corrected_admission": 37
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 6,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Express-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Express-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Express",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "express-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 37,
+          "corrected_admission": 37
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Express-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Express-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Share",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "share-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 40,
+          "corrected_admission": 40
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Share-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Share-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Share",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "share-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 40,
+          "corrected_admission": 40
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Share-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Share-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Theorize",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "theorize-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 37,
+          "corrected_admission": 37
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Theorize-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Theorize-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Theorize",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "theorize-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 37,
+          "corrected_admission": 37
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Theorize-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Theorize-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Embody",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "embody-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 36,
+          "corrected_admission": 36
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 5,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Embody-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Embody-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Embody",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "embody-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 36,
+          "corrected_admission": 36
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 5,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Embody-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Embody-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Act",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "act-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 36,
+          "corrected_admission": 36
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "event",
+        "outcome": "succeeded",
+        "ref": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "9848b5b4f0bfcdca7172ddd7c6b4a5cacb33207b8db73a31c694b10ae021b9ff"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Act-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Act-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Act",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "act-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 36,
+          "corrected_admission": 36
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "event",
+        "outcome": "succeeded",
+        "ref": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "9848b5b4f0bfcdca7172ddd7c6b4a5cacb33207b8db73a31c694b10ae021b9ff"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Act-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Act-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Coordinate",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "coordinate-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 39,
+          "corrected_admission": 39
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Coordinate-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Coordinate-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Coordinate",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "coordinate-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 39,
+          "corrected_admission": 39
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Coordinate-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Coordinate-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Organize",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "organize-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 36,
+          "corrected_admission": 36
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 5,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Organize-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Organize-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Organize",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "organize-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 36,
+          "corrected_admission": 36
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 5,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Organize-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Organize-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Identify",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "identify-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 42,
+          "corrected_admission": 42
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Identify-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Identify-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Identify",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "identify-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 42,
+          "corrected_admission": 42
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Identify-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Identify-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Mobilize",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "mobilize-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 41,
+          "corrected_admission": 41
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 6,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Mobilize-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Mobilize-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Mobilize",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "mobilize-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 41,
+          "corrected_admission": 41
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 4,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Mobilize-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Mobilize-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Commune",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "commune-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 40,
+          "corrected_admission": 40
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "propose",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Commune-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Commune-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Commune",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "commune-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 40,
+          "corrected_admission": 40
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Commune-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Commune-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Institutionalize",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "institutionalize-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 41,
+          "corrected_admission": 41
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Institutionalize-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Institutionalize-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Institutionalize",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "institutionalize-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 44,
+          "corrected_admission": 44
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Institutionalize-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Institutionalize-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Understand",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "understand-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 40,
+          "corrected_admission": 39
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 3,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Understand-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Understand-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Understand",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "understand-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 40,
+          "corrected_admission": 39
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Understand-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Understand-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Apply",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "apply-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 39,
+          "corrected_admission": 38
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 5,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Apply-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Apply-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Apply",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "apply-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 39,
+          "corrected_admission": 38
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 3,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Apply-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Apply-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Educate",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "educate-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 41,
+          "corrected_admission": 41
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 2,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Educate-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Educate-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Educate",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "educate-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 41,
+          "corrected_admission": 41
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c3.output",
+            "key": "da81c12b8e4018219fde8171fa4db35e8af3d2862311c9e3954a7c400377db7b"
+          },
+          "revision": 1
+        },
+        "action": "consume",
+        "amount": 2,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Educate-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Educate-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Integrate",
+      "polarity": "accumulation",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "integrate-accumulation-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 38,
+          "corrected_admission": 38
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "none",
+        "amount": 0,
+        "event": null
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Integrate-accumulation.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Integrate-accumulation.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    },
+    {
+      "route": "Integrate",
+      "polarity": "expenditure",
+      "implemented_semantics": "inherited C2/C3 contract; unchanged",
+      "what_changed": {
+        "deformed_admission": "wait",
+        "corrected_admission": "integrate-expenditure-v1",
+        "active_child": "cancelled after first paid semantic step"
+      },
+      "how_changed": {
+        "pattern": "generated approval from two fresh blame experiences",
+        "correction": "paid exact-target U8 release",
+        "costs": {
+          "deformed_admission": 38,
+          "corrected_admission": 38
+        }
+      },
+      "demonstrated_downstream": {
+        "kind": "decision",
+        "ref": {
+          "identity": {
+            "namespace": "c2.output",
+            "key": "522b048662aa4424ecafd09862fa872c28b977de8a6a938b6d828e69a0be4807"
+          },
+          "revision": 1
+        },
+        "action": "repair",
+        "amount": 0,
+        "event": {
+          "identity": {
+            "namespace": "u4.event",
+            "key": "53180a0f6ce2c1b207dcbbd0de094886ac7d400ba8535fe26fbe425740ccfc44"
+          },
+          "revision": 1
+        }
+      },
+      "automatic_selection": false,
+      "evidence": {
+        "admission_pair": "evidence_c5/admission_panel_final/Integrate-expenditure.json",
+        "active_pair": "evidence_c5/active_panel_attempt1/Integrate-expenditure.json"
+      },
+      "full_release_complete": false,
+      "remaining": [
+        "C6 participant choice and distinct settings",
+        "C7 sustained mixed release"
+      ]
+    }
+  ]
+}

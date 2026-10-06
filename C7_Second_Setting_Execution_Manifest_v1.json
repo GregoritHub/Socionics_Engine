@@ -1,0 +1,13 @@
+{
+  "progress": "6/7",
+  "release_complete": false,
+  "setting_cells": 32,
+  "settings": 2,
+  "matrix_worlds": 512,
+  "controls": 32,
+  "continuations": 96,
+  "passing_methods": 625,
+  "new_methods": 23,
+  "workflow_workers": 24,
+  "native_workers": 33
+}

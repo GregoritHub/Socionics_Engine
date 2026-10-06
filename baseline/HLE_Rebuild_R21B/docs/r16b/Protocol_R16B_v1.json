@@ -1,0 +1,19 @@
+{
+  "schema": "hle-r16b-runtime-protocol-v1",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "declared_before_evaluation": true,
+  "domain": "Paid release-account reconciliation during the existing R15 workshop loans",
+  "hypotheses": [
+    "Source separation reprocesses retained supports; a cheaper summary can substitute the learned universal prerequisite before distinguishing historical practice from current authority.",
+    "Componentwise integration can validate two components separately and incorrectly assert joint completeness; cross-consistency checking retains disagreement as open.",
+    "A peer compares two actual same-loan notices and asks for two separately justified requirements after receiving incompatible completed claims. This raises one coherence obligation to two source-specific obligations.",
+    "The actor chooses between a cheap exception wrapper and a source-indexed corrective scaffold; actual use changes its release permission.",
+    "A generated exception wrapper can cancel queued source separation; raising the guard cost selects and executes source separation instead."
+  ],
+  "not_supplied": ["Shell labels", "false initial accounts", "sign verdicts", "carrier sequence", "clearance flags"],
+  "primary": {"history": 3, "renewals": 3, "threshold": 3, "type": "iee"},
+  "controls": ["direct history", "timely source distinction", "open integration", "useful corrective scaffold", "initiated correction", "rest", "missing permitted peer delivery", "unavailable practiced capacity", "resource exhaustion", "explicit refusal", "scheduling delay"],
+  "gates": ["R16.1 five runtime signs and their controls", "R16.2 independent journal fold, accounting and twelve lenses", "R16.3 creation after comparable demand increase"],
+  "verification": ["preserve 686 inherited tests", "checkpoint replay and next-event identity", "partial work publishes nothing", "forged records reject replay", "duplicate command idempotence", "0/100/1000 inactive ticks do not create engagements"],
+  "limits": ["finite grammar and work hypotheses", "no universal psychological law", "no R17 conversion claim", "no R18 circuits", "no R19 clearance", "R21 frozen panel remains open"]
+}

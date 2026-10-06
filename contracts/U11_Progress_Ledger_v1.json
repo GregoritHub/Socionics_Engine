@@ -1,0 +1,71 @@
+{
+  "schema": "hle-u11-progress-v1",
+  "milestone": "U11",
+  "status": "complete",
+  "completed_milestones": 11,
+  "remaining_milestones": 3,
+  "next_milestone": "U12",
+  "source_execution_manifest_sha256": "95fe6b58d3f314b4f0959535c736a30ebaab0e0e68cbc844a9113f3043ae897e",
+  "cases": [
+    {
+      "id": "U11-01",
+      "criterion": "Detailed and aggregate inventory projections and expanded versus nested procedure execution agree on protected material results and physical work; insufficient summaries cannot authorize physical execution.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u11/summary.json",
+        "final_run/u11_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U11-02",
+      "criterion": "Relevant child revisions invalidate every affected projection and no unrelated projection; internal invalidation leaves participant views unchanged; exact older projections reconstruct.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u11/summary.json",
+        "final_run/u11_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U11-03",
+      "criterion": "Joining needs an invitation and the joiner's paid acceptance; leaving or withdrawing permission preserves existing duties, ownership, completed work and history.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u11/summary.json",
+        "final_run/u11_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U11-04",
+      "criterion": "Shared capacity is retained only after all constituent work is performed and observed; a newcomer cannot perform or accept unacquired procedures; nested calls do not copy skill.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u11/summary.json",
+        "final_run/u11_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U11-05",
+      "criterion": "Partial work, cancellation, stale membership or consent, and overlapping resource contention preserve charges and prior effects without double spending; exact checkpoints continue correctly.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u11/summary.json",
+        "final_run/u11_witnesses/summary.json"
+      ]
+    },
+    {
+      "id": "U11-06",
+      "criterion": "Raw transaction audit independently checks work, membership consent, collective decomposition, observations and capacity provenance; inherited U10 tests and witnesses and frozen baseline integrity pass.",
+      "status": "established",
+      "evidence": [
+        "acceptance_summary.json",
+        "final_run/u11/summary.json",
+        "final_run/u11_witnesses/summary.json"
+      ]
+    }
+  ]
+}

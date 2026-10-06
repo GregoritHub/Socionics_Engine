@@ -1,0 +1,1 @@
+Tested four supplied Malice Matrix response policies in HLE R11, with R10 as a controlled baseline. The study measures containment, activity-dependent attention costs and paid readmission. Methods, executable code, results and limits: https://github.com/GregoritHub/Malixe-Matrix_test. Corrections welcome.

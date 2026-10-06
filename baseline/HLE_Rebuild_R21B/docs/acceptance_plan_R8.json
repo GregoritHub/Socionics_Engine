@@ -1,0 +1,36 @@
+{
+  "milestone": "R8",
+  "declared_before_acceptance_runs": true,
+  "original_declaration": "docs/r8/acceptance.md",
+  "law": "finite acquired conjunctions and versioned shared meanings; elected grammar",
+  "gates": [
+    {
+      "id": "L01",
+      "criterion": "Owned acquired relation patterns, nested compositions and exact versions"
+    },
+    {
+      "id": "L02",
+      "criterion": "Ordinary paid delivery, Model A reception and independently checked repair"
+    },
+    {
+      "id": "L03",
+      "criterion": "Held-out requests and explanations, novel combinations, labels and contexts"
+    },
+    {
+      "id": "L04",
+      "criterion": "Commitment expectations distinct from actual linked costly fulfillment"
+    },
+    {
+      "id": "L05",
+      "criterion": "Unknown, false, conflicting, stale, refusal and hidden state controls"
+    },
+    {
+      "id": "L06",
+      "criterion": "Partial funding, exact replay, changed continuation and tampering"
+    },
+    {
+      "id": "L07",
+      "criterion": "Inherited tests and sources, reproducible release and runnable demo"
+    }
+  ]
+}

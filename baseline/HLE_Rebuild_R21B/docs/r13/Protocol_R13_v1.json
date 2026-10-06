@@ -1,0 +1,37 @@
+{
+  "schema": "hle-r13-integration-protocol-v1",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "scope": "Integrate R13. Preserve R12 acceptance v1 unchanged; R14–R21 remain unassessed.",
+  "gates": {
+    "R13.1": "32 matched content-identity pairs across 16 TIMs; original selection grammar and retained/no-retention controls.",
+    "R13.2": "Actual paid cue/context access, changed-context binding to the same retained task-independent rule, current dependencies, stale/retracted/disputed/binding controls.",
+    "R13.3": "Exact prefix/suffix replay through partial content, recall, Write, Bind, meaning revision, pending reception and lower-runtime work; charge conservation; idempotency; no early publication.",
+    "R13.4": "Personally learned associations use the recovered last-three-sample rule under new paid processing. Two continuing actors, same cue, different actual histories and consequential actions; reversal and publication/label controls.",
+    "R13.5": "Eight bounded executable content roles, all complementary pairs represented across 16 TIMs; missing consent, prerequisites, affordability, temporal cycles, contradictions and missing receiver acknowledgments cannot pass."
+  },
+  "integration_hypotheses": [
+    "Main DevelopmentalWorld extends all R2–R11 operations. New records/commands are version one and replay-checked.",
+    "Generic search/boundary capacities use paid RecallQuery; raw observations and retained addresses cannot substitute for it.",
+    "A paid contextual binding can apply a task-independent finite rule to a new memory context; ordinary facts retain R3 context filtering.",
+    "MeaningCommand pays for comparing actual embodied receipt samples before producing a WriteDraft; Write and Bind remain separately paid.",
+    "The recovered 9/3 traversal remains an optional historical probe schedule, not a universal meaning or development rule. Main-runtime recurrence is repeated paid contextual retrieval/revision after actual consequences.",
+    "Content and meaning jobs reserve personal Model A processing. Relational memory operations may update evidence while a job is pending; a stale dependent job fails without publishing or discarding previously charged work.",
+    "New eight-aspect contracts are bounded task interpretations, not classification of arbitrary prose or proof of psychological functions. Shared acknowledgment needs actual received responses, not a WE label."
+  ],
+  "declared_content_roles": {
+    "ne": "enumerate observed permitted alternatives",
+    "si": "check an explicitly supplied observed condition epoch, bounds and task budget",
+    "fi": "filter options by a specifically authenticated, received partner consent",
+    "te": "prepare authorized prerequisite-satisfied actions inside the declared task budget",
+    "ni": "order explicit temporal dependencies, revise earliest expected times after observed availability delays, and reject cyclic ordering",
+    "se": "allocate authorized commitments without exceeding the declared resource budget",
+    "ti": "differentiate explicit assertions and expose contradictions",
+    "fe": "check shared acknowledgment through actually received participant responses"
+  },
+  "limits": [
+    "Task offerings, teaching and sampling scenarios are harness supplied; participant-generated demands are R14.",
+    "All-type eight-role coverage is not an R18 all-type individuation result.",
+    "No Shell, clearance, phase, altitude, or future evaluation verdict is awarded by this protocol.",
+    "Full-history checkpoint replay is an offline validation cost; normal operations use relevant local indexes. R21 efficiency thresholds are not evaluated here."
+  ]
+}

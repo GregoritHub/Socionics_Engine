@@ -1,0 +1,1685 @@
+{
+  "schema": "hle-u12-witness-v1",
+  "passed": true,
+  "checks": {
+    "no_finished_rule_was_supplied": true,
+    "program_generated_from_practiced_primitives": true,
+    "personal_patterns_are_generated_from_distinct_received_episodes": true,
+    "generated_attribution_reaches_public_proposal": true,
+    "participants_separately_paid_for_exact_consent": true,
+    "maintained_rule_follows_repeated_actual_work": true,
+    "public_rule_is_attached_to_same_group_identity": true,
+    "public_burden_names_actual_bearer_and_rule": true,
+    "maintained_gate_changes_actual_service": true,
+    "dispute_preserves_consequence_and_rule": true,
+    "private_correction_leaves_rule_exactly_unchanged": true,
+    "independent_partner_disagreement_prevents_public_rewrite": true,
+    "private_and_public_correction_diverge_in_later_behavior": true,
+    "revision_requires_fresh_exact_consents": true,
+    "collective_dispute_resolution_keeps_historical_burden": true,
+    "corrected_rule_changes_real_constituent_work": true,
+    "old_rule_and_commitments_remain_addressable": true,
+    "institution_survives_consented_succession_and_founder_departure": true,
+    "founder_history_and_personal_pattern_remain": true,
+    "teaching_and_assent_do_not_grant_personal_mastery": true,
+    "newcomer_performs_after_own_practice": true,
+    "dissolution_requires_current_members_not_departed_founder": true,
+    "dissolution_preserves_unfinished_duty_and_earlier_work": true,
+    "independent_debits_equal_all_wallet_losses": true,
+    "complete_history_replays_exactly": true,
+    "matched_history_ablation_changes_gate_not_material_recipe": true,
+    "legitimate_threat_is_refusal_without_shell": true,
+    "distinct_material_context_supports_same_institution_path": true,
+    "partial_work_has_no_early_public_effect": true,
+    "partial_work_continues_with_exact_charges_and_outputs": true,
+    "exhaustion_is_retained_partial_work_not_a_rule": true
+  },
+  "check_count": 31,
+  "artifacts": {
+    "maintained_public_projection": {
+      "checkpoint_sha256": "de8baf3dcf74467f3b73e9d35effe12f4e4b531c1ec060d5bb2e15bd4a5704c1",
+      "transactions_sha256": "d478b39b8c926f156b3beb04adf648e8e60734a4dd196afb0dc049929b867471",
+      "audit": {
+        "passed": true,
+        "transactions": 574,
+        "operation_attempts": 182,
+        "charged_energy": 13181,
+        "charged_time": 13181,
+        "physical_commits": 14,
+        "native_processing_receipts": 168,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 25,
+        "groups": 1,
+        "membership_changes": 3,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 2,
+        "withdrawals": 0,
+        "constituent_attempts": 4,
+        "observed_constituent_results": 4,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 12,
+        "proposals": 2,
+        "generated_attribution_proposals": 2,
+        "votes": 4,
+        "nonacceptances": 0,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 2,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    },
+    "public_burden_and_dispute": {
+      "checkpoint_sha256": "8cbd0595f572bc76d0087dae7e5252df28203af43871b49bff5fd5adc1224d9b",
+      "transactions_sha256": "ecc6ee1bf617f9017b6548b44753b4bd02e76c4ae50fe8808d25da08c00757e1",
+      "audit": {
+        "passed": true,
+        "transactions": 589,
+        "operation_attempts": 187,
+        "charged_energy": 14060,
+        "charged_time": 14060,
+        "physical_commits": 14,
+        "native_processing_receipts": 173,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 27,
+        "groups": 1,
+        "membership_changes": 3,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 2,
+        "withdrawals": 0,
+        "constituent_attempts": 4,
+        "observed_constituent_results": 4,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 14,
+        "proposals": 2,
+        "generated_attribution_proposals": 2,
+        "votes": 4,
+        "nonacceptances": 0,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 1,
+        "institutional_practices": 2,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 1
+      }
+    },
+    "private_correction_public_rule": {
+      "checkpoint_sha256": "bb48434978ab92bfd4a4f9c04437051412c7093acdf80113d98804bfc5b3b856",
+      "transactions_sha256": "f22cf164daf9d7358b9a9317f41a82b3402164a0a9a99f00974e4bd2c486bafc",
+      "audit": {
+        "passed": true,
+        "transactions": 641,
+        "operation_attempts": 204,
+        "charged_energy": 16954,
+        "charged_time": 16954,
+        "physical_commits": 14,
+        "native_processing_receipts": 189,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 31,
+        "groups": 1,
+        "membership_changes": 3,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 2,
+        "withdrawals": 0,
+        "constituent_attempts": 4,
+        "observed_constituent_results": 4,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 18,
+        "proposals": 3,
+        "generated_attribution_proposals": 2,
+        "votes": 6,
+        "nonacceptances": 1,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 2,
+        "institutional_practices": 2,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 1
+      }
+    },
+    "collective_correction_and_work": {
+      "checkpoint_sha256": "7073d6b8dbb1adde395cc89db7005beb1642a3548f4ef83bc8abc7bb5a6ff202",
+      "transactions_sha256": "9dcc112fd9f3a10b41646a6ac4df1423517ebcad98912d9d967224dd3f52fbf9",
+      "audit": {
+        "passed": true,
+        "transactions": 743,
+        "operation_attempts": 237,
+        "charged_energy": 22612,
+        "charged_time": 22612,
+        "physical_commits": 16,
+        "native_processing_receipts": 220,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 18,
+            "consumed": 2
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 42,
+        "groups": 1,
+        "membership_changes": 4,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 3,
+        "withdrawals": 0,
+        "constituent_attempts": 6,
+        "observed_constituent_results": 6,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 24,
+        "proposals": 4,
+        "generated_attribution_proposals": 2,
+        "votes": 8,
+        "nonacceptances": 1,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 1,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 2,
+        "institutional_practices": 3,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 1
+      }
+    },
+    "succession_and_newcomer": {
+      "checkpoint_sha256": "dfbdfde1315c766cc64b4b1e437ef4b022cb45d8697305d46aa11f1051b2e313",
+      "transactions_sha256": "552724c473d7be957eeba3c83dee18af85c91d9c141717c39b108e3b842940c5",
+      "audit": {
+        "passed": true,
+        "transactions": 974,
+        "operation_attempts": 312,
+        "charged_energy": 33731,
+        "charged_time": 33731,
+        "physical_commits": 22,
+        "native_processing_receipts": 288,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 18,
+            "consumed": 2
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 66,
+        "groups": 1,
+        "membership_changes": 7,
+        "accepted_memberships": 2,
+        "scoped_summaries": 0,
+        "consents": 5,
+        "withdrawals": 0,
+        "constituent_attempts": 10,
+        "observed_constituent_results": 10,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 35,
+        "proposals": 5,
+        "generated_attribution_proposals": 2,
+        "votes": 10,
+        "nonacceptances": 1,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 1,
+        "successions": 1,
+        "dissolutions": 0,
+        "public_consequences": 2,
+        "institutional_practices": 5,
+        "newcomer_understandings": 1,
+        "institutional_withdrawals": 0,
+        "disputes": 1
+      }
+    },
+    "complete_institution_history": {
+      "checkpoint_sha256": "50489274650006f2a8d254b4999cbc35c2d2fdabd77b142478954e0d4f8a0382",
+      "transactions_sha256": "df2d8341143ee970e450c2cc7971450244973472837df9320f65aafc71349f23",
+      "audit": {
+        "passed": true,
+        "transactions": 1010,
+        "operation_attempts": 324,
+        "charged_energy": 37571,
+        "charged_time": 37571,
+        "physical_commits": 22,
+        "native_processing_receipts": 299,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 18,
+            "consumed": 2
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 72,
+        "groups": 1,
+        "membership_changes": 8,
+        "accepted_memberships": 2,
+        "scoped_summaries": 0,
+        "consents": 6,
+        "withdrawals": 0,
+        "constituent_attempts": 10,
+        "observed_constituent_results": 10,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 40,
+        "proposals": 6,
+        "generated_attribution_proposals": 2,
+        "votes": 12,
+        "nonacceptances": 1,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 1,
+        "successions": 1,
+        "dissolutions": 1,
+        "public_consequences": 2,
+        "institutional_practices": 5,
+        "newcomer_understandings": 1,
+        "institutional_withdrawals": 0,
+        "disputes": 1
+      }
+    },
+    "no_attribution_control": {
+      "checkpoint_sha256": "a9774bc0aeb97ff23bb42994dbd81b2092cc8caa9c6bd4b785602e87021bbe3d",
+      "transactions_sha256": "84056898815cec7ad01f60b26a73bc5fb62a2cf8e645e9d8366c5187a1bd5bf1",
+      "audit": {
+        "passed": true,
+        "transactions": 353,
+        "operation_attempts": 111,
+        "charged_energy": 1846,
+        "charged_time": 1846,
+        "physical_commits": 10,
+        "native_processing_receipts": 101,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 4,
+        "groups": 1,
+        "membership_changes": 1,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 0,
+        "withdrawals": 0,
+        "constituent_attempts": 0,
+        "observed_constituent_results": 0,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 1,
+        "proposals": 1,
+        "generated_attribution_proposals": 0,
+        "votes": 0,
+        "nonacceptances": 0,
+        "institutions": 0,
+        "maintained_rules": 0,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 0,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    },
+    "legitimate_boundary_control": {
+      "checkpoint_sha256": "b58ba6b2f7a8afc1ca797e1296d3ce4ef0fe84bb346305aa99b2dc9b2e8d37ef",
+      "transactions_sha256": "fe0457ff46a122f18e6f75813acaa3e7598a412487b734c451927a5387be4efa",
+      "audit": {
+        "passed": true,
+        "transactions": 369,
+        "operation_attempts": 116,
+        "charged_energy": 2258,
+        "charged_time": 2258,
+        "physical_commits": 10,
+        "native_processing_receipts": 106,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 5,
+        "groups": 1,
+        "membership_changes": 1,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 0,
+        "withdrawals": 0,
+        "constituent_attempts": 0,
+        "observed_constituent_results": 0,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 2,
+        "proposals": 1,
+        "generated_attribution_proposals": 0,
+        "votes": 1,
+        "nonacceptances": 1,
+        "institutions": 0,
+        "maintained_rules": 0,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 0,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    },
+    "water_pump_institution": {
+      "checkpoint_sha256": "567197d7c598ff3f2e8ec771f208d1e4e99fd4a6bd9e86c5a63cc318b5337ddf",
+      "transactions_sha256": "6a8fb4c3d38ca40d13158d028ca25d8e101f0ef264b6b79f7ddcfd12094e6616",
+      "audit": {
+        "passed": true,
+        "transactions": 602,
+        "operation_attempts": 191,
+        "charged_energy": 14627,
+        "charged_time": 14627,
+        "physical_commits": 15,
+        "native_processing_receipts": 176,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 17,
+            "consumed": 3
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 18,
+            "consumed": 2
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 27,
+        "groups": 1,
+        "membership_changes": 3,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 2,
+        "withdrawals": 0,
+        "constituent_attempts": 5,
+        "observed_constituent_results": 5,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 12,
+        "proposals": 2,
+        "generated_attribution_proposals": 2,
+        "votes": 4,
+        "nonacceptances": 0,
+        "institutions": 1,
+        "maintained_rules": 1,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 2,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    },
+    "partial_institutional_work": {
+      "checkpoint_sha256": "bf074180e2da2cca9eb0b2aace5e5e452da9a26bc336406745851c86595b5989",
+      "transactions_sha256": "02fa8de4e27c6cb3ffbe8d415ed81e4cbca666cad54d1af5d0880a863f87b220",
+      "audit": {
+        "passed": true,
+        "transactions": 392,
+        "operation_attempts": 123,
+        "charged_energy": 1827,
+        "charged_time": 1827,
+        "physical_commits": 10,
+        "native_processing_receipts": 112,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 1,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 3,
+        "groups": 1,
+        "membership_changes": 1,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 0,
+        "withdrawals": 0,
+        "constituent_attempts": 0,
+        "observed_constituent_results": 0,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 0,
+        "proposals": 0,
+        "generated_attribution_proposals": 0,
+        "votes": 0,
+        "nonacceptances": 0,
+        "institutions": 0,
+        "maintained_rules": 0,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 0,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    },
+    "continued_institutional_work": {
+      "checkpoint_sha256": "497826dd1a286031a61a81a481738ed2c18287c86334bb960bbe894e997acea0",
+      "transactions_sha256": "b1c2eba894d12a098490ab290eb3ceb26ec32045c902de1b5b085262d0b396a2",
+      "audit": {
+        "passed": true,
+        "transactions": 394,
+        "operation_attempts": 123,
+        "charged_energy": 2322,
+        "charged_time": 2322,
+        "physical_commits": 10,
+        "native_processing_receipts": 113,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 0,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 4,
+        "groups": 1,
+        "membership_changes": 1,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 0,
+        "withdrawals": 0,
+        "constituent_attempts": 0,
+        "observed_constituent_results": 0,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 1,
+        "proposals": 1,
+        "generated_attribution_proposals": 1,
+        "votes": 0,
+        "nonacceptances": 0,
+        "institutions": 0,
+        "maintained_rules": 0,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 0,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    },
+    "exhausted_coordination": {
+      "checkpoint_sha256": "d67ea175fd0d9feecfb50e3e381d305e1ca34ad5cdc979825549f3b50b780881",
+      "transactions_sha256": "0c0b32960be44f63434b5ee89bf88dee86c1741f1f6299997542859ddf4c200d",
+      "audit": {
+        "passed": true,
+        "transactions": 392,
+        "operation_attempts": 123,
+        "charged_energy": 30655,
+        "charged_time": 30655,
+        "physical_commits": 10,
+        "native_processing_receipts": 112,
+        "stocks": [
+          {
+            "key": "care",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "stock",
+            "quantity": 2,
+            "available": 2,
+            "consumed": 0
+          },
+          {
+            "key": "u11-bob-care",
+            "quantity": 8,
+            "available": 8,
+            "consumed": 0
+          },
+          {
+            "key": "u11-care-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-care-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-consume-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-consume-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          },
+          {
+            "key": "u11-repair-alice",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-bob",
+            "quantity": 20,
+            "available": 19,
+            "consumed": 1
+          },
+          {
+            "key": "u11-repair-eve",
+            "quantity": 20,
+            "available": 20,
+            "consumed": 0
+          }
+        ],
+        "active_reservations": 1,
+        "constructive_commits": 0,
+        "search_tickets": 0,
+        "candidates": 0,
+        "retained_procedures": 0,
+        "conditional_revisions": 0,
+        "physical_steps": 0,
+        "successful_runs": 0,
+        "failed_runs": 0,
+        "consequence_demands": 0,
+        "generalization_demands": 0,
+        "interrupted_demands": 0,
+        "constructive_surfaces": 0,
+        "language_commits": 0,
+        "messages": 0,
+        "interpretations": 0,
+        "questions": 0,
+        "lexical_versions": 0,
+        "stable_learned_versions": 0,
+        "meaning_repairs": 0,
+        "practical_responses": 0,
+        "refusals": 0,
+        "explicit_commitments": 0,
+        "fulfilled_commitments": 0,
+        "collective_commits": 3,
+        "groups": 1,
+        "membership_changes": 1,
+        "accepted_memberships": 1,
+        "scoped_summaries": 0,
+        "consents": 0,
+        "withdrawals": 0,
+        "constituent_attempts": 0,
+        "observed_constituent_results": 0,
+        "collective_capacities": 0,
+        "nested_calls": 0,
+        "institution_operations": 0,
+        "proposals": 0,
+        "generated_attribution_proposals": 0,
+        "votes": 0,
+        "nonacceptances": 0,
+        "institutions": 0,
+        "maintained_rules": 0,
+        "public_revisions": 0,
+        "successions": 0,
+        "dissolutions": 0,
+        "public_consequences": 0,
+        "institutional_practices": 0,
+        "newcomer_understandings": 0,
+        "institutional_withdrawals": 0,
+        "disputes": 0
+      }
+    }
+  },
+  "scope": "Deterministic development witnesses in two named material contexts; no release holdouts or efficiency claim."
+}

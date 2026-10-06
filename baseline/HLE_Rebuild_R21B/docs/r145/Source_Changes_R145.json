@@ -1,0 +1,55 @@
+{
+  "reason": "R14.5 exact-key detail memory and conceptual hooks; historical bytes retained.",
+  "changed": [
+    {
+      "path": "hle/__init__.py",
+      "before": "7c45ccc6b482070615ae825d56a3caf27de8ec8ece81a8a3bd6e936dc5ab456b",
+      "after": "43004d9a9101ed69cd2917e74f7d58e787b618b000bf1173258e2b0969fd0343"
+    },
+    {
+      "path": "hle/__main__.py",
+      "before": "51d9dbf4f70085ebee21dcf450a004e517a274a3abf4aa1f3f4733bae5e6913f",
+      "after": "5bd038251f44183d723216b744147e8873e4d0314ef92fbba8e90b340c0bca8a"
+    },
+    {
+      "path": "hle/autonomy.py",
+      "before": "0f0ab9a36fc37f51ace7087ff234cf23ee3d1b426d3468562216e3f47a3de544",
+      "after": "ade3b0513fd1f598f27baa65acb3b0b295e773c113bec21ddb594276ea88ea05"
+    },
+    {
+      "path": "hle/autonomy_policy.py",
+      "before": "64c649792189ac50564bc15b5a589e601433b2e61db3eac9ed3e92727029e493",
+      "after": "a0f1050ba52dac7302b1e325c370cdf93c17b2bc68f857b0af902f6bc90ce5ee"
+    },
+    {
+      "path": "hle/codec.py",
+      "before": "e7a909aa1ed8eb874fd7e4efc8c12105f62a82b5fa6fb81e35c5d67d95a1876f",
+      "after": "34f71063161cf1bee41ad9e4bbdaddb3e69f76ffbced57d9f19e40340ea9d599"
+    },
+    {
+      "path": "hle/developmental.py",
+      "before": "d0d87555e57c514d03744c85fd967a2bc1b3bbd039bdb36e2d0243a4faca3dcc",
+      "after": "7c59649c12877a6f3fb12f31c2125e03c4924c1138567b5217dea7f944d50679"
+    },
+    {
+      "path": "hle/memory.py",
+      "before": "0d97de5af2e5c3fac649b0d50b4adcae5629444a07d83f2148d4caa5f83f3d89",
+      "after": "a4aa284ecc5382e134b13e5ffa0d9a497ee3f5d08e91759d14f18588ecbf56cf"
+    },
+    {
+      "path": "hle/memory_records.py",
+      "before": "1dbe5ff8fb5ec210ea4fa7f62a1c272f8bc2e3184be6c6e76608145ccc83e5f5",
+      "after": "eb40f079a206dff1be36dee352ed977891035cacf67de1acf5ba401b52763ada"
+    }
+  ],
+  "new_runtime_modules": [
+    "hle/conceptual.py",
+    "hle/concept_demo.py",
+    "hle/concept_structure.py",
+    "hle/concept_records.py"
+  ],
+  "amended_source_preservation_tests": [
+    "tests/test_composition.py",
+    "tests_r12/test_specification.py"
+  ]
+}

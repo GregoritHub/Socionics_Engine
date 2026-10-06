@@ -1,0 +1,8 @@
+{
+  "schema": "hle-c1-audit-review-amendment-v1",
+  "reason": "A paired edit to an observation and its delivered condition could pass the early independent auditor before semantic comparison began.",
+  "scope": "Independent C1 auditor only; no participant runtime or modeled cost change.",
+  "new_gate": "Delivered native observations must preserve the complete projected attributes, content, referent and recipient of their actual C1 trial event.",
+  "validation": "Add a paired observation/delivery corruption control, rerun the complete affected C1 suite, and re-audit all retained witnesses before performance measurement.",
+  "preservation": "Retain the original 474-test passing run, first failed fixture run, and demonstrated audit gap. The 454 unchanged inherited native results remain applicable. Do not count repeated C1 methods twice."
+}

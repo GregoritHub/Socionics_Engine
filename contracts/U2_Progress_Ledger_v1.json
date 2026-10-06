@@ -1,0 +1,121 @@
+{
+  "schema": "hle-unified-u2-completion-v1",
+  "milestone": "U2",
+  "status": "complete",
+  "progress": {
+    "completed": 2,
+    "total": 14,
+    "remaining": 12,
+    "next": "U3 \u2014 compact particulars and situated access"
+  },
+  "acceptance_cases": [
+    {
+      "id": "U2-01",
+      "name": "instances",
+      "criterion": "Keep distinct instance identities, custody, and histories.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_01_instances"
+    },
+    {
+      "id": "U2-02",
+      "name": "nonmental_material",
+      "criterion": "Supported material interactions work without allocating a full mind.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_02_nonmental_material"
+    },
+    {
+      "id": "U2-03",
+      "name": "relation_identity",
+      "criterion": "Preserve participants, scope, prior revision, and causal provenance.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_03_relation_identity"
+    },
+    {
+      "id": "U2-04",
+      "name": "hypothesis",
+      "criterion": "Record the hypothesis without adding an actual physical event.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_04_hypothesis"
+    },
+    {
+      "id": "U2-05",
+      "name": "historical_revision",
+      "criterion": "Reconstruct the earlier meaning without consulting only the mutable head.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_05_historical_revision"
+    },
+    {
+      "id": "U2-06",
+      "name": "split_merge",
+      "criterion": "Keep explicit lineage and enforce resource ownership.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_06_split_merge"
+    },
+    {
+      "id": "U2-07",
+      "name": "finite_cycle",
+      "criterion": "Use finite references without recursive whole-world copying.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_07_finite_cycle"
+    },
+    {
+      "id": "U2-08",
+      "name": "legacy_adapter",
+      "criterion": "Exactly recover all promised legacy data and its protected semantic projection.",
+      "status": "established",
+      "test_id": "tests_u2.test_acceptance.Acceptance.test_U2_08_legacy_adapter"
+    }
+  ],
+  "final_validation": {
+    "u2_tests": 31,
+    "legacy_selected_tests": 71,
+    "distinct_total": 102,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "matched_legacy_sequences": 216,
+    "command_steps_per_side": 648
+  },
+  "witness_checks": {
+    "distinct_equal_forms": true,
+    "independent_custody": true,
+    "relation_history": true,
+    "hypothesis_not_actual": true,
+    "past_meaning": true,
+    "conservation": true,
+    "finite_cycle": true,
+    "native_replay_exact": true,
+    "legacy_partial_exact": true,
+    "legacy_paid_continuation_exact": true,
+    "legacy_v4_roundtrip_exact": true,
+    "legacy_v4_continuation_exact": true
+  },
+  "frozen_baseline": {
+    "schema": "u1-frozen-baseline-verification-v1",
+    "members_checked": 3044,
+    "runtime_modules": 98,
+    "legacy_runtime_sha256": "671c400c5e31b401c0b52b66a433ab3ff894fc936211bc479f4647ea954f25f0",
+    "legacy_digest_matches": true,
+    "u1_protocol_digest_matches": true,
+    "failures": [],
+    "passed": true
+  },
+  "source_unchanged_during_final_execution": true,
+  "executed_held_out_seeds": [],
+  "historical_only": [
+    "U1 full 912-test inherited run",
+    "U1 six candidate/witness pairs and two controls",
+    "U1 performance and large positive v4 checkpoint measurements",
+    "original R21B development panels"
+  ],
+  "open": [
+    "U3 situated access and efficient particulars",
+    "U4 generalized paid operations",
+    "U5\u2013U12 integrated developmental features",
+    "U13 performance acceptance",
+    "U14 sustained release",
+    "separate legacy R21C release acceptance"
+  ],
+  "execution_source_sha256": "d72acf15c22c870f525dc9463d972c6da36f5bb3c9a6caf2517f6d0c79a897ac",
+  "protocol_sha256": "c6d3034a7d971bfb92f41c441c25efe5173cb585fc66d97534fbe61bbff82b1b"
+}

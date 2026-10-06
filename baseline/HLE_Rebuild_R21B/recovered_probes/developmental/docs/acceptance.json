@@ -1,0 +1,42 @@
+{
+  "experiment": "Id/Identity developmental coupling probe v1 after R11",
+  "declaration": "Fixed before implementation and outcome evaluation; all phase-to-operation meanings are hypotheses.",
+  "source": "Fool's Memory P0107-P0117 specifies a 3:1 recurrence but leaves traversal and Id/Identity equivalence open. Developmental Dynamics P0328-P0359 emphasizes consequences, embodiment, retained capacity, and renewed demand. R4 supplies bounded Theorize/Apply/Embody semantics; R5 supplies bounded evaluator assessment.",
+  "mapping": {"Sun19": "Paid contextual recall and Theorize I to ITS", "Judgement20": "Paid Apply ITS to IT, including actual action consequences", "World21": "Paid Embody IT to I, then paid exact cue rebinding so retained consequences and acquired checking can affect the next cycle"},
+  "clock": "Advance outer Z9 and inner Z3 after a complete phase, including its required publication work. Three phases form one demand circuit; three demand circuits form one outer lap. Twelve circuits produce four outer laps and twelve inner laps. This is a new operational hypothesis, not the previous probe's three read queries per outer frame.",
+  "types": ["iee", "lse", "lsi", "eii", "ile", "esi"],
+  "seeds": [17, 43, 91],
+  "regimes": ["volatile", "always_executable"],
+  "actor_work_budgets": [600, 2400],
+  "work_chunk": 16,
+  "policies": ["coupled", "episode_only", "feedback_off", "once_per_outer", "generic_coupled"],
+  "controls": {
+    "coupled": "Current episode cue plus shared World21 lesson; publish shared lesson every circuit.",
+    "episode_only": "Same paid retention and publication, but recall only the current episode cue; shared checking cannot transfer through World21.",
+    "feedback_off": "Same paid processing and retention, but recall the original unmodified episode cue; later decisions cannot read the new revisions or shared lesson.",
+    "once_per_outer": "Current episode and shared lesson recall; publish the shared lesson only every third completed circuit.",
+    "generic_coupled": "Exactly the coupled operations and feedback under generic stage names; predicted to match, preventing a semantic claim from labels alone."
+  },
+  "demand_items": [0, 1, 0, 2, 1, 3, 2, 3, 4, 5, 4, 6],
+  "volatile_actor_owns_before": [false, false, true, false, true, true, true, false, false, true, true, false],
+  "always_executable_actor_owns_before": [true, true, true, true, true, true, true, true, true, true, true, true],
+  "quiet_interval": "Ten external ticks after circuit 6, with no memory or capability edits.",
+  "external_intervention": "Set each declared demand's ownership through real R2 transfers. If the acting participant must pay a fixture transfer, credit exactly that external setup cost; disclose and audit it separately. No Truth owner, assessment verdict, or selected correct action enters Theorize or Apply.",
+  "primary_full_budget_gates": {
+    "D1": "Coupled volatile runs acquire checking through actual discrepant experience and Embody, never through inserted capability records.",
+    "D2": "Coupled volatile runs reuse that checking on an unseen object at circuit 2, after the quiet interval, and at the final unseen object; at least 95% of post-training demands avoid invalid transfers and execute transfer when ownership permits.",
+    "D3": "At 2400 units, coupling improves post-training appropriate-demand rate by at least 20 percentage points over feedback_off and demonstrates earlier cross-object use than episode_only and once_per_outer. Report all matched costs and failures, including always-executable demands, without requiring universal cost savings.",
+    "D4": "Report R5 retained-capacity, path and Shell-candidate results. Never call an error a Shell, a lack of recurrence a clearance, or unchanged loop closure new developmental altitude.",
+    "D5": "The unnamed generic loop must exactly match coupled execution. A match establishes feedback coupling, not unique Id/Identity semantics or superiority of 3:1 over arbitrary frequencies."
+  },
+  "fidelity_gates": [
+    "The actual current Model A element and perspective route every operation; no perspective reset or free capability access.",
+    "Positive work consumes energy and time; pending operations and required bindings do not advance the phase; exact retry is idempotent.",
+    "Restored partial processing/action/embodiment/publication states continue identically; a rehashed invented controller position is rejected.",
+    "Old cue bindings keep exact old revisions; only published new bindings enable later recall of consequences.",
+    "Independent evidence audit checks all declared cases, bills, actual actions and selected complete journal replays."
+  ],
+  "route_controls": "All 16 TIMs on one ample volatile coupled run; compare fully neutral routing/prices under matched content and demand. Report structural type-cost differences without claiming psychological calibration.",
+  "stopping_rule": "Run the declared panel and required fidelity gates. No tuning seeds, intervention timing, phase meanings, thresholds, or budgets to obtain a pass. Preserve R11 and report incomplete scarce runs as resource-limited.",
+  "limits": "Supplied goals, finite ownership/action/checking grammar, fixed TIMs, and hypothesis-based phase mapping. No autonomous problem invention, psychological proof, unrestricted organization, novel capability grammar, spontaneous Shell generation or general clearance."
+}

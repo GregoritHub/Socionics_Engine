@@ -1,0 +1,43 @@
+{
+  "schema": "hle-u9-source-authority-v1",
+  "read_for_this_step": [
+    {
+      "file": "HLE_Unified_Object_Engine_Implementation_Roadmap_After_U8(1).md",
+      "sha256": "610e5e9f1142ec0d11b4ccc41d8f30c2a5d3afe13ca44be35f9ae8790c32b3d0",
+      "status": "current project contract",
+      "used_for": "Constructive procedures, counterexample revision, finite paid search and acceptance gates."
+    },
+    {
+      "file": "HLE_Unified_U8_Report_v1.md",
+      "sha256": "f1cfbe50c047855b6469dee4ad82b48aaeb21346840070ad3d119bb2a76a9697",
+      "status": "supplied predecessor report",
+      "used_for": "Inherited claims and limits; independently rerun applicable predecessor evidence."
+    },
+    {
+      "file": "08-HLE_New_Build_Foundation_v1.md",
+      "sha256": "a655f106fcdc1f2c03df1bbc04e51a8ee5e3a7d83bead0a07c53a39d2d6c28e7",
+      "status": "project foundation",
+      "used_for": "Preserved identity, paid work, participant/assessor separation, scoped return claims."
+    }
+  ],
+  "implementation_input": {
+    "file": "HLE_Unified_U8_Source_v1.zip",
+    "sha256": "c1c8f21a9737985d8fc665f417bc9cc79e243e65cc6df1afdaa37045b50949b2"
+  },
+  "theoretical_material": "U2-U8 source structures and authority distinctions are carried forward unchanged. This milestone does not claim a fresh theoretical verification of all seven supplied theoretical documents.",
+  "engineering_choices": [
+    "Four acquired atomic material affordances with an explicit predictor",
+    "Breadth-first enumeration over primitive operations, guarded calls and ordered alternatives",
+    "Finite ticket prices and preserved residual interpreter stacks",
+    "Initial-condition generalization and observed-feature conditional split",
+    "Retain a procedure only after complete observed successful execution",
+    "Distinguish conceptual counterexamples from interrupted work, resource/permission limits and unresolved failure"
+  ],
+  "open": [
+    "General semantic or natural language learning",
+    "Universal compositional or psychological validity",
+    "Whole-engine integration of every existing autonomy policy with the new procedure repertoire",
+    "Performance and sustained release acceptance",
+    "Independent adapting partners and institutions in U10-U12"
+  ]
+}

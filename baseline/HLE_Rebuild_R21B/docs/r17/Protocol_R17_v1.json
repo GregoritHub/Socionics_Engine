@@ -1,0 +1,24 @@
+{
+  "schema": "hle-r17-protocol-v1",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "claim": "R17 conversion and consequential reuse in the finite entrusted-tool workshop",
+  "primary_type": "iee",
+  "historical_gated_loans": 3,
+  "established_maintenance_engagements": 3,
+  "practice": ["optional independent return", "required confirmed return"],
+  "retention_gate": "Distinct real own-return consequences cover both accepted-condition branches; no provisional proposal alone is executable as retained capacity.",
+  "renewal": ["optional same-scope renewal", "second optional renewal", "novel optional item", "novel required item with changed lender"],
+  "support": "Former cheapest carrier explicitly withdraws before renewals; another legitimate carrier remains available to every condition.",
+  "controls": ["material access removed", "physical practice disabled", "retention disabled after practice", "post-acquisition access restriction", "post-acquisition capacity withdrawal", "live material deletion fault"],
+  "current_resource_match": {"energy_per_actor": 20000, "time_per_actor": 20000, "point": "after acquisition or its matched control, before renewal"},
+  "implementation_hypotheses": [
+    "A finite table grammar compares always independent, always confirmed, and current-terms conditional release.",
+    "Release explicitly opens an opportunity over generated R15/R16 material; initiation is not claimed spontaneous.",
+    "A failed physical practice return adds an executable fresh-own-inspection guard; native cleaning may repair a changed physical precondition.",
+    "Two successful branches license retention; the learned rule remains bound to this workshop context.",
+    "Paid current recall and accessible original material are required for ordinary independent use; unavailable conditional processing falls back to the preserved earlier habit.",
+    "Complementary accepting work targets cp(1)=5, and producing work targets E(5)=6. These are elected task assignments, not a completed R18 circuit."
+  ],
+  "checks": ["R17.1", "R17.2", "independent work and physical outcome fold", "source and material lineage", "phase and partial checkpoint continuation", "failed practice and retry", "historical positive assessments preserved", "no inactive journal traversal", "718 inherited tests"],
+  "excluded": ["R18 full sixteen-type individuation", "R19 Shell clearance", "R20 recursive/shared closure", "R21 480-case release", "unrestricted grammar", "psychological validity"]
+}

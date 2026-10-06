@@ -1,0 +1,76 @@
+{
+  "schema": "hle-unified-u8-protocol-v1",
+  "status": "declared_before_implementation_and_evaluation",
+  "cases": {
+    "U8-01": "Local paid correction changes its target only; origin, other bindings, renewed residual recurrence and carrier displacement survive.",
+    "U8-02": "Temporary approval support enables response without independent mastery; two distinct observed independent practices are required for reusable guarded capacity.",
+    "U8-03": "Retained capacity works on unfamiliar targets and changed partners after withdrawal at the same or greater simultaneous demand; independent later return permits reownership.",
+    "U8-04": "Separate factual accuracy, useful performance, pathway, and retained access; rest, forgetting, incomplete work and a single endpoint do not establish clearance.",
+    "U8-05": "Raw accounting/provenance, hidden state isolation, replay, partial continuation, forged evidence and protected regressions."
+  },
+  "construction": "Deterministic finite development panel. U14 reserved cases and R21C are not used.",
+  "representation": "Paid local bindings; observed practice episodes; learned scope keyed to actor/pattern/context/cue/trigger; capacity load supported by at least two independent batches; original material preserved through versioned treatment.",
+  "operations": [
+    "release",
+    "respond",
+    "practice",
+    "reorganize",
+    "reown"
+  ],
+  "capacity_rule": "At least two distinct independently executed, observed and retained successful batches, at least two distinct target identities. Maximum load is the greatest batch size supported by two episodes. Current processed safety/availability/consent/actual-requirement checks always apply. No universal action or semantic capacity.",
+  "correction_scope": "Only generated or injected approval/obligation effects have an evidence-supported release operator in U8; other U7 effects remain residual/unassessed.",
+  "return_protocols": [
+    "withdraw_approval",
+    "change_partner",
+    "renew_simultaneous_demand",
+    "later_opportunity",
+    "restore_and_continue"
+  ],
+  "identity_features": [
+    "origin_material_identity",
+    "owner",
+    "context",
+    "cue",
+    "trigger",
+    "guarded_response_organization",
+    "acquired_load"
+  ],
+  "path_checks": [
+    "paid lawful Model A route",
+    "no external approval support",
+    "no active attribution deformation",
+    "retained accessible evidence",
+    "actual response outputs",
+    "actual material use in separate U6 witness"
+  ],
+  "claim_boundary": "Only enumerated finite returns. No proof that returns respect identity equivalence; arbitrary composite closure remains unassessed.",
+  "controls": [
+    "supported_only",
+    "single_practice",
+    "duplicate_observation",
+    "foreign_observation",
+    "fabricated_observation",
+    "unread",
+    "incomplete_fields",
+    "hidden_change",
+    "received_change",
+    "threat",
+    "refusal",
+    "actual_requirement",
+    "unavailable",
+    "different_trigger",
+    "different_context",
+    "overload",
+    "quiet",
+    "truncated_recall",
+    "wrong_pattern",
+    "scarcity",
+    "cancelled_work",
+    "tampered_cost",
+    "tampered_capacity"
+  ],
+  "ordinary_budget": 20000,
+  "work_chunk": 1,
+  "recall_limit": 128,
+  "regression": "All U2-U7 tests and raw witnesses plus U7 legacy panel; original 3044 baseline members remain byte-identical."
+}

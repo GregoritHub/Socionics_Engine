@@ -1,0 +1,20 @@
+[
+  {
+    "name": "HLE_New_Build_Step_R21_Evidence_v1_Part_1.zip",
+    "bytes": 308410263,
+    "sha256": "a4a42e77beeee68124ff8507da0cb17656c91d696a986dd23659f2ac5ef46035",
+    "crc_verified": true
+  },
+  {
+    "name": "HLE_New_Build_Step_R21_Evidence_v1_Part_2.zip",
+    "bytes": 308174306,
+    "sha256": "a415744c639a96a0f66e0ff0c16c04d624fb201171b519429ae3a0fbabcce61f",
+    "crc_verified": true
+  },
+  {
+    "name": "HolonicLivingEngine_Rebuild_R21_v1.zip",
+    "bytes": 183762315,
+    "sha256": "7fc18c15d40fd7626e8174286d1490b8e22625214d84ef414615ba2ea705702e",
+    "crc_verified": true
+  }
+]

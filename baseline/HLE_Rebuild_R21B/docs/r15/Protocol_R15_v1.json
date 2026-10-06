@@ -1,0 +1,38 @@
+{
+  "schema": "r15-protocol-v1",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "declared_before_implementation": true,
+  "domain": "accepted workshop loans and optional peer confirmation",
+  "runtime": "CompensationWorld extends ConceptualWorld; same journal",
+  "learning_hypothesis": "successful externally confirmed return induces a general external prerequisite; accumulated support raises the paid extent of revising that prerequisite; immediate work minimization can prefer repeated accommodation",
+  "constraints": [
+    "No seeded Shell verdict, false fact or per-condition defense sequence",
+    "Generated material preserves immutable origin and exact prior treatment",
+    "Peers selected from owned relational observations and advertised actual work costs, not return recipient",
+    "Reference semantics and observed particular truth remain separate from personal realization",
+    "No R16 Shell classification or R17/R19 development/clearance claim"
+  ],
+  "gates": {
+    "R15.1": "three renewed optional engagements after three genuine gated histories maintain false generalized prerequisite with work, matched direct-history run avoids it",
+    "R15.2": "generated hold/externalize/action/actual partner response/treatment continuation; refusal changes carrier; exhausted external options permit funded reownership with original material intact",
+    "R15.3": "three correct clean returns coexist with unchanged external prerequisite and independently reconstructed maintenance costs"
+  },
+  "controls": [
+    "same current optional terms and resources, different true histories",
+    "current required confirmation remains legitimate",
+    "zero resources publish no treatment",
+    "no new demand and inactive ticks do not incur maintenance",
+    "hidden facts cannot change detached selection",
+    "renamed actors and reordered offer costs change carrier by evidence",
+    "partial work, idempotence, stale term and receipt rejection",
+    "typed replay including forged outputs and old checkpoint import",
+    "remove history rewrite cost and confirm revision option wins"
+  ],
+  "coverage": {
+    "core_type": "iee",
+    "routing_types": "all 16; bounded generation is not R18 individuation",
+    "renewals": 3,
+    "history_episodes": 3
+  },
+  "comparison": "exact integer work and journal evidence; elapsed wall times descriptive"
+}

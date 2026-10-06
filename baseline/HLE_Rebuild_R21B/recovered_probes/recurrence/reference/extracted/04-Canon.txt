@@ -1,0 +1,1086 @@
+MATHEMATICAL REVISION / 11 SEPTEMBER 2026
+
+
+
+
+Canon of Permanent Truth
+IDEA
+Version 2.1: corrected mathematics and dependent claims
+
+Discord: @unicorn.lo
+
+
+
+
+     Stability is not the absence of change but the return through it.
+
+
+
+
+INITIATE       DEFINE        ENGAGE         ALIGN
+This revision preserves IDEA’s four phases and four perspectives. It replaces the defective formal con-
+struction in v2 with a model of contrast, explicit identity criteria, admissible transformation-and-return
+protocols, and closure under composition.
+The mathematical results concern the stated model. The broader claim that IDEA is the necessary form of all
+reality remains a philosophical hypothesis; it is not established by the equations.
+CANON OF PERMANENT TRUTH / IDEA                                             v2.1 / MATHEMATICAL CORRECTION
+
+
+Revision note and abstract
+
+The original five-page Canon of Permanent Truth (IDEA) provides the conceptual sequence and the
+perspectives Self, Relation, Object, and System. The 28-page v2 attempts to derive that architecture
+and universal truth from recursion. This corrected edition retains the architecture, repairs the formulas
+throughout, and revises the conclusions that depended on invalid mathematics.
+The changes are substantive. In particular, v2’s definition of recursive functions actually describes
+finite-order permutations; its phase hierarchy changes mathematical types; its unrestricted fixed-point
+condition is empty on every state space with at least two elements; and its final theorem uses non-return
+where it requires return. Several examples also confuse truth, consistency, recurrence, and evidence.
+
+
+Abstract
+
+IDEA is presented here as a parameterized framework for testing whether a specified identity survives
+specified transformations and returns. INITIATE records distinctions; DEFINE states structural con-
+straints and the identity to be tracked; ENGAGE evaluates declared tests; ALIGN establishes invariance
+under a declared family of return protocols and their finite compositions. The four perspectives organize
+these tests without being asserted to follow uniquely from recursion.
+A common state space keeps all operations well typed. A feature map makes preservation of identity
+explicit. Return protocols are specified independently of their success, and universal claims are restricted
+to the declared protocol family. A closure theorem proves that invariance under generating return maps
+extends to every finite composite when those maps respect the chosen identity equivalence. Finite ter-
+mination is established only under a finite-state assumption. The sixteen original examples are retained
+with corrected logical and evidential assessments.
+
+
+How to read this edition
+
+• Definitions specify the framework. They do not prove that it is necessary or uniquely correct.
+• Assumptions describe what an application must supply and what a theorem requires.
+• Propositions and theorems include arguments establishing their stated conclusions.
+• Interpretive passages preserve IDEA’s conceptual intent without treating it as a demonstrated
+  universal ontology.
+
+In this edition, permanence means preservation of a declared identity under every finite composition of declared
+return protocols. It does not mean empirical certainty, indestructibility under arbitrary interventions, or truth
+in every possible formal system.
+
+
+
+
+                                                       2
+CANON OF PERMANENT TRUTH / IDEA                                           v2.1 / MATHEMATICAL CORRECTION
+
+
+1. Mathematical setting and notation
+
+Let U be a set with at least two elements, used to represent a common background of possible distinctions.
+Calling it a primordial field is an interpretation. A set already comes with membership and equality; set
+notation does not derive distinction from a literally structureless origin.
+Let X be a nonempty set of candidate states or structured descriptions. It is separate from the set
+of transformations on those states. If a model contains persons, objects, relations, and systems, their
+encodings must be distinguished within X, for example by type tags and context records.
+For a set S, write P(S) for its power set. Let
+
+                                       End(X) = {f | f : X → X}.
+
+These are endofunctions, not necessarily computable, invertible, periodic, or successful at preserving
+identity. All compositions below use the same X.
+
+
+Symbol      Meaning and type
+U           Background set for contrast witnesses.
+X           Candidate state space; x ∈ X.
+∆           Unequal ordered pairs in U × U .
+Q           Four chosen perspective labels.
+κ:X→K       Declared identity features; x ≡κ y means κ(x) = κ(y).
+Pq          Declared pairs (f, r) of endofunctions: a transformation and a candidate return.
+Eq ⊆ P q    Nonempty subset selected for engagement tests.
+Hq          Completed protocol maps r ◦ f for perspective q.
+M           Monoid generated by all completed protocol maps.
+B⊆X         States satisfying all initiation and definition requirements.
+I∗ ⊆ X      States in B preserving identity under every map in M.
+N ∗ ∈ N0    First finite stabilization index, when it exists.
+
+
+The symbols I∗ and N∗ replace the two incompatible uses of Ifinal in v2. The phase filters ∇, µ, ε, α all
+have type P(X) → P(X); they are never simultaneously treated as state maps and sets.
+The model uses ordinary classical mathematics. Applying IDEA to a different logic requires an explicit
+replacement of the relevant logical semantics.
+
+
+
+
+                                                      3
+CANON OF PERMANENT TRUTH / IDEA                                          v2.1 / MATHEMATICAL CORRECTION
+
+
+2. Four perspectives as an explicit architecture
+
+Retain the two descriptive axes interior/exterior and singular/plural. Their product supplies four labels:
+
+                               Q = {interior, exterior} × {singular, plural}.
+
+Use q0 = I, q1 = W e, q2 = It, and q3 = Its with the following correspondence.
+
+
+Label    Perspective          Interpretive role
+I        Interior, singular   Self: the represented standpoint or internal organization of one
+                              participant.
+We       Interior, plural     Relation: shared interpretation, coordination, and mutual expectations.
+It       Exterior, singular   Object: the observable behavior or structure of an individual entity.
+Its      Exterior, plural     System: interactions, constraints, and organization across a composite.
+
+
+The count |Q| = 2 · 2 = 4 follows once these two binary axes are chosen. The choice and completeness
+of those axes do not follow from the return equations.
+The four proposed return motifs in v2 are useful descriptions but are not disjoint mathematical classes.
+If r(a) = b and r(b) = a, that mutual return is also a two-step cycle. Taking f = r gives r(f (a)) = a,
+so it is simultaneously an instance of transformative return. A map can also have fixed points elsewhere.
+Fixed-point behavior alone therefore does not assign every map to exactly one of the four labels.
+Here, each perspective receives an explicitly specified family of tests. A test may belong to more than one
+perspective. Thus HI , HW e , HIt , HIts may overlap; they are not asserted to partition all transformations.
+Labels are not state spaces, and expressions such as Rec(W e) are not used.
+
+
+What a fourfold derivation would still require
+
+A derivation would need independently stated primitives, an equivalence relation on candidate phases
+or scopes, a rule of generation, a proof of exhaustiveness, and a proof that no smaller collection suﬀices.
+None of these conclusions follows simply by naming four return patterns. This edition uses the fourfold
+organization as a framework assumption, preserving it as a subject for later investigation.
+
+
+
+
+                                                     4
+CANON OF PERMANENT TRUTH / IDEA                                           v2.1 / MATHEMATICAL CORRECTION
+
+
+3. Return protocols and the identity being tested
+
+Choose a feature map κ : X → K. It states what is to count as the identity of a candidate during this
+assessment:
+                                  x ≡κ y ⇐⇒ κ(x) = κ(y).                                          (1)
+This is an equivalence relation because equality in K is reflexive, symmetric, and transitive. Exact-state
+return is the special case K = X and κ = idX .
+For each q ∈ Q, supply a nonempty family
+
+                                        Pq ⊆ End(X) × End(X).
+
+A pair p = (f, r) describes a transformation f followed by a candidate return r. Its completed map is
+hp = r ◦ f . Define                                              ∪
+                               Hq = {r ◦ f : (f, r) ∈ Pq }, H=      Hq .                          (2)
+                                                                    q∈Q
+
+A successful return at x means
+
+                            κ(r(f (x))) = κ(x),      equivalently hp (x) ≡κ x.                          (3)
+
+The input may change: f (x) 6= x is compatible with a successful return. That inequality is required
+only when a particular test is intended to be a nontrivial perturbation. Neither every phase nor every
+admissible test must change every candidate.
+
+
+Requirements that prevent a circular test
+
+The state space, features, protocol maps, and application conditions must be specified before certifying
+success. A failed protocol remains a failed protocol; it is not removed by defining “admissible” to mean
+“successful.” A return map cannot be chosen after inspecting the answer merely to reset that particular
+candidate.
+If recovery uses a stored copy, a memory, another participant, or a resource, that information and its
+cost belong in the state and protocol. Operations that fail to apply must be represented as failures or
+explicitly limited to a stated domain, not silently omitted from a universal claim. This edition uses total
+maps on an adequate state space for simplicity.
+The identity features should also discriminate the alternatives relevant to the claim. A constant κ makes
+all states equivalent and every return pass. That is a mathematically valid but uninformative assessment.
+
+
+
+
+                                                    5
+CANON OF PERMANENT TRUTH / IDEA                                       v2.1 / MATHEMATICAL CORRECTION
+
+
+4. Periodicity, fixed points, and recovery are different
+
+The original definition of Rec(X) is repaired by renaming it:
+
+                          FinOrd(X) = {r ∈ End(X) : ∃k ∈ N>0 , rk = idX }.                          (4)
+
+The condition describes finite-order permutations, not recursive functions in computability theory. The
+exponent must be positive: allowing k = 0 would make every endofunction qualify, since r0 = idX .
+
+Proposition 1. If rk = idX for some positive integer k, then r is bijective and r−1 = rk−1 .
+
+Proof. Both r ◦ rk−1 and rk−1 ◦ r equal rk = idX . Thus rk−1 is a two-sided inverse.
+
+The condition ∃k ∀x rk (x) = x also imposes one common period. It is stronger, on an infinite set, than
+∀x ∃kx rkx (x) = x.
+
+Proposition 2. If |X| ≥ 2, no point is fixed by every member of FinOrd(X).
+
+Proof. Given x ∈ X, choose y 6= x. The transposition exchanging x and y and fixing every other point
+has order two and moves x. Therefore
+                                          ∩
+                                                  Fix(r) = ∅.
+                                        r∈FinOrd(X)
+
+
+
+
+This is why ALIGN must use a declared family of operations instead of every possible reversible map.
+It is also why r(x) = x cannot replace r(f (x)) = x: the former asks whether the return operation alone
+fixes a state, while the latter tests a completed transformation-and-return protocol.
+On an infinite set, finite-order permutations need not even be closed under composition. On Z, let
+a(n) = −n and b(n) = 1 − n. Then a2 = b2 = id, but (a ◦ b)(n) = n − 1 has infinite order. Closure under
+composition must therefore be constructed separately.
+
+
+
+
+                                                      6
+CANON OF PERMANENT TRUTH / IDEA                                          v2.1 / MATHEMATICAL CORRECTION
+
+
+I. INITIATE: make the contrast explicit
+
+     The first distinction is the beginning of an identity question: what differs, and what is expected
+     to remain recognizable through change?
+
+
+Define the contrast space by
+                                      ∆ = {(a, b) ∈ U × U : a 6= b}.                                      (5)
+This defines distinguishable pairs; it does not prove that a pair is minimal. A notion of minimality would
+require an additional order, complexity measure, or decomposition rule.
+The requirement in v2 that some finite-order map sends a to b adds nothing if all such maps are al-
+lowed: the transposition of any unequal pair already does so. If only some transitions are physically or
+operationally available, their availability is extra model data.
+For each perspective, choose a contrast-witness map cq : X → U × U . Set
+
+                                        Aq (x)   ⇐⇒      cq (x) ∈ ∆.                                      (6)
+
+If cq (x) = (aq (x), bq (x)), this means aq (x) 6= bq (x). Membership of both terms in U gives their common
+formal background. A causal or historical common origin would require a further relation; it is not
+established by set membership.
+The INITIATE filter acts on a set S ⊆ X:
+
+                                    ∇(S) = {x ∈ S : ∀q ∈ Q, Aq (x)}.                                      (7)
+
+It selects candidates with recorded distinctions in every required perspective. Candidate generation,
+if needed, is a separate operation. The filter does not manufacture U , equality, or information from
+nothing.
+
+
+Four dimensions of initiation
+
+For Self, identify the participant’s relevant distinction. For Relation, identify the difference that co-
+ordination must span. For Object, identify observable alternatives. For System, identify distinct
+components, states, or arrangements.
+These requirements are operational choices for an application of IDEA. A missing witness means that
+initiation is not established under that application. It does not prove that the candidate is meaningless,
+false, or nonexistent.
+
+
+
+
+                                                     7
+CANON OF PERMANENT TRUTH / IDEA                                        v2.1 / MATHEMATICAL CORRECTION
+
+
+II. DEFINE: state the structure and its identity
+
+     Definition makes explicit what the contrast is a contrast of, and what a successful return must
+     preserve.
+
+
+For each perspective, supply a structural predicate Dq : X → {true, false}. It can check a stated grammar,
+a relation among components, a conservation constraint, or a consistency requirement. Its content must
+be given in the application; the word “coherent” alone is not a test.
+Using the identity criterion from Equation (1), define
+
+                                 B = {x ∈ X : ∀q ∈ Q, Aq (x) ∧ Dq (x)},                                (8)
+
+and the DEFINE filter
+                                       µ(S) = S ∩ B      (S ⊆ X).                                      (9)
+Thus µ(∇(S)) retains initiated candidates satisfying the declared structural requirements. It does not
+assume that all future tests will succeed; that question belongs to ENGAGE and ALIGN.
+The formula in v2 requiring x 6= y for all x, y ∈ ∆ is removed. Substituting y = x makes that requirement
+contradictory whenever ∆ is nonempty. Contrast belongs to the two members of a designated pair, not
+to every pair of variables regardless of whether they name the same object.
+
+
+Four dimensions of definition
+
+Self: specify which internal organization or commitment is being tracked. Relation: state the shared
+expectations or compatibility conditions. Object: specify the relevant observable form. System: state
+the relations among components that constitute the organized whole.
+Cogence, coherence, cohesion, and congruence remain useful names for questions about understanding,
+consistency, integration, and correspondence. They become mathematical conditions only when supplied
+with explicit predicates or measurements.
+
+
+Identity may be revised, but the claim then changes
+
+The feature map κ may be learned or revised between assessments. Within one theorem or test report
+it is fixed. Changing it to hide a failed return creates a different assessment; it does not retroactively
+establish the earlier one. A model of learning may represent changing criteria in its state, but it must
+then specify the higher-level identity it is evaluating.
+
+
+
+
+                                                    8
+CANON OF PERMANENT TRUTH / IDEA                                         v2.1 / MATHEMATICAL CORRECTION
+
+
+III. ENGAGE: test declared transformations and returns
+
+       To engage is to expose a proposed identity to a test whose outcome can matter.
+
+
+For every perspective, choose a nonempty test family Eq ⊆ Pq . Define
+
+                             Eq (x)   ⇐⇒    ∀(f, r) ∈ Eq , κ(r(f (x))) = κ(x).                       (10)
+
+Then
+                                  ε(S) = {x ∈ S ∩ B : ∀q ∈ Q, Eq (x)}.                               (11)
+Each result concerns all tests in the stated engagement family, rather than merely the existence of one
+convenient pair of maps. Choosing only f = r = idX would make a return test automatic and provide
+no evidence of robustness under change.
+A test is evaluated only when its required predicate has been checked or proved. If its outcome is
+unavailable, record “unassessed”; do not count an empty record as a pass. The mathematical predicate
+has a definite interpretation in a fully specified model, while our evidence about it may be incomplete.
+
+
+Four dimensions of engagement
+
+Self: test whether the tracked internal organization remains recognizable after a challenge. Relation:
+test whether coordination or mutual expectations can be restored after a specified divergence. Object:
+test form or behavior under a declared intervention. System: test the organization of a composite after
+an alteration to its parts or connections.
+Neither success nor failure carries an automatic metaphysical verdict. A failed return can expose a poor
+definition, an inadequate recovery procedure, missing information, a genuine boundary of stability, or an
+incorrect prediction. The observed failure is evidence about the stated model and claim.
+
+
+The quantifiers must match the claim
+
+The statement ∀f ∃r describes recoverability with an available choice of recovery; ∃r ∀f requires one
+recovery that works for every transformation. These are different assertions. This edition evaluates
+specified pairs (f, r) and universally quantifies over them. An adaptive recovery policy is permitted
+when its inputs, memory, and rule are explicitly encoded in the protocol.
+
+
+
+
+                                                   9
+CANON OF PERMANENT TRUTH / IDEA                                         v2.1 / MATHEMATICAL CORRECTION
+
+
+IV. ALIGN: establish invariance under a declared family
+
+     Alignment is identity that survives every return required by the stated assessment.
+
+
+Let M = hHi be the monoid of all finite compositions of the completed maps in H, including the empty
+composition idX . Define
+                            I∗ = {x ∈ B : ∀h ∈ M, κ(h(x)) = κ(x)}.                               (12)
+This is the set of aligned candidates. It may be empty. Its members preserve the declared identity under
+every finite sequence of completed protocols, including sequences that mix perspectives.
+For exact-state identity, κ = idX , this becomes
+                                    ∩
+                         I∗ = B ∩        Fix(h),    Fix(h) = {x ∈ X : h(x) = x}.                       (13)
+                                  h∈M
+
+Thus a fixed-point expression is available without demanding that a state resist every imaginable opera-
+tion.
+
+
+What the condition does and does not preserve
+
+Equation (12) checks identity at the ends of completed protocols. It does not require every intermediate
+state f (x) to be identical to x, or to meet every constraint in B. If intermediate safety, continued
+eligibility in B, resource preservation, or time limits matter, add them to the state, the tracked features,
+or explicit path conditions. Endpoint recovery alone does not prove those stronger properties.
+For Self, alignment concerns the selected internal identity; for Relation, the selected relational pattern;
+for Object, the selected form or behavior; for System, the selected organization. In each case the result
+remains relative to the definition and protocol family.
+
+
+A finite test is not an unrestricted guarantee
+
+Passing the engagement subset Eq does not establish all of Pq , unless those families coincide or a proof
+covers the remainder. Likewise, invariance under every finite composite does not assert convergence of
+an infinite trajectory. A limit claim needs additional topology, dynamics, and hypotheses.
+
+
+
+
+                                                    10
+CANON OF PERMANENT TRUTH / IDEA                                           v2.1 / MATHEMATICAL CORRECTION
+
+
+5. A well-typed construction of return closure
+
+Replace the phase hierarchy of v2 with a closure construction that keeps every element a function on the
+same state space:
+
+                                M0 = {idX } ∪ H,                                                         (14)
+                             Mn+1 = Mn ∪ {g ◦ f : f, g ∈ Mn },          n ∈ N0 ,                         (15)
+                                    ∪
+                               M=      Mn .                                                              (16)
+                                       n∈N0
+
+The sequence is increasing, and every Mn is a subset of End(X). The union includes every stage,
+including a terminal stage if one exists.
+
+Proposition 3. M is the smallest submonoid of End(X) containing H.
+
+Proof. It contains idX and H. If f ∈ Mi and g ∈ Mj , both are in Mmax(i,j) , so g ◦ f ∈ Mmax(i,j)+1 .
+Hence the union is closed under composition. Every submonoid containing H contains each stage by
+induction, and therefore contains the union.
+
+
+
+Termination requires an assumption
+
+If |X| = m < ∞, there are mm endofunctions. Every strict increase adds at least one new map, so some
+finite N∗ satisfies
+                              MN∗ +1 = MN∗ ,      N∗ ≤ mm − |M0 |.
+Once equality holds, subsequent stages are identical. This is a finite-state existence result, not an eﬀicient
+algorithmic bound.
+There need not be a finite stabilization index on an infinite space. On X = Z with H = {t} and
+t(n) = n + 1,
+                                       Mn = {tk : 0 ≤ k ≤ 2n },
+so every stage grows. Finite termination of v2’s proposed phase and scope recursions was therefore not
+justified.
+
+
+Irreducibility must be relative to a composition rule
+
+A generating set J for M is irredundant when hJi = M and j ∈          / hJ \ {j}i for every j ∈ J. Testing
+whether a candidate lies outside hJi is a precise novelty criterion. It considers arbitrary finite composites,
+not only two factors. It need not give a unique generating set, and implies no universal count of four
+phases or four scopes.
+
+
+
+
+                                                     11
+CANON OF PERMANENT TRUTH / IDEA                                            v2.1 / MATHEMATICAL CORRECTION
+
+
+6. The corrected IDEA closure theorem
+
+For feature-based identity, require each completed generator to respect the equivalence relation:
+
+                            ∀h ∈ H, ∀x, y ∈ X,    x ≡κ y =⇒ h(x) ≡κ h(y).                             (17)
+
+This condition says that the same tracked identity cannot acquire different tracked identities merely
+because an untracked detail differs. It is automatic for exact equality, but must be checked or proved for
+a coarser feature map.
+Define Fixκ (h) = {x ∈ X : h(x) ≡κ x}.
+
+Theorem 1 (Closure under completed return protocols). Assume Equation (17). For any x ∈ B,
+
+                                  x ∈ I∗    ⇐⇒        ∀h ∈ H, h(x) ≡κ x.
+
+Equivalently,                                         ∩
+                                           I∗ = B ∩         Fixκ (h).                                 (18)
+                                                      h∈H
+
+
+Proof. The forward direction follows from H ⊆ M. For the converse, use induction on the length of a
+word in the generators. The empty word fixes x. Suppose w(x) ≡κ x. For h ∈ H, Equation (17) gives
+h(w(x)) ≡κ h(x), while the premise gives h(x) ≡κ x. Transitivity yields h(w(x)) ≡κ x. Every element of
+M is a finite word, so the identity is preserved by all of M.
+
+
+
+Why the hypothesis matters
+
+Let X = {a, b, c}, with κ(a) = κ(b) = 0 and κ(c) = 1. Let h(a) = b, h(b) = c, and h(c) = c. A one-step
+test at a passes: h(a) ≡κ a. But h2 (a) = c 6≡κ a. The map does not respect the equivalence relation,
+since a ≡κ b but h(a) 6≡κ h(b).
+Without Equation (17), retain the full definition in Equation (12); generator tests alone are insuﬀicient.
+A numerical tolerance such as d(x, y) ≤ ϵ is generally not transitive and cannot simply replace the
+equivalence relation in this proof. Approximate recovery needs its own error bounds.
+
+
+
+
+                                                      12
+CANON OF PERMANENT TRUTH / IDEA                                                  v2.1 / MATHEMATICAL CORRECTION
+
+
+7. The corrected four-by-four grid
+
+For qj ∈ Q, define cumulative phase predicates:
+
+                             C0j (x) = Aqj (x),                                                            (19)
+                             C1j (x) = Aqj (x) ∧ Dqj (x),                                                  (20)
+                             C2j (x) = C1j (x) ∧ Eqj (x),                                                  (21)
+                                                 [                            ]
+                             C3j (x) = C2j (x) ∧ ∀(f, r) ∈ Pqj , r(f (x)) ≡κ x .                           (22)
+
+Then set
+                               Gij = {x ∈ X : Cij (x)},           i, j ∈ {0, 1, 2, 3}.                     (23)
+All sixteen cells are subsets of the same X, so their intersection is well defined. The cumulative predicates
+preserve the dependency of later phases on earlier phases. They are not claims of algebraic independence.
+
+Corollary 1 (Grid characterization). Under the closure theorem’s hypothesis,
+
+                                                      ∩
+                                                      3 ∩
+                                                        3
+                                               I∗ =             Gij .                                      (24)
+                                                      i=0 j=0
+
+
+Proof. The intersection requires all initiation and definition predicates, giving membership in B, and all
+generator returns. Since Eq ⊆ Pq , the engagement predicates also hold. Equation (18) gives the result
+in both directions.
+
+
+
+IDEA as a function, separately from its accepted set
+
+Define filters Φi : P(X) → P(X) by
+                                                            ∩
+                                                            3
+                                            Φi (S) = S ∩          Gij .
+                                                            j=0
+
+Thus Φ0 = ∇, Φ1 = µ, Φ2 = ε, and Φ3 = α. Define the assessment map
+
+                                          IDEAM = α ◦ ε ◦ µ ◦ ∇.                                           (25)
+
+Here M denotes the declared model data. Under the theorem’s hypothesis, IDEAM (S) = S ∩I∗ . The map
+is monotone, idempotent, and contractive: its output is a subset of its input. It is a filter, not an extensive
+closure operator. By contrast, H 7→ hHi is an extensive closure operation on sets of transformations.
+
+
+
+
+                                                       13
+CANON OF PERMANENT TRUTH / IDEA                                            v2.1 / MATHEMATICAL CORRECTION
+
+
+8. Reading and using the grid
+
+The same formal predicate has a different application-level meaning in each perspective. The table below
+is an assessment guide, not sixteen automatic verdicts.
+
+
+             Self / I                 Relation / We            Object / It               System / Its
+
+Initiate     Record an internal       Record a distinction     Record observable         Record distinguishable
+             distinction.             between standpoints.     alternatives.             arrangements.
+Define       State the identity or    State expectations       State the relevant        State organizational
+             commitment.              and compatibility.       form or behavior.         constraints.
+Engage       Evaluate a specified     Evaluate a               Evaluate an               Evaluate a
+             challenge and return.    coordination test and    intervention and          composite-system test
+                                      return.                  return.                   and return.
+Align        Establish identity       Establish preservation   Establish preservation    Establish preservation
+             preservation over        of the relational        of the chosen features.   of the organization.
+             declared protocols.      pattern.
+
+
+
+
+Record evidence rather than filling cells by analogy
+
+For a particular x, a cell can be established, failed, or unassessed. These are evidential statuses,
+not three truth values in the classical mathematical model. An established cell needs its instantiated
+predicate and supporting computation, observation, or proof. A failed cell needs a witness. An unassessed
+cell remains open.
+If a perspective has no meaningful interpretation in an application, record that limitation. Restricting
+to a subset of Q defines a reduced assessment, not a completed four-perspective assessment. The model
+does not turn a missing test into falsehood.
+
+
+Updating a model
+
+Adding protocols may remove previously aligned candidates. If H ⊆ H ′ while X, B, and κ are unchanged,
+then hHi ⊆ hH ′ i, hence
+                                           I∗ (H ′ ) ⊆ I∗ (H).
+An earlier certificate remains valid for its earlier family, but it does not establish the enlarged claim. This
+gives the framework a direct way to accommodate new challenges without redefining failure as success.
+
+
+
+
+                                                      14
+CANON OF PERMANENT TRUTH / IDEA                                        v2.1 / MATHEMATICAL CORRECTION
+
+
+9. Worked mathematical examples
+
+A. Exact recovery after nontrivial change
+
+Let X = {0, 1, 2} and κ = idX . In each perspective, use the protocol (f, r) where f exchanges 0 and 1
+and fixes 2, and r = f . Choose U = {u, v}, cq (x) = (u, v), and Dq (x) = true for all x, q, so B = X. Let
+Eq = Pq = {(f, r)}.
+                                    r ◦ f = f 2 = idX ,      I∗ = X.
+The states 0 and 1 move during the transformation but return exactly. State 2 is unchanged. This
+demonstrates the mathematical distinction between change and successful return. Repeating one protocol
+in four perspectives is formally permitted but supplies no evidence that the perspectives are independent.
+
+
+B. A protocol that separates success from failure
+
+Keep the same X, κ, and B. In one perspective add the pair (d, idX ), with d(0) = 0, d(1) = 0, and
+d(2) = 2. Then
+                               Fix(d) = {0, 2},    I∗ = {0, 2}.
+State 1 fails this additional protocol. More strongly, no single map r : X → X can exactly recover both
+0 and 1 from d, because d(0) = d(1) would require r(0) = 0 and r(0) = 1 simultaneously. Recovery of
+the lost distinction requires extra information or a weaker identity criterion.
+
+
+C. Preserving a feature while the state changes
+
+Let X = {0, 1, 2, 3}, κ(x) = x mod 2, and h(x) = x + 2 (mod 4). The map h has no exact fixed points,
+but
+                                   κ(h(x)) = κ(x) for every x ∈ X.
+It respects the parity equivalence. Thus, with B = X and H = {h}, every state is aligned relative to
+parity and none is fixed under the nonidentity generator as an exact state. The result is specifically
+about parity; it does not show that every property of the state is preserved.
+
+
+What these examples establish
+
+The repaired formalism admits nonempty results, meaningful failures, exact recovery, and feature preser-
+vation. Those examples establish the behavior of the model. They do not prove that invariance is
+identical to semantic truth.
+
+
+
+
+                                                   15
+CANON OF PERMANENT TRUTH / IDEA                                          v2.1 / MATHEMATICAL CORRECTION
+
+
+10. Corrected example corpus: cases 1-4
+
+The original sixteen cases are retained. Their unsupported checkmark grids are replaced by explicit
+logical assessments. Applying the formal grid would additionally require X, κ, the predicates, and the
+protocol families for each case.
+
+
+1. The liar paradox
+
+Claim: “This statement is false.” With an unrestricted classical truth predicate, the intended self-
+reference leads to a truth value ℓ satisfying
+                                              ℓ = ¬ℓ.
+No Boolean value satisfies this equation. Calling the liar simply false is not a solution: on its intended
+reading, its falsity would make what it says true.
+Corrected status: The unrestricted classical truth assignment is inconsistent; the sentence is not
+thereby proved “permanently false.” Notice that negation on {0, 1} has period two. A cycle of truth-
+value changes can return, yet fail to solve ℓ = ¬ℓ. Recurrence alone does not resolve the paradox.
+
+
+2. Gödel’s first incompleteness theorem
+
+Claim: “This statement is unprovable in this system.” Fix an effectively axiomatized theory T extending
+suﬀicient arithmetic. A Gödel sentence is constructed to satisfy
+                                       T ` GT ↔ ¬ ProvT (⌜GT ⌝).
+If T is sound for the standard natural numbers, then GT is true there and unprovable in T . The Gödel-
+Rosser theorem obtains incompleteness from consistency alone, using a modified sentence. The theory,
+encoding, and hypotheses matter; a bare English self-reference is not the theorem. [1, Chapter 5]
+Corrected status: A theorem about formal provability under stated assumptions. IDEA does not
+independently certify GT or escape the theorem’s limitations.
+
+
+3. “There is no truth”
+
+If asserted as true and intended to include that very assertion, the unrestricted claim defeats itself under
+ordinary classical semantics. A restricted claim such as “none of these particular reports is true” need
+not do so.
+Corrected status: The unrestricted self-inclusive assertion is self-undermining. Its failure does not
+prove IDEA’s particular phases, scopes, or universal necessity.
+
+
+4. Identity tautology: “A is A”
+
+For an object denoted by a, a = a follows from the semantics of equality. For a proposition P , P → P
+is a propositional tautology. These are different grammatical uses of “A.”
+Corrected status: Valid under the stated logical interpretation. The result does not require, and does
+not prove, a derivation of identity from recursive dynamics.
+
+                                                    16
+CANON OF PERMANENT TRUTH / IDEA                                            v2.1 / MATHEMATICAL CORRECTION
+
+
+11. Corrected example corpus: cases 5-8
+
+5. Contradiction: “A is not A”
+
+With ordinary equality and a fixed referent, a 6= a is false in every interpretation. If the intended formula
+is instead P ∧ ¬P , it is unsatisfiable in classical propositional logic. Different times, respects, referents,
+or logics must not be silently identified.
+Corrected status: Classically false or unsatisfiable under the precise reading above. Failure is estab-
+lished by the logical semantics, not by a missing return path.
+
+
+6. Self-reproducing function
+
+“This function outputs itself” must distinguish a program from its encoded description. For a program-
+text string p, a quine satisfies
+                                              Run(p) = p,
+where Run means execution under a specified interpreter and the output is compared as text. A function
+returning a reference to itself is a different construction.
+Corrected status: A particular self-reproduction claim can be established by a construction or execu-
+tion trace. It does not make the program, all its outputs, or all claims about it universally true. The
+original example supplied no program to verify.
+
+
+7. “Aliens exist”
+
+This is an empirical existence claim whose meaning depends on such matters as what counts as life and
+the intended range of places and times. The absence of a completed IDEA assessment supplies neither
+a proof nor a disproof.
+Corrected status: Unresolved by the formalism alone. Evidence is required; lack of a return certificate
+does not establish falsehood or inherent untestability.
+
+
+8. “Identity emerges from recursion”
+
+Within the corrected model, a stable identity relative to κ and M is defined by Equation (12). An
+application can investigate how patterns meeting that definition form or persist.
+That does not derive the equality relation used to define sets and maps. Nor does it establish that all
+physical, personal, or semantic identity has the same origin. A causal account of the emergence of a
+pattern needs dynamics and evidence beyond a definition of its invariance.
+Corrected status: A legitimate modeling definition and a broader research hypothesis, depending on
+the reading. The universal ontological claim remains unproved.
+
+
+
+
+                                                      17
+CANON OF PERMANENT TRUTH / IDEA                                             v2.1 / MATHEMATICAL CORRECTION
+
+
+12. Corrected example corpus: cases 9-12
+
+9. There is no largest prime
+
+Assume that p1 , . . . , pn are all the primes. Set
+
+                                              N = p1 p2 · · · pn + 1.
+
+Since N > 1, it has a prime divisor p. For every i, division of N by pi leaves remainder 1, so p is absent
+from the list. This is a contradiction. The number N itself need not be prime.
+Corrected status: A proved mathematical theorem. Its proof supplies the justification; a four-by-four
+pattern of checkmarks would not replace that proof.
+
+
+10. Law of non-contradiction
+
+In classical propositional logic,
+                                                      ¬(P ∧ ¬P )
+is true for both Boolean values of P . “Nothing can both be and not be” needs that same proposition,
+interpretation, time, and respect to be meaningful as this logical law.
+Corrected status: Classically valid. Other logical systems require their own semantics; a claim about
+all such systems does not follow from the classical truth table.
+
+
+11. Digital simulation hypothesis
+
+“We live in a simulation” leaves the simulator, implementation, and empirical consequences unspecified.
+Particular simulation proposals might have observable consequences; direct access to a simulator is not
+logically necessary for every possible test.
+Corrected status: The broad claim is underdetermined here. It is not shown false by a supposed
+failure of “systemic return,” and no formal IDEA certificate has been supplied.
+
+
+12. Axiom of Choice
+
+For every set-indexed family (Ai )i∈J of nonempty sets, the Axiom of Choice asserts that there is a
+function c with domain J such that
+
+                                          c(i) ∈ Ai      for every i ∈ J.
+
+It is an axiom of ZFC and is independent of ZF if ZF is consistent. Thus it holds in every model of ZFC;
+IDEA has not proved it from weaker assumptions. [2] [3]
+Corrected status: Assumed in ZFC; independent of ZF under the consistency condition. “Recursively
+coherent” is not a substitute for specifying the background axioms.
+
+
+
+
+                                                          18
+CANON OF PERMANENT TRUTH / IDEA                                       v2.1 / MATHEMATICAL CORRECTION
+
+
+13. Corrected example corpus: cases 13-16
+
+13. Circular definition: “X is defined by X”
+
+The equation x = x is satisfied by every x in its domain. If the domain has more than one element,
+it does not determine a unique one. It is uninformative as a standalone definition, rather than false.
+Recursive equations can define objects when their additional constraints establish existence and, where
+needed, uniqueness.
+Corrected status: An insuﬀicient definition as stated. Circular syntax by itself proves neither contra-
+diction nor a successful construction.
+
+
+14. Schrödinger’s cat and quantum measurement
+
+An idealized entangled state has the form
+
+                         |Ψi = α|alivei|Ea i + β|deadi|Ed i,   |α|2 + |β|2 = 1.
+
+Decoherence suppresses interference in the reduced description as the environmental states become nearly
+orthogonal. That does not, by itself, select a unique outcome or prove that the original state has been
+recovered. Outcome claims require the relevant measurement framework or interpretation. [4, Sections
+II and IV]
+Corrected status: The original claim that this physically demonstrates IDEA’s permanent recursive
+closure is unsupported. A superposition is also not the classical proposition P ∧ ¬P .
+
+
+15. Modal collapse: “Everything that could happen must happen”
+
+Read this as ♢P → □P . Consider two mutually accessible worlds u, v, with P false at u and true at v.
+At u, ♢P is true and □P is false. The implication therefore fails in this model, even on an S5 frame.
+Corrected status: Not valid in standard normal modal logics admitting that frame. It is not a
+contradiction in every model: a one-world reflexive frame validates the schema. Modal possibility and
+necessity must not be conflated.
+
+
+16. Ontological grounding: “Existence exists”
+
+The phrase needs an interpretation. If formalized as ∃x (x = x), it is valid in ordinary first-order
+semantics with nonempty domains. If empty domains are permitted, it is false there.
+Corrected status: A consequence of the chosen nonempty-domain semantics under that translation.
+It does not independently prove a particular primordial field or a universal theory of existence.
+
+
+
+
+                                                   19
+CANON OF PERMANENT TRUTH / IDEA                                           v2.1 / MATHEMATICAL CORRECTION
+
+
+14. Permanence, truth, and the limits of the result
+
+IDEA can organize a disciplined investigation of a candidate’s identity through transformation. Its
+mathematical result is a conditional invariance claim. Four other questions must remain distinct:
+
+
+Question                              Required justification
+Is a proposition true in a model?     An interpretation and its satisfaction relation.
+Is it provable from a theory?         A derivation using the theory’s axioms and rules.
+Does a state preserve its identity?   A specified identity criterion, operations, and an invariance
+                                      argument.
+Is an empirical claim supported?      Observations or experiments linked to the claim by an adequate
+                                      model.
+
+
+A representation of a false statement can remain perfectly stable under repeated copying. A true re-
+port can change its physical encoding. Invariance of a representation is therefore neither suﬀicient nor
+necessary for the truth of its content without additional assumptions connecting those notions.
+If an application represents a formula φ inside x, the condition x ∈ I∗ does not by itself imply A |= φ
+for an interpretation A. To obtain that implication, one must prove a soundness connection between the
+assessment predicates and the intended semantics. Defining a predicate to mean “is true” supplies an
+assumption or an oracle, not an independent method for deciding truth.
+
+
+The universal claims retained as hypotheses
+
+The philosophical proposal that contrast, definition, testing, and return are necessary for every intelligible
+inquiry can be argued for and investigated. It is not established by the closure theorem. A critic’s use of
+language or distinctions does not entail that the critic accepts IDEA’s specific architecture, and a failed
+candidate does not automatically confirm the framework.
+The former “unfalsifiability corollary” is therefore withdrawn as a mathematical result. Definitions are
+not empirical predictions, but models and applications built with them can still be challenged by incorrect
+predictions, unsuitable identity criteria, missing scopes, or failed returns. A return-based explanation
+must make contact with those possible failures to earn evidential support.
+
+
+     To initiate is to make a distinction. To define is to state what is being preserved. To engage
+     is to expose that claim to a test. To align is to establish the return that the stated conditions
+     actually support.
+
+
+
+
+                                                     20
+CANON OF PERMANENT TRUTH / IDEA                                             v2.1 / MATHEMATICAL CORRECTION
+
+
+Appendix A. Correction record against v2
+
+Page numbers in this appendix refer to the supplied 28-page v2. The revised text is a complete re-
+placement of its mathematical exposition, with the conceptual architecture and all sixteen examples
+retained.
+
+v2         Problem                           Repair
+1-2, 7     Universal necessity and           Retained only as philosophical hypotheses. The mathematical
+           unfalsifiability presented as     result is relative invariance, not universal semantic truth.
+           proved.
+2          Rec(X) misnames finite-order      Renamed FinOrd(X) with k > 0. General dynamics use declared
+           permutations; k = 0 is not        endofunctions.
+           excluded.
+2          “Minimal” contrasts are not       Define ∆ as unequal ordered pairs. Minimality and restricted
+           shown minimal; the return         reachability require extra structure.
+           condition is automatic using
+           transpositions.
+2-3        Ψn begins as contrasts and        All states stay in X and all maps in End(X). Composition closure
+           becomes functions on              is defined by the increasing sequence Mn .
+           functions, then is treated as a
+           single state space.
+3          Four phases claimed to            Four named phase filters are explicit modeling choices. No
+           emerge without a derivation       theorem of uniqueness or minimality is claimed.
+           or an irreducibility proof.
+3-5        Scope equivalence is              Four labels are supplied by the chosen axes. Protocol families may
+           unspecified; equivalence          overlap. No unproved partition is used.
+           classes are composed as
+           functions; return motifs
+           overlap.
+3          The Return Validity Criterion     Relative novelty is membership outside a generated monoid;
+           compares a map with only          irredundancy is stated separately for actual maps.
+           two factors and mixes maps
+           with scope classes.
+4          Finite stabilization is assumed   Use one consistent meaning per symbol. Prove finite stabilization
+           and Rec(Ψ) is redefined as        only for finite X; provide an infinite counterexample.
+           stable phase outcomes.
+5-6        Ifinal means both an index        Separate N∗ , when finite stabilization exists, from the aligned set
+           and a set.                        I∗ .
+5-6,       Every point must be fixed by      Show that the unrestricted condition is empty for |X| ≥ 2.
+26-27      every allowed finite-order        Quantify over specified completed protocols instead.
+           map.
+5-6        Global invariance and             The grid is explicitly cumulative. A generator theorem supplies
+           invariance in all parts of its    the actual compositional result.
+           partition are redundantly
+           presented as distinct
+           conditions.
+6          A lambda expression               IDEAM : P(X) → P(X) filters candidate sets; I∗ ⊆ X is its
+           intersects arbitrary state        accepted set.
+           elements, ignores its input,
+           and conflates a function with
+           a set.
+
+
+                                                      21
+CANON OF PERMANENT TRUTH / IDEA                                             v2.1 / MATHEMATICAL CORRECTION
+
+
+v2        Problem                            Repair
+6         “Resolves under a phase” has       Supply Cij and Gij with fixed types, quantifiers, and
+          no defined predicate.              dependencies.
+7-15      Checkmarks supply verdicts         Retain all sixteen examples with corrected logical status and
+          without instantiated models        explicit reasons; do not fabricate grid results.
+          or proofs.
+17-18     ∇ is both U → {a, b} and a         ∇ is a filter on P(X). Contrast witnesses lie in U 2 ; background
+          set constructor; a ∼ U ∼ b         membership is distinguished from causal origin.
+          and Rec(q) are not adequately
+          typed.
+20-21     ∀x, y ∈ ∆, x 6= y contradicts      Unequal components occur only within specified contrast
+          the case x = y; pair and state     witnesses. Structural predicates operate on x ∈ X.
+          notation changes.
+23-24     Existence of one pair f, r is      Declare protocol families before evaluating them and universally
+          treated as success under all       quantify over those families. All maps act on X.
+          transformations; T and
+          domains are unclear.
+24-27     ENGAGE and ALIGN share             Use distinct phase filters ε and α. Make evidence, return, and
+          incompatible uses of ι;            semantic truth separate.
+          mathematical and ontological
+          conclusions are conflated.
+28        The theorem requires               Require r(f (x)) ≡κ x for declared protocols; prove extension to
+          ψi (x) 6= x and r(x) 6= x, the     composites. No universal phase-change inequality is imposed.
+          opposite of fixed-point closure.
+28        “No new phase can be added         Closure is equality of successive stages in a specified recurrence,
+          without contradiction” is          when reached. It is not a proof that no broader model is possible.
+          treated as finite algorithmic
+          convergence.
+
+
+
+
+                                                      22
+CANON OF PERMANENT TRUTH / IDEA                                         v2.1 / MATHEMATICAL CORRECTION
+
+
+Appendix B. Additional checks and remaining obligations
+
+A direct counterexample to the old phase derivation
+
+Take U = {0, 1}. The old contrast set has two elements, (0, 1) and (1, 0). Its proposed first phase set
+consists only of the transposition of those two contrasts. The next stage is empty, because a singleton
+has no nonidentity permutation. Subsequent stages remain empty. The cardinalities are
+
+                                              2, 1, 0, 0, . . .
+
+That construction neither accumulates four phases nor proves that four mutually irreducible transfor-
+mations exist. Its union also mixes contrast objects with functions on those objects. Merely repairing a
+typographical sign would leave these defects intact.
+
+
+Finite checks used in this revision
+
+The small-state examples, the empty universal-fixed-point counterexample, the distinction between ex-
+act and feature-based return, and the necessity of the equivalence-respecting hypothesis were checked
+computationally. The generator theorem was also checked against all 378 unordered pairs (allowing
+repetition) of the 27 maps on a three-element state space and all five equivalence relations. All 1,116
+cases satisfying its hypothesis passed; 414 cases without that hypothesis showed why the restriction can
+matter. These checks supplement the proofs; they do not replace them or establish an empirical claim
+about the world.
+
+
+What remains to be supplied in an actual application
+
+1. Define U , X, and any encoding of types, context, memory, and resources.
+2. Specify the contrast witnesses cq , structural predicates Dq , and identity features κ.
+3. Declare the transformation-and-return pairs in each Pq , together with an engagement subset Eq and
+   its evidence.
+4. Prove Equation (17) if generator checks are to stand for every composite; otherwise assess the full
+   monoid criterion.
+5. State whether the result concerns exact recovery, feature preservation, an approximate metric, or a
+   stronger condition on entire paths.
+6. Provide any further argument connecting the return criterion to an empirical prediction or a semantic
+   truth claim.
+
+The corrected theorem creates a consistent formal target for these choices. It does not select them
+uniquely. The proposed connection between IDEA and the necessary structure of all intelligibility remains
+additional philosophical work.
+
+
+
+
+                                                     23
+CANON OF PERMANENT TRUTH / IDEA                                              v2.1 / MATHEMATICAL CORRECTION
+
+
+References and source basis
+
+User-supplied sources. Canon of Permanent Truth (IDEA) (5 pages) and Canon of Permanent Truth
+(IDEA) v2 (28 pages), attributed in the documents to Discord @unicorn.lo. The original cover artwork
+is reproduced from v2. The first version supplies the conceptual comparison; v2 is the revision target.
+[1] Open Logic Project. Incompleteness and Computability: An Open Introduction to Gödel’s Theorems.
+Chapter 5, especially the first incompleteness theorem, Rosser’s theorem, and the comparison with
+Gödel’s original assumptions. Open textbook PDF.
+[2] Kurt Gödel. “The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis.”
+Proceedings of the National Academy of Sciences 24 (1938), 556-557. doi:10.1073/pnas.24.12.556; open
+archive.
+[3] Paul J. Cohen. “The Independence of the Continuum Hypothesis, II.” Proceedings of the National
+Academy of Sciences 51 (1964), 105-110. doi:10.1073/pnas.51.1.105. This is part of the forcing work
+establishing the relevant independence results.
+[4] Maximilian Schlosshauer. “Decoherence, the measurement problem, and interpretations of quantum
+mechanics.” Reviews of Modern Physics 76, 1267-1305, published 2005. See especially Sections II and
+IV. Author’s preprint; doi:10.1103/RevModPhys.76.1267.
+
+
+The elementary set, function, modal-countermodel, and prime-number arguments used in this revision
+are shown directly in the text. The external references support the specialized examples; they do not
+independently endorse IDEA or the proposed formal repair.
+
+
+
+
+Edition note: v2.1 replaces the mathematical construction and revises conclusions that depended on it. It preserves
+the four phases, four perspectives, conceptual emphasis on identity through change, and all sixteen example topics.
+It does not claim that the new assumptions were derived in v2.
+
+                                                        24
+

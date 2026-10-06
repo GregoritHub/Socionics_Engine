@@ -1,0 +1,23 @@
+{
+  "milestone": "C3",
+  "bounded_gate_passed": true,
+  "distinct_tests": 531,
+  "inherited_test_evidence": "evidence_c3/run_1/summary.json",
+  "initial_full_run_passed": false,
+  "initial_full_run_errors": 2,
+  "final_c3_test_evidence": "evidence_c3/final_tests/summary.json",
+  "final_c3_tests": 26,
+  "crossing_type_cases": 384,
+  "interrupted_configurations": 72,
+  "raw_witnesses": 48,
+  "causal_pairs": 24,
+  "measurement_workers": 30,
+  "source_transfer_tests": 2,
+  "source_transfer_type_cases": 96,
+  "source_transfer_witnesses": 12,
+  "source_transfer_pairs": 6,
+  "semantic_settings": 1,
+  "full_release_complete": false,
+  "next": "C4",
+  "source_archive_parent_sha256": "e62310bc4c5b68364a4de41fdbf8c9441f63a20f2d785622d2c453f5268f7a14"
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "hle-r16a-assessment-protocol-v1",
+  "parent_acceptance_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "parent_status": "R16 open; parent progress 4/10, six remaining",
+  "split_declared_before_evaluation": {
+    "R16A": "five witness hypotheses, controlled fixtures, live R15 adapter, independent replay",
+    "R16B": "runtime coverage of the remaining four signs, matched ordinary controls, post-increase defensive structure"
+  },
+  "execution_claims": {
+    "fixture": "constructed assessment-boundary input; cannot satisfy runtime acceptance",
+    "runtime": "unchanged paid R15 histories; forced-placement channel only"
+  },
+  "primary_threshold": 3,
+  "sensitivity_thresholds": [
+    2,
+    5
+  ],
+  "recurrence_unit": "distinct actor/material/context/loan engagements; retry and tick counts are not renewals",
+  "projection": {
+    "version": "r16a.loan_content_projection.v1",
+    "domains": "actual internal processing I, paid communication WE, physical inspection/return IT; no runtime ITS organization claim",
+    "foreign": "same material lineage representative when currently used scoped content conflicts with unambiguous owned interpreted loan terms",
+    "equivalence": "exact equality of declared quotient representatives under fixed actor, type, material lineage, context, projection and protocol; each scoped engagement evaluated on its own path",
+    "lenses": "dom/access/route/top by unpaired/paired/top; V, N, K=V-N and equality partitions R",
+    "status": "finite content projection hypothesis, no universal sign-to-OIG mapping"
+  },
+  "planned_controls": [
+    "timely abstraction",
+    "warranted reclassification",
+    "useful scaffold",
+    "open unfinished integration",
+    "rest",
+    "missing delivery",
+    "uninterpreted evidence",
+    "resource exhaustion",
+    "legitimate refusal",
+    "scheduling delay",
+    "nonzero K without content violation",
+    "same graph wrong referent",
+    "scope mismatch",
+    "ambiguous evidence",
+    "duplicate engagement",
+    "prefilled foreign content"
+  ],
+  "runtime_panel": {
+    "maintained": {
+      "history": 3,
+      "renewals": 3
+    },
+    "ordinary": {
+      "history": 3,
+      "renewals": 3,
+      "gated_history": false
+    },
+    "revision_ablation": {
+      "history": 3,
+      "renewals": 3,
+      "revision_unit": 0
+    },
+    "refusal_reownership": {
+      "history": 3,
+      "renewals": 3,
+      "refusal": true
+    }
+  },
+  "replay": "independent raw-journal fold of forced placement, eligibility, endpoint, work and all twelve OIG lenses; prefix and partial-work checkpoint restoration",
+  "inactive_tick_counts": [
+    0,
+    100,
+    1000
+  ],
+  "gates_R16A": [
+    "five positive/control fixture pairs",
+    "unknown and resource controls never established",
+    "runtime primary three positive eligible loans and correct endpoints; ordinary and revision controls zero",
+    "independent replay equality",
+    "checkpoint bytes and policy unchanged",
+    "no inactive journal traversal",
+    "636 inherited tests preserved"
+  ],
+  "nonclaims": [
+    "R16 complete",
+    "all five signs generated",
+    "full individuation",
+    "conversion and retention",
+    "Shell clearance",
+    "R21 population or efficiency acceptance"
+  ]
+}

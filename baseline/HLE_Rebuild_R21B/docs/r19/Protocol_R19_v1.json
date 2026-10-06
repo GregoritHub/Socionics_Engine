@@ -1,0 +1,146 @@
+{
+  "schema": "hle-r19-protocol-v1",
+  "frozen_parent_sha256": "91c7ca3b79cfa5b455268ff0bb497defdce33e91d808e42f14c0c01f16291c1b",
+  "target": "same actor and R15 material with R16 joint account lineage",
+  "required_maintenance": 3,
+  "sensitivity": [
+    2,
+    3,
+    5
+  ],
+  "cases": [
+    {
+      "id": "selection.equal_renewal",
+      "family": "selection",
+      "variation": "equal_renewal",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "selection.increased_requirement",
+      "family": "selection",
+      "variation": "increased_requirement",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "selection.changed_context_partner",
+      "family": "selection",
+      "variation": "changed_context_partner",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "selection.delay_or_changed_testimony",
+      "family": "selection",
+      "variation": "delay_or_changed_testimony",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.equal_renewal",
+      "family": "temporal",
+      "variation": "equal_renewal",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.increased_requirement",
+      "family": "temporal",
+      "variation": "increased_requirement",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.changed_context_partner",
+      "family": "temporal",
+      "variation": "changed_context_partner",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.delay_or_changed_testimony",
+      "family": "temporal",
+      "variation": "delay_or_changed_testimony",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.equal_renewal",
+      "family": "obligations",
+      "variation": "equal_renewal",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.increased_requirement",
+      "family": "obligations",
+      "variation": "increased_requirement",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.changed_context_partner",
+      "family": "obligations",
+      "variation": "changed_context_partner",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.delay_or_changed_testimony",
+      "family": "obligations",
+      "variation": "delay_or_changed_testimony",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    }
+  ],
+  "original_return_first": true,
+  "resource_allocation_per_actor_per_case": 200000,
+  "type_order": [
+    "sli",
+    "iee",
+    "eie",
+    "eii",
+    "ese",
+    "esi",
+    "iei",
+    "ile",
+    "ili",
+    "lie",
+    "lii",
+    "lse",
+    "lsi",
+    "see",
+    "sei",
+    "sle"
+  ],
+  "continuation": "original delivered R18 checkpoint, complete prefix retained",
+  "work": {
+    "selection": [
+      10,
+      12
+    ],
+    "temporal_dependencies": [
+      1,
+      2
+    ],
+    "simultaneous_obligations": [
+      2,
+      3
+    ],
+    "shared_budget": 3,
+    "credits": 3,
+    "minimum_output": 3
+  },
+  "controls": [
+    "no established Shell",
+    "quiet time only",
+    "material access suppressed",
+    "material deleted",
+    "each capacity withdrawn",
+    "capacity evidence withdrawn",
+    "case evidence withdrawn",
+    "helper substitution",
+    "action withheld",
+    "reduced demand",
+    "changed partner called greater",
+    "one carrier only",
+    "carrier displacement",
+    "recurring paid defensive account",
+    "failed return",
+    "stale testimony",
+    "overcommitted shared resource",
+    "premature temporal enactment",
+    "unfunded work",
+    "tampered checkpoint"
+  ],
+  "claim_boundary": "finite scoped clearance, five release-account mechanisms; R20/R21 remain open"
+}

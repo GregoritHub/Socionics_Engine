@@ -1,0 +1,286 @@
+"""Offline R19 audit from raw transactions, independent of the live observer.
+
+Reconstructs physical facts, paid work, current capacities, owned messages,
+resource comparisons and recurrence. It never calls participant selection,
+the live clearance monitor, or its availability/dependency predicates.
+Historical five-sign witnesses use the already independent R16B raw fold.
+"""
+from dataclasses import replace
+from .clearance_records import *
+from .individuation_records import CircuitTransaction,CircuitOffer,CircuitCommand,ASPECTS
+from .individuation_reference import expected_failures
+from .conversion_records import ConversionTransaction
+from .compensation_records import ReleaseTransaction,REQUIRED
+from .reconciliation_records import AccountTransaction
+from .reconciliation_reference import reference as account_reference
+from .autonomy_records import WorkshopCommand
+from .contracts import WorkStatus,Kind
+from .development_contracts import Treatment
+from .world_records import ENERGY,TIME,Credit
+from .shell_records import SIGNS
+from .shell_assessment import reftext
+
+def evaluate(w):
+    errors=[];records={};origins={};facts={};orders={};caps={};roots={};studies={};rules={}
+    known={a:set() for a in w.config.actors};access={a:w.conversion_policy.material_access for a in w.config.actors}
+    balances={x.actor:(x.energy,x.time) for x in w.config.wallets}
+    allocations=dict(balances);resource_contract=None;base_wallets={}
+    partners={p.actor:p for p in w.circuit_partners};willing={p.owner:p.may_review for p in w.reviewers}
+    invalid=set();dependencies={};groups={};loads={};loans={};receipts={};paid={};tentative={}
+    start=None;actor=None;material=None;account_material=None;signature=();active=None;rows=[];bases={}
+    support=set();latched=False;failed_returns=[];acquisition_errors=[];own_work=0
+    by_loan={};baseline_events={};original_item=None;baseline_counts={s:0 for s in SIGNS};recurrence={s:set() for s in SIGNS}
+    historical=account_reference(w)
+    errors.extend(historical['errors'])
+    historical_rows={r['engagement']:r for r in historical['engagements']}
+
+    def check(ok,reason):
+        if not ok:errors.append(reason)
+    def invalid_ref(r):return r in invalid or origins.get(r) in invalid
+    def live(a):
+        root=roots.get(a);study=studies.get(a)
+        if root is None or study is None or not root.current or not access[a] or not w.circuit_policy.material_access:return ()
+        base=(root.ref,root.rule,root.material,study.concept_origin,study.account_material)+root.acquisition+root.practice+rules[root.rule].sources
+        if any(invalid_ref(r) for r in base) or not set(base)<=set(records):return ()
+        current={k:c for (owner,k),c in caps.items() if owner==a and c.current and c.material==root.material
+            and not any(invalid_ref(r) for r in (c.ref,c.material,c.failure,c.practice)+c.acquisition)}
+        while True:
+            refs={c.ref for c in current.values()}
+            keep={k:c for k,c in current.items() if set(c.dependencies)<=refs}
+            if keep==current:break
+            current=keep
+        return (root.ref,)+tuple(c.ref for k,c in sorted(current.items()))
+
+    for index,tx in enumerate(w._journal):
+        e=tx.event;c=tx.command
+        if type(c) is EpisodeResourceContract:
+            from .resource_contracts import PROTOCOL_ID,PROTOCOL_SHA256,BUDGETS
+            check(index==1 and resource_contract is None,'contract selected before episode work')
+            check(c.protocol_id==PROTOCOL_ID and c.protocol_sha256==PROTOCOL_SHA256,'supported resource contract')
+            check(c.regime in BUDGETS and all(v==(BUDGETS.get(c.regime),)*2 for v in allocations.values()),'declared genesis allocation')
+            resource_contract=c
+        if resource_contract is not None:
+            check(type(c) is not Credit,'no post-genesis allocation')
+        for change in e.changes:
+            p=change.after or change.before;k=(p.subject,p.relation,p.context)
+            check(facts.get(k)==change.before,'fact predecessor at '+reftext(e.ref))
+            if change.after is None:facts.pop(k,None)
+            else:facts[k]=change.after
+        for wr in tx.works:
+            b={r.unit:r.amount for r in wr.before};a={r.unit:r.amount for r in wr.after}
+            debit={r.unit:r.amount for r in wr.charged};credit={r.unit:r.amount for r in wr.credited}
+            if resource_contract is not None:check(not any(credit.values()),'no resource refund or hidden credit')
+            check((b[ENERGY],b[TIME])==balances[wr.owner],'wallet predecessor')
+            check(all(a[u]==b[u]+credit.get(u,0)-debit.get(u,0) and a[u]>=0 for u in (ENERGY,TIME)),'conserved funding')
+            balances[wr.owner]=(a[ENERGY],a[TIME]);records[wr.ref]=wr;origins[wr.ref]=e.ref
+            if start is not None:own_work+=wr.completed_units
+        records[e.ref]=e;origins[e.ref]=e.ref
+        if e.corrects is not None:invalid.add(e.corrects)
+        for r in tx.observations+tx.messages+tx.memories:
+            records[r.ref]=r;origins.setdefault(r.ref,e.ref)
+            if hasattr(r,'observer'):known[r.observer].add(r.ref)
+        for name in ('concept','material','treatment','decision','state','study','candidate','capacity','use','account'):
+            r=getattr(tx,name,None)
+            if r is not None and hasattr(r,'ref'):
+                records[r.ref]=r;origins.setdefault(r.ref,e.ref)
+                if hasattr(r,'owner'):known[r.owner].add(r.ref)
+        for r in getattr(tx,'parts',()):records[r.ref]=r;origins.setdefault(r.ref,e.ref);known[r.owner].add(r.ref)
+        if type(tx) is AccountTransaction and tx.state is not None:
+            by_loan[tx.state.loan]=(tx.state.owner,tx.state.lineage,tx.state.item)
+            baseline_events.setdefault(tx.state.loan,set()).add(e.ref)
+        if type(tx) is ReleaseTransaction and tx.job.view is not None:
+            baseline_events.setdefault(tx.job.view.loan,set()).add(e.ref)
+        if type(tx) is ConversionTransaction:
+            if tx.study is not None:studies[tx.command.actor]=tx.study
+            if tx.candidate is not None:rules[tx.candidate.ref]=tx.candidate
+            if tx.capacity is not None:roots[tx.capacity.owner]=tx.capacity
+            if e.outcome==WorkStatus.COMPLETED and c.operator in ('restrict','restore_access'):access[c.actor]=c.operator=='restore_access'
+            if tx.use is not None:
+                u=tx.use;terms=records[u.terms]
+                value=next(p.object for p in terms.content if p.subject==u.item and p.relation==REQUIRED)
+                check(terms.observer==u.owner and u.terms in known[u.owner],'owned exact accepted terms')
+                check(u.required==value,'conditional return matches accepted terms')
+                if active is not None:active['uses'].append(u)
+        if type(tx) is ReleaseTransaction and c.operator=='boundary' and e.outcome==WorkStatus.COMPLETED:willing[c.actor]=c.willingness
+        if (start is not None and type(tx) is ReleaseTransaction and c.actor==actor and c.operator=='assimilate'
+            and e.outcome==WorkStatus.COMPLETED and tx.treatment is not None
+            and tx.treatment.treatment==Treatment.EXTERNALIZE and tx.job.view is not None):
+            v=tx.job.view
+            if v.dependency and not v.required and v.clean and v.owned and v.due:
+                recurrence['forced_placement'].add(v.loan);latched=True
+        if type(c) is WithdrawEvidence:invalid.add(c.source)
+        if type(c) is PartnerShift:partners[c.actor]=replace(partners[c.actor],unavailable_slots=c.unavailable_slots)
+        if type(c) is OrderDependency:dependencies[c.successor]=c.predecessor
+        if type(tx) is CircuitTransaction:
+            old=orders.get(getattr(c,'order',''))
+            if type(c) is CircuitOffer:
+                orders[c.key]=tx.order;records[tx.order.bulletin]=c
+                groups.setdefault((c.learner,c.partner,c.epoch),[]).append(c.key)
+                for a in (c.learner,c.partner,c.helper):known[a].add(tx.order.bulletin)
+            else:
+                job=tx.job;k=(c.actor,c.task_id);paid[k]=paid.get(k,0)+sum(x.completed_units for x in tx.works)
+                check(paid[k]==job.paid and job.paid<=job.plan.required,'exact cumulative circuit payment')
+                if e.outcome!=WorkStatus.COMPLETED:
+                    check(not any((tx.order,tx.communication,tx.signal,tx.capacities,tx.account,tx.partner)),'no partial or stale publication')
+                else:
+                    check(job.paid==job.plan.required,'full funding before publication')
+                    if c.operator=='choose' and start is not None:
+                        f=old.offer;menu=records[old.menu]
+                        current=live(c.actor);guard={cc.aspect for cc in caps.values() if cc.ref in current}|set(tentative.get(c.actor,()))
+                        candidates=[]
+                        for i,o in enumerate(f.options):
+                            bad=set(expected_failures(f,o,dict(menu.permissions),dict(menu.acknowledgments)))
+                            used=0;left=0
+                            for other_key in groups[f.learner,f.partner,f.epoch]:
+                                other=orders[other_key]
+                                if other.outcome is None:left+=1
+                                else:
+                                    outcome=records[other.outcome]
+                                    x=next((x for x in other.offer.options if x.key==outcome.option),None)
+                                    if outcome.success and x is not None and x.start==o.start:used+=x.load
+                            if 'se' in guard and o.load>max(0,f.budget-used)//max(1,left):bad.add('se')
+                            if not bad & guard:candidates.append((o.cost,o.start+o.duration,i,o.key))
+                        chosen=min(candidates)[-1] if candidates else None
+                        check(tx.order.chosen==chosen,'choice reconstructed from owned information')
+                        check(set(tx.order.uses)==set(current[1:]),'exact current own capacities at choice')
+                    if c.operator=='apply':
+                        f=old.offer;p=partners[f.partner];o=next((x for x in f.options if x.key==old.chosen),None)
+                        perms={x.key:x.license in p.licenses for x in f.options}
+                        acks={x.key:p.willing and x.start not in p.unavailable_slots and x.load<=p.max_load for x in f.options}
+                        bad=list(expected_failures(f,o,perms,acks))
+                        if f.circuit==1 and not old.credited:bad.append('unaccepted_arrangement')
+                        k=None if o is None else (f.partner,f.epoch,o.start)
+                        if o is not None and loads.get(k,0)+o.load>f.budget:bad.append('shared_load_exhausted')
+                        s=tx.signal
+                        check(s.success==(not bad) and s.errors==tuple(dict.fromkeys(bad)),'actual shared consequence')
+                        check(s.produced==(o.output if not bad else 0),'actual produced quantity')
+                        if start is not None and s.observer==actor and not s.success:latched=True
+                        if s.success:loads[k]=loads.get(k,0)+o.load
+                        if c.order in dependencies:
+                            prior=orders[dependencies[c.order]]
+                            check(prior.closed and prior.credited and records[prior.outcome].success,'actual temporal prerequisite')
+                    if tx.partner is not None:partners[tx.partner.actor]=tx.partner
+                    for cap in tx.capacities:
+                        if cap.current:
+                            fail=records.get(cap.failure);practice=records.get(cap.practice)
+                            check(fail is not None and not fail.success and cap.aspect in fail.errors,'capacity contrast evidence')
+                            check(practice is not None and practice.success and practice.performer==cap.owner and practice.order!=fail.order,'capacity own practice')
+                            check(all(r in records for r in cap.acquisition),'capacity paid acquisition')
+                        records[cap.ref]=cap;origins[cap.ref]=e.ref;known[cap.owner].add(cap.ref);caps[cap.owner,cap.aspect]=cap
+                    if tx.tentative is not None:tentative[c.actor]=dict(tx.tentative)
+            if tx.communication is not None:
+                m=tx.communication;records[m.ref]=m;origins[m.ref]=e.ref
+                known[m.recipient].add(m.ref);known[m.sender].add(m.ref)
+            if tx.signal is not None:
+                s=tx.signal;records[s.ref]=s;origins[s.ref]=e.ref;known[s.observer].add(s.ref)
+            if tx.order is not None:orders[tx.order.offer.key]=tx.order
+        if type(c) is WorkshopCommand:
+            if c.operation=='lend' and e.outcome==WorkStatus.COMPLETED:
+                loans[c.inputs[0]]=e.ref
+                if active is not None and c.inputs==(active['cmd'].item,actor):active['loans'].append(e.ref)
+            if c.operation=='return' and c.actor==actor and start is not None:
+                if e.outcome==WorkStatus.FAILED:failed_returns.append(e.ref);latched=True
+                if active is not None and c.inputs==(active['cmd'].item,) and e.outcome==WorkStatus.COMPLETED:active['returns'].append(e.ref)
+                loan=loans.get(c.inputs[0]);r=historical_rows.get(reftext(loan)) if loan else None
+                if r is not None and by_loan.get(loan,())[:2]==(actor,account_material) and r['opportunity']=='eligible':
+                    for s in SIGNS:
+                        if r['signs'][s]=='positive':recurrence[s].add(loan);latched=True
+            if c.operation=='return' and e.outcome==WorkStatus.COMPLETED and c.inputs[0] in loans:
+                baseline_events.setdefault(loans[c.inputs[0]],set()).add(e.ref)
+        if type(c) is ClearanceBoundary:
+            if c.operation=='begin':
+                start=e.ref;actor=c.actor;root=roots.get(actor);study=studies.get(actor)
+                material=None if root is None else root.material;account_material=None if study is None else study.account_material
+                signature=live(actor)
+                for loan,(owner,lineage,item) in by_loan.items():
+                    r=historical_rows.get(reftext(loan))
+                    if owner==actor and lineage==account_material and r and r['opportunity']=='eligible':
+                        for s in SIGNS:baseline_counts[s]+=int(r['signs'][s]=='positive')
+                        if any(v=='positive' for v in r['signs'].values()):support.update(baseline_events.get(loan,()))
+                        if original_item is None and any(v=='positive' for v in r['signs'].values()):original_item=item
+                if root is not None:support.update((root.ref,root.rule,root.material)+root.acquisition+root.practice+rules[root.rule].sources)
+                if study is not None:support.update((study.material,study.concept_origin,study.account_material))
+                for cap in caps.values():
+                    if cap.owner==actor:support.update((cap.ref,cap.material,cap.failure,cap.practice)+cap.acquisition+cap.dependencies)
+            elif c.operation=='open':
+                active={'cmd':c,'wallet':balances[actor],'loans':[],'returns':[],'uses':[],
+                    'signature':live(actor),'carriers':{p for p in willing if p!=actor and willing[p] and min(balances[p])>0},
+                    'account':0,'optional':0,'shift':0,'refresh':0,'ticks':0}
+            else:
+                q=active;k=q['cmd'];os=[orders[x] for x in k.orders if x in orders]
+                uses=[u for u in q['uses'] if u.owner==actor and u.item==k.item and u.loan in q['loans'] and signature and u.capacity==signature[0] and u.material==material]
+                value=lambda r:facts[k.item,r,w.config.context].object
+                current=live(actor)==signature and len(signature)==9 and q['signature']==signature and not any(invalid_ref(r) for r in support)
+                physical=bool(q['returns']) and value('condition')=='clean' and value('loan_active') is False and value('owned_by')==value('return_to')
+                work=len(os)==len(k.orders) and all(o.closed and o.credited and o.performer==actor and records[o.outcome].success and len(o.uses)==8 and set(o.uses)==set(signature[1:]) for o in os)
+                two=len(q['carriers'] & {p for p in willing if p!=actor and willing[p] and min(balances[p])>0})>=2
+                shape=True;comparison='original_reapplication';resource_details={}
+                if k.case=='original':shape=k.item==original_item and bool(uses) and not any(u.required for u in uses)
+                else:
+                    f,v=k.case.split('.');ofs=[o.offer for o in os]
+                    shape=bool(ofs)
+                    if ofs:
+                        if f=='selection':magnitudes=(len(ofs[0].options),1);shape &= len(ofs)==1 and magnitudes[0]==(12 if v=='increased_requirement' else 10)
+                        elif f=='temporal':
+                            magnitudes=(len(ofs)-1,int(v=='delay_or_changed_testimony'))
+                            shape &= len(ofs)==(3 if v=='increased_requirement' else 2) and all(dependencies.get(y.key)==x.key for x,y in zip(ofs,ofs[1:]))
+                        else:
+                            magnitudes=(len(ofs),1)
+                            shape &= len(ofs)==(3 if v=='increased_requirement' else 2) and len({(o.epoch,o.partner) for o in ofs})==1
+                        scope=(ofs[0].partner,q['wallet'] if resource_contract is None else (resource_contract,allocations[actor]))
+                        if v=='equal_renewal':
+                            bases[f]=(scope,magnitudes);base_wallets[f]=q['wallet'];comparison='equal'
+                        elif f not in bases:comparison='unassessed'
+                        else:
+                            sc,ma=bases[f];delta=[x-y for x,y in zip(magnitudes,ma)]
+                            monotone=True
+                            if resource_contract is not None:
+                                prev=base_wallets[f];now=q['wallet'];diff=[x-y for x,y in zip(now,prev)]
+                                monotone=all(x<=y<=z for x,y,z in zip(now,prev,allocations[actor]))
+                                headroom=('equal' if not any(diff) else 'less_headroom' if all(x<=0 for x in diff)
+                                          else 'more_headroom' if all(x>=0 for x in diff) else 'mixed_headroom')
+                                resource_details={'resource_relation':headroom,'comparison_wallets':{'prior':list(prev),'current':list(now)}}
+                            comparison='incomparable' if sc!=scope or not monotone else 'equal' if not any(delta) else 'greater' if all(n>=0 for n in delta) else 'lesser' if all(n<=0 for n in delta) else 'incomparable'
+                        if v=='increased_requirement':shape &= comparison=='greater'
+                        if v=='changed_context_partner':shape &= comparison=='incomparable'
+                        if v=='delay_or_changed_testimony':shape &= q['shift']>0 and q['refresh']>0 and q['ticks']>=3
+                unsupported=all(not partners[o.offer.helper].helper_available for o in os)
+                row={'case':k.case,'own_work':work,'unsupported':unsupported,'current_capacities':current,
+                    'physical_return':physical,'grounded_conditional_return':bool(uses),'two_carriers':two,
+                    'no_target_mechanism':q['account']==0 and q['optional']==0,'shape':bool(shape),'comparison':comparison}
+                row.update(resource_details)
+                if resource_contract is not None:
+                    grant=allocations[actor];before=q['wallet'];end=balances[actor]
+                    row['resource_contract']={'protocol':resource_contract.protocol_id,'episode_id':resource_contract.episode_id,
+                        'regime':resource_contract.regime,'genesis_allocation':list(grant),
+                        'actual_start':list(before),'actual_end':list(end),
+                        'spent_before':[g-b for g,b in zip(grant,before)],'spent_in_case':[b-a for b,a in zip(before,end)]}
+                row['passed']=all(row[z] for z in ('own_work','unsupported','current_capacities','physical_return','grounded_conditional_return','two_carriers','no_target_mechanism','shape'))
+                rows.append(row);support.update(q['returns']);support.update(u.ref for u in uses)
+                for o in os:support.update(r for r in (o.outcome,o.signal,o.menu,o.review) if r is not None)
+                active=None
+        if active is not None:
+            if type(tx) is AccountTransaction and c.actor==actor:active['account']+=sum(x.completed_units for x in tx.works)
+            if type(tx) is ReleaseTransaction and tx.job.view is not None and not tx.job.view.required:active['optional']+=sum(x.completed_units for x in tx.works)
+            if type(c) is PartnerShift:active['shift']+=1
+            if type(c).__name__=='Tick':active['ticks']+=1
+            if type(tx) is CircuitTransaction and getattr(c,'operator',None)=='refresh' and e.outcome==WorkStatus.COMPLETED:active['refresh']+=1
+        if start is not None and (live(actor)!=signature or len(signature)!=9 or any(invalid_ref(r) for r in support)):latched=True
+        if len(rows)==13 and all(r['passed'] for r in rows) and len({p for p in willing if p!=actor and willing[p] and min(balances[p])>0})<2:latched=True
+    established=all(n>=3 for n in baseline_counts.values())
+    clear=established and len(rows)==13 and {r['case'] for r in rows}==set(CASES) and all(r['passed'] for r in rows)
+    status=('unassessed' if start is None else 'recurrent' if any(len(v)>=3 for v in recurrence.values()) else
+        'unresolved' if latched else 'cleared_in_scope' if clear else 'incomplete')
+    return {'schema':'r19-independent-v1' if resource_contract is None else 'r21a-independent-v2','integrity_passed':not errors,'errors':errors,'status':status,
+        'rows':rows,'baseline_signs':baseline_counts,'recurrence_counts':{s:len(v) for s,v in recurrence.items()},
+        'paid_work_in_window':own_work,'failed_return_events':[reftext(r) for r in failed_returns]}
+
+def compare(w):
+    ref=evaluate(w);live=w.clearance_report();errors=list(ref['errors'])
+    for k in ('status','baseline_signs','recurrence_counts','paid_work_in_window'):
+        if ref[k]!=live[k]:errors.append('live/reference mismatch: '+k)
+    if len(ref['rows'])!=len(live['rows']):errors.append('case count mismatch')
+    for a,b in zip(ref['rows'],live['rows']):
+        for k,v in a.items():
+            if b[k]!=v:errors.append(a['case']+': '+k)
+    return {'passed':not errors,'errors':errors,'reference':ref}

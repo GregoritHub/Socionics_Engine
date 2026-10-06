@@ -1,0 +1,285 @@
+{
+  "schema": "hle-r12-operator-registry-v1",
+  "operators": [
+    {
+      "id": "demonstrate_search",
+      "domain": "training cases",
+      "effect": "emit all offered alternatives",
+      "failure_conditions": "malformed cases",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "demonstrate_boundary",
+      "domain": "training cases",
+      "effect": "emit offered alternatives accepted by partner",
+      "failure_conditions": "malformed cases",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "infer_search",
+      "domain": "search demonstrations",
+      "effect": "eliminate first/last/all hypotheses",
+      "failure_conditions": "zero or multiple surviving programs",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "infer_boundary",
+      "domain": "boundary demonstrations",
+      "effect": "eliminate ignore/respect/reverse hypotheses",
+      "failure_conditions": "zero or multiple surviving programs",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "search",
+      "domain": "task and optional retained search rule",
+      "effect": "enumerate candidates",
+      "failure_conditions": "stale/unowned rule or malformed task",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "relate",
+      "domain": "task/options and optional boundary rule",
+      "effect": "apply partner constraints",
+      "failure_conditions": "mismatched demand or stale/unowned rule",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "prepare",
+      "domain": "task/admissible candidates",
+      "effect": "prepare first admissible action",
+      "failure_conditions": "mismatched demand; no item is a legitimate unresolved plan",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "hold",
+      "domain": "one finite payload",
+      "effect": "preserve payload while charging Fe-target work",
+      "failure_conditions": "wrong input count; not evidence of shared Fe semantics",
+      "gate": "R13",
+      "source": "baseline/crossing/experiments/operators.py",
+      "status": "recovered_experimental"
+    },
+    {
+      "id": "content_ne",
+      "domain": "finite typed records only",
+      "effect": "enumerate permitted alternatives",
+      "failure_conditions": "unobserved alternatives inserted",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_si",
+      "domain": "finite typed records only",
+      "effect": "check observed condition bounds and sustainable resource use",
+      "failure_conditions": "condition absent or resource reading stale",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_fi",
+      "domain": "finite typed records only",
+      "effect": "evaluate specific partner consent and relational constraints",
+      "failure_conditions": "consent absent, withdrawn or wrong partner",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_te",
+      "domain": "finite typed records only",
+      "effect": "construct executable means with prerequisites and debits",
+      "failure_conditions": "unavailable action or unmet prerequisite",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_ni",
+      "domain": "finite typed records only",
+      "effect": "order temporal dependencies and revise expectations after delay",
+      "failure_conditions": "inconsistent sequence or unavailable timestamp",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_se",
+      "domain": "finite typed records only",
+      "effect": "allocate bounded authorized commitments under competing claims",
+      "failure_conditions": "overcommitment or missing authority",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_ti",
+      "domain": "finite typed records only",
+      "effect": "check explicit rule consistency and conditional distinctions",
+      "failure_conditions": "contradiction, ambiguity or wrong referent",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "content_fe",
+      "domain": "finite typed records only",
+      "effect": "establish shared acknowledgment through receiver responses",
+      "failure_conditions": "undelivered/uninterpreted message or no shared evidence",
+      "gate": "R13",
+      "source": "D26",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "contextual_meaning",
+      "domain": "owned receipts and exact embodied revisions",
+      "effect": "learn/revise contextual associations after paid write/bind",
+      "failure_conditions": "unpaid publication; foreign receipt; post-transfer ownership misread",
+      "gate": "R13",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "consequence_demand",
+      "domain": "persistent world consequence discovered by observation",
+      "effect": "propose a demand with origin and required outcome",
+      "failure_conditions": "hidden Truth input; no persistent consequence; no discovered evidence",
+      "gate": "R14",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "participant_selection",
+      "domain": "owned demand/memory/resources",
+      "effect": "choose investigate/recall/act/help/teach/wait/refuse/revise",
+      "failure_conditions": "condition label or evaluator verdict determines policy",
+      "gate": "R14",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "carrier_selection",
+      "domain": "material provenance and owned relational evidence",
+      "effect": "select candidate carrier and record action/consequence",
+      "failure_conditions": "recipient assigned by construction; origin erased",
+      "gate": "R15",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "material_release",
+      "domain": "owned material under demand",
+      "effect": "retain access without premature substitution",
+      "failure_conditions": "deletion or hidden access mistaken for integration",
+      "gate": "R17",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "material_leadership",
+      "domain": "owned material and permitted context",
+      "effect": "reframe and test alternative use",
+      "failure_conditions": "context supplied by Truth; forced placement",
+      "gate": "R17",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "material_reversion",
+      "domain": "unfinished changed organization",
+      "effect": "practice/revise from consequences",
+      "failure_conditions": "phase counter treated as closure",
+      "gate": "R17",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "material_reownership",
+      "domain": "retained practiced organization",
+      "effect": "reuse after support withdrawal",
+      "failure_conditions": "helper still substitutes; missing native capacity; erased history",
+      "gate": "R17",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "clearance",
+      "domain": "established Shell and renewed comparable demand",
+      "effect": "assess scoped retained correction",
+      "failure_conditions": "suppression, displacement, stale evidence, reduced demand or no return",
+      "gate": "R19",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "closure",
+      "domain": "exhausted declared repertoire and retained extension",
+      "effect": "establish new necessary coherent capacity",
+      "failure_conditions": "censored search; wrapper; missing child preservation; no shared practice",
+      "gate": "R20",
+      "source": "source_ledger_v1.json",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "detect_premature_translation",
+      "domain": "demand + Crux realization + scoped OIG trajectory + local opportunities",
+      "effect": "repeated substitution before required distinction with usable correction",
+      "failure_conditions": "No witness, no mechanism or no eligible recurrence => unassessed; negative control: timely warranted abstraction",
+      "gate": "R16",
+      "source": "D11/D12",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "detect_forced_placement",
+      "domain": "demand + Crux realization + scoped OIG trajectory + local opportunities",
+      "effect": "maintained incompatible context/relation against accessible parameters",
+      "failure_conditions": "No witness, no mechanism or no eligible recurrence => unassessed; negative control: warranted reclassification",
+      "gate": "R16",
+      "source": "D11/D12",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "detect_new_defensive_structure",
+      "domain": "demand + Crux realization + scoped OIG trajectory + local opportunities",
+      "effect": "new maintaining structure appears after increased demand and blocks correction",
+      "failure_conditions": "No witness, no mechanism or no eligible recurrence => unassessed; negative control: useful scaffold enables correction",
+      "gate": "R16",
+      "source": "D11/D12",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "detect_residual_fragmentation",
+      "domain": "demand + Crux realization + scoped OIG trajectory + local opportunities",
+      "effect": "parts of same lineage keep incompatible action after attempted integration",
+      "failure_conditions": "No witness, no mechanism or no eligible recurrence => unassessed; negative control: openly unresolved work without a clearance claim",
+      "gate": "R16",
+      "source": "D11/D12",
+      "status": "implementation_hypothesis"
+    },
+    {
+      "id": "detect_foreclosure",
+      "domain": "demand + Crux realization + scoped OIG trajectory + local opportunities",
+      "effect": "maintained non-initiation of necessary non-current movement across eligible opportunities",
+      "failure_conditions": "No witness, no mechanism or no eligible recurrence => unassessed; negative control: rest, no delivery, inability, unaffordable work, justified refusal or scheduling delay",
+      "gate": "R16",
+      "source": "D11/D12",
+      "status": "implementation_hypothesis"
+    }
+  ],
+  "runtime_status": "Existing operators are baseline experimental code; future contracts are specifications, not implemented behaviors."
+}

@@ -1,0 +1,4729 @@
+{
+  "schema": "u1-module-migration-map-v1",
+  "scope": "Intended migration for all 98 runtime modules; no runtime changes implemented in U1",
+  "modules": [
+    {
+      "module": "hle/__init__.py",
+      "family": "Object schema and interfaces",
+      "action": "adapt",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "HLE R21B feasible integrated policy; held-out release remains open.",
+      "classes": []
+    },
+    {
+      "module": "hle/__main__.py",
+      "family": "Object schema and interfaces",
+      "action": "adapt",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "Run the unchanged R15 workshop with R16A joint assessment.",
+      "classes": []
+    },
+    {
+      "module": "hle/assessment.py",
+      "family": "Independent assessment",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U14"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Evidence-sensitive R5 assessor on the R4 single transaction journal.\n\nEvaluator records never enter participant input. Changes invalidate only reverse\ndependencies; assessment work is explicitly drained in bounded batches. Study\naggregates fold one closed trial at a time, without rescanning earlier trials.",
+      "classes": [
+        {
+          "name": "AssessedWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/assessment_demo.py",
+      "family": "Independent assessment",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U14"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Declared R5 controls. Goals, opportunities and fixture choices are supplied.\n\nParticipant content and checking capacity are derived by inherited R4 operators.\nDetector fixtures deliberately choose a rejection or material treatment policy;\nthese are never represented as autonomously generated psychological defenses.",
+      "classes": []
+    },
+    {
+      "module": "hle/assessment_records.py",
+      "family": "Independent assessment",
+      "action": "adapt",
+      "milestones": [
+        "U14"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R5 declared assays and exact evidence. S01--S09 are operational hypotheses.",
+      "classes": [
+        {
+          "name": "Contrast",
+          "fields": [
+            "perspective",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "PhaseEvidence",
+          "fields": [
+            "cell",
+            "status",
+            "evidence",
+            "reason"
+          ]
+        },
+        {
+          "name": "Study",
+          "fields": [
+            "spec",
+            "actor",
+            "memory_key",
+            "item",
+            "operations",
+            "max_units",
+            "forbid_discrepancy",
+            "recurrence",
+            "provenance",
+            "contrasts"
+          ]
+        },
+        {
+          "name": "DeclareStudy",
+          "fields": [
+            "command_id",
+            "study"
+          ]
+        },
+        {
+          "name": "BeginTrial",
+          "fields": [
+            "command_id",
+            "key",
+            "study",
+            "demanded",
+            "offer",
+            "corrective"
+          ]
+        },
+        {
+          "name": "EndTrial",
+          "fields": [
+            "command_id",
+            "trial"
+          ]
+        },
+        {
+          "name": "AssessPending",
+          "fields": [
+            "command_id",
+            "limit"
+          ]
+        },
+        {
+          "name": "Snapshot",
+          "fields": [
+            "at",
+            "memory",
+            "claims",
+            "capacities",
+            "capacity_rules",
+            "processing",
+            "perspective",
+            "checks",
+            "fact_evidence",
+            "current_delivery"
+          ]
+        },
+        {
+          "name": "Opportunity",
+          "fields": [
+            "required",
+            "affordable",
+            "interpretable",
+            "contradiction",
+            "reason"
+          ]
+        },
+        {
+          "name": "TrialStart",
+          "fields": [
+            "ref",
+            "request",
+            "snapshot",
+            "opportunity",
+            "actor_cursor",
+            "item_cursor"
+          ]
+        },
+        {
+          "name": "TrialResult",
+          "fields": [
+            "ref",
+            "start",
+            "study",
+            "end",
+            "events",
+            "works",
+            "units",
+            "completed_operations",
+            "identity",
+            "path",
+            "initiated",
+            "blocked",
+            "reconstruction",
+            "discrepancy",
+            "externalized_action",
+            "successful_capacity_items",
+            "visibility",
+            "net",
+            "cancellation",
+            "recurrence",
+            "reason"
+          ]
+        },
+        {
+          "name": "StudyAggregate",
+          "fields": [
+            "ref",
+            "study",
+            "trials",
+            "blocked_run",
+            "reconstruction_run",
+            "candidate_seen",
+            "corrected_run",
+            "capacity_items",
+            "last",
+            "failed_return"
+          ]
+        },
+        {
+          "name": "StudyReport",
+          "fields": [
+            "ref",
+            "study",
+            "at",
+            "snapshot",
+            "results",
+            "adjudicable",
+            "contradicted",
+            "unresolved",
+            "relevant",
+            "delivered",
+            "retained",
+            "shell",
+            "provenance",
+            "aggregate",
+            "phases",
+            "closure"
+          ]
+        },
+        {
+          "name": "MaterialCommand",
+          "fields": [
+            "command_id",
+            "actor",
+            "key",
+            "operation",
+            "source"
+          ]
+        },
+        {
+          "name": "MaterialState",
+          "fields": [
+            "ref",
+            "owner",
+            "account",
+            "treatment",
+            "carrier",
+            "previous",
+            "basis"
+          ]
+        },
+        {
+          "name": "CarrierUse",
+          "fields": [
+            "ref",
+            "owner",
+            "material",
+            "carrier",
+            "message",
+            "outcome"
+          ]
+        },
+        {
+          "name": "AssessmentTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra"
+          ]
+        },
+        {
+          "name": "AssessmentCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/autonomy.py",
+      "family": "Autonomy",
+      "action": "generalize",
+      "milestones": [
+        "U6"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R14: workshop consequences and participant-generated work, one R13 journal.\n\nPhysics may read world facts. The participant policy receives only LocalView.\nThe public scheduler supplies an actor opportunity, never a problem or solution.",
+      "classes": [
+        {
+          "name": "AutonomousWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/autonomy_demo.py",
+      "family": "Autonomy",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U6"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R14 finite environment setup and actor-only scheduler, not a task controller.",
+      "classes": []
+    },
+    {
+      "module": "hle/autonomy_evaluation.py",
+      "family": "Autonomy",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U6"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Offline R14 evidence. Never imported by the participant decision policy.",
+      "classes": []
+    },
+    {
+      "module": "hle/autonomy_policy.py",
+      "family": "Autonomy",
+      "action": "generalize",
+      "milestones": [
+        "U6"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Pure R14 policy: accepts only a detached LocalView, never a world/evaluator.\n\nRules and motives are declared finite engineering choices. Goals instantiate\nfrom observed consequences, not from the scheduler, type labels or success bits.",
+      "classes": []
+    },
+    {
+      "module": "hle/autonomy_records.py",
+      "family": "Autonomy",
+      "action": "adapt",
+      "milestones": [
+        "U6"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R14 finite workshop and participant-selection contracts (engineering choices).",
+      "classes": [
+        {
+          "name": "WorkshopConfig",
+          "fields": [
+            "conditions",
+            "wear_after_use",
+            "due_after_use"
+          ]
+        },
+        {
+          "name": "AutonomyPolicy",
+          "fields": [
+            "owner",
+            "intentions",
+            "primitives",
+            "may_lend",
+            "may_ask",
+            "reserve",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "WorkshopPacket",
+          "fields": [
+            "kind",
+            "item",
+            "topic",
+            "accept_return",
+            "explanation"
+          ]
+        },
+        {
+          "name": "WorkshopCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "operation",
+            "inputs",
+            "based_on",
+            "request",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "WorkshopJob",
+          "fields": [
+            "command",
+            "required",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "MemoryPointer",
+          "fields": [
+            "key",
+            "item",
+            "memory",
+            "binding"
+          ]
+        },
+        {
+          "name": "LocalRequest",
+          "fields": [
+            "observation",
+            "sender",
+            "packet",
+            "memory"
+          ]
+        },
+        {
+          "name": "ObservationPatch",
+          "fields": [
+            "key",
+            "item",
+            "content",
+            "observation",
+            "sender"
+          ]
+        },
+        {
+          "name": "DemandRecord",
+          "fields": [
+            "specification",
+            "owner",
+            "item",
+            "status",
+            "reason"
+          ]
+        },
+        {
+          "name": "DemandSketch",
+          "fields": [
+            "family",
+            "item",
+            "material",
+            "observations",
+            "goal",
+            "units",
+            "priority"
+          ]
+        },
+        {
+          "name": "LocalDecision",
+          "fields": [
+            "kind",
+            "reason",
+            "demands",
+            "need_count",
+            "discrepancy_count",
+            "pressure_units",
+            "repeated_unsuccessful_attempts"
+          ]
+        },
+        {
+          "name": "AutonomyState",
+          "fields": [
+            "ref",
+            "owner",
+            "cursor",
+            "initialized",
+            "phase",
+            "pending",
+            "patches",
+            "catalog",
+            "requests",
+            "active_notice",
+            "handled",
+            "asked",
+            "attempts",
+            "last_access",
+            "dirty",
+            "decision",
+            "discrepancies",
+            "failures",
+            "failed_targets"
+          ]
+        },
+        {
+          "name": "LocalView",
+          "fields": [
+            "state",
+            "policy",
+            "now",
+            "context",
+            "observation",
+            "sender",
+            "packet",
+            "head",
+            "binding",
+            "pending_status",
+            "result",
+            "memories",
+            "recall",
+            "energy",
+            "time",
+            "origins",
+            "access_valid"
+          ]
+        },
+        {
+          "name": "AutonomyTurn",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "ViewSnapshot",
+          "fields": [
+            "state",
+            "now",
+            "observation",
+            "head",
+            "binding",
+            "pending_status",
+            "result",
+            "memories",
+            "recall",
+            "energy",
+            "time",
+            "access_valid"
+          ]
+        },
+        {
+          "name": "AutonomyJob",
+          "fields": [
+            "command",
+            "snapshot",
+            "plan",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "AutonomousTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "workshop_job",
+            "decision_job",
+            "participant",
+            "processing",
+            "demands"
+          ]
+        },
+        {
+          "name": "AutonomousCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "agents",
+            "organization_policies",
+            "semantic_policy",
+            "workshop",
+            "autonomy",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/cards.py",
+      "family": "Structures and prices",
+      "action": "preserve",
+      "milestones": [
+        "U2",
+        "U5"
+      ],
+      "reason": "Keep accepted structural outputs and existing protocol versions exact. New laws need separate versions and declared status.",
+      "existing_module_description": "Source card arrangement; no content, capacity, navigation or Crux mapping.",
+      "classes": []
+    },
+    {
+      "module": "hle/clearance.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Continuing R19 runtime: real due loans, changed schedules, composed work.\n\nThe clearance observer is read-only. Participant choice never reads its state.\nNo material, capacity, action success or clearance can be assigned by a marker.",
+      "classes": [
+        {
+          "name": "ClearanceWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/clearance_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Frozen R19 opportunity panel and fresh participant controllers.\n\nEnvironment/harness schedules opportunities; decisions, consent, shared output,\nconditional recall and actual transfer all execute through paid engine APIs.",
+      "classes": [
+        {
+          "name": "ClearanceController",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/clearance_records.py",
+      "family": "Shells and development",
+      "action": "adapt",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R19 environmental opportunities and evaluator boundaries; no verdict inputs.",
+      "classes": [
+        {
+          "name": "EpisodeResourceContract",
+          "fields": [
+            "command_id",
+            "episode_id",
+            "regime",
+            "seed",
+            "protocol_id",
+            "protocol_sha256"
+          ]
+        },
+        {
+          "name": "ClearanceBoundary",
+          "fields": [
+            "command_id",
+            "actor",
+            "operation",
+            "case",
+            "orders",
+            "item"
+          ]
+        },
+        {
+          "name": "LoanDue",
+          "fields": [
+            "command_id",
+            "item",
+            "loan"
+          ]
+        },
+        {
+          "name": "PartnerShift",
+          "fields": [
+            "command_id",
+            "actor",
+            "unavailable_slots"
+          ]
+        },
+        {
+          "name": "WithdrawEvidence",
+          "fields": [
+            "command_id",
+            "source",
+            "reason"
+          ]
+        },
+        {
+          "name": "OrderDependency",
+          "fields": [
+            "command_id",
+            "predecessor",
+            "successor"
+          ]
+        },
+        {
+          "name": "ClearanceTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task"
+          ]
+        },
+        {
+          "name": "ClearanceCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "seal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/clearance_reference.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Offline R19 audit from raw transactions, independent of the live observer.\n\nReconstructs physical facts, paid work, current capacities, owned messages,\nresource comparisons and recurrence. It never calls participant selection,\nthe live clearance monitor, or its availability/dependency predicates.\nHistorical five-sign witnesses use the already independent R16B raw fold.",
+      "classes": []
+    },
+    {
+      "module": "hle/clearance_runtime.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Read-only incremental clearance observer over the continuing actor.\n\nAn absence result is licensed by a completed own conditional return, current\nmaterial/capacities, and actual held-out work. Quiet time has no such effect.\nThe five historical mechanisms are scoped to the original release account.",
+      "classes": [
+        {
+          "name": "ClearanceMonitor",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/clearance_shell.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R19 adapter authenticates the R17 conditional view at the old monitor.\n\nHistorical sign predicates are unchanged. The old R16 adapter only knew a\nconcept relation, so a legitimate conditional confirmation could incorrectly\nraise a view-mismatch diagnostic after R17. This adapter follows raw paid uses.",
+      "classes": [
+        {
+          "name": "ConversionShellMonitor",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/closure.py",
+      "family": "Nesting and organization",
+      "action": "generalize",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R20 shared closure on the continuing R19 journal.\n\nParticipant planning uses owned or explicitly shared records. Physical effects\nremain R18 production, R17 returns and R9 enacted duties. The evaluator observes\nthose effects; neither a name nor a supplied success flag settles a duty.",
+      "classes": [
+        {
+          "name": "ClosureWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/closure_demo.py",
+      "family": "Nesting and organization",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Supplied R20 opportunities; paid participant operations choose and enact rules.",
+      "classes": []
+    },
+    {
+      "module": "hle/closure_policy.py",
+      "family": "Nesting and organization",
+      "action": "generalize",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Detached finite conductivity and extension selection; no world or evaluator.\n\nThe problem is consensual discharge of identified shared obligations, not merely\nmoving an item. Current methods are exhaustively tested under this stated law.\nMembership revision alone does not authorize taking over an inherited debt.",
+      "classes": []
+    },
+    {
+      "module": "hle/closure_records.py",
+      "family": "Nesting and organization",
+      "action": "adapt",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R20 finite shared obligation grammar. Records never award altitude by label.",
+      "classes": [
+        {
+          "name": "ClosureCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "operation",
+            "inputs",
+            "label",
+            "work_limit",
+            "search_limit"
+          ]
+        },
+        {
+          "name": "NativeBinding",
+          "fields": [
+            "ref",
+            "owner",
+            "root",
+            "access",
+            "material",
+            "capacities",
+            "production",
+            "conditional_use",
+            "returned"
+          ]
+        },
+        {
+          "name": "SharedDemand",
+          "fields": [
+            "ref",
+            "owner",
+            "binding",
+            "item",
+            "members",
+            "obligations",
+            "parent",
+            "previous_terms",
+            "previous_generation"
+          ]
+        },
+        {
+          "name": "SearchResult",
+          "fields": [
+            "ref",
+            "owner",
+            "demand",
+            "current",
+            "rows",
+            "candidates",
+            "equal_minima",
+            "status",
+            "required",
+            "unfinished",
+            "departed"
+          ]
+        },
+        {
+          "name": "SharedPlan",
+          "fields": [
+            "ref",
+            "owner",
+            "demand",
+            "root",
+            "access",
+            "search",
+            "operation",
+            "identity",
+            "generation",
+            "terms_digest",
+            "members",
+            "assignments",
+            "start",
+            "state",
+            "parent_root"
+          ]
+        },
+        {
+          "name": "SharedVote",
+          "fields": [
+            "ref",
+            "owner",
+            "plan",
+            "approved",
+            "reason",
+            "state",
+            "own_units",
+            "limit"
+          ]
+        },
+        {
+          "name": "SharedActivation",
+          "fields": [
+            "ref",
+            "owner",
+            "plan",
+            "votes"
+          ]
+        },
+        {
+          "name": "ClosureResult",
+          "fields": [
+            "ref",
+            "owner",
+            "plan",
+            "activation",
+            "duties",
+            "root",
+            "depth",
+            "status",
+            "predicates",
+            "dependencies",
+            "current_states"
+          ]
+        },
+        {
+          "name": "ClosurePacket",
+          "fields": [
+            "sender",
+            "record",
+            "readable"
+          ]
+        },
+        {
+          "name": "RootGrant",
+          "fields": [
+            "ref",
+            "owner",
+            "source",
+            "plan",
+            "readable"
+          ]
+        },
+        {
+          "name": "ClosureJob",
+          "fields": [
+            "command",
+            "required",
+            "candidate",
+            "basis",
+            "paid",
+            "outcome",
+            "result"
+          ]
+        },
+        {
+          "name": "ClosureTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra",
+            "job"
+          ]
+        },
+        {
+          "name": "ClosureCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "seal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/closure_reference.py",
+      "family": "Nesting and organization",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Offline R20 raw-transaction audit, independent of the closure runtime/policy.\n\nRebuilds consent, individual performance, obligation identity, resource balances,\nroot heads and subsequent invalidation. Runtime predicate fields are comparison\ntargets only. Prior R19 clearance is independently reconstructed by its raw fold.",
+      "classes": []
+    },
+    {
+      "module": "hle/codec.py",
+      "family": "Object schema and interfaces",
+      "action": "adapt",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "Allowlisted, exact typed JSON; no executable deserialization (W08).",
+      "classes": []
+    },
+    {
+      "module": "hle/compensation.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R15 generated accommodation and material treatment in the R14.5 journal.\n\nThe finite model deliberately permits a locally inexpensive, self-confirming\ngeneralization. Its conceptual distortion is assessable independently of the\ntruthful particular records and successful physical endpoint. R16 assessment\nand R17 developmental conversion are not implemented by this module.",
+      "classes": [
+        {
+          "name": "CompensationWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/compensation_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "True historical constraints then matched optional release opportunities.\n\nThe harness supplies only physical opportunities and genuine accepted terms.\nIt never supplies a learner answer, treatment, carrier, or defensive sequence.",
+      "classes": []
+    },
+    {
+      "module": "hle/compensation_evaluation.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Offline R15 witnesses, independently folded from committed transactions.\n\nDoes not call participant selection, read runtime derived material indexes, or\nissue a Shell/clearance verdict. Correct endpoints and maintained prerequisites\nare separate reported variables. Integer accounting is reconstructed in full.",
+      "classes": []
+    },
+    {
+      "module": "hle/compensation_policy.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Pure local choice: finite alternative enumeration with a paid revision law.\n\nThe heuristic minimizes immediate content work, not long-run work or truth error.\nGeneralizing a co-occurring confirmation into a prerequisite and charging for\nreprocessing past supports are explicit experimental assumptions. Neither is a\nderived psychological law. Histories, not a defense label, choose the path.",
+      "classes": []
+    },
+    {
+      "module": "hle/compensation_records.py",
+      "family": "Shells and development",
+      "action": "adapt",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R15 finite release-learning hypotheses and exact material provenance.\n\nNo record contains a assignable Shell, clearance, diagnosis or altitude verdict.",
+      "classes": [
+        {
+          "name": "ReleaseConfig",
+          "fields": [
+            "required_items",
+            "revision_unit"
+          ]
+        },
+        {
+          "name": "ReviewPolicy",
+          "fields": [
+            "owner",
+            "may_review",
+            "review_units"
+          ]
+        },
+        {
+          "name": "CarrierOption",
+          "fields": [
+            "actor",
+            "evidence",
+            "quoted_units"
+          ]
+        },
+        {
+          "name": "ReleaseView",
+          "fields": [
+            "owner",
+            "item",
+            "loan",
+            "terms",
+            "required",
+            "clean",
+            "due",
+            "owned",
+            "concept",
+            "dependency",
+            "supports",
+            "carriers",
+            "refused",
+            "prior_treatment"
+          ]
+        },
+        {
+          "name": "ReleaseSelection",
+          "fields": [
+            "mode",
+            "carrier",
+            "extent",
+            "alternatives",
+            "reason"
+          ]
+        },
+        {
+          "name": "ReleaseDecision",
+          "fields": [
+            "ref",
+            "owner",
+            "view",
+            "selection",
+            "material",
+            "treatment"
+          ]
+        },
+        {
+          "name": "TensionMaterial",
+          "fields": [
+            "ref",
+            "owner",
+            "reference",
+            "address",
+            "constraint",
+            "origin_event",
+            "concept_at_origin",
+            "evidence_at_origin"
+          ]
+        },
+        {
+          "name": "ReleasePacket",
+          "fields": [
+            "kind",
+            "item",
+            "loan",
+            "decision",
+            "request",
+            "approved",
+            "required",
+            "material",
+            "reason"
+          ]
+        },
+        {
+          "name": "ReleaseCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "operator",
+            "item",
+            "source",
+            "willingness",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "ReleaseJob",
+          "fields": [
+            "command",
+            "plan",
+            "movements",
+            "view",
+            "selection",
+            "basis",
+            "previous",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "ReleaseTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "job",
+            "processing",
+            "material",
+            "treatment",
+            "decision",
+            "concept"
+          ]
+        },
+        {
+          "name": "CompensationCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "release",
+            "reviewers",
+            "journal",
+            "reference_seal",
+            "imported_prefix"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/composition.py",
+      "family": "Nesting and organization",
+      "action": "generalize",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Versioned recursive organization over the unchanged R6 simulation journal.",
+      "classes": [
+        {
+          "name": "ComposedWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/composition_assessment.py",
+      "family": "Nesting and organization",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Evaluator-only R7 consistency conditions, distinct from participant access.",
+      "classes": []
+    },
+    {
+      "module": "hle/composition_demo.py",
+      "family": "Nesting and organization",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R7 supplied demands: acquire a lesson, nest it, and use it on another item.",
+      "classes": []
+    },
+    {
+      "module": "hle/composition_records.py",
+      "family": "Nesting and organization",
+      "action": "adapt",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R7 versioned contextual DAG proposal; all prices and semantics are elected.",
+      "classes": [
+        {
+          "name": "Part",
+          "fields": [
+            "role",
+            "target",
+            "context"
+          ]
+        },
+        {
+          "name": "FoldDraft",
+          "fields": [
+            "key",
+            "parts",
+            "expected"
+          ]
+        },
+        {
+          "name": "UnfoldDraft",
+          "fields": [
+            "root",
+            "context",
+            "at"
+          ]
+        },
+        {
+          "name": "CompositionCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "payload",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "CompositionRevision",
+          "fields": [
+            "ref",
+            "owner",
+            "at",
+            "parts",
+            "previous",
+            "law"
+          ]
+        },
+        {
+          "name": "Edge",
+          "fields": [
+            "parent",
+            "part"
+          ]
+        },
+        {
+          "name": "UnfoldResult",
+          "fields": [
+            "ref",
+            "owner",
+            "query",
+            "nodes",
+            "edges",
+            "hits",
+            "capabilities",
+            "units",
+            "truncated"
+          ]
+        },
+        {
+          "name": "CompositionJob",
+          "fields": [
+            "command",
+            "completed",
+            "node_paid",
+            "frontier",
+            "nodes",
+            "edges",
+            "hits",
+            "capabilities",
+            "outcome",
+            "result"
+          ]
+        },
+        {
+          "name": "Expectation",
+          "fields": [
+            "subject",
+            "relation",
+            "value"
+          ]
+        },
+        {
+          "name": "DeclareCompositionTest",
+          "fields": [
+            "command_id",
+            "key",
+            "root",
+            "context",
+            "claims",
+            "required_rules",
+            "max_units"
+          ]
+        },
+        {
+          "name": "CompositionTest",
+          "fields": [
+            "ref",
+            "request",
+            "at"
+          ]
+        },
+        {
+          "name": "AssessCompositions",
+          "fields": [
+            "command_id",
+            "limit"
+          ]
+        },
+        {
+          "name": "UseWitness",
+          "fields": [
+            "access",
+            "account",
+            "application",
+            "retained",
+            "units"
+          ]
+        },
+        {
+          "name": "CompositionReport",
+          "fields": [
+            "ref",
+            "test",
+            "at",
+            "nodes",
+            "stale",
+            "accesses",
+            "uses",
+            "agreement",
+            "capacity",
+            "freshness",
+            "cross_level",
+            "identity",
+            "factual",
+            "path",
+            "usefulness",
+            "factual_counts",
+            "closure"
+          ]
+        },
+        {
+          "name": "CompositionTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra",
+            "job"
+          ]
+        },
+        {
+          "name": "CompositionCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "agents",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/concept_demo.py",
+      "family": "Concepts and paid routing",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R14.5 bounded integration demonstrations and reproducible history contrasts.",
+      "classes": []
+    },
+    {
+      "module": "hle/concept_records.py",
+      "family": "Concepts and paid routing",
+      "action": "adapt",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R14.5 immutable conceptual records; particulars remain referenced evidence.",
+      "classes": [
+        {
+          "name": "ConceptAddress",
+          "fields": [
+            "folded_position",
+            "file",
+            "depth",
+            "apex",
+            "cue"
+          ]
+        },
+        {
+          "name": "ConceptState",
+          "fields": [
+            "ref",
+            "owner",
+            "reference",
+            "context",
+            "address",
+            "relations",
+            "tensions",
+            "evidence",
+            "previous",
+            "practiced"
+          ]
+        },
+        {
+          "name": "ConceptCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "operator",
+            "sources",
+            "recipient",
+            "item",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "ConceptJob",
+          "fields": [
+            "command",
+            "plan",
+            "previous",
+            "movements",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "ConceptTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "job",
+            "processing",
+            "concept"
+          ]
+        },
+        {
+          "name": "ConceptCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "journal",
+            "migration_prefix",
+            "reference_seal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/concept_structure.py",
+      "family": "Concepts and paid routing",
+      "action": "generalize",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Shared references and conditional Fold bridge, never a participant's mastery.\n\nDomain semantics and learning rules are declared finite hypotheses. This module\nmakes no claim to prove archetypal universality or geometric 4D projection.",
+      "classes": [
+        {
+          "name": "SituatedEdge",
+          "fields": [
+            "element",
+            "position",
+            "seat",
+            "family_edge",
+            "route",
+            "type_coordinates"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/conceptual.py",
+      "family": "Concepts and paid routing",
+      "action": "generalize",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Integrated R14.5 runtime: particulars, conceptual tension and paid realization.\n\nOne journal. Semantic changes enqueue only affected owned observations. Exact\nparticulars use indexed detail lookup; conceptual state references evidence.\nFinite learning and action policies are hypotheses, not a Shell diagnosis.",
+      "classes": [
+        {
+          "name": "ConceptualWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/content_operators.py",
+      "family": "Content and language",
+      "action": "generalize",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Finite content contracts, detached from world state and type labels.\n\nThe Ne/Fi names below are experimental operationalizations, not definitions of\nhuman functions. Learning eliminates hypotheses using observed demonstration\ntraces; a condition name or desired test answer never enters these functions.",
+      "classes": []
+    },
+    {
+      "module": "hle/content_records.py",
+      "family": "Content and language",
+      "action": "adapt",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R13 versioned commands over the full continuing OrganizationWorld journal.",
+      "classes": [
+        {
+          "name": "ContentCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "operator",
+            "sources",
+            "access",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "MeaningCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "cue",
+            "context",
+            "scene",
+            "experience",
+            "application",
+            "access",
+            "key",
+            "expected",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "CancelDevelopment",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "reason"
+          ]
+        },
+        {
+          "name": "DevelopmentJob",
+          "fields": [
+            "command",
+            "started_at",
+            "plan",
+            "candidate",
+            "sources",
+            "dependencies",
+            "paid",
+            "outcome",
+            "result"
+          ]
+        },
+        {
+          "name": "DevelopmentTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "state",
+            "job",
+            "messages",
+            "memories",
+            "task"
+          ]
+        },
+        {
+          "name": "DevelopmentCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "agents",
+            "organization_policies",
+            "semantic_policy",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/contracts.py",
+      "family": "Object schema and interfaces",
+      "action": "adapt",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "Immutable, versioned boundary values for R2--R5 (E02--E09).\n\nValidation here is local shape/consistency validation, not referential integrity,\nauthorization, inference, accounting execution, memory retrieval, or assessment.\nEvery reference includes a revision; historical meaning must resolve that revision.",
+      "classes": [
+        {
+          "name": "Record",
+          "fields": []
+        },
+        {
+          "name": "Kind",
+          "fields": []
+        },
+        {
+          "name": "Ref",
+          "fields": [
+            "kind",
+            "key",
+            "revision"
+          ]
+        },
+        {
+          "name": "Moment",
+          "fields": [
+            "tick",
+            "order"
+          ]
+        },
+        {
+          "name": "TimeScope",
+          "fields": [
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "Proposition",
+          "fields": [
+            "subject",
+            "relation",
+            "object",
+            "context",
+            "scope"
+          ]
+        },
+        {
+          "name": "Change",
+          "fields": [
+            "before",
+            "after"
+          ]
+        },
+        {
+          "name": "Cause",
+          "fields": [
+            "event",
+            "rule"
+          ]
+        },
+        {
+          "name": "WorkStatus",
+          "fields": []
+        },
+        {
+          "name": "WorldEvent",
+          "fields": [
+            "ref",
+            "when",
+            "actors",
+            "objects",
+            "action",
+            "context",
+            "changes",
+            "causes",
+            "work",
+            "outcome",
+            "reason",
+            "corrects"
+          ]
+        },
+        {
+          "name": "Observation",
+          "fields": [
+            "ref",
+            "observer",
+            "source",
+            "source_time",
+            "delivered_at",
+            "content",
+            "channel_rule",
+            "visibility",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "ClaimStatus",
+          "fields": []
+        },
+        {
+          "name": "MemoryRevision",
+          "fields": [
+            "ref",
+            "owner",
+            "retained_at",
+            "content",
+            "links",
+            "observations",
+            "derived_from",
+            "claim_status",
+            "capabilities",
+            "replaces",
+            "reason"
+          ]
+        },
+        {
+          "name": "CueDescriptor",
+          "fields": [
+            "ref",
+            "symbol",
+            "deck",
+            "suit",
+            "rank",
+            "folded_location",
+            "layer_label"
+          ]
+        },
+        {
+          "name": "CueBinding",
+          "fields": [
+            "ref",
+            "owner",
+            "cue",
+            "context",
+            "target",
+            "scope",
+            "learned_from"
+          ]
+        },
+        {
+          "name": "CursorState",
+          "fields": [
+            "ref",
+            "owner",
+            "current_cues",
+            "policy",
+            "practice_evidence"
+          ]
+        },
+        {
+          "name": "ResourceAmount",
+          "fields": [
+            "unit",
+            "amount"
+          ]
+        },
+        {
+          "name": "WorkRecord",
+          "fields": [
+            "ref",
+            "owner",
+            "operation",
+            "before",
+            "credited",
+            "charged",
+            "after",
+            "required_units",
+            "completed_units",
+            "outcome",
+            "reason"
+          ]
+        },
+        {
+          "name": "ProcessingStep",
+          "fields": [
+            "order",
+            "operation",
+            "inputs",
+            "outputs",
+            "work"
+          ]
+        },
+        {
+          "name": "MovementRecord",
+          "fields": [
+            "ref",
+            "holon",
+            "demand",
+            "formal",
+            "operation",
+            "preconditions",
+            "content",
+            "history",
+            "outcome",
+            "retained",
+            "reason"
+          ]
+        },
+        {
+          "name": "EvidenceStatus",
+          "fields": []
+        },
+        {
+          "name": "Dimension",
+          "fields": []
+        },
+        {
+          "name": "IdeaPhase",
+          "fields": []
+        },
+        {
+          "name": "IdeaCell",
+          "fields": [
+            "phase",
+            "perspective"
+          ]
+        },
+        {
+          "name": "ProtocolSpec",
+          "fields": [
+            "ref",
+            "transform",
+            "return_policy",
+            "domain",
+            "resource_conditions",
+            "path_conditions"
+          ]
+        },
+        {
+          "name": "AssessmentSpec",
+          "fields": [
+            "ref",
+            "declared_at",
+            "state_space",
+            "identity_criterion",
+            "identity_features",
+            "protocols",
+            "comparison_rule",
+            "scope",
+            "composition_claim"
+          ]
+        },
+        {
+          "name": "AssessmentResult",
+          "fields": [
+            "spec",
+            "protocol",
+            "dimension",
+            "status",
+            "evidence",
+            "tested_sequences",
+            "reason"
+          ]
+        },
+        {
+          "name": "ActionRequest",
+          "fields": [
+            "actor",
+            "operation",
+            "inputs",
+            "based_on"
+          ]
+        },
+        {
+          "name": "ParticipantInput",
+          "fields": [
+            "actor",
+            "at",
+            "observations",
+            "own_memories",
+            "available",
+            "demands"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/conversion.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R17 conversion extends the same paid reconciliation/workshop journal.\n\nThe finite learner compares constant versus source-conditional prerequisites.\nIt may release, obtain context, form a provisional organization, practice,\npause, fail, revise, retain and recall. Evidence, not a phase counter, licenses\nretention. The harness offers opportunities; it cannot supply a learned answer.",
+      "classes": [
+        {
+          "name": "ConversionWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/conversion_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R17 opportunities over genuine R16 histories; never inject learned output.",
+      "classes": []
+    },
+    {
+      "module": "hle/conversion_records.py",
+      "family": "Shells and development",
+      "action": "adapt",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R17 owned material, provisional organization, paid practice and retained use.\n\nNo phase or developmental verdict is a participant input. These records retain\nreferences to particulars; they do not move dates or item facts into Fool's Memory.",
+      "classes": [
+        {
+          "name": "ConversionPolicy",
+          "fields": [
+            "material_access",
+            "practice",
+            "retention"
+          ]
+        },
+        {
+          "name": "ConversionCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "operator",
+            "item",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "ConversionStudy",
+          "fields": [
+            "ref",
+            "owner",
+            "material",
+            "concept_origin",
+            "account_material",
+            "context_sources",
+            "candidate",
+            "active",
+            "paused"
+          ]
+        },
+        {
+          "name": "ScopeCandidate",
+          "fields": [
+            "ref",
+            "owner",
+            "material",
+            "context",
+            "table",
+            "sources",
+            "practice",
+            "failures",
+            "covered",
+            "previous",
+            "preconditions"
+          ]
+        },
+        {
+          "name": "ConversionUse",
+          "fields": [
+            "ref",
+            "owner",
+            "material",
+            "rule",
+            "capacity",
+            "item",
+            "loan",
+            "terms",
+            "required",
+            "event"
+          ]
+        },
+        {
+          "name": "ConversionCapacity",
+          "fields": [
+            "ref",
+            "owner",
+            "material",
+            "rule",
+            "acquisition",
+            "practice",
+            "current",
+            "previous"
+          ]
+        },
+        {
+          "name": "ConversionJob",
+          "fields": [
+            "command",
+            "operation",
+            "plan",
+            "movements",
+            "basis",
+            "study",
+            "capacity",
+            "accessible",
+            "view",
+            "result",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "ConversionTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "job",
+            "processing",
+            "study",
+            "candidate",
+            "capacity",
+            "use",
+            "treatment",
+            "concept"
+          ]
+        },
+        {
+          "name": "ConversionCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "policy",
+            "seal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/conversion_reference.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Independent raw-journal R17 witnesses and work/lineage reconstruction.\n\nDoes not call selection, inference, release_view, a monitor, or conversion\ninternals. In particular, a phase name or correct endpoint is never sufficient.",
+      "classes": []
+    },
+    {
+      "module": "hle/crux.py",
+      "family": "Structures and prices",
+      "action": "preserve",
+      "milestones": [
+        "U2",
+        "U5"
+      ],
+      "reason": "Keep accepted structural outputs and existing protocol versions exact. New laws need separate versions and declared status.",
+      "existing_module_description": "Formal route grammar (C01--C04), with no realized content operators.\n\nA route inverse is an endpoint operation: it does not undo world effects,\nrecover discarded content, refund work, or establish an IDEA return.",
+      "classes": [
+        {
+          "name": "Perspective",
+          "fields": []
+        },
+        {
+          "name": "Polarity",
+          "fields": []
+        },
+        {
+          "name": "Route",
+          "fields": [
+            "origin",
+            "destination"
+          ]
+        },
+        {
+          "name": "FormalMovement",
+          "fields": [
+            "route",
+            "polarity"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/demo.py",
+      "family": "Object schema and interfaces",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "An inspectable R2 fixture, not an autonomous learning demonstration.",
+      "classes": []
+    },
+    {
+      "module": "hle/development_contracts.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R12 version-one developmental boundaries, not a developmental controller.\n\nReferences share R11's event/memory/work address space. These immutable values\nvalidate local shape and consistency only; R13 must resolve them against the\none runtime journal. They confer no capacity, Shell verdict, or altitude.",
+      "classes": [
+        {
+          "name": "VersionOne",
+          "fields": [
+            "schema_version"
+          ]
+        },
+        {
+          "name": "Origin",
+          "fields": []
+        },
+        {
+          "name": "Comparison",
+          "fields": []
+        },
+        {
+          "name": "Treatment",
+          "fields": []
+        },
+        {
+          "name": "Phase",
+          "fields": []
+        },
+        {
+          "name": "ShellSign",
+          "fields": []
+        },
+        {
+          "name": "CapacityStatus",
+          "fields": []
+        },
+        {
+          "name": "StructuralFingerprint",
+          "fields": [
+            "tim",
+            "model_a_stack",
+            "dimensions"
+          ]
+        },
+        {
+          "name": "ResourceEnvelope",
+          "fields": [
+            "energy",
+            "time",
+            "replenishment_rule"
+          ]
+        },
+        {
+          "name": "Requirement",
+          "fields": [
+            "name",
+            "magnitude"
+          ]
+        },
+        {
+          "name": "DevelopmentalDemand",
+          "fields": [
+            "ref",
+            "origin",
+            "origin_events",
+            "discovered_from",
+            "family",
+            "comparison_protocol",
+            "required_outcomes",
+            "movements",
+            "context",
+            "participants",
+            "material_lineage",
+            "constraints",
+            "duration",
+            "resources",
+            "requirements",
+            "prior_demand"
+          ]
+        },
+        {
+          "name": "DemandComparison",
+          "fields": [
+            "current",
+            "prior",
+            "relation",
+            "changes",
+            "reason"
+          ]
+        },
+        {
+          "name": "Opportunity",
+          "fields": [
+            "ref",
+            "actor",
+            "demand",
+            "at",
+            "demand_active",
+            "observation_refs",
+            "interpretation",
+            "available_operator",
+            "required_units",
+            "resources",
+            "blocking_constraints",
+            "block_position",
+            "queue_entered",
+            "eligible_engagements"
+          ]
+        },
+        {
+          "name": "MaterialTreatment",
+          "fields": [
+            "ref",
+            "lineage",
+            "origin_actor",
+            "source_events",
+            "treating_actor",
+            "treatment",
+            "carrier",
+            "previous_revision",
+            "selection_evidence",
+            "work_refs",
+            "consequences"
+          ]
+        },
+        {
+          "name": "DevelopmentalWork",
+          "fields": [
+            "ref",
+            "actor",
+            "demand",
+            "operator",
+            "movement",
+            "inputs",
+            "event_refs",
+            "work_refs",
+            "required_units",
+            "paid_units",
+            "status",
+            "outputs"
+          ]
+        },
+        {
+          "name": "RetainedCapacity",
+          "fields": [
+            "ref",
+            "holder",
+            "content_aspect",
+            "operator",
+            "binding",
+            "context",
+            "material_lineage",
+            "acquisition_work",
+            "practice_events",
+            "dependencies",
+            "status",
+            "supersedes"
+          ]
+        },
+        {
+          "name": "ShellEpisode",
+          "fields": [
+            "ref",
+            "actor",
+            "material_lineage",
+            "demands",
+            "signs",
+            "mechanism",
+            "opportunities",
+            "trajectory_events",
+            "protocol",
+            "status",
+            "capacity_revisions",
+            "earlier_episode"
+          ]
+        },
+        {
+          "name": "ClosureEvidence",
+          "fields": [
+            "ref",
+            "organization",
+            "lower_organizations",
+            "demand",
+            "repertoire",
+            "repertoire_exhausted",
+            "search_censored",
+            "alternatives_evidence",
+            "retained_lower_evidence",
+            "new_capacity_evidence",
+            "coherence_evidence",
+            "minimality_order",
+            "equal_minima",
+            "status"
+          ]
+        },
+        {
+          "name": "ResidualObservations",
+          "fields": [
+            "events",
+            "queue_entered",
+            "observed_at",
+            "eligible_engagements",
+            "canceled_work",
+            "intensity_measurement"
+          ]
+        },
+        {
+          "name": "DevelopmentalState",
+          "fields": [
+            "actor",
+            "at",
+            "gamma",
+            "organization",
+            "movement",
+            "content",
+            "shell_episodes",
+            "phase",
+            "phase_evidence",
+            "residual",
+            "demands",
+            "opportunities",
+            "resources",
+            "material_lineage",
+            "capacities",
+            "trajectory_events"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/development_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R13 reproducible fixtures and fresh-controller operations, not R14 autonomy.\n\nThe harness offers tasks and training; acquired programs determine selection.\nEvery participant calculation uses owned records and delivered observations.",
+      "classes": []
+    },
+    {
+      "module": "hle/development_evaluation.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Bounded R13 executable witnesses; no R14 autonomous-generation claim.",
+      "classes": []
+    },
+    {
+      "module": "hle/development_protocol.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R12 acceptance declarations. Missing execution always remains unassessed.",
+      "classes": [
+        {
+          "name": "IdentityContract",
+          "fields": [
+            "ref",
+            "state_domain",
+            "features",
+            "discriminating_pairs",
+            "scope"
+          ]
+        },
+        {
+          "name": "ReturnProtocol",
+          "fields": [
+            "ref",
+            "identity",
+            "transformation",
+            "return_policy",
+            "applicability",
+            "resource_protocol",
+            "path_conditions",
+            "sequences",
+            "equivalence_proof"
+          ]
+        },
+        {
+          "name": "AcceptanceEvidence",
+          "fields": [
+            "case_id",
+            "protocol_sha256",
+            "status",
+            "run_kind",
+            "evidence_refs"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/development_structure.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Exact R12 structural checks on R11 coordinates and recovered OIG lenses.\n\nOIG inputs are declared quotient representatives. Mapping arbitrary runtime\ncontent into them is NOT supplied by this module. No Shell detector lives here.",
+      "classes": [
+        {
+          "name": "LensContent",
+          "fields": [
+            "domains",
+            "foreign",
+            "context",
+            "projection_contract"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/developmental.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R13 main world: finite content and learned meaning in the R2\u2013R11 journal.\n\nParticipant-facing operations accept delivered observations, exact own memory,\nand completed paid recall. Truth is used by neither content nor meaning policy.\nAll indexes below are reconstructible views of the same typed command journal.",
+      "classes": [
+        {
+          "name": "DevelopmentalWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/gf2.py",
+      "family": "Structures and prices",
+      "action": "preserve",
+      "milestones": [
+        "U2",
+        "U5"
+      ],
+      "reason": "Keep accepted structural outputs and existing protocol versions exact. New laws need separate versions and declared status.",
+      "existing_module_description": "Exact finite algebra. Rules M01 and E01 in docs/rules.json.\n\nAffine.compose(other) means self AFTER other. No floating-point approximation.",
+      "classes": [
+        {
+          "name": "Affine",
+          "fields": [
+            "linear",
+            "offset"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/idea.py",
+      "family": "Independent assessment",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U14"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Exact finite IDEA oracle, separate from the growing-world assessor (S01).\n\nTables declare X, kappa, f and r before testing. None denotes an unavailable\noperation. Closure uses Eq.17 only for a total finite domain exhaustively checked.\nThis fixture utility does not assert finite closure of the HLE simulation.",
+      "classes": [
+        {
+          "name": "FiniteProtocol",
+          "fields": [
+            "name",
+            "transform",
+            "return_map"
+          ]
+        },
+        {
+          "name": "FiniteIDEA",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/individuation.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R18 consequential four-perspective circuits in the continuing workshop.\n\nThe participant reads authorized bulletins, messages, own retained procedures\nand delivered consequences. Only physical enactment reads world constraints.\nThe evaluator never feeds its verdict into this implementation.",
+      "classes": [
+        {
+          "name": "IndividuationWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/individuation_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R18 opportunities and fresh stateless controller; no supplied learned answers.",
+      "classes": [
+        {
+          "name": "CircuitController",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/individuation_logic.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Finite task semantics. No world, type, relation, complex or evaluator inputs.",
+      "classes": []
+    },
+    {
+      "module": "hle/individuation_records.py",
+      "family": "Shells and development",
+      "action": "adapt",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R18 exact finite work-order, owned learning and shared consequence records.",
+      "classes": [
+        {
+          "name": "WorkOption",
+          "fields": [
+            "key",
+            "available",
+            "condition",
+            "observed_epoch",
+            "start",
+            "ready_at",
+            "duration",
+            "load",
+            "output",
+            "cost",
+            "claims",
+            "license"
+          ]
+        },
+        {
+          "name": "CircuitOffer",
+          "fields": [
+            "command_id",
+            "key",
+            "learner",
+            "partner",
+            "helper",
+            "options",
+            "focus",
+            "circuit",
+            "epoch",
+            "due",
+            "budget",
+            "credits",
+            "minimum_output"
+          ]
+        },
+        {
+          "name": "CircuitPolicy",
+          "fields": [
+            "correction",
+            "retention",
+            "material_access"
+          ]
+        },
+        {
+          "name": "WorkPartner",
+          "fields": [
+            "actor",
+            "licenses",
+            "unavailable_slots",
+            "willing",
+            "max_load",
+            "helper_available"
+          ]
+        },
+        {
+          "name": "CircuitCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "order",
+            "operator",
+            "work_limit",
+            "aspect",
+            "flag"
+          ]
+        },
+        {
+          "name": "CircuitMessage",
+          "fields": [
+            "ref",
+            "sender",
+            "recipient",
+            "order",
+            "permissions",
+            "acknowledgments",
+            "accepted",
+            "source"
+          ]
+        },
+        {
+          "name": "CircuitSignal",
+          "fields": [
+            "ref",
+            "observer",
+            "source",
+            "order",
+            "option",
+            "success",
+            "errors",
+            "produced",
+            "performer"
+          ]
+        },
+        {
+          "name": "AspectCapacity",
+          "fields": [
+            "ref",
+            "owner",
+            "aspect",
+            "material",
+            "failure",
+            "practice",
+            "acquisition",
+            "dependencies",
+            "current",
+            "previous"
+          ]
+        },
+        {
+          "name": "CircuitAccount",
+          "fields": [
+            "ref",
+            "owner",
+            "material",
+            "capacities",
+            "self_performed",
+            "revised_expectations",
+            "previous"
+          ]
+        },
+        {
+          "name": "CircuitOrder",
+          "fields": [
+            "ref",
+            "offer",
+            "bulletin",
+            "menu",
+            "chosen",
+            "stage",
+            "uses",
+            "provisional",
+            "review",
+            "outcome",
+            "signal",
+            "performer",
+            "credited",
+            "closed",
+            "movements",
+            "phase_work"
+          ]
+        },
+        {
+          "name": "CircuitJob",
+          "fields": [
+            "command",
+            "plan",
+            "basis",
+            "version",
+            "signature",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "CircuitTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "job",
+            "processing",
+            "order",
+            "communication",
+            "signal",
+            "capacities",
+            "account",
+            "partner",
+            "tentative"
+          ]
+        },
+        {
+          "name": "CircuitCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "policy",
+            "partners",
+            "seal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/individuation_reference.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Independent R18 raw-journal observer, never a participant input.\n\nDoes not call the live selector, learner, constraints, current-capacity view,\nor circuit implementation. Reconstructs messages, outcomes, capacities, paired\nownership, four perspective effects and accounting from immutable transactions.",
+      "classes": []
+    },
+    {
+      "module": "hle/language.py",
+      "family": "Content and language",
+      "action": "generalize",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Paid, owned participant semantics over R7. No Truth access in interpretation.",
+      "classes": [
+        {
+          "name": "LanguageWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/language_demo.py",
+      "family": "Content and language",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R8 supplied dialogue goals; meanings acquired from paid retained structures.",
+      "classes": []
+    },
+    {
+      "module": "hle/language_records.py",
+      "family": "Content and language",
+      "action": "adapt",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R8 finite compositional language; elected semantics, immutable provenance.",
+      "classes": [
+        {
+          "name": "Pattern",
+          "fields": [
+            "subject",
+            "owner"
+          ]
+        },
+        {
+          "name": "Meaning",
+          "fields": [
+            "token",
+            "patterns",
+            "arity"
+          ]
+        },
+        {
+          "name": "WordUse",
+          "fields": [
+            "token",
+            "fingerprint",
+            "arguments"
+          ]
+        },
+        {
+          "name": "Act",
+          "fields": [
+            "operation",
+            "item",
+            "recipient"
+          ]
+        },
+        {
+          "name": "Speech",
+          "fields": [
+            "mode",
+            "calls",
+            "actions"
+          ]
+        },
+        {
+          "name": "Learn",
+          "fields": [
+            "token",
+            "access",
+            "observation",
+            "expected"
+          ]
+        },
+        {
+          "name": "Produce",
+          "fields": [
+            "speech"
+          ]
+        },
+        {
+          "name": "Interpret",
+          "fields": [
+            "observation",
+            "access"
+          ]
+        },
+        {
+          "name": "Intend",
+          "fields": [
+            "utterance",
+            "access"
+          ]
+        },
+        {
+          "name": "LanguageCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "payload",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "Lexeme",
+          "fields": [
+            "ref",
+            "owner",
+            "meaning",
+            "access",
+            "previous",
+            "source"
+          ]
+        },
+        {
+          "name": "Utterance",
+          "fields": [
+            "ref",
+            "owner",
+            "speech",
+            "definitions"
+          ]
+        },
+        {
+          "name": "Interpretation",
+          "fields": [
+            "ref",
+            "owner",
+            "source",
+            "access",
+            "speech",
+            "status",
+            "definitions",
+            "reason",
+            "debtor"
+          ]
+        },
+        {
+          "name": "LanguageJob",
+          "fields": [
+            "command",
+            "required",
+            "candidate",
+            "paid",
+            "outcome",
+            "result",
+            "route"
+          ]
+        },
+        {
+          "name": "LanguageTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra",
+            "job",
+            "state"
+          ]
+        },
+        {
+          "name": "LanguageCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "agents",
+            "journal",
+            "semantic_policy"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/meaning_learning.py",
+      "family": "Content and language",
+      "action": "generalize",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Bounded participant calculations, with no World or evaluator input.\n\nCards supply addresses. Consequences supply samples. A three-sample majority\nand least-used allocation are engineering choices, not source-defined meanings.\nProposals become usable only after the caller completes paid Write and Bind.\nR13 invokes these calculations under declared paid processing before Write/Bind.\nThe sample rule remains an engineering hypothesis, not a psychological law.",
+      "classes": [
+        {
+          "name": "PersonalMeaning",
+          "fields": [
+            "ref",
+            "owner",
+            "cue",
+            "context",
+            "scene",
+            "samples",
+            "check",
+            "guard_memory",
+            "encounters"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/memory.py",
+      "family": "World and situated memory",
+      "action": "generalize",
+      "milestones": [
+        "U3",
+        "U4"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Relational memory over the one R2 event/record store (F01--F10).\n\nThe algorithms and prices are declared choices in docs/Memory_R3.md. Participant\nhelpers receive immutable permitted inputs, never the evaluator interface.",
+      "classes": [
+        {
+          "name": "RelationalWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/memory_demo.py",
+      "family": "World and situated memory",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U3",
+        "U4"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Inspectable R3 memory-to-action example under supplied participant policies.",
+      "classes": []
+    },
+    {
+      "module": "hle/memory_records.py",
+      "family": "World and situated memory",
+      "action": "adapt",
+      "milestones": [
+        "U3",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "Exact R3 operation values. Search and revision are experimental policies.",
+      "classes": [
+        {
+          "name": "WriteDraft",
+          "fields": [
+            "key",
+            "content",
+            "links",
+            "attitude",
+            "expected",
+            "reason"
+          ]
+        },
+        {
+          "name": "BindDraft",
+          "fields": [
+            "key",
+            "cue",
+            "context",
+            "target",
+            "scope",
+            "expected"
+          ]
+        },
+        {
+          "name": "ContextDraft",
+          "fields": [
+            "key",
+            "label"
+          ]
+        },
+        {
+          "name": "CursorDraft",
+          "fields": [
+            "cues",
+            "policy",
+            "max_hops",
+            "expected"
+          ]
+        },
+        {
+          "name": "AckDraft",
+          "fields": [
+            "expected",
+            "through"
+          ]
+        },
+        {
+          "name": "RecallQuery",
+          "fields": [
+            "cues",
+            "context",
+            "at",
+            "subject",
+            "relation",
+            "visit_limit"
+          ]
+        },
+        {
+          "name": "DetailQuery",
+          "fields": [
+            "keys",
+            "context",
+            "at",
+            "subject",
+            "relation",
+            "visit_limit"
+          ]
+        },
+        {
+          "name": "MemoryCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "payload",
+            "based_on",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "MemoryContext",
+          "fields": [
+            "ref",
+            "owner",
+            "label"
+          ]
+        },
+        {
+          "name": "Navigation",
+          "fields": [
+            "cursor",
+            "max_hops"
+          ]
+        },
+        {
+          "name": "InboxState",
+          "fields": [
+            "ref",
+            "owner",
+            "after"
+          ]
+        },
+        {
+          "name": "Visit",
+          "fields": [
+            "memory",
+            "parent",
+            "depth"
+          ]
+        },
+        {
+          "name": "RecallHit",
+          "fields": [
+            "memory",
+            "proposition_indexes"
+          ]
+        },
+        {
+          "name": "RecallResult",
+          "fields": [
+            "ref",
+            "owner",
+            "query",
+            "selected_at",
+            "navigation",
+            "max_hops",
+            "bindings",
+            "visited",
+            "hits",
+            "truncated"
+          ]
+        },
+        {
+          "name": "MemoryJob",
+          "fields": [
+            "command",
+            "completed_units",
+            "outcome",
+            "selected_at",
+            "navigation",
+            "max_hops",
+            "bindings",
+            "frontier",
+            "visited",
+            "hits",
+            "truncated",
+            "result"
+          ]
+        },
+        {
+          "name": "MemoryTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "bindings",
+            "contexts",
+            "navigations",
+            "inboxes",
+            "recalls",
+            "job"
+          ]
+        },
+        {
+          "name": "MemoryCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/metabolism.py",
+      "family": "Concepts and paid routing",
+      "action": "generalize",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Paid Crux operators over the existing relational world and single journal.\n\nThe processing module receives detached owned inputs. Only _enact reads world\nownership; its result is delivered through the same explicit action channels.",
+      "classes": [
+        {
+          "name": "MetabolicWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/metabolism_demo.py",
+      "family": "Concepts and paid routing",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Deterministic R4 demands; operations infer outcomes from their actual inputs.",
+      "classes": []
+    },
+    {
+      "module": "hle/metabolism_records.py",
+      "family": "Concepts and paid routing",
+      "action": "adapt",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R4 executable movement values; numerical dynamics are experimental choices.",
+      "classes": [
+        {
+          "name": "Profile",
+          "fields": [
+            "owner",
+            "tim",
+            "active",
+            "perspective"
+          ]
+        },
+        {
+          "name": "ProcessingPolicy",
+          "fields": [
+            "typed_routing",
+            "positional_prices"
+          ]
+        },
+        {
+          "name": "TheorizeDraft",
+          "fields": [
+            "recall",
+            "item",
+            "recipient"
+          ]
+        },
+        {
+          "name": "ApplyDraft",
+          "fields": [
+            "account"
+          ]
+        },
+        {
+          "name": "EmbodyDraft",
+          "fields": [
+            "application",
+            "key",
+            "expected"
+          ]
+        },
+        {
+          "name": "UnderstandDraft",
+          "fields": [
+            "account",
+            "key",
+            "expected"
+          ]
+        },
+        {
+          "name": "MetabolicCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "payload",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "ProcessingState",
+          "fields": [
+            "ref",
+            "owner",
+            "active",
+            "perspective",
+            "busy"
+          ]
+        },
+        {
+          "name": "RoutePlan",
+          "fields": [
+            "declared_type",
+            "routing_type",
+            "path",
+            "positions",
+            "support_position",
+            "support_index",
+            "hop_units",
+            "content_units"
+          ]
+        },
+        {
+          "name": "Account",
+          "fields": [
+            "ref",
+            "owner",
+            "item",
+            "recipient",
+            "claim",
+            "evidence",
+            "recall",
+            "guard",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "Capability",
+          "fields": [
+            "ref",
+            "owner",
+            "rule",
+            "application",
+            "evidence"
+          ]
+        },
+        {
+          "name": "Enactment",
+          "fields": [
+            "ref",
+            "owner",
+            "account",
+            "request",
+            "observation",
+            "outcome"
+          ]
+        },
+        {
+          "name": "Application",
+          "fields": [
+            "ref",
+            "owner",
+            "account",
+            "enactments",
+            "observations",
+            "discrepancy",
+            "outcome"
+          ]
+        },
+        {
+          "name": "MetabolicJob",
+          "fields": [
+            "command",
+            "plan",
+            "basis",
+            "completed_units",
+            "action_units",
+            "phase",
+            "action",
+            "enactments",
+            "observations",
+            "discrepancy",
+            "history",
+            "attempts",
+            "outcome",
+            "result"
+          ]
+        },
+        {
+          "name": "MetabolicTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra",
+            "state",
+            "job"
+          ]
+        },
+        {
+          "name": "MetabolicCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/model_a.py",
+      "family": "Structures and prices",
+      "action": "preserve",
+      "milestones": [
+        "U2",
+        "U5"
+      ],
+      "reason": "Keep accepted structural outputs and existing protocol versions exact. New laws need separate versions and declared status.",
+      "existing_module_description": "Model A frames, type coordinates and transported adjacency (M02--M06).\n\nThese are conditional structural results, not psychological transition laws.\nNo numeric cost, learning rule, capacity bound, or preferred path is selected.",
+      "classes": []
+    },
+    {
+      "module": "hle/organization.py",
+      "family": "Nesting and organization",
+      "action": "generalize",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Participant-generated procedures over R8's single causal journal.\n\nLocal agreement is never a global knowledge flag. Packets travel through paid R2\nchannels and R6 reception. Cached practice summaries contain only owned outcomes.",
+      "classes": [
+        {
+          "name": "OrganizationWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/organization_demo.py",
+      "family": "Nesting and organization",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R9 supplied opportunities; participant operations choose terms and responses.",
+      "classes": []
+    },
+    {
+      "module": "hle/organization_policy.py",
+      "family": "Nesting and organization",
+      "action": "generalize",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Pure participant choices over detached owned summaries, never simulator Truth.\n\nAll selection laws here are implementation choices, not derived Socionics laws.\nThe supplied combinators are current-holder responsibility and cyclic allocation.\nThe participant elects an experienced guarded action sequence and its cohort.",
+      "classes": []
+    },
+    {
+      "module": "hle/organization_records.py",
+      "family": "Nesting and organization",
+      "action": "adapt",
+      "milestones": [
+        "U11",
+        "U12"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R9 elected finite organization grammar and exact local protocol records.",
+      "classes": [
+        {
+          "name": "OrganizationPolicy",
+          "fields": [
+            "owner",
+            "max_action_cost",
+            "max_members",
+            "minimum_support"
+          ]
+        },
+        {
+          "name": "Terms",
+          "fields": [
+            "identity",
+            "generation",
+            "predecessor",
+            "item",
+            "meaning",
+            "steps",
+            "members"
+          ]
+        },
+        {
+          "name": "OrganizationPacket",
+          "fields": [
+            "kind",
+            "sender",
+            "terms",
+            "status",
+            "reason"
+          ]
+        },
+        {
+          "name": "Formulate",
+          "fields": [
+            "access",
+            "state"
+          ]
+        },
+        {
+          "name": "ReviewTerms",
+          "fields": [
+            "proposal",
+            "access"
+          ]
+        },
+        {
+          "name": "Ratify",
+          "fields": [
+            "review",
+            "votes"
+          ]
+        },
+        {
+          "name": "Join",
+          "fields": [
+            "offer",
+            "access"
+          ]
+        },
+        {
+          "name": "Attend",
+          "fields": [
+            "state",
+            "notice"
+          ]
+        },
+        {
+          "name": "Leave",
+          "fields": [
+            "state",
+            "reason"
+          ]
+        },
+        {
+          "name": "Dispute",
+          "fields": [
+            "run"
+          ]
+        },
+        {
+          "name": "Perform",
+          "fields": [
+            "state",
+            "access"
+          ]
+        },
+        {
+          "name": "OrganizationCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "payload",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "OrganizationResult",
+          "fields": [
+            "ref",
+            "owner",
+            "kind",
+            "terms",
+            "status",
+            "reason",
+            "sources",
+            "previous",
+            "speech"
+          ]
+        },
+        {
+          "name": "OrganizationJob",
+          "fields": [
+            "command",
+            "required",
+            "candidate",
+            "paid",
+            "outcome",
+            "result",
+            "route"
+          ]
+        },
+        {
+          "name": "OrganizationTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra",
+            "job",
+            "state"
+          ]
+        },
+        {
+          "name": "OrganizationCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "agents",
+            "organization_policies",
+            "journal",
+            "semantic_policy"
+          ]
+        },
+        {
+          "name": "Practice",
+          "fields": [
+            "item",
+            "meaning",
+            "steps",
+            "partners",
+            "successes",
+            "failures",
+            "examples"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/paid_work.py",
+      "family": "Paid reuse",
+      "action": "generalize",
+      "milestones": [
+        "U4",
+        "U13"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R21B finite paid reuse. Exact owned inputs, never an assessment or answer.\n\nThis is a versioned operational accounting choice. Model A prices and physical\nprices stay fixed. Cache entries are derived receipts of completed choose work;\nthe journal remains authoritative and reconstructs every entry on restore.",
+      "classes": [
+        {
+          "name": "PaidWorkReuse",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/ports.py",
+      "family": "Object schema and interfaces",
+      "action": "adapt",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "Structural interfaces, implemented in part by the R2/R3 world.\n\nWorld.apply, participant views and TruthView implement the relevant boundaries.\nThe R2 Attempt envelope carries message/belief payloads. R3 RelationalWorld\nimplements MemoryPort and selective retrieval. Full assessment remains R5.\nPython typing is not a sandbox.",
+      "classes": [
+        {
+          "name": "ParticipantPolicy",
+          "fields": []
+        },
+        {
+          "name": "MemoryPort",
+          "fields": []
+        },
+        {
+          "name": "DeliveryPort",
+          "fields": []
+        },
+        {
+          "name": "WorldPort",
+          "fields": []
+        },
+        {
+          "name": "EvaluatorTruthPort",
+          "fields": []
+        },
+        {
+          "name": "AssessmentPort",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/processing.py",
+      "family": "Concepts and paid routing",
+      "action": "generalize",
+      "milestones": [
+        "U3",
+        "U5"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Pure participant computations: no world, evaluator or hidden-state input.",
+      "classes": []
+    },
+    {
+      "module": "hle/reconciliation.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R16B consequential release-account work in the existing causal journal.\n\nA finite workflow grammar is supplied. Contents and choices come from actual\nowned loan terms, practiced concepts, historical supports and paid messages.\nThe evaluator is never consulted by participant selection.",
+      "classes": [
+        {
+          "name": "ReconciliationWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/reconciliation_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Same R15 physical histories with an additional paid release-account policy.",
+      "classes": []
+    },
+    {
+      "module": "hle/reconciliation_records.py",
+      "family": "Shells and development",
+      "action": "adapt",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R16B paid release-account work. Participant records contain no Shell verdict.",
+      "classes": [
+        {
+          "name": "ReconciliationPolicy",
+          "fields": [
+            "distinction_unit",
+            "scaffold_unit",
+            "guard_unit",
+            "cross_check",
+            "willing"
+          ]
+        },
+        {
+          "name": "AccountPart",
+          "fields": [
+            "ref",
+            "lineage",
+            "owner",
+            "item",
+            "loan",
+            "role",
+            "requires",
+            "basis"
+          ]
+        },
+        {
+          "name": "AccountPacket",
+          "fields": [
+            "kind",
+            "owner",
+            "item",
+            "loan",
+            "requires",
+            "complete",
+            "first_notice",
+            "obligations"
+          ]
+        },
+        {
+          "name": "AccountState",
+          "fields": [
+            "ref",
+            "owner",
+            "item",
+            "loan",
+            "terms",
+            "concept",
+            "lineage",
+            "done",
+            "parts",
+            "notice",
+            "reply",
+            "complete",
+            "permission",
+            "closed"
+          ]
+        },
+        {
+          "name": "AccountCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "item",
+            "source",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "AccountJob",
+          "fields": [
+            "command",
+            "operation",
+            "plan",
+            "movements",
+            "view",
+            "prior",
+            "basis",
+            "correction_quote",
+            "paid",
+            "outcome"
+          ]
+        },
+        {
+          "name": "AccountTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "job",
+            "processing",
+            "state",
+            "parts",
+            "concept"
+          ]
+        },
+        {
+          "name": "ReconciliationCheckpoint",
+          "fields": [
+            "schema",
+            "base",
+            "account_policy",
+            "seal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/reconciliation_reference.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Offline R16B fold without live adapters, sign predicates or participant policy.\n\nReads committed statements and effects, authenticates references and costs,\nreconstructs four witnesses and the twelve quotient paths independently.",
+      "classes": []
+    },
+    {
+      "module": "hle/reconciliation_runtime.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Incremental journal adapter for consequential R16B account operations.",
+      "classes": [
+        {
+          "name": "AccountMonitor",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/relations.py",
+      "family": "Structures and prices",
+      "action": "preserve",
+      "milestones": [
+        "U2",
+        "U5"
+      ],
+      "reason": "Keep accepted structural outputs and existing protocol versions exact. New laws need separate versions and declared status.",
+      "existing_module_description": "Exact frame relations and element-preserving seat transfer (M07).\n\nrelation(a,b) = frame(a)^-1 AFTER frame(b), mapping B positions to A.\nDelivery from A to B uses its INVERSE. Human relation names are not elected.",
+      "classes": []
+    },
+    {
+      "module": "hle/resource_contracts.py",
+      "family": "Structures and prices",
+      "action": "preserve",
+      "milestones": [
+        "U2",
+        "U5"
+      ],
+      "reason": "Keep accepted structural outputs and existing protocol versions exact. New laws need separate versions and declared status.",
+      "existing_module_description": "R21A requirement order within one explicitly selected episode allocation.\n\nActual demand resources remain actual wallets. The order says nothing about\naffordability. Historical compare_demands and unenrolled episodes retain v1.",
+      "classes": [
+        {
+          "name": "ResourceFrame",
+          "fields": [
+            "contract",
+            "actor",
+            "allocation"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/semantic.py",
+      "family": "Content and language",
+      "action": "generalize",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Shared paid Model A processing for actual R8/R9 content operations.\n\nThe mapping and personal I -> I boundary are R11 hypotheses. No Truth input.",
+      "classes": [
+        {
+          "name": "SemanticRouting",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/semantic_records.py",
+      "family": "Content and language",
+      "action": "adapt",
+      "milestones": [
+        "U9",
+        "U10"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R11 explicit local processing hypotheses and cancellation contract.",
+      "classes": [
+        {
+          "name": "SemanticPolicy",
+          "fields": [
+            "enabled"
+          ]
+        },
+        {
+          "name": "SemanticRoute",
+          "fields": [
+            "family",
+            "operation",
+            "start_state",
+            "movement",
+            "extent",
+            "plan"
+          ]
+        },
+        {
+          "name": "CancelSemantic",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "family",
+            "reason"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/shell_assessment.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Five separate R16A hypotheses over local demand, content and actual work.\n\nThis does not infer a sign from an OIG signature. Positive witnesses require\nindependent content/action evidence. Missing measurement channels stay unknown.\nReports describe a finite historical window, never clearance or development.",
+      "classes": [
+        {
+          "name": "OIGAccumulator",
+          "fields": []
+        },
+        {
+          "name": "JointShellAssessment",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/shell_demo.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "The unchanged R15 environmental panel with a live, isolated observer.",
+      "classes": []
+    },
+    {
+      "module": "hle/shell_fixtures.py",
+      "family": "Shells and development",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "Explicitly synthetic sign/control traces; NOT generated runtime behavior.\n\nThese fixtures exercise the witnesses independently at the assessment boundary.\nThey cannot satisfy a gate whose required_run_kind is runtime.",
+      "classes": []
+    },
+    {
+      "module": "hle/shell_records.py",
+      "family": "Shells and development",
+      "action": "adapt",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R16A evidence values. These are evaluator inputs, never participant state.\n\nGeneric detector fixtures are explicitly marked. Runtime inputs are made only\nby the journal adapter; constructing a trace does not certify a runtime event.",
+      "classes": [
+        {
+          "name": "Claim",
+          "fields": [
+            "subject",
+            "relation",
+            "value",
+            "context",
+            "occasion"
+          ]
+        },
+        {
+          "name": "LocalEvidence",
+          "fields": [
+            "ref",
+            "owner",
+            "delivered",
+            "interpreted",
+            "interpretation",
+            "claims"
+          ]
+        },
+        {
+          "name": "ContentPart",
+          "fields": [
+            "ref",
+            "lineage",
+            "created",
+            "claims"
+          ]
+        },
+        {
+          "name": "TraceOperation",
+          "fields": [
+            "event",
+            "tick",
+            "name",
+            "inputs",
+            "outputs",
+            "claims",
+            "work",
+            "units",
+            "movements",
+            "domains",
+            "target"
+          ]
+        },
+        {
+          "name": "OpportunityEvidence",
+          "fields": [
+            "demand",
+            "necessary_operator",
+            "available_operators",
+            "capacity_evidence",
+            "required_units",
+            "energy",
+            "time",
+            "selected",
+            "refusal_evidence",
+            "queue_entered",
+            "current_movement",
+            "required_movement",
+            "engaged_at"
+          ]
+        },
+        {
+          "name": "DemandIncrease",
+          "fields": [
+            "event",
+            "tick",
+            "before",
+            "after",
+            "before_scope",
+            "after_scope"
+          ]
+        },
+        {
+          "name": "EngagementTrace",
+          "fields": [
+            "engagement",
+            "actor",
+            "lineage",
+            "context",
+            "tim",
+            "execution_kind",
+            "start",
+            "end",
+            "opportunity",
+            "evidence",
+            "parts",
+            "operations",
+            "measured",
+            "prerequisites",
+            "initial_structures",
+            "increase",
+            "closed",
+            "endpoint",
+            "projection",
+            "protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/shell_reference.py",
+      "family": "Shells and development",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Independent bounded R16A replay on raw committed R15 transactions.\n\nDoes not use the live monitor, detector predicates, projected_path, participant\nselector or derived runtime indexes. It independently identifies the supported\nplacement chain and quotient representatives. The shared tariff and recovered\nOIG reference are mathematical definitions, not behavioral selection rules.",
+      "classes": []
+    },
+    {
+      "module": "hle/shell_runtime.py",
+      "family": "Shells and development",
+      "action": "generalize",
+      "milestones": [
+        "U7",
+        "U8"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "R16A live read-only monitor of the existing R15 causal journal.\n\nOnly forced placement has sufficient runtime semantics in this adapter. The\nother four channels deliberately remain unassessed. No verdict enters policy.\nAll indexes are derived from transactions and rebuilt by ordinary R15 replay.",
+      "classes": [
+        {
+          "name": "ShellJournalMonitor",
+          "fields": []
+        },
+        {
+          "name": "ShellAssessmentWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/socion.py",
+      "family": "Participant exchange",
+      "action": "generalize",
+      "milestones": [
+        "U5",
+        "U10",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Independently adapting participants over AssessedWorld's single journal.\n\nPlanTurn is a journaled deterministic policy decision, followed by a normal paid\nR2/R3/R4 operation. Partial jobs and pending decisions are separately resumable.\nNo policy receives Truth, global history, other private memories or reports.",
+      "classes": [
+        {
+          "name": "SocionWorld",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/socion_assessment.py",
+      "family": "Participant exchange",
+      "action": "adapt_assessor",
+      "milestones": [
+        "U5",
+        "U10",
+        "U12"
+      ],
+      "reason": "Preserve independent reconstruction and criteria while adapting reads; keep verdicts outside participant access.",
+      "existing_module_description": "Evaluator-only dyadic predicate and exact finite return tests (S07).\n\nWE is (two distinct actors, shared ownership context, requested transfer and\nreturn, interpreted testimony on each leg). Closure of arbitrary composition\nremains unassessed. A later success cannot discard an earlier failed trial.",
+      "classes": []
+    },
+    {
+      "module": "hle/socion_demo.py",
+      "family": "Participant exchange",
+      "action": "compatibility_witness",
+      "milestones": [
+        "U5",
+        "U10",
+        "U12"
+      ],
+      "reason": "Retain scenario evidence; do not make its supplied sequence a general participant policy.",
+      "existing_module_description": "R6 demand harness. It schedules actors; their policies select every response.",
+      "classes": []
+    },
+    {
+      "module": "hle/socion_policy.py",
+      "family": "Participant exchange",
+      "action": "generalize",
+      "milestones": [
+        "U5",
+        "U10",
+        "U12"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Pure local policy. This module has no world, Truth, or assessor access.\n\nGoals, response options, and the finite ownership language are supplied. Actual\nanswers, inspections and checking lessons depend on each participant's history.",
+      "classes": []
+    },
+    {
+      "module": "hle/socion_records.py",
+      "family": "Participant exchange",
+      "action": "adapt",
+      "milestones": [
+        "U5",
+        "U10",
+        "U12"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R6 exchange records. Dynamics and prices are explicit experimental policies.",
+      "classes": [
+        {
+          "name": "AgentPolicy",
+          "fields": [
+            "owner",
+            "response",
+            "ask",
+            "use_lesson",
+            "patience",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "Goal",
+          "fields": [
+            "key",
+            "actor",
+            "item",
+            "partner"
+          ]
+        },
+        {
+          "name": "Notice",
+          "fields": [
+            "observation",
+            "source",
+            "sender",
+            "kind",
+            "claim",
+            "reply_to",
+            "sender_type",
+            "element"
+          ]
+        },
+        {
+          "name": "ReceiveCommand",
+          "fields": [
+            "command_id",
+            "task_id",
+            "actor",
+            "observation",
+            "work_limit"
+          ]
+        },
+        {
+          "name": "Reception",
+          "fields": [
+            "ref",
+            "owner",
+            "command",
+            "source",
+            "sender",
+            "source_position",
+            "landing_position",
+            "plan",
+            "completed",
+            "outcome"
+          ]
+        },
+        {
+          "name": "AgentState",
+          "fields": [
+            "ref",
+            "owner",
+            "cursor",
+            "goals",
+            "goal",
+            "phase",
+            "mode",
+            "item",
+            "partner",
+            "notice",
+            "query",
+            "received",
+            "account",
+            "application",
+            "lesson",
+            "pending",
+            "waiting"
+          ]
+        },
+        {
+          "name": "AgentView",
+          "fields": [
+            "state",
+            "policy",
+            "context",
+            "now",
+            "notice",
+            "memory",
+            "lesson",
+            "binding",
+            "lesson_binding",
+            "result",
+            "account",
+            "application",
+            "observations",
+            "pending_status",
+            "energy",
+            "time"
+          ]
+        },
+        {
+          "name": "AddGoal",
+          "fields": [
+            "command_id",
+            "goal"
+          ]
+        },
+        {
+          "name": "ConfigureAgent",
+          "fields": [
+            "command_id",
+            "policy",
+            "reason"
+          ]
+        },
+        {
+          "name": "PlanTurn",
+          "fields": [
+            "command_id",
+            "actor"
+          ]
+        },
+        {
+          "name": "GoalResult",
+          "fields": [
+            "ref",
+            "owner",
+            "goal",
+            "received",
+            "account",
+            "application",
+            "retained"
+          ]
+        },
+        {
+          "name": "DeclareDyad",
+          "fields": [
+            "command_id",
+            "key",
+            "left",
+            "right",
+            "item",
+            "max_units"
+          ]
+        },
+        {
+          "name": "Dyad",
+          "fields": [
+            "ref",
+            "request",
+            "at"
+          ]
+        },
+        {
+          "name": "OpenRound",
+          "fields": [
+            "command_id",
+            "study",
+            "key"
+          ]
+        },
+        {
+          "name": "RoundStart",
+          "fields": [
+            "ref",
+            "study",
+            "at",
+            "owner",
+            "cursor",
+            "left_spent",
+            "right_spent"
+          ]
+        },
+        {
+          "name": "CloseRound",
+          "fields": [
+            "command_id",
+            "start"
+          ]
+        },
+        {
+          "name": "RoundResult",
+          "fields": [
+            "ref",
+            "start",
+            "study",
+            "uses",
+            "identity",
+            "path",
+            "meaning",
+            "units",
+            "reason"
+          ]
+        },
+        {
+          "name": "AssessDyads",
+          "fields": [
+            "command_id",
+            "limit"
+          ]
+        },
+        {
+          "name": "DyadReport",
+          "fields": [
+            "ref",
+            "study",
+            "rounds",
+            "phases",
+            "identity",
+            "path",
+            "meaning",
+            "closure"
+          ]
+        },
+        {
+          "name": "SocionTransaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task",
+            "extra"
+          ]
+        },
+        {
+          "name": "SocionCheckpoint",
+          "fields": [
+            "schema",
+            "config",
+            "profiles",
+            "policy",
+            "agents",
+            "journal"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "hle/world.py",
+      "family": "World and situated memory",
+      "action": "generalize",
+      "milestones": [
+        "U3",
+        "U4"
+      ],
+      "reason": "Carry existing causal behavior through common operation and access interfaces, then extend the finite domain with separately tested constructors.",
+      "existing_module_description": "Deterministic ownership world and simulator-owned Truth record (R2).\n\nParticipant policies receive detached immutable values only. This is an API\nboundary for cooperative policies, not a sandbox against hostile Python code.\nNo memory navigation, learned policy, IDEA return or Shell detector lives here.",
+      "classes": [
+        {
+          "name": "TruthView",
+          "fields": []
+        },
+        {
+          "name": "World",
+          "fields": []
+        }
+      ]
+    },
+    {
+      "module": "hle/world_records.py",
+      "family": "Object schema and interfaces",
+      "action": "adapt",
+      "milestones": [
+        "U2",
+        "U4"
+      ],
+      "reason": "Map existing fields to versioned roles, relations, and compatibility views; preserve historical identity and occurrence status.",
+      "existing_module_description": "R2 operational records. All dynamics here are engineering choices (W01-W10).",
+      "classes": [
+        {
+          "name": "Entity",
+          "fields": [
+            "ref",
+            "label",
+            "role"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "fields": [
+            "item",
+            "owner"
+          ]
+        },
+        {
+          "name": "Wallet",
+          "fields": [
+            "actor",
+            "energy",
+            "time"
+          ]
+        },
+        {
+          "name": "Witness",
+          "fields": [
+            "observer",
+            "item",
+            "mode"
+          ]
+        },
+        {
+          "name": "WorldConfig",
+          "fields": [
+            "context",
+            "entities",
+            "actors",
+            "ownership",
+            "wallets",
+            "witnesses",
+            "message_links"
+          ]
+        },
+        {
+          "name": "MessageDraft",
+          "fields": [
+            "content"
+          ]
+        },
+        {
+          "name": "MemoryDraft",
+          "fields": [
+            "key",
+            "content",
+            "attitude",
+            "reason"
+          ]
+        },
+        {
+          "name": "Attempt",
+          "fields": [
+            "command_id",
+            "task_id",
+            "action",
+            "message",
+            "memory"
+          ]
+        },
+        {
+          "name": "Credit",
+          "fields": [
+            "command_id",
+            "actor",
+            "energy",
+            "time",
+            "reason"
+          ]
+        },
+        {
+          "name": "Correction",
+          "fields": [
+            "command_id",
+            "target",
+            "replacement_owner",
+            "reason"
+          ]
+        },
+        {
+          "name": "Tick",
+          "fields": [
+            "command_id"
+          ]
+        },
+        {
+          "name": "Task",
+          "fields": [
+            "actor",
+            "key",
+            "request",
+            "message",
+            "memory",
+            "required",
+            "completed",
+            "outcome"
+          ]
+        },
+        {
+          "name": "Message",
+          "fields": [
+            "ref",
+            "sender",
+            "receiver",
+            "event",
+            "at",
+            "content",
+            "based_on"
+          ]
+        },
+        {
+          "name": "Transaction",
+          "fields": [
+            "command",
+            "event",
+            "works",
+            "observations",
+            "messages",
+            "memories",
+            "task"
+          ]
+        },
+        {
+          "name": "Checkpoint",
+          "fields": [
+            "schema",
+            "config",
+            "journal"
+          ]
+        },
+        {
+          "name": "FactCheck",
+          "fields": [
+            "claim",
+            "at",
+            "status",
+            "evidence",
+            "dependency_revision",
+            "checked_at",
+            "reason"
+          ]
+        }
+      ]
+    }
+  ],
+  "field_inventory_scope": "Locally annotated fields for each class; inherited fields and serialization rules must be resolved from the recorded source hierarchy when implementing adapters."
+}

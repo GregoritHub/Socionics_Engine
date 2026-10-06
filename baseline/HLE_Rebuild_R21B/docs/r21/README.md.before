@@ -1,0 +1,33 @@
+# Holonic Living Engine — R20
+
+R20 establishes two successive recursive/shared closures within a declared finite consent-and-obligation grammar. R12–R21 progress is **9/10**. One parent milestone remains: **R21 — sustained release evaluation**.
+
+Run a complete small demonstration with standard Python:
+
+```bash
+python -m hle.closure_demo
+```
+
+Reproduce validation and evidence:
+
+```bash
+python tools/r20_validate.py
+python tools/r20_evidence.py
+```
+
+No network or third-party Python dependency is required. Full validation/evidence takes several minutes.
+
+**859 distinct tests pass: 825 inherited and 34 R20.** All sixteen R20 type cases and the original cleared R19 checkpoint continuation pass. The independent raw-journal audit agrees. See `evidence/r20/validation/summary.json` for the full run and the six focused repeated checks after final refinements; repeats are not added to the count.
+
+- `docs/r20/Step_R20_Report.md`: results, controls and scope.
+- `docs/r20/Progress_After_R20.md`: R21 handoff and remaining release gates.
+- `docs/r20/Integration_R20.md`: source decisions, finite search, shared authority and observer separation.
+- `docs/r20/Protocol_R20_v1.json` and `Operational_Details_R20_v1.json`: acceptance interpretation.
+- `hle/closure.py`: continuing runtime, shared obligations, exact checkpoint and indexed invalidation.
+- `hle/closure_policy.py`: finite protocol search with explicit effects and minimal extension selection.
+- `hle/closure_reference.py`: independent reconstruction from raw transactions.
+- `evidence/r20/panel/continued_r19.checkpoint.json.gz`: final checkpoint; restore with `ClosureWorld.restore`.
+
+The continuing actor preserves its original material and all nine native capacities. Its shared routine survives founder departure through new consent, reduced unnecessary checking and actual successor performance. Shared competence is distinct from each member’s individual competence. Current invalidation never erases historical evidence.
+
+The complete prior source documents, reports and evidence remain included. The seven-program search and finite constructor grammar do not establish unrestricted development. R21’s 480-case panel, sustained horizons and efficiency gates remain open.

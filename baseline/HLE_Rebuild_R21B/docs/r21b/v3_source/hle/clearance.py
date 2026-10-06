@@ -1,0 +1,202 @@
+"""Continuing R19 runtime: real due loans, changed schedules, composed work.
+
+The clearance observer is read-only. Participant choice never reads its state.
+No material, capacity, action success or clearance can be assigned by a marker.
+"""
+from dataclasses import replace
+import hashlib
+from .individuation import IndividuationWorld
+from .individuation_records import CircuitOffer, CircuitCommand, CircuitTransaction
+from .individuation_logic import constraints
+from .clearance_records import *
+from .contracts import Kind, Moment, WorldEvent, WorkStatus, Change, Cause
+from .conversion_records import ConversionCommand
+from .paid_work import PaidWorkReuse
+
+CLEARANCE_SEAL = hashlib.sha256(b'r19-v1:frozen-13:original-lineage:current-dependencies:two-carriers:eligible-recurrence').hexdigest()
+
+class ClearanceWorld(PaidWorkReuse, IndividuationWorld):
+    def __init__(self,*args,**kwargs):
+        self.clearance_monitor = None
+        self._withdrawn_evidence = set()
+        self._epoch_orders = {}
+        self._order_dependencies = {}
+        super().__init__(*args,**kwargs)
+        self._records[R19_DUE]=R19_DUE
+        for known in self._known.values():known.add(R19_DUE)
+        from .clearance_shell import ConversionShellMonitor
+        self.shell_monitor=ConversionShellMonitor(self.config,self.profiles,self.policy,self.release,
+            material_access=self.conversion_policy.material_access)
+        for tx in self._journal:self.shell_monitor.feed(tx)
+        from .clearance_runtime import ClearanceMonitor
+        self.clearance_monitor = ClearanceMonitor(self)
+
+    def _accessible(self, actor):
+        study = self._studies.get(actor)
+        return super()._accessible(actor) and (study is None or all(self._evidence_live(r) for r in
+            (study.material,study.concept_origin,study.account_material)))
+
+    def _evidence_live(self, ref):
+        return ref in self._records and ref not in self._withdrawn_evidence and self._origins.get(ref) not in self._withdrawn_evidence
+
+    def _root_available(self, actor):
+        if not super()._root_available(actor): return False
+        c=self._capacities[actor]; r=self._candidates[c.rule]
+        refs=(c.ref,c.rule,c.material)+c.acquisition+c.practice+r.sources
+        return all(self._evidence_live(r) for r in refs)
+
+    def _current_aspects(self, actor):
+        current=super()._current_aspects(actor)
+        current={a:c for a,c in current.items() if all(self._evidence_live(r) for r in
+            (c.ref,c.failure,c.practice,c.material)+c.acquisition)}
+        while True:
+            live={c.ref for c in current.values()}
+            keep={a:c for a,c in current.items() if set(c.dependencies)<=live}
+            if keep==current:return current
+            current=keep
+
+    def _valid_use(self, actor, view):
+        use=super()._valid_use(actor,view)
+        if use is not None and use.capacity is not None and not self._root_available(actor):return None
+        return use
+
+    def _prepare_conversion(self, cmd):
+        if cmd.operator=='recall' and not self._root_available(cmd.actor):
+            raise ValueError('withdrawn retained evidence cannot support recall')
+        return super()._prepare_conversion(cmd)
+
+    def _select_work_option(self, offer, menu, current, pending):
+        # Own delivered outcomes and own visible simultaneous offers only.
+        # No hidden world load, other actor memory or assessment input.
+        guards=set(current)|set(pending); candidates=[]
+        group=self._epoch_orders.get((offer.learner,offer.partner,offer.epoch),())
+        visible=self._visible_option_predicates(offer,menu)
+        for i,(o,c) in enumerate(zip(offer.options,visible)):
+            used=0; remaining=0
+            for key in group:
+                other=self._circuit_orders[key]
+                if other.bulletin not in self._known[offer.learner]:continue
+                if other.outcome is None:
+                    remaining+=1
+                elif other.outcome in self._known[offer.learner]:
+                    signal=self._records[other.outcome]
+                    prior=next((x for x in other.offer.options if x.key==signal.option),None)
+                    if signal.success and prior is not None and prior.start==o.start:used+=prior.load
+            visible_budget=max(0,offer.budget-used)//max(1,remaining)
+            if 'se' in guards:c['se']=o.load<=visible_budget
+            if all(c[a] for a in guards):candidates.append((o.cost,o.start+o.duration,i,o.key))
+        return min(candidates)[-1] if candidates else None
+
+    def _prepare_circuit(self,cmd):
+        if cmd.operator in ('choose','apply') and cmd.order in self._order_dependencies:
+            prior=self._circuit_orders.get(self._order_dependencies[cmd.order])
+            if (prior is None or not prior.closed or prior.outcome not in self._known[cmd.actor]
+                or not self._records[prior.outcome].success or not prior.credited):
+                raise ValueError('observed completed predecessor required')
+        return super()._prepare_circuit(cmd)
+
+    def execute(self,cmd):
+        old=self._commands.get(cmd.command_id)
+        if old is not None:
+            if old.command!=cmd:raise ValueError('command identity reused')
+            return old.event
+        from .world_records import Credit
+        if type(cmd) is Credit and self.clearance_monitor.resource_contract is not None:
+            raise ValueError('episode contract prohibits resource top-ups')
+        if type(cmd) not in (ClearanceBoundary,LoanDue,PartnerShift,WithdrawEvidence,OrderDependency,EpisodeResourceContract):
+            return super().execute(cmd)
+        when=Moment(len(self._journal),0);er=Ref(Kind.EVENT,'event:'+str(when.tick),1)
+        changes=();observations=();causes=();affected=()
+        if type(cmd) is EpisodeResourceContract:
+            from .resource_contracts import validate_declaration
+            validate_declaration(self,cmd)
+        elif type(cmd) is ClearanceBoundary:
+            self.clearance_monitor.validate(cmd)
+        elif type(cmd) is LoanDue:
+            if self._world_loans.get(cmd.item)!=cmd.loan:raise ValueError('current loan required')
+            f=self._facts[cmd.item,'loan_active',self.config.context]
+            due=self._facts[cmd.item,'return_due',self.config.context]
+            if not f.object or due.object:raise ValueError('new due transition requires active not-yet-due loan')
+            after=self._prop(cmd.item,'return_due',True,when)
+            changes=(Change(due,after),);causes=(Cause(cmd.loan,R19_DUE),);affected=(cmd.item,)
+            content=tuple(p for p in self._snapshot(cmd.item,when) if p.relation!='return_due')+(after,)
+            parties={self._facts[cmd.item,r,self.config.context].object for r in ('owned_by','return_to')}
+            observations=tuple(self._observation(a,er,when,content,'accepted loan deadline reached','current world conditions') for a in sorted(parties,key=lambda a:a.key))
+        elif type(cmd) is PartnerShift:
+            if cmd.actor not in self._actors:raise ValueError('unknown scheduled participant')
+            if cmd.actor in self._circuit_active:raise ValueError('schedule owner is processing')
+        elif type(cmd) is WithdrawEvidence:
+            if cmd.source not in self._records or cmd.source in self._withdrawn_evidence:
+                raise ValueError('a current recorded evidence reference is required')
+        else:
+            if cmd.successor in self._circuit_orders or cmd.successor in self._order_dependencies:
+                raise ValueError('declare dependency before successor is offered')
+            p=cmd.predecessor;seen={cmd.successor}
+            while p in self._order_dependencies:
+                if p in seen:raise ValueError('cyclic work dependency')
+                seen.add(p);p=self._order_dependencies[p]
+            if p in seen:raise ValueError('cyclic work dependency')
+        event=WorldEvent(er,when,(),affected,'r19.'+type(cmd).__name__,self.config.context,changes,causes,(),WorkStatus.COMPLETED,
+            'external conditions or assessment boundary; no participant capacity supplied')
+        self._commit(ClearanceTransaction(cmd,event,observations=observations))
+        return event
+
+    def _commit(self,tx):
+        super()._commit(tx)
+        cmd=tx.command
+        if type(cmd) is CircuitOffer:
+            self._epoch_orders.setdefault((cmd.learner,cmd.partner,cmd.epoch),[]).append(cmd.key)
+        elif type(cmd) is PartnerShift:
+            self._work_partners[cmd.actor]=replace(self._work_partners[cmd.actor],unavailable_slots=cmd.unavailable_slots)
+            r=replace(self._partner_versions[cmd.actor],revision=self._partner_versions[cmd.actor].revision+1)
+            self._partner_versions[cmd.actor]=r
+            self._register(r,self._work_partners[cmd.actor],cmd.actor,tx.event.ref)
+        elif type(cmd) is WithdrawEvidence:self._withdrawn_evidence.add(cmd.source)
+        elif type(cmd) is OrderDependency:self._order_dependencies[cmd.successor]=cmd.predecessor
+        if tx.event.corrects is not None:self._withdrawn_evidence.add(tx.event.corrects)
+        if self.clearance_monitor is not None:self.clearance_monitor.feed(self,tx)
+
+    def clearance_report(self):
+        return self.clearance_monitor.report(self)
+
+    def _checkpoint_value(self):
+        # Build the same nested wire value once. Repeatedly serializing and
+        # parsing the full inherited journal at each wrapper is unnecessary.
+        from .autonomy_records import AutonomousCheckpoint
+        from .concept_records import ConceptCheckpoint
+        from .concept_structure import SEAL
+        from .compensation_records import CompensationCheckpoint
+        from .compensation import RELEASE_SEAL
+        from .reconciliation_records import ReconciliationCheckpoint
+        from .reconciliation import ACCOUNT_SEAL
+        from .conversion_records import ConversionCheckpoint
+        from .conversion import CONVERSION_SEAL
+        from .individuation_records import CircuitCheckpoint
+        from .individuation import CIRCUIT_SEAL
+        b=AutonomousCheckpoint('hle-r14-v1',self.config,self.profiles,self.policy,self.agents,
+            self.organization_policies,self.semantic_policy,self.workshop,self.autonomy,())
+        b=ConceptCheckpoint('hle-r145-v1',b,(),self._migration_prefix,SEAL)
+        b=CompensationCheckpoint('hle-r15-v1',b,self.release,self.reviewers,tuple(self._journal),RELEASE_SEAL,self._imported_prefix)
+        b=ReconciliationCheckpoint('hle-r16b-v1',b,self.account_policy,ACCOUNT_SEAL)
+        b=ConversionCheckpoint('hle-r17-v1',b,self.conversion_policy,CONVERSION_SEAL)
+        b=CircuitCheckpoint('hle-r18-v1',b,self.circuit_policy,self.circuit_partners,CIRCUIT_SEAL)
+        return ClearanceCheckpoint('hle-r19-v1',b,CLEARANCE_SEAL)
+
+    def checkpoint(self):
+        from .codec import dumps
+        return dumps(self._checkpoint_value())
+
+    @classmethod
+    def restore(cls,text):
+        from .codec import loads
+        cp=loads(text)
+        if type(cp) is not ClearanceCheckpoint or cp.schema!='hle-r19-v1' or cp.seal!=CLEARANCE_SEAL:
+            raise ValueError('unsupported R19 checkpoint')
+        # R18 validates its complete nested seals and regenerates the journal
+        # through this subclass, including every R19 consequence and boundary.
+        return cls._restore_checkpoint(cp.base)
+
+    @classmethod
+    def import_r18(cls,text):
+        # The inherited replay validates every transaction before continuation.
+        return super().restore(text)

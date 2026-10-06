@@ -1,0 +1,67 @@
+{
+  "schema": "hle-r14-test-evolution-v1",
+  "frozen_r12_acceptance_changed": false,
+  "r14_protocol_scope_or_threshold_changed": false,
+  "inherited_test_sources_changed": false,
+  "repairs": [
+    {
+      "observed": "Partial message reception holds the shared processing reservation. Starting a fresh policy turn before its completion failed.",
+      "repair": "Resume the actor's already selected task mechanically; read the latest job outcome instead of the first partial transaction. No uncharged replacement decision.",
+      "evidence": [
+        "evidence/r14/choices_first.log",
+        "evidence/r14/choices_second.log"
+      ]
+    },
+    {
+      "observed": "An unsupported message envelope lacked a usable reception notice and could not be consumed.",
+      "repair": "Register a neutral parsing notice; receive it once and retain the uninterpreted outcome without generating a false need.",
+      "evidence": [
+        "evidence/r14/choices_first.log",
+        "evidence/r14/choices_second.log"
+      ]
+    },
+    {
+      "observed": "Loading R12 development contracts overwrote the legacy R5 Opportunity class in a short-name registry, causing two inherited checkpoint tests to error.",
+      "repair": "Keep original wire tags; explicitly qualify the colliding later class. Encode only exact registered classes. Both representations and impersonation controls now pass.",
+      "evidence": [
+        "evidence/r14/inherited/r11_regression.log",
+        "evidence/r14/inherited_repair.log",
+        "tests_r14/test_continuation.py"
+      ]
+    },
+    {
+      "observed": "New demo/evaluator imported random and collections outside the original runtime standard-library allowlist.",
+      "repair": "Use already permitted SHA-256 for seed-based declaration ordering and plain dictionaries for counters. Original allowlist test is unchanged.",
+      "evidence": [
+        "evidence/r14/inherited/r11_regression.log",
+        "evidence/r14/inherited_repair.log"
+      ]
+    },
+    {
+      "observed": "An initial complete-prefix test invocation was cut off by its 200-second outer execution limit and has no completion footer.",
+      "repair": "Preserve the incomplete log as unassessed. Rerun all 188 prefixes, record bounded timings/memory, and include the full test in the final validation with an explicit timeout failure path.",
+      "evidence": [
+        "evidence/r14/continuation_first.log",
+        "evidence/r14/prefix_profile_driver.log",
+        "evidence/r14/prefix_profiling.json",
+        "evidence/r14/validation/r14_autonomy.log"
+      ]
+    },
+    {
+      "observed": "Workshop setup needed to reject conditioned actors and material lacking declared ownership before constructing state.",
+      "repair": "Require declared owned object identities; add atomically rejecting setup tests.",
+      "evidence": [
+        "tests_r14/test_generation.py"
+      ]
+    },
+    {
+      "observed": "The evidence-to-gate packager used a nonexisting spelling of the net-reversal test name and refused to build.",
+      "repair": "Correct the reference to the existing passing test. No test, behavior or acceptance criterion changed.",
+      "evidence": [
+        "evidence/r14/package_initial.log",
+        "tools/r14_package.py"
+      ]
+    }
+  ],
+  "scope_note": "Fixes preserve the declared finite grammar and acceptance thresholds. Earlier passing panels remain labeled by their run; final delivered-source and fresh-extraction logs govern the release."
+}

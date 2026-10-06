@@ -1,0 +1,48 @@
+{
+  "inputs": [
+    {
+      "name": "closure_probes.py",
+      "sha256": "1f9ca3805bebb7393c4a256b11032bb8bc7f13e5c6afeec663fc948a238107da"
+    },
+    {
+      "name": "below_dcnh_probes.py",
+      "sha256": "1ac9c74d654cb12f66d9b699b3f8c3891a6ba823d9359fa063e716ccf979da4b"
+    },
+    {
+      "name": "Closure_Ledger_and_Final_Build_Plan_v0_1.docx",
+      "sha256": "269a11ff853f1a11b5c00b880e64be689e94f7822f359a16b29ec30337204a86"
+    },
+    {
+      "name": "HLE_Final_Build_Plan_v1_0.docx",
+      "sha256": "dd45c4b66c590e23b499a0cb61a1afee352b310ee4b57efd4f424624409b818a"
+    },
+    {
+      "name": "HLE_Final_Build_Companion_Theory_v1_0.docx",
+      "sha256": "704d6e8b13fc0a2e48e08f7005fd987b70604268a903cf9ebe3bdf6671bba68a"
+    },
+    {
+      "name": "HLE_Full_Crux_C7_Inspector_v2.html",
+      "bytes": 119590,
+      "sha256": "81ca1de72b2c7b5c0ad63417b16e304703b6cce6277b9cd91adc9e0ea974a947"
+    },
+    {
+      "name": "HLE_Full_Crux_C7_Source_v2.zip",
+      "bytes": 30261766,
+      "sha256": "2a5d02cd22a1526f4be3b2ea9ed5c5897f380fe34663190dca43801a2b5be456",
+      "library_file_id": "libfile_ce3435e3ab3c8191b24329b4407f2b8c"
+    },
+    {
+      "name": "HLE_Full_Crux_C7_Release_Candidate_Report_v2.md",
+      "bytes": 8867,
+      "sha256": "2640ce83495551673eb8d43cb731c5042deba77818f8ce603b320d7df4fe8246"
+    },
+    {
+      "name": "HLE_Full_Crux_C7_Evidence_v2.zip",
+      "bytes": 361646273,
+      "sha256": "5a43c6d53a52df0884dd53b6ac2e3bf778696aae472aad9bea6b71148639783d",
+      "library_file_id": "libfile_9d4b7893f3b48191b58467a74f80cc46"
+    }
+  ],
+  "source_extraction": "Every supplied source member preserved at repository root.",
+  "inherited_evidence": "Immutable original evidence archive retained at the listed Library ID; materialize and unpack beside the repository."
+}

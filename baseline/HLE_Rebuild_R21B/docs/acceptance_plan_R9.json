@@ -1,0 +1,26 @@
+{
+  "milestone": "R9",
+  "status": "predeclared before R9 implementation evaluation",
+  "seeds": [
+    0,
+    1,
+    77
+  ],
+  "behavioral_horizon": "two training transfers per selected template; four recurring turns; one dispute, revision, succession and dissolution sequence",
+  "resources": [
+    0,
+    1,
+    5000,
+    20000
+  ],
+  "gates": {
+    "G01": "Participant builds terms from at least two own fulfilled acquired-language plans; history/sequence/label and no-history controls.",
+    "G02": "Paid directed transmission and Model A reception; independent semantic/evidence/policy review; exact all-member consent; refusals and missing/mixed votes preserved.",
+    "G03": "Recurring conditional rule enactment, actual transfers and charges; false/unknown/stale/hidden-state and action-tamper controls.",
+    "G04": "Paid failure-backed disputes suspend only informed local members; revised terms require new consent; unresolved dispute cannot silently clear.",
+    "G05": "Newcomer checks acquired meaning; remaining member generates revision after founder exit; actual successor practice; final departure dissolves local organization.",
+    "G06": "Partial semantic/physical work, independent resource shortages, idempotence, stale continuation, checkpoint replay and rehashed tampering rejection.",
+    "G07": "Inherited tests/references unchanged; independent bounded consent/action oracle; hash-seed replay; fixed-active/inactive-history profile; fresh extraction verification."
+  },
+  "scope": "Finite acquired ownership procedure hypothesis with holder responsibility and cyclic successor allocation as supplied generic combinators; no natural-language institution discovery or population efficiency acceptance."
+}

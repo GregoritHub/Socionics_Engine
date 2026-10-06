@@ -1,0 +1,60 @@
+{
+  "schema": "hle-unified-u3-protocol-v1",
+  "scope": "Deterministic compact particulars and situated-access substrate; no native paid executor, population release or performance acceptance.",
+  "cases": [
+    {
+      "id": "U3-01",
+      "name": "private_difference",
+      "milestone": "U3",
+      "setup": "Change a hidden world fact while holding an actor's accessible state fixed.",
+      "criterion": "No difference in pre-delivery view, reasons, or participant choice.",
+      "protects": [
+        "P04"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U3-02",
+      "name": "shared_definition",
+      "milestone": "U3",
+      "setup": "Two actors share stored definition bytes but have different acquired bindings.",
+      "criterion": "No unearned competence, confidence, or recalled content.",
+      "protects": [
+        "P05"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U3-03",
+      "name": "detail_concept",
+      "milestone": "U3",
+      "setup": "Retrieve exact ownership details and traverse a conceptual tension about the same tool.",
+      "criterion": "Keep direct detail lookup separate from conceptual traversal; both cite the correct revisions.",
+      "protects": [
+        "P02",
+        "P06"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    }
+  ],
+  "additional_gates": [
+    "Exact full-history reconstruction and restore against the unchanged U2 full-snapshot store.",
+    "Immutable structural sharing, actor-owned deliveries, receipts, interpretations, confidence and use bindings remain separate.",
+    "No dereferencing a disclosed reference without separate permission; missing and inaccessible queries have identical results.",
+    "Hidden dependency invalidation, other-actor learning and later definition revisions do not alter undelivered actor state.",
+    "Partial processing and mismatched-owner or dependency receipts cannot unlock content or use.",
+    "Indexed names, dates, ownership, event and processing-receipt particulars remain distinct from contextual concept traversal.",
+    "All U2 acceptance tests, its 71 selected inherited regressions and native/legacy witnesses remain passing."
+  ],
+  "comparison_panel": {
+    "hidden_variants": 8,
+    "full_snapshot_revision_count": 24,
+    "seeds": [],
+    "fixtures": "Declared workshop histories plus deterministic hidden-state variations; no held-out release claim."
+  },
+  "protected_historical_protocols": [
+    "U1_Protocol_v1.json",
+    "U2_Protocol_v1.json"
+  ],
+  "source_status": "Engineering choices constrained by the current roadmap and foundation; no new geometric or psychological claim."
+}

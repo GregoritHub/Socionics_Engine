@@ -1,0 +1,93 @@
+{
+  "schema": "hle-unified-u4-protocol-v1",
+  "status": "frozen_before_u4_implementation",
+  "cases": [
+    {
+      "id": "U4-01",
+      "name": "partial_commit",
+      "milestone": "U4",
+      "setup": "Interrupt a paid material operation before completion, then resume it.",
+      "criterion": "No premature result; exact paid progress and supported continuation.",
+      "protects": [
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-02",
+      "name": "stale_basis",
+      "milestone": "U4",
+      "setup": "Change a required dependency during a partial operation.",
+      "criterion": "Reject or replan invalid continuation while retaining spent work and performed effects.",
+      "protects": [
+        "P08",
+        "P09",
+        "P11"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-03",
+      "name": "resource_conflict",
+      "milestone": "U4",
+      "setup": "Two operations compete for the same exclusive resource.",
+      "criterion": "Prevent double spending and retain the failed or delayed attempt.",
+      "protects": [
+        "P08",
+        "P14"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    },
+    {
+      "id": "U4-04",
+      "name": "delayed_delivery",
+      "milestone": "U4",
+      "setup": "Deliver evidence of a physical event to actors at different times.",
+      "criterion": "Maintain separate event, delivery, interpretation, and retention times.",
+      "protects": [
+        "P03",
+        "P04"
+      ],
+      "status": "specified_unimplemented_unassessed"
+    }
+  ],
+  "world_contract": "u4.finite-workshop-v1",
+  "engineering_choices": [
+    "Integer energy and time: every completed work quantum costs one of each; no replenishment in this contract.",
+    "Prepare one quantum then execute the declared operation extent; exact progress is retained across checkpoints.",
+    "Exclusive reservations cover whole material instances, including stock containers. Waiting reserves nothing partially and spends no work.",
+    "Material quantity is lifetime stock; consumed quanta are an explicit irreversible sink counter. Available plus consumed equals quantity.",
+    "Material effects, observation delivery, reading, interpretation binding and acquired-use retention are separate commitments.",
+    "Participant policies see only detached U3 views. Reservation and stale-basis reasons are simulator-only until a permitted outcome is delivered.",
+    "Named procedures use only registered primitive executors and require actor-owned acquired-use evidence.",
+    "Integrated Model A and Fool Memory realization is U5; U4 routes are explicit engineering work stages."
+  ],
+  "additional_gates": [
+    "All five migrated primitives: transfer, inspect, use, care and return have actual outcomes.",
+    "Condition damage, repair with tool wear, irreversible resource consumption and explicit return-obligation revision.",
+    "Zero budget, mismatched ownership, exhausted stock, unsupported procedure and cancelled job cannot produce an effect.",
+    "Stale target, tool, stock, procedure, definition and relation invalidate only unfinished dependent work; completed history persists.",
+    "Actual thread races and both deterministic interleavings cannot double-charge or double-spend.",
+    "Delayed observation has a causal source event; partial paid reading cannot expose contents; bind and acquisition are separately paid.",
+    "Checkpoint replay preserves pending operations, reservations, work, material state, actor views and idempotent command retries.",
+    "Independent audit from raw transactions verifies charges, material balances, performed effects and their source lineage.",
+    "All 32 U3 tests, 31 U2 tests, 71 selected inherited regressions, and U2/U3 witnesses pass."
+  ],
+  "panel": {
+    "seeds": [],
+    "fixture": "Deterministic workshop instances, both contender orders, and explicit concurrent threads; development acceptance only.",
+    "heldout_seeds_used": []
+  },
+  "scope_limits": [
+    "No U13 efficiency acceptance",
+    "No U14 or R21C release claim",
+    "No psychological validity claim",
+    "Trusted simulator boundary, not a hostile Python sandbox"
+  ],
+  "required_pass_fraction": [
+    1,
+    1
+  ]
+}

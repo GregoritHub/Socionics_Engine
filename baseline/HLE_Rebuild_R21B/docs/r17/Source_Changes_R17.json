@@ -1,0 +1,10 @@
+{
+  "source_archive_sha256": "be92dc19776ee3a055bc2d054eabc20b7283f67235715744fa8c64226ffc1f77",
+  "unchanged_original_files_before_repackaging": 1018,
+  "changed_original_files_before_repackaging": [
+    "README.md",
+    "hle/codec.py"
+  ],
+  "original_readme_and_manifest_preserved_in": "docs/r17",
+  "inherited_runtime_change": "codec.py allowlists the new immutable R17 record classes; original runtime modules otherwise unchanged"
+}

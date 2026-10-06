@@ -1,0 +1,635 @@
+{
+  "schema": "hle-development-acceptance-v1",
+  "version": 1,
+  "frozen_for": "R13 through R21 before their implementation/evaluation",
+  "progress_at_declaration": {
+    "completed": 0,
+    "total": 10,
+    "next": "R12"
+  },
+  "claim_boundary": "R12 executes source/contract/structural tests. All future runtime gates remain unassessed until independently evidenced.",
+  "demand_families": {
+    "selection": {
+      "required": "choose an observed admissible option and enact the authorized transfer",
+      "dimensions": [
+        "offered_alternatives",
+        "partner_constraints"
+      ]
+    },
+    "temporal": {
+      "required": "meet an observed temporal dependency, rechecking changed ownership or testimony",
+      "dimensions": [
+        "temporal_dependencies",
+        "missing_testimony"
+      ]
+    },
+    "obligations": {
+      "required": "resolve competing authorized commitments without exceeding resources or consent",
+      "dimensions": [
+        "simultaneous_obligations",
+        "partner_constraints"
+      ]
+    }
+  },
+  "held_out_challenges": [
+    {
+      "id": "selection.equal_renewal",
+      "family": "selection",
+      "variation": "equal_renewal",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "selection.increased_requirement",
+      "family": "selection",
+      "variation": "increased_requirement",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "selection.changed_context_partner",
+      "family": "selection",
+      "variation": "changed_context_partner",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "selection.delay_or_changed_testimony",
+      "family": "selection",
+      "variation": "delay_or_changed_testimony",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.equal_renewal",
+      "family": "temporal",
+      "variation": "equal_renewal",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.increased_requirement",
+      "family": "temporal",
+      "variation": "increased_requirement",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.changed_context_partner",
+      "family": "temporal",
+      "variation": "changed_context_partner",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "temporal.delay_or_changed_testimony",
+      "family": "temporal",
+      "variation": "delay_or_changed_testimony",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.equal_renewal",
+      "family": "obligations",
+      "variation": "equal_renewal",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.increased_requirement",
+      "family": "obligations",
+      "variation": "increased_requirement",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.changed_context_partner",
+      "family": "obligations",
+      "variation": "changed_context_partner",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    },
+    {
+      "id": "obligations.delay_or_changed_testimony",
+      "family": "obligations",
+      "variation": "delay_or_changed_testimony",
+      "comparison": "equal or greater only if the demand comparator establishes it; otherwise a separately scoped case"
+    }
+  ],
+  "original_crossing_regression": {
+    "trials": 12,
+    "retained_both_expected_successes": 12,
+    "no_instruction_expected_successes": 3,
+    "separate_from_new_held_out_panel": true
+  },
+  "recurrence": {
+    "primary": "eligible demand/block engagements with independent distortion witness",
+    "maintenance_threshold": 3,
+    "sensitivity_thresholds": [
+      2,
+      5
+    ],
+    "secondary": "exact queue entry/current logical time and eligible engagement references",
+    "global_tick_streak": false,
+    "scalar_intensity_law": null
+  },
+  "clearance": {
+    "original_demand_reapplied": true,
+    "held_out_challenges": 12,
+    "families": 3,
+    "potential_carriers": 2,
+    "native_and_complement_required": true,
+    "material_access_required": true,
+    "support_substitution_removed": true,
+    "capacity_revision_current": true,
+    "reopen_on_invalidation": true,
+    "positive_required_fraction": [
+      1,
+      1
+    ]
+  },
+  "identities": [
+    {
+      "id": "actor_material.v1",
+      "features": [
+        "persistent_actor",
+        "fixed_tim",
+        "material_origin_and_lineage"
+      ],
+      "distinguishes": [
+        "wrong_actor_same_graph",
+        "changed_material_origin"
+      ]
+    },
+    {
+      "id": "retained_capacity.v1",
+      "features": [
+        "native_task_behavior",
+        "complementary_task_behavior",
+        "available_owned_material",
+        "own_consequential_action"
+      ],
+      "distinguishes": [
+        "helper_only",
+        "stale_capacity",
+        "plan_without_return"
+      ]
+    },
+    {
+      "id": "shared_practice.v1",
+      "features": [
+        "current_member_consent",
+        "executable_current_rule",
+        "observed_member_performance",
+        "lower_capacity_preserved"
+      ],
+      "distinguishes": [
+        "one_developed_member_only",
+        "founder_substitution",
+        "transferred_burden"
+      ]
+    }
+  ],
+  "return_protocols": [
+    {
+      "id": "renewed.v1",
+      "transform": "delay/interruption then original eligible demand",
+      "return": "owned paid recall and consequential response",
+      "sequences": [
+        [
+          "renew"
+        ],
+        [
+          "renew",
+          "renew"
+        ]
+      ],
+      "equivalence_preservation_proved": false
+    },
+    {
+      "id": "transfer.v1",
+      "transform": "declared held-out task and helper substitution withdrawn",
+      "return": "retain and use native plus complementary capacity",
+      "sequences": [
+        [
+          "context_change"
+        ],
+        [
+          "support_withdrawal",
+          "demand_increase"
+        ]
+      ],
+      "equivalence_preservation_proved": false
+    },
+    {
+      "id": "shared.v1",
+      "transform": "founder departure and child revision",
+      "return": "consenting members execute/revise practice",
+      "sequences": [
+        [
+          "founder_departure"
+        ],
+        [
+          "child_revision",
+          "renew"
+        ]
+      ],
+      "equivalence_preservation_proved": false
+    }
+  ],
+  "four_outcomes": [
+    "factual_accuracy",
+    "identity_preservation",
+    "path_quality",
+    "retained_capacity"
+  ],
+  "complexes": {
+    "Hero": [
+      1,
+      7
+    ],
+    "Child": [
+      6,
+      4
+    ],
+    "Parent": [
+      2,
+      8
+    ],
+    "Spirit": [
+      5,
+      3
+    ]
+  },
+  "circuits": [
+    [
+      "I",
+      "ITS",
+      "IT",
+      "WE",
+      "I"
+    ],
+    [
+      "I",
+      "WE",
+      "ITS",
+      "IT",
+      "I"
+    ]
+  ],
+  "evaluation": {
+    "types": [
+      "eie",
+      "eii",
+      "ese",
+      "esi",
+      "iee",
+      "iei",
+      "ile",
+      "ili",
+      "lie",
+      "lii",
+      "lse",
+      "lsi",
+      "see",
+      "sei",
+      "sle",
+      "sli"
+    ],
+    "development_seeds": [
+      11,
+      17,
+      23,
+      29
+    ],
+    "evaluation_seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "regimes": {
+      "adequate": {
+        "energy": 100000,
+        "time": 100000
+      },
+      "constrained_feasible": {
+        "energy": 20000,
+        "time": 20000
+      },
+      "inadequate": {
+        "energy": 0,
+        "time": 0
+      }
+    },
+    "resource_regime_validation": "Adequate/constrained scenarios need a separately executed legal successful policy within that budget; otherwise gate fails and a new protocol version is required. Inadequate outcomes must honestly defer.",
+    "individual_episodes": 480,
+    "minimum_adequate_success_fraction": [
+      1,
+      1
+    ],
+    "minimum_constrained_success_fraction": [
+      1,
+      1
+    ],
+    "inadequate_expected": "deferral or unresolved; no coerced development",
+    "continuation_eligible_opportunities": 100,
+    "continuation_demand_changes": 2,
+    "exclude_incomplete_from_denominator": false
+  },
+  "performance": {
+    "active_work_items": 32,
+    "inactive_history_sizes": [
+      100,
+      1000,
+      10000
+    ],
+    "warmup_runs": 2,
+    "measured_runs": 9,
+    "max_median_tick_ratio_first_to_last": [
+      2,
+      1
+    ],
+    "max_affected_record_visits_ratio": [
+      2,
+      1
+    ],
+    "max_checkpoint_bytes_ratio_per_10x_history": [
+      25,
+      1
+    ],
+    "checkpoint_and_offline_replay_costs_report_separately": true,
+    "unfinished_queue_must_be_accounted": true,
+    "no_missed_eligible_demand_due_to_discard": true
+  },
+  "checks": [
+    {
+      "id": "R13.1",
+      "milestone": "R13",
+      "required": "immutable content aspect under copied payload and changed sender activity",
+      "negative_control": "infer aspect from active sender",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R13.2",
+      "milestone": "R13",
+      "required": "contextual retrieval uses current endorsed retained capacity in changed applicable context",
+      "negative_control": "stale/superseded/withdrawn rule or direct receipt bypass",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R13.3",
+      "milestone": "R13",
+      "required": "partial jobs, memory revisions and exact debit continuation restore identically",
+      "negative_control": "unpaid publication, duplicate billing, restart discards partial work",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R13.4",
+      "milestone": "R13",
+      "required": "same cue acquires different contextual meanings from different actual histories",
+      "negative_control": "fixed card-to-phase meaning; label-only difference",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R13.5",
+      "milestone": "R13",
+      "required": "eight content aspects have executable declared roles and all complementary pairs are representable",
+      "negative_control": "renamed active element without content semantics",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R14.1",
+      "milestone": "R14",
+      "required": "two distinct persistent consequences produce different discovered demands",
+      "negative_control": "remove consequence and its demand must disappear",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R14.2",
+      "milestone": "R14",
+      "required": "policy depends only on observations/owned memory/resources",
+      "negative_control": "observation-matched hidden Truth change",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R14.3",
+      "milestone": "R14",
+      "required": "honest wait/refusal/search exhaustion without automatic Shell label",
+      "negative_control": "forced activity in satisfied quiet ground state",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R15.1",
+      "milestone": "R15",
+      "required": "self-maintaining distortion generated without defense script or Shell flag",
+      "negative_control": "matched usable-evidence history revises or avoids it",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R15.2",
+      "milestone": "R15",
+      "required": "origin-treatment-carrier-action-consequence-reownership lineage remains traceable with actual costs",
+      "negative_control": "fixed recipient carrier or deleted provenance",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R15.3",
+      "milestone": "R15",
+      "required": "correct external endpoint coexists with independently witnessed persistent compensation",
+      "negative_control": "endpoint alone counted as coherence",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.1",
+      "milestone": "R16",
+      "required": "all five signs separated from matched ordinary behavior",
+      "negative_control": "each negative control in detector registry",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.2",
+      "milestone": "R16",
+      "required": "bounded independent replay agrees with incremental evidence",
+      "negative_control": "S/phase flag alone; nonzero K alone; inactive tick streak",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.3",
+      "milestone": "R16",
+      "required": "new defensive structure begins only after increased demand",
+      "negative_control": "foreign content already present at origin",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R17.1",
+      "milestone": "R17",
+      "required": "four phases change access/context/practice/reownership behavior",
+      "negative_control": "advance phase counter without work",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R17.2",
+      "milestone": "R17",
+      "required": "retained material and practice causally alter renewed-demand behavior",
+      "negative_control": "remove access, practice or retention",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R18.1",
+      "milestone": "R18",
+      "required": "all 16 TIMs retain native and complementary capacities after support withdrawal",
+      "negative_control": "helper solves; copied outcome; fake dimensionality growth",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R18.2",
+      "milestone": "R18",
+      "required": "all four complexes have consequential coverage in the same continuing holon",
+      "negative_control": "four disconnected fixtures counted as integrated",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R18.3",
+      "milestone": "R18",
+      "required": "two lawful four-perspective circuits have actual shared/system feedback",
+      "negative_control": "semantic personal I-to-I labels counted as WE/ITS",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R18.4",
+      "milestone": "R18",
+      "required": "dual/nondual/self-acquired correction compared with delivered content controlled",
+      "negative_control": "relation label awards development",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R19.1",
+      "milestone": "R19",
+      "required": "three prior eligible maintenance engagements, original renewal and 12 held-out challenges pass",
+      "negative_control": "no established Shell, reduced or incomparable demand called greater",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R19.2",
+      "milestone": "R19",
+      "required": "same lineage remains accessible with current capacity and two potential carriers",
+      "negative_control": "suppression, deletion or displacement",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R19.3",
+      "milestone": "R19",
+      "required": "recurrence or invalidation reopens current verdict and preserves history",
+      "negative_control": "stale success counters, actor reset or changed kappa",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R20.1",
+      "milestone": "R20",
+      "required": "two successive necessary coherent closures preserve usable lower organization",
+      "negative_control": "syntax nesting or resource-censored search",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R20.2",
+      "milestone": "R20",
+      "required": "child revision invalidates affected parent; shared practice survives founder departure",
+      "negative_control": "transferred burden or helper substitution",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R21.1",
+      "milestone": "R21",
+      "required": "480 planned individual episodes retained in regime/type denominators",
+      "negative_control": "missing failed/resource-censored episodes",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R21.2",
+      "milestone": "R21",
+      "required": "100 further eligible opportunities and two changes after each qualifying clearance",
+      "negative_control": "quiet ticks counted as demand opportunities",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R21.3",
+      "milestone": "R21",
+      "required": "replay at each phase/partial job/revision/clearance/recurrence/nested invalidation",
+      "negative_control": "endpoint-only checkpoint",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R21.4",
+      "milestone": "R21",
+      "required": "all work reconciles and frozen performance gates pass",
+      "negative_control": "unbilled defense or hidden full-history traversal",
+      "required_run_kind": "runtime",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.fixture.premature_translation",
+      "milestone": "R16",
+      "required": "repeated substitution before required distinction with usable correction",
+      "negative_control": "timely warranted abstraction",
+      "required_run_kind": "fixture",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.fixture.forced_placement",
+      "milestone": "R16",
+      "required": "maintained incompatible context/relation against accessible parameters",
+      "negative_control": "warranted reclassification",
+      "required_run_kind": "fixture",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.fixture.new_defensive_structure",
+      "milestone": "R16",
+      "required": "new maintaining structure appears after increased demand and blocks correction",
+      "negative_control": "useful scaffold enables correction",
+      "required_run_kind": "fixture",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.fixture.residual_fragmentation",
+      "milestone": "R16",
+      "required": "parts of same lineage keep incompatible action after attempted integration",
+      "negative_control": "openly unresolved work without a clearance claim",
+      "required_run_kind": "fixture",
+      "status": "unassessed"
+    },
+    {
+      "id": "R16.fixture.foreclosure",
+      "milestone": "R16",
+      "required": "maintained non-initiation of necessary non-current movement across eligible opportunities",
+      "negative_control": "rest, no delivery, inability, unaffordable work, justified refusal or scheduling delay",
+      "required_run_kind": "fixture",
+      "status": "unassessed"
+    }
+  ],
+  "amendments": "Any changed meaning, threshold, seed set, operator, identity or gate is a new version with the previous failure/evidence retained. This hash is checked by the executable specification."
+}

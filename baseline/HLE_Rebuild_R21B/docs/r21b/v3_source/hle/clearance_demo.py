@@ -1,0 +1,205 @@
+"""Frozen R19 opportunity panel and fresh participant controllers.
+
+Environment/harness schedules opportunities; decisions, consent, shared output,
+conditional recall and actual transfer all execute through paid engine APIs.
+"""
+from dataclasses import replace
+from .individuation_logic import epoch_key
+from .clearance import ClearanceWorld
+from .clearance_records import *
+from .individuation_demo import case as parent_case, make_offer, do, command, CircuitController
+from .individuation_records import CircuitCommand
+from .conversion_records import ConversionCommand
+from .compensation_records import ReleaseCommand
+from .reconciliation_records import AccountCommand
+from .autonomy_records import WorkshopCommand,WorkshopPacket,PACKET_REL
+from .socion_records import ReceiveCommand
+from .world_records import Credit,Tick,Attempt,MessageDraft,SEND,TRANSFER
+from .contracts import ActionRequest,WorkStatus,Kind
+from .concept_demo import fund_command
+from .codec import dumps
+
+def key(w,label):return 'r19:'+label+':'+str(len(w._journal))
+def physical(w,actor,op,inputs,**kw):
+    k=key(w,op);return fund_command(w,WorkshopCommand(k,k,actor,op,inputs,work_limit=256,**kw))
+
+def replenish(w):
+    for actor,wallet in tuple(w._wallets.items()):
+        if max(wallet.energy,wallet.time)>200000:raise ValueError('panel starts within matched allocation')
+        w.execute(Credit(key(w,'allocation'),actor,200000-wallet.energy,200000-wallet.time,'R19 fixed per-challenge allocation'))
+
+def clone(w,stop=None):
+    x=ClearanceWorld(w.config,w.profiles,w.policy,w.agents,w.organization_policies,w.semantic_policy,
+        w.workshop,w.autonomy,release=w.release,reviewers=w.reviewers,account_policy=w.account_policy,
+        conversion_policy=w.conversion_policy,circuit_policy=w.circuit_policy,partners=w.circuit_partners)
+    for tx in w._journal[1:stop]:
+        x.execute(tx.command)
+        if x._journal[-1]!=tx:raise AssertionError('parent prefix changed')
+    return x
+
+def prepared(tim='sli',maintained=3):
+    p,_=parent_case(tim,'self',history=3,maintained=maintained,renew=False)
+    return clone(p)
+
+def begin(w, *, allocate=True):
+    actor=w.config.actors[0]
+    # Both people remain possible carriers; assistance performing learner work
+    # is independently disabled. R17 may have withdrawn one review boundary.
+    for peer in w.config.actors[1:]:
+        if not w._willing[peer]:
+            k=key(w,'review-available');fund_command(w,ReleaseCommand(k,k,peer,'boundary',willingness=True,work_limit=256))
+        if w._work_partners[peer].helper_available:do(w,'',peer,'support',flag=False)
+    if allocate:replenish(w)
+    w.execute(ClearanceBoundary(key(w,'begin'),actor,'begin'))
+
+def borrow(w,item,lender):
+    actor=w.config.actors[0]
+    # Environment supplies/relocates the same physical property by an actual
+    # authorized transfer. Borrower then explicitly accepts and lender consents.
+    owner=w._facts[item,'owned_by',w.config.context].object
+    if owner!=lender:
+        k=key(w,'owner-change');fund_command(w,Attempt(k,k,ActionRequest(owner,TRANSFER,(item,lender),())))
+    if w._facts[item,'condition',w.config.context].object=='dirty':physical(w,lender,'clean',(item,))
+    physical(w,actor,'inspect',(item,))
+    packet=WorkshopPacket('loan_request',item,'loan',True)
+    p=w._prop(actor,PACKET_REL,dumps(packet),w.now);k=key(w,'accept-loan')
+    fund_command(w,Attempt(k,k,ActionRequest(actor,SEND,(lender,),()),MessageDraft((p,))))
+    obs=next(o for o in w._journal[-1].observations if o.observer==lender)
+    k=key(w,'receive-consent');fund_command(w,ReceiveCommand(k,k,lender,obs.ref,256))
+    e=physical(w,lender,'lend',(item,actor),request=obs.ref)
+    if e.outcome!=WorkStatus.COMPLETED:raise AssertionError('loan not accepted')
+    w.execute(LoanDue(key(w,'deadline'),item,e.ref))
+    return e.ref
+
+def confirm(w,item):
+    actor=w.config.actors[0]
+    k=key(w,'consider');fund_command(w,ReleaseCommand(k,k,actor,'consider',item=item,work_limit=256))
+    d=w._release_decisions[actor,w._world_loans[item]]
+    k=key(w,'enact');fund_command(w,ReleaseCommand(k,k,actor,'enact',source=d,work_limit=256))
+    for _ in range(20):
+        did=False
+        for peer in w.config.actors:
+            for source in tuple(w._request_queue.get(peer,())):
+                if (peer,source) not in w._release_consumed:
+                    k=key(w,'review');fund_command(w,ReleaseCommand(k,k,peer,'review',source=source,work_limit=256));did=True
+            for source in tuple(w._response_queue.get(peer,())):
+                if (peer,source) not in w._release_consumed:
+                    k=key(w,'assimilate');fund_command(w,ReleaseCommand(k,k,peer,'assimilate',source=source,work_limit=256));did=True
+        flow=w._release_flows.get((actor,w._world_loans[item]),('',))[0]
+        if flow=='retry':
+            k=key(w,'reconsider');fund_command(w,ReleaseCommand(k,k,actor,'consider',item=item,work_limit=256))
+            d=w._release_decisions[actor,w._world_loans[item]]
+            k=key(w,'reenact');fund_command(w,ReleaseCommand(k,k,actor,'enact',source=d,work_limit=256));did=True
+        if not did:return
+    raise AssertionError('finite confirmation did not terminate')
+
+def own_return(w,item):
+    actor=w.config.actors[0]
+    v=w.release_view(actor,item)
+    root=w._capacities[actor]
+    if w._needs_check(actor,v,w._candidates[root.rule]):physical(w,actor,'inspect',(item,))
+    k=key(w,'recall');fund_command(w,ConversionCommand(k,k,actor,'recall',item,256))
+    v=w.release_view(actor,item);u=w._valid_use(actor,v)
+    if u is None:raise ValueError('retained conditional procedure unavailable')
+    if u.required:confirm(w,item)
+    return physical(w,actor,'return',(item,),based_on=(w.release_view(actor,item).terms,))
+
+class ClearanceController:
+    def next(self,w,order):
+        o=w._circuit_orders[order]
+        # Time since a delivered menu is public. No reading hidden partner
+        # schedule changes; a retained freshness procedure requests a recheck.
+        if o.menu is not None and o.stage==0 and 'si' in w._current_aspects(o.offer.learner):
+            age=len(w._journal)-1-w._records[w._origins[o.menu]].when.tick
+            if age>=3:return command(w,order,o.offer.partner,'refresh')
+        return CircuitController().next(w,order)
+
+def finish_order(w,order):
+    for _ in range(30):
+        c=ClearanceController().next(w,order)
+        if c is None:return w._circuit_orders[order]
+        e=fund_command(w,c)
+        if e.outcome in (WorkStatus.PARTIAL,WorkStatus.DEFERRED):return w._circuit_orders[order]
+    raise AssertionError('finite controller did not finish')
+
+def offers(w,case,prefix='r19'):
+    actor,lender,other=w.config.actors
+    family,variation=case.split('.')
+    partner=other if variation=='changed_context_partner' else lender
+    helper=lender if partner==other else other
+    count=1 if family=='selection' else 3 if variation=='increased_requirement' else 2
+    epoch=epoch_key(case if prefix=='r19' else prefix+':'+case);rows=[]
+    for n in range(count):
+        f=make_offer(w,prefix+':'+case+':'+str(n),'si',n%2,held=True,all_traps=True)
+        f=replace(f,partner=partner,helper=helper,epoch=epoch if family=='obligations' else epoch+n)
+        good=replace(f.options[-1],observed_epoch=f.epoch)
+        bad=tuple(replace(o,observed_epoch=f.epoch if o.condition=='clean' else max(0,f.epoch-1)) for o in f.options[:-1])
+        alternate=replace(good,key=f.key+':alternate',start=6,cost=3)
+        if family=='obligations' and variation!='delay_or_changed_testimony':
+            # An individually affordable load cannot be repeated across all
+            # concurrent commitments. Own visible obligations constrain choice.
+            alternate=replace(good,key=f.key+':bulk',load=2,cost=1)
+        options=bad+(alternate,good)
+        if family=='selection' and variation=='increased_requirement':
+            options=tuple(replace(good,key=f.key+':extra:'+str(i),available=False,cost=1) for i in range(2))+options
+        rows.append(replace(f,options=options))
+    return rows
+
+def challenge(w,case,complete=True,*,allocate=True,prefix='r19',assess=True,permutation=None,original_item=None):
+    actor,lender,other=w.config.actors
+    if allocate:replenish(w)
+    fs=[] if case=='original' else offers(w,case,prefix)
+    if permutation is not None:
+        fs=[replace(f,options=tuple(permutation(f.options))) for f in fs]
+    item=original_item if original_item is not None else w.clearance_monitor.original_item
+    if item is None:item=next(i for i,c in w.workshop.conditions if c in ('dirty','clean') and i not in w.release.required_items)
+    peer=lender if not fs else fs[0].partner
+    # Changed partner also exercises the warranted confirmation branch.
+    if case.endswith('changed_context_partner'):item=w.release.required_items[0]
+    if assess:w.execute(ClearanceBoundary(key(w,'open'),actor,'open',case,tuple(f.key for f in fs),item))
+    borrow(w,item,peer)
+    if case.startswith('temporal.'):
+        for p,n in zip(fs,fs[1:]):w.execute(OrderDependency(key(w,'dependency'),p.key,n.key))
+    for f in fs:w.execute(f)
+    if case.endswith('delay_or_changed_testimony'):
+        for f in fs:do(w,f.key,f.partner,'menu')
+        for _ in range(3):w.execute(Tick(key(w,'delay')))
+        w.execute(PartnerShift(key(w,'changed-schedule'),peer,(4,9)))
+        # Obligation menus use an alternate slot that remains feasible.
+        # All variants have a valid alternative at 6 (see obligations below).
+    if complete:
+        for f in fs:finish_order(w,f.key)
+        own_return(w,item)
+        if assess:w.execute(ClearanceBoundary(key(w,'close'),actor,'close'))
+        if case.endswith('delay_or_changed_testimony'):w.execute(PartnerShift(key(w,'schedule-restored'),peer,(9,)))
+    return fs,item
+
+def panel(w):
+    begin(w)
+    for case in CASES:challenge(w,case)
+    return w
+
+def defensive_return(w,item):
+    """Exercise the still-addressable old policy through real paid operations.
+    This is a recurrence intervention, not a supplied sign or verdict."""
+    a=w.config.actors[0]
+    for _ in range(40):
+        for peer in w.config.actors:
+            for src in tuple(w._account_queue.get(peer,())):
+                if (peer,src) not in w._account_consumed:
+                    k=key(w,'old-reply');fund_command(w,AccountCommand(k,k,peer,source=src,work_limit=256))
+        s=w._accounts.get((a,w._world_loans[item]))
+        if s is not None and s.closed:break
+        k=key(w,'old-account');fund_command(w,AccountCommand(k,k,a,item=item,work_limit=256))
+    confirm(w,item)
+    return physical(w,a,'return',(item,),based_on=(w.release_view(a,item).terms,))
+
+def main():
+    import json
+    from .clearance_reference import compare
+    w=panel(prepared());r=w.clearance_report();audit=compare(w)
+    print(json.dumps({'status':r['status'],'passed_demands':sum(row['passed'] for row in r['rows']),
+        'total_demands':len(CASES),'baseline_signs':r['baseline_signs'],
+        'independent_agreement':audit['passed'],'scope':r['scope']},indent=2))
+
+if __name__=='__main__':main()

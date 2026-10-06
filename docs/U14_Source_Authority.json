@@ -1,0 +1,26 @@
+{
+  "schema": "hle-u14-source-authority-v1",
+  "inherited": "Unchanged U13 runtime and prior authority records",
+  "governing_current_files": [
+    "contracts/Target_Conception_v1.md",
+    "contracts/New_Engine_Acceptance_v1.json"
+  ],
+  "implementation_choices": [
+    "216-case release panel",
+    "finite initial allocations and scheduling",
+    "per-owner accounting checker",
+    "read-only inspector",
+    "fresh bounded performance confirmation",
+    "prospective stronger resource controls and versioned reassessment",
+    "module-isolated regression execution amendment"
+  ],
+  "new_theoretical_rules": [],
+  "open": [
+    "R21C separate release",
+    "general 4D geometry",
+    "arbitrary-domain Shell recognition",
+    "broad aggregation equivalence",
+    "unrestricted language and development",
+    "cause of incomplete monolithic legacy execution attempts"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "milestone": "R11",
+  "version": 1,
+  "date": "2026-09-17",
+  "declared_before_acceptance": true,
+  "declaration": "docs/r11/acceptance.md",
+  "declaration_sha256": "fd73d7ec328467c1a42025b911ac7c94e876882370d1e31be91330d8e2b63635",
+  "panel": {
+    "populations": [
+      4,
+      8,
+      16
+    ],
+    "prefixes": [
+      0,
+      2
+    ],
+    "resources": [
+      "ample",
+      "replenished"
+    ],
+    "seeds": [
+      17,
+      43
+    ],
+    "cycles": 3,
+    "initial_rounds": 6,
+    "revised_rounds": 2,
+    "successor_rounds": 6
+  },
+  "gates": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07"
+  ]
+}

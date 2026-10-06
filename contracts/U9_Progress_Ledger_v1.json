@@ -1,0 +1,52 @@
+{
+  "completed": 9,
+  "total": 14,
+  "remaining": 5,
+  "completed_milestones": [
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+  ],
+  "next": "U10 \u2014 grounded language and shared meaning",
+  "acceptance": {
+    "schema": "hle-u9-acceptance-v1",
+    "passed": true,
+    "tests": 651,
+    "distinct_tests": 651,
+    "stage_counts": {
+      "u9": 41,
+      "u8": 34,
+      "u7": 42,
+      "u6": 40,
+      "u5": 38,
+      "u4": 45,
+      "u3": 32,
+      "u2": 31,
+      "legacy": 348
+    },
+    "raw_checks": 24,
+    "execution_manifest_sha256": "090eba86ef90c973cccbfc349b7e9bec40ac20b6ad822960f01ee086007a7848",
+    "cases": {
+      "U9-01": "established",
+      "U9-02": "established",
+      "U9-03": "established",
+      "U9-04": "established",
+      "U9-05": "established"
+    },
+    "baseline_members_unchanged": 3044,
+    "baseline_runtime_modules_unchanged": 98,
+    "changed_inherited_files": [
+      "README.md",
+      "hle_unified/operation_audit.py"
+    ],
+    "source_unchanged_during_final_run": true,
+    "u8_input_evidence_archive": "attached copy unreadable; applicable tests and witnesses freshly rerun",
+    "claim_scope": "Declared finite workshop development panel. U10-U14 and R21C release acceptance remain open."
+  }
+}

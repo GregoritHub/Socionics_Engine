@@ -1,0 +1,164 @@
+Closure Ledger and Final-Build Plan
+Every open item sorted by what can close it; what a kernel run closed today; what the final build needs
+Working note v0.1 · 2026-10-06 · probes on the unmodified R21B kernel: closure_probes.py (10/10), below_dcnh_probes.py (17/17), reciprocity_criteria_kernel_probes.py rerun (30/30) · sealed 5.2.1 pyref not supplied · D-series numbers owed · note-local labels CL-, QE-, and rulings R1–R9
+0. Method and limits
+The most logical way to close the open questions is to stop treating them as one list. Each item in the registers already says what would settle it. Sorted by that instrument, the items fall into six classes, and only one class can be closed by work at the bench. This note sorts everything visible to this session, runs the kernel jobs that R21B can settle, and closes what met its own stated condition.
+Class
+Closes with
+What that means for the build
+K
+a kernel run on R21B
+Done in this session where the inputs were supplied.
+P
+a run on the sealed 5.2.1 pyref
+Blocked until the pyref package is supplied. One upload clears the largest class.
+R
+the author's ruling
+Listed in section 3 with a recommended ruling each. They close on your word.
+B
+a build step
+Scheduled in section 6.
+S
+a source text
+Stays open until a text is supplied. None blocks the build.
+E
+a study on people
+Outside any build. Declared out of scope, not closed.
+Table 1. The six closing instruments.
+Three limits, stated before anything is closed. (1) Two things are both called C7. This note writes register C7 for the item in the C1–C46 register and milestone C7 for the seventh Full Crux build milestone. (2) The C1–C46 states used here are those of the Consolidated Edition 1.0 (August 28), which closed none. The session record says twelve were closed and two narrowed in a later session; that record was not supplied, so this ledger may list as open some items already closed. It needs reconciling against your copy. (3) The Map, On the Subject, The Missing Lane, The Click, The Acceptance and their registers were not supplied. Their items appear only as carried in the session record and are marked so.
+Status tags follow the corpus convention. [machine-checked] here means checked on the R21B rebuild kernel, not the pyref.
+1. Closed today, on your instruction of 2026-10-06
+Each item below met the closing condition its own register states. Strike any line and it reopens; nothing else depends on these closures.
+Item
+Stated condition
+Basis
+What still remains
+Register C1
+a source naming G3, G5, G8
+Source names as cited in Model G on the Model A Carrier v0.4: G3 Role-playing, G5 Demonstrative, G8 Controlling. On kernel stacks they sit at A3, A2, A7 (CL1, CL5). [source_defined, machine-checked]
+The site was not re-read this session. The code still returns unresolved: build step B1.
+Register C2
+a source for the block assignment
+Mission G1–G2, Adaptation G3–G4, Self-realization G5–G6, Inflation G7–G8; on the kernel A{1,8}, A{3,6}, A{2,5}, A{4,7} (CL3). [source_defined, machine-checked]
+Same caveat; block_assignment still unresolved in code: B1.
+MG-3
+implement and rerun on hle/model_a.py
+Reindexing unique over 40,320 permutations; three polarities; block and grade partners; grade bits; sign rule on all 128 cells (CL1–CL4). [machine-checked]
+Pyref rerun (class P).
+MG-4 = RS-1
+compute <relations, zeta> inside extended_group()
+Order 32; centre = derived subgroup = squares = {Identity, Super-Ego}; 19 involutions; ring-split table; split by sigma; normal closure (CL6–CL8, QE2). [machine-checked]
+KP-7 stays open: recovering the earlier pyref computation needs the pyref.
+RS-2
+benefit direction
+The kernel's own label file names ILE > EIE > SEE > LSE as benefit in that direction (CL9). [machine-checked]
+None.
+RS-4
+what the Sylow fact means
+G64 is the whole 2-part of the affine symmetries; among all maps respecting the Super-Ego axes there is exactly one more 2-step, the quadratic one, giving order 128 of 384 (QE4, QE6). [derived, probe]
+The reading of that step as energy is R4.
+MG-7
+treat the DCNH layer
+DCNH is positions modulo the centre; each 2+1 formula is three of the four positions of one Model G plane (QE1, QE14, QE15). [derived, probe]
+The 2+1 formulas are from UMA section 15, not from Gulenko's text (class S).
+Table 2. Seven closures. Two are in the C1–C46 register.
+Narrowed, not closed
+Register C3. Two of the nine open poles are fixed by the published Model G table and process list once that table is locked as a project source: positivist is kernel character (1,1,1,0) = 1 for all sixteen types (CL4); process is character (0,1,1,1) = 1 (CL10). Seven remain. Needs R1.
+Register C13. A third integer candidate for the load term now exists beside the demand ordering and the Super-Ego queue: the Model G grade, 0 to 3, no float. Pricing route steps by grade instead of dimensionality changes the chosen path in 904 of 2,048 R21B route cases (QE16). [probe, the probe's own protocol]
+Register C14. Unchanged in substance: Function Profile still does nothing in 5.2. What is new is where it would enter: as amounts on the four Super-Ego axes (QE12). No regime has been run.
+MG-8. The a·r term is identified: it is the odd half of the sixteen pole patterns, which affine geometry cannot hold (QE7, QE8). Whether the Jungian atlas's l_q·d term is the same obstruction was not examined.
+2. Blocked on one upload: the sealed pyref
+Everything in this class is a run, not a decision. Supplying the 5.2.1 pyref package, with its probes, clears it.
+Items
+The run
+Register C19, C22, C23, C24, C25, C27, C28
+The relay wake enumeration, the 98k quadra enumeration, the anomaly triad, the three preregistered tests, the socion horizon, the successor-clause check, and the locked signal-layer table.
+Register C17, C18
+Isolating the k = 3 mechanism at the tick layer; finding a held-class policy under relay or showing none exists.
+Register C38, C39, C40, C41, C42
+Shipping or pinning the absent probes; correcting the two check counts; restoring le_legacy. Housekeeping, but only against the package.
+KP-7
+Whether the earlier gluing-group computation produced H or G64 with a wrong label.
+CM-15, SA-3, GR-11, pyref halves of MG-3 and MG-4
+Reruns of note probes on the sealed kernel; the supplier-wake run CM-15 needs. (CM- and SA- items carried from the session record.)
+RC-1
+A kernel job on R21B, but reciprocity_probes.py was not supplied; only the criteria probes were. Supply the file and it runs.
+Table 3. Class P. Thirteen register items and the note reruns.
+3. Rulings owed, with a recommendation for each
+#
+Question
+Recommended ruling and what it closes
+R1
+Lock the published Model G article and table as a project source, kept outside the sealed pyref?
+Yes. It firms C1 and C2, and takes register C3 from nine open poles to seven.
+R2
+MG-1: adopt the article's English names for the Model G positions?
+Adopt, keeping Model A's names for positions and noting the two crossings.
+R3
+MG-2: one problem or three descriptions at A4 and A7?
+Carry three descriptions; cross-reference A7 to the disregarded landing; do not merge.
+R4
+MG-9: record the thesis in its sharpened form — energy ranks intake by value and output by strength, and is the odd class of pole patterns?
+Record as a hypothesis beside H1, not as established. The static fit is exact (QE9); nothing dynamic tests it yet.
+R5
+Run the two-currency experiment in the build: time priced by dimensionality, energy by grade?
+Yes, as a declared hypothesis behind a switch that is off by default, compared on a held-out panel before any release decision. Today every one of 18 R21B expenditure records spends energy and time equally (QE17).
+R6
+Register C21: does the Crux v6 polarity, accumulation on seats 5 and 7 and expenditure on 6 and 8, count as the source that gives the vital ring an intention?
+Your call; I do not recommend either way. The kernel already runs on it and tags it a source convention. If yes, C21 closes. If an intention is more than a polarity, it stays open.
+R7
+Register C5: is the Erlang mirror still owed, or are the Python packages the deliverable?
+Declare Python the deliverable for this build and move the mirror out of scope. That closes C5 as a decision.
+R8
+Register C7, C9, C37 and C16: elections with no source, and the relay default.
+Leave all four open and declare them outside the build. The register itself says nothing rests on C37, and C16 is empirical. Relay stays off by default.
+R9
+The D-series: which number is next?
+I need the current top of the D register to assign numbers to the kernel jobs behind CL-, QE-, V1–V40, MG-, RS-, CM- and SA- without collision.
+Table 4. Rulings that bear on the build.
+Rulings that do not bear on the engine build. These shape the corpus, not the release, and can wait for the consolidation: CM-16 (one canonical seat model) and CM-20 (the level above the plane), which the session record names as the two shape-deciding items; CM-10, CM-23, CA-1, OR-1, CK-1 with CP-2; RC-2, RC-3; GR-3, GR-4, GR-7, GR-8, GR-9, GR-12. The CM-, CA-, OR-, CK- and CP- items are carried from the session record.
+4. Build steps already defined
+B1, new. A Model G module over model_a: the reindexing, blocks, grades and signs as derived read-only fields. Tests are CL1–CL5. No behaviour changes. This retires the two unresolved returns behind C1 and C2.
+Register C8. The three fully visible Shell signatures in observe.py, the two partial ones in the detector, and the content_path correction, with probe_shell_signatures.py.
+Register C12. Building H(k+1) as a holon containing H(k) at the embed_child seam. No source decision needed.
+Register C43, C44, C45, C46. The Atlas edit, the errata to the two sources, the schema decision on the sixteen itineraries, and renumbering one pair in the assumption ledger. C45 needs a yes or no from you.
+5. Open by nature
+None of these can be closed by a build, and none blocks one. The honest move is to name them as outside the release.
+Sources owed (class S). Register C4, C6, C10, C11, C20. MG-5 and MG-6. GR-1 and GR-10. The DCNH 2+1 formulas against Gulenko's own text.
+Studies on people (class E). Register C29 to C36, and C30 in particular. GR-5, RC-7. Every rate and unit in UMA section 28: nothing in today's probes supplies a number.
+Recorded, not model items. Register C15, C26 (a reading of Shell Geometry against the enumerated result, which itself waits on the pyref).
+One structural question left by today's work. The Model G spine forces the turn 6 > 1 > 8 > 3 on the external plane; the sense of the internal plane is undetermined, with four candidates in G64 (QE13). No source statement was found that picks one.
+6. Plan for the final build
+The final build is the release of milestone C7. The release report holds it at six of seven, with three gates of the specification's section 9 still to assess for the workflow setting: automatic participant choice (9.10), Shell application (9.9) and population scheduling with sustained evaluation.
+Stage
+Work
+Needs first
+0
+Inputs: the sealed pyref with its probes; the current D register; the record of the twelve earlier closures; reciprocity_probes.py.
+You.
+1
+Reconcile this ledger with the register; assign D numbers; run class P; do the housekeeping (register C38–C42, C46).
+Stage 0.
+2
+B1, the Model G module, into the Full Crux source. Read-only, regression-neutral.
+R1, R2.
+3
+The two-currency experiment, off by default, declared prospectively as section 9.12 requires, with a held-out comparison.
+R5. Skipped if you rule no.
+4
+Milestone C7's remaining gates: an automatic witness per cell, a Shell deformation and control per cell, and sustained populations in the workflow setting; then the joint section 9 assessment.
+Stages 1–2. Stage 3 only if it is to ship.
+5
+Freeze, evidence archive, inspector, release report. Register C8 and C12 ship here or are declared deferred.
+Stage 4.
+6
+Corpus consolidation: the Map, On the Subject and the notes into one edition, with a single register.
+CM-16, CM-20 and the corpus rulings.
+Table 5. Stages. Only stage 0 waits on something I cannot do.
+What the release should say it is not. It is not a calibrated energy model, not an empirical claim about people, and not a closure of the source items in section 5. Stating that in the release scope closes nothing but removes them from the path.
+7. Corrections and probe record
+First-run record. The first run of below_dcnh_probes.py was 15 of 17. Both misses were my expectations and not kernel faults: a wrong sign vector written for contact, and a count of two carriers of the spine in G64 where the kernel gives four, two of them in H. The probe header and QE7, QE13 carry the corrected values, and the previous reply reported the corrected count. No statement made to you is retracted by this note.
+closure_probes.py, 10 of 10 on first run. CL1–CL5: the Model G table on kernel stacks and fields. CL6–CL8: the ring-split group inside extended_group(). CL9: benefit direction from the kernel's label file. CL10: the process pole.
+below_dcnh_probes.py, 17 of 17. QE1–QE3: DCNH as positions modulo the centre. QE4–QE11: the tower to order 128, the quaternion reading, even and odd pole patterns, the grade. QE12–QE13: the profile's decomposition and the spine. QE14–QE15: the 2+1 formulas. QE16–QE17: the pricing comparison and the two currencies.
+reciprocity_criteria_kernel_probes.py, as supplied, rerun unchanged: 30 of 30.
+Hand-coded and not checked against a primary text this session: the sixteen signed Model G stacks, the position attributes and grades, the DCNH formulas, the published process list.

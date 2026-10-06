@@ -1,0 +1,56 @@
+{
+  "schema": "r20-recursive-shared-v1",
+  "frozen_parent": "docs/r12/acceptance_v1.json",
+  "claim": "Two successive closures in a finite consent-and-obligation grammar; no unrestricted or global minimality claim.",
+  "continuation": "evidence/r19/panel/continued_r18.checkpoint.json.gz",
+  "closure_1": "A retained, enacted shared custody rule grounded in real R19 production, paid conditional return, R8 teaching and exact R9 member consent.",
+  "closure_2": "A retained cross-generation obligation-carrying rule over closure 1; departed-member obligations persist until consenting successors enact them within their independently checked participation limits.",
+  "current_repertoire": [
+    "native",
+    "repeat_native",
+    "sequential_transfer",
+    "relabel",
+    "current_cycle",
+    "revise_cohort",
+    "drop_departed"
+  ],
+  "extension_grammar": [
+    "consent_cycle",
+    "carry_obligations"
+  ],
+  "candidate_order": [
+    "additional_dependency_count",
+    "work_extent"
+  ],
+  "necessity": "Exhaust the entire declared lower repertoire on exact outstanding obligations. Resource/search censorship is unassessed; any conductive lower alternative is horizontal adaptation.",
+  "guards": [
+    "original material and nine capacities current",
+    "exact R7 fold/unfold lower recovery",
+    "own R18 production and R17 physical return",
+    "paid R8 explanation interpreted and enacted by receiver",
+    "R9 participant-selected terms and all current member consents",
+    "each required duty has its own real transfer",
+    "no founder substitute after departure",
+    "no duplicate or silently dropped obligations",
+    "member load limits and consent",
+    "scoped transitive invalidation"
+  ],
+  "controls": [
+    "syntax wrapper",
+    "successful lower horizontal alternative",
+    "censored search",
+    "zero and partial work",
+    "missing consent",
+    "endpoint without enacted responsibilities",
+    "capacity withdrawal",
+    "child revision",
+    "unrelated child change",
+    "origin evidence withdrawal",
+    "founder substitution",
+    "unconsented burden",
+    "defensive inspection rule revised after consequences",
+    "stale meanings",
+    "checkpoint forgery"
+  ],
+  "validation": "Inherited 825 tests plus R20 causal and replay tests; original R19 checkpoint continuation; additional deterministic finite cases; R21 population and efficiency gates remain open."
+}

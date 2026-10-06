@@ -1,0 +1,62 @@
+{
+  "preserved_parent_files": 1056,
+  "missing": [],
+  "modified": [
+    {
+      "path": "README.md",
+      "before_sha256": "91696120da765965b5f07620101d01ae956fd90fb8c70069905ca5f6546d8495",
+      "after_sha256": "145fbc3c612fb0aaee32b7d9d9c30138b6ba7a1c7442892bb279ac100e3ba759"
+    },
+    {
+      "path": "hle/codec.py",
+      "before_sha256": "cd11aaf8c6a55844f4ad31167a9129c79814f23be78e3c2d10d235cf88add0fd",
+      "after_sha256": "0616e549dd5f97b7c4107fd0c6ff05d64224b612a4c67f0867f5bcd8602214d8"
+    }
+  ],
+  "runtime_test_tool_additions": [
+    {
+      "path": "hle/individuation.py",
+      "sha256": "8fcbb637f7456fe10820821a6026550088d25575b33d9c815ea847cb6fcf940d"
+    },
+    {
+      "path": "hle/individuation_demo.py",
+      "sha256": "ff62b2513ad248d2db97611c1857147f5a5fa35d0252686ca210305878d7681b"
+    },
+    {
+      "path": "hle/individuation_logic.py",
+      "sha256": "b8110c918b7c92bf9700866085fb9e70c633f3b6956ba8a8f2cb6a872eec57e9"
+    },
+    {
+      "path": "hle/individuation_records.py",
+      "sha256": "66ad0356eaf2674d118086fe475a9b1abf752b8533630b63149759e39af496b8"
+    },
+    {
+      "path": "hle/individuation_reference.py",
+      "sha256": "2b6da478bbfc832490883905524f8b99c10fe3008fb7f4b6cbaa775e6b41792b"
+    },
+    {
+      "path": "tests_r18/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests_r18/test_individuation.py",
+      "sha256": "a9042ae7a32cbd0ca9e790a8155eeab4886a2c1a6f0399c7527cb6baa3bbe22a"
+    },
+    {
+      "path": "tools/r18_active_work.py",
+      "sha256": "63ce0a60dc9636a06f03447d6baf74548be3f3fa68c118e9e5c7bd299e1e78c7"
+    },
+    {
+      "path": "tools/r18_evidence.py",
+      "sha256": "db8c4738a7e15fe2c3b1e14b002a54288d5a9be209b73f040cd3b417f3411754"
+    },
+    {
+      "path": "tools/r18_package.py",
+      "sha256": "b18818630cfed514a68d3c21277192953940980a13c150d1fc9687bbdc16b781"
+    },
+    {
+      "path": "tools/r18_validate.py",
+      "sha256": "6f4cbad73397f467e1bf2ebfea0387dd58ed82b6c567f18e97279ed4723fdd42"
+    }
+  ]
+}

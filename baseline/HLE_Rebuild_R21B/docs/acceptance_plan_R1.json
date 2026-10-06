@@ -1,0 +1,19 @@
+{
+  "version": "R1-gate-v1",
+  "declared": "2026-09-16, before the first execution of the new test suite",
+  "milestone": "R1",
+  "stochastic_seeds": "none: exhaustive finite enumeration and deterministic contract fixtures",
+  "horizon": "finite structural domains; no simulated world ticks in R1",
+  "resource_conditions": "contracts use explicitly declared integer units, not psychological rates",
+  "gates": [
+    {"id":"G01","required":"All 512 binary 3x3 matrices; all 1344 invertible affine maps; 16 Model A frames; 16 relation actions; 4096 type triples; 2048 seat transfers; source formulas agree."},
+    {"id":"G02","required":"All 16 Crux routes and 32 formal movements; all 256 ordered route pairs; all 256 composable triples; inverse and displacement laws hold; mismatched endpoints reject."},
+    {"id":"G03","required":"Contract fixtures accept versioned immutable references, world and observation records, resource outcomes, memories and assessments; meaningful invalid inputs reject."},
+    {"id":"G04","required":"Memory contracts permit zero, one, two, four and seventeen content/link entries, 721 memories sharing one cue, context reuse, multiple cues and independent cursor state. This is shape compatibility, not R3 retrieval acceptance."},
+    {"id":"G05","required":"New runtime imports in a fresh isolated interpreter with no old code or reference documents; runtime dependencies are new modules and standard library only."},
+    {"id":"G06","required":"Every new verification case names registered source or engineering rules; original claim grades and unresolved mechanisms remain explicit."},
+    {"id":"G07","required":"Archive inventory, transitive import audit, source hashes, commands, all run outcomes and packaged-source replay are preserved."}
+  ],
+  "pass_policy":"All required checks pass, no skipped checks. Failures remain in evidence even after repair. No existing baseline test counts are counted as new passes.",
+  "not_claimed":["R2 world dynamics or observation isolation acceptance", "R3 recall competence", "R4 realized Crux operations", "R5 Shell generation or clearance", "empirical validation of Socionics", "runtime scaling acceptance", "unrestricted memory or development"]
+}

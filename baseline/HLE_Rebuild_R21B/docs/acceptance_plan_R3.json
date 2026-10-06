@@ -1,0 +1,36 @@
+{
+  "milestone": "R3",
+  "declared_before_acceptance": true,
+  "policy": "docs/Memory_R3.md",
+  "fixtures": "deterministic; no random learner; resource matrices and bounded varied structures",
+  "acceptance": [
+    "Source card catalog preserves 130 distinct cues, 9 folded locations, uneven court sequences and unlocated Fool.",
+    "Same cue retrieves distinct contextual content; several cues retrieve one exact memory; more than 720 associations remain possible.",
+    "Direct, branched and long linked recalls return useful propositions with exact paths; cursor configuration does not mutate content.",
+    "Historical memory/binding meaning survives revision; pending recall snapshots do not redirect; stale writes fail visibly.",
+    "Hidden world variants and evaluator activity cannot alter participant recall or decisions before delivered information.",
+    "Work resource matrix, deferral, partial continuation, duplicate command and no-result-before-completion checks pass.",
+    "Every demonstration prefix restores and continues; tampering with records, jobs and cursors rejects by replay.",
+    "Indexes agree with independent complete references; guarded action and retrieval cannot traverse inactive history or unrelated memory indexes.",
+    "All retained R1 and R2 verification cases pass; every R3 test links to registered source/choice rules."
+  ],
+  "scope_limits": [
+    "Integrated A01-A15 panel remains R5",
+    "No Id/Identity traversal elected",
+    "No Shell or empirical navigation-skill claim",
+    "Timing descriptive, no population-scaling guarantee"
+  ],
+  "profile": {
+    "inactive_events": [
+      0,
+      2000
+    ],
+    "inactive_memories": [
+      0,
+      800
+    ],
+    "repeats": 3,
+    "active_recalls": 32,
+    "timing_threshold": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "version": "C4-v1",
+  "date": "2026-09-23",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "status": "C4 bounded gate complete",
+  "milestones_complete": 4,
+  "milestones_total": 7,
+  "next": "C5",
+  "full_release_cells_complete": 0,
+  "tests": {
+    "total": 554,
+    "groups": {
+      "tests_c1": 21,
+      "tests_c2": 28,
+      "tests_c3": 28,
+      "tests_c4": 23,
+      "tests_u10": 43,
+      "tests_u11": 40,
+      "tests_u12": 42,
+      "tests_u13": 17,
+      "tests_u14": 9,
+      "tests_u2": 31,
+      "tests_u3": 32,
+      "tests_u4": 45,
+      "tests_u5": 38,
+      "tests_u6": 40,
+      "tests_u7": 42,
+      "tests_u8": 34,
+      "tests_u9": 41
+    },
+    "run_form": "Interrupted frozen-source run plus explicitly recorded continuation; not one uninterrupted process",
+    "raw_log_passes_verified": true,
+    "untimed_methods": 54,
+    "total_run_seconds": null
+  },
+  "evidence": {
+    "tests": "evidence_c4/tests_final",
+    "witnesses": "evidence_c4/witnesses",
+    "measurements": "evidence_c4/measurements",
+    "verification": "evidence_c4/delivery_verification.json",
+    "inspector": "evidence_c4/inspector_qa.json"
+  },
+  "counts": {
+    "circuit_type_cases": 80,
+    "causal_pairs": 7,
+    "raw_witnesses": 15,
+    "recipe_continuation_configurations": 24,
+    "timing_workers": 30,
+    "trace_workers": 6
+  },
+  "delivery_tools": {
+    "tools/assemble_c4_release.py": "ff6a20cf27e461ea596c3e6b9fb0cd5b8ce20b12f525fd692040ae7eb3ff02aa",
+    "tools/build_c4_inspector.py": "a02d04c91b758a551bce08d364d29ca0335ad7f95bd0f07c31f12f2b8db7e4a7",
+    "tools/check_c4_inspector.js": "2dcb77dc6a875bee26e6bfcbfcf762a5376b0d9c69187faa1d85287195062f28",
+    "tools/evaluate_c4.py": "f4bcad01cab9dec6d6665e6c18e3896c4448994aab6994e3226e7a817d4f5109",
+    "tools/export_c4.py": "4751176982cdeb4ea5932eeef92039392ce98c44df7eaa3cba6e1f3dc413de64",
+    "tools/measure_c4.py": "8ae1047e051efd780ee415726feb10f72703cb9975475900831c1117a96d364f",
+    "tools/package_c4_release.py": "c368fbfc198bcac2c633ea98f998a665bf415bc588d04bcedd7a44f71f95580a",
+    "tools/resume_c4_evaluation.py": "f85717fa32569a09b4588445a094c520b80c9fecfebaea481a2b563a3f145766",
+    "tools/verify_c4_delivery.py": "a15a3e32f8f0a61a4f0b329571cf88401432edd9cc9a40ec5204f870ef676fc8"
+  },
+  "disclosure": "Measurements ran after regression and witness export. Recorded method durations are diagnostic, not a performance benchmark. Inspector view logic checked without browser layout measurement."
+}

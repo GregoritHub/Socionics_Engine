@@ -1,0 +1,10 @@
+{
+  "schema": "hle-u8-regression-panel-v1",
+  "declared_before_final_run": true,
+  "base": "All 274 U7 inherited regression IDs, deduplicated",
+  "additional_full_modules": [
+    "tests_r18.test_individuation",
+    "tests_r19.test_clearance"
+  ],
+  "reason": "Preserve independent practice, helper withdrawal, changed partner, renewed demand, capacity/evidence withdrawal, recurrence and later consequential return in the original domain."
+}
