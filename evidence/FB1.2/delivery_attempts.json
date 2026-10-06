@@ -1,0 +1,21 @@
+{
+  "status": "probe",
+  "attempts": [
+    {
+      "operation": "GitHub create_blob for source_freeze.json",
+      "result": "automatic approval rejection",
+      "reason": "claimed unverified destination and metadata disclosure without authorization",
+      "resolution_checks": "GitHub metadata confirms exact user-named public repo and push/admin rights; 1313 entries identical to already committed FB1.1 manifest; only 3 authorized new source paths; user explicitly authorized freezes/hashes to this repository"
+    },
+    {
+      "operation": "same upload after scope/destination verification",
+      "result": "automatic approval review deadline timeout",
+      "resolution": "one retry expressly permitted by tool"
+    },
+    {
+      "operation": "single permitted timeout retry, identical payload",
+      "result": "succeeded",
+      "git_blob_sha": "4bf7616ce0d81ec7777b8ef695c8940898fd6a28"
+    }
+  ]
+}

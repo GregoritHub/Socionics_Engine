@@ -1,0 +1,9 @@
+{
+  "status": "probe",
+  "passed": true,
+  "distinct_methods": 641,
+  "inherited_methods": 625,
+  "structural_methods": 16,
+  "failed_or_skipped": 0,
+  "raw_files_verified": 89
+}

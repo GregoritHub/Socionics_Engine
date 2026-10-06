@@ -1,0 +1,15 @@
+{
+  "status": "probe",
+  "source_unchanged": true,
+  "frozen_files": 1316,
+  "inherited_source_edits": 0,
+  "engine_imports_of_new_structural_modules": [],
+  "tables_verified": {
+    "model_g_signed_cells": 128,
+    "axis_cells": 64,
+    "formula_triples": 64
+  },
+  "integer_recovery_cases": 6577,
+  "parity_ties": "zero sign preserved; parity rejected as undefined",
+  "engine_type_assignments": 0
+}

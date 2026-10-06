@@ -1,0 +1,11 @@
+{
+  "evidence/FB1.2/Raw_Evidence.zip": "8b71ed7bb27dc9ba7df7d1f39b57c6e1e1fd2406263fb63fc386390b0892d9da",
+  "evidence/FB1.2/Raw_Evidence_Index.json": "f4bb6fd2e9c710d835eb37a2e613d4819dcf8c97cd8d221a3ef29d05a930e8f2",
+  "evidence/FB1.2/Raw_SHA256.json": "6f3a5b8b726d285d9ca43d22046a8704884dc740c32fdc6baf449396d8931bb3",
+  "evidence/FB1.2/acceptance_summary.json": "9721893f04bfe216c60327ce6f4fefb88b43a9fd7da763242099c2a7b645ff04",
+  "evidence/FB1.2/commands.json": "f2d8faee415668079b91e66397a82d0450c9ac6c5b1e431241386f293cc8b24b",
+  "evidence/FB1.2/delivery_attempts.json": "0df2295d0329aa03ed8dcd89ca25b77a9d423ef57870a8eb5ed715c8bfd8f784",
+  "evidence/FB1.2/final_gate.json": "b778f1f80bfae3d76b6133d3c45ca59fc1d21ff0be668c4f0044b20b4ae67941",
+  "evidence/FB1.2/source_freeze.json": "ff6b5112e8b4332ca92c659bc86965392f33c98c4e89dbcddd547e79ffd4cd15",
+  "evidence/FB1.2/structural_check.json": "153b6be5d549155e1b94c801a2acfd2ec36f44b21effbd06e778ed4ed2fcaaed"
+}
