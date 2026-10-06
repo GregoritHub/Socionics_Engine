@@ -72,8 +72,8 @@ def contract(d,items,refs,group,owned):
             if first is None or (first[1],first[5])!=("care",d["actor"]):raise ValueError("assigned first task absent")
     if a=="act" and x.get("target")!=d["content_target"]:raise ValueError("unobserved equipment revision")
 
-def audit(transactions,access_text):
-    txs=tuple(transactions);report=inherited_audit(txs,access_text,extent_check=extent,extended_flags=("c7w",))
+def audit(transactions,access_text,*,extent_check=extent,extended_flags=()):
+    txs=tuple(transactions);report=inherited_audit(txs,access_text,extent_check=extent_check,extended_flags=("c7w",*extended_flags))
     versions={v.ref:v for tx in txs for v in tx.versions};times={v.ref:tx.at.tick for tx in txs for v in tx.versions}
     details,bindings=_access(access_text,versions,times)
     heads={};starts={};prepared={};chains={};outputs={};messages={};used=set();results=[]
