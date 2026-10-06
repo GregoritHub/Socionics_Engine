@@ -1,0 +1,22 @@
+{
+  "schema": "hle-c7-workflow-selection-protocol-v1",
+  "status": "source_defined prospective engineering protocol",
+  "phase": 2,
+  "panels": {"2.1": 8, "2.2_cumulative": 20, "2.3_cumulative": 32, "2.4_type_matrix": 512},
+  "frame": "iee",
+  "types_at_2.4": "all sixteen sealed Model A types",
+  "seeds": "none; deterministic fixtures and exhaustive declared cells",
+  "domain": "The workflow domain has at most eight tasks, eight inputs, two participants, unit-duration serial scheduling and local slots 0–1,000.",
+  "request": "actor, context, cue, target, owned outcome demand and at most eight accessible references; optional paid material/group references; no route, face, recipe or evaluator label",
+  "demand": "workflow_need with four integer outcome priorities (personal, material, shared, system) 0..10 and boolean externalize; priorities select desired effects, not an origin or recipe",
+  "selection": "Enumerate content-appropriate bundles only from the supplied references after verifying paid access. Reject missing native semantic prerequisites. Rank eligible candidates by highest destination priority, then matching externalize preference, then lowest Model A plus material effort, then canonical cell number and serialized input references. Estimate uses current participant frame and cursor. Do not infer hidden state or hypothetical physical completion.",
+  "cost": "Comparison costs 1 + number of supplied references + number of candidate cells + number of examined bundles. Child effort estimate is route hop charges plus route content charges plus declared material units; excludes later recall, which is paid by native execution. No optimization or exact total-cost prediction is claimed.",
+  "budget": "At most eight supplied accessible references and 64 bundles per cell. Truncation is recorded. If comparison plus estimated child work exceeds either wallet currency, candidate is ineligible; native wallet exhaustion remains authoritative.",
+  "admission": "A separate admission record links paid comparison to native validation and its child or failure. Admission does not claim completion. Phase 3 adds workflow Shell application.",
+  "controls": "One choice-withholding intervention per cell preserves identical paid comparison and candidates, launches no child, changes a fixed downstream availability/custody query, and is rejected by the ordinary choice auditor. Later child spending is not matched and is reported separately.",
+  "audit": "Independent tools/verify_workflow_selection.py reconstructs snapshots from paid access, verifies demand ownership, candidate applicability, rank, Model A effort, comparison charges and exact native launch; calls the independent workflow auditor with an explicit new extent hook. It imports no selector or executor.",
+  "gates": ["8 automatic witnesses and 8 rejected controls for 2.1; every witness feeds a later paid consumer", "all 625 inherited methods and 16 Phase 1 methods unchanged", "old SelectionEngine and WorkflowEngine checkpoint restoration unchanged", "partial paid selection resumes exactly", "unpaid, foreign and forged inputs rejected"],
+  "split": "2.1a freezes records and candidate policy; 2.1b adds execution, the backward-compatible audit hook and independent verifier. Neither split is credited as the complete batch until all gates pass.",
+  "failures": "Preserve every attempt; stop after a gate fails twice after correction, inherited-contract/baseline change, required ruling or companion-theory contradiction.",
+  "not_claimed": ["general planning", "spontaneous goals", "human validity", "Shell coverage before Phase 3", "full workflow selection before 2.4", "Release 1.0 completion"]
+}

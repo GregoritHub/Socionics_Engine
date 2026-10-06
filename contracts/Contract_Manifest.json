@@ -65,6 +65,11 @@
       "path": "contracts/C7_Final_Protocol_v1.json",
       "sha256": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf",
       "bytes": 22334
+    },
+    {
+      "path": "contracts/C7_Workflow_Selection_Protocol_v1.json",
+      "sha256": "d11c1d2aa1b135f53d268c792d041b2d202bcfef233833e602d64d8d12980d54",
+      "bytes": 3695
     }
   ]
 }
