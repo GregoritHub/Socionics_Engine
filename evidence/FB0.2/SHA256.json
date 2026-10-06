@@ -1,0 +1,9 @@
+{
+  "evidence/FB0.2/build_protocol.py": "51ee405b092d34ebd4d8b75deaead871a80e7d61018f668fc2f3612ab441e4a9",
+  "evidence/FB0.2/check_gate.py": "3160c135425bfa4e119ce31d2bff6c9a0d4b6221669834c6ed07ed76b38c0828",
+  "evidence/FB0.2/entry_manifest_check.json": "5eb9c0db13a5a4d75272ffa8ad5e634ba92df1d611bd6b90bcd1ff3503f3aa8a",
+  "evidence/FB0.2/failed_attempts.json": "41b50220922c845392924354761389f452c48cfc09f1e8c3e224e6cfcf08e117",
+  "evidence/FB0.2/gate_result.json": "94444c5789c03eb36dbc3ef02e80eee9840c679cbed34052a94ba78ddf183a97",
+  "evidence/FB0.2/pre_gate_freeze.json": "83b97134f0543a8b84e0d414dd5b53957ebe235b28aa40918b8df683aadf72fa",
+  "evidence/FB0.2/protocol_build.stdout.log": "af9df8c8c79d4932a4c55392feff109068b589eeeb656f44c62c214dae46892b"
+}

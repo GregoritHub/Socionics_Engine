@@ -5,7 +5,7 @@
 | Batch | Work | Status | D-series |
 | --- | --- | --- | --- |
 | 0.1 | Intake and reproduction | complete; see FB0.1_Record.md | |
-| 0.2 | The final protocol | pending | |
+| 0.2 | The final protocol | complete; see FB0.2_Record.md | |
 | 1.1 | The Model G layer | pending | |
 | 1.2 | The axis layer | pending | |
 | 2.1 | Workflow selection: the four self-routes | pending | |
@@ -27,4 +27,4 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 is not yet complete. Batch 0.1 passed; batch 0.2 is next.
+[open] Release 1.0 is not yet complete. Batches 0.1 and 0.2 passed; batch 1.1 is next.

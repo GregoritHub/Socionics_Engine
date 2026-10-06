@@ -1,0 +1,13 @@
+# FB0.2 — Final prospective protocol: passed
+
+[source_defined] The final protocol declares panels, actual denominators, seeds, controls, independent auditors and pass conditions for all twelve Specification v10 §9 requirements before new engine implementation. It preserves the 3/1 inactive-history and 2/1 unchanged-native limits, exact workflow bounds, Phase 5 seeds 17/43/89 and two actors with 24 episodes each. Planned auditor paths are obligations, not implemented capabilities.
+
+[derived] What changed: a hashed release protocol, including the read-only Phase 1 protocol, plus an append-only contract-manifest entry. How: mapped the specification's twelve requirements to the plan's numbered panels and independent raw-evidence gates. What becomes possible: Phase 1 can implement its two read-only modules against declared acceptance criteria, followed by phase-specific prospective protocols for later work.
+
+[probe] Exit check: `python evidence/FB0.2/check_gate.py` exited 0; twelve requirements and 22 blank-D-number jobs verified. All 1,128 inherited Python files and 161 freeze-v4 entries match. Of 1,714 delivered-manifest entries, 1,713 match exactly; the sole difference is `contracts/Contract_Manifest.json`, whose existing entries are unchanged and whose new entry was explicitly required by batch 0.2. This is manifest bookkeeping, not an inherited semantic-contract change. The original manifest and original contract-manifest bytes remain in Git history. No engine file changed.
+
+[probe] Protocol SHA-256: `c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf`. Evaluation freeze: `evidence/FB0.2/pre_gate_freeze.json`. Raw entry/gate checks, exact checker and failed-attempt record are retained in `evidence/FB0.2/`; `SHA256.json` hashes the evidence. No runtime panel was rerun or claimed in this documentation batch.
+
+[probe] Failure retained: the first protocol-generation attempt exited 1 before writing any repository artifact because the output directory was created in the parent workspace. Creating it in the checkout and rerunning the identical generator succeeded. This was an artifact-generation failure, not an engine acceptance failure. One earlier read used a nonexistent docs/ manifest path; the root manifest was located and read unchanged.
+
+[open] Entry to batch 1.1: verified inherited baseline, hashed Phase 1 acceptance requirements, no Model G or axes module written yet. Gulenko tables retain transcribed-not-reread status; no author register closure, energy extension, new default, or pyref result is claimed. The sealed pyref rerun remains owed and does not block Release 1.0 under Plan §11.

@@ -1,0 +1,4 @@
+{
+  "status": "probe",
+  "attempts": [{"attempt": 1, "command": "python /tmp/build_fb02.py", "exit_code": 1, "error": "FileNotFoundError creating evidence/FB0.2/entry_manifest_check.json: output directory had been created relative to the parent workspace instead of the checkout", "effect": "All 1714 entry hashes checked; no repository artifact written before failure", "correction": "Create output directory in the checkout and rerun identical generator", "counted_as_pass": false}]
+}

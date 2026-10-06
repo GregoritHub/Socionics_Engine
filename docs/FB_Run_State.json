@@ -1,17 +1,18 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "0.2",
+  "current_batch": "1.1",
   "completed_batches": [
-    "0.1"
+    "0.1",
+    "0.2"
   ],
-  "next_batch": "0.2",
+  "next_batch": "1.1",
   "run_id": "continuation-20261006T1935Z",
-  "lease_expires_at": "2026-10-06T20:06:04.233Z",
-  "updated_at": "2026-10-06T19:36:04.232Z",
+  "lease_expires_at": "2026-10-06T20:09:26.642627+00:00",
+  "updated_at": "2026-10-06T19:39:26.642627+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB0.1_Record.md",
+  "record": "docs/FB0.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Reading final protocol requirements for batch 0.2"
+  "activity": "FB0.2 passed; starting read-only Model G layer"
 }

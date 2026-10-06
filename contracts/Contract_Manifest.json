@@ -60,6 +60,11 @@
       "path": "contracts/U1_Protocol_v1.sha256",
       "sha256": "fac96c7dd0a4bc8adb466e2f1cbe1181e108c5762e666e4cf78d4797b054290a",
       "bytes": 86
+    },
+    {
+      "path": "contracts/C7_Final_Protocol_v1.json",
+      "sha256": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf",
+      "bytes": 22334
     }
   ]
 }

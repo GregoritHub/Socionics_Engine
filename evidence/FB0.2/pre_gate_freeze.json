@@ -1,0 +1,8 @@
+{
+  "evidence/FB0.2/build_protocol.py": "51ee405b092d34ebd4d8b75deaead871a80e7d61018f668fc2f3612ab441e4a9",
+  "contracts/C7_Final_Protocol_v1.json": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf",
+  "contracts/Contract_Manifest.json": "419cbc82357ef74b5085fd0b6f1dd32e06b8e42fecbb14f9a33222a171227b14",
+  "C7_Second_Setting_Delivered_Source_Manifest_v1.json": "0107c51db541de561d6368ce41c69a1a6f28407440a6f96929f128105aa1344e",
+  "C7_Second_Setting_Source_Freeze_v4.json": "3c5e45279ad118a983a9c57c288ac23297b64ff56d67b36aaa7514ca886d3294",
+  "evidence/FB0.2/check_gate.py": "3160c135425bfa4e119ce31d2bff6c9a0d4b6221669834c6ed07ed76b38c0828"
+}
