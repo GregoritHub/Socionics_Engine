@@ -1,0 +1,92 @@
+[
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/test_c6.py",
+      "evidence/FB0.1/workflow-tests",
+      "tests_c7_workflow"
+    ],
+    "exit_code": 0,
+    "seconds": 247.35356063500012,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/evaluate_c7_settings.py",
+      "evidence/FB0.1/setting-matrix"
+    ],
+    "exit_code": 0,
+    "seconds": 151.22998540400022,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/verify_c7_settings.py",
+      "evidence/FB0.1/setting-matrix"
+    ],
+    "exit_code": 0,
+    "seconds": 282.2474596789998,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/regress_c7_parallel.py",
+      "evidence/FB0.1/regression"
+    ],
+    "exit_code": 0,
+    "seconds": 624.3134492849999,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/measure_c7_settings.py",
+      "evidence/FB0.1/workflow-costs"
+    ],
+    "exit_code": 0,
+    "seconds": 41.29335161500012,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "tools/measure_c6.py",
+      "evidence/FB0.1/native-costs-attempt-2"
+    ],
+    "exit_code": null,
+    "status": "interrupted_session_disconnection",
+    "output": "native-costs"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/measure_c6.py",
+      "evidence/FB0.1/native-costs-attempt-2"
+    ],
+    "exit_code": 0,
+    "seconds": 73.39571666300026,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "project_sources/closure_probes.py",
+      "baseline/HLE_Rebuild_R21B"
+    ],
+    "exit_code": 0,
+    "seconds": 3.064129024000067,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "project_sources/below_dcnh_probes.py",
+      "baseline/HLE_Rebuild_R21B"
+    ],
+    "exit_code": 0,
+    "seconds": 105.80142583499992,
+    "source_unchanged": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "batch": "0.1",
+  "inherited_tests": 602,
+  "workflow_tests": 23,
+  "total_tests": 625,
+  "native_workflow_cases": 512,
+  "ordinary_reconstructions": 512,
+  "rejected_controls": 32,
+  "workflow_max_history_ratio": 1.1933283151952627,
+  "native_reference_ratio": 0.9595072689908211,
+  "native_history_ratio": 1.0525298848020266,
+  "closure_probes": "10/10",
+  "below_dcnh_probes": "17/17",
+  "original_source_matches": true,
+  "executed_python_freeze_matches": true,
+  "interrupted_attempts": [
+    "native-costs: session disconnection; incomplete, not counted"
+  ],
+  "pyref_rerun": "owed"
+}

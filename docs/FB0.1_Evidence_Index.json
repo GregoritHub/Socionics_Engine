@@ -1,0 +1,10 @@
+{
+  "bytes": 66558369,
+  "sha256": "d4723e3c63e577d29ed53209fb1f1a9c297cb82dee1c3c32ef6a13f9864b6018",
+  "contents_manifest": "FB0.1/files_sha256.json",
+  "restore": "Materialize the exact file_id through Library, verify sha256, then extract the archive into evidence/; it contains an FB0.1/ root.",
+  "library_file_id": "libfile_d4e6220e8bb481919ecb603db8c91f19",
+  "file_id": "file_000000006cbc822f9ee9bf0030a9d2e3",
+  "file_name": "Socionics_Final_Build_FB0.1_Evidence.zip",
+  "storage": "Library; canonical raw evidence is not duplicated in Git"
+}

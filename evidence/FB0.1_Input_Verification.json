@@ -1,0 +1,12 @@
+{
+  "C7_Second_Setting_Delivered_Source_Manifest_v1.json": {
+    "entries": 1714,
+    "mismatches": [],
+    "sha256": "0107c51db541de561d6368ce41c69a1a6f28407440a6f96929f128105aa1344e"
+  },
+  "C7_Second_Setting_Source_Freeze_v4.json": {
+    "entries": 161,
+    "mismatches": [],
+    "sha256": "3c5e45279ad118a983a9c57c288ac23297b64ff56d67b36aaa7514ca886d3294"
+  }
+}

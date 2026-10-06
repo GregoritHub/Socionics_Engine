@@ -4,7 +4,7 @@
 
 | Batch | Work | Status | D-series |
 | --- | --- | --- | --- |
-| 0.1 | Intake and reproduction | in progress | |
+| 0.1 | Intake and reproduction | complete; see FB0.1_Record.md | |
 | 0.2 | The final protocol | pending | |
 | 1.1 | The Model G layer | pending | |
 | 1.2 | The axis layer | pending | |
@@ -27,4 +27,4 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 is not yet complete. Batch 0.1 is reproducing the supplied baseline.
+[open] Release 1.0 is not yet complete. Batch 0.1 passed; batch 0.2 is next.

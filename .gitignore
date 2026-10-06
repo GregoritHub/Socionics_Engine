@@ -1,2 +1,4 @@
 __pycache__/
 *.py[cod]
+# Raw intake evidence is preserved by docs/FB0.1_Evidence_Index.json.
+evidence/FB0.1/
