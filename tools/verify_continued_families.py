@@ -40,6 +40,19 @@ def verify(folder):
                 choices=[decode(v.facet(Account).content[0].object) for tx in txs for v in tx.versions
                          if v.ref.identity.namespace=='c7w.output' and v.facet(Account)]
                 assert any(x.get('kind')=='decision' and x.get('next_task') is not None for x in choices)
+                if row['family']=='share-commune-identify':
+                    def output(key):
+                        return decode(heads[address('c7w.output',actor,key).identity].facet(Account).content[0].object)
+                    before=output('agenda-renewal-before');after=output('agenda-renewal-after');final=output('agenda-fixed-query')
+                    assert before['next_task']=='handover' and after['next_task'] is None and final['next_task'] is None
+                    assert before['completed']==after['completed']==final['completed']==('maintain',)
+                    assert before['clock']==after['clock']==final['clock']==3
+                    shared_values=[decode(attrs(heads[ref.identity])['payload']) for ref in state['results'][:2]]
+                    windows=[next(t[4] for t in x['tasks'] if t[0]=='handover') for x in shared_values]
+                    assert windows==[4,2]
+                    assert before['source']==state['results'][0] and after['source']==state['results'][1]
+                    assert final['source']==state['results'][2]
+
         reports.append(dict(case=row['case'],agenda=result,native_passed=native['passed'],selections=native['workflow_selections']))
     assert all(producers[name,False]==producers[name,True] for name in EXPECTED)
     result=dict(passed=True,cases=len(reports),families=5,controls=5,matched_producer_costs=True,participant_replay=False,reports=reports)

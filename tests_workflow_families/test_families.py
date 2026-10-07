@@ -16,8 +16,14 @@ class ContinuedFamiliesTests(unittest.TestCase):
         for name, expected in zip(FAMILIES,EXPECTED):
             p=family(name);q=withheld(name);p.run(2000);q.run(2000)
             self.assertIsNone(p.halted);self.assertEqual(q.halted,'missing_prior_result')
-            good=terminal_query(p);cut=terminal_query(q)
-            self.assertIsNotNone(good);self.assertIsNotNone(good['next_task']);self.assertIsNone(cut)
+            good=terminal_query(p,name==FAMILIES[1]);cut=terminal_query(q,name==FAMILIES[1])
+            self.assertIsNotNone(good);self.assertIsNone(cut)
+            if name==FAMILIES[1]:
+                before,after=renewal_queries(p)
+                self.assertEqual(before['next_task'],'handover')
+                self.assertIsNone(after['next_task']);self.assertIsNone(good['next_task'])
+                self.assertEqual(before['completed'],after['completed']);self.assertEqual(before['clock'],after['clock'])
+            else:self.assertIsNotNone(good['next_task'])
             report=audit_agenda(p.engine.world.journal(),p.engine.access.checkpoint(),loads(p.checkpoint())['state'])
             self.assertEqual([r['recipe'] for r in report['native']['selection_rows']],['workflow-'+x+'-v1' for x in expected])
             for field in ('spent','required','recipe_key'):

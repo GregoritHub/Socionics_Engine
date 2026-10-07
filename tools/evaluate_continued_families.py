@@ -3,7 +3,7 @@ import gzip,hashlib,json,sys,traceback
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT),str(ROOT/'baseline/HLE_Rebuild_R21B')]
-from tests_workflow_families.fixtures import family,withheld,terminal_query,FAMILIES,WorkflowAgenda,ALICE
+from tests_workflow_families.fixtures import family,withheld,terminal_query,renewal_queries,FAMILIES,WorkflowAgenda,ALICE
 from tools.evaluate_workflow_continuation import manifest
 
 
@@ -20,9 +20,12 @@ def main(folder):
             for control in (False,True):
                 key=name+('-withheld' if control else '')
                 p=withheld(name) if control else family(name);p.run(2000)
-                answer=terminal_query(p)
+                answer=terminal_query(p,name==FAMILIES[1])
+                if name==FAMILIES[1] and not control:
+                    before,after=renewal_queries(p)
+                    assert before["next_task"]=="handover" and after["next_task"] is None and answer["next_task"] is None
                 assert p.halted=='missing_prior_result' if control else p.stage==len(p.goals) and p.halted is None
-                assert answer is None if control else answer['next_task'] is not None
+                assert answer is None if control else answer is not None and (name==FAMILIES[1] or answer['next_task'] is not None)
                 rows.append(dict(case=key,family=name,control=control,**save(folder,key,p)))
                 print('SAVED',key,flush=True)
         for name in FAMILIES[:2]:
