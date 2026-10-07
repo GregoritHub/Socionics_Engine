@@ -28,7 +28,7 @@ class SocialSelectionTests(unittest.TestCase):
             if name in ('Share','Coordinate','Educate'):
                 rows,_=e._workflow_policy(e.workflow_selection_view(replace(r,accessible=r.accessible[:-1])))
                 self.assertFalse(any(x['eligible'] for x in rows if x['recipe'].startswith('workflow-'+name.lower()+'-')))
-            rows,_=e._workflow_policy(e.workflow_selection_view(replace(r,peer=WRITER)))
+            rows,_=e._workflow_policy(e.workflow_selection_view(replace(r,peer=EVE)))
             self.assertFalse(any(x['eligible'] for x in rows if x['recipe'].startswith('workflow-'+name.lower()+'-')))
 
     def test_duplicate_delivery_cannot_supply_distinct_member_practice(self):
