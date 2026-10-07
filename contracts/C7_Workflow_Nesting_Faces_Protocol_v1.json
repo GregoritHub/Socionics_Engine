@@ -1,0 +1,102 @@
+{
+  "schema": "hle-c7-workflow-nesting-faces-protocol-v1",
+  "status": "source_defined prospective batch4.2 protocol",
+  "scope": "Evaluate one bounded, same-owner workflow parent under four lifecycle worlds and compare both faces of every one of the sixteen fixed workflow routes. Add only the minimum workflow parent, raw auditors, fixtures, tests and evaluation tools needed by this gate.",
+  "sources": [
+    "project_sources/HLE_Final_Build_Plan_v1_0.txt batch 4.2",
+    "project_sources/HLE_Companion_Theory_v1_0.txt sections 9.5, 9.6 and 9.11",
+    "docs/HLE_Full_Crux_C4_Report_v1.md bounded parent-child contract",
+    "docs/C7_Second_Setting_Contract_v1.md both faces of every route",
+    "hle_unified/nesting.py trusted exact-history projections"
+  ],
+  "parent_contract": {
+    "boundary": "One actor's own child workflow operations in one common context and target; no general cross-owner nesting.",
+    "inputs": "The parent names exact terminal child-operation revisions, exact accessible child outputs and any claimed generated-result handoff links.",
+    "reconstruction": "Independent raw audit reconstructs the parent result from the named child results, their statuses, links, access, current dependencies and distinct operation identities without participant replay.",
+    "completion": "A complete parent requires every declared child to be complete, compatible, authorized and current. Failed, cancelled, declined, missing, foreign, stale or inaccessible children remain visible and block the claimed complete outcome.",
+    "accounting": "The parent pays its own review. Each distinct descendant operation appears once in cited spending even when shared; no child or shared descendant is charged twice.",
+    "non_transfer": "A parent summary is not executable workflow content and grants no route competence, material skill, authority, assent or participant knowledge. Later use must name and satisfy the exact underlying child contract.",
+    "limits": {
+      "direct_children": 8,
+      "nested_levels": 4,
+      "distinct_cited_operations": 64,
+      "participants": 2
+    }
+  },
+  "nesting_worlds": [
+    {
+      "id": "normal",
+      "intervention": "none",
+      "required_outcome": "The independently reconstructed parent is complete and retains exact direct children, descendant union, links, per-operation spending and child outputs."
+    },
+    {
+      "id": "failed-child",
+      "intervention": "One declared child incurs a real workflow or material failure after paid work.",
+      "required_outcome": "The failed child and performed spending remain visible; the parent is reconstructed as blocked and cannot expose a usable complete-parent result."
+    },
+    {
+      "id": "membership-change",
+      "intervention": "Change the exact scoped membership dependency after otherwise sufficient children or parent review.",
+      "required_outcome": "The prior parent becomes stale or blocked under the changed membership; history and spending remain, and old summary reuse is rejected."
+    },
+    {
+      "id": "participant-withdrawal",
+      "intervention": "Withdraw a required participant's current stance or assent after otherwise sufficient children or parent review.",
+      "required_outcome": "The prior parent becomes stale or blocked under withdrawal; history and spending remain, and no authority or competence is inferred from the old summary."
+    }
+  ],
+  "face_comparisons": {
+    "matched_start": "For each route, accumulation and expenditure start from byte-identical fresh checkpoints with equal supplied content, participants, material state and opportunity. Only the requested face changes.",
+    "evidence": "Each pair must locate responsibility in exact content, interaction, commitment and/or usable output and retain source, cost and result references.",
+    "convergence": "A pair may legitimately produce the same final answer. Such convergence must be declared with the distinct responsibility trace; no artificial output difference may be introduced.",
+    "routes": {
+      "Contemplate": {"accumulation": "reconcile owned task meanings, windows and conflicts", "expenditure": "retain rehearsal and hypothetical basis with attention policy"},
+      "Express": {"accumulation": "inspect equipment as preparation for an owned runbook", "expenditure": "carry out the assigned first maintenance action"},
+      "Share": {"accumulation": "register a contribution through offer and receiver-computed answer", "expenditure": "make it available for collective use under explicit assent"},
+      "Theorize": {"accumulation": "derive schedule, dependencies, missing prerequisites and proposed test", "expenditure": "submit the uncertain runbook model"},
+      "Embody": {"accumulation": "incorporate a paid-read event into personal procedural meaning", "expenditure": "retain observed activity as an owned response policy"},
+      "Act": {"accumulation": "restore a loaned tool to its owner under an exact return obligation", "expenditure": "transfer owned equipment to the named recipient"},
+      "Coordinate": {"accumulation": "jointly interpret actual observed activity", "expenditure": "establish understood participation from activity and both stances"},
+      "Organize": {"accumulation": "infer scoped procedure order from timestamped real events", "expenditure": "put the inferred arrangement into operation under actor ownership"},
+      "Identify": {"accumulation": "interpret shared roles through an owned stance", "expenditure": "accept, qualify or decline those roles in an owned policy"},
+      "Mobilize": {"accumulation": "inspect actual equipment readiness under a shared commitment", "expenditure": "perform the assigned first care task under that commitment"},
+      "Commune": {"accumulation": "reconcile existing shared meaning through a fresh exchange", "expenditure": "renew shared commitments through reciprocal acknowledgment"},
+      "Institutionalize": {"accumulation": "derive draft responsibilities and windows from shared expectations and actual practice", "expenditure": "ratify the exact draft with one current vote from each member"},
+      "Understand": {"accumulation": "relate a model to owned procedural constraints", "expenditure": "retain an owned decision policy while preserving assent and limits"},
+      "Apply": {"accumulation": "inspect actual equipment in a contained trial", "expenditure": "execute a ready assigned care task under current material constraints"},
+      "Educate": {"accumulation": "examine a runbook through a receiver-computed hypothetical answer", "expenditure": "disseminate the system through actual learner uptake with differences retained"},
+      "Integrate": {"accumulation": "reconcile partial runbooks including external dependencies and conflicts", "expenditure": "couple the compatible schedule under explicit authority"}
+    },
+    "pairs": 16,
+    "raw_worlds": 32
+  },
+  "panel": {
+    "nesting_worlds": 4,
+    "face_worlds": 32,
+    "raw_worlds": 36,
+    "required_passes": "Four independently audited parent lifecycle worlds and sixteen independently audited matched face pairs; zero hidden child failures, stale dependency acceptance, duplicate operation charges, summary competence grants or face substitutions."
+  },
+  "tests": {
+    "minimum_new_methods": 6,
+    "existing_methods": 686,
+    "minimum_total": 692,
+    "meaningful_negatives": [
+      "duplicate child or shared-descendant charge",
+      "fabricated or substituted child output",
+      "failed child reported as complete parent",
+      "stale parent reused after membership change",
+      "stale parent reused after participant withdrawal",
+      "parent summary accepted as executable model or route competence",
+      "face substitution or unmatched starting checkpoint",
+      "forced final-answer difference where the two faces legitimately converge"
+    ]
+  },
+  "audit": "New independent raw parent and face verification imports no workflow executor, selector, policy, scheduler or test fixtures. It may use stable record codecs and accepted independent auditors, but reconstructs the four parent outcomes, distinct cited spending and every route-face responsibility trace directly from frozen raw worlds. No participant replay or evaluator summary is evidence.",
+  "freeze": "Freeze all Python and contract bytes before evaluation. Preserve every failed or source-changed attempt. Every file in the accepted FB4.1 source freeze must remain byte-identical.",
+  "limits": [
+    "The parent is bounded, same-owner and same-context; no general cross-owner nesting claim.",
+    "Face evidence is workflow-content evidence; it does not establish universal personality behavior, competence, authority or conflict resolution.",
+    "No theoretical register closure, Model G pricing change, release decision or Phase 7 authorization."
+  ],
+  "failure_policy": "All standing Final Build Plan stops remain unchanged, including the two-failure and inherited-contract stop conditions."
+}

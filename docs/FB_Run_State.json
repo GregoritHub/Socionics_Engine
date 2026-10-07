@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": "4.1",
+  "status": "running",
+  "current_batch": "4.2",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -17,14 +17,14 @@
     "4.1"
   ],
   "next_batch": "4.2",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T16:10:58.763576Z",
+  "run_id": "fb42-20261007T164544Z-9e52cfc1",
+  "lease_expires_at": "2026-10-07T17:15:44Z",
+  "updated_at": "2026-10-07T16:45:44Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB4.1_Record.md",
+  "record": "docs/FB4.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB4.1 accepted: 686 methods and 10 raw composition worlds passed; five ordinary-auditor control rejections verified. Ready for batch4.2 nesting and face protocol.",
+  "activity": "Claimed FB4.2 lease; preregistering bounded workflow-parent and 16-route face-comparison protocol before implementation.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
