@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
+  "status": "active",
   "current_batch": "5.2",
   "completed_batches": [
     "0.1",
@@ -20,14 +20,14 @@
     "5.2"
   ],
   "next_batch": "6.1",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T20:59:17Z",
+  "run_id": "fb-extension-20261007T213135Z-db5e4815",
+  "lease_expires_at": "2026-10-07T22:01:35.363453+00:00",
+  "updated_at": "2026-10-07T21:31:35.363453+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.2 accepted: four sustained worlds independently reconstruct; actual coverage is 2/32 cells and both inactive-history ratios pass. Ready for batch 6.1.",
+  "activity": "Claiming approved sustained-development amendment and first prospective continuation batch; no Phase 7 authorization.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
