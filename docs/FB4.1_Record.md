@@ -6,4 +6,8 @@
 
 [derived] Before implementation, comparison with the accepted C4 family definitions corrected two transcription errors in the prospective polarity table: Share and Educate use accumulation. Coordinate and Mobilize remain expenditure because Mobilize requires the authorized shared result. The corrected contract was re-digested before source work.
 
-[open] Implementation, source freeze, tests, raw evaluation and independent reconstruction have not yet run. No accepted engine, auditor, baseline or semantic contract has changed. Release 1.0 remains incomplete and Phase 7 remains unauthorized without a separate explicit R5 ruling.
+[derived] Implementation adds one independent raw composition auditor, five workflow family fixtures, five equal-price defining-step interventions, six tests, and separate evaluation/verification tools. The accepted workflow engine, inherited auditor, baselines and semantic contracts are unchanged. Material-family controls withhold the exact material command after paying the same defining step; Commune and Educate controls replace only their paid generated intermediate. The ordinary auditor must reject every intervention.
+
+[machine-checked] Development attempt 1 ran six methods and exposed only a non-canonical ObjectRef/ObjectId digest serialization in the new auditor. Attempt 2 retained that fix and passed four families, then exposed a public/binding alias assumption and one stale material-target fixture. Both failed test logs and source manifests are preserved. Attempt 3 passed all six new methods with zero failures or errors. These were pre-freeze development runs, not exit-gate evidence.
+
+[open] Source freeze, full inherited regression, raw evaluation and standalone reconstruction have not yet run. Release 1.0 remains incomplete and Phase 7 remains unauthorized without a separate explicit R5 ruling.

@@ -1,0 +1,40 @@
+test_coordinate_mobilize (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_coordinate_mobilize) ... ok
+test_equal_endpoint_and_unchanged_answer_controls_are_rejected (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_equal_endpoint_and_unchanged_answer_controls_are_rejected) ... ok
+test_institutionalize_educate (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_institutionalize_educate) ... ok
+test_organize_integrate_apply (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_organize_integrate_apply) ... ERROR
+test_share_commune_identify (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_share_commune_identify) ... ok
+test_theorize_apply_embody (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_theorize_apply_embody) ... ERROR
+
+======================================================================
+ERROR: test_organize_integrate_apply (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_organize_integrate_apply)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_composition/test_composition.py", line 29, in test_organize_integrate_apply
+    self.check_family(FAMILIES[4])
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_composition/test_composition.py", line 10, in check_family
+    report = audit_pair(witness.world.journal(), witness.access.checkpoint(),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_composition_audit.py", line 169, in audit_pair
+    witness = _world(witness_transactions, family, witness_access)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_composition_audit.py", line 150, in _world
+    raise ValueError("equal endpoint substituted for exact generated result")
+ValueError: equal endpoint substituted for exact generated result
+
+======================================================================
+ERROR: test_theorize_apply_embody (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_theorize_apply_embody)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_composition/test_composition.py", line 17, in test_theorize_apply_embody
+    self.check_family(FAMILIES[0])
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_composition/test_composition.py", line 10, in check_family
+    report = audit_pair(witness.world.journal(), witness.access.checkpoint(),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_composition_audit.py", line 180, in audit_pair
+    raise ValueError("ablation changed declared main cost")
+ValueError: ablation changed declared main cost
+
+----------------------------------------------------------------------
+Ran 6 tests in 13.260s
+
+FAILED (errors=2)

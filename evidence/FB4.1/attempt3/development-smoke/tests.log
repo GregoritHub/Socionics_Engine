@@ -1,0 +1,11 @@
+test_coordinate_mobilize (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_coordinate_mobilize) ... ok
+test_equal_endpoint_and_unchanged_answer_controls_are_rejected (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_equal_endpoint_and_unchanged_answer_controls_are_rejected) ... ok
+test_institutionalize_educate (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_institutionalize_educate) ... ok
+test_organize_integrate_apply (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_organize_integrate_apply) ... ok
+test_share_commune_identify (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_share_commune_identify) ... ok
+test_theorize_apply_embody (tests_workflow_composition.test_composition.WorkflowCompositionTests.test_theorize_apply_embody) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 11.942s
+
+OK
