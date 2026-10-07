@@ -18,7 +18,7 @@
 | 4.1 | The five families in workflow content | complete; see FB4.1_Record.md | |
 | 4.2 | Nested accountability and the two faces | complete; see FB4.2_Record.md | |
 | 5.1 | Population over workflow selection | complete; see FB5.1_Record.md | |
-| 5.2 | Sustained panel and costs | pending | |
+| 5.2 | Sustained panel and costs | complete; see FB5.2_Record.md | |
 | 6.1 | The joint §9 ledger | pending | |
 | 6.2 | Freeze, regression and measurement | pending | |
 | 6.3 | Package and decide | pending | |
@@ -27,6 +27,6 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[machine-checked] Batches through 5.1 are accepted. Latest checkpoint: 713 distinct passing methods; six workflow-population worlds independently reconstructed across 177 turns, 1,901 paid energy units and 21 native completions. Legacy v2 population checkpoints remain exact, while workflow and mixed populations use the tagged v3 schema. Earlier failed attempts and author releases remain preserved in their batch records.
+[machine-checked] Batches through 5.2 are accepted. Latest checkpoint: four sustained IEE/SLI workflow-population worlds independently reconstructed with 60 native completions and 52 repeated outputs; actual sustained coverage is 2/32 cells. Twenty-four isolated cost workers passed with unique/shared inactive-history ratios 1.053×/1.024× against the 3.0× limit. The focused population run passed 24 methods. Earlier failed attempts and author releases remain preserved in their batch records.
 
-[open] Release 1.0 remains incomplete. Next batch is 5.2, sustained panel and costs. Automatic continuation is enabled; the build lease is released at this verified checkpoint. Phase 7 requires explicit R5.
+[open] Release 1.0 remains incomplete. Next batch is 6.1, the joint §9 ledger. Automatic continuation is enabled; the build lease is released at this verified checkpoint. Phase 7 requires explicit R5.

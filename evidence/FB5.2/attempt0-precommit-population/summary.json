@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "source_unchanged": true,
+  "raw_worlds": 4,
+  "native_completions": 60,
+  "repeated_outputs": 52,
+  "covered_cells": 2,
+  "claim": "Repeated outputs remain repeats; no new-capacity or route-wide sustained-development claim."
+}

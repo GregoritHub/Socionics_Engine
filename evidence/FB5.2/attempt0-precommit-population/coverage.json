@@ -1,0 +1,418 @@
+[
+  {
+    "cell": 0,
+    "name": "Contemplate",
+    "face": "accumulation",
+    "recipe": "workflow-contemplate-accumulation-v1",
+    "by_world": {
+      "default-17": 2,
+      "default-43": 2,
+      "default-89": 2,
+      "diagnostic-17": 24
+    },
+    "total": 30
+  },
+  {
+    "cell": 1,
+    "name": "Contemplate",
+    "face": "expenditure",
+    "recipe": "workflow-contemplate-expenditure-v1",
+    "by_world": {
+      "default-17": 2,
+      "default-43": 2,
+      "default-89": 2,
+      "diagnostic-17": 24
+    },
+    "total": 30
+  },
+  {
+    "cell": 2,
+    "name": "Act",
+    "face": "accumulation",
+    "recipe": "workflow-act-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 3,
+    "name": "Act",
+    "face": "expenditure",
+    "recipe": "workflow-act-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 4,
+    "name": "Express",
+    "face": "accumulation",
+    "recipe": "workflow-express-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 5,
+    "name": "Express",
+    "face": "expenditure",
+    "recipe": "workflow-express-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 6,
+    "name": "Embody",
+    "face": "accumulation",
+    "recipe": "workflow-embody-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 7,
+    "name": "Embody",
+    "face": "expenditure",
+    "recipe": "workflow-embody-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 8,
+    "name": "Share",
+    "face": "accumulation",
+    "recipe": "workflow-share-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 9,
+    "name": "Share",
+    "face": "expenditure",
+    "recipe": "workflow-share-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 10,
+    "name": "Coordinate",
+    "face": "accumulation",
+    "recipe": "workflow-coordinate-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 11,
+    "name": "Coordinate",
+    "face": "expenditure",
+    "recipe": "workflow-coordinate-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 12,
+    "name": "Theorize",
+    "face": "accumulation",
+    "recipe": "workflow-theorize-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 13,
+    "name": "Theorize",
+    "face": "expenditure",
+    "recipe": "workflow-theorize-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 14,
+    "name": "Understand",
+    "face": "accumulation",
+    "recipe": "workflow-understand-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 15,
+    "name": "Understand",
+    "face": "expenditure",
+    "recipe": "workflow-understand-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 16,
+    "name": "Identify",
+    "face": "accumulation",
+    "recipe": "workflow-identify-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 17,
+    "name": "Identify",
+    "face": "expenditure",
+    "recipe": "workflow-identify-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 18,
+    "name": "Mobilize",
+    "face": "accumulation",
+    "recipe": "workflow-mobilize-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 19,
+    "name": "Mobilize",
+    "face": "expenditure",
+    "recipe": "workflow-mobilize-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 20,
+    "name": "Institutionalize",
+    "face": "accumulation",
+    "recipe": "workflow-institutionalize-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 21,
+    "name": "Institutionalize",
+    "face": "expenditure",
+    "recipe": "workflow-institutionalize-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 22,
+    "name": "Educate",
+    "face": "accumulation",
+    "recipe": "workflow-educate-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 23,
+    "name": "Educate",
+    "face": "expenditure",
+    "recipe": "workflow-educate-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 24,
+    "name": "Apply",
+    "face": "accumulation",
+    "recipe": "workflow-apply-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 25,
+    "name": "Apply",
+    "face": "expenditure",
+    "recipe": "workflow-apply-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 26,
+    "name": "Organize",
+    "face": "accumulation",
+    "recipe": "workflow-organize-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 27,
+    "name": "Organize",
+    "face": "expenditure",
+    "recipe": "workflow-organize-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 28,
+    "name": "Commune",
+    "face": "accumulation",
+    "recipe": "workflow-commune-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 29,
+    "name": "Commune",
+    "face": "expenditure",
+    "recipe": "workflow-commune-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 30,
+    "name": "Integrate",
+    "face": "accumulation",
+    "recipe": "workflow-integrate-accumulation-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  },
+  {
+    "cell": 31,
+    "name": "Integrate",
+    "face": "expenditure",
+    "recipe": "workflow-integrate-expenditure-v1",
+    "by_world": {
+      "default-17": 0,
+      "default-43": 0,
+      "default-89": 0,
+      "diagnostic-17": 0
+    },
+    "total": 0
+  }
+]

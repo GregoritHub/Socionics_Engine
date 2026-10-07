@@ -1,0 +1,142 @@
+[
+  {
+    "case": "default-17",
+    "seed": 17,
+    "repeat_limit": 2,
+    "types": {
+      "alice": "iee",
+      "bob": "sli"
+    },
+    "counts": [
+      2,
+      2
+    ],
+    "stops": [
+      "unchanged_retained_result",
+      "unchanged_retained_result"
+    ],
+    "turns": 18,
+    "audit": {
+      "passed": true,
+      "turns": 18,
+      "modeled_energy": 332,
+      "native_completions": 4,
+      "successful_recipes": {
+        "workflow-contemplate-accumulation-v1": 2,
+        "workflow-contemplate-expenditure-v1": 2
+      },
+      "repeated_outputs": 2
+    },
+    "raw": {
+      "engine_file": "default-17-engine.json.gz",
+      "engine_sha256": "13391060a09f8e4a095ebe1a53df6afc5f77128c719939b048bff4c29e7d52d3",
+      "population_file": "default-17-population.json.gz",
+      "population_sha256": "783ef0137e179def7489472c03b82ad1c6c6f1c1fbd9a47a77238ea6f5d6f4c7"
+    }
+  },
+  {
+    "case": "default-43",
+    "seed": 43,
+    "repeat_limit": 2,
+    "types": {
+      "alice": "iee",
+      "bob": "sli"
+    },
+    "counts": [
+      2,
+      2
+    ],
+    "stops": [
+      "unchanged_retained_result",
+      "unchanged_retained_result"
+    ],
+    "turns": 18,
+    "audit": {
+      "passed": true,
+      "turns": 18,
+      "modeled_energy": 332,
+      "native_completions": 4,
+      "successful_recipes": {
+        "workflow-contemplate-accumulation-v1": 2,
+        "workflow-contemplate-expenditure-v1": 2
+      },
+      "repeated_outputs": 2
+    },
+    "raw": {
+      "engine_file": "default-43-engine.json.gz",
+      "engine_sha256": "012c2573b8a6ec019e2f087610ac69d6a6b2c003eff57ccd540648920014c060",
+      "population_file": "default-43-population.json.gz",
+      "population_sha256": "dcbada4f2b0b01b28783443d14514c835e796bf2b452b800f3dee618280c6662"
+    }
+  },
+  {
+    "case": "default-89",
+    "seed": 89,
+    "repeat_limit": 2,
+    "types": {
+      "alice": "iee",
+      "bob": "sli"
+    },
+    "counts": [
+      2,
+      2
+    ],
+    "stops": [
+      "unchanged_retained_result",
+      "unchanged_retained_result"
+    ],
+    "turns": 18,
+    "audit": {
+      "passed": true,
+      "turns": 18,
+      "modeled_energy": 332,
+      "native_completions": 4,
+      "successful_recipes": {
+        "workflow-contemplate-accumulation-v1": 2,
+        "workflow-contemplate-expenditure-v1": 2
+      },
+      "repeated_outputs": 2
+    },
+    "raw": {
+      "engine_file": "default-89-engine.json.gz",
+      "engine_sha256": "012c2573b8a6ec019e2f087610ac69d6a6b2c003eff57ccd540648920014c060",
+      "population_file": "default-89-population.json.gz",
+      "population_sha256": "dcbada4f2b0b01b28783443d14514c835e796bf2b452b800f3dee618280c6662"
+    }
+  },
+  {
+    "case": "diagnostic-17",
+    "seed": 17,
+    "repeat_limit": null,
+    "types": {
+      "alice": "iee",
+      "bob": "sli"
+    },
+    "counts": [
+      24,
+      24
+    ],
+    "stops": [
+      null,
+      null
+    ],
+    "turns": 216,
+    "audit": {
+      "passed": true,
+      "turns": 216,
+      "modeled_energy": 3896,
+      "native_completions": 48,
+      "successful_recipes": {
+        "workflow-contemplate-accumulation-v1": 24,
+        "workflow-contemplate-expenditure-v1": 24
+      },
+      "repeated_outputs": 46
+    },
+    "raw": {
+      "engine_file": "diagnostic-17-engine.json.gz",
+      "engine_sha256": "5f26df10a0ca5b20b926daf9e7f732f7d1c79d4a538593b18c268f5f99bfec60",
+      "population_file": "diagnostic-17-population.json.gz",
+      "population_sha256": "610470fcb6d5a4d16d6e5250349735469b1934b192e4379e26eadcc8849269f8"
+    }
+  }
+]

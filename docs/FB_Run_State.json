@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "ready",
   "current_batch": "5.2",
   "completed_batches": [
     "0.1",
@@ -16,17 +16,18 @@
     "3.3",
     "4.1",
     "4.2",
-    "5.1"
+    "5.1",
+    "5.2"
   ],
-  "next_batch": "5.2",
-  "run_id": "fb52-20261007T203651Z-c84d2e30",
-  "lease_expires_at": "2026-10-07T21:19:04Z",
-  "updated_at": "2026-10-07T20:49:04Z",
+  "next_batch": "6.1",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-07T20:59:17Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB5.1_Record.md",
+  "record": "docs/FB5.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.2 implementation committed; refreshing the lease for frozen sustained-population and isolated-cost evaluation.",
+  "activity": "FB5.2 accepted: four sustained worlds independently reconstruct; actual coverage is 2/32 cells and both inactive-history ratios pass. Ready for batch 6.1.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -35,7 +36,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Enabled; FB5.2 active under a 30-minute lease.",
+  "automation_status": "Enabled; ready for next eligible batch 6.1.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
@@ -62,7 +63,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb51-recovery-20261007T195246Z-a19cd8e4",
+  "last_run_id": "fb52-20261007T203651Z-c84d2e30",
   "blocker": null,
   "automation_verification_history": [
     {

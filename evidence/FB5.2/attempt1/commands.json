@@ -1,0 +1,46 @@
+{
+  "schema": "srl-fb5.2-command-record-v1",
+  "entry_remote_head": "18d4d85f74e0658a3ffb94f69ab931acc3b997f9",
+  "implementation_remote_head": "94ad5f2297d70a325cf6c820f3bff68f89869d5c",
+  "evaluation_lease_head": "ee3e372460291b5b54730b1107190237a5a4e807",
+  "source_freeze_sha256": "3881f92bea26b656dfa74687348639a086e30a00f97eaee124d168446084a07f",
+  "accepted": [
+    {
+      "command": "PYTHONPATH=.:baseline/HLE_Rebuild_R21B python -m unittest tests_workflow_population.test_sustained tests_workflow_population.test_population tests_c7.test_population tests_c7.test_audit",
+      "exit": 0,
+      "methods": 24,
+      "seconds": 78.419
+    },
+    {
+      "command": "python tools/evaluate_sustained_workflow_population.py evidence/FB5.2/attempt1/population",
+      "exit": 0,
+      "worlds": 4
+    },
+    {
+      "command": "python tools/verify_sustained_workflow_population.py evidence/FB5.2/attempt1/population",
+      "exit": 0,
+      "worlds": 4,
+      "participant_replay": false
+    },
+    {
+      "command": "python tools/measure_workflow_population.py evidence/FB5.2/attempt1/measurements",
+      "exit": 0,
+      "workers": 24
+    }
+  ],
+  "preflights": [
+    {
+      "command": "python -m unittest tests_workflow_population.test_sustained tests_workflow_population.test_population tests_c7.test_population tests_c7.test_audit",
+      "exit": 1,
+      "failure": "ModuleNotFoundError: No module named 'hle'",
+      "classification": "runner environment omitted the sealed baseline import path; no engine assertion executed"
+    },
+    {
+      "command": "python tools/measure_workflow_population.py --worker 0 0 2 0",
+      "exit": 1,
+      "failure": "ValueError: native output consumer required",
+      "classification": "prospective query-domain mismatch corrected by C7_Workflow_Population_Measurement_Amendment_v1 before the accepted cost panel"
+    }
+  ],
+  "failed_or_superseded_evidence": "evidence/FB5.2/attempt0-precommit-population is retained and credited to no final gate because executable source changed afterward."
+}

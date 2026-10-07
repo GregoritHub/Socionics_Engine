@@ -1,0 +1,23 @@
+{
+  "schema": "srl-fb5.2-raw-evidence-index-v1",
+  "batch": "5.2",
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB5.2_Evidence.zip",
+    "library_path": "/Socionics_Final_Build_FB5.2_Evidence.zip",
+    "library_file_id": "libfile_f9cf8b6878b8819193732e56a786bd31",
+    "file_id": "file_00000000815081f5bf35403ad754cdfa",
+    "version": 0,
+    "bytes": 3471368,
+    "sha256": "e3764fcff440aa871353da0aebfdc908b8a413b7d694473b113a5ec8f0ff8dff",
+    "members": 79
+  },
+  "contents": "Raw and compressed checkpoints for four sustained worlds; independent verification; 24 isolated measurement workers; source freezes; coverage and summaries; retained superseded precommit panel; command and failure records; file hashes.",
+  "restore": [
+    "Resolve the exact Library item by library_file_id or file_id.",
+    "Materialize the ZIP without altering its bytes and verify the archive SHA-256.",
+    "Extract from the repository root so paths under evidence/FB5.2 are restored.",
+    "Verify evidence/FB5.2/Raw_SHA256.txt against the extracted files it lists.",
+    "Run python tools/verify_sustained_workflow_population.py evidence/FB5.2/attempt1/population for independent reconstruction."
+  ],
+  "local_identity_xattrs_applied": true
+}
