@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "worlds": 16,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "kind": "history",
+      "file": "01-formed-and-interrupted.json.gz",
+      "sha256": "c62e30224b89aa8df690be5a32d095a3646250115b0193c7582460af4a12bb38"
+    },
+    {
+      "kind": "history",
+      "file": "02-other-correction-same-recurrence.json.gz",
+      "sha256": "cc552ca16fbf3f45c8b4b8f4ef9b956cf63e3dd6f936c9e0883f92b9349a5ade"
+    },
+    {
+      "kind": "history",
+      "file": "03-changed-target-recurrence.json.gz",
+      "sha256": "58a167c9604b678e566fda2ad367df20ef58773c971706c181d604189ef98780"
+    },
+    {
+      "kind": "history",
+      "file": "04-exact-correction-and-native-use.json.gz",
+      "sha256": "25f9c35fbf313d2cdb325ae08e92ff40c7628987dcc90741776968cd152a55a5"
+    },
+    {
+      "kind": "history",
+      "file": "05-other-target-still-residual.json.gz",
+      "sha256": "cf7809bc395e7973de8f1f7f98cdd802a0af413d587b7f8eb84aedf594d64dcc"
+    },
+    {
+      "kind": "history",
+      "file": "06-supported-without-capacity.json.gz",
+      "sha256": "cd7b44e7f5eafa785840606331a7859cf1cbd93a07479ddddf1e6b775d5f846c"
+    },
+    {
+      "kind": "history",
+      "file": "07-withdrawal-recurrence.json.gz",
+      "sha256": "f3c57ddc4ea90673bccf92f294be621d75a5150d8ef5a9cdac74c88b5385d357"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-forecast-before.json.gz",
+      "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-forecast-after.json.gz",
+      "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-forecast-still-interrupted.json.gz",
+      "sha256": "c68229c22d68546a04606201c31cb190aabf45621d501dfd4f0a17034512a10a"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-salience-before.json.gz",
+      "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-salience-after.json.gz",
+      "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-salience-still-interrupted.json.gz",
+      "sha256": "5738a14c4b8c4e094accd581f8d0eabfed96083359810b0c0f23978d6b5cfab0"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-exclude_route-before.json.gz",
+      "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-exclude_route-after.json.gz",
+      "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301"
+    },
+    {
+      "kind": "refusal",
+      "file": "unsupported-exclude_route-still-interrupted.json.gz",
+      "sha256": "0e80111a730edf1cfe11346e0ee2f6eab8297e71987bd1f31b43c2c724d59a03"
+    }
+  ]
+}

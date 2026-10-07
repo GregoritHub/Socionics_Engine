@@ -1,0 +1,331 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-07T14:24:59.182705+00:00",
+  "worlds": 64,
+  "prior_manifests": [
+    "evidence/FB3.1/Raw_SHA256.json",
+    "evidence/FB3.2/attempt3/Raw_SHA256.json"
+  ],
+  "rows": [
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Act-accumulation-interrupted.json.gz",
+      "expected_sha256": "b4f4f6fb8063f7396594b5139dec5e3d05f9da3818606a9f5c22b8a9bdf38339",
+      "actual_sha256": "b4f4f6fb8063f7396594b5139dec5e3d05f9da3818606a9f5c22b8a9bdf38339"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Act-accumulation-deformed.json.gz",
+      "expected_sha256": "87afeb9044930883220b3ac5c8c4dd7d7da2a81a48bcd0237637fbf6b2eede91",
+      "actual_sha256": "87afeb9044930883220b3ac5c8c4dd7d7da2a81a48bcd0237637fbf6b2eede91"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Act-expenditure-interrupted.json.gz",
+      "expected_sha256": "f98871010663ea23c6722f91ed2d3170180fd1ae4f061ad9e1341afb0ca6f8ba",
+      "actual_sha256": "f98871010663ea23c6722f91ed2d3170180fd1ae4f061ad9e1341afb0ca6f8ba"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Act-expenditure-deformed.json.gz",
+      "expected_sha256": "ccf260eb34d708d768724f750acdcb39be50e7dfb0bca4715b85695f68ba5668",
+      "actual_sha256": "ccf260eb34d708d768724f750acdcb39be50e7dfb0bca4715b85695f68ba5668"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Apply-accumulation-interrupted.json.gz",
+      "expected_sha256": "ae41f249f9eec613eb429513b881ed27eaadb91dff2297a00780758e20d942ba",
+      "actual_sha256": "ae41f249f9eec613eb429513b881ed27eaadb91dff2297a00780758e20d942ba"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Apply-accumulation-deformed.json.gz",
+      "expected_sha256": "12455ce9c37d5e2b715e5440403a8866d8a507751bab6762b7ba7b6390a9e4b2",
+      "actual_sha256": "12455ce9c37d5e2b715e5440403a8866d8a507751bab6762b7ba7b6390a9e4b2"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Apply-expenditure-interrupted.json.gz",
+      "expected_sha256": "aee8f96a14db832d80a68c802a9b78de57b48acd9181d4e2602ff514d15dbabb",
+      "actual_sha256": "aee8f96a14db832d80a68c802a9b78de57b48acd9181d4e2602ff514d15dbabb"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Apply-expenditure-deformed.json.gz",
+      "expected_sha256": "097cf029b34e124baa294a5a659cbc219b67072c91b35fb2dcad6ab40fd23d8a",
+      "actual_sha256": "097cf029b34e124baa294a5a659cbc219b67072c91b35fb2dcad6ab40fd23d8a"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Commune-accumulation-interrupted.json.gz",
+      "expected_sha256": "31dd2e84d2d98e7cf87371754ea89c3ade9502f44521392c0f2a9afc366b840d",
+      "actual_sha256": "31dd2e84d2d98e7cf87371754ea89c3ade9502f44521392c0f2a9afc366b840d"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Commune-accumulation-deformed.json.gz",
+      "expected_sha256": "58ae92b4452d102eef7e2e7fdd17df0632cbb31d9941b81dffd8aa94edf67860",
+      "actual_sha256": "58ae92b4452d102eef7e2e7fdd17df0632cbb31d9941b81dffd8aa94edf67860"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Commune-expenditure-interrupted.json.gz",
+      "expected_sha256": "0d6cb924423eca49750499efacc588c4f660d37c5ca02a92dfc2ef545398ebbc",
+      "actual_sha256": "0d6cb924423eca49750499efacc588c4f660d37c5ca02a92dfc2ef545398ebbc"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Commune-expenditure-deformed.json.gz",
+      "expected_sha256": "8007aba6685eb0b6195766ba2f511a46b379ae9521540c2a466491645a8eb1a0",
+      "actual_sha256": "8007aba6685eb0b6195766ba2f511a46b379ae9521540c2a466491645a8eb1a0"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Contemplate-accumulation-interrupted.json.gz",
+      "expected_sha256": "e82f72cd69dc5261c579535b5d4998865b0e78c92d400a97dbab8c4231e0379d",
+      "actual_sha256": "e82f72cd69dc5261c579535b5d4998865b0e78c92d400a97dbab8c4231e0379d"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Contemplate-accumulation-deformed.json.gz",
+      "expected_sha256": "b458a4e4026986e59bc48a4e0e5834f30d32e2b9faa1b2a62799fbf88af9eee1",
+      "actual_sha256": "b458a4e4026986e59bc48a4e0e5834f30d32e2b9faa1b2a62799fbf88af9eee1"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Contemplate-expenditure-interrupted.json.gz",
+      "expected_sha256": "1a0f7ba301a1b400b31ee9c1d5cead7995e0f226a829e4e0fd48d20ff85174d5",
+      "actual_sha256": "1a0f7ba301a1b400b31ee9c1d5cead7995e0f226a829e4e0fd48d20ff85174d5"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Contemplate-expenditure-deformed.json.gz",
+      "expected_sha256": "f0bbb0fb7dd2f3eb840df12366da7ebbec12a515f99960d6fa1c054fa5d49adf",
+      "actual_sha256": "f0bbb0fb7dd2f3eb840df12366da7ebbec12a515f99960d6fa1c054fa5d49adf"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Coordinate-accumulation-interrupted.json.gz",
+      "expected_sha256": "32e771b7c92303e336337de28f6721da9d9e4b0d4e1a84277555e32717df8387",
+      "actual_sha256": "32e771b7c92303e336337de28f6721da9d9e4b0d4e1a84277555e32717df8387"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Coordinate-accumulation-deformed.json.gz",
+      "expected_sha256": "dd84d430e682ab6e254e31ba353e1aca6c8d317245dceae4172a9a370b1ddb73",
+      "actual_sha256": "dd84d430e682ab6e254e31ba353e1aca6c8d317245dceae4172a9a370b1ddb73"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Coordinate-expenditure-interrupted.json.gz",
+      "expected_sha256": "695010710970d5a89b50c9f7cace6564662ced5bc44faf52facfa8d5a48f32f4",
+      "actual_sha256": "695010710970d5a89b50c9f7cace6564662ced5bc44faf52facfa8d5a48f32f4"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Coordinate-expenditure-deformed.json.gz",
+      "expected_sha256": "5efb612cbe7b4d02107e35b682e88bfc080c34ae753aaa1374d46dfb69b32b82",
+      "actual_sha256": "5efb612cbe7b4d02107e35b682e88bfc080c34ae753aaa1374d46dfb69b32b82"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Educate-accumulation-interrupted.json.gz",
+      "expected_sha256": "2ecdc299e2514953829e35906ac9c28501960fb61cf0bad1af33219a71100a02",
+      "actual_sha256": "2ecdc299e2514953829e35906ac9c28501960fb61cf0bad1af33219a71100a02"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Educate-accumulation-deformed.json.gz",
+      "expected_sha256": "036dc8e6d84910b97a3a64e53108afaa2b43961782844ed9100725e50aae30e8",
+      "actual_sha256": "036dc8e6d84910b97a3a64e53108afaa2b43961782844ed9100725e50aae30e8"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Educate-expenditure-interrupted.json.gz",
+      "expected_sha256": "1163a94d0a1fb67cbad1e38aa09e2ddc4b2a069f5c46ea76f8aca2656a7930f6",
+      "actual_sha256": "1163a94d0a1fb67cbad1e38aa09e2ddc4b2a069f5c46ea76f8aca2656a7930f6"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Educate-expenditure-deformed.json.gz",
+      "expected_sha256": "2ea068f7a6161dc7dfbc78301e706bc14977bf68d800388ffd0495cc17bc550c",
+      "actual_sha256": "2ea068f7a6161dc7dfbc78301e706bc14977bf68d800388ffd0495cc17bc550c"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Embody-accumulation-interrupted.json.gz",
+      "expected_sha256": "59754c5548209a259e932669b6cc058ba2381e7e076cd951f0f8d0cb58ac197c",
+      "actual_sha256": "59754c5548209a259e932669b6cc058ba2381e7e076cd951f0f8d0cb58ac197c"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Embody-accumulation-deformed.json.gz",
+      "expected_sha256": "ddb41fdc0d0aa5b981b4f33ae35459855158a69b0c351569a7a4944dd27fb72b",
+      "actual_sha256": "ddb41fdc0d0aa5b981b4f33ae35459855158a69b0c351569a7a4944dd27fb72b"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Embody-expenditure-interrupted.json.gz",
+      "expected_sha256": "a3937010978e8ee0d2430ef669b919f017fb8b04df2c14e3b4cd0cce9abce0ac",
+      "actual_sha256": "a3937010978e8ee0d2430ef669b919f017fb8b04df2c14e3b4cd0cce9abce0ac"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Embody-expenditure-deformed.json.gz",
+      "expected_sha256": "4f23d893d8a3ec9c2b89fdcdb6a79f3a9ee2383db7c3dd714f40506628afd040",
+      "actual_sha256": "4f23d893d8a3ec9c2b89fdcdb6a79f3a9ee2383db7c3dd714f40506628afd040"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Express-accumulation-interrupted.json.gz",
+      "expected_sha256": "50db21f9700ef36933732e5444146dfbae2fa0979b632169bae7e343d397cdc9",
+      "actual_sha256": "50db21f9700ef36933732e5444146dfbae2fa0979b632169bae7e343d397cdc9"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Express-accumulation-deformed.json.gz",
+      "expected_sha256": "11bb74572737a794b1dac23048966ebe10f971a1b28bc723de6d88c258d1960f",
+      "actual_sha256": "11bb74572737a794b1dac23048966ebe10f971a1b28bc723de6d88c258d1960f"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Express-expenditure-interrupted.json.gz",
+      "expected_sha256": "af1d27e796d617286405cb3525d90f7c6594f4ac568fe528e2d45c1794dcbda4",
+      "actual_sha256": "af1d27e796d617286405cb3525d90f7c6594f4ac568fe528e2d45c1794dcbda4"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Express-expenditure-deformed.json.gz",
+      "expected_sha256": "46246c01cea82f325014e3b895aedb2003b377060149ea9e1e95b3def979d4a6",
+      "actual_sha256": "46246c01cea82f325014e3b895aedb2003b377060149ea9e1e95b3def979d4a6"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Identify-accumulation-interrupted.json.gz",
+      "expected_sha256": "954b9dde504ae15fff24011ad01f2fa8fd6b8e6cb861ffb807caca769642ac5b",
+      "actual_sha256": "954b9dde504ae15fff24011ad01f2fa8fd6b8e6cb861ffb807caca769642ac5b"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Identify-accumulation-deformed.json.gz",
+      "expected_sha256": "e9d7e03c64b7dbd99c8cc29365dd1a6deaaa62a938eabf5dc467bcf1a7832793",
+      "actual_sha256": "e9d7e03c64b7dbd99c8cc29365dd1a6deaaa62a938eabf5dc467bcf1a7832793"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Identify-expenditure-interrupted.json.gz",
+      "expected_sha256": "fbf6a1edbe9ae3b36a5cdc3c3962bd46115853b1a07b94b6ffd14aebff2439db",
+      "actual_sha256": "fbf6a1edbe9ae3b36a5cdc3c3962bd46115853b1a07b94b6ffd14aebff2439db"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Identify-expenditure-deformed.json.gz",
+      "expected_sha256": "f4d038627783b64f68766c4015d5fe64d7c347fb98c1c292d9dd2d51e80ea68e",
+      "actual_sha256": "f4d038627783b64f68766c4015d5fe64d7c347fb98c1c292d9dd2d51e80ea68e"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Institutionalize-accumulation-interrupted.json.gz",
+      "expected_sha256": "9223b4f416f5e5b2b81b3151732283fdec6682c31840124cadc4956c3b452b9b",
+      "actual_sha256": "9223b4f416f5e5b2b81b3151732283fdec6682c31840124cadc4956c3b452b9b"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Institutionalize-accumulation-deformed.json.gz",
+      "expected_sha256": "2813308998bd5b40a8411c3d582321e7797111a8505f352c2dee95c1feb12829",
+      "actual_sha256": "2813308998bd5b40a8411c3d582321e7797111a8505f352c2dee95c1feb12829"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Institutionalize-expenditure-interrupted.json.gz",
+      "expected_sha256": "9c6101ed57a08fa55a8088f98d8c7bd7a95ef19c6ab71658a625643971cae2b4",
+      "actual_sha256": "9c6101ed57a08fa55a8088f98d8c7bd7a95ef19c6ab71658a625643971cae2b4"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Institutionalize-expenditure-deformed.json.gz",
+      "expected_sha256": "3c701f92c7bb4f1a516768ca3a1f0a47b574a08d3ebe4047c6a2f71dfc215961",
+      "actual_sha256": "3c701f92c7bb4f1a516768ca3a1f0a47b574a08d3ebe4047c6a2f71dfc215961"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Integrate-accumulation-interrupted.json.gz",
+      "expected_sha256": "916d50380588154254910ac38f250900fb0a88ceef8d8c8c7c9a499c9e7b96e5",
+      "actual_sha256": "916d50380588154254910ac38f250900fb0a88ceef8d8c8c7c9a499c9e7b96e5"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Integrate-accumulation-deformed.json.gz",
+      "expected_sha256": "bf77c20b896678e653357cd233ff8710d1772f5fec70342781a5f7df19c36b82",
+      "actual_sha256": "bf77c20b896678e653357cd233ff8710d1772f5fec70342781a5f7df19c36b82"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Integrate-expenditure-interrupted.json.gz",
+      "expected_sha256": "0d192a31f44e03aea837144e14136e8a2f59042816b7a3435bf50a89611495a9",
+      "actual_sha256": "0d192a31f44e03aea837144e14136e8a2f59042816b7a3435bf50a89611495a9"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Integrate-expenditure-deformed.json.gz",
+      "expected_sha256": "e5d589abb1e58934bfb8d18dc6fa080d64246c8e19a285a7305c379855935636",
+      "actual_sha256": "e5d589abb1e58934bfb8d18dc6fa080d64246c8e19a285a7305c379855935636"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Mobilize-accumulation-interrupted.json.gz",
+      "expected_sha256": "261e562493124c0fd817452cc0d76ade8a772ae05ed5a5a180471468226a6a08",
+      "actual_sha256": "261e562493124c0fd817452cc0d76ade8a772ae05ed5a5a180471468226a6a08"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Mobilize-accumulation-deformed.json.gz",
+      "expected_sha256": "6f599653cec5bd5d79c91e617bf868436cd794eddf782e15a5556d07b74fd87d",
+      "actual_sha256": "6f599653cec5bd5d79c91e617bf868436cd794eddf782e15a5556d07b74fd87d"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Mobilize-expenditure-interrupted.json.gz",
+      "expected_sha256": "e44663a40197ffa1aac1e9bfabb61e15c6a2195b263d7a84ada506d0e46d0680",
+      "actual_sha256": "e44663a40197ffa1aac1e9bfabb61e15c6a2195b263d7a84ada506d0e46d0680"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Mobilize-expenditure-deformed.json.gz",
+      "expected_sha256": "f3365953f5524e8b655a9b357ea0e7127ccaee7e18ad32e9157dc2032215d1f1",
+      "actual_sha256": "f3365953f5524e8b655a9b357ea0e7127ccaee7e18ad32e9157dc2032215d1f1"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Organize-accumulation-interrupted.json.gz",
+      "expected_sha256": "d15af853dc0ee2c700514d07a37761f267f08f690945b001424e625e0fd63376",
+      "actual_sha256": "d15af853dc0ee2c700514d07a37761f267f08f690945b001424e625e0fd63376"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Organize-accumulation-deformed.json.gz",
+      "expected_sha256": "bc0c737a0783b56811c76d502ae05bd6963dd6b19c83e516934e9394fd3f18bc",
+      "actual_sha256": "bc0c737a0783b56811c76d502ae05bd6963dd6b19c83e516934e9394fd3f18bc"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Organize-expenditure-interrupted.json.gz",
+      "expected_sha256": "d5fcf9f3723965f3592f3f1687d890b9762a42ec229b003832689a74573b520c",
+      "actual_sha256": "d5fcf9f3723965f3592f3f1687d890b9762a42ec229b003832689a74573b520c"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Organize-expenditure-deformed.json.gz",
+      "expected_sha256": "1a5beec47cd30776dcbe8ed756c35354785e5afed15530ff9646ba34265573e7",
+      "actual_sha256": "1a5beec47cd30776dcbe8ed756c35354785e5afed15530ff9646ba34265573e7"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Share-accumulation-interrupted.json.gz",
+      "expected_sha256": "3cb4de66eda6c7f64b741d4cec31a3310fddbccd83c5927382501ca852458b08",
+      "actual_sha256": "3cb4de66eda6c7f64b741d4cec31a3310fddbccd83c5927382501ca852458b08"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Share-accumulation-deformed.json.gz",
+      "expected_sha256": "55268cee2f083be646099ea795576b443f3c310f517288d6eb9ab763d11f669b",
+      "actual_sha256": "55268cee2f083be646099ea795576b443f3c310f517288d6eb9ab763d11f669b"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Share-expenditure-interrupted.json.gz",
+      "expected_sha256": "914f2f00070cfbc6c3af909d1357fbdde43fc3a48f22eda5b07218f388007558",
+      "actual_sha256": "914f2f00070cfbc6c3af909d1357fbdde43fc3a48f22eda5b07218f388007558"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Share-expenditure-deformed.json.gz",
+      "expected_sha256": "7b99b9d429988a075f9d10c18bb9d043c4dab268026dc9cea22312219dec47a6",
+      "actual_sha256": "7b99b9d429988a075f9d10c18bb9d043c4dab268026dc9cea22312219dec47a6"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Theorize-accumulation-interrupted.json.gz",
+      "expected_sha256": "5738a14c4b8c4e094accd581f8d0eabfed96083359810b0c0f23978d6b5cfab0",
+      "actual_sha256": "5738a14c4b8c4e094accd581f8d0eabfed96083359810b0c0f23978d6b5cfab0"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Theorize-accumulation-deformed.json.gz",
+      "expected_sha256": "0f20dae338880c372867e8b30219e4615b904e79b2cba911da2febf54b4dc41d",
+      "actual_sha256": "0f20dae338880c372867e8b30219e4615b904e79b2cba911da2febf54b4dc41d"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Theorize-expenditure-interrupted.json.gz",
+      "expected_sha256": "a567a22fef25aa9b930b4e6c70be3ae7bb596d2c25f3f7d55b7b1d3a392a8f1c",
+      "actual_sha256": "a567a22fef25aa9b930b4e6c70be3ae7bb596d2c25f3f7d55b7b1d3a392a8f1c"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Theorize-expenditure-deformed.json.gz",
+      "expected_sha256": "b24dfcb6619a753f6290602203482b6671389b5e5c336cf62f1344ca8572c472",
+      "actual_sha256": "b24dfcb6619a753f6290602203482b6671389b5e5c336cf62f1344ca8572c472"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Understand-accumulation-interrupted.json.gz",
+      "expected_sha256": "6174ed8c6d7995a5fa2845d7130b3fbfb6248084108dc2f9ddce004e448e53b3",
+      "actual_sha256": "6174ed8c6d7995a5fa2845d7130b3fbfb6248084108dc2f9ddce004e448e53b3"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Understand-accumulation-deformed.json.gz",
+      "expected_sha256": "1661d21516a8d8585125349230815a5f9a04c10d164948ca803b61060ad79f51",
+      "actual_sha256": "1661d21516a8d8585125349230815a5f9a04c10d164948ca803b61060ad79f51"
+    },
+    {
+      "file": "evidence/FB3.2/attempt3/matrix/Understand-expenditure-interrupted.json.gz",
+      "expected_sha256": "1882de364570a967bb65a11ba27be0e90d9e3971cbd2c44fecf834851d56dbf5",
+      "actual_sha256": "1882de364570a967bb65a11ba27be0e90d9e3971cbd2c44fecf834851d56dbf5"
+    },
+    {
+      "file": "evidence/FB3.1/attempt2/matrix/Understand-expenditure-deformed.json.gz",
+      "expected_sha256": "c8789025672e9ee403731f182b4b68284915249bd5fc5b8d50177644b3a38e77",
+      "actual_sha256": "c8789025672e9ee403731f182b4b68284915249bd5fc5b8d50177644b3a38e77"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "file_name": "Socionics_Final_Build_FB3.3_Evidence.zip",
+  "bytes": 2336024,
+  "sha256": "10f84bd015847a2e3fbe0978da1ec250bd8aa7d1074cb6d34abb42b4e05085fc",
+  "members": 123,
+  "library_file_id": "libfile_5d36bd9607bc8191852cade6ebf42212",
+  "file_id": "file_000000000d94820e91f957625261d034",
+  "restore": "Materialize the exact file_id through Library. Verify the archive SHA-256, extract into evidence/ (members start FB3.3/attempt1/), and validate Raw_SHA256.json. Restore the two dependency archives below into evidence/ as their indexes instruct before independent verification. Source freeze commit: 174299feb7d938d62b55b1889c1d6c6a0a0acab3.",
+  "manifest": "FB3.3/attempt1/Raw_SHA256.json",
+  "dependencies": [
+    {
+      "status": "passed",
+      "accepted_attempt": 2,
+      "archive": "Socionics_Final_Build_FB3.1_Evidence.zip",
+      "library_file_id": "libfile_97794a2fa93481918309e115ce4f01fe",
+      "file_id": "file_00000000ecb881f5b29d0a5bee2aa32c",
+      "bytes": 15310983,
+      "sha256": "519b1c94f698e46d81791930440dff22e1e3a5d87f26c45dd0d7b64020004aab",
+      "members": 225,
+      "source_freeze_sha256": "8b66ef05ed8abb8ea96cd8c6dfda0536abdc05de30968be8447af1d7727d5b01",
+      "restore": "Materialize the exact Library/file IDs using the Library skill. Verify bytes and SHA-256 before extracting into the repository root. Members begin evidence/FB3.1/. Verify every file listed in evidence/FB3.1/Raw_SHA256.json, which excludes itself. This index was added after archiving. Preserve the inherited diagnostic and failed attempt1.",
+      "verify": "python tools/verify_workflow_shell.py evidence/FB3.1/attempt2/matrix",
+      "inherited_C5": "docs/FB_C5_Evidence_Index.json identifies the immutable original archive; verification ran on a separate extracted copy, never overwriting the original.",
+      "accepted_summary": "attempt2/Acceptance_Summary.json",
+      "failed_attempt": "attempt1/Attempt_Summary.json"
+    },
+    {
+      "file_name": "Socionics_Final_Build_FB3.2_Attempt3_Evidence.zip",
+      "bytes": 27041446,
+      "sha256": "78a25d3d9357493152bc72e4be1c06b8d808b18fd50b2069e8e27f3ca4c855f6",
+      "members": 296,
+      "library_file_id": "libfile_e02a7f94f60c819198310b348649412d",
+      "file_id": "file_00000000e44081f5aec9fb5a61827e1b",
+      "restore": "Materialize this exact file_id via Library. Verify archive SHA-256 before extracting into evidence/; members begin FB3.2/attempt3/. Validate every member in Raw_SHA256.json. Source is frozen at Git commit 3c4a300edf7df47865acb5a6a6e5097918385690.",
+      "manifest": "FB3.2/attempt3/Raw_SHA256.json",
+      "prior_failed_archive": "../Evidence_Index.json",
+      "index_added_after_archive": true
+    }
+  ],
+  "verify_command": "python tools/verify_workflow_development.py evidence/FB3.3/attempt1/matrix evidence/FB3.1/attempt2/matrix evidence/FB3.2/attempt3/matrix",
+  "index_added_after_archive": true
+}

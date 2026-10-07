@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "ready",
   "current_batch": "3.3",
   "completed_batches": [
     "0.1",
@@ -12,17 +12,18 @@
     "2.3",
     "2.4",
     "3.1",
-    "3.2"
+    "3.2",
+    "3.3"
   ],
-  "next_batch": "3.3",
-  "run_id": "fb32-recovery-20261007T134938Z-5f1c59d6",
-  "lease_expires_at": "2026-10-07T14:47:28.547988Z",
-  "updated_at": "2026-10-07T14:17:28.547988Z",
+  "next_batch": "4.1",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-07T14:33:25.046873Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB3.3_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB3.3 attempt1 frozen before tests: four new methods, 676 existing methods, 16 new snapshots and 64 accepted effect witnesses pending.",
+  "activity": "Phase3 complete: FB3.2 recovery accepted and FB3.3 passed 680 methods plus 80 raw reconstructions. Ready for batch4.1 composition protocol and five families.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -31,14 +32,14 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Verified enabled after explicit author release of FB3.2 stop.",
+  "automation_status": "Verified enabled; ready for next eligible batch.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
-    "checked_at": "2026-10-07T13:50:14.139404Z",
-    "method": "automations update",
+    "checked_at": "2026-10-07T14:33:25.046873Z",
+    "method": "automations peek after completed regression",
     "verified_enabled": true
   },
-  "automation_stop_action": "Disabled successfully after FB3.2 second failed gate; exact time recorded in automation_verification.",
+  "automation_stop_action": "Prior FB3.2 stop released by explicit author approval; continuation successfully resumed.",
   "automation_observed_run": {
     "at": "2026-10-07T03:07:05Z",
     "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
@@ -58,7 +59,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb24-recovery-20261007T112546Z-827fc48b",
+  "last_run_id": "fb32-recovery-20261007T134938Z-5f1c59d6",
   "blocker": null,
   "automation_verification_history": [
     {
@@ -70,6 +71,11 @@
       "checked_at": "2026-10-07T12:51:55.713905Z",
       "method": "automations update",
       "verified_enabled": false
+    },
+    {
+      "checked_at": "2026-10-07T13:50:14.139404Z",
+      "method": "automations update",
+      "verified_enabled": true
     }
   ]
 }

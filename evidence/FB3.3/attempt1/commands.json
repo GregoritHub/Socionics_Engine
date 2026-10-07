@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB3.3/attempt1/new-tests",
+      "tests_workflow_development"
+    ],
+    "started_at": "2026-10-07T14:18:09.590738+00:00",
+    "seconds": 36.133742666992475,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/evaluate_workflow_development.py",
+      "evidence/FB3.3/attempt1/matrix"
+    ],
+    "started_at": "2026-10-07T14:19:21.412746+00:00",
+    "seconds": 21.78189996900619,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/verify_workflow_development.py",
+      "evidence/FB3.3/attempt1/matrix",
+      "evidence/FB3.1/attempt2/matrix",
+      "evidence/FB3.2/attempt3/matrix"
+    ],
+    "started_at": "2026-10-07T14:19:43.358859+00:00",
+    "seconds": 61.085880583006656,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB3.3/attempt1/workflow-regression",
+      "tests_workflow_selection",
+      "tests_c7_workflow",
+      "tests_g",
+      "tests_workflow_shell",
+      "tests_workflow_interruption"
+    ],
+    "started_at": "2026-10-07T14:19:21.412487+00:00",
+    "seconds": 617.2789832400013,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/regress_c7_parallel.py",
+      "evidence/FB3.3/attempt1/inherited-regression"
+    ],
+    "started_at": "2026-10-07T14:19:21.411838+00:00",
+    "seconds": 619.0027291309962,
+    "exit_code": 0,
+    "source_unchanged": true
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "batch": "3.3",
+  "attempt": 1,
+  "status": "passed",
+  "accepted": true,
+  "verified_at": "2026-10-07T14:31:06.361265+00:00",
+  "source_commit": "174299feb7d938d62b55b1889c1d6c6a0a0acab3",
+  "source_freeze_sha256": "8c7eb6c222751fccc0b864855ed04128e993230e7b482123fc7e88f55ca9f1c7",
+  "source_files": 1270,
+  "source_unchanged": true,
+  "accepted_FB3_2_files_unchanged": 1262,
+  "distinct_passing_methods": 680,
+  "existing_methods": 676,
+  "new_methods": 4,
+  "skipped": 0,
+  "effect_witnesses": 64,
+  "effect_kinds": 5,
+  "generated_effects": [
+    "approval"
+  ],
+  "operationalized_signs": 4,
+  "new_raw_worlds": 16,
+  "total_independently_verified_worlds": 80,
+  "unsupported_clearances_refused": 3,
+  "original_material_preserved": true,
+  "local_correction_scoped": true,
+  "same_target_recurrence": true,
+  "changed_target_recurrence": true,
+  "external_support_without_capacity": true,
+  "withdrawal_recurrence": true,
+  "prior_raw_hashes_match": true,
+  "participant_replay_by_verifier": false,
+  "limits": [
+    "Bounded workflow simulation, not a universal Shell detector",
+    "Only approval generated; four other effects are fixtures",
+    "No blanket clearance, mastery from support, new engine semantics or Model G pricing",
+    "Release1.0 remains incomplete; Phase7 requires explicit R5"
+  ]
+}

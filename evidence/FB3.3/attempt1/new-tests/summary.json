@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "tests": 4,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 35.98208086800878,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_development.test_development.WorkflowDevelopmentTests.test_forged_correction_scope_and_origin_are_rejected",
+      "status": "passed",
+      "seconds": 9.201098941994132
+    },
+    {
+      "test_id": "tests_workflow_development.test_development.WorkflowDevelopmentTests.test_original_material_correction_and_same_changed_recurrence",
+      "status": "passed",
+      "seconds": 9.675273159999051
+    },
+    {
+      "test_id": "tests_workflow_development.test_development.WorkflowDevelopmentTests.test_supported_work_and_withdrawal_do_not_award_capacity",
+      "status": "passed",
+      "seconds": 9.705633131001377
+    },
+    {
+      "test_id": "tests_workflow_development.test_development.WorkflowDevelopmentTests.test_three_unsupported_clearances_refuse_without_changing_world",
+      "status": "passed",
+      "seconds": 7.396818360997713
+    }
+  ]
+}

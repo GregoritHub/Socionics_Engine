@@ -1,0 +1,25 @@
+{
+  "source_unchanged": true,
+  "accepted_source_unchanged": true,
+  "accepted_file_count": 1262,
+  "direct_imports": {
+    "hle_unified/workflow_development_audit.py": [
+      "workflow_interruption_audit",
+      "material",
+      "development_values",
+      "operation_audit",
+      "shell_audit"
+    ],
+    "tools/verify_workflow_development.py": [
+      "pathlib",
+      "hle_unified.compact",
+      "hle_unified.material",
+      "hle_unified.workflow_development_audit",
+      "hle_unified.development_values",
+      "hle_unified.selection_records",
+      "hle_unified.shell_audit",
+      "hle_unified.operation_audit",
+      "hle_unified.workflow_audit"
+    ]
+  }
+}
