@@ -25,3 +25,9 @@
 [machine-checked] The continuation task was successfully disabled at 2026-10-07T12:51:55.713905Z under the required stop. The run state is blocked and the lease released. Release 1.0 remains incomplete; Phase 7 remains unauthorized.
 
 [source_defined] Author release: “I approve the batch 3.2 fix and resumption”. This authorizes the scoped new-auditor repair and continued Release 1.0 work. The separate prospective recovery protocol `C7_Workflow_Shell_FB3.2_Recovery_v1.json` is hashed as `b373046185e52a421b61a097791722a787381954dd95f75b871d67ce47d28972` before source changes. Previous failures remain failed; no inherited contract or accepted source is changed. All other stop gates remain.
+
+[derived] Authorized repair reconstructs the cancellation Account from the raw prior operation and its ordered, deduplicated input lineage. It validates the full Account, participant scope and event reference; negative controls omit, add, reverse or replace provenance. Only the new auditor and its test changed. All accepted FB3.1 frozen files are byte-identical.
+
+[open] Attempt3 freeze `8bc14dc3420735d9784bc3f692c9f41a7d5737221367ac5ec30988bc07817f35` covers 1262 files. Nine new methods and 667 existing methods, the 32-cell panel and independent 192-world continuation reconstruction are pending.
+
+[machine-checked] Continuation was re-enabled after the explicit author release.

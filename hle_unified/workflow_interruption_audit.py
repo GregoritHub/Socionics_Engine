@@ -5,12 +5,13 @@ from .workflow_reference import decode
 from .selection_records import loads
 from .material import attrs
 from .operation_audit import indexed
-from .records import Account, Occurrence
+from .records import Account, Occurrence, Proposition, TimeScope
 
 def audit(transactions,access_text):
     txs=tuple(transactions);result=inherited_audit(txs,access_text)
     versions={v.ref:v for tx in txs for v in tx.versions}
     times={v.ref:tx.at.tick for tx in txs for v in tx.versions}
+    moments={v.ref:tx.at for tx in txs for v in tx.versions}
     heads={v.ref.identity:v for tx in txs for v in tx.versions}
     requests={v.ref:v for v in versions.values() if v.ref.identity.namespace=='c7shi.request'}
     rows=[];children=set();used=set()
@@ -91,10 +92,20 @@ def audit(transactions,access_text):
         if cancellation is None or cancellation.ref.identity.namespace!='u4.event' or cancellation.occurrence!=Occurrence.ACTUAL_EVENT:
             raise ValueError('workflow interruption lacks actual cancellation receipt')
         cd=attrs(cancellation);prior=versions[d['operation']].previous
-        if (cd['outcome']!='cancelled' or cd['operation']!=prior or cancellation.facet(Account).sources!=(prior,)
+        prior_job=attrs(versions[prior])
+        # Cancellation changes no material. Native provenance is the prior job
+        # followed by its exact ordered inputs, deduplicated without reordering.
+        sources=tuple(dict.fromkeys((prior,)+indexed(prior_job,'input.')))
+        at=moments[d['operation']]
+        expected_account=Account(prior,
+            (Proposition(prior,'outcome','cancelled',prior_job['context'],TimeScope(at,None)),),
+            at,None,sources)
+        if (cd['outcome']!='cancelled' or cd['operation']!=prior or cd['event']!=cancellation.ref
+            or cancellation.facet(Account)!=expected_account
             or times[cancellation.ref]!=times[d['operation']]
             or any(cd[k]!=job[k] for k in ('actor','context','primitive'))
-            or any(k in cd for k in ('target','stock','relation','wear','condition','consumed'))):
+            or indexed(cd,'participant.')!=indexed(prior_job,'participant.')
+            or any(k in cd for k in ('target','stock','relation','owner','custodian','wear','condition','available','consumed','relation_status'))):
             raise ValueError('workflow cancellation receipt claims completion or changed material')
         if d['replacement']!=attrs(versions[ad['operation']]).get('binding') or d['actual_intent']!=enc['route']:
             raise ValueError('workflow interruption replacement is not retained attribution')

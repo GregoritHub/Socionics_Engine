@@ -2,6 +2,7 @@ import unittest
 from dataclasses import replace
 from .fixtures import *
 from hle_unified.material import attributes
+from hle_unified.records import Account
 
 class ActiveInterruptionTests(unittest.TestCase):
     def test_single_and_multiple_steps_keep_paid_intermediates(self):
@@ -69,6 +70,20 @@ class ActiveInterruptionTests(unittest.TestCase):
             vs=tuple(replace(v,attributes=attributes(dict(attrs(v),outcome='succeeded'))) if v.ref==result else v for v in tx.versions)
             txs.append(replace(tx,versions=vs))
         with self.assertRaises(ValueError):audit(txs,e.access.checkpoint())
+        receipt=e.world.resolve(result);account=receipt.facet(Account)
+        interruption=next(v for tx in e.world.journal() for v in tx.versions
+            if v.ref.identity.namespace=='c7shi.interruption')
+        cancelled=e.world.resolve(attrs(interruption)['operation'])
+        prior=e.world.resolve(cancelled.previous)
+        expected=tuple(dict.fromkeys((prior.ref,)+indexed(attrs(prior),'input.')))
+        self.assertEqual(account.sources,expected);self.assertGreater(len(expected),1)
+        foreign=next(v.ref for tx in e.world.journal() for v in tx.versions if v.ref not in expected)
+        mutations={'missing_input':expected[:-1],'foreign_source':expected+(foreign,),
+            'reversed_order':tuple(reversed(expected)),'wrong_prior':(foreign,)+expected[1:]}
+        for name,sources in mutations.items():
+            forged=replace(receipt,facets=tuple(replace(f,sources=sources) if isinstance(f,Account) else f for f in receipt.facets))
+            txs=[replace(tx,versions=tuple(forged if v.ref==result else v for v in tx.versions)) for tx in e.world.journal()]
+            with self.subTest(provenance=name),self.assertRaises(ValueError):audit(txs,e.access.checkpoint())
 
     def test_legitimate_danger_does_not_start_or_interrupt(self):
         e,p,out=prepared('Express','expenditure');dev.supply8(e,'danger',target=out['request'].target,safe=False)
