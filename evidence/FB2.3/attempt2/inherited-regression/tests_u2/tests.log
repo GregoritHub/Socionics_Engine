@@ -1,0 +1,36 @@
+test_U2_01_instances (tests_u2.test_acceptance.Acceptance.test_U2_01_instances) ... ok
+test_U2_02_nonmental_material (tests_u2.test_acceptance.Acceptance.test_U2_02_nonmental_material) ... ok
+test_U2_03_relation_identity (tests_u2.test_acceptance.Acceptance.test_U2_03_relation_identity) ... ok
+test_U2_04_hypothesis (tests_u2.test_acceptance.Acceptance.test_U2_04_hypothesis) ... ok
+test_U2_05_historical_revision (tests_u2.test_acceptance.Acceptance.test_U2_05_historical_revision) ... ok
+test_U2_06_split_merge (tests_u2.test_acceptance.Acceptance.test_U2_06_split_merge) ... ok
+test_U2_07_finite_cycle (tests_u2.test_acceptance.Acceptance.test_U2_07_finite_cycle) ... ok
+test_U2_08_legacy_adapter (tests_u2.test_acceptance.Acceptance.test_U2_08_legacy_adapter) ... ok
+test_all_occurrence_categories_remain_distinct_after_roundtrip (tests_u2.test_controls.Controls.test_all_occurrence_categories_remain_distinct_after_roundtrip) ... ok
+test_codec_rejects_unknown_mutable_duplicate_and_tampered_values (tests_u2.test_controls.Controls.test_codec_rejects_unknown_mutable_duplicate_and_tampered_values) ... ok
+test_definition_and_membership_changes_need_explicit_lineage (tests_u2.test_controls.Controls.test_definition_and_membership_changes_need_explicit_lineage) ... ok
+test_definitions_and_optional_capabilities_use_exact_bindings (tests_u2.test_controls.Controls.test_definitions_and_optional_capabilities_use_exact_bindings) ... ok
+test_hypothesis_cannot_be_promoted_or_rewrite_actual_event (tests_u2.test_controls.Controls.test_hypothesis_cannot_be_promoted_or_rewrite_actual_event) ... ok
+test_legacy_adapter_rejects_unknown_tag_changed_fields_and_identity (tests_u2.test_controls.Controls.test_legacy_adapter_rejects_unknown_tag_changed_fields_and_identity) ... ok
+test_legacy_false_memory_and_observation_categories_are_exact (tests_u2.test_controls.Controls.test_legacy_false_memory_and_observation_categories_are_exact) ... ok
+test_legacy_hidden_fact_and_evaluator_checks_do_not_leak_through_views (tests_u2.test_controls.Controls.test_legacy_hidden_fact_and_evaluator_checks_do_not_leak_through_views) ... ok
+test_legacy_views_cannot_be_written_to_native_store (tests_u2.test_controls.Controls.test_legacy_views_cannot_be_written_to_native_store) ... ok
+test_material_changes_require_supported_transition_and_owner (tests_u2.test_controls.Controls.test_material_changes_require_supported_transition_and_owner) ... ok
+test_material_conservation_owner_unit_law_and_consumption_controls (tests_u2.test_controls.Controls.test_material_conservation_owner_unit_law_and_consumption_controls) ... ok
+test_mixed_valid_invalid_batch_leaves_no_published_objects (tests_u2.test_controls.Controls.test_mixed_valid_invalid_batch_leaves_no_published_objects) ... ok
+test_raw_commit_cannot_create_unretired_split_outputs (tests_u2.test_controls.Controls.test_raw_commit_cannot_create_unretired_split_outputs) ... ok
+test_rehashed_journal_with_forged_material_quantity_rejects (tests_u2.test_controls.Controls.test_rehashed_journal_with_forged_material_quantity_rejects) ... ok
+test_relation_context_and_exact_endpoint_integrity (tests_u2.test_controls.Controls.test_relation_context_and_exact_endpoint_integrity) ... ok
+test_replay_rejects_duplicate_out_of_order_and_unresolved_history (tests_u2.test_controls.Controls.test_replay_rejects_duplicate_out_of_order_and_unresolved_history) ... ok
+test_retirement_is_terminal_and_cannot_remove_material_state (tests_u2.test_controls.Controls.test_retirement_is_terminal_and_cannot_remove_material_state) ... ok
+test_same_key_retry_is_idempotent_and_conflict_rejects (tests_u2.test_controls.Controls.test_same_key_retry_is_idempotent_and_conflict_rejects) ... ok
+test_stale_revision_skip_and_writer_takeover_reject_atomically (tests_u2.test_controls.Controls.test_stale_revision_skip_and_writer_takeover_reject_atomically) ... ok
+test_strict_immutable_shapes_and_unique_role_state (tests_u2.test_controls.Controls.test_strict_immutable_shapes_and_unique_role_state) ... ok
+test_two_concurrent_writers_cannot_both_spend_one_revision (tests_u2.test_controls.Controls.test_two_concurrent_writers_cannot_both_spend_one_revision) ... ok
+test_version4_zero_budget_checkpoint_exact_roundtrip_and_continuation (tests_u2.test_controls.Controls.test_version4_zero_budget_checkpoint_exact_roundtrip_and_continuation) ... ok
+test_all_216_three_action_sequences_through_the_common_adapter (tests_u2.test_legacy_sequences.MatchedSequences.test_all_216_three_action_sequences_through_the_common_adapter) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 10.980s
+
+OK

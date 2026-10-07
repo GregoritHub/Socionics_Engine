@@ -1,0 +1,7 @@
+{
+  "status": "probe",
+  "worlds": 64,
+  "byte_identical": 64,
+  "reference": "evidence/FB2.3/attempt1/panel",
+  "interpretation": "The correction changed only a negative test peer identifier; selector/panel code remained unchanged. Both panels ran separately on their own recorded freezes."
+}

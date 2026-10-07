@@ -1,0 +1,12 @@
+{
+  "status": "probe",
+  "passed": true,
+  "raw_directory": "evidence/FB2.3/attempt2",
+  "raw_sha256_manifest": "evidence/FB2.3/attempt2/Raw_SHA256.json",
+  "manifest_sha256": "3eb8cf2eab15cc66877db6ec26e7a573669cb7bebd7903c8ed84ffa870c791a3",
+  "acceptance": "evidence/FB2.3/attempt2/Acceptance_Summary.json",
+  "retrieval": "Raw evidence is committed directly in Git. Verify all files against Raw_SHA256.json; independently reconstruct panel with tools/verify_workflow_selection.py and cases=32.",
+  "tests": 657,
+  "cases": 32,
+  "controls": 32
+}

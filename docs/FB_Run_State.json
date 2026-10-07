@@ -1,24 +1,25 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "active",
-  "current_batch": "2.3",
+  "current_batch": "2.4",
   "completed_batches": [
     "0.1",
     "0.2",
     "1.1",
     "1.2",
     "2.1",
-    "2.2"
+    "2.2",
+    "2.3"
   ],
-  "next_batch": "2.3",
+  "next_batch": "2.4",
   "run_id": "recovery-20261007T022751Z-4a05440d",
-  "lease_expires_at": "2026-10-07T03:27:24.799711Z",
-  "updated_at": "2026-10-07T02:57:24.799711Z",
+  "lease_expires_at": "2026-10-07T03:37:27.814045Z",
+  "updated_at": "2026-10-07T03:07:27.814045Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB2.2_Record.md",
+  "record": "docs/FB2.3_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB2.2 complete (652 methods). FB2.3 second acceptance on bca7707 live: 32/32 raw pairs saved, 269/602 inherited methods completed. No repeated failure observed.",
+  "activity": "FB2.3 accepted: 657 methods; 32 raw witnesses and 32 rejected controls independently reconstructed. Proceeding to FB2.4.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",

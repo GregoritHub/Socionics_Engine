@@ -1,0 +1,33 @@
+test_c2_upgrade_preserves_exact_world_access_and_behavior (tests_c3.test_crossings.CrossingTests.test_c2_upgrade_preserves_exact_world_access_and_behavior) ... ok
+test_cancel_all_cells_retains_work_and_private_intermediates (tests_c3.test_crossings.CrossingTests.test_cancel_all_cells_retains_work_and_private_intermediates) ... ok
+test_display_labels_are_not_the_semantic_operation (tests_c3.test_crossings.CrossingTests.test_display_labels_are_not_the_semantic_operation) ... ok
+test_dissent_retained_without_performance_permission (tests_c3.test_crossings.CrossingTests.test_dissent_retained_without_performance_permission) ... ok
+test_draft_cannot_ratify_itself_or_authorize_apply (tests_c3.test_crossings.CrossingTests.test_draft_cannot_ratify_itself_or_authorize_apply) ... ok
+test_duplicate_commands_do_not_duplicate_debits (tests_c3.test_crossings.CrossingTests.test_duplicate_commands_do_not_duplicate_debits) ... ok
+test_exact_continuation_three_boundaries_all_cells (tests_c3.test_crossings.CrossingTests.test_exact_continuation_three_boundaries_all_cells) ... ok
+test_exhaustion_cannot_grant_output_or_refund (tests_c3.test_crossings.CrossingTests.test_exhaustion_cannot_grant_output_or_refund) ... ok
+test_foreign_inputs_wrong_scope_and_unread_evidence (tests_c3.test_crossings.CrossingTests.test_foreign_inputs_wrong_scope_and_unread_evidence) ... ok
+test_hidden_stock_change_does_not_alter_undelivered_theory (tests_c3.test_crossings.CrossingTests.test_hidden_stock_change_does_not_alter_undelivered_theory) ... ok
+test_matched_semantic_ablations_change_all_later_uses (tests_c3.test_crossings.CrossingTests.test_matched_semantic_ablations_change_all_later_uses) ... ok
+test_material_failure_retains_paid_work_without_effect (tests_c3.test_crossings.CrossingTests.test_material_failure_retains_paid_work_without_effect) ... ok
+test_missing_row_edges_are_composite_and_attitudes_can_vary (tests_c3.test_crossings.CrossingTests.test_missing_row_edges_are_composite_and_attitudes_can_vary) ... ok
+test_native_observation_forgery_rejected_independently (tests_c3.test_crossings.CrossingTests.test_native_observation_forgery_rejected_independently) ... ok
+test_no_import_or_private_step_disclosure (tests_c3.test_crossings.CrossingTests.test_no_import_or_private_step_disclosure) ... ok
+test_observation_revision_changes_reusable_model_use (tests_c3.test_crossings.CrossingTests.test_observation_revision_changes_reusable_model_use) ... ok
+test_one_attempt_survives_cancellation_and_public_aliases (tests_c3.test_crossings.CrossingTests.test_one_attempt_survives_cancellation_and_public_aliases) ... ok
+test_polarity_faces_have_distinct_downstream_permissions (tests_c3.test_crossings.CrossingTests.test_polarity_faces_have_distinct_downstream_permissions) ... ok
+test_raw_semantics_debits_predecessors_polarity_and_public_result (tests_c3.test_crossings.CrossingTests.test_raw_semantics_debits_predecessors_polarity_and_public_result) ... ok
+test_received_governed_arrangement_does_not_borrow_authority (tests_c3.test_crossings.CrossingTests.test_received_governed_arrangement_does_not_borrow_authority) ... ok
+test_received_rule_does_not_grant_practiced_competence (tests_c3.test_crossings.CrossingTests.test_received_rule_does_not_grant_practiced_competence) ... ok
+test_shared_allowance_cannot_be_spent_through_both_apis (tests_c3.test_crossings.CrossingTests.test_shared_allowance_cannot_be_spent_through_both_apis) ... ok
+test_stale_group_and_transitive_stance_invalidate_paid_work (tests_c3.test_crossings.CrossingTests.test_stale_group_and_transitive_stance_invalidate_paid_work) ... ok
+test_twenty_four_contracts_across_sixteen_types (tests_c3.test_crossings.CrossingTests.test_twenty_four_contracts_across_sixteen_types) ... ok
+test_unread_reply_and_sent_offer_do_not_make_shared_meaning (tests_c3.test_crossings.CrossingTests.test_unread_reply_and_sent_offer_do_not_make_shared_meaning) ... ok
+test_wrong_draft_votes_and_duplicate_voter_rejected (tests_c3.test_crossings.CrossingTests.test_wrong_draft_votes_and_duplicate_voter_rejected) ... ok
+test_received_source_changes_existing_choice_all_types_and_faces (tests_c3.test_source_transfer.SourceTransferTests.test_received_source_changes_existing_choice_all_types_and_faces) ... ok
+test_source_binding_transfer_controls_and_continuation (tests_c3.test_source_transfer.SourceTransferTests.test_source_binding_transfer_controls_and_continuation) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 530.226s
+
+OK

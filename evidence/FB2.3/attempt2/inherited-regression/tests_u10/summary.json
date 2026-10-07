@@ -1,0 +1,225 @@
+{
+  "passed": true,
+  "tests": 43,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 90.76286352099987,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_adoption_preserves_u9_and_grants_no_language",
+      "status": "passed",
+      "seconds": 2.269458909999912
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_arbitrary_word_spelling_does_not_supply_its_meaning",
+      "status": "passed",
+      "seconds": 2.102098156000011
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_cancellation_preserves_cost_without_creating_meaning",
+      "status": "passed",
+      "seconds": 1.9327824090000831
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_context_is_not_implicitly_shared",
+      "status": "passed",
+      "seconds": 2.221446912999909
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_delivery_alone_is_not_understanding",
+      "status": "passed",
+      "seconds": 2.0430863760000193
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_hidden_material_change_cannot_supply_meaning",
+      "status": "passed",
+      "seconds": 6.062672283999973
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_invalid_goal_relation_is_rejected_without_a_message",
+      "status": "passed",
+      "seconds": 1.8493842410000525
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_language_records_cannot_be_imported",
+      "status": "passed",
+      "seconds": 2.0097315749999325
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_message_metadata_does_not_leak_speaker_sources",
+      "status": "passed",
+      "seconds": 1.9576223990000017
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_mid_execution_restore_preserves_actual_effect_and_remainder",
+      "status": "passed",
+      "seconds": 7.277474605999942
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_new_received_fact_invalidates_paid_partial_work",
+      "status": "passed",
+      "seconds": 1.979701293000062
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_one_success_cannot_coin_vocabulary",
+      "status": "passed",
+      "seconds": 1.0217353719999664
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_partial_processing_publishes_no_interpretation",
+      "status": "passed",
+      "seconds": 5.507614586000045
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_permission_refusal_uses_receiver_evidence",
+      "status": "passed",
+      "seconds": 1.9593679390000034
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_private_intention_cannot_be_disclosed_to_listener",
+      "status": "passed",
+      "seconds": 1.9700364020000052
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_rendering_is_pure",
+      "status": "passed",
+      "seconds": 2.17537473099992
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_repeated_same_events_cannot_stabilize",
+      "status": "passed",
+      "seconds": 2.042627150000044
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_request_creates_no_automatic_promise_or_material_effect",
+      "status": "passed",
+      "seconds": 2.9675609410001016
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_response_cannot_be_repeated_to_duplicate_work",
+      "status": "passed",
+      "seconds": 1.9954559469999822
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_unearned_other_actor_term_is_unknown",
+      "status": "passed",
+      "seconds": 2.006363712999928
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_unpracticed_listener_does_not_get_skill_from_speech",
+      "status": "passed",
+      "seconds": 1.933645487999911
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_unread_demonstration_cannot_teach",
+      "status": "passed",
+      "seconds": 2.11258212000007
+    },
+    {
+      "test_id": "tests_u10.test_language.CommunicationControls.test_wording_and_intention_are_distinct_from_interpretation",
+      "status": "passed",
+      "seconds": 2.0613888679999945
+    },
+    {
+      "test_id": "tests_u10.test_language.InductionBoundary.test_indistinguishable_conflicting_examples_remain_ambiguous",
+      "status": "passed",
+      "seconds": 0.0001128599999447033
+    },
+    {
+      "test_id": "tests_u10.test_language.InductionBoundary.test_naming_cannot_create_a_distinguishing_feature",
+      "status": "passed",
+      "seconds": 6.67700001031335e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.InductionBoundary.test_unsupported_action_is_not_a_new_affordance",
+      "status": "passed",
+      "seconds": 1.8837999959941953e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_counterexample_challenges_instead_of_agreeing",
+      "status": "passed",
+      "seconds": 9.23989998682373e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_failure_is_real_and_preserved",
+      "status": "passed",
+      "seconds": 9.233900004801399e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_forged_practical_meaning_fails_raw_audit",
+      "status": "passed",
+      "seconds": 0.11617230499996367
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_historical_meaning_remains_exact",
+      "status": "passed",
+      "seconds": 0.00017725599991536
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_later_fragile_and_ordinary_returns_differ",
+      "status": "passed",
+      "seconds": 0.00011832699988190143
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_novel_combination_of_known_word_and_actions_executes",
+      "status": "passed",
+      "seconds": 3.219899986106611e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_raw_accounting_and_language_lineage",
+      "status": "passed",
+      "seconds": 0.6322309859999677
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_received_composition_changes_material_behavior",
+      "status": "passed",
+      "seconds": 0.00020317500002420275
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_repair_needs_stable_observed_distinction",
+      "status": "passed",
+      "seconds": 3.4431999893058673e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_speech_does_not_copy_teacher_capacity",
+      "status": "passed",
+      "seconds": 0.05420898100010163
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_two_distinct_demonstrations_stabilize",
+      "status": "passed",
+      "seconds": 4.871400005868054e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.MeaningCircuit.test_unknown_term_generates_delivered_question",
+      "status": "passed",
+      "seconds": 2.606899988677469e-05
+    },
+    {
+      "test_id": "tests_u10.test_language.SpeechActs.test_conditions_and_relations_compose_with_known_actions",
+      "status": "passed",
+      "seconds": 2.406248347999963
+    },
+    {
+      "test_id": "tests_u10.test_language.SpeechActs.test_explanation_and_intention_use_grounded_structure",
+      "status": "passed",
+      "seconds": 2.2355472459998964
+    },
+    {
+      "test_id": "tests_u10.test_language.SpeechActs.test_explicit_commitment_needs_actual_observed_fulfillment",
+      "status": "passed",
+      "seconds": 3.0433774309999535
+    },
+    {
+      "test_id": "tests_u10.test_language.SpeechActs.test_past_performance_cannot_fulfill_new_promise",
+      "status": "passed",
+      "seconds": 2.43560771500006
+    },
+    {
+      "test_id": "tests_u10.test_language.SpeechActs.test_statement_disagreement_and_question_answer",
+      "status": "passed",
+      "seconds": 0.9923736220000592
+    }
+  ]
+}
