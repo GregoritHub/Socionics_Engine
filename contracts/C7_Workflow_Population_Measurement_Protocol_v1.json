@@ -1,0 +1,87 @@
+{
+  "schema": "srl-fb5.2-prospective-protocol-v1",
+  "batch": "5.2",
+  "title": "Sustained workflow population panel and isolated costs",
+  "entry_head": "18d4d85f74e0658a3ffb94f69ab931acc3b997f9",
+  "frozen_at": "2026-10-07T20:46:00Z",
+  "authority": [
+    "contracts/C7_Final_Protocol_v1.json",
+    "project_sources/HLE_Final_Build_Plan_v1_0.txt",
+    "docs/HLE_Full_Crux_Build_Specification_v10.md",
+    "docs/HLE_Full_Crux_C7_Release_Candidate_Report_v1.md"
+  ],
+  "population_panel": {
+    "seeds": [17, 43, 89],
+    "actors": ["alice", "bob"],
+    "types": ["iee", "sli"],
+    "episodes_per_actor": 24,
+    "quantum": 32,
+    "max_turns": 20000,
+    "default_repeat_limit": 2,
+    "default_worlds": 3,
+    "stop_disabled_diagnostic_seed": 17,
+    "diagnostic_repeat_limit": null,
+    "seed_role": "Deterministically shuffle the two independently owned requests; types remain the protocol-declared IEE and SLI frames.",
+    "inputs": "Each actor receives two paid authored workflow intentions over the same bounded task rows and one independently owned workflow_need. No route, face, recipe or expected cell occurs in a request.",
+    "reporting": "For every world report successful native recipe counts mapped to the 32 route-face cells, consecutive equal retained outputs as repeats, stops, episodes, turns, modeled charges and actual types. Repetition is never a new-capacity count.",
+    "audit": "Every raw engine and population checkpoint is independently reconstructed through population_audit without replaying the scheduler, selector or engine. Exact file hashes are retained."
+  },
+  "cost_panel": {
+    "worker_isolation": "One fresh Python subprocess per sample on the same interpreter and shared host.",
+    "active_work": "Two actors, 24-episode declaration, quantum 32 and default repeat limit 2; four successful repeated workflow-selection/native cycles are timed as active work.",
+    "downstream_query": "One separately timed workflow use-system query consumes a retained output after active timing.",
+    "inactive_history": {
+      "records": [0, 100, 1000],
+      "kinds": ["unique", "shared"],
+      "tasks": 2,
+      "timing_samples_per_configuration": 2,
+      "traced_samples_per_configuration": 1,
+      "largest_to_smallest_median_ratio_max": 3.0
+    },
+    "task_count": {
+      "counts": [2, 4, 8],
+      "inactive_records": 0,
+      "kind": "unique",
+      "timing_samples_per_configuration": 2,
+      "traced_samples_per_configuration": 1,
+      "acceptance": "Report observed growth; no unregistered numeric scaling tolerance or constant-time claim."
+    },
+    "separate_metrics": [
+      "setup_seconds",
+      "active_wall_seconds",
+      "active_cpu_seconds",
+      "downstream_query_seconds",
+      "checkpoint_seconds",
+      "cold_restore_seconds",
+      "raw_audit_seconds",
+      "traced_peak_bytes",
+      "checkpoint_bytes",
+      "gzip_bytes",
+      "modeled_actor_spending",
+      "transactions"
+    ],
+    "audit": "Cold restore must be byte-exact. The independent population audit and workflow-selection/native audit must pass. Traced workers are excluded from timing medians."
+  },
+  "implementation_targets": [
+    "hle_unified/population_audit.py",
+    "tests_workflow_population/sustained_fixtures.py",
+    "tests_workflow_population/test_sustained.py",
+    "tools/evaluate_sustained_workflow_population.py",
+    "tools/verify_sustained_workflow_population.py",
+    "tools/measure_workflow_population.py"
+  ],
+  "acceptance": {
+    "worlds": "All four sustained worlds finish and independently reconstruct.",
+    "coverage": "A 32-cell table records actual successful counts by world; zero-count cells remain zero.",
+    "cost": "Both shared and unique fixed-active history ratios are at most 3.0, or the batch records failure without tuning the tolerance.",
+    "tests": "New focused tests and unchanged inherited population tests pass; final Phase 6 regression remains separate.",
+    "source": "Executed files match the pre-evaluation freeze. Failed attempts and amendments remain visible."
+  },
+  "prohibitions": [
+    "no repeated-output capacity claim",
+    "no route-wide sustained-development claim absent actual coverage",
+    "no optimization or constant-time claim",
+    "no replenishment, new goals or growing population",
+    "no tolerance change after measurement"
+  ]
+}
