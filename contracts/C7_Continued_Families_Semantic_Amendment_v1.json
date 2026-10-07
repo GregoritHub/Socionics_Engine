@@ -1,0 +1,16 @@
+{
+  "schema": "srl-fb5.4-semantic-amendment-v1",
+  "original_protocol": "contracts/C7_Continued_Families_Protocol_v1.json",
+  "status": "prospective before revised fixture and acceptance run",
+  "finding": "Candidate attempt1 passes native mechanics and 720 tests but Share→Commune preserves task content. A renewed status label alone is insufficient development evidence. Preserve attempt1 uncredited to FB5.4 acceptance.",
+  "fixed_revision": "For Share→Commune→Identify, independently supply and pay for two peer stances before the agenda starts. The initial stance permits handover slots 1–4. The renewal stance tightens only the handover latest slot to 2. It is explicitly authored, never computed from generated results. The second exchange consumes the exact generated Share result and the separately supplied renewal stance.",
+  "fixed_question": {"completed": ["maintain"], "clock": 3},
+  "predictions": [
+    "A paid query of the initial generated shared result selects handover.",
+    "The same paid query of the renewed generated shared result selects no task because the retained handover window has expired.",
+    "Identify preserves that window, and its separately paid personal query also selects no task.",
+    "Withholding the generated intermediate still prevents dependent work at matched producer cost and is rejected by ordinary agenda provenance audit."
+  ],
+  "acceptance": "Independent raw verification must reconstruct the two generated task windows and all three actual paid query results; no result-name or identity-only difference suffices. Other four families retain their declared controls. Freeze again, rerun on unchanged source, and retain all candidate evidence and failures.",
+  "limits": "No automatic goal/stance generation or new semantic law. Native reconciliation, authority, access, selection, prices and legacy behavior are unchanged. All original stop rules remain."
+}
