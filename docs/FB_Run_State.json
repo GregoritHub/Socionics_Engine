@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": "4.2",
+  "status": "running",
+  "current_batch": "5.1",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -18,14 +18,14 @@
     "4.2"
   ],
   "next_batch": "5.1",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T17:19:19Z",
+  "run_id": "fb51-20261007T175049Z-6b57ac21",
+  "lease_expires_at": "2026-10-07T18:20:49Z",
+  "updated_at": "2026-10-07T17:50:49Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB4.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB4.2 accepted: 692 methods and 36 raw worlds passed; four parent lifecycle cases and all sixteen route-face comparisons independently reconstructed. Ready for batch5.1 population.",
+  "activity": "FB5.1 lease claimed from accepted FB4.2 head; reading population-over-workflow requirements before prospective protocol freeze.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -34,7 +34,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Enabled; ready for next eligible batch 5.1.",
+  "automation_status": "Enabled; FB5.1 active under a 30-minute lease.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
