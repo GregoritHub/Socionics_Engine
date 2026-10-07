@@ -1,0 +1,55 @@
+{
+  "passed": false,
+  "tests": 9,
+  "failures": 0,
+  "errors": 12,
+  "seconds": 28.425941986992257,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_admission_schema_and_history_stay_unchanged",
+      "status": "passed",
+      "seconds": 2.331456327010528
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation",
+      "status": "failed",
+      "seconds": 10.82698283600621
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_governed_apply_allowance_is_not_restored",
+      "status": "error",
+      "seconds": 2.747785562998615
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_legitimate_danger_does_not_start_or_interrupt",
+      "status": "passed",
+      "seconds": 0.6189642109966371
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_material_history_and_debits_survive_cancellation",
+      "status": "error",
+      "seconds": 0.6725852789968485
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_mobilize_allowance_is_not_restored",
+      "status": "error",
+      "seconds": 2.0212401330063585
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_partial_child_restore_before_boundary",
+      "status": "error",
+      "seconds": 1.5243959939980414
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates",
+      "status": "failed",
+      "seconds": 7.002851318000467
+    },
+    {
+      "test_id": "tests_workflow_interruption.test_active.ActiveInterruptionTests.test_tampered_intermediate_spending_and_completion_rejected",
+      "status": "error",
+      "seconds": 0.6764131160016404
+    }
+  ]
+}

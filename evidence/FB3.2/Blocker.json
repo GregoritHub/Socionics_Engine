@@ -1,0 +1,23 @@
+{
+  "batch": "3.2",
+  "status": "blocked",
+  "accepted": false,
+  "recorded_at": "2026-10-07T12:50:45.787970+00:00",
+  "source_instruction": "project_sources/HLE_Final_Build_Plan_v1_0.txt \u00a71: Stop and report to the author, without working around it, when: a gate fails twice after a correction.",
+  "gate": "New workflow active interruption tests",
+  "attempts": [
+    "attempt1/Attempt_Summary.json",
+    "attempt2/Attempt_Summary.json"
+  ],
+  "cause": "The correction overconstrained Account.sources to the prior job alone. The unchanged inherited OperationEngine._event records the prior job plus indexed job inputs (and a changed target where applicable), so legitimate cancellation receipts still fail the new audit.",
+  "last_accepted_batch": "3.1",
+  "last_accepted_commit": "d7c6c9b06df5fc3721daefa4af0a48f66658077b",
+  "next_repair_if_authorized": "Independently reconstruct the inherited cancellation receipt provenance from the prior job and its exact indexed inputs, while continuing to reject destination completion, material effects and lost spending. Then freeze and rerun all FB3.2 gates. Do not alter the inherited event contract.",
+  "unrun": [
+    "32-cell active panel",
+    "independent panel/continuation verifier",
+    "667-method existing regression on FB3.2 freeze"
+  ],
+  "third_attempt_performed": false,
+  "phase7_authorized": false
+}

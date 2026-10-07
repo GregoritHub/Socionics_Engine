@@ -5,7 +5,6 @@ from .workflow_reference import decode
 from .selection_records import loads
 from .material import attrs
 from .operation_audit import indexed
-from .records import Account, Occurrence
 
 def audit(transactions,access_text):
     txs=tuple(transactions);result=inherited_audit(txs,access_text)
@@ -61,7 +60,7 @@ def audit(transactions,access_text):
                 raise ValueError('workflow Shell changed supplied element path')
             if late and (h['steps_completed']>1 or h['status'] in ('ready','succeeded')):
                 raise ValueError('workflow interruption escaped first boundary')
-            completed=h['status']=='succeeded';output=(h.get('binding') or h.get('result')) if completed else None;spent=h['spent']
+            completed=h['status']=='succeeded';output=h.get('binding') or h.get('result');spent=h['spent']
         elif (allowed or late) and d['failure'] is None:raise ValueError('workflow Shell permitted child absent')
         deformed=decision is not None and decision['base_route']==route and decision['route']!=route
         rows.append(dict(ref=v.ref,requested=m['recipe'],deformed=deformed,admitted=allowed,
@@ -85,17 +84,8 @@ def audit(transactions,access_text):
         boundary=job['recall_units']+sum(indexed(job,'route.0.charges.'))+job['route.0.content_units']
         if job['last_step']!=d['intermediate'] or d['spent']!=job['spent'] or job['spent']!=boundary or d['original_obligation_met'] is not False:
             raise ValueError('workflow interruption lost paid intermediate or spending')
-        if job.get('binding') is not None or job.get('public.0') is not None:
+        if job.get('binding') is not None or job.get('result') is not None or job.get('public.0') is not None:
             raise ValueError('workflow interruption fabricated retained or material result')
-        cancellation=versions.get(job.get('result'))
-        if cancellation is None or cancellation.ref.identity.namespace!='u4.event' or cancellation.occurrence!=Occurrence.ACTUAL_EVENT:
-            raise ValueError('workflow interruption lacks actual cancellation receipt')
-        cd=attrs(cancellation);prior=versions[d['operation']].previous
-        if (cd['outcome']!='cancelled' or cd['operation']!=prior or cancellation.facet(Account).sources!=(prior,)
-            or times[cancellation.ref]!=times[d['operation']]
-            or any(cd[k]!=job[k] for k in ('actor','context','primitive'))
-            or any(k in cd for k in ('target','stock','relation','wear','condition','consumed'))):
-            raise ValueError('workflow cancellation receipt claims completion or changed material')
         if d['replacement']!=attrs(versions[ad['operation']]).get('binding') or d['actual_intent']!=enc['route']:
             raise ValueError('workflow interruption replacement is not retained attribution')
         if d['requested_destination']!=job['destination'] or d['requested_polarity']!=job['polarity'] or d['actual_result_perspective']!='I':

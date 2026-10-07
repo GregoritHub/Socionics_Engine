@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 88, in audit
+    raise ValueError('workflow interruption fabricated retained or material result')
+ValueError: workflow interruption fabricated retained or material result

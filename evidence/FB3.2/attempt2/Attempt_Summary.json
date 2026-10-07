@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "gate": "new active interruption tests",
+  "methods": 9,
+  "failures": 0,
+  "errors": 12,
+  "source_unchanged": true,
+  "cause": "The correction overconstrained Account.sources to the prior job alone. The unchanged inherited OperationEngine._event records the prior job plus indexed job inputs (and a changed target where applicable), so legitimate cancellation receipts still fail the new audit.",
+  "actual_instruction": "hle_unified/operations.py: _event builds sources = tuple(dict.fromkeys((job.ref,) + indexed(d, \"input.\") + (() if target is None else (target.ref,))))",
+  "scope": "Audit/test error; no change to runtime, baseline, material law or companion theory. No third attempt and no further repair after this second failed gate.",
+  "raw_provenance": "The same runtime is represented by attempt1/unchanged-source-reproduced-*.json.gz. These are explicitly separate first-attempt reproductions, not second-attempt test captures. Second attempt preserves its actual full test log and source freeze."
+}

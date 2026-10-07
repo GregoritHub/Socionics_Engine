@@ -31,8 +31,7 @@ class ActiveInterruptionTests(unittest.TestCase):
         d,_=finish(e,out);job=e.job_status(ALICE,'case')
         self.assertEqual(e.world.head(r.target.identity),target)
         self.assertEqual(before-e.wallet(ALICE)['energy'],d['admission_spent']+job['spent'])
-        self.assertEqual(attrs(e.world.resolve(job['result']))['outcome'],'cancelled')
-        self.assertIsNone(job.get('binding'))
+        self.assertIsNone(job.get('result'));self.assertIsNone(job.get('binding'))
         self.assertIsNotNone(e.world.resolve(job['last_step']))
         with self.assertRaises(ValueError):e.commit('cannot-complete',ALICE,'case')
         audit(e.world.journal(),e.access.checkpoint())
@@ -57,18 +56,12 @@ class ActiveInterruptionTests(unittest.TestCase):
 
     def test_tampered_intermediate_spending_and_completion_rejected(self):
         e,p,out=prepared('Express','expenditure');finish(e,out)
-        audit(e.world.journal(),e.access.checkpoint())
         for field,value in (('spent',0),('original_obligation_met',True),('requested_destination','WE'),('actual_result_perspective','IT')):
             txs=[]
             for tx in e.world.journal():
                 vs=tuple(replace(v,attributes=attributes(dict(attrs(v),**{field:value}))) if v.ref.identity.namespace=='c7shi.interruption' else v for v in tx.versions)
                 txs.append(replace(tx,versions=vs))
             with self.subTest(field=field),self.assertRaises(ValueError):audit(txs,e.access.checkpoint())
-        result=e.job_status(ALICE,'case')['result'];txs=[]
-        for tx in e.world.journal():
-            vs=tuple(replace(v,attributes=attributes(dict(attrs(v),outcome='succeeded'))) if v.ref==result else v for v in tx.versions)
-            txs.append(replace(tx,versions=vs))
-        with self.assertRaises(ValueError):audit(txs,e.access.checkpoint())
 
     def test_legitimate_danger_does_not_start_or_interrupt(self):
         e,p,out=prepared('Express','expenditure');dev.supply8(e,'danger',target=out['request'].target,safe=False)

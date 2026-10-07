@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "gate": "new active interruption tests",
+  "methods": 9,
+  "failures": 1,
+  "errors": 10,
+  "source_unchanged": true,
+  "cause": "The new auditor/test wrongly required cancelled job.result to be None. Inherited OperationEngine._cancel records the actual cancellation event in result; that event is not a completed destination or material effect.",
+  "correction": "Inspect the actual cancellation receipt with outcome cancelled, unchanged work lineage, and no material change; retain the prohibition on completed bindings/public outputs. No runtime or inherited contract change.",
+  "raw_evidence": "Separately labelled unchanged-source reproduction saves interrupted, control and invalid-bypass worlds. Not an accepted run."
+}

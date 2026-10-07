@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "changed_from_attempt1": [
+    "hle_unified/workflow_interruption_audit.py",
+    "tests_workflow_interruption/test_active.py"
+  ],
+  "runtime_unchanged": true,
+  "inherited_contracts_unchanged": true,
+  "source_files": 1260
+}

@@ -1,0 +1,19 @@
+{
+  "status": "blocked",
+  "accepted": false,
+  "archive": "Socionics_Final_Build_FB3.2_Blocked_Evidence.zip",
+  "library_file_id": "libfile_148d3f1aad348191ad488302834647cd",
+  "file_id": "file_00000000718881f596dc010f8026fd35",
+  "bytes": 471563,
+  "sha256": "59dda409593ee5459e0408923f787cc78dc91db4044bb45d24fa6dc853a5446b",
+  "members": 28,
+  "restore": "Materialize these exact Library/file IDs with the Library skill. Verify byte size and SHA-256 before extracting into the repository root. Members begin evidence/FB3.2/. Verify each member listed in evidence/FB3.2/Raw_SHA256.json, which excludes itself. This index was added after archiving. Do not relabel either failed attempt as accepted.",
+  "attempts": [
+    "attempt1/Attempt_Summary.json",
+    "attempt2/Attempt_Summary.json"
+  ],
+  "blocker": "Blocker.json",
+  "last_accepted_batch": "3.1",
+  "attempt2_freeze_sha256": "affba60fe237c45422c396cd1d82e9027e769c4d0b52036510c23cb29d311ff4",
+  "runtime_source_commit": "47ccfc570c61a5e5f33d34ea44be991474757b85"
+}

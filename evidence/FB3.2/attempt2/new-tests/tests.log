@@ -1,0 +1,169 @@
+test_admission_schema_and_history_stay_unchanged (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_admission_schema_and_history_stay_unchanged) ... ok
+test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) ... 
+  test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='obligation') ... ERROR
+  test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='salience') ... ERROR
+  test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='forecast') ... ERROR
+  test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='exclude_route') ... ERROR
+  test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='approval') ... ERROR
+test_governed_apply_allowance_is_not_restored (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_governed_apply_allowance_is_not_restored) ... ERROR
+test_legitimate_danger_does_not_start_or_interrupt (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_legitimate_danger_does_not_start_or_interrupt) ... ok
+test_material_history_and_debits_survive_cancellation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_material_history_and_debits_survive_cancellation) ... ERROR
+test_mobilize_allowance_is_not_restored (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_mobilize_allowance_is_not_restored) ... ERROR
+test_partial_child_restore_before_boundary (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_partial_child_restore_before_boundary) ... ERROR
+test_single_and_multiple_steps_keep_paid_intermediates (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates) ... 
+  test_single_and_multiple_steps_keep_paid_intermediates (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates) (name='Identify') ... ERROR
+  test_single_and_multiple_steps_keep_paid_intermediates (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates) (name='Express') ... ERROR
+test_tampered_intermediate_spending_and_completion_rejected (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_tampered_intermediate_spending_and_completion_rejected) ... ERROR
+
+======================================================================
+ERROR: test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='obligation')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 18, in test_all_five_effect_kinds_and_exact_continuation
+    _,continued,row=panel_case('Theorize','accumulation',effect)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='salience')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 18, in test_all_five_effect_kinds_and_exact_continuation
+    _,continued,row=panel_case('Theorize','accumulation',effect)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='forecast')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 18, in test_all_five_effect_kinds_and_exact_continuation
+    _,continued,row=panel_case('Theorize','accumulation',effect)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='exclude_route')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 18, in test_all_five_effect_kinds_and_exact_continuation
+    _,continued,row=panel_case('Theorize','accumulation',effect)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) (effect='approval')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 18, in test_all_five_effect_kinds_and_exact_continuation
+    _,continued,row=panel_case('Theorize','accumulation',effect)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_governed_apply_allowance_is_not_restored (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_governed_apply_allowance_is_not_restored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 56, in test_governed_apply_allowance_is_not_restored
+    audit(x.world.journal(),x.access.checkpoint())
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_material_history_and_debits_survive_cancellation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_material_history_and_debits_survive_cancellation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 38, in test_material_history_and_debits_survive_cancellation
+    audit(e.world.journal(),e.access.checkpoint())
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_mobilize_allowance_is_not_restored (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_mobilize_allowance_is_not_restored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 45, in test_mobilize_allowance_is_not_restored
+    audit(x.world.journal(),x.access.checkpoint())
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_partial_child_restore_before_boundary (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_partial_child_restore_before_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 27, in test_partial_child_restore_before_boundary
+    audit(e.world.journal(),e.access.checkpoint())
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_single_and_multiple_steps_keep_paid_intermediates (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates) (name='Identify')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 10, in test_single_and_multiple_steps_keep_paid_intermediates
+    worlds,_,row=panel_case(name,'expenditure','approval')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_single_and_multiple_steps_keep_paid_intermediates (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates) (name='Express')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 10, in test_single_and_multiple_steps_keep_paid_intermediates
+    worlds,_,row=panel_case(name,'expenditure','approval')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/fixtures.py", line 71, in panel_case
+    for arm in ('interrupted','control'):audit(worlds[arm].world.journal(),worlds[arm].access.checkpoint())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+======================================================================
+ERROR: test_tampered_intermediate_spending_and_completion_rejected (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_tampered_intermediate_spending_and_completion_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_interruption/test_active.py", line 60, in test_tampered_intermediate_spending_and_completion_rejected
+    audit(e.world.journal(),e.access.checkpoint())
+  File "/workspace/scratch/07b063671898/socionics/hle_unified/workflow_interruption_audit.py", line 98, in audit
+    raise ValueError('workflow cancellation receipt claims completion or changed material')
+ValueError: workflow cancellation receipt claims completion or changed material
+
+----------------------------------------------------------------------
+Ran 9 tests in 28.423s
+
+FAILED (errors=12)
