@@ -1,0 +1,22 @@
+{
+  "status": "probe",
+  "accepted": false,
+  "gate": "FB2.4 responsiveness",
+  "exit_code": 1,
+  "source_unchanged": true,
+  "completed_responsiveness_pairs": 0,
+  "failure": "Late fixture material creation is absent from checkpoint initial state; replay raises KeyError for partly-known-care-stock.",
+  "raw_note": "Original failure occurred before world registration. A separate unchanged-source reproduction of the same failing fixture checkpoint is preserved and labelled as a reproduction.",
+  "reproduced_checkpoint": {
+    "file": "reproduced-failing-information-base.json.gz",
+    "sha256": "4bf8a69d7ea72e79fb022017fdfa2cfe26cad99b825f44c7b79e5caf7bd40aa2"
+  },
+  "not_run": [
+    "full new tests",
+    "512-case automatic matrix",
+    "independent responsiveness verification",
+    "independent matrix verification",
+    "full inherited regression"
+  ],
+  "proposed_fix": "Supply fixture materials through setup_workflow engine factory before engine initial checkpoint capture; register available worlds before cloning. No native declaration or material law change."
+}

@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "/workspace/Socionics_Engine/hle_unified/shell.py", line 363, in restore
+    if result._execute(command) != expected:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/shell.py", line 66, in _execute
+    result = dispatch[command[0]](*command[1:])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_selection_execution.py", line 32, in _disclose
+    return super()._disclose(cid, actor, source, selectors, subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_execution.py", line 45, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/selection_execution.py", line 31, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/crux_shell_execution.py", line 38, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/crux_composition_execution.py", line 55, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/crossing_execution.py", line 64, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/self_execution.py", line 64, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/crux_execution.py", line 42, in _disclose
+    return super()._disclose(cid, actor, source, selectors, subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/institutions.py", line 72, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/collective.py", line 119, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/grounded_language.py", line 49, in _disclose
+    return super()._disclose(cid, actor, source, selectors, subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/composition.py", line 43, in _disclose
+    return super()._disclose(cid, actor, source, selectors, subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/development.py", line 50, in _disclose
+    return super()._disclose(cid, actor, source, selectors, subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/shell.py", line 79, in _disclose
+    value = self.world.resolve(source)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/store.py", line 59, in resolve
+    return self._versions[ref]
+           ~~~~~~~~~~~~~~^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/compact.py", line 243, in __getitem__
+    previous = self.rows[ref][0]
+               ~~~~~~~~~^^^^^
+KeyError: ObjectRef(identity=ObjectId(namespace='workshop', key='partly-known-care-stock'), revision=1)

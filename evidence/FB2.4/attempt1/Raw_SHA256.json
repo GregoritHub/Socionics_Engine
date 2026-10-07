@@ -1,0 +1,10 @@
+{
+  "Attempt_Summary.json": "9835eca4e65c3f532befb3e5a51a330b28cb9b09b66ec35335f37a32eeaab77f",
+  "failed_final_fixtures.py.txt": "91f62caa03e2750611c863883bf23440c80ef4346e9648ca361677bbaae7af78",
+  "reproduced-failing-information-base.json.gz": "4bf8a69d7ea72e79fb022017fdfa2cfe26cad99b825f44c7b79e5caf7bd40aa2",
+  "reproduction-traceback.txt": "7fdf9c1cb0c621789daa3b6f7e0977a4dd673cc0a9fe350bf4711f0a354499bf",
+  "responsiveness/failure.txt": "c22aef59a439d40dc108bb2f8bc9138fca972de500332a9b317d29beabc053c5",
+  "responsiveness/source_freeze.json": "c95c5015196bf104038de13e25a736dfd44f2db327168b52d3d1abfa84096ad8",
+  "responsiveness.stdout.log": "20c1bde354c643cb307f8909e86b2984c76f80bb08519d0dba15d22402306a7c",
+  "source_freeze.json": "c95c5015196bf104038de13e25a736dfd44f2db327168b52d3d1abfa84096ad8"
+}
