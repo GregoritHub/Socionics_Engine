@@ -1,0 +1,78 @@
+import unittest
+from dataclasses import replace
+from .fixtures import *
+from hle_unified.material import attributes
+
+class ActiveInterruptionTests(unittest.TestCase):
+    def test_single_and_multiple_steps_keep_paid_intermediates(self):
+        for name in ('Identify','Express'):
+            with self.subTest(name=name):
+                worlds,_,row=panel_case(name,'expenditure','approval')
+                r=audit(worlds['interrupted'].world.journal(),worlds['interrupted'].access.checkpoint())['workflow_interruption_rows'][0]
+                self.assertTrue(r['early_substitution']);self.assertFalse(r['foreclosure']);self.assertFalse(r['completed'])
+                self.assertEqual(row['retained_prefix_spent'],row['bypass_prefix_spent'])
+
+    def test_all_five_effect_kinds_and_exact_continuation(self):
+        for effect in KINDS:
+            with self.subTest(effect=effect):
+                _,continued,row=panel_case('Theorize','accumulation',effect)
+                self.assertTrue(row['exact_continuation'])
+                self.assertEqual(continued['original'].checkpoint(),continued['restored'].checkpoint())
+
+    def test_partial_child_restore_before_boundary(self):
+        e,p,out=prepared('Express','expenditure');admit(e,out);e.advance('partial',ALICE,'case',1)
+        other=WorkflowInterruptionEngine.restore(e.checkpoint())
+        for x in (e,other):x.advance('rest',ALICE,'case',1000000)
+        self.assertEqual(e.checkpoint(),other.checkpoint());self.assertEqual(e.job_status(ALICE,'case')['status'],'cancelled')
+        audit(e.world.journal(),e.access.checkpoint())
+
+    def test_material_history_and_debits_survive_cancellation(self):
+        e,p,out=prepared('Act','accumulation');r=out['request'];target=e.world.head(r.target.identity);before=e.wallet(ALICE)['energy']
+        d,_=finish(e,out);job=e.job_status(ALICE,'case')
+        self.assertEqual(e.world.head(r.target.identity),target)
+        self.assertEqual(before-e.wallet(ALICE)['energy'],d['admission_spent']+job['spent'])
+        self.assertIsNone(job.get('result'));self.assertIsNone(job.get('binding'))
+        self.assertIsNotNone(e.world.resolve(job['last_step']))
+        with self.assertRaises(ValueError):e.commit('cannot-complete',ALICE,'case')
+        audit(e.world.journal(),e.access.checkpoint())
+
+    def test_mobilize_allowance_is_not_restored(self):
+        e,p,out=prepared('Mobilize','expenditure');finish(e,out)
+        for x in (e,WorkflowInterruptionEngine.restore(e.checkpoint())):
+            with self.assertRaisesRegex(ValueError,'one-attempt commitment already spent'):
+                x.start('retry',replace(out['request'],key='retry'))
+            audit(x.world.journal(),x.access.checkpoint())
+
+    def test_governed_apply_allowance_is_not_restored(self):
+        e=setup();p=dev.generated(e);source,g=draft(e,'governed');v=votes(e,source,g,'ratification')
+        work(e,request(e,'ratify','Institutionalize','expenditure',(source,*v),peer=BOB,group=g))
+        rule=e.job_status(ALICE,'ratify')['public.0'];expose(e,ALICE,rule)
+        r=request(e,'case','Apply','expenditure',(rule,),peer=BOB,group=g,stock=e.world.head(CARE.identity).ref)
+        dev.supply8(e,'current-neutral',target=r.target);out=dict(request=r,inputs=(rule,),extra=dict(peer=BOB,group=g))
+        finish(e,out)
+        for x in (e,WorkflowInterruptionEngine.restore(e.checkpoint())):
+            with self.assertRaisesRegex(ValueError,'one-attempt commitment already spent'):x.start('retry',replace(r,key='retry'))
+            audit(x.world.journal(),x.access.checkpoint())
+
+    def test_tampered_intermediate_spending_and_completion_rejected(self):
+        e,p,out=prepared('Express','expenditure');finish(e,out)
+        for field,value in (('spent',0),('original_obligation_met',True),('requested_destination','WE'),('actual_result_perspective','IT')):
+            txs=[]
+            for tx in e.world.journal():
+                vs=tuple(replace(v,attributes=attributes(dict(attrs(v),**{field:value}))) if v.ref.identity.namespace=='c7shi.interruption' else v for v in tx.versions)
+                txs.append(replace(tx,versions=vs))
+            with self.subTest(field=field),self.assertRaises(ValueError):audit(txs,e.access.checkpoint())
+
+    def test_legitimate_danger_does_not_start_or_interrupt(self):
+        e,p,out=prepared('Express','expenditure');dev.supply8(e,'danger',target=out['request'].target,safe=False)
+        d,later=finish(e,out);self.assertIsNone(d['child']);self.assertEqual(later,'unavailable')
+        row=audit(e.world.journal(),e.access.checkpoint())['workflow_interruption_rows'][0]
+        self.assertFalse(row['deformed']);self.assertFalse(row['early_substitution'])
+
+    def test_admission_schema_and_history_stay_unchanged(self):
+        old= shell.setup();p=dev.generated(old);out=prepare(old,'Theorize','accumulation')
+        dev.supply8(old,'current',target=out['request'].target);shell.finish(old,out)
+        text=old.checkpoint();self.assertEqual(WorkflowShellEngine.restore(text).checkpoint(),text)
+        new=WorkflowInterruptionEngine.from_shell(text)
+        self.assertEqual(new.world.checkpoint(),old.world.checkpoint());self.assertEqual(new.access.checkpoint(),old.access.checkpoint())
+        audit(new.world.journal(),new.access.checkpoint())

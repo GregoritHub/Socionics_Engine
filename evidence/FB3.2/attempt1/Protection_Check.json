@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "all_FB31_frozen_files_unchanged": true,
+  "added_files": [
+    "contracts/C7_Workflow_Shell_FB3.2_Amendment_v1.json",
+    "contracts/C7_Workflow_Shell_FB3.2_Amendment_v1.sha256",
+    "hle_unified/workflow_interruption_audit.py",
+    "hle_unified/workflow_interruption_execution.py",
+    "hle_unified/workflow_interruption_records.py",
+    "tests_workflow_interruption/__init__.py",
+    "tests_workflow_interruption/fixtures.py",
+    "tests_workflow_interruption/test_active.py",
+    "tools/evaluate_workflow_interruption.py",
+    "tools/verify_workflow_interruption.py"
+  ],
+  "source_files": 1260
+}
