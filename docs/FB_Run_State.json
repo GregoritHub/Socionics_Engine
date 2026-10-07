@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": "5.4",
+  "status": "active",
+  "current_batch": "5.5",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -22,14 +22,14 @@
     "5.4"
   ],
   "next_batch": "5.5",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T22:28:53.549218+00:00",
+  "run_id": "fb55-20261007T231339Z-codex",
+  "lease_expires_at": "2026-10-07T23:43:39Z",
+  "updated_at": "2026-10-07T23:13:39Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.4 accepted on attempt2: five generated families, semantic shared-window causal witness, fourteen independently verified raw cases, and 720 distinct passing methods. Ready for prospective FB5.5 sustained scheduling and 32-cell panel; revised goal incomplete.",
+  "activity": "FB5.5 lease claimed from accepted FB5.4 head; reading entry notes and preregistering the fair 32-cell sustained panel before implementation.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
