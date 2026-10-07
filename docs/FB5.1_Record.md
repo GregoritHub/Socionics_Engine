@@ -10,4 +10,6 @@
 
 [machine-checked] Development attempts 1 and 2 exposed only local test-fixture and auditor-interface mistakes; both are preserved under `evidence/FB5.1`. Development attempt 3 passed all 11 new methods plus all eight unchanged inherited population methods, 19 methods total.
 
+[machine-checked] Acceptance attempt 3 lost its uncommitted execution workspace before the two long runners completed. Its observed partial results are preserved but credited to no gate. Acceptance restarts as attempt 4 from the committed implementation source.
+
 [open] Frozen full-regression and raw-panel acceptance evidence remain to be completed.
