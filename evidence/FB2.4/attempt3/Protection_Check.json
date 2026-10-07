@@ -1,0 +1,16 @@
+{
+  "status": "probe",
+  "passed": true,
+  "changed_files": [
+    "hle_unified/workflow_selection_audit.py",
+    "hle_unified/workflow_selection_execution.py",
+    "tests_workflow_selection/test_final.py"
+  ],
+  "added_files": [
+    "contracts/C7_Workflow_Selection_FB2.4_Recovery_v1.json",
+    "contracts/C7_Workflow_Selection_FB2.4_Recovery_v1.sha256"
+  ],
+  "baseline_files_unchanged": true,
+  "inherited_C6_codec_unchanged": true,
+  "source_freeze_files": 1239
+}

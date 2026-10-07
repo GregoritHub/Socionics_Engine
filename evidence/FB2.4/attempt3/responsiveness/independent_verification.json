@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "worlds": 9,
+  "responsiveness_pairs": 3,
+  "unresponsive_controls_rejected": 2,
+  "hidden_before_delivery_unchanged": true,
+  "held_out_practice": true,
+  "participant_replay": false,
+  "rows": [
+    {
+      "file": "information-withheld.json.gz",
+      "sha256": "29bbd30af581b81671b91470903e55ed40b3a556e033a97a1632c8ea0774d2bc",
+      "recipe": "workflow-express-accumulation-v1",
+      "spent": 38,
+      "query": "maintain",
+      "child_status": "succeeded",
+      "rejection": null
+    },
+    {
+      "file": "information-responsive.json.gz",
+      "sha256": "5d720b062590bff09c38946a3c1462211059039dd7813172d1e6d364b2024f0f",
+      "recipe": "workflow-express-expenditure-v1",
+      "spent": 38,
+      "query": "work",
+      "child_status": "succeeded",
+      "rejection": null
+    },
+    {
+      "file": "information-unresponsive.json.gz",
+      "sha256": "9b2380c529527187435f7f7877573738788c87d560e52e3195fa6047a8f8d966",
+      "recipe": "workflow-express-accumulation-v1",
+      "spent": 38,
+      "query": "maintain",
+      "child_status": "succeeded",
+      "rejection": "not the best evaluated choice"
+    },
+    {
+      "file": "capacity-withheld-acquisition.json.gz",
+      "sha256": "ecd13d8391c956d9327d44bb4bdbf8b7d3d240c4057f399e9dbd595199dfe782",
+      "recipe": "workflow-express-accumulation-v1",
+      "spent": 38,
+      "query": "maintain",
+      "child_status": "succeeded",
+      "rejection": null
+    },
+    {
+      "file": "capacity-responsive.json.gz",
+      "sha256": "006ad83d7bbc42f6bbda89bf64c8918d3c671c0ca84b1e7f995451bcb0f86f77",
+      "recipe": "workflow-express-expenditure-v1",
+      "spent": 38,
+      "query": "work",
+      "child_status": "succeeded",
+      "rejection": null
+    },
+    {
+      "file": "capacity-unresponsive.json.gz",
+      "sha256": "56fdfa1a61ebb9a7a1a93e8b761e1ae3f9861498aa67afe7b834f3b2d7994c27",
+      "recipe": "workflow-express-accumulation-v1",
+      "spent": 38,
+      "query": "maintain",
+      "child_status": "succeeded",
+      "rejection": "not the best evaluated choice"
+    },
+    {
+      "file": "hidden-unchanged-material.json.gz",
+      "sha256": "509b39d3d29993121ad9ef23beb680d95f3d7eebea901ffdac592f4e1b4cdc25",
+      "recipe": "workflow-express-expenditure-v1",
+      "spent": 38,
+      "query": "work",
+      "child_status": "succeeded",
+      "rejection": null
+    },
+    {
+      "file": "hidden-undelivered-change.json.gz",
+      "sha256": "91256b59fccb8760ede04c3d6bc45eb528233e7af4f05fc10cdad94e7cf5f82f",
+      "recipe": "workflow-express-expenditure-v1",
+      "spent": 38,
+      "query": null,
+      "child_status": "failed",
+      "rejection": null
+    },
+    {
+      "file": "hidden-delivered-change.json.gz",
+      "sha256": "021b53a45d2674bc29a012bdcd59bbcd9a57f0efd43d2ccf9718d224a2c91625",
+      "recipe": "workflow-express-accumulation-v1",
+      "spent": 38,
+      "query": "maintain",
+      "child_status": "succeeded",
+      "rejection": null
+    }
+  ]
+}

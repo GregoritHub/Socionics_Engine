@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "pairs": [
+    {
+      "kind": "delivered-information",
+      "before": {
+        "recipe": "workflow-express-accumulation-v1",
+        "spent": 38,
+        "query": "maintain",
+        "child_failure": null,
+        "next_task": "maintain",
+        "expected_rejection": null
+      },
+      "after": {
+        "recipe": "workflow-express-expenditure-v1",
+        "spent": 38,
+        "query": "work",
+        "child_failure": null,
+        "next_task": "work",
+        "expected_rejection": null
+      },
+      "control": {
+        "recipe": "workflow-express-accumulation-v1",
+        "spent": 38,
+        "query": "maintain",
+        "child_failure": null,
+        "next_task": "maintain",
+        "expected_rejection": "not the best evaluated choice"
+      }
+    },
+    {
+      "kind": "acquired-care-held-out-target",
+      "before": {
+        "recipe": "workflow-express-accumulation-v1",
+        "spent": 38,
+        "query": "maintain",
+        "child_failure": null,
+        "next_task": "maintain",
+        "expected_rejection": null
+      },
+      "after": {
+        "recipe": "workflow-express-expenditure-v1",
+        "spent": 38,
+        "query": "work",
+        "child_failure": null,
+        "next_task": "work",
+        "expected_rejection": null
+      },
+      "control": {
+        "recipe": "workflow-express-accumulation-v1",
+        "spent": 38,
+        "query": "maintain",
+        "child_failure": null,
+        "next_task": "maintain",
+        "expected_rejection": "not the best evaluated choice"
+      },
+      "training_target": "held-out-training-tool",
+      "selected_target": "workflow-device"
+    },
+    {
+      "kind": "hidden-material-versus-delivered-revision",
+      "before": {
+        "recipe": "workflow-express-expenditure-v1",
+        "spent": 38,
+        "query": "work",
+        "child_failure": null,
+        "next_task": "work",
+        "expected_rejection": null
+      },
+      "hidden_recipe": "workflow-express-expenditure-v1",
+      "hidden_admission_failure": null,
+      "hidden_child_status": "failed",
+      "after": {
+        "recipe": "workflow-express-accumulation-v1",
+        "spent": 38,
+        "query": "maintain",
+        "child_failure": null,
+        "next_task": "maintain",
+        "expected_rejection": null
+      },
+      "paid_candidates_unchanged_before_delivery": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "information-withheld",
+      "expected_rejection": false,
+      "raw": {
+        "file": "information-withheld.json.gz",
+        "sha256": "29bbd30af581b81671b91470903e55ed40b3a556e033a97a1632c8ea0774d2bc"
+      }
+    },
+    {
+      "name": "information-responsive",
+      "expected_rejection": false,
+      "raw": {
+        "file": "information-responsive.json.gz",
+        "sha256": "5d720b062590bff09c38946a3c1462211059039dd7813172d1e6d364b2024f0f"
+      }
+    },
+    {
+      "name": "information-unresponsive",
+      "expected_rejection": true,
+      "raw": {
+        "file": "information-unresponsive.json.gz",
+        "sha256": "9b2380c529527187435f7f7877573738788c87d560e52e3195fa6047a8f8d966"
+      }
+    },
+    {
+      "name": "capacity-withheld-acquisition",
+      "expected_rejection": false,
+      "raw": {
+        "file": "capacity-withheld-acquisition.json.gz",
+        "sha256": "ecd13d8391c956d9327d44bb4bdbf8b7d3d240c4057f399e9dbd595199dfe782"
+      }
+    },
+    {
+      "name": "capacity-responsive",
+      "expected_rejection": false,
+      "raw": {
+        "file": "capacity-responsive.json.gz",
+        "sha256": "006ad83d7bbc42f6bbda89bf64c8918d3c671c0ca84b1e7f995451bcb0f86f77"
+      }
+    },
+    {
+      "name": "capacity-unresponsive",
+      "expected_rejection": true,
+      "raw": {
+        "file": "capacity-unresponsive.json.gz",
+        "sha256": "56fdfa1a61ebb9a7a1a93e8b761e1ae3f9861498aa67afe7b834f3b2d7994c27"
+      }
+    },
+    {
+      "name": "hidden-unchanged-material",
+      "expected_rejection": false,
+      "raw": {
+        "file": "hidden-unchanged-material.json.gz",
+        "sha256": "509b39d3d29993121ad9ef23beb680d95f3d7eebea901ffdac592f4e1b4cdc25"
+      }
+    },
+    {
+      "name": "hidden-undelivered-change",
+      "expected_rejection": false,
+      "raw": {
+        "file": "hidden-undelivered-change.json.gz",
+        "sha256": "91256b59fccb8760ede04c3d6bc45eb528233e7af4f05fc10cdad94e7cf5f82f"
+      }
+    },
+    {
+      "name": "hidden-delivered-change",
+      "expected_rejection": false,
+      "raw": {
+        "file": "hidden-delivered-change.json.gz",
+        "sha256": "021b53a45d2674bc29a012bdcd59bbcd9a57f0efd43d2ccf9718d224a2c91625"
+      }
+    }
+  ],
+  "worlds": 9,
+  "source_unchanged": true
+}

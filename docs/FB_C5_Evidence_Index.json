@@ -1,0 +1,12 @@
+{
+  "library_file_id": "libfile_ac4f6303a49c81918fccf9135a272e79",
+  "file_id": "file_000000005b4481f5b1f80cd7cf32de43",
+  "file_name": "HLE_Full_Crux_C5_Evidence_v1.zip",
+  "bytes": 29026838,
+  "sha256": "cd10349fee7ddf13d80e0ab4b5154266ef1d7c88776cd5f27ecc939b667d8f7d",
+  "status": "probe: retrieved original C5 evidence; no new verification claimed",
+  "retrieval_reason": "Final Build Plan FB3.1 requires inherited C5 worlds still pass. The C7 v2 archive contains C6/C7 inherited evidence but does not contain the C5 raw panel.",
+  "restore": "Materialize this exact Library archive, verify SHA-256, and extract into an isolated evidence directory. Original archive remains immutable. Use a separate output path or working copy when rerunning a verifier that writes results.",
+  "accepted_worlds": "evidence_c5/admission_panel_final (64), active_panel_attempt1 (64), development_final (15)",
+  "total_accepted_worlds": 143
+}

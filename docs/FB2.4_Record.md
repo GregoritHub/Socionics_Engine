@@ -29,3 +29,5 @@
 [derived] The unaccepted v4 snapshot now serializes all five validated procedure fields as supported exact audit structures. The auditor independently reconstructs those fields from paid raw particulars. The inherited C6 encoder and native Procedure record remain byte-for-byte unchanged. A new test mutates each of the five fields and requires ordinary independent audit rejection.
 
 [open] Attempt3 is running on `evidence/FB2.4/attempt3/source_freeze.json`; no new gate pass is claimed yet. Automatic continuation was successfully re-enabled at 2026-10-07T11:30:34.532266Z. The current worker holds a 30-minute lease; all other stop rules and the Phase 7 R5 requirement remain.
+
+[probe] Recovery partial checkpoint: all 661 distinct methods passed (602 inherited plus 23 workflow, 16 Model G/axis and 20 workflow-selection methods). The responsiveness evaluator and independent raw verifier passed three pairs across nine worlds, rejecting both deliberately unresponsive controls. Source hashes remained unchanged. The automatic 512-case matrix and its separate reconstruction are still pending; FB2.4 is not accepted.
