@@ -1,0 +1,1012 @@
+{
+  "passed": true,
+  "raw_witnesses": 143,
+  "counts": {
+    "admission_panel_final": 64,
+    "active_panel_attempt1": 64,
+    "development_final": 15
+  },
+  "rows": [
+    {
+      "file": "admission_panel_final/Act-accumulation-corrected.json.gz",
+      "sha256": "20c00b45f8fe25572972a25ee77c4ca1353edc292aea4b68d8d91f725ab04f1d",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Act-accumulation-deformed.json.gz",
+      "sha256": "98ada283b9edf1aec9cedf198681c842e085ba706fe6aeb88dad0e31d4f75f07",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Act-expenditure-corrected.json.gz",
+      "sha256": "5148c3c28884ec94d1b7e6816c654b5b74760c97d766c547ba08951a283d80db",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Act-expenditure-deformed.json.gz",
+      "sha256": "f3e86a4a82b69c64c7523e355c2516e97a9b06011bf7235afacd25219ffad810",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Apply-accumulation-corrected.json.gz",
+      "sha256": "a276c49cfbb90e0b74e331b7da8c397d95c965e98b3a852a332d5bffe25abc5d",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Apply-accumulation-deformed.json.gz",
+      "sha256": "0e91ce688be498fe96c2d9c5c64b5be775051a5a8fbe412321df234880ae59da",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Apply-expenditure-corrected.json.gz",
+      "sha256": "7fd18185d1f97c1b18c35ed8b0cf1b1dc62268a00fb5644233ffbb685ff88cad",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Apply-expenditure-deformed.json.gz",
+      "sha256": "fc80dc8ca9fc94ba92702226bef224f83458d51c97365759723afd9c31a70ea0",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Commune-accumulation-corrected.json.gz",
+      "sha256": "dcfa5495344a06784fc00c0704a55c4177e29f100b8d09b4bac8c972138560ba",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Commune-accumulation-deformed.json.gz",
+      "sha256": "75bcb547769b61e4ce58e7de8d2c1cd9ee76d2b385c97c6df547f8a4028169f9",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Commune-expenditure-corrected.json.gz",
+      "sha256": "b04d6d530d6b1bfe60dd43d8ee85730a56b01f4c55f9ac03e15cc23ffff27672",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Commune-expenditure-deformed.json.gz",
+      "sha256": "ff984daa6298e6120d3e729ad9cdd3b2a9d7212d767029393a4b0e461a04764c",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Contemplate-accumulation-corrected.json.gz",
+      "sha256": "ece0a2b05498ecdc66215fdaba8e1e09be7cfc63062feccfc7c4422ba31b59d9",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Contemplate-accumulation-deformed.json.gz",
+      "sha256": "6371440139516878be7a827ea8cfd2671ad76d301d6f62c4ad5a40e525711fff",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Contemplate-expenditure-corrected.json.gz",
+      "sha256": "8c2e1acd114af2e825b36dea82a3b7f17b68522b87ae0c3f0023c9eb491751e1",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Contemplate-expenditure-deformed.json.gz",
+      "sha256": "385764b28de2ba793c0063a180eca43e71ff621dd0e15b2b3d8df87e4739c315",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Coordinate-accumulation-corrected.json.gz",
+      "sha256": "75a146ee392c715536a86b472bba48a328207af057d9f9a032c8457ab077aca8",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Coordinate-accumulation-deformed.json.gz",
+      "sha256": "ab5037f53968e7afa5683794db378129de88d732c01d0a37759d1ef114247bb2",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Coordinate-expenditure-corrected.json.gz",
+      "sha256": "881cf4e140a1d79719b6fa2d65bd3c77eab920ad35cbf341627a81abb0fd1954",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Coordinate-expenditure-deformed.json.gz",
+      "sha256": "0b64765016c8b3bb0c8b1cc84957db45a4428913165a0bbe303747e471cbd217",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Educate-accumulation-corrected.json.gz",
+      "sha256": "c3d81101c844c9c1cb2daea572d822472f199c1190975897a00b8dc67e75b75d",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Educate-accumulation-deformed.json.gz",
+      "sha256": "9c0402079d5c361423f7663a008b043f43a7f276576d393fb0d1ec9dc853295a",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Educate-expenditure-corrected.json.gz",
+      "sha256": "995a93f03d3b404c46a98416eb4975b2dc993ac3483ac6b5d4fd3fe6892fb443",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Educate-expenditure-deformed.json.gz",
+      "sha256": "dbe92dd7067c371282ca163346416b50521f75efd9f639915604c9f8a6a2da23",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Embody-accumulation-corrected.json.gz",
+      "sha256": "f95c058185c9379204215a8350ab60004c65eb38bde146dfd6de29d4da93493d",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Embody-accumulation-deformed.json.gz",
+      "sha256": "12100271011d0d3229b3e4f4bd00e2e15e9ef16b562bb4987c8c8b7bd5099b7f",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Embody-expenditure-corrected.json.gz",
+      "sha256": "df361a9ae12de5ac03f346658e165080a8538133e83041a357e6e486fcde430a",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Embody-expenditure-deformed.json.gz",
+      "sha256": "a1adc7120940acca2cf9b80bba43d13584009144e218b6cbeda1a7f67f479ef4",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Express-accumulation-corrected.json.gz",
+      "sha256": "922325ff87ca1d592f5f83a0c4a2d9d2ec7191a019fd0dfb4887689eede3f4f5",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Express-accumulation-deformed.json.gz",
+      "sha256": "292471375ae9b6abe1250cd1e5567a8cae1e5e7f0edb007ea8d7796ffa9d139d",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Express-expenditure-corrected.json.gz",
+      "sha256": "0b4b7f58ede08826fe497a23545455f1615cbe9418bfc1293f4b0a871f2fddd4",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Express-expenditure-deformed.json.gz",
+      "sha256": "075997546e34d4ec7d3922b3e55e0898969971605ac1557d5e1547b453d626ae",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Identify-accumulation-corrected.json.gz",
+      "sha256": "da5bd886f38d7f075a41181e4e7f55d48f88e4cef0f699546eec798b318ae55b",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Identify-accumulation-deformed.json.gz",
+      "sha256": "eb99455f011e22d0c41511d1953ad6b8bed8db7cb4f5e3ecaf319f46ee0163c9",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Identify-expenditure-corrected.json.gz",
+      "sha256": "b625a8e8bd1a076e149d0be14c282715f0133a8bb8bfd412d6823b4fa263c30f",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Identify-expenditure-deformed.json.gz",
+      "sha256": "00aec868a47513e156ff212029e24b4c09c57791b6c523832b425fe3bbf20020",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Institutionalize-accumulation-corrected.json.gz",
+      "sha256": "9e7dba16923d62346bdcfe2a033ceb62e5b599d3f1a47fc960a4a7f4466803c7",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Institutionalize-accumulation-deformed.json.gz",
+      "sha256": "9d775993509ff742e49000457f62eee2eb7ab8cb8d9ee12383370db286466c45",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Institutionalize-expenditure-corrected.json.gz",
+      "sha256": "332783994b1ddff989742546fe8bbc11598ffddbe073e0405a3888d1ef7636f9",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Institutionalize-expenditure-deformed.json.gz",
+      "sha256": "4d7d087f86dbb41120e0d7506f75fc6ef3477d5e710c8acf6feb3b2eaed21263",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Integrate-accumulation-corrected.json.gz",
+      "sha256": "6a31d2fb7d2fc9a056799812c07bed3ff59d277d0e4c41437fc4d2a5a8a72238",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Integrate-accumulation-deformed.json.gz",
+      "sha256": "9b78be66b42fdd45270a2897dd903d2e87609133e52d8ca3607d471a1ffc4d9a",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Integrate-expenditure-corrected.json.gz",
+      "sha256": "293159024dfa97560855122d0b09c49fcd2db782389ea49d11fef117ab5c0e19",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Integrate-expenditure-deformed.json.gz",
+      "sha256": "5452df32dfa230d982d4978585564d608935e377b5570899944d4828bcd30af2",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Mobilize-accumulation-corrected.json.gz",
+      "sha256": "6e5c635e95a6abf7570313abccef247d137f3b73e63e6cafa1134995ca9ddc43",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Mobilize-accumulation-deformed.json.gz",
+      "sha256": "7bb5a80aca506c13ca53ef43989bb400d38285d3d6b0a09801a419a75d8ecabd",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Mobilize-expenditure-corrected.json.gz",
+      "sha256": "febcb82efb93337f2f932f231eb5ab6db0b345f20b091d0796155ac9d9c43e5c",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Mobilize-expenditure-deformed.json.gz",
+      "sha256": "88de38f974593bb2b7054f181ef2192bdc226afc3a940162c927c5f5fef64b50",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Organize-accumulation-corrected.json.gz",
+      "sha256": "06471890a45d0b72344fa8762b37c0dcaedc5dc6d443fc2a74867acd85c96d0b",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Organize-accumulation-deformed.json.gz",
+      "sha256": "13d28ea77f188f8f10f981a17d287a1800914307096f7516ba3865769e0d4693",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Organize-expenditure-corrected.json.gz",
+      "sha256": "61a72aa90740cc96a1b2e271753d8070d826377521e878af59617fd1a6520dd8",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Organize-expenditure-deformed.json.gz",
+      "sha256": "5abc03e0c0571304c3aeb04a9346b09c8337e33a6e9fbdc1010cbc51d167ee9f",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Share-accumulation-corrected.json.gz",
+      "sha256": "9a62302dcc8c6ba6d153c1462e65cbd5d09e11d22a83f0c55ce20227c4f551c2",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Share-accumulation-deformed.json.gz",
+      "sha256": "4cc5b7e9f90531f958fced416352c65d3772abe6a6f29529e3b1808786e4a7ce",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Share-expenditure-corrected.json.gz",
+      "sha256": "950ba373a7acac40b3164938484308699b934009695bd66d3a19abb1b22e6bee",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Share-expenditure-deformed.json.gz",
+      "sha256": "f0d5732752c6e7df5b320e66fe83e0ccd88372a3b44e0d43b983c821da892dbc",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Theorize-accumulation-corrected.json.gz",
+      "sha256": "b925765cd1615b0dcd9fa83bb0c9aac5fc4e5ae714b36c04bd5a25bd9afeff1e",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Theorize-accumulation-deformed.json.gz",
+      "sha256": "10e12e641b8c579b537a8d09df5bffb822e41cc0abf7418ebac7000062571824",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Theorize-expenditure-corrected.json.gz",
+      "sha256": "76985cbc099e56273ae0e3b34dc1fede77bb63a070cda1124d585cc2cfe937fc",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Theorize-expenditure-deformed.json.gz",
+      "sha256": "f212317e03059620fdc6e19f397d4c67279244dd0a8f0cb00dad4dc152634255",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Understand-accumulation-corrected.json.gz",
+      "sha256": "a841b5dc0baca6d1eef0a66328bcdbc855cc27e938707f862bc3a5d1d583d700",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Understand-accumulation-deformed.json.gz",
+      "sha256": "00a0cf0d411c1008e525955b06565582a1b22a78402a1ed48cf0c52d79b86185",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "admission_panel_final/Understand-expenditure-corrected.json.gz",
+      "sha256": "ed62cd8ddb81c1cf015302c08173330b9527b20fac980b0a56d977f55f1b79e2",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "admission_panel_final/Understand-expenditure-deformed.json.gz",
+      "sha256": "af271fe70e48ff92e7cc282011f9e5f2debe5e8e5222a04dba5de537560e901b",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Act-accumulation-corrected.json.gz",
+      "sha256": "f44f931801d297fdf85ab650784aa87f2243b1e0d309dac2278f17a186a233c4",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Act-accumulation-deformed.json.gz",
+      "sha256": "e11e17daf4a338575ba28a2dadf40c80f4f1a5c233d9e7b9e20482a7bd1a6328",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Act-expenditure-corrected.json.gz",
+      "sha256": "e1fcbdf62913b88218418f3475211448a6b7bb685ef4312b7804a4d8867dab27",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Act-expenditure-deformed.json.gz",
+      "sha256": "2044120575589a524d998a90e2c17651a723cd49f3c0a3e7be8797ec5a27f9c5",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Apply-accumulation-corrected.json.gz",
+      "sha256": "d336394bd8262a548d80da0af2711a3fee16194fa495cc4c0083a4c944f6ddd1",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Apply-accumulation-deformed.json.gz",
+      "sha256": "030d8e03bf4976807c8d6c49feb8bcc2033efb32d2de88a54ea8ff26f0f6921c",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Apply-expenditure-corrected.json.gz",
+      "sha256": "e6599f96b257d8e714bfa5be830e8339c0f038c0e84178637d1c294a73ac3c6c",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Apply-expenditure-deformed.json.gz",
+      "sha256": "423301e6388d2b4b6127703811745c86de259efe0a96727c22e17bddc1c57ae4",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Commune-accumulation-corrected.json.gz",
+      "sha256": "32ef588aaef76879463f9da2c6bb729805a47ac6fc8634410345bf147decf65e",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Commune-accumulation-deformed.json.gz",
+      "sha256": "a0f026e084b9e40d69e2b44d6d6c9839b127ec2645e8447567733ec4f10a1fa1",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Commune-expenditure-corrected.json.gz",
+      "sha256": "ff75474b98c20cc890639eb6397ef86cb6c97527f49ef5bd2a6e661632a9a1b3",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Commune-expenditure-deformed.json.gz",
+      "sha256": "4eedb2fbf0d287e7305cca56c299d2f60c201b8c2fab08472cf8364da2d1e283",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Contemplate-accumulation-corrected.json.gz",
+      "sha256": "88eec96efe92798fa65353ce8b7166651a072b5d38a0838f471b47bec4e79333",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Contemplate-accumulation-deformed.json.gz",
+      "sha256": "a82ff11999ec1561306e2fd801e04bd2893189bd6d7d3e1cf92d74791c6db18e",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Contemplate-expenditure-corrected.json.gz",
+      "sha256": "1ded81214f40d962495fcb229cf57fd0b88e70f26da399663bf421e204874927",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Contemplate-expenditure-deformed.json.gz",
+      "sha256": "aa645cbcbb350a1b89ab08ca23d94f46cb4b7b5a367e55c15e388ea3c75d2443",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Coordinate-accumulation-corrected.json.gz",
+      "sha256": "544aa203f48265ceb6106ca1a482c7d00bcc2c3bd056c6ca3a77ac4cc9b10823",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Coordinate-accumulation-deformed.json.gz",
+      "sha256": "eb650a1b3912150508855b81b32943fb8a4893511fa0207d826e331694505c71",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Coordinate-expenditure-corrected.json.gz",
+      "sha256": "18f0a505937ef21a7fec724bca388c9537666d2993a66aa634c520c4b08240bd",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Coordinate-expenditure-deformed.json.gz",
+      "sha256": "79555f36c78defb5caca7ff8a6ad2c3d9aacd0c8723b24123bb7ce8ac3a453e7",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Educate-accumulation-corrected.json.gz",
+      "sha256": "7362c5398daff2ac775b5585967e5e5607931a75c9a1e5837a3bc2616fb70b8a",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Educate-accumulation-deformed.json.gz",
+      "sha256": "2349c45cc7d948429043c684318cc90f0f4e79fede7d88f31ce04c4678ca44e3",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Educate-expenditure-corrected.json.gz",
+      "sha256": "ef3104797592626d2a18966be6264192edf92e0616c74050bccd66e3e163d99a",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Educate-expenditure-deformed.json.gz",
+      "sha256": "ceb1bd4fe1ff657266e15a2ba9e54bf1f39b6045ed38a83edba8f47075a5c762",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Embody-accumulation-corrected.json.gz",
+      "sha256": "f5732c146d33111dd1a5f41dabda833a0c4fbfe042866dc79eef2c274f4e4406",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Embody-accumulation-deformed.json.gz",
+      "sha256": "e37c174465008a311bb03da0b2efe4ae233f9357a347d106ef67ab52aa83c673",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Embody-expenditure-corrected.json.gz",
+      "sha256": "fd66bf2646cf75275ba27d765b9bfeacb2fdf7bd45664021b9298f07f23c99f4",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Embody-expenditure-deformed.json.gz",
+      "sha256": "bea39517f10c3d9b0e362899221c00428ac45aaf89d76adff4f2a9bc3eaeaebc",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Express-accumulation-corrected.json.gz",
+      "sha256": "eca1b7849363a63841293ee9a235014a0dfeccf330d81b3b3f8aa007ecd32518",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Express-accumulation-deformed.json.gz",
+      "sha256": "ce3eb78aa1165fec48418b77b4aa09efec9a6894b3e97540d4938a8568530db9",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Express-expenditure-corrected.json.gz",
+      "sha256": "7429aec43761a6ea9f89a22ea9aec7c81eb412b845d6847ae5781a0c94bed4ca",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Express-expenditure-deformed.json.gz",
+      "sha256": "d45d616e27f356aae4615725aebc259ca00004ab44384ca1ee48a4a35f00ab49",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Identify-accumulation-corrected.json.gz",
+      "sha256": "6790b1b71216fe3c81d9bf11ff52b08145f2e4ee335bb753c36f19a8b0ce3cc4",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Identify-accumulation-deformed.json.gz",
+      "sha256": "49b84dba201cde021a572dfe82462b11b30832092022bf974eb693e8f0eae19a",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Identify-expenditure-corrected.json.gz",
+      "sha256": "14ed606338aee24af2c56ad43a47995580f9f945c1ad179b04e120ab4f6d0d3a",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Identify-expenditure-deformed.json.gz",
+      "sha256": "e331c5a324bfe2ab0ce9a401cb1e4856b73b59c776fb4dd62f416c5292c25d48",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Institutionalize-accumulation-corrected.json.gz",
+      "sha256": "f532b0a31e6c082278da00119301cea4827277ca193569514457634c9663e28f",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Institutionalize-accumulation-deformed.json.gz",
+      "sha256": "267db4ac4e84726ec58b31041d8827c519b734f8c06d3d8fc6f647f06cc8e1ca",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Institutionalize-expenditure-corrected.json.gz",
+      "sha256": "6ed00ad36f60acb414c5213d5f5e0d6f1f889376cb84da3c7951eb95fd9093c8",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Institutionalize-expenditure-deformed.json.gz",
+      "sha256": "caa59ad0b81bdd9bf569b55da71e62bd7a5d9d0c40fbbf59592a64cd01f272af",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Integrate-accumulation-corrected.json.gz",
+      "sha256": "9306e3501f7618a47442c55b6d9c3a6d4e617bf23ad8652e4dd78113df68d361",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Integrate-accumulation-deformed.json.gz",
+      "sha256": "64ed942ad5e72e9430d741fcdcdc5944246e8a13ff15f88e9da0ba602f239f80",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Integrate-expenditure-corrected.json.gz",
+      "sha256": "a011ab8ac735a546a37b5db4d62d589c4d5b2178b06255ac775688bb386fc29c",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Integrate-expenditure-deformed.json.gz",
+      "sha256": "f45fa6ae7c280603e989728d16ab18a4e27146366435c6f2a04188b76d690738",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Mobilize-accumulation-corrected.json.gz",
+      "sha256": "b24160f1899bc5edab8b711b6844405ffa4507928e1040c04b640360748b39b9",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Mobilize-accumulation-deformed.json.gz",
+      "sha256": "9aa43b8b96e9c03f193832fa718b7d6626334b1fb19a2035ab3d88887b538c09",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Mobilize-expenditure-corrected.json.gz",
+      "sha256": "b1ac42e7cfb21ff5e2fc780cf234c5839252aa12801f67175ac68dc16ee8f88f",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Mobilize-expenditure-deformed.json.gz",
+      "sha256": "d2952dab28f12f2fb9e6bb75c99809362f4b4484c82f1e4a713cf8521060a10e",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Organize-accumulation-corrected.json.gz",
+      "sha256": "e31b42c52d9bbd3bbcd025c68c5738145e8365f0ea7fdcb1f6dba343226d7ff6",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Organize-accumulation-deformed.json.gz",
+      "sha256": "e1660a1d63a7ce76b62db5c014e04d1b5b26e99a5fdf737e3bfaa9b5392a8524",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Organize-expenditure-corrected.json.gz",
+      "sha256": "73645716599f6ba6a7f39f9d28c2fd8bfee5eeb1a8265fa810c0360950c301a6",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Organize-expenditure-deformed.json.gz",
+      "sha256": "8c7e2e9292525244677aed1ab68a8395eb06a8accef99e1d4da23070a0f35121",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Share-accumulation-corrected.json.gz",
+      "sha256": "6cadaa43f3e07d3da00a82724160e4227cc8f4eb7e2ff6ddb6cac35b33e88587",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Share-accumulation-deformed.json.gz",
+      "sha256": "6aae83367b26ed6929871232ae8e7b92c42c4d03188671ec1ebe74199f32a10c",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Share-expenditure-corrected.json.gz",
+      "sha256": "949d1e31f0058c149caac0542e5e99aa87864c4d5f1bb511014168f993445224",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Share-expenditure-deformed.json.gz",
+      "sha256": "be66d6f592f99a5a037fc270e21b52895f39591d2111967c14775d618608af8d",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Theorize-accumulation-corrected.json.gz",
+      "sha256": "c115d137393d495114fcbac4c7f6c18b6615cee4b7021fca6d24ba039afaa781",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Theorize-accumulation-deformed.json.gz",
+      "sha256": "dd33a22dfcd04f8bb94482337a28a773c442323e95c79f19bf5372f799724a54",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Theorize-expenditure-corrected.json.gz",
+      "sha256": "db5089af5249b920f35a3a7b962a45ba62e49fb34b9445253eb23d5175f0b0d4",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Theorize-expenditure-deformed.json.gz",
+      "sha256": "b93a216d95ff39e5c0e24ab9fbde61e1e0845204024bfe14c9070699264acf2a",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Understand-accumulation-corrected.json.gz",
+      "sha256": "12ee0bdf20517dbeedec60ff69732a7648d0fbf2c7c9cbbdef886eb0d5286f24",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Understand-accumulation-deformed.json.gz",
+      "sha256": "558b550d8da34fdb152d99ced2d45b8035727b460bac7a92fe9dec30f07c0bce",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "active_panel_attempt1/Understand-expenditure-corrected.json.gz",
+      "sha256": "8238c290b1bc67b833ab18d4f34744e1adc36ef41a9a08f0f91ed9d8954b4604",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "active_panel_attempt1/Understand-expenditure-deformed.json.gz",
+      "sha256": "a79dfbcf4024f306c47c5666a25c2055c926112278493734075ead2e71066d44",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "development_final/01-formed-and-active-interruption.json.gz",
+      "sha256": "151497822426f239d6ef0bb78906ffa108c2628b09e89746d95606ab2816a676",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "development_final/02-other-target-release-and-recurrence.json.gz",
+      "sha256": "3e48a851602efefc3c29f86b20819d49fff5d700ede2c418d304c94699908482",
+      "admissions": 2,
+      "deformed": 2,
+      "completed": 0
+    },
+    {
+      "file": "development_final/03-independent-practice-and-organization.json.gz",
+      "sha256": "04153552d1def4219b8e40df8a73601199aa897e3331573f44cddbb3c739fa6f",
+      "admissions": 2,
+      "deformed": 2,
+      "completed": 0
+    },
+    {
+      "file": "development_final/04-novel-returns-reownership-and-native-use.json.gz",
+      "sha256": "d0e0c186138be071da7f10bcfddec262ad51c1610d15df39cd8e16f3e7ee087f",
+      "admissions": 3,
+      "deformed": 2,
+      "completed": 1
+    },
+    {
+      "file": "development_final/05-reowned-does-not-erase-danger.json.gz",
+      "sha256": "52bb65682ca69e4e7431d513641bf9b4671530342d649cc8388a6026dc5ef8aa",
+      "admissions": 4,
+      "deformed": 2,
+      "completed": 1
+    },
+    {
+      "file": "development_final/06-supported-success-without-capacity.json.gz",
+      "sha256": "70ddf73eb0f965f4ffc0a487e1ebfe4cddeb1b62222476ff5f38c06d2d04c932",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "development_final/07-support-withdrawal-recurrence.json.gz",
+      "sha256": "3817481c9d0328781d811fda64c0f593239325677a03ca8162c669ec8c515d42",
+      "admissions": 2,
+      "deformed": 1,
+      "completed": 1
+    },
+    {
+      "file": "development_final/effect-exclude_route-control.json.gz",
+      "sha256": "1eb19b28645b1808d2d1fb80d219cdf31d665f265f9826343bfe7cc8125c86dc",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "development_final/effect-exclude_route-deformed.json.gz",
+      "sha256": "33c7a4a36d8bca2204961530784a77e11e2b77d9934708339babbd6406a5e9f3",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "development_final/effect-forecast-control.json.gz",
+      "sha256": "1eb19b28645b1808d2d1fb80d219cdf31d665f265f9826343bfe7cc8125c86dc",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "development_final/effect-forecast-deformed.json.gz",
+      "sha256": "69539e38a0bcee02538de4c229816e62ad96bcb7953d4631d5420b6d0047400e",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "development_final/effect-obligation-control.json.gz",
+      "sha256": "1eb19b28645b1808d2d1fb80d219cdf31d665f265f9826343bfe7cc8125c86dc",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "development_final/effect-obligation-deformed.json.gz",
+      "sha256": "6cec1300bf8c1040a8e2c267357fd3db1fa79f1fc2a17e48610f6358944268aa",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    },
+    {
+      "file": "development_final/effect-salience-control.json.gz",
+      "sha256": "1eb19b28645b1808d2d1fb80d219cdf31d665f265f9826343bfe7cc8125c86dc",
+      "admissions": 1,
+      "deformed": 0,
+      "completed": 1
+    },
+    {
+      "file": "development_final/effect-salience-deformed.json.gz",
+      "sha256": "7137ff02828527f15969ac528ed2b20ed16773ae473bd10728962a55e9ded713",
+      "admissions": 1,
+      "deformed": 1,
+      "completed": 0
+    }
+  ]
+}

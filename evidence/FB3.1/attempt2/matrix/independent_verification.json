@@ -1,0 +1,969 @@
+{
+  "passed": true,
+  "pairs": 32,
+  "worlds": 96,
+  "bypasses_rejected": 32,
+  "participant_replay": false,
+  "rows": [
+    {
+      "file": "Act-accumulation-bypass.json.gz",
+      "sha256": "2da2bec7b01ed20dfc130929742dec88bca2bbc42b41b47a6f5cff41d30767cc",
+      "recipe": "workflow-act-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 36,
+      "child_spent": 60,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Act-accumulation-corrected.json.gz",
+      "sha256": "292d0c9ed0797e9eee88a146f37474af19b04f0049a91137d4ce10a580b63930",
+      "recipe": "workflow-act-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 36,
+      "child_spent": 60,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Act-accumulation-deformed.json.gz",
+      "sha256": "87afeb9044930883220b3ac5c8c4dd7d7da2a81a48bcd0237637fbf6b2eede91",
+      "recipe": "workflow-act-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 36,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Act-expenditure-bypass.json.gz",
+      "sha256": "6a7933601633009c0e6e223df75be72bd7a8a74cedea357c62fc773d236d0285",
+      "recipe": "workflow-act-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 36,
+      "child_spent": 52,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Act-expenditure-corrected.json.gz",
+      "sha256": "da99202f94be73da539872de8bf246cce9c40c7632b4cb5864bb73bb30dc2c9b",
+      "recipe": "workflow-act-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 36,
+      "child_spent": 52,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Act-expenditure-deformed.json.gz",
+      "sha256": "ccf260eb34d708d768724f750acdcb39be50e7dfb0bca4715b85695f68ba5668",
+      "recipe": "workflow-act-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 36,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Apply-accumulation-bypass.json.gz",
+      "sha256": "fc83c45aff9092a2ba6cd6e0839c1b5e68b95fb92f4d3b561c6b1cbc6eff3264",
+      "recipe": "workflow-apply-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 39,
+      "child_spent": 44,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Apply-accumulation-corrected.json.gz",
+      "sha256": "ad728d8f8a5f45ba3b53ffbd441f95a3e145a242d4be4ec176e9b0cd789a7c83",
+      "recipe": "workflow-apply-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 38,
+      "child_spent": 44,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Apply-accumulation-deformed.json.gz",
+      "sha256": "12455ce9c37d5e2b715e5440403a8866d8a507751bab6762b7ba7b6390a9e4b2",
+      "recipe": "workflow-apply-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 39,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Apply-expenditure-bypass.json.gz",
+      "sha256": "9afd868ad2eac71b571d40d6250a86f67ae48f9c2e68a6304916c653e8affd96",
+      "recipe": "workflow-apply-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 39,
+      "child_spent": 52,
+      "query": "work",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Apply-expenditure-corrected.json.gz",
+      "sha256": "1bfae99c87a4a0d5b710af3ee9b22ef13ee1d3eb193d8116039b77cae51564cb",
+      "recipe": "workflow-apply-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 38,
+      "child_spent": 52,
+      "query": "work",
+      "rejection": null
+    },
+    {
+      "file": "Apply-expenditure-deformed.json.gz",
+      "sha256": "097cf029b34e124baa294a5a659cbc219b67072c91b35fb2dcad6ab40fd23d8a",
+      "recipe": "workflow-apply-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 39,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Commune-accumulation-bypass.json.gz",
+      "sha256": "63521cf3af65809107333e6f16da73de15edf609c4ef362ec1ea5d9d73e19ffc",
+      "recipe": "workflow-commune-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 44,
+      "child_spent": 124,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Commune-accumulation-corrected.json.gz",
+      "sha256": "d23907556503e20adf63851fdd16fbf9c472da545f6c61e4e196b581ac84d4b6",
+      "recipe": "workflow-commune-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 44,
+      "child_spent": 124,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Commune-accumulation-deformed.json.gz",
+      "sha256": "58ae92b4452d102eef7e2e7fdd17df0632cbb31d9941b81dffd8aa94edf67860",
+      "recipe": "workflow-commune-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 44,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Commune-expenditure-bypass.json.gz",
+      "sha256": "efeaad6bc92623f24fc64151577e111cc3874219e8e8c1d5321e5017ee068885",
+      "recipe": "workflow-commune-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 44,
+      "child_spent": 123,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Commune-expenditure-corrected.json.gz",
+      "sha256": "a498bc9268843c821a9440f37edb5f40d3596dcc6056a36704fb6411aceb1c83",
+      "recipe": "workflow-commune-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 44,
+      "child_spent": 123,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Commune-expenditure-deformed.json.gz",
+      "sha256": "8007aba6685eb0b6195766ba2f511a46b379ae9521540c2a466491645a8eb1a0",
+      "recipe": "workflow-commune-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 44,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Contemplate-accumulation-bypass.json.gz",
+      "sha256": "a4d83924c46236f205a070b21939c6f64131a3d875528bd266348177535f506e",
+      "recipe": "workflow-contemplate-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 38,
+      "child_spent": 29,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Contemplate-accumulation-corrected.json.gz",
+      "sha256": "05e1d8c7495a692f9b3be47cbe634fecb52be2c2831997051c0e0057630bbb00",
+      "recipe": "workflow-contemplate-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 38,
+      "child_spent": 29,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Contemplate-accumulation-deformed.json.gz",
+      "sha256": "b458a4e4026986e59bc48a4e0e5834f30d32e2b9faa1b2a62799fbf88af9eee1",
+      "recipe": "workflow-contemplate-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 38,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Contemplate-expenditure-bypass.json.gz",
+      "sha256": "c9a537f6cf5e6fe3527b30fc62215fd7d94c8228af5dc4cabb2ed0eec6954a75",
+      "recipe": "workflow-contemplate-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 38,
+      "child_spent": 35,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Contemplate-expenditure-corrected.json.gz",
+      "sha256": "05689b914b689f2743065b4ef5b5972273ac4a6d42d83db7c23e46d31b747b95",
+      "recipe": "workflow-contemplate-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 38,
+      "child_spent": 35,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Contemplate-expenditure-deformed.json.gz",
+      "sha256": "f0bbb0fb7dd2f3eb840df12366da7ebbec12a515f99960d6fa1c054fa5d49adf",
+      "recipe": "workflow-contemplate-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 38,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Coordinate-accumulation-bypass.json.gz",
+      "sha256": "d3eecc298dd5cf880229e9ad643e7b2929907a3716969f77bcaaf093f9230841",
+      "recipe": "workflow-coordinate-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 40,
+      "child_spent": 107,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Coordinate-accumulation-corrected.json.gz",
+      "sha256": "183ee0097a3715b97ec86f8dce7204ff690d2495ad5bedf7f75a0f8a26bea450",
+      "recipe": "workflow-coordinate-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 40,
+      "child_spent": 107,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Coordinate-accumulation-deformed.json.gz",
+      "sha256": "dd84d430e682ab6e254e31ba353e1aca6c8d317245dceae4172a9a370b1ddb73",
+      "recipe": "workflow-coordinate-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 40,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Coordinate-expenditure-bypass.json.gz",
+      "sha256": "f85efb834e8b574e0b6f23d76ffb058f63d7406464f0410eb965533a8b3175dd",
+      "recipe": "workflow-coordinate-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 40,
+      "child_spent": 114,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Coordinate-expenditure-corrected.json.gz",
+      "sha256": "5136e96b3724bfe5fe4cf6c16609ca63dcc2a7562ba53d60228c9c878de3b373",
+      "recipe": "workflow-coordinate-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 40,
+      "child_spent": 114,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Coordinate-expenditure-deformed.json.gz",
+      "sha256": "5efb612cbe7b4d02107e35b682e88bfc080c34ae753aaa1374d46dfb69b32b82",
+      "recipe": "workflow-coordinate-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 40,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Educate-accumulation-bypass.json.gz",
+      "sha256": "d6995eec2f554873ac465184a3a4223d7b5a6be9e5cc9ced007e8466bcf83797",
+      "recipe": "workflow-educate-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 42,
+      "child_spent": 111,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Educate-accumulation-corrected.json.gz",
+      "sha256": "071ade58ac4b337f7c436abfe0349cd795d5a033daf93b456ff0c50be11689e6",
+      "recipe": "workflow-educate-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 42,
+      "child_spent": 111,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Educate-accumulation-deformed.json.gz",
+      "sha256": "036dc8e6d84910b97a3a64e53108afaa2b43961782844ed9100725e50aae30e8",
+      "recipe": "workflow-educate-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 42,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Educate-expenditure-bypass.json.gz",
+      "sha256": "31cb0b2799b0b3c33a3b1dd2535760c4fb80516b27d0f1a2f6d5047bce648ead",
+      "recipe": "workflow-educate-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 42,
+      "child_spent": 114,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Educate-expenditure-corrected.json.gz",
+      "sha256": "2adca1880379b2a6b6ca1a94b52f5afa3994b0ad9616b317dff2b1eb50a68324",
+      "recipe": "workflow-educate-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 42,
+      "child_spent": 114,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Educate-expenditure-deformed.json.gz",
+      "sha256": "2ea068f7a6161dc7dfbc78301e706bc14977bf68d800388ffd0495cc17bc550c",
+      "recipe": "workflow-educate-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 42,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Embody-accumulation-bypass.json.gz",
+      "sha256": "65a63cd881c4aff2ca9891ca0f51122cbc75ac95649c0eb6f7fb9d43ace187f6",
+      "recipe": "workflow-embody-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 36,
+      "child_spent": 51,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Embody-accumulation-corrected.json.gz",
+      "sha256": "f7d52e48f10af856537feabbda7ef5756acf07ad2974cfce25758f7a01286e01",
+      "recipe": "workflow-embody-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 36,
+      "child_spent": 51,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Embody-accumulation-deformed.json.gz",
+      "sha256": "ddb41fdc0d0aa5b981b4f33ae35459855158a69b0c351569a7a4944dd27fb72b",
+      "recipe": "workflow-embody-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 36,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Embody-expenditure-bypass.json.gz",
+      "sha256": "89acd73cf2ad14743362c3d1a1653b679ab89d7dee61a608e64c445f50251592",
+      "recipe": "workflow-embody-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 36,
+      "child_spent": 51,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Embody-expenditure-corrected.json.gz",
+      "sha256": "86e4abcfab5df9e97a143e167414c46897fad4140206572acc429d0d0505eac8",
+      "recipe": "workflow-embody-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 36,
+      "child_spent": 51,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Embody-expenditure-deformed.json.gz",
+      "sha256": "4f23d893d8a3ec9c2b89fdcdb6a79f3a9ee2383db7c3dd714f40506628afd040",
+      "recipe": "workflow-embody-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 36,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Express-accumulation-bypass.json.gz",
+      "sha256": "4c590fc0a9e116165f5d4ad7c21412d07925a50ba20b090ad7760ebc0007b7c2",
+      "recipe": "workflow-express-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 37,
+      "child_spent": 29,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Express-accumulation-corrected.json.gz",
+      "sha256": "7070e449e94cf36cdba254b494264db7fc43dbd7545e07faeaab533607920240",
+      "recipe": "workflow-express-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 37,
+      "child_spent": 29,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Express-accumulation-deformed.json.gz",
+      "sha256": "11bb74572737a794b1dac23048966ebe10f971a1b28bc723de6d88c258d1960f",
+      "recipe": "workflow-express-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 37,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Express-expenditure-bypass.json.gz",
+      "sha256": "f7ac477fac7971d87b3ed7772a367dde553c0639ec4d5e46d630445d87afac56",
+      "recipe": "workflow-express-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 37,
+      "child_spent": 40,
+      "query": "work",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Express-expenditure-corrected.json.gz",
+      "sha256": "945abc0546918f081136f12a8af3daa787ba96fb824bdfed1a73a4b881b21257",
+      "recipe": "workflow-express-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 37,
+      "child_spent": 40,
+      "query": "work",
+      "rejection": null
+    },
+    {
+      "file": "Express-expenditure-deformed.json.gz",
+      "sha256": "46246c01cea82f325014e3b895aedb2003b377060149ea9e1e95b3def979d4a6",
+      "recipe": "workflow-express-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 37,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Identify-accumulation-bypass.json.gz",
+      "sha256": "f56880fd084f36eecd7bd5f38fcda12dfa7f367bc4e6e3e4a399cfbc1ef49145",
+      "recipe": "workflow-identify-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 43,
+      "child_spent": 59,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Identify-accumulation-corrected.json.gz",
+      "sha256": "bafc3375b2d7f6abcfdc1f57df12fe7da95bc2cafbb437a34cb2980d9fac92e8",
+      "recipe": "workflow-identify-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 43,
+      "child_spent": 59,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Identify-accumulation-deformed.json.gz",
+      "sha256": "e9d7e03c64b7dbd99c8cc29365dd1a6deaaa62a938eabf5dc467bcf1a7832793",
+      "recipe": "workflow-identify-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 43,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Identify-expenditure-bypass.json.gz",
+      "sha256": "358ab516b869422dd5ea17aa868a8d3a276eba9f814a3b1da249e34c53a55aec",
+      "recipe": "workflow-identify-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 43,
+      "child_spent": 61,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Identify-expenditure-corrected.json.gz",
+      "sha256": "9bf0724477856bfbd7b0578961679946a49134bb058baa8b8cbed7f31333475d",
+      "recipe": "workflow-identify-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 43,
+      "child_spent": 61,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Identify-expenditure-deformed.json.gz",
+      "sha256": "f4d038627783b64f68766c4015d5fe64d7c347fb98c1c292d9dd2d51e80ea68e",
+      "recipe": "workflow-identify-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 43,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Institutionalize-accumulation-bypass.json.gz",
+      "sha256": "544cf94380f7b69afd81d458ef0e4b2d3c61eb809e4d151eccb06e3f54a6e660",
+      "recipe": "workflow-institutionalize-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 42,
+      "child_spent": 98,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Institutionalize-accumulation-corrected.json.gz",
+      "sha256": "488958feeceeaba9fc9d5291982532e71d287240b43d209ab8f7565dfd9d697d",
+      "recipe": "workflow-institutionalize-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 42,
+      "child_spent": 98,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Institutionalize-accumulation-deformed.json.gz",
+      "sha256": "2813308998bd5b40a8411c3d582321e7797111a8505f352c2dee95c1feb12829",
+      "recipe": "workflow-institutionalize-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 42,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Institutionalize-expenditure-bypass.json.gz",
+      "sha256": "473985cca0509c846ab5cac845442d230adee25aa41744149ffc243270ed3958",
+      "recipe": "workflow-institutionalize-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 45,
+      "child_spent": 111,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Institutionalize-expenditure-corrected.json.gz",
+      "sha256": "6b124cf9e21bb93476a9ce05e688f6de9d7fbae1640a9564c5beecdc322e2672",
+      "recipe": "workflow-institutionalize-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 45,
+      "child_spent": 111,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Institutionalize-expenditure-deformed.json.gz",
+      "sha256": "3c701f92c7bb4f1a516768ca3a1f0a47b574a08d3ebe4047c6a2f71dfc215961",
+      "recipe": "workflow-institutionalize-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 45,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Integrate-accumulation-bypass.json.gz",
+      "sha256": "d14ad4c9a03373adea61857448932183606ee31cf88ad680b72f02bfd23cb7f3",
+      "recipe": "workflow-integrate-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 41,
+      "child_spent": 65,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Integrate-accumulation-corrected.json.gz",
+      "sha256": "83cbc5013abf4615b8f30ba760aee6d64d343d3022471cf7ffccf72ce6459013",
+      "recipe": "workflow-integrate-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 40,
+      "child_spent": 65,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Integrate-accumulation-deformed.json.gz",
+      "sha256": "bf77c20b896678e653357cd233ff8710d1772f5fec70342781a5f7df19c36b82",
+      "recipe": "workflow-integrate-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 41,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Integrate-expenditure-bypass.json.gz",
+      "sha256": "d3eb92be52631d811367cec9009242d5a5016021b0c9a9683233fd1748e89b98",
+      "recipe": "workflow-integrate-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 41,
+      "child_spent": 71,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Integrate-expenditure-corrected.json.gz",
+      "sha256": "3ca62b8fdc9d6446aa037ab02d9cc1d5c33495152ba196195b393f6d3229d9ff",
+      "recipe": "workflow-integrate-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 40,
+      "child_spent": 71,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Integrate-expenditure-deformed.json.gz",
+      "sha256": "e5d589abb1e58934bfb8d18dc6fa080d64246c8e19a285a7305c379855935636",
+      "recipe": "workflow-integrate-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 41,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Mobilize-accumulation-bypass.json.gz",
+      "sha256": "c69325ad35d9b8692bd3dcb06f7b4231c22cd267774bf5523ab5187709756f5b",
+      "recipe": "workflow-mobilize-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 42,
+      "child_spent": 53,
+      "query": "maintain",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Mobilize-accumulation-corrected.json.gz",
+      "sha256": "05e65ea7fa39c01123141ba05edf19ea4e3401914c9f0fc1cfc0ec7e7205015f",
+      "recipe": "workflow-mobilize-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 42,
+      "child_spent": 53,
+      "query": "maintain",
+      "rejection": null
+    },
+    {
+      "file": "Mobilize-accumulation-deformed.json.gz",
+      "sha256": "6f599653cec5bd5d79c91e617bf868436cd794eddf782e15a5556d07b74fd87d",
+      "recipe": "workflow-mobilize-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 42,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Mobilize-expenditure-bypass.json.gz",
+      "sha256": "8777df7ead1a2df7ef0337df7afade25f49fe14b4b71e75a56f9eedc0274af43",
+      "recipe": "workflow-mobilize-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 42,
+      "child_spent": 68,
+      "query": "work",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Mobilize-expenditure-corrected.json.gz",
+      "sha256": "cedcb50a9c4b6bcac0c1a2325bad6e70da9426f87630deabb9990c86f1309bda",
+      "recipe": "workflow-mobilize-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 42,
+      "child_spent": 68,
+      "query": "work",
+      "rejection": null
+    },
+    {
+      "file": "Mobilize-expenditure-deformed.json.gz",
+      "sha256": "f3365953f5524e8b655a9b357ea0e7127ccaee7e18ad32e9157dc2032215d1f1",
+      "recipe": "workflow-mobilize-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 42,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Organize-accumulation-bypass.json.gz",
+      "sha256": "08509e271a0cf025fd8f78be10b8840445faefa215c5262d84d0b65f6bebad35",
+      "recipe": "workflow-organize-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 36,
+      "child_spent": 85,
+      "query": "use-1",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Organize-accumulation-corrected.json.gz",
+      "sha256": "0129df09e3cd8b0eb6a2f7d6183b7e2e7246236b208c2b4443bc5b45680ab94d",
+      "recipe": "workflow-organize-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 36,
+      "child_spent": 85,
+      "query": "use-1",
+      "rejection": null
+    },
+    {
+      "file": "Organize-accumulation-deformed.json.gz",
+      "sha256": "bc0c737a0783b56811c76d502ae05bd6963dd6b19c83e516934e9394fd3f18bc",
+      "recipe": "workflow-organize-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 36,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Organize-expenditure-bypass.json.gz",
+      "sha256": "e0615919a8b43fcfecd14287c24f90c84407a919e457872c1b82f662465056a1",
+      "recipe": "workflow-organize-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 36,
+      "child_spent": 85,
+      "query": "use-1",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Organize-expenditure-corrected.json.gz",
+      "sha256": "c017c133e7eafc791baca076d3d10ae3bde10f5a8a09a99e7811f12acf3d204e",
+      "recipe": "workflow-organize-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 36,
+      "child_spent": 85,
+      "query": "use-1",
+      "rejection": null
+    },
+    {
+      "file": "Organize-expenditure-deformed.json.gz",
+      "sha256": "1a5beec47cd30776dcbe8ed756c35354785e5afed15530ff9646ba34265573e7",
+      "recipe": "workflow-organize-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 36,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Share-accumulation-bypass.json.gz",
+      "sha256": "75de078fbf0f9cd79d3ae4643343efcfd2ff28c1354877811e2946af9b4017c3",
+      "recipe": "workflow-share-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 41,
+      "child_spent": 83,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Share-accumulation-corrected.json.gz",
+      "sha256": "a1fea4076189e160c6f980384479f04f29d1232b34fe05808860aaaa9ebb69c7",
+      "recipe": "workflow-share-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 41,
+      "child_spent": 83,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Share-accumulation-deformed.json.gz",
+      "sha256": "55268cee2f083be646099ea795576b443f3c310f517288d6eb9ab763d11f669b",
+      "recipe": "workflow-share-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 41,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Share-expenditure-bypass.json.gz",
+      "sha256": "edc437142cbb6bc57bfc79e7cfedb8f533d3063e2a0f855353c05ba496d9f9e9",
+      "recipe": "workflow-share-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 41,
+      "child_spent": 85,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Share-expenditure-corrected.json.gz",
+      "sha256": "95d20c1b20e4c13df94c1f85baf569a315ef809cfe8eb8c6581ef7a5fd51f24c",
+      "recipe": "workflow-share-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 41,
+      "child_spent": 85,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Share-expenditure-deformed.json.gz",
+      "sha256": "7b99b9d429988a075f9d10c18bb9d043c4dab268026dc9cea22312219dec47a6",
+      "recipe": "workflow-share-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 41,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Theorize-accumulation-bypass.json.gz",
+      "sha256": "d4940454b3ca030363a257e6ee60ef7930b6c39584d53b711e558826eafc1356",
+      "recipe": "workflow-theorize-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 37,
+      "child_spent": 19,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Theorize-accumulation-corrected.json.gz",
+      "sha256": "bb1a11af22ea3b589ec6970d2aaa4c5a9b2437ef0814d3a1180653f48e80acbd",
+      "recipe": "workflow-theorize-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 37,
+      "child_spent": 19,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Theorize-accumulation-deformed.json.gz",
+      "sha256": "0f20dae338880c372867e8b30219e4615b904e79b2cba911da2febf54b4dc41d",
+      "recipe": "workflow-theorize-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 37,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Theorize-expenditure-bypass.json.gz",
+      "sha256": "656da6e9b1e84b8d60ec9001f53e04c2339ad35a4a75b7fcd022214d3d1738c7",
+      "recipe": "workflow-theorize-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 37,
+      "child_spent": 22,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Theorize-expenditure-corrected.json.gz",
+      "sha256": "c0b27213fbcd6e08cf287aaff44eeaea48319df924ccf692f2fd3cf362fe5834",
+      "recipe": "workflow-theorize-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 37,
+      "child_spent": 22,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Theorize-expenditure-deformed.json.gz",
+      "sha256": "b24dfcb6619a753f6290602203482b6671389b5e5c336cf62f1344ca8572c472",
+      "recipe": "workflow-theorize-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 37,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Understand-accumulation-bypass.json.gz",
+      "sha256": "7617e123644de77110e369027e7834ece978f52f19a9aed197f15b433f8a8bb3",
+      "recipe": "workflow-understand-accumulation-v1",
+      "arm": "bypass",
+      "admission_spent": 40,
+      "child_spent": 47,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Understand-accumulation-corrected.json.gz",
+      "sha256": "e49fe31bedf8cd48552394cab6f651d9cb77e643776056d2fa76d68a2cbc8094",
+      "recipe": "workflow-understand-accumulation-v1",
+      "arm": "corrected",
+      "admission_spent": 39,
+      "child_spent": 47,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Understand-accumulation-deformed.json.gz",
+      "sha256": "1661d21516a8d8585125349230815a5f9a04c10d164948ca803b61060ad79f51",
+      "recipe": "workflow-understand-accumulation-v1",
+      "arm": "deformed",
+      "admission_spent": 40,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    },
+    {
+      "file": "Understand-expenditure-bypass.json.gz",
+      "sha256": "3700db6549b7c92fa37d7c56ef5ce56560a9006a34d59c1fe32cd5dfd9f3fafc",
+      "recipe": "workflow-understand-expenditure-v1",
+      "arm": "bypass",
+      "admission_spent": 40,
+      "child_spent": 50,
+      "query": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    {
+      "file": "Understand-expenditure-corrected.json.gz",
+      "sha256": "aab39ee9a8ab7e40649fc881c0bb4a939d4e5a98c386b6230e746c29de72f39c",
+      "recipe": "workflow-understand-expenditure-v1",
+      "arm": "corrected",
+      "admission_spent": 39,
+      "child_spent": 50,
+      "query": "handover",
+      "rejection": null
+    },
+    {
+      "file": "Understand-expenditure-deformed.json.gz",
+      "sha256": "c8789025672e9ee403731f182b4b68284915249bd5fc5b8d50177644b3a38e77",
+      "recipe": "workflow-understand-expenditure-v1",
+      "arm": "deformed",
+      "admission_spent": 40,
+      "child_spent": 0,
+      "query": "unavailable",
+      "rejection": null
+    }
+  ]
+}

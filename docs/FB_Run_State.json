@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "3.1",
+  "current_batch": "3.2",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -10,17 +10,18 @@
     "2.1",
     "2.2",
     "2.3",
-    "2.4"
+    "2.4",
+    "3.1"
   ],
-  "next_batch": "3.1",
+  "next_batch": "3.2",
   "run_id": "fb24-recovery-20261007T112546Z-827fc48b",
-  "lease_expires_at": "2026-10-07T12:46:16.367035Z",
-  "updated_at": "2026-10-07T12:16:16.367035Z",
+  "lease_expires_at": "2026-10-07T13:04:48.321453Z",
+  "updated_at": "2026-10-07T12:34:48.321453Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB3.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB3.1 inherited diagnostic saved; new workflow Shell layer frozen for prevention tests, 32 pairs and matched negative controls.",
+  "activity": "FB3.1 accepted: 667 tests,32 prevention/correction pairs,32 invalid controls,143 inherited raw worlds; entering FB3.2 active interruption.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",

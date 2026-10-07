@@ -12,8 +12,8 @@
 | 2.2 | Workflow selection: crossings that end in I, IT or ITS for one actor | complete; see FB2.2_Record.md | |
 | 2.3 | Workflow selection: the social crossings | complete; see FB2.3_Record.md | |
 | 2.4 | Type matrix, responsiveness and the selection auditor | complete; see FB2.4_Record.md | |
-| 3.1 | Prevention of initiation | in progress | |
-| 3.2 | Active interruption | pending | |
+| 3.1 | Prevention of initiation | complete; see FB3.1_Record.md | |
+| 3.2 | Active interruption | next | |
 | 3.3 | Effects, signs, correction and recurrence | pending | |
 | 4.1 | The five families in workflow content | pending | |
 | 4.2 | Nested accountability and the two faces | pending | |
@@ -27,4 +27,4 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 remains incomplete; batches through 2.4 are accepted. Attempt3 passed all gates following Greg’s recovery authorization; both earlier failures remain preserved. Batch 3.1 is next and automatic continuation remains enabled. Phase 7 still requires explicit R5.
+[open] Release 1.0 remains incomplete; batches through 3.1 are accepted. FB2.4 recovery and FB3.1 prevention evidence are saved with all earlier failures preserved. Batch 3.2 is next. Automatic continuation remains enabled; Phase 7 still requires explicit R5.

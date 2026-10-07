@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "accepted_attempt": 2,
+  "archive": "Socionics_Final_Build_FB3.1_Evidence.zip",
+  "library_file_id": "libfile_97794a2fa93481918309e115ce4f01fe",
+  "file_id": "file_00000000ecb881f5b29d0a5bee2aa32c",
+  "bytes": 15310983,
+  "sha256": "519b1c94f698e46d81791930440dff22e1e3a5d87f26c45dd0d7b64020004aab",
+  "members": 225,
+  "source_freeze_sha256": "8b66ef05ed8abb8ea96cd8c6dfda0536abdc05de30968be8447af1d7727d5b01",
+  "restore": "Materialize the exact Library/file IDs using the Library skill. Verify bytes and SHA-256 before extracting into the repository root. Members begin evidence/FB3.1/. Verify every file listed in evidence/FB3.1/Raw_SHA256.json, which excludes itself. This index was added after archiving. Preserve the inherited diagnostic and failed attempt1.",
+  "verify": "python tools/verify_workflow_shell.py evidence/FB3.1/attempt2/matrix",
+  "inherited_C5": "docs/FB_C5_Evidence_Index.json identifies the immutable original archive; verification ran on a separate extracted copy, never overwriting the original.",
+  "accepted_summary": "attempt2/Acceptance_Summary.json",
+  "failed_attempt": "attempt1/Attempt_Summary.json"
+}

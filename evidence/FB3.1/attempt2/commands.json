@@ -1,0 +1,77 @@
+[
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB3.1/attempt2/new-tests",
+      "tests_workflow_shell"
+    ],
+    "started_at": "2026-10-07T12:19:09.290626+00:00",
+    "seconds": 28.130586571001913,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/verify_c5_delivery.py",
+      "/workspace/scratch/07b063671898/inherited/c5/reverification_fb31"
+    ],
+    "started_at": "2026-10-07T12:21:51.580261+00:00",
+    "seconds": 92.57605288499326,
+    "exit_code": 0,
+    "log": "evidence/FB3.1/attempt2/inherited-c5.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/evaluate_workflow_shell.py",
+      "evidence/FB3.1/attempt2/matrix"
+    ],
+    "started_at": "2026-10-07T12:21:51.579904+00:00",
+    "seconds": 188.78072217700537,
+    "exit_code": 0,
+    "log": "evidence/FB3.1/attempt2/matrix.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/verify_workflow_shell.py",
+      "evidence/FB3.1/attempt2/matrix"
+    ],
+    "started_at": "2026-10-07T12:25:00.472125+00:00",
+    "seconds": 97.52636019799684,
+    "exit_code": 0,
+    "log": "evidence/FB3.1/attempt2/independent-matrix.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB3.1/attempt2/workflow-regression",
+      "tests_workflow_selection",
+      "tests_c7_workflow",
+      "tests_g"
+    ],
+    "started_at": "2026-10-07T12:21:51.578948+00:00",
+    "seconds": 516.6143308640021,
+    "exit_code": 0,
+    "log": "evidence/FB3.1/attempt2/workflow-regression.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/regress_c7_parallel.py",
+      "evidence/FB3.1/attempt2/inherited-regression"
+    ],
+    "started_at": "2026-10-07T12:21:51.579569+00:00",
+    "seconds": 612.2218634159944,
+    "exit_code": 0,
+    "log": "evidence/FB3.1/attempt2/inherited-regression.stdout.log",
+    "source_unchanged": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "batch": "3.1",
+  "attempt": 2,
+  "status": "passed",
+  "accepted": true,
+  "verified_at": "2026-10-07T12:33:00.846695+00:00",
+  "source_freeze_sha256": "8b66ef05ed8abb8ea96cd8c6dfda0536abdc05de30968be8447af1d7727d5b01",
+  "source_files": 1250,
+  "source_unchanged": true,
+  "distinct_passing_methods": 667,
+  "existing_methods": 661,
+  "new_methods": 6,
+  "skipped": 0,
+  "prevention_pairs": 32,
+  "workflow_raw_worlds": 96,
+  "matched_invalid_bypasses_rejected": 32,
+  "inherited_C5_raw_worlds": 143,
+  "participant_replay_by_verifiers": false,
+  "inherited_diagnostic_effects": 5,
+  "generated_effect": "approval only",
+  "prior_failure": "../attempt1/Attempt_Summary.json",
+  "limits": [
+    "32 explicitly requested workflow route/face cells in IEE frame",
+    "admission-only; active interruption remains batch3.2",
+    "bounded engineering operationalization, no claim about people"
+  ]
+}

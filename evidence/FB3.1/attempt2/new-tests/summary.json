@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 27.973200357009773,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses",
+      "status": "passed",
+      "seconds": 15.710227099989424
+    },
+    {
+      "test_id": "tests_workflow_shell.test_prevention.PreventionTests.test_audit_records_private_and_legacy_checkpoint_upgrade",
+      "status": "passed",
+      "seconds": 1.4720627960050479
+    },
+    {
+      "test_id": "tests_workflow_shell.test_prevention.PreventionTests.test_exact_partial_admission_and_child_continuation",
+      "status": "passed",
+      "seconds": 2.555819857996539
+    },
+    {
+      "test_id": "tests_workflow_shell.test_prevention.PreventionTests.test_legitimate_constraints_are_not_deformations",
+      "status": "passed",
+      "seconds": 2.3849841469927924
+    },
+    {
+      "test_id": "tests_workflow_shell.test_prevention.PreventionTests.test_partial_information_and_no_demand_are_not_shells",
+      "status": "passed",
+      "seconds": 1.2163502920011524
+    },
+    {
+      "test_id": "tests_workflow_shell.test_prevention.PreventionTests.test_tampered_completion_roles_and_exact_inputs_rejected",
+      "status": "passed",
+      "seconds": 4.631014815997332
+    }
+  ]
+}

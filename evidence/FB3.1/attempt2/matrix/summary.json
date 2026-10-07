@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "pairs": 32,
+  "worlds": 96,
+  "invalid_bypasses_rejected": 32,
+  "source_unchanged": true
+}
