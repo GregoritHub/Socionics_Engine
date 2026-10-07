@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "all_FB24_frozen_files_unchanged": true,
+  "added_files": [
+    "contracts/C7_Workflow_Shell_Protocol_v1.json",
+    "contracts/C7_Workflow_Shell_Protocol_v1.sha256",
+    "hle_unified/workflow_shell_audit.py",
+    "hle_unified/workflow_shell_execution.py",
+    "hle_unified/workflow_shell_records.py",
+    "tests_workflow_shell/__init__.py",
+    "tests_workflow_shell/fixtures.py",
+    "tests_workflow_shell/test_prevention.py",
+    "tools/diagnose_workflow_shell.py",
+    "tools/evaluate_workflow_shell.py",
+    "tools/verify_workflow_shell.py"
+  ],
+  "source_files": 1250
+}
