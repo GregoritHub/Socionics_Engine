@@ -1,0 +1,40 @@
+{
+  "schema": "hle-c7-workflow-shell-fb32-recovery-protocol-v1",
+  "status": "source_defined prospective authorized recovery; no acceptance gate weakened",
+  "batch": "3.2",
+  "authorization": {
+    "prior_head": "36cbce079732076baba267fdf78495156a018311",
+    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "recorded_at": "2026-10-07T13:49:38.884670Z",
+    "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
+    "historical_blocker": "evidence/FB3.2/Blocker.json"
+  },
+  "parents": [
+    "C7_Workflow_Shell_Protocol_v1.json",
+    "C7_Workflow_Shell_FB3.2_Amendment_v1.json"
+  ],
+  "failure_preservation": "Attempts 1 and 2 remain failed and unchanged, including their source snapshots, freezes, logs and separate unchanged-source reproduction. Prior blocked archive remains immutable.",
+  "scope": "Only the new FB3.2 independent auditor and its negative tests may change. All accepted FB3.1 frozen source and inherited cancellation execution remain byte-identical.",
+  "cancellation_sources": "Reconstruct the exact ordered deduplicated tuple of the immediately prior operation reference followed by that prior operation\u2019s indexed input references, from committed raw records. Native cancellation calls _event with no changed material; no target is appended. Never copy the receipt\u2019s own sources as an expected value.",
+  "receipt_checks": "Actual cancellation event, same transaction as cancelled revision, original actor/context/primitive, event lineage and Account subject/content/time, no invented completed output or material change. First intermediate, spent prefix, original destination obligation and one-attempt allowances remain checked.",
+  "tamper_controls": [
+    "omit an input source",
+    "append a foreign source",
+    "reverse the valid ordered provenance",
+    "forge cancellation outcome",
+    "alter retained intermediate spending or completion"
+  ],
+  "gates": {
+    "new_distinct_methods": 9,
+    "existing_distinct_methods": 667,
+    "total_distinct_methods": 676,
+    "interrupted_worlds": 32,
+    "undeformed_worlds": 32,
+    "invalid_continuations": 32,
+    "exact_checkpoint_pairs": 32,
+    "saved_continuation_worlds": 96,
+    "independent_raw_verification": "96 panel worlds plus 96 paid continuation worlds; no executor or fixture import"
+  },
+  "freeze": "Freeze every Python source/tool/test and contract before the first counted attempt3 run. No source changes during any counted run.",
+  "failure_policy": "All standing plan stops still apply to resumed work. No baseline or inherited contract edits, no tuning toward theory, no Phase7 without R5."
+}

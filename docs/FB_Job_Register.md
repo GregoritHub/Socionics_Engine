@@ -13,7 +13,7 @@
 | 2.3 | Workflow selection: the social crossings | complete; see FB2.3_Record.md | |
 | 2.4 | Type matrix, responsiveness and the selection auditor | complete; see FB2.4_Record.md | |
 | 3.1 | Prevention of initiation | complete; see FB3.1_Record.md | |
-| 3.2 | Active interruption | blocked after two failed test gates; see FB3.2_Record.md | |
+| 3.2 | Active interruption | authorized recovery in progress; see FB3.2_Record.md | |
 | 3.3 | Effects, signs, correction and recurrence | pending | |
 | 4.1 | The five families in workflow content | pending | |
 | 4.2 | Nested accountability and the two faces | pending | |
@@ -27,4 +27,6 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 remains incomplete; batches through 3.1 are accepted. FB3.2 is blocked by the Final Build Plan §1 two-failure stop: the new audit mishandles inherited cancellation-event provenance. Both failures are preserved. Automatic continuation is disabled and the lease released. No third attempt was made; Phase 7 requires explicit R5.
+[open] Historical stop before explicit recovery authorization: Release 1.0 remains incomplete; batches through 3.1 are accepted. FB3.2 is blocked by the Final Build Plan §1 two-failure stop: the new audit mishandles inherited cancellation-event provenance. Both failures are preserved. Automatic continuation is disabled and the lease released. No third attempt was made; Phase 7 requires explicit R5.
+
+[source_defined] The author approved the batch 3.2 fix and resumption. Recovery is active under a fresh lease; earlier failed attempts remain preserved. All other stop gates and the separate Phase 7 ruling remain unchanged.

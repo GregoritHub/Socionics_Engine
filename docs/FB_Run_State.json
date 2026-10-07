@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "blocked",
+  "status": "running",
   "current_batch": "3.2",
   "completed_batches": [
     "0.1",
@@ -14,19 +14,21 @@
     "3.1"
   ],
   "next_batch": "3.2",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T12:53:23.745389Z",
-  "stop_reason": "Final Build Plan \u00a71 two-failure stop: FB3.2 new-test gate failed twice; new auditor overconstrains inherited cancellation-event provenance. See evidence/FB3.2/Blocker.json.",
+  "run_id": "fb32-recovery-20261007T134938Z-5f1c59d6",
+  "lease_expires_at": "2026-10-07T14:19:38.884670Z",
+  "updated_at": "2026-10-07T13:49:38.884670Z",
+  "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB3.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Stopped after FB3.2 second failed new-test gate. All source and failure evidence preserved; no third attempt. Latest accepted batch3.1.",
+  "activity": "Authorized FB3.2 recovery: preregister exact cancellation-provenance reconstruction before source changes.",
   "automation_enabled": false,
   "stop_release": {
-    "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",
-    "authorization": "Greg: \"Ok so keep going\" in direct response to the FB2.4 stop explanation on 2026-10-07T07:24:31-04:00. Authorizes FB2.4 recovery and continued Release 1.0 work under the existing plan.",
-    "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
+    "prior_head": "36cbce079732076baba267fdf78495156a018311",
+    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "recorded_at": "2026-10-07T13:49:38.884670Z",
+    "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
+    "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
   "automation_status": "Verified disabled under the Final Build Plan two-failure stop.",
   "automation_user_reported_enabled": true,
@@ -48,10 +50,15 @@
       "authorization": "Greg answered Yes to authorizing the fix and resuming remaining Release 1.0 batches under the existing plan.",
       "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
       "remaining_stop_gates": "unchanged; Phase 7 requires R5"
+    },
+    {
+      "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",
+      "authorization": "Greg: \"Ok so keep going\" in direct response to the FB2.4 stop explanation on 2026-10-07T07:24:31-04:00. Authorizes FB2.4 recovery and continued Release 1.0 work under the existing plan.",
+      "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
   "last_run_id": "fb24-recovery-20261007T112546Z-827fc48b",
-  "blocker": "evidence/FB3.2/Blocker.json",
+  "blocker": null,
   "automation_verification_history": [
     {
       "checked_at": "2026-10-07T11:30:34.532266Z",

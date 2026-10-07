@@ -1,6 +1,6 @@
 # FB3.2 — Workflow active interruption: blocked after second failed gate
 
-[open] Current disposition: blocked. Neither attempt passed the new-test gate. Batch 3.1 remains the latest accepted checkpoint; earlier statements below are chronological development history.
+[open] Current disposition: authorized recovery in progress. Historical blocked disposition follows. Neither attempt passed the new-test gate. Batch 3.1 remains the latest accepted checkpoint; earlier statements below are chronological development history.
 
 [source_defined] Batch 3.2 follows the unchanged Phase 3 protocol and CT §10. The separate prospective clarification `C7_Workflow_Shell_FB3.2_Amendment_v1.json` specifies the matched paid prefix, the zero-cost cancellation intervention, 32 exact checkpoint pairs, effect assignment and one-attempt preservation. SHA-256: `9bcd49e3e71ed8709c1b92cb0f16be793d539775f6b968fc7903be9ceaa332ba`.
 
@@ -23,3 +23,5 @@
 [machine-checked] Both failures, exact commands, test logs, source snapshots/freezes and a separately labelled unchanged-runtime reproduction are durably preserved in the 28-member archive, SHA-256 `59dda409593ee5459e0408923f787cc78dc91db4044bb45d24fa6dc853a5446b`. Exact IDs and restore instructions are in `evidence/FB3.2/Evidence_Index.json`. Original baseline files and all accepted FB3.1 source files remain unchanged.
 
 [machine-checked] The continuation task was successfully disabled at 2026-10-07T12:51:55.713905Z under the required stop. The run state is blocked and the lease released. Release 1.0 remains incomplete; Phase 7 remains unauthorized.
+
+[source_defined] Author release: “I approve the batch 3.2 fix and resumption”. This authorizes the scoped new-auditor repair and continued Release 1.0 work. The separate prospective recovery protocol `C7_Workflow_Shell_FB3.2_Recovery_v1.json` is hashed as `b373046185e52a421b61a097791722a787381954dd95f75b871d67ce47d28972` before source changes. Previous failures remain failed; no inherited contract or accepted source is changed. All other stop gates remain.
