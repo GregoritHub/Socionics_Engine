@@ -1,0 +1,42 @@
+{
+  "status": "probe",
+  "archive": "Socionics_Final_Build_FB2.1_Evidence.zip",
+  "sha256": "693112b5fe50d148b93725aea34bc1543269ca05a09c8ac299bbd1e3ab688970",
+  "bytes": 4195085,
+  "extraction": "Extract into an empty directory; verify every member against Raw_SHA256.json. Raw panel worlds are in panel/.",
+  "recovered_from_commit": "5f2f7a3d060d02bf5510f1912c9c30f5b55525d5",
+  "tests": 648,
+  "witnesses": 8,
+  "controls_rejected": 8,
+  "freeze_files": 1224,
+  "commands": [
+    "python tools/test_c6.py evidence/FB2.1/final-tests tests_workflow_selection tests_c7_workflow tests_g",
+    "python tools/regress_c7_parallel.py evidence/FB2.1/inherited-regression",
+    "python tools/evaluate_workflow_selection.py evidence/FB2.1/panel",
+    "python tools/verify_workflow_selection.py evidence/FB2.1/panel"
+  ],
+  "recovery": "Previous runner completed after last checkpoint. Recovered raw logs and per-method results; verified all runner source manifests and 1224-file phase freeze against current cloned source. Re-ran independent raw panel verification successfully. No source edits during recovery.",
+  "library": {
+    "operation": "create_library_file",
+    "status": "succeeded",
+    "path": "/Socionics_Final_Build_FB2.1_Evidence.zip",
+    "file_id": "file_000000003bb08230bdc2fc12a6b741fa",
+    "library_file_id": "libfile_e694eef861f0819198a980dec0eaa456",
+    "file_name": "Socionics_Final_Build_FB2.1_Evidence.zip",
+    "current_version_number": 0,
+    "restored_from_version_number": null,
+    "xattrs": [
+      {
+        "name": "user.library-file-version",
+        "value": "0"
+      }
+    ],
+    "directory_id": "libdir_e8678eca76cc8191af2cb84f3b6dedb0",
+    "mime_type": "application/zip",
+    "library_artifact_type": "other",
+    "file_size_bytes": 4195085,
+    "external_connectors_accessed": false
+  },
+  "source_freeze_sha256": "6527984d5eaad279c365530524b1497d9c2a43deeac53fef8c33e52e98fbc007",
+  "retrieval": "Materialize the exact library_file_id with Library tools; verify archive SHA-256, then extract into an empty directory and check Raw_SHA256.json. source_freeze.json and all raw worlds are archive members."
+}

@@ -1,20 +1,21 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "2.1",
+  "current_batch": "2.2",
   "completed_batches": [
     "0.1",
     "0.2",
     "1.1",
-    "1.2"
+    "1.2",
+    "2.1"
   ],
-  "next_batch": "2.1",
+  "next_batch": "2.2",
   "run_id": "continuation-20261007T0122Z",
   "lease_expires_at": "2026-10-07T01:52:25.000Z",
-  "updated_at": "2026-10-07T01:22:25Z",
+  "updated_at": "2026-10-07T01:23:18Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB1.2_Record.md",
+  "record": "docs/FB2.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Saving verified FB2.1 evidence after interrupted large GitHub blob upload."
+  "activity": "FB2.1 verified and saved; preparing FB2.2 crossing-selection protocol."
 }
