@@ -1,0 +1,32 @@
+{
+  "status": "blocked",
+  "gate": "FB2.2 new selector test gate",
+  "attempts": 2,
+  "second_attempt": {
+    "tests": 11,
+    "passed_methods": 10,
+    "errored_method": 1,
+    "subtest_errors": 12,
+    "source_unchanged": true,
+    "frozen_files": 1228
+  },
+  "reason": "After correcting an auditor import error, the rerun failed in the new crossing control fixture: job_status raises KeyError when the deliberately withheld native child is absent.",
+  "source_instruction": "project_sources/HLE_Final_Build_Plan_v1_0.txt section 1: Stop and report to the author, without working around it, when: a gate fails twice after a correction.",
+  "prospective_protocol_sha256": "391b091384f82f6172ef93bcf728d57168296ab984d869412798610786dd7f5f",
+  "commands": [
+    {
+      "command": "python tools/test_c6.py evidence/FB2.2/attempt1-tests tests_workflow_selection",
+      "exit_code": 1
+    },
+    {
+      "command": "python tools/test_c6.py evidence/FB2.2/attempt2-tests tests_workflow_selection",
+      "exit_code": 1
+    }
+  ],
+  "not_run": [
+    "FB2.2 raw twenty-case evaluation",
+    "FB2.2 independent raw panel reconstruction",
+    "FB2.2 full inherited regression"
+  ],
+  "proposed_recovery": "If the author authorizes resumption after the stop, correct only the evaluator query to handle absent child as unavailable output, retain both failures, freeze afresh and rerun the complete gate. Do not change material law or call the current batch passed."
+}

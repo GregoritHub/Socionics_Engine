@@ -76,7 +76,7 @@ class WorkflowSelectionEngine(WorkflowEngine):
         d.update(record_type='operation',c7ws=True,required=required,completed=0,spent=0,status='pending',failure=None,result=None,
             primitive='bind',route_prepare=required,route_execute=0,started_tick=self._now().tick,
             snapshot=snapshot.ref,candidates=ballot.ref,scanned=len(s['items']),candidate_count=len(rows),
-            evaluated=sum(x['examined'] for x in rows),policy='c7-workflow-selection-v1',
+            evaluated=sum(x['examined'] for x in rows),policy=s.get('policy', 'c7-workflow-selection-v1'),
             **{'participant.0':r.actor,'lock.0':r.actor,'input.0':r.demand,'dependency.0':self.law})
         job = record(job_address(r.actor,r.key),'Paid workflow candidate comparison',d)
         self._batch(cid,r.actor,(snapshot,ballot,job),evidence=(r.demand,*r.accessible))
@@ -122,3 +122,16 @@ class WorkflowSelectionEngine(WorkflowEngine):
             spent=d['spent'],status='deferred' if selected is None else 'launched' if child else 'rejected',completion_claim=False))
         self._batch(cid+':decision',actor,(admission,decision),evidence=(current.ref,))
         return event.ref
+
+
+class WorkflowCrossingSelectionEngine(WorkflowSelectionEngine):
+    """Twenty-cell FB2.2 policy; self-only v1 remains exactly restorable."""
+    SCHEMA = 'hle-full-crux-c7-workflow-selection-v2'
+
+    def workflow_selection_view(self, r):
+        return dict(super().workflow_selection_view(r), policy='c7-workflow-selection-v2')
+
+    def _workflow_policy(self, s):
+        from .workflow_selection_policy import CROSSING_CELLS
+        rows = proposals(s, CROSSING_CELLS)
+        return rows, choose(rows)

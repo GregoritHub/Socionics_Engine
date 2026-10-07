@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT),str(ROOT/'baseline/HLE_Rebuild_R21B')]
 from itertools import permutations
 from hle_unified.workflow_audit import audit as native_audit, extent as native_extent
-from hle_unified.workflow_reference import decode, check_authored
+from hle_unified.workflow_reference import decode, check_authored, schedule, answer
 from hle_unified.workflow_records import WORKFLOW_RECIPES
 from hle_unified.workflow_selection_records import demand_value, dumps, loads
 from hle_unified.crux_audit import _access
@@ -25,20 +25,36 @@ def extent(d):
     if d['required'] != total or d['route_prepare'] != total or d['route_execute'] != 0:
         raise ValueError('unpaid workflow comparison extent')
 
+def policy_cells(s):
+    policy=s.get('policy','c7-workflow-selection-v1')
+    if policy=='c7-workflow-selection-v1':return CELLS
+    if policy=='c7-workflow-selection-v2':return tuple(i for i in range(32) if i//2 in (0,1,3,4,5,7,10,12,13,15))
+    raise ValueError('unknown candidate policy')
+
 def reference(s):
     r=s['request']; a=r['actor']; candidates=[]
-    names=('Contemplate','Act','Commune','Integrate')
-    for cell in CELLS:
-        n=names[cell//10]; f=('accumulation','expenditure')[cell%2]
+    names=('Contemplate','Express','Share','Theorize','Embody','Act','Coordinate','Organize','Identify','Mobilize','Commune','Institutionalize','Understand','Apply','Educate','Integrate')
+    cells=policy_cells(s)
+    for cell in cells:
+        n=names[cell//2]; f=('accumulation','expenditure')[cell%2]
         recipe=WORKFLOW_RECIPES['workflow-'+n.lower()+'-'+f+'-v1']
-        size={'Contemplate':2,'Act':1,'Commune':3,'Integrate':2}[n]; bundles=[]
+        size={'Contemplate':2,'Act':1,'Commune':3,'Integrate':2,'Express':1,'Theorize':1,'Embody':1,'Understand':2,'Apply':1,'Organize':0}[n]; bundles=[]
         for bundle in permutations(s['items'],size):
             ks=tuple(x['data']['kind'] for x in bundle)
             if n=='Contemplate' and not (set(ks)<={'intention','stance'} and dumps(bundle[0]['ref'])<dumps(bundle[1]['ref'])):continue
             if n=='Integrate' and not (ks==('system','system') and dumps(bundle[0]['ref'])<dumps(bundle[1]['ref'])):continue
             if n=='Act' and ks!=('activity',):continue
             if n=='Commune' and not (ks==('shared','offer','reply') and bundle[1]['data'].get('source')==bundle[0]['ref'] and bundle[2]['data'].get('offer')==bundle[1]['ref']):continue
+            if n=='Express' and ks!=('intention',):continue
+            if n=='Theorize' and ks[0] not in ('intention','personal'):continue
+            if n=='Embody' and ks!=('activity',):continue
+            if n=='Apply' and ks[0] not in ('system','rule'):continue
+            if n=='Understand' and not (ks[0] in ('system','rule') and ks[1] in ('intention','stance')):continue
+            if n=='Organize':continue
             bundles.append(bundle)
+        if n=='Organize':
+            observations=tuple(v for v in s['items'] if v['data']['kind']=='activity')
+            bundles=[observations] if observations else []
         effort=recipe.material_units+sum(sum(x['charges'])+x['content_units'] for x in route(s['tim'],s['cursor'],recipe.elements,recipe.origin,recipe.destination,f))
         options=[]
         for bundle in bundles[:r['alternatives']]:
@@ -54,6 +70,8 @@ def reference(s):
                     and o.get('speaker')==a and o.get('receiver')==r['peer'] and q.get('speaker')==r['peer'] and q.get('receiver')==a
                     and o.get('group')==r['group'] and q.get('group')==r['group'] and o.get('tasks')==x['tasks']
                     and all(t[5] in ms for v in (x,o,q) for t in v.get('tasks',())))
+            if n in ('Express','Theorize','Embody','Organize','Understand','Apply'):
+                good=good and crossing_reference(s,n,f,bundle)
             priority=s['need']['priorities'][('I','IT','WE','ITS').index(recipe.destination)]
             options.append(dict(cell=cell,recipe=recipe.key,inputs=tuple(x['ref'] for x in bundle),eligible=bool(good and priority),
                 priority=priority,preference=int(s['need']['externalize']==(f=='expenditure')),effort=effort))
@@ -61,10 +79,35 @@ def reference(s):
         best=min(options,key=lambda x:(not x['eligible'],*order(x))) if options else dict(cell=cell,recipe=recipe.key,inputs=(),eligible=False,
             priority=s['need']['priorities'][('I','IT','WE','ITS').index(recipe.destination)],preference=int(s['need']['externalize']==(f=='expenditure')),effort=effort)
         candidates.append(dict(best,examined=min(len(bundles),r['alternatives']),deferred=len(bundles)>r['alternatives']))
-    cost=1+len(s['items'])+8+sum(x['examined'] for x in candidates)
+    cost=1+len(s['items'])+len(cells)+sum(x['examined'] for x in candidates)
     for row in candidates:row['eligible']=row['eligible'] and min(s['wallet'])>=cost+row['effort']
     winner=min((x for x in candidates if x['eligible']),key=order,default=None)
     return candidates,winner
+
+def crossing_reference(s,name,face,bundle):
+    actor=s['request']['actor'];r=s['request'];values=tuple(v['data'] for v in bundle);source=values[0]
+    group=s['group']
+    if source['kind']=='rule' or group is not None:
+        if not group or group.get('context')!=r['context']:return False
+        members=group.get('members',())
+        if len(members)!=2 or set(members)!={actor,r['peer']}:return False
+        if any(task[5] not in members for value in values for task in value.get('tasks',())):return False
+        if source['kind']=='rule' and (source.get('group')!=r['group'] or set(source.get('participants',()))!=set(members)):return False
+    if name=='Organize':
+        events=[v['event'] for v in values]
+        return len(set(events))==len(events) and not any(v['outcome']!='succeeded' or (face=='expenditure' and v.get('owner')!=actor) for v in values)
+    if name not in ('Apply','Express'):return True
+    allowed=source.get('consent',True)
+    if name=='Apply' and source['kind']=='rule':allowed=source.get('authorized',False)
+    elif name=='Apply' and source.get('authority') is not None:allowed=allowed and source['authority']==actor
+    if not allowed:return False
+    if face=='accumulation':return True
+    task=answer(schedule((source,)),(),0)
+    if not task or task[1]!='care' or task[5]!=actor:return False
+    target,stock=s['target'],s['stock']
+    return bool(r['stock'] is not None and stock and target.get('custodian')==actor
+        and target.get('condition')=='serviceable' and target.get('wear',0)>0
+        and stock.get('owner')==stock.get('custodian')==actor)
 
 def audit(transactions,access_text):
     txs=tuple(transactions)
@@ -137,11 +180,12 @@ def audit(transactions,access_text):
         if v.ref.identity.namespace!='c7ws.decision':continue
         d=attrs(v);s=snapshots[d['snapshot']];job=attrs(versions[d['operation']]);r=s['request']
         ballot=loads(attrs(versions[d['candidates']])['payload']);expected,winner=reference(s)
-        if len(ballot)!=8 or [x['cell'] for x in ballot]!=list(CELLS):raise ValueError('missing candidate cells')
+        if len(ballot)!=len(expected) or [x['cell'] for x in ballot]!=list(policy_cells(s)):raise ValueError('missing candidate cells')
         if any(any(x[k]!=value for k,value in y.items()) for x,y in zip(ballot,expected)):raise ValueError('candidate contract or rank differs')
         first=starts[d['operation'].identity][1]
+        if first['policy']!=s.get('policy','c7-workflow-selection-v1'):raise ValueError('policy marker differs')
         if (first['snapshot'],first['candidates'],first['actor'],first['context'],first['input.0'])!=(d['snapshot'],d['candidates'],r['actor'],r['context'],r['demand']):raise ValueError('comparison source substitution')
-        if (job['scanned'],job['candidate_count'],job['evaluated'])!=(len(s['items']),8,sum(x['examined'] for x in expected)):raise ValueError('comparison counts differ')
+        if (job['scanned'],job['candidate_count'],job['evaluated'])!=(len(s['items']),len(expected),sum(x['examined'] for x in expected)):raise ValueError('comparison counts differ')
         if job['spent']!=job['required'] or d['spent']!=job['spent'] or d['completion_claim'] is not False:raise ValueError('unpaid or false completion')
         if (d['selected'],d['recipe'])!=((winner['cell'],winner['recipe']) if winner else (None,None)):raise ValueError('not the best evaluated choice')
         ad=attrs(versions[d['admission']])
@@ -161,13 +205,15 @@ def audit(transactions,access_text):
     report.update(workflow_selections=len(decisions),selection_rows=decisions)
     return report
 
-def verify(folder):
+def verify(folder, cases=8):
     import gzip, hashlib, json
     from hle_unified.compact import unseal
     from hle_unified.material import OperationStore
     rows=[]
     for path in sorted(folder.glob('*.json.gz')):
-        raw=unseal(gzip.decompress(path.read_bytes()).decode(),'hle-full-crux-c7-workflow-selection-v1')
+        text=gzip.decompress(path.read_bytes()).decode();schema=json.loads(text)['schema']
+        if schema not in ('hle-full-crux-c7-workflow-selection-v1','hle-full-crux-c7-workflow-selection-v2'):raise ValueError('unknown selection schema')
+        raw=unseal(text,schema)
         world=OperationStore.restore(raw['world']);control=path.name.endswith('-control.json.gz')
         native_audit(world.journal(),raw['access'],extent_check=extent,extended_flags=('c7ws',))
         rejection=None
@@ -179,8 +225,8 @@ def verify(folder):
             if control:raise AssertionError('withheld choice passed')
             assert result['workflow_selections']==1
         rows.append(dict(file=path.name,sha256=hashlib.sha256(path.read_bytes()).hexdigest(),control=control,rejection=rejection))
-    assert len(rows)==16 and sum(r['control'] for r in rows)==8
-    (folder/'independent_verification.json').write_text(json.dumps(dict(passed=True,worlds=16,controls_rejected=8,participant_replay=False,rows=rows),indent=2)+'\n')
-    print('Independent raw reconstruction: 8 ordinary worlds passed; 8 controls rejected',flush=True)
+    assert len(rows)==2*cases and sum(r['control'] for r in rows)==cases
+    (folder/'independent_verification.json').write_text(json.dumps(dict(passed=True,worlds=2*cases,controls_rejected=cases,participant_replay=False,rows=rows),indent=2)+'\n')
+    print(f'Independent raw reconstruction: {cases} ordinary worlds passed; {cases} controls rejected',flush=True)
 
-if __name__=='__main__':verify(Path(sys.argv[1]))
+if __name__=='__main__':verify(Path(sys.argv[1]),int(sys.argv[2]) if len(sys.argv)>2 else 8)

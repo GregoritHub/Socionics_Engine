@@ -1,0 +1,9 @@
+{
+  "archive": "evidence/FB2.2/Failed_Attempts.zip",
+  "sha256": "468f4a14d44273b3fe80556cb4f3cfa4506345f654c803825a5e5e4c509957d2",
+  "bytes": 56278,
+  "extraction": "Extract into an empty directory and verify every member against Raw_SHA256.json. attempt2_freeze.json contains the 1228-file source/contract freeze; attempt1_verifier.py.txt preserves the failed pre-correction auditor.",
+  "passed": false,
+  "status": "blocked",
+  "raw_world_panel": "not run; no passing panel claimed"
+}
