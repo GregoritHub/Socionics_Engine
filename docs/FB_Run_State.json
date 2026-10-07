@@ -9,12 +9,12 @@
     "1.2"
   ],
   "next_batch": "2.1",
-  "run_id": "continuation-20261006T2117Z",
-  "lease_expires_at": "2026-10-06T21:48:36.000Z",
-  "updated_at": "2026-10-06T21:18:36Z",
+  "run_id": "continuation-20261007T0122Z",
+  "lease_expires_at": "2026-10-07T01:52:25.000Z",
+  "updated_at": "2026-10-07T01:22:25Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB1.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Recovering FB2.1 evidence and verifying acceptance gate from committed source."
+  "activity": "Saving verified FB2.1 evidence after interrupted large GitHub blob upload."
 }
