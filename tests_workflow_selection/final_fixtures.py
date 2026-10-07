@@ -18,15 +18,21 @@ def final_fixture(name,face,engine_type=WorkflowFinalSelectionEngine,tim='iee'):
     return social_fixture(name,face,engine_type,tim)
 
 def information_base():
-    e,r,b=final_fixture('Express','expenditure');supply=ref('partly-known-care-stock')
-    e.world.create('supplied-partial-stock',WRITER,(stock(supply,'care',5),))
+    supply=ref('partly-known-care-stock')
+    def initial(world,law):
+        world.create('supplied-partial-stock',WRITER,(stock(supply,'care',5),))
+        return WorkflowFinalSelectionEngine(world,law)
+    e,r,b=final_fixture('Express','expenditure',initial)
     show(e,ALICE,supply,key='stock-quantity-only',selectors=(Selector('quantity','detail',('facets','0','quantity')),))
     return e,replace(r,stock=supply),b
 
 def capacity_base():
-    e,r,b=final_fixture('Express','expenditure');proc=ref('native-care-means');training=ref('held-out-training-tool');supply=ref('training-care-stock')
-    e.world.create('supplied-care-training',WRITER,(ObjectVersion(proc,WRITER,'Named native care',(Role.PROCEDURE,),
-        (Procedure(SIGNATURES['care'],(),(),(),'u4.care.v1'),)),tool(training,wear=1,maximum=12),stock(supply,'care',5)))
+    proc=ref('native-care-means');training=ref('held-out-training-tool');supply=ref('training-care-stock')
+    def initial(world,law):
+        world.create('supplied-care-training',WRITER,(ObjectVersion(proc,WRITER,'Named native care',(Role.PROCEDURE,),
+            (Procedure(SIGNATURES['care'],(),(),(),'u4.care.v1'),)),tool(training,wear=1,maximum=12),stock(supply,'care',5)))
+        return WorkflowFinalSelectionEngine(world,law)
+    e,r,b=final_fixture('Express','expenditure',initial)
     show(e,ALICE,proc,key='paid-care-definition',selectors=(Selector('procedure','definition',('facets','0')),))
     for obj in (training,supply):expose(e,ALICE,obj)
     return e,WorkflowCapacitySelectionRequest(**fields_of(r),procedure=proc),b
@@ -58,8 +64,8 @@ def selection_outcome(e,r,b,rejected=False):
 def responsiveness(register=None):
     """Three comparisons, each with explicit raw branches and bounded claims."""
     worlds=[];pairs=[];register=register or (lambda name,e,bad:None)
-    e,r,b=information_base();before=WorkflowFinalSelectionEngine.restore(e.checkpoint())
-    register('information-responsive',e,False);register('information-withheld',before,False)
+    e,r,b=information_base();register('information-responsive',e,False)
+    before=WorkflowFinalSelectionEngine.restore(e.checkpoint());register('information-withheld',before,False)
     d0=selection_outcome(before,r,b);worlds.append(('information-withheld',before,False))
     expose(e,ALICE,r.stock);control=UnresponsiveFinal.restore(e.checkpoint())
     register('information-unresponsive',control,True)
@@ -68,8 +74,8 @@ def responsiveness(register=None):
     assert d1['spent']==dc['spent']==d0['spent'] and d1['query']!=dc['query']
     worlds.extend((('information-responsive',e,False),('information-unresponsive',control,True)))
     pairs.append(dict(kind='delivered-information',before=d0,after=d1,control=dc))
-    e,r,b=capacity_base();before=WorkflowFinalSelectionEngine.restore(e.checkpoint())
-    register('capacity-responsive',e,False);register('capacity-withheld-acquisition',before,False)
+    e,r,b=capacity_base();register('capacity-responsive',e,False)
+    before=WorkflowFinalSelectionEngine.restore(e.checkpoint());register('capacity-withheld-acquisition',before,False)
     acquire_care(before,r,False);d0=selection_outcome(before,r,b);worlds.append(('capacity-withheld-acquisition',before,False))
     acquire_care(e,r);control=UnresponsiveFinal.restore(e.checkpoint())
     register('capacity-unresponsive',control,True)
@@ -79,8 +85,8 @@ def responsiveness(register=None):
     worlds.extend((('capacity-responsive',e,False),('capacity-unresponsive',control,True)))
     pairs.append(dict(kind='acquired-care-held-out-target',before=d0,after=d1,control=dc,
         training_target='held-out-training-tool',selected_target=r.target.identity.key))
-    e,r,b=final_fixture('Express','expenditure');original=WorkflowFinalSelectionEngine.restore(e.checkpoint())
-    register('hidden-delivered-change',e,False);register('hidden-unchanged-material',original,False)
+    e,r,b=final_fixture('Express','expenditure');register('hidden-delivered-change',e,False)
+    original=WorkflowFinalSelectionEngine.restore(e.checkpoint());register('hidden-unchanged-material',original,False)
     rows0,win0=e._workflow_policy(e.workflow_selection_view(r))
     perform(e,OperationRequest('hidden-target-transfer',ALICE,'transfer',ROOM,target=r.target,recipient=BOB,participants=(BOB,),
         evidence=evidence(e,ALICE,r.target)),limit=100000)
