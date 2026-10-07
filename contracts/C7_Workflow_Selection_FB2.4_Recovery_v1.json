@@ -1,0 +1,24 @@
+{
+  "schema": "hle-c7-workflow-selection-fb2.4-recovery-v1",
+  "status": "source_defined prospective recovery",
+  "parent": "C7_Workflow_Selection_FB2.4_Amendment_v1.json",
+  "authorization": "docs/FB2.4_Recovery_Authorization.md",
+  "repair": "In the unaccepted v4 paid snapshot, represent the validated native care Procedure as an exact dictionary of executor, inputs, preconditions, steps and effects. The native care restriction already requires empty preconditions, steps and effects. Use only the existing C6 audit codec's supported strings, tuples, dictionaries and references. Reconstruct the same fields independently from paid raw particulars in the workflow auditor. Do not change the inherited codec, procedure record, native laws or v1-v3 checkpoint behavior.",
+  "tests": [
+    "The supported care definition round-trips through the unchanged audit codec; modified definition fields are rejected by independent reconstruction.",
+    "The existing acquired-capacity checkpoint continuation and fabricated-acquisition tests pass.",
+    "All existing new and inherited tests pass on the same unchanged source freeze."
+  ],
+  "panels": {
+    "automatic_cases": 512,
+    "types": 16,
+    "cells": 32,
+    "withholding_controls": 32,
+    "responsiveness_pairs": 3,
+    "responsiveness_raw_worlds": 9,
+    "deliberately_unresponsive_controls": 2,
+    "seeds": "none; unchanged deterministic fixtures"
+  },
+  "acceptance": "Every parent exit gate remains. First rerun responsiveness and its independent reconstruction, then all tests, the full type matrix and its independent verifier. Freeze all source, test, tool and contract files before execution and verify all hashes afterward. Preserve prior attempts and any new failure. No source-changing run counts.",
+  "limits": "No new theoretical claim, no legacy serialization change, no Shell or population credit, no Phase 7 authorization. All other Final Build Plan stop conditions remain."
+}
