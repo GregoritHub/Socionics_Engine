@@ -1,0 +1,51 @@
+{
+  "schema": "srl-fb5.1-prospective-protocol-v1",
+  "batch": "5.1",
+  "title": "Population over workflow selection",
+  "entry_head": "c9c46acb9500c2977db6e2f26709c174917aaef9",
+  "frozen_at": "2026-10-07T17:53:00Z",
+  "goal": "Run independently owned Phase 2 workflow-selection demands under the existing bounded fair scheduler without supplying a route, result, skill, truth, resource or new goal.",
+  "allowed_request_types": [
+    "SelectionRequest",
+    "WorkflowSelectionRequest",
+    "WorkflowCapacitySelectionRequest"
+  ],
+  "schema_policy": {
+    "legacy": "All-SelectionRequest sessions continue to emit hle-c7-population-v2 and restore with SelectionEngine.",
+    "new": "Any workflow-selection session emits hle-c7-workflow-population-v3, records exact request types and restores with WorkflowFinalSelectionEngine."
+  },
+  "test_cases": [
+    "exact interrupted continuation",
+    "round-robin fairness",
+    "foreign workflow demand rejection",
+    "duplicate actor rejection",
+    "finite horizon and retained history",
+    "bounded turn interruption",
+    "paid material feedback",
+    "wallet exhaustion",
+    "unchanged retained-result repetition stop",
+    "fabricated audit summary rejection",
+    "mixed legacy and workflow requests",
+    "legacy v2 checkpoint byte stability"
+  ],
+  "acceptance": {
+    "new_tests": "All workflow-population tests pass from a frozen tree.",
+    "legacy_tests": "All tests_c7 population methods pass unchanged, including exact restore.",
+    "regression": "All previously accepted inherited and workflow suites pass with unchanged frozen source during execution.",
+    "audit": "The independent population auditor reconstructs fairness, charges, child summaries, feedback counters and repetition stops from raw committed records without importing scheduler, selector or engine modules."
+  },
+  "prohibitions": [
+    "no replenishment",
+    "no new goal formation",
+    "no growing population",
+    "no scheduler-supplied route or recipe",
+    "no result, skill, truth or authority transfer",
+    "no claim that repetition proves truth, development or exhaustion"
+  ],
+  "evidence": {
+    "failed_attempts_retained": true,
+    "source_freeze_before_acceptance": true,
+    "raw_worlds_hashed": true,
+    "independent_audit_required": true
+  }
+}
