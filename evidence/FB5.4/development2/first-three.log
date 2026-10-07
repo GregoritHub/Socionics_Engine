@@ -1,0 +1,9 @@
+theorize-apply-embody {'done': True, 'halted': None, 'completed': 3, 'steps': 29}
+['workflow-theorize-expenditure-v1', 'workflow-apply-expenditure-v1', 'workflow-embody-expenditure-v1'] 251
+restore True
+share-commune-identify {'done': True, 'halted': None, 'completed': 3, 'steps': 66}
+['workflow-share-expenditure-v1', 'workflow-commune-expenditure-v1', 'workflow-identify-expenditure-v1'] 610
+restore True
+coordinate-mobilize {'done': True, 'halted': None, 'completed': 3, 'steps': 50}
+['workflow-coordinate-expenditure-v1', 'workflow-mobilize-expenditure-v1', 'workflow-embody-expenditure-v1'] 483
+restore True

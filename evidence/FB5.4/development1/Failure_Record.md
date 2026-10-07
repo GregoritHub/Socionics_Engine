@@ -1,0 +1,1 @@
+[probe] First implementation preflight used equipment as the subject of a public payload disclosure. The unchanged inherited public-message API requires subject equal to the source message. The implementation now uses the exact public message as subject; no access contract changed. Traceback retained; no acceptance credited.

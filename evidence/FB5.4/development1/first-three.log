@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "/workspace/Socionics_Engine/hle_unified/workflow_agenda.py", line 190, in run
+    if self.step() is None: break
+       ^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_agenda.py", line 156, in step
+    self._start(self.active, cid)
+  File "/workspace/Socionics_Engine/hle_unified/workflow_agenda.py", line 119, in _start
+    self.engine.disclose(cid + ':disclose', a, action['ref'], selectors, self.template['target'])
+  File "/workspace/Socionics_Engine/hle_unified/operations.py", line 124, in disclose
+    return self._execute(("disclose", command_id, actor, source, selectors, source if subject is None else subject))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/shell.py", line 66, in _execute
+    result = dispatch[command[0]](*command[1:])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_selection_execution.py", line 32, in _disclose
+    return super()._disclose(cid, actor, source, selectors, subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_execution.py", line 44, in _disclose
+    if subject!=source or any((s.key,s.path) not in allowed for s in selectors): raise ValueError("public payload only")
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: public payload only

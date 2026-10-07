@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "cases": 14,
+  "families": 5,
+  "controls": 5,
+  "matched_producer_costs": true,
+  "participant_replay": false,
+  "reports": [
+    {
+      "case": "theorize-apply-embody",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 3,
+        "modeled_energy": 251,
+        "main_selections": 3
+      },
+      "native_passed": true,
+      "selections": 3
+    },
+    {
+      "case": "theorize-apply-embody-withheld",
+      "agenda": {
+        "rejected": "agenda retained result provenance differs"
+      },
+      "native_passed": true,
+      "selections": 1
+    },
+    {
+      "case": "share-commune-identify",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 3,
+        "modeled_energy": 610,
+        "main_selections": 3
+      },
+      "native_passed": true,
+      "selections": 3
+    },
+    {
+      "case": "share-commune-identify-withheld",
+      "agenda": {
+        "rejected": "agenda retained result provenance differs"
+      },
+      "native_passed": true,
+      "selections": 1
+    },
+    {
+      "case": "coordinate-mobilize",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 3,
+        "modeled_energy": 483,
+        "main_selections": 3
+      },
+      "native_passed": true,
+      "selections": 3
+    },
+    {
+      "case": "coordinate-mobilize-withheld",
+      "agenda": {
+        "rejected": "agenda retained result provenance differs"
+      },
+      "native_passed": true,
+      "selections": 1
+    },
+    {
+      "case": "institutionalize-educate",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 3,
+        "modeled_energy": 736,
+        "main_selections": 3
+      },
+      "native_passed": true,
+      "selections": 3
+    },
+    {
+      "case": "institutionalize-educate-withheld",
+      "agenda": {
+        "rejected": "agenda retained result provenance differs"
+      },
+      "native_passed": true,
+      "selections": 1
+    },
+    {
+      "case": "organize-integrate-apply",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 4,
+        "modeled_energy": 419,
+        "main_selections": 4
+      },
+      "native_passed": true,
+      "selections": 4
+    },
+    {
+      "case": "organize-integrate-apply-withheld",
+      "agenda": {
+        "rejected": "agenda retained result provenance differs"
+      },
+      "native_passed": true,
+      "selections": 2
+    },
+    {
+      "case": "theorize-apply-embody-restore",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 3,
+        "modeled_energy": 251,
+        "main_selections": 3
+      },
+      "native_passed": true,
+      "selections": 3
+    },
+    {
+      "case": "share-commune-identify-restore",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 3,
+        "modeled_energy": 610,
+        "main_selections": 3
+      },
+      "native_passed": true,
+      "selections": 3
+    },
+    {
+      "case": "cancelled-child",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 0,
+        "modeled_energy": 55,
+        "main_selections": 1
+      },
+      "native_passed": true,
+      "selections": 1
+    },
+    {
+      "case": "finite-budget",
+      "agenda": {
+        "passed": true,
+        "completed_goals": 0,
+        "modeled_energy": 0,
+        "main_selections": 0
+      },
+      "native_passed": true,
+      "selections": 0
+    }
+  ]
+}

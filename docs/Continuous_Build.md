@@ -27,3 +27,5 @@ Read `FB_Sustained_Development_Amendment_v1.md` before selecting work. After acc
 ## Exact final regression inventory
 
 Read `FB_Evidence_Metadata_Errata.md` and `evidence/FB5.4/Method_Inventory_Reconciliation.json`. FB5.1's 713 executions contain 703 distinct method IDs; FB5.3 includes all of those plus nine new methods, 712 distinct. FB6.2 must include every accepted test directory and compare unique executed method IDs against the saved inventory plus later accepted additions. Do not claim equal scope from totals alone. FB5.2's immutable ZIP is 79 files plus five directory entries; neither its bytes nor digest changed.
+
+After FB5.4, use `evidence/FB5.4/Accepted_Method_Inventory.json` as the 720-method inventory and add every subsequent accepted method. Read `FB5.5_Entry_Notes.md` before the sustained panel. The FB5.4 serial agenda is not a fair population scheduler; FB5.5 must preregister and audit that integration.

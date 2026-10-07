@@ -20,7 +20,7 @@
 | 5.1 | Population over workflow selection | complete; see FB5.1_Record.md | |
 | 5.2 | Sustained panel and costs | complete; see FB5.2_Record.md | |
 | 5.3 | Participant-owned generated-content continuation | complete; see FB5.3_Record.md | |
-| 5.4 | Five continued composition families | pending | |
+| 5.4 | Five continued composition families | complete; see FB5.4_Record.md | |
 | 5.5 | Preregistered 32/32 sustained panel | pending | |
 | 5.6 | Longitudinal Shell controls and integrated extension assessment | pending | |
 | 6.1 | The joint §9 ledger | pending | |
@@ -38,3 +38,5 @@
 [source_defined] Revised finish line approved 2026-10-07: see FB_Sustained_Development_Amendment_v1.md. Next work is 5.3, then 5.4–5.6 before original 6.1–6.3. Earlier next-6.1 guidance is superseded prospectively. Accepted evidence remains unchanged; goal-complete is false.
 
 [machine-checked] FB5.3 accepted: one automatically selected Theorize → Apply → Embody chain, real care/readback and retained downstream use, six independently verified raw cases, and 712 distinct methods passing on unchanged source. Next is 5.4; revised goal remains incomplete.
+
+[machine-checked] FB5.4 accepted on attempt2: five generated continued families, five matched withheld-result controls, fourteen independent raw cases, and 720 distinct passed methods with every prior accepted method retained. The shared renewal changes a retained window and an actual fixed-question answer. Next is 5.5; serial agendas are not yet fair sustained population evidence. See FB5.5_Entry_Notes.md. Revised goal remains incomplete.

@@ -1,0 +1,10 @@
+test_exact_restore_inside_social_exchange_and_main_comparison (tests_workflow_families.test_families.ContinuedFamiliesTests.test_exact_restore_inside_social_exchange_and_main_comparison) ... ok
+test_finite_budget_keeps_unfinished_work (tests_workflow_families.test_families.ContinuedFamiliesTests.test_finite_budget_keeps_unfinished_work) ... ok
+test_five_generated_families_and_withheld_prior_controls (tests_workflow_families.test_families.ContinuedFamiliesTests.test_five_generated_families_and_withheld_prior_controls) ... ok
+test_no_runtime_goal_can_supply_route_or_forward_result (tests_workflow_families.test_families.ContinuedFamiliesTests.test_no_runtime_goal_can_supply_route_or_forward_result) ... ok
+test_tampered_result_and_charge_are_rejected (tests_workflow_families.test_families.ContinuedFamiliesTests.test_tampered_result_and_charge_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 23.453s
+
+OK

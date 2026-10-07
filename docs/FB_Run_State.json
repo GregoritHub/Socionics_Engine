@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "active",
+  "status": "ready",
   "current_batch": "5.4",
   "completed_batches": [
     "0.1",
@@ -18,17 +18,18 @@
     "4.2",
     "5.1",
     "5.2",
-    "5.3"
+    "5.3",
+    "5.4"
   ],
-  "next_batch": "5.4",
-  "run_id": "fb54-20261007T215221Z-3439a775",
-  "lease_expires_at": "2026-10-07T22:47:31.675227+00:00",
-  "updated_at": "2026-10-07T22:17:31.675227+00:00",
+  "next_batch": "5.5",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-07T22:28:53.549218+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.4 attempt1 retained uncredited: shared renewal needed substantive semantic change. Prospective amendment committed; revised generated window and downstream causal queries pass development. Fresh attempt2 frozen evaluation and full regression running.",
+  "activity": "FB5.4 accepted on attempt2: five generated families, semantic shared-window causal witness, fourteen independently verified raw cases, and 720 distinct passing methods. Ready for prospective FB5.5 sustained scheduling and 32-cell panel; revised goal incomplete.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -64,7 +65,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb-extension-20261007T213135Z-db5e4815",
+  "last_run_id": "fb54-20261007T215221Z-3439a775",
   "blocker": null,
   "automation_verification_history": [
     {
@@ -96,7 +97,8 @@
     "5.6"
   ],
   "goal_complete": false,
-  "last_implementation_checkpoint": "b0811f3e727062a397e11c3a7dfb01c2e7db013a",
-  "last_verified_freeze": "315b61615c5c99b7cd16e4af527d8435db4ee165e930dc77e6dd211d0839bc9c",
-  "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json"
+  "last_implementation_checkpoint": "0e5d10b1bd68c76c4c7c570c2beddef1a9a0750f",
+  "last_verified_freeze": "91d7d6dbe607d6fb86e323919dbb0ea4076039c3f857eead68858194a0fa7fce",
+  "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
+  "accepted_method_inventory": "evidence/FB5.4/Accepted_Method_Inventory.json"
 }

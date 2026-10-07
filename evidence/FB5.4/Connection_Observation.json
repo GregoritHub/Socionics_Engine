@@ -1,0 +1,7 @@
+{
+  "environment_notice": "starting during final workflow regression at approximately 22:25 UTC",
+  "recovery": "ready; same workspace and all completed reports found at 22:25:53 UTC",
+  "process_handle": "prior write_stdin handle unavailable after restart; no pass inferred from that absence",
+  "verified_evidence": "118-method workflow summary, 602-method inherited summary, 720 distinct passed IDs, fourteen independent raw cases and all 1324 frozen file hashes verified locally after reconnection",
+  "remote_lease": "same owner fb54-20261007T215221Z-3439a775 through 22:47:31 UTC; remote checkpoint 0e5d10b1bd68c76c4c7c570c2beddef1a9a0750f"
+}

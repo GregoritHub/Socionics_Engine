@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "accepted_attempt": 2,
+  "distinct_methods": 720,
+  "prior_methods_missing": 0,
+  "new_methods": 8,
+  "raw_cases": 14,
+  "families": 5,
+  "matched_withheld_controls": 5,
+  "source_unchanged": true,
+  "freeze_sha256": "91d7d6dbe607d6fb86e323919dbb0ea4076039c3f857eead68858194a0fa7fce",
+  "shared_semantic_witness": {
+    "handover_latest_before": 4,
+    "handover_latest_after": 2,
+    "query_clock": 3,
+    "completed": [
+      "maintain"
+    ],
+    "before_answer": "handover",
+    "after_answer": null,
+    "retained_personal_answer": null
+  },
+  "goal_complete": false,
+  "next_batch": "5.5"
+}

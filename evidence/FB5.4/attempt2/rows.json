@@ -1,0 +1,98 @@
+[
+  {
+    "case": "theorize-apply-embody",
+    "family": "theorize-apply-embody",
+    "control": false,
+    "file": "theorize-apply-embody.json.gz",
+    "sha256": "978ad3b02640668b62b72b4328a84fb6e4e29549d4a7b9f62a5c7194e6602390"
+  },
+  {
+    "case": "theorize-apply-embody-withheld",
+    "family": "theorize-apply-embody",
+    "control": true,
+    "file": "theorize-apply-embody-withheld.json.gz",
+    "sha256": "7a2664ca582b93fd64a49086b1f1a3cdd74da570662090af2c937302c510606c"
+  },
+  {
+    "case": "share-commune-identify",
+    "family": "share-commune-identify",
+    "control": false,
+    "file": "share-commune-identify.json.gz",
+    "sha256": "57dc8eb8f55341d5e652c5184a2ea0832833e02610f2a429b504d74e24d628c8"
+  },
+  {
+    "case": "share-commune-identify-withheld",
+    "family": "share-commune-identify",
+    "control": true,
+    "file": "share-commune-identify-withheld.json.gz",
+    "sha256": "248fca338ab2988e0a0ae3e99f904c9ee1d209beccc63a4311cfbfb0e7a3f490"
+  },
+  {
+    "case": "coordinate-mobilize",
+    "family": "coordinate-mobilize",
+    "control": false,
+    "file": "coordinate-mobilize.json.gz",
+    "sha256": "e18ec6522e1d6803e1b4f0b50d3365f773bd4dec2f5c73cb2907c9fcbfefa379"
+  },
+  {
+    "case": "coordinate-mobilize-withheld",
+    "family": "coordinate-mobilize",
+    "control": true,
+    "file": "coordinate-mobilize-withheld.json.gz",
+    "sha256": "dc2acbe1334fa5aa9eaeb392d93279799fdb9fd3f6834174b185bafd067b0ac9"
+  },
+  {
+    "case": "institutionalize-educate",
+    "family": "institutionalize-educate",
+    "control": false,
+    "file": "institutionalize-educate.json.gz",
+    "sha256": "65e34591eab1a50311a198e8e85ff92f0edba53a585538bbd4447bb2baeec145"
+  },
+  {
+    "case": "institutionalize-educate-withheld",
+    "family": "institutionalize-educate",
+    "control": true,
+    "file": "institutionalize-educate-withheld.json.gz",
+    "sha256": "76fa90f56e9d59a244f5a9b995596ecca5200c0c20e63f698ce5dbcb4af10275"
+  },
+  {
+    "case": "organize-integrate-apply",
+    "family": "organize-integrate-apply",
+    "control": false,
+    "file": "organize-integrate-apply.json.gz",
+    "sha256": "2cdbd6e8eb5414fddefd840ede7a8e03f95c85e1035817d19456f47fee163268"
+  },
+  {
+    "case": "organize-integrate-apply-withheld",
+    "family": "organize-integrate-apply",
+    "control": true,
+    "file": "organize-integrate-apply-withheld.json.gz",
+    "sha256": "5350d09c7162a8d821a550151ce2f358d47c4520cf00779eb26481fdc9f3d230"
+  },
+  {
+    "case": "theorize-apply-embody-restore",
+    "control": false,
+    "restore": true,
+    "file": "theorize-apply-embody-restore.json.gz",
+    "sha256": "82e06a8b101f361ec9bd0950b6d78f2ffc886d2ed4f500e05dd2288b74ef7045"
+  },
+  {
+    "case": "share-commune-identify-restore",
+    "control": false,
+    "restore": true,
+    "file": "share-commune-identify-restore.json.gz",
+    "sha256": "a6d671003dcf35068817bf4e26531b6691c60c00614bc13719ec2102447b6ba9"
+  },
+  {
+    "case": "cancelled-child",
+    "control": false,
+    "file": "cancelled-child.json.gz",
+    "sha256": "496f43f58b27f42661e1187264ec8d9859e4173db4f5990d3c890c52162e0dd4"
+  },
+  {
+    "case": "finite-budget",
+    "control": false,
+    "file": "finite-budget.json.gz",
+    "sha256": "40fbc2da8e35bd27c06aa0a5eb0c247f5341148ec28825bcd79606a7047f6447"
+  }
+]

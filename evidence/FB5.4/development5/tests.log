@@ -1,0 +1,12 @@
+test_cancelled_child_keeps_spending_and_stops_dependents (tests_workflow_families.test_families.ContinuedFamiliesTests.test_cancelled_child_keeps_spending_and_stops_dependents) ... ok
+test_exact_restore_inside_social_exchange_and_main_comparison (tests_workflow_families.test_families.ContinuedFamiliesTests.test_exact_restore_inside_social_exchange_and_main_comparison) ... ok
+test_finite_budget_keeps_unfinished_work (tests_workflow_families.test_families.ContinuedFamiliesTests.test_finite_budget_keeps_unfinished_work) ... ok
+test_five_generated_families_and_withheld_prior_controls (tests_workflow_families.test_families.ContinuedFamiliesTests.test_five_generated_families_and_withheld_prior_controls) ... ok
+test_no_runtime_goal_can_supply_route_or_forward_result (tests_workflow_families.test_families.ContinuedFamiliesTests.test_no_runtime_goal_can_supply_route_or_forward_result) ... ok
+test_restore_rejects_pending_main_recipe_injection (tests_workflow_families.test_families.ContinuedFamiliesTests.test_restore_rejects_pending_main_recipe_injection) ... ok
+test_tampered_result_and_charge_are_rejected (tests_workflow_families.test_families.ContinuedFamiliesTests.test_tampered_result_and_charge_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 24.959s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "schema": "srl-fb5.4-raw-evidence-index-v1",
+  "batch": "5.4",
+  "accepted_attempt": 2,
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB5.4_Evidence.zip",
+    "library_path": "/Socionics_Final_Build_FB5.4_Evidence.zip",
+    "library_file_id": "libfile_a81c901c118881918e06d00f1b210372",
+    "file_id": "file_00000000398081f6b02fcdeccdd52150",
+    "version": 0,
+    "bytes": 5909285,
+    "sha256": "2cd48b466bda5dcb3c58485bb531fbedb1ff735b7dcb1e37e35f59ae44d6d238",
+    "files": 238,
+    "directory_entries": 0,
+    "members": 238
+  },
+  "restore": [
+    "Materialize the exact Library archive and verify byte count and SHA256 locally before extraction.",
+    "Extract from the repository root, restoring evidence/FB5.4.",
+    "Verify every file listed in evidence/FB5.4/Raw_SHA256.json.",
+    "Run python tools/verify_continued_families.py evidence/FB5.4/attempt2.",
+    "Attempt1 is retained uncredited; do not use its mechanically passing summaries as FB5.4 acceptance."
+  ],
+  "scope": "Five bounded serial continued families; no fair mixed-population, 32/32 sustained, longitudinal Shell or revised-goal completion claim."
+}

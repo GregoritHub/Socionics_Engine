@@ -1,0 +1,6 @@
+institutionalize-educate {'done': True, 'halted': None, 'completed': 3, 'steps': 76}
+['workflow-institutionalize-accumulation-v1', 'workflow-institutionalize-expenditure-v1', 'workflow-educate-expenditure-v1'] 736
+restore True
+organize-integrate-apply {'done': True, 'halted': None, 'completed': 4, 'steps': 43}
+['workflow-theorize-accumulation-v1', 'workflow-organize-expenditure-v1', 'workflow-integrate-expenditure-v1', 'workflow-apply-expenditure-v1'] 419
+restore True

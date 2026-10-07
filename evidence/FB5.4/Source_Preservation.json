@@ -1,0 +1,17 @@
+{
+  "prior_files": 1313,
+  "new_files": 1322,
+  "inherited_changed": [],
+  "added": [
+    "contracts/C7_Continued_Families_Protocol_v1.json",
+    "contracts/C7_Continued_Families_Protocol_v1.sha256",
+    "hle_unified/workflow_agenda.py",
+    "hle_unified/workflow_agenda_audit.py",
+    "tests_workflow_families/__init__.py",
+    "tests_workflow_families/fixtures.py",
+    "tests_workflow_families/test_families.py",
+    "tools/evaluate_continued_families.py",
+    "tools/verify_continued_families.py"
+  ],
+  "freeze_sha256": "f94dbcfcc438902fa7a20dc444063f743970ce39abc6914a583451fc35d7dac8"
+}
