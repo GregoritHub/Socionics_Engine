@@ -23,3 +23,7 @@ A fresh active lease prevents another worker from editing. Claim and renew the l
 ## Approved extension (2026-10-07)
 
 Read `FB_Sustained_Development_Amendment_v1.md` before selecting work. After accepted FB5.2, execute discrete prospective batches 5.3, 5.4, 5.5 and 5.6, then 6.1–6.3. Original packaging is insufficient. Require 32/32 sustained coverage across the declared panel, generated-content chains, retained causal changes and longitudinal Shell correction. Do not force routes or credit duplicates as development. Read the latest state and respect its lease; the completed earlier conversation is not the owner. All inherited stop rules and the separate R5 requirement remain.
+
+## Exact final regression inventory
+
+Read `FB_Evidence_Metadata_Errata.md` and `evidence/FB5.4/Method_Inventory_Reconciliation.json`. FB5.1's 713 executions contain 703 distinct method IDs; FB5.3 includes all of those plus nine new methods, 712 distinct. FB6.2 must include every accepted test directory and compare unique executed method IDs against the saved inventory plus later accepted additions. Do not claim equal scope from totals alone. FB5.2's immutable ZIP is 79 files plus five directory entries; neither its bytes nor digest changed.

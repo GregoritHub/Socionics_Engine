@@ -1,0 +1,63 @@
+{
+  "schema": "srl-fb5.4-continued-families-v1",
+  "batch": "5.4",
+  "entry": "1bef229bcbf35fe3a12f3885032b6c780069b8f3",
+  "goal": "Five bounded continued families from generated results, with paid social-exchange companions and multi-source joins, selected automatically from supplied outcomes.",
+  "scope": {
+    "source_modules": [
+      "hle_unified/workflow_agenda.py",
+      "hle_unified/workflow_agenda_audit.py"
+    ],
+    "tests": "tests_workflow_families",
+    "split": "First the three smaller families, then ratification/teaching and multibranch integration. One freeze only after all code is fixed; preserve development failures."
+  },
+  "contract": {
+    "schema": "hle-c7-owned-workflow-agenda-v1",
+    "intent": "Finite author-supplied goals, all owned and paid before execution. Each goal contains a need reference and source slots, never a route or main recipe. Advancing through these explicitly authored goals is not spontaneous goal formation.",
+    "sources": "A slot is an initial paid reference or the exact saved result of a prior completed goal. Missing/failed/withheld prior result stops dependent work. No copied task payloads, renaming outputs, or freshly authored stances from generated content.",
+    "companions": "Only explicit bounded exchange or exact votes requested by the supplied goal. Native offer domain is inferred from paid source kind. Offers, peer-computed replies, votes, delivery and reading all execute native paid operations. Initial owned stances are supplied independently before execution. No granted understanding or authority.",
+    "main": "The unchanged WorkflowFinalSelectionEngine receives a WorkflowSelectionRequest, computes candidates, pays comparison and launches native movement. Expected family route names appear in evaluation assertions only. Every goal is complete only after native success and usable owned output, or delivery and paid reading of its public output/material event.",
+    "execution": "A new opt-in bounded serial participant agenda, not a replacement for the fair Population scheduler. It may serialize the two parties required for a paid exchange. No claim of scheduler-wide fairness from this panel; FB5.5 must integrate and audit sustained scheduling explicitly.",
+    "restore": "Every pending command, program, source slot, output and phase is serialized. Interrupted/resumed execution must be exact. Legacy Population and WorkflowContinuation schemas/behavior are untouched."
+  },
+  "panels": [
+    "theorize-apply-embody",
+    "share-commune-identify",
+    "coordinate-mobilize",
+    "institutionalize-educate",
+    "organize-integrate-apply"
+  ],
+  "settings": {
+    "seeds": [
+      17
+    ],
+    "participants": 2,
+    "types": [
+      "iee",
+      "sli"
+    ],
+    "maximum_goals": 8,
+    "maximum_sources": 8,
+    "quantum": 17,
+    "maximum_steps": 2000,
+    "wallet": 200000,
+    "replenishment": false,
+    "authored_events": "Only initial finite goals, stances, equipment/resources and scoped opportunities. Initial observations and any companion model are generated through paid native work, with their provenance retained."
+  },
+  "acceptance": [
+    "Five witness worlds and five withheld-prior-result controls; all counted native main choices independently reconstructed",
+    "Each family consumes exact generated intermediate results, preserves its paid charges and changed semantic content, and enables a fixed downstream query/use that the withheld control cannot supply",
+    "Controls retain matched producer work/cost; ordinary agenda auditor rejects false handoff provenance, while native semantics of actual paid work remain independently checked",
+    "All social offer/reply/vote prerequisites are generated and paid; no route identifiers in runtime goal data or scheduler",
+    "Multi-source integration consumes exact branch outputs, never copied fixtures; missing branch stops dependent work",
+    "Exact interrupted restore for social exchange and main selection; finite step budget and failed-child behavior retain partial work",
+    "Every previously accepted method remains present and successful, assessed by exact method inventory; unchanged inherited source hashes",
+    "Freeze and saved raw worlds with hashes before acceptance; source-changing attempts uncredited"
+  ],
+  "limits": [
+    "Finite authored agenda is an engineering test policy, not new goal generation",
+    "No 32/32 sustained claim until FB5.5",
+    "No longitudinal Shell claim until FB5.6",
+    "No inherited contract or Phase 7 changes"
+  ]
+}
