@@ -1,0 +1,15 @@
+{
+  "previous_batch": "4.2",
+  "current_batch": "5.1",
+  "previous_files": 1288,
+  "current_files": 1295,
+  "unchanged_previous_files": 1286,
+  "changed_previous_files": 2,
+  "added_files": 7,
+  "removed_files": 0,
+  "changed_files": [
+    "hle_unified/population.py",
+    "hle_unified/population_audit.py"
+  ],
+  "claim": "All prior frozen files except the two preregistered FB5.1 implementation targets remain byte-identical; seven preregistered protocol, test and evaluation files were added. Baseline files were unchanged."
+}

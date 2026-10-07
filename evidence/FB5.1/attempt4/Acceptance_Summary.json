@@ -1,0 +1,24 @@
+{
+  "batch": "5.1",
+  "passed": true,
+  "test_methods": 713,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "suites": {
+    "inherited": 602,
+    "workflow_shell_interruption_model_g": 74,
+    "c7_and_population": 21,
+    "workflow_nesting": 6,
+    "workflow_composition": 6,
+    "workflow_development": 4
+  },
+  "raw_worlds": 6,
+  "raw_turns": 177,
+  "modeled_energy": 1901,
+  "native_completions": 21,
+  "participant_replay": false,
+  "source_unchanged": true,
+  "legacy_schema": "hle-c7-population-v2",
+  "workflow_schema": "hle-c7-workflow-population-v3"
+}

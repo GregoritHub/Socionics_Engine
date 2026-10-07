@@ -1,0 +1,29 @@
+{
+  "schema": "srl-final-build-library-evidence-v1",
+  "batch": "5.1",
+  "archive": {
+    "filename": "Socionics_Final_Build_FB5.1_Evidence.zip",
+    "library_file_id": "libfile_1ad8f939bb308191bff6d4182e5466d8",
+    "file_id": "file_00000000032082068eeb002a31332cd9",
+    "bytes": 2005000,
+    "members": 163,
+    "sha256": "d7ad70da1231eba014f89282b3e2e476b93444c5a8c8f28a76bb1fb8a2247bac"
+  },
+  "contents": {
+    "raw_worlds": 6,
+    "population_turns": 177,
+    "modeled_energy": 1901,
+    "native_completions": 21,
+    "test_methods": 713,
+    "source_freeze_files": 1295,
+    "raw_hash_manifest": "attempt4/Raw_SHA256.json",
+    "raw_hash_manifest_sha256": "f09f4eff377b3c031aadeb143e2224ef04967073dc215e497c40bd3ed0bd516f"
+  },
+  "restore": [
+    "Resolve the exact library_file_id or file_id above through ChatGPT Library and materialize the returned archive bytes.",
+    "Verify SHA-256 d7ad70da1231eba014f89282b3e2e476b93444c5a8c8f28a76bb1fb8a2247bac before extraction.",
+    "Extract at a repository root; the archive restores evidence/FB5.1 including failed attempts, accepted tests, source manifests, six raw engine/population checkpoint pairs, command records and independent verification.",
+    "Verify extracted members against evidence/FB5.1/attempt4/Raw_SHA256.json before relying on them."
+  ],
+  "created_at": "2026-10-07T20:07:00Z"
+}

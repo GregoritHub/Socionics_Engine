@@ -1,0 +1,66 @@
+[
+  {
+    "command": ["python", "tools/regress_c7_parallel.py", "evidence/FB5.1/attempt4/inherited-regression"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 581.80,
+    "exit_code": 0,
+    "tests": 602,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/test_c6.py", "evidence/FB5.1/attempt4/workflow-regression", "tests_workflow_selection", "tests_c7_workflow", "tests_g", "tests_workflow_shell", "tests_workflow_interruption"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 576.6898931920005,
+    "exit_code": 0,
+    "tests": 74,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/test_c6.py", "evidence/FB5.1/attempt4/new-tests", "tests_workflow_population", "tests_c7"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 56.714174964999984,
+    "exit_code": 0,
+    "tests": 21,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/test_c6.py", "evidence/FB5.1/attempt4/nesting-regression", "tests_workflow_nesting_faces"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 33.84178541900019,
+    "exit_code": 0,
+    "tests": 6,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/test_c6.py", "evidence/FB5.1/attempt4/composition-regression", "tests_workflow_composition"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 14.089729411000008,
+    "exit_code": 0,
+    "tests": 6,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/test_c6.py", "evidence/FB5.1/attempt4/development-regression", "tests_workflow_development"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 44.444222654999976,
+    "exit_code": 0,
+    "tests": 4,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/evaluate_workflow_population.py", "evidence/FB5.1/attempt4/matrix"],
+    "started_at": "2026-10-07T19:55:16Z",
+    "seconds": 21.34,
+    "exit_code": 0,
+    "worlds": 6,
+    "source_unchanged": true
+  },
+  {
+    "command": ["python", "tools/verify_workflow_population.py", "evidence/FB5.1/attempt4/matrix"],
+    "started_at": "2026-10-07T19:56:19Z",
+    "seconds": 2.27,
+    "exit_code": 0,
+    "worlds": 6,
+    "participant_replay": false
+  }
+]

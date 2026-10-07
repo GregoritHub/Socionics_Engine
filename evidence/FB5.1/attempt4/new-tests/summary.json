@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "tests": 21,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 56.714174964999984,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_actual_material_feedback_is_delivered_and_paid",
+      "status": "passed",
+      "seconds": 1.0378758870001548
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_exhaustion_is_retained_and_terminates",
+      "status": "passed",
+      "seconds": 2.712874305000696
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_fabricated_audit_summary_rejected",
+      "status": "passed",
+      "seconds": 2.0516074540000773
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_finite_horizon_and_history_retention",
+      "status": "passed",
+      "seconds": 3.1808189630000925
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_foreign_demand_and_duplicate_actor_rejected",
+      "status": "passed",
+      "seconds": 0.4898079399999915
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_legacy_v2_checkpoint_stays_exact",
+      "status": "passed",
+      "seconds": 1.7298566919998848
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_midpaid_resume_exact",
+      "status": "passed",
+      "seconds": 8.385436110000228
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_mixed_legacy_and_workflow_requests",
+      "status": "passed",
+      "seconds": 2.2650326299999506
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_repeated_retained_content_stops_without_capacity_claim",
+      "status": "passed",
+      "seconds": 2.216453263999938
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_round_robin_never_starves_a_runnable_actor",
+      "status": "passed",
+      "seconds": 1.1905473599999823
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_turn_limit_preserves_unfinished_work",
+      "status": "passed",
+      "seconds": 2.6798905440000453
+    },
+    {
+      "test_id": "tests_c7.test_audit.PopulationAuditTests.test_fabricated_completion_and_actor_order_rejected",
+      "status": "passed",
+      "seconds": 0.6779557629997726
+    },
+    {
+      "test_id": "tests_c7.test_audit.PopulationAuditTests.test_raw_schedule_and_tampered_charge",
+      "status": "passed",
+      "seconds": 1.1941578249998201
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_actual_material_feedback_is_delivered_and_paid",
+      "status": "passed",
+      "seconds": 0.7336723690004874
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_exhaustion_is_retained_and_terminates",
+      "status": "passed",
+      "seconds": 13.541049286999623
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_finite_horizon_and_history_retention",
+      "status": "passed",
+      "seconds": 1.4006269060000704
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_foreign_demand_and_duplicate_actor_rejected",
+      "status": "passed",
+      "seconds": 0.41972208700008196
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_midpaid_resume_exact",
+      "status": "passed",
+      "seconds": 4.825244353999551
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_repeated_retained_content_stops_without_claiming_capacity",
+      "status": "passed",
+      "seconds": 3.6392361289999826
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_round_robin_never_starves_a_runnable_actor",
+      "status": "passed",
+      "seconds": 0.8899770319994786
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_turn_limit_preserves_unfinished_work",
+      "status": "passed",
+      "seconds": 1.4495789920001698
+    }
+  ]
+}
