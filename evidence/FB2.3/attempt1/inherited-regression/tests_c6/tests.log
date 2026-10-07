@@ -1,0 +1,24 @@
+test_actual_acquired_repair_enables_held_out_target (tests_c6.test_selection.SelectionTests.test_actual_acquired_repair_enables_held_out_target) ... ok
+test_all_32_automatic_cells_have_native_consumers_and_raw_audit (tests_c6.test_selection.SelectionTests.test_all_32_automatic_cells_have_native_consumers_and_raw_audit) ... ok
+test_automatic_selection_does_not_bypass_shell (tests_c6.test_selection.SelectionTests.test_automatic_selection_does_not_bypass_shell) ... ok
+test_c5_upgrade_preserves_exact_world_and_access (tests_c6.test_selection.SelectionTests.test_c5_upgrade_preserves_exact_world_and_access) ... ok
+test_cancelled_selection_keeps_spending_and_no_child (tests_c6.test_selection.SelectionTests.test_cancelled_selection_keeps_spending_and_no_child) ... ok
+test_context_transfer_absent_without_actual_local_evidence (tests_c6.test_selection.SelectionTests.test_context_transfer_absent_without_actual_local_evidence) ... ok
+test_context_transfer_uses_local_limits_without_importing_authority (tests_c6.test_selection.SelectionTests.test_context_transfer_uses_local_limits_without_importing_authority) ... ok
+test_exhaustion_retains_partial_work_without_launch (tests_c6.test_selection.SelectionTests.test_exhaustion_retains_partial_work_without_launch) ... ok
+test_foreign_demand_cannot_select_for_actor (tests_c6.test_selection.SelectionTests.test_foreign_demand_cannot_select_for_actor) ... ok
+test_goal_contract_refuses_route_instructions (tests_c6.test_selection.SelectionTests.test_goal_contract_refuses_route_instructions) ... ok
+test_hidden_material_change_does_not_change_predelivery_selection (tests_c6.test_selection.SelectionTests.test_hidden_material_change_does_not_change_predelivery_selection) ... ok
+test_labels_and_candidate_order_do_not_determine_choice (tests_c6.test_selection.SelectionTests.test_labels_and_candidate_order_do_not_determine_choice) ... ok
+test_new_owned_observation_changes_competing_route (tests_c6.test_selection.SelectionTests.test_new_owned_observation_changes_competing_route) ... ok
+test_other_context_does_not_inherit_practiced_skill (tests_c6.test_selection.SelectionTests.test_other_context_does_not_inherit_practiced_skill) ... ok
+test_partial_selection_and_child_resume_exactly (tests_c6.test_selection.SelectionTests.test_partial_selection_and_child_resume_exactly) ... ok
+test_pending_delivery_does_not_become_processed_evidence (tests_c6.test_selection.SelectionTests.test_pending_delivery_does_not_become_processed_evidence) ... ok
+test_raw_auditor_rejects_choice_and_input_tampering (tests_c6.test_selection.SelectionTests.test_raw_auditor_rejects_choice_and_input_tampering) ... ok
+test_search_budget_discloses_deferred_alternatives (tests_c6.test_selection.SelectionTests.test_search_budget_discloses_deferred_alternatives) ... ok
+test_unpaid_selection_cannot_launch (tests_c6.test_selection.SelectionTests.test_unpaid_selection_cannot_launch) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 86.888s
+
+OK

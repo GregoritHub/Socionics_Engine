@@ -1,0 +1,47 @@
+test_assessor_labels_are_private_and_causally_inert (tests_u7.test_controls.Controls.test_assessor_labels_are_private_and_causally_inert) ... ok
+test_audit_rejects_forged_intention (tests_u7.test_controls.Controls.test_audit_rejects_forged_intention) ... ok
+test_cancel_preserves_spent_work_and_no_effect (tests_u7.test_controls.Controls.test_cancel_preserves_spent_work_and_no_effect) ... ok
+test_censored_recall_not_defensive_maintenance (tests_u7.test_controls.Controls.test_censored_recall_not_defensive_maintenance) ... ok
+test_conflicting_affordances_remain_unknown (tests_u7.test_controls.Controls.test_conflicting_affordances_remain_unknown) ... ok
+test_foreign_processed_addresses_are_rejected_atomically (tests_u7.test_controls.Controls.test_foreign_processed_addresses_are_rejected_atomically) ... ok
+test_hidden_change_preserves_pending_forecast (tests_u7.test_controls.Controls.test_hidden_change_preserves_pending_forecast) ... ok
+test_hidden_facts_cannot_change_access_decision_or_generation (tests_u7.test_controls.Controls.test_hidden_facts_cannot_change_access_decision_or_generation) ... ok
+test_hidden_revision_does_not_invalidate_processing (tests_u7.test_controls.Controls.test_hidden_revision_does_not_invalidate_processing) ... ok
+test_historical_view_and_full_replay (tests_u7.test_controls.Controls.test_historical_view_and_full_replay) ... ok
+test_import_cannot_forge_runtime_history (tests_u7.test_controls.Controls.test_import_cannot_forge_runtime_history) ... ok
+test_insufficient_resources_not_maintenance (tests_u7.test_controls.Controls.test_insufficient_resources_not_maintenance) ... ok
+test_legitimate_boundaries_are_not_defensive_maintenance (tests_u7.test_controls.Controls.test_legitimate_boundaries_are_not_defensive_maintenance) ... ok
+test_missing_knowledge_and_unread_delivery (tests_u7.test_controls.Controls.test_missing_knowledge_and_unread_delivery) ... ok
+test_old_revision_does_not_bind_changed_target (tests_u7.test_controls.Controls.test_old_revision_does_not_bind_changed_target) ... ok
+test_one_changed_encounter_is_not_recurrence (tests_u7.test_controls.Controls.test_one_changed_encounter_is_not_recurrence) ... ok
+test_ordinary_disagreement_does_not_count (tests_u7.test_controls.Controls.test_ordinary_disagreement_does_not_count) ... ok
+test_partial_replay_and_continuation (tests_u7.test_controls.Controls.test_partial_replay_and_continuation) ... ok
+test_partial_source_replacement_invalidates_own_work_without_refund (tests_u7.test_controls.Controls.test_partial_source_replacement_invalidates_own_work_without_refund) ... ok
+test_quiet_interval_has_no_clearance_claim (tests_u7.test_controls.Controls.test_quiet_interval_has_no_clearance_claim) ... ok
+test_raw_audit_rejects_role_substitution (tests_u7.test_controls.Controls.test_raw_audit_rejects_role_substitution) ... ok
+test_raw_audit_rejects_unpaid_work (tests_u7.test_controls.Controls.test_raw_audit_rejects_unpaid_work) ... ok
+test_received_change_after_forecast_replans_before_action (tests_u7.test_controls.Controls.test_received_change_after_forecast_replans_before_action) ... ok
+test_received_change_invalidates_pending_forecast (tests_u7.test_controls.Controls.test_received_change_invalidates_pending_forecast) ... ok
+test_route_specific_effect_leaves_other_intent_available (tests_u7.test_controls.Controls.test_route_specific_effect_leaves_other_intent_available) ... ok
+test_wrong_target_or_context_evidence_remains_unknown (tests_u7.test_controls.Controls.test_wrong_target_or_context_evidence_remains_unknown) ... ok
+test_actual_approval_bypasses_current_block_without_clearing_pattern (tests_u7.test_patterns.Patterns.test_actual_approval_bypasses_current_block_without_clearing_pattern) ... ok
+test_all_five_operators_have_executable_effects (tests_u7.test_patterns.Patterns.test_all_five_operators_have_executable_effects) ... ok
+test_context_and_cue_scope (tests_u7.test_patterns.Patterns.test_context_and_cue_scope) ... ok
+test_equal_labels_do_not_carry_trigger (tests_u7.test_patterns.Patterns.test_equal_labels_do_not_carry_trigger) ... ok
+test_fixture_and_generated_origins_remain_distinct (tests_u7.test_patterns.Patterns.test_fixture_and_generated_origins_remain_distinct) ... ok
+test_generated_lineage_transfers_across_eight_categories (tests_u7.test_patterns.Patterns.test_generated_lineage_transfers_across_eight_categories) ... ok
+test_generated_pattern_changes_u6_action_and_material_consequence (tests_u7.test_patterns.Patterns.test_generated_pattern_changes_u6_action_and_material_consequence) ... ok
+test_generation_disabled_ablation (tests_u7.test_patterns.Patterns.test_generation_disabled_ablation) ... ok
+test_generation_requires_demand (tests_u7.test_patterns.Patterns.test_generation_requires_demand) ... ok
+test_hypothetical_forecast_deformation_is_not_physical_fact (tests_u7.test_patterns.Patterns.test_hypothetical_forecast_deformation_is_not_physical_fact) ... ok
+test_no_unearned_skill_or_target_mind (tests_u7.test_patterns.Patterns.test_no_unearned_skill_or_target_mind) ... ok
+test_repeated_read_of_one_experience_cannot_generate_pattern (tests_u7.test_patterns.Patterns.test_repeated_read_of_one_experience_cannot_generate_pattern) ... ok
+test_same_definition_unrelated_affordance_is_unchanged (tests_u7.test_patterns.Patterns.test_same_definition_unrelated_affordance_is_unchanged) ... ok
+test_single_blame_does_not_generate_pattern (tests_u7.test_patterns.Patterns.test_single_blame_does_not_generate_pattern) ... ok
+test_two_owners_keep_incompatible_accounts_of_same_object (tests_u7.test_patterns.Patterns.test_two_owners_keep_incompatible_accounts_of_same_object) ... ok
+test_unknown_operator_rejected_without_state_change (tests_u7.test_patterns.Patterns.test_unknown_operator_rejected_without_state_change) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 101.406s
+
+OK

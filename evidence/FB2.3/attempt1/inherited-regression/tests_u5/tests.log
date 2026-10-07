@@ -1,0 +1,43 @@
+test_cancel_keeps_cost_and_completed_cursor (tests_u5.test_circuit.Circuit.test_cancel_keeps_cost_and_completed_cursor) ... ok
+test_complete_causal_workshop (tests_u5.test_circuit.Circuit.test_complete_causal_workshop) ... ok
+test_completed_replay_and_historical_view (tests_u5.test_circuit.Circuit.test_completed_replay_and_historical_view) ... ok
+test_idempotent_commands_and_no_double_enact_commit (tests_u5.test_circuit.Circuit.test_idempotent_commands_and_no_double_enact_commit) ... ok
+test_model_a_and_crux_progress_are_separate (tests_u5.test_circuit.Circuit.test_model_a_and_crux_progress_are_separate) ... ok
+test_paid_surfaces_have_real_responsibilities (tests_u5.test_circuit.Circuit.test_paid_surfaces_have_real_responsibilities) ... ok
+test_partial_work_resume_and_exact_continuation (tests_u5.test_circuit.Circuit.test_partial_work_resume_and_exact_continuation) ... ok
+test_reading_without_integration_keeps_old_action (tests_u5.test_circuit.Circuit.test_reading_without_integration_keeps_old_action) ... ok
+test_audit_rejects_forged_route_and_conclusion (tests_u5.test_controls.Controls.test_audit_rejects_forged_route_and_conclusion) ... ok
+test_concurrent_cognitive_work_rejected_before_charge (tests_u5.test_controls.Controls.test_concurrent_cognitive_work_rejected_before_charge) ... ok
+test_conflicting_memories_keep_uncertainty (tests_u5.test_controls.Controls.test_conflicting_memories_keep_uncertainty) ... ok
+test_expired_and_wrong_property_memories_not_used (tests_u5.test_controls.Controls.test_expired_and_wrong_property_memories_not_used) ... ok
+test_failed_physical_effect_is_not_evidence_of_repair (tests_u5.test_controls.Controls.test_failed_physical_effect_is_not_evidence_of_repair) ... ok
+test_hidden_material_has_identical_view_and_plan (tests_u5.test_controls.Controls.test_hidden_material_has_identical_view_and_plan) ... ok
+test_independent_audit_checks_routes_accounting_and_lineage (tests_u5.test_controls.Controls.test_independent_audit_checks_routes_accounting_and_lineage) ... ok
+test_new_actor_binding_invalidates_pending_cognition_without_refund (tests_u5.test_controls.Controls.test_new_actor_binding_invalidates_pending_cognition_without_refund) ... ok
+test_older_observation_does_not_erase_newer_retention (tests_u5.test_controls.Controls.test_older_observation_does_not_erase_newer_retention) ... ok
+test_other_actor_cannot_enact_or_read_private_account (tests_u5.test_controls.Controls.test_other_actor_cannot_enact_or_read_private_account) ... ok
+test_prior_plan_cannot_override_new_retained_account (tests_u5.test_controls.Controls.test_prior_plan_cannot_override_new_retained_account) ... ok
+test_rehashed_checkpoint_cannot_forge_retained_state (tests_u5.test_controls.Controls.test_rehashed_checkpoint_cannot_forge_retained_state) ... ok
+test_revision_correction_does_not_undo_material_history (tests_u5.test_controls.Controls.test_revision_correction_does_not_undo_material_history) ... ok
+test_rule_revision_invalidates_pending_result (tests_u5.test_controls.Controls.test_rule_revision_invalidates_pending_result) ... ok
+test_same_revision_conflicting_observations_remain_unresolved (tests_u5.test_controls.Controls.test_same_revision_conflicting_observations_remain_unresolved) ... ok
+test_same_revision_false_belief_corrects_from_observation (tests_u5.test_controls.Controls.test_same_revision_false_belief_corrects_from_observation) ... ok
+test_source_definitions_cannot_be_silently_changed (tests_u5.test_controls.Controls.test_source_definitions_cannot_be_silently_changed) ... ok
+test_truncated_recall_has_no_confident_claim (tests_u5.test_controls.Controls.test_truncated_recall_has_no_confident_claim) ... ok
+test_undelivered_and_partially_read_event_cannot_revise (tests_u5.test_controls.Controls.test_undelivered_and_partially_read_event_cannot_revise) ... ok
+test_wrong_context_offer_is_ignored (tests_u5.test_controls.Controls.test_wrong_context_offer_is_ignored) ... ok
+test_wrong_target_and_receiver_offers_do_not_authorize_repair (tests_u5.test_controls.Controls.test_wrong_target_and_receiver_offers_do_not_authorize_repair) ... ok
+test_zero_and_time_limited_cognition_retains_no_result (tests_u5.test_controls.Controls.test_zero_and_time_limited_cognition_retains_no_result) ... ok
+test_all_incident_source_edges_have_two_polarities (tests_u5.test_geometry.Geometry.test_all_incident_source_edges_have_two_polarities) ... ok
+test_all_types_and_same_history_have_same_grounded_action (tests_u5.test_geometry.Geometry.test_all_types_and_same_history_have_same_grounded_action) ... ok
+test_alternative_lawful_composition_is_paid_and_actionable (tests_u5.test_geometry.Geometry.test_alternative_lawful_composition_is_paid_and_actionable) ... ok
+test_contextual_recall_and_linked_cues_have_variable_structure (tests_u5.test_geometry.Geometry.test_contextual_recall_and_linked_cues_have_variable_structure) ... ok
+test_equal_limited_work_changes_progress_not_hidden_information (tests_u5.test_geometry.Geometry.test_equal_limited_work_changes_progress_not_hidden_information) ... ok
+test_generalized_property_reconciliation_works_for_wear (tests_u5.test_geometry.Geometry.test_generalized_property_reconciliation_works_for_wear) ... ok
+test_missing_single_function_crossings_rejected_for_all_types (tests_u5.test_geometry.Geometry.test_missing_single_function_crossings_rejected_for_all_types) ... ok
+test_source_rank_suit_and_unspecified_meanings_are_distinct (tests_u5.test_geometry.Geometry.test_source_rank_suit_and_unspecified_meanings_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 27.611s
+
+OK

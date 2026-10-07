@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "tests": 38,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 27.612632169999983,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_cancel_keeps_cost_and_completed_cursor",
+      "status": "passed",
+      "seconds": 0.17769327799999246
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_complete_causal_workshop",
+      "status": "passed",
+      "seconds": 0.2426909749999595
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_completed_replay_and_historical_view",
+      "status": "passed",
+      "seconds": 0.5944423939999979
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_idempotent_commands_and_no_double_enact_commit",
+      "status": "passed",
+      "seconds": 0.22639294299995072
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_model_a_and_crux_progress_are_separate",
+      "status": "passed",
+      "seconds": 0.1910354730000563
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_paid_surfaces_have_real_responsibilities",
+      "status": "passed",
+      "seconds": 0.2853067999999439
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_partial_work_resume_and_exact_continuation",
+      "status": "passed",
+      "seconds": 0.7554871080000112
+    },
+    {
+      "test_id": "tests_u5.test_circuit.Circuit.test_reading_without_integration_keeps_old_action",
+      "status": "passed",
+      "seconds": 0.21902293199991618
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_audit_rejects_forged_route_and_conclusion",
+      "status": "passed",
+      "seconds": 0.27900589900002615
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_concurrent_cognitive_work_rejected_before_charge",
+      "status": "passed",
+      "seconds": 0.23104325899998912
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_conflicting_memories_keep_uncertainty",
+      "status": "passed",
+      "seconds": 0.1854352550000158
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_expired_and_wrong_property_memories_not_used",
+      "status": "passed",
+      "seconds": 0.19605276599997978
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_failed_physical_effect_is_not_evidence_of_repair",
+      "status": "passed",
+      "seconds": 0.18966562700006762
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_hidden_material_has_identical_view_and_plan",
+      "status": "passed",
+      "seconds": 1.5264105370000607
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_independent_audit_checks_routes_accounting_and_lineage",
+      "status": "passed",
+      "seconds": 0.2841417189999902
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_new_actor_binding_invalidates_pending_cognition_without_refund",
+      "status": "passed",
+      "seconds": 0.17689487200004805
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_older_observation_does_not_erase_newer_retention",
+      "status": "passed",
+      "seconds": 0.2518792419999727
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_other_actor_cannot_enact_or_read_private_account",
+      "status": "passed",
+      "seconds": 0.18029828299995643
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_prior_plan_cannot_override_new_retained_account",
+      "status": "passed",
+      "seconds": 0.21457620599994698
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_rehashed_checkpoint_cannot_forge_retained_state",
+      "status": "passed",
+      "seconds": 0.8043057940000153
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_revision_correction_does_not_undo_material_history",
+      "status": "passed",
+      "seconds": 0.28475860500009276
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_rule_revision_invalidates_pending_result",
+      "status": "passed",
+      "seconds": 0.1990863300000001
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_same_revision_conflicting_observations_remain_unresolved",
+      "status": "passed",
+      "seconds": 0.21431523399996877
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_same_revision_false_belief_corrects_from_observation",
+      "status": "passed",
+      "seconds": 0.18515962000003583
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_source_definitions_cannot_be_silently_changed",
+      "status": "passed",
+      "seconds": 0.21081719800008614
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_truncated_recall_has_no_confident_claim",
+      "status": "passed",
+      "seconds": 0.19277491900004406
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_undelivered_and_partially_read_event_cannot_revise",
+      "status": "passed",
+      "seconds": 0.2774059229999466
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_wrong_context_offer_is_ignored",
+      "status": "passed",
+      "seconds": 0.22435452399997757
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_wrong_target_and_receiver_offers_do_not_authorize_repair",
+      "status": "passed",
+      "seconds": 0.43140776999996433
+    },
+    {
+      "test_id": "tests_u5.test_controls.Controls.test_zero_and_time_limited_cognition_retains_no_result",
+      "status": "passed",
+      "seconds": 0.5402119319999201
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_all_incident_source_edges_have_two_polarities",
+      "status": "passed",
+      "seconds": 6.609555273000069
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_all_types_and_same_history_have_same_grounded_action",
+      "status": "passed",
+      "seconds": 2.9507799049999903
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_alternative_lawful_composition_is_paid_and_actionable",
+      "status": "passed",
+      "seconds": 0.1967971110000235
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_contextual_recall_and_linked_cues_have_variable_structure",
+      "status": "passed",
+      "seconds": 0.16447793899999397
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_equal_limited_work_changes_progress_not_hidden_information",
+      "status": "passed",
+      "seconds": 3.140507140000068
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_generalized_property_reconciliation_works_for_wear",
+      "status": "passed",
+      "seconds": 0.18584485899998526
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_missing_single_function_crossings_rejected_for_all_types",
+      "status": "passed",
+      "seconds": 4.252663441999971
+    },
+    {
+      "test_id": "tests_u5.test_geometry.Geometry.test_source_rank_suit_and_unspecified_meanings_are_distinct",
+      "status": "passed",
+      "seconds": 0.13706795099994906
+    }
+  ]
+}

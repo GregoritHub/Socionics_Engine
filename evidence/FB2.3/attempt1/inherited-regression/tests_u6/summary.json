@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "tests": 40,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 58.72723022200012,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_actual_acquired_procedure_adds_repair_candidate",
+      "status": "passed",
+      "seconds": 1.3900850249999621
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_boredom_causes_paid_exploration_without_acquisition",
+      "status": "passed",
+      "seconds": 2.541939086999946
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_bounded_forecast_reports_censored_coverage",
+      "status": "passed",
+      "seconds": 1.391461196000023
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_budget_stop_retains_partial_work_and_no_negative_budget",
+      "status": "passed",
+      "seconds": 3.7724087409999356
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_cancelled_anticipation_keeps_charges_and_publishes_nothing",
+      "status": "passed",
+      "seconds": 2.531063816000028
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_delivery_and_partial_read_do_not_appraise",
+      "status": "passed",
+      "seconds": 2.1684243050000305
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_forecast_changes_affordable_action_under_matched_cost",
+      "status": "passed",
+      "seconds": 3.21686502700004
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_forecast_stale_account_fails_without_refunding",
+      "status": "passed",
+      "seconds": 1.4048523339999974
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_hidden_material_variants_keep_same_pre_delivery_choice",
+      "status": "passed",
+      "seconds": 5.58409386400001
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_named_procedure_does_not_award_forecast_candidate",
+      "status": "passed",
+      "seconds": 1.2127794710000899
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_new_assistance_delivery_wakes_pending_intent",
+      "status": "passed",
+      "seconds": 2.305569814000023
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_partial_forecast_restores_identically",
+      "status": "passed",
+      "seconds": 2.510603587999981
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_partial_material_action_restores_identically",
+      "status": "passed",
+      "seconds": 2.3946304300000065
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_partial_plan_restores_identically",
+      "status": "passed",
+      "seconds": 1.0851552050000919
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_prediction_is_hypothetical_and_cannot_be_foreign_knowledge",
+      "status": "passed",
+      "seconds": 0.60427705099994
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_pressure_changes_available_processing_but_not_skill",
+      "status": "passed",
+      "seconds": 0.9569184819999919
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_processed_threat_sets_boundary_and_preserves_partial_work",
+      "status": "passed",
+      "seconds": 0.49570232799999303
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_raw_audit_and_tamper_controls",
+      "status": "passed",
+      "seconds": 1.4411441600000217
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_received_surprise_investigates_corrects_and_continues",
+      "status": "passed",
+      "seconds": 1.7113463450000381
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_rehashed_forged_checkpoint_is_rejected",
+      "status": "passed",
+      "seconds": 1.1600566150000304
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_repeated_observed_failure_switches_to_paid_request",
+      "status": "passed",
+      "seconds": 1.0514490320000505
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_rest_reduces_fatigue_only_and_preserves_unfinished_thought",
+      "status": "passed",
+      "seconds": 0.49737161600000945
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_same_revision_correction_guides_later_u5_plan",
+      "status": "passed",
+      "seconds": 0.21293803700007174
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_stopped_actor_does_not_spin_and_commands_are_idempotent",
+      "status": "passed",
+      "seconds": 0.5437441430000263
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_unrelated_event_does_not_satisfy_named_wait",
+      "status": "passed",
+      "seconds": 0.5452426269999933
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_unseen_effect_waits_without_cost_or_history_growth",
+      "status": "passed",
+      "seconds": 0.6774338330000091
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_wait_checkpoint_continues_after_allowed_delivery",
+      "status": "passed",
+      "seconds": 3.0198159689999784
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_workshop_runs_repair_learning_and_two_uses_without_action_script",
+      "status": "passed",
+      "seconds": 1.4342937909999591
+    },
+    {
+      "test_id": "tests_u6.test_autonomy.Continuation.test_wrong_owner_cannot_start_forecast",
+      "status": "passed",
+      "seconds": 0.6663388079999777
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_clock_change_and_other_actor_work_do_not_change_local_motives",
+      "status": "passed",
+      "seconds": 0.7525640519999115
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_conflicting_target_receiver_context_or_operation_cannot_match_result",
+      "status": "passed",
+      "seconds": 0.5923240020000549
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_equal_need_and_history_different_tim_does_not_script_action",
+      "status": "passed",
+      "seconds": 2.362857247999955
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_invalid_search_bounds_rejected_before_mutation",
+      "status": "passed",
+      "seconds": 0.7305272190000096
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_native_and_access_checkpoints_remain_exact",
+      "status": "passed",
+      "seconds": 1.4212389849999454
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_paid_unresolved_correction_does_not_resurrect_old_certainty",
+      "status": "passed",
+      "seconds": 0.22515413199994327
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_resource_wait_requires_notice_then_attempts_again",
+      "status": "passed",
+      "seconds": 0.7118308239998896
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_scarcity_from_processed_stock_limits_work_without_granting_skill",
+      "status": "passed",
+      "seconds": 0.502447704999895
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_successful_correction_never_awards_unpracticed_procedure",
+      "status": "passed",
+      "seconds": 1.5866162909999275
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_unaffordable_candidate_is_explicitly_unselected",
+      "status": "passed",
+      "seconds": 0.6083281539999916
+    },
+    {
+      "test_id": "tests_u6.test_boundaries.Boundaries.test_unrelated_delivery_does_not_release_resource_wait",
+      "status": "passed",
+      "seconds": 0.7027591580001626
+    }
+  ]
+}

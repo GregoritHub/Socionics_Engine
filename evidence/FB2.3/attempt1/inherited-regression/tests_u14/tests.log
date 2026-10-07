@@ -1,0 +1,14 @@
+test_budget_reallocation_cannot_hide_spending (tests_u14.test_release.Accounting.test_budget_reallocation_cannot_hide_spending) ... ok
+test_own_budget_reconstructed_and_forged_debit_rejected (tests_u14.test_release.Accounting.test_own_budget_reconstructed_and_forged_debit_rejected) ... ok
+test_actor_export_excludes_unseen_material (tests_u14.test_release.Inspector.test_actor_export_excludes_unseen_material) ... ok
+test_complete_export_serializes_wallet_and_evaluator (tests_u14.test_release.Inspector.test_complete_export_serializes_wallet_and_evaluator) ... ok
+test_exact_historical_revision_and_no_mutation (tests_u14.test_release.Inspector.test_exact_historical_revision_and_no_mutation) ... ok
+test_gzip_checkpoint_restores_with_same_actor_export (tests_u14.test_release.Inspector.test_gzip_checkpoint_restores_with_same_actor_export) ... ok
+test_html_cannot_execute_record_text (tests_u14.test_release.Inspector.test_html_cannot_execute_record_text) ... ok
+test_duplicate_cases_are_not_independent_evidence (tests_u14.test_release.PanelValidation.test_duplicate_cases_are_not_independent_evidence) ... ok
+test_empty_panel_is_not_a_pass (tests_u14.test_release.PanelValidation.test_empty_panel_is_not_a_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.162s
+
+OK

@@ -1,0 +1,20 @@
+{
+  "status": "probe",
+  "accepted": false,
+  "new_tests": 55,
+  "passed_methods": 54,
+  "errors": 1,
+  "failures": 0,
+  "inherited_methods_passed": 602,
+  "panel_witnesses_passed": 32,
+  "independently_rejected_controls": 32,
+  "source_unchanged": true,
+  "failure": "test_missing_scope_and_exchange_cannot_create_social_applicability: peer=WRITER supplies a writer string, rejected by WorkflowSelectionRequest validation.",
+  "correction": "Use EVE, the existing distinct ObjectId non-member, without changing the ineligibility assertion or implementation.",
+  "commands": {
+    "new-tests": 1,
+    "inherited-regression": 0,
+    "panel": 0,
+    "independent-verification": 0
+  }
+}
