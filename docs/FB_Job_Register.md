@@ -11,8 +11,8 @@
 | 2.1 | Workflow selection: the four self-routes | complete; see FB2.1_Record.md | |
 | 2.2 | Workflow selection: crossings that end in I, IT or ITS for one actor | complete; see FB2.2_Record.md | |
 | 2.3 | Workflow selection: the social crossings | complete; see FB2.3_Record.md | |
-| 2.4 | Type matrix, responsiveness and the selection auditor | recovery in progress; see FB2.4_Record.md | |
-| 3.1 | Prevention of initiation | pending | |
+| 2.4 | Type matrix, responsiveness and the selection auditor | complete; see FB2.4_Record.md | |
+| 3.1 | Prevention of initiation | in progress | |
 | 3.2 | Active interruption | pending | |
 | 3.3 | Effects, signs, correction and recurrence | pending | |
 | 4.1 | The five families in workflow content | pending | |
@@ -27,4 +27,4 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 remains incomplete; batches through 2.3 are accepted. Greg authorized recovery of FB2.4 on 2026-10-07 at 07:24:31 America/New_York. Attempt3 is in progress; both earlier failures remain preserved. Automatic continuation has been re-enabled, with a live worker lease. Phase 7 still requires explicit R5.
+[open] Release 1.0 remains incomplete; batches through 2.4 are accepted. Attempt3 passed all gates following Greg’s recovery authorization; both earlier failures remain preserved. Batch 3.1 is next and automatic continuation remains enabled. Phase 7 still requires explicit R5.

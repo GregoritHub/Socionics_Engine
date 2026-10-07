@@ -1,4 +1,6 @@
-# FB2.4 — Type matrix and responsiveness: authorized recovery in progress
+# FB2.4 — Type matrix and responsiveness: passed
+
+[machine-checked] Current disposition: attempt3 passed on 2026-10-07 with an unchanged 1,239-file freeze. Earlier blocked and partial statements below are chronological history, preserved without relabelling.
 
 [source_defined] Prospective protocol `C7_Workflow_Selection_FB2.4_Amendment_v1.json` committed before implementation at `039c4de`. The work is split into capacity request/view/policy (`56af69d`) and independent reconstruction/panels. All remaining stop gates apply; Phase 7 requires R5.
 
@@ -31,3 +33,11 @@
 [open] Attempt3 is running on `evidence/FB2.4/attempt3/source_freeze.json`; no new gate pass is claimed yet. Automatic continuation was successfully re-enabled at 2026-10-07T11:30:34.532266Z. The current worker holds a 30-minute lease; all other stop rules and the Phase 7 R5 requirement remain.
 
 [probe] Recovery partial checkpoint: all 661 distinct methods passed (602 inherited plus 23 workflow, 16 Model G/axis and 20 workflow-selection methods). The responsiveness evaluator and independent raw verifier passed three pairs across nine worlds, rejecting both deliberately unresponsive controls. Source hashes remained unchanged. The automatic 512-case matrix and its separate reconstruction are still pending; FB2.4 is not accepted.
+
+[machine-checked] Acceptance: all six recorded commands exited 0 with unchanged frozen source. 661 distinct test methods passed with no skips or failures (602 inherited, 23 workflow, 16 Model G/axis, 20 workflow-selection). The complete 16-type × 32-cell automatic panel passed; its separate raw-world verifier reconstructed 544 worlds and rejected all 32 choice-withheld controls. Three responsiveness comparisons across nine raw worlds passed independent reconstruction, with two deliberately unresponsive choices rejected. No participant replay was used by either verifier.
+
+[machine-checked] Source freeze SHA-256: `d4e971c761650f55cfd5074f15d0f614f338578aa3918489ed70b160f33991e1`. `Protection_Check.json` verifies the unchanged baseline and inherited C6 encoder. Exact commands, elapsed times, exit codes and source checks are in `evidence/FB2.4/attempt3/commands.json`. The immutable 658-member raw archive has SHA-256 `941c387212198241d669ef7b49c909cdb5a853baaf20c02f8d965b829af0ad52`; exact durable IDs and extraction instructions are in `Raw_Evidence_Index.json`.
+
+[derived] What changed: only the v4 paid definition representation and its independent reconstruction were repaired; all five fields are losslessly represented and individually tamper-tested. What becomes possible: Phase 2 automatic workflow selection now has accepted exhaustive domain coverage, responsive capacity/information witnesses and independent audit. This does not claim human validity or coverage outside the declared bounded workflow domain.
+
+[open] Next entry state: batch 3.1, workflow Shell prevention. Begin with a prospective hashed protocol and preserve a diagnostic of all five inherited effect kinds before extending the gate. Release 1.0 is incomplete; Phase 7 remains unauthorized.

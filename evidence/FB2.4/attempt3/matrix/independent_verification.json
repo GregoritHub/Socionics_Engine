@@ -1,0 +1,4360 @@
+{
+  "passed": true,
+  "worlds": 544,
+  "controls_rejected": 32,
+  "participant_replay": false,
+  "rows": [
+    {
+      "file": "eie-Act-accumulation.json.gz",
+      "sha256": "a4a04e3f5962151f78541cb86c15d9fc2902b57d306a8345e669814b9a04285a",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 10
+    },
+    {
+      "file": "eie-Act-expenditure.json.gz",
+      "sha256": "13e5a7a338935ad58da25af3e99d5d222bda1b2d5a44122c0ab5a4ae2bf75443",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 11
+    },
+    {
+      "file": "eie-Apply-accumulation.json.gz",
+      "sha256": "35e679a00165cef0214e8a3c95a6f6bb96c298cef88ab089cc4a8d954f8da890",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 26
+    },
+    {
+      "file": "eie-Apply-expenditure.json.gz",
+      "sha256": "0a975d605fb29ba979d770dfe4f4218e4139aaa0a371372d27fff42b42a07314",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 27
+    },
+    {
+      "file": "eie-Commune-accumulation.json.gz",
+      "sha256": "811c9822b4f8e918f3a9bc5ab27840e86715bd328e0c75f233f5b695624c5666",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 20
+    },
+    {
+      "file": "eie-Commune-expenditure.json.gz",
+      "sha256": "7f56175c00705cfdfb0a91a8b659689999d88b60fcf5edb67bd41e5e885ff313",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 21
+    },
+    {
+      "file": "eie-Contemplate-accumulation.json.gz",
+      "sha256": "d085914fbe91ff1b6bcb499d65a4d5b3a66252dbaed648b38c9cb83f982ed5fe",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 0
+    },
+    {
+      "file": "eie-Contemplate-expenditure.json.gz",
+      "sha256": "84dcebe02d1996b07ffe29ead0c41c917b3257747375e9a7a92f6aa091e70c7f",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 1
+    },
+    {
+      "file": "eie-Coordinate-accumulation.json.gz",
+      "sha256": "135f6e247e486cedb460634729a9abff102ced664292bd4b261956ce48c50169",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 12
+    },
+    {
+      "file": "eie-Coordinate-expenditure.json.gz",
+      "sha256": "14f8db0c35f4df1557cfb84e2d6c6c0570e531c6d4faf78239dd408e27a87a6b",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 13
+    },
+    {
+      "file": "eie-Educate-accumulation.json.gz",
+      "sha256": "a058e747885d79e0a07f6eff6cf9b114f2de14da3f2ab80a6129f69cb0f2073a",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 28
+    },
+    {
+      "file": "eie-Educate-expenditure.json.gz",
+      "sha256": "81faa10db3b7a08c3f195ed72c9256633d296df5a5ce542deb095ca04b684a29",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 29
+    },
+    {
+      "file": "eie-Embody-accumulation.json.gz",
+      "sha256": "7bcd2c615c57a00c40340ec28c120887f6bdb6b0dfc107aa231d740327ce4b22",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 8
+    },
+    {
+      "file": "eie-Embody-expenditure.json.gz",
+      "sha256": "10c6cea9d4c87b435bed722902954b5bbfa4c61a151632b604a551f9604c14de",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 9
+    },
+    {
+      "file": "eie-Express-accumulation.json.gz",
+      "sha256": "506a312807e8ea116c17ae2c48b9f7bdd3e202f0bb1a23f327c3a66c557bd752",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 2
+    },
+    {
+      "file": "eie-Express-expenditure.json.gz",
+      "sha256": "6f5be452e71b4051ec57f3e51e7dbf9c5f4b3bdc8b697f9b713fb92f5240e4aa",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 3
+    },
+    {
+      "file": "eie-Identify-accumulation.json.gz",
+      "sha256": "432e0bfa00cbf2b676650525c9a8a8b80bda6311f2397e29628d3559bba6ae5e",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 16
+    },
+    {
+      "file": "eie-Identify-expenditure.json.gz",
+      "sha256": "65190cd2b12f335bad2bab8eb0eafe1b82035126a18c56c3054689c9c1878410",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 17
+    },
+    {
+      "file": "eie-Institutionalize-accumulation.json.gz",
+      "sha256": "96b957e74a49b385e96ea88f245b084216679cd02ff4caf0977d54b183e03c1c",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 22
+    },
+    {
+      "file": "eie-Institutionalize-expenditure.json.gz",
+      "sha256": "611e71cbe90ffc2a2aac480dd10b63160b8183f3fd683a78704c8f18f4a3b061",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 23
+    },
+    {
+      "file": "eie-Integrate-accumulation.json.gz",
+      "sha256": "0f8f4cc9d4a649765c2682fb45a63c87e31a54852e037010c9f7813960602616",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 30
+    },
+    {
+      "file": "eie-Integrate-expenditure.json.gz",
+      "sha256": "5173dc6b448902183cf6a6209b2c0a1b0df76c3c33ab67b03669a93d6992e4f6",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 31
+    },
+    {
+      "file": "eie-Mobilize-accumulation.json.gz",
+      "sha256": "fd3f3b996ba2dbcd6e5c78757c586db2635559af1279f2a472c5ab8c014094cd",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 18
+    },
+    {
+      "file": "eie-Mobilize-expenditure.json.gz",
+      "sha256": "204eea2fc08a10499a5f18a3f7be7bd680092a348afdd309a085e0e2cc2a71f2",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 19
+    },
+    {
+      "file": "eie-Organize-accumulation.json.gz",
+      "sha256": "61a420e66d3aab0dbae58e99442dd36fcc5b62daf5a2d608832044f6183294a7",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 14
+    },
+    {
+      "file": "eie-Organize-expenditure.json.gz",
+      "sha256": "0beb694cada33e83ab9d44adf61740f94ce7cedf88c0b25a77a033b4b59e08ed",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 15
+    },
+    {
+      "file": "eie-Share-accumulation.json.gz",
+      "sha256": "56dad252156f7b7a919f7e7c0e993b995a02ca9636807f533076af3b94aa147d",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 4
+    },
+    {
+      "file": "eie-Share-expenditure.json.gz",
+      "sha256": "74ca2624fc9f5207e70079cf89912de42ccbbdeef40e8419b535ba32a2fef177",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 5
+    },
+    {
+      "file": "eie-Theorize-accumulation.json.gz",
+      "sha256": "7e40ac2ba5633df6ca8fef3bceca5c2ef0935e0a118b71b0bc6e71ce1c03416c",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 6
+    },
+    {
+      "file": "eie-Theorize-expenditure.json.gz",
+      "sha256": "74e04f5fa41ea443e2fe417bcfc8e0bb53e440c58c773766b1d248a4e37546ab",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 7
+    },
+    {
+      "file": "eie-Understand-accumulation.json.gz",
+      "sha256": "44231d0319414763aa66ef66f1523c9c44952830aa6c1f87eb343b2ccf9777f3",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 24
+    },
+    {
+      "file": "eie-Understand-expenditure.json.gz",
+      "sha256": "31f6b5a99fa238f8beb4d7be914e0e55b20dcb556ce2515aeca3ec38635e8657",
+      "control": false,
+      "rejection": null,
+      "tim": "eie",
+      "cell": 25
+    },
+    {
+      "file": "eii-Act-accumulation.json.gz",
+      "sha256": "e9ab7b1327444a25f46c319db1b749432d9c8277aa2368760f9415a123f7c1b9",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 10
+    },
+    {
+      "file": "eii-Act-expenditure.json.gz",
+      "sha256": "13e5de06f510e44a5ead1a5a8e3076739a4b7fd67becfd0b9d4b3558519bfee2",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 11
+    },
+    {
+      "file": "eii-Apply-accumulation.json.gz",
+      "sha256": "2210afcc447cae3d31b2365e6a4d483379c5afd97f8d12516645563d9c433e19",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 26
+    },
+    {
+      "file": "eii-Apply-expenditure.json.gz",
+      "sha256": "e08ba70634f19b5e70672e978f9a8ab739ae606ef3928a5a7bec93312dfe0e1f",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 27
+    },
+    {
+      "file": "eii-Commune-accumulation.json.gz",
+      "sha256": "005ac8eb397f9ee632af0b612f9a02ba62c008bfe7795980c83b91bdfa31e2ca",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 20
+    },
+    {
+      "file": "eii-Commune-expenditure.json.gz",
+      "sha256": "2ad6bbdef0b0036653f17173f92f1999c4b84ed5135e6d23bb4b18ded0b391f0",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 21
+    },
+    {
+      "file": "eii-Contemplate-accumulation.json.gz",
+      "sha256": "cb20729633a5c9e1fbb052cec6b68ed0b0e33fd809949cb99d615eab6620d50b",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 0
+    },
+    {
+      "file": "eii-Contemplate-expenditure.json.gz",
+      "sha256": "db02adef89f72024ce9d7e6c65413e900afe53504953847739dede862b5780d9",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 1
+    },
+    {
+      "file": "eii-Coordinate-accumulation.json.gz",
+      "sha256": "5404489d52d0b123439e7d2c1c7cfd22b52b555664fe479241041a5443be9de2",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 12
+    },
+    {
+      "file": "eii-Coordinate-expenditure.json.gz",
+      "sha256": "033889bc384960e524d79aae50cc3898f7ca5232bf89263417b98e8a660a7e80",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 13
+    },
+    {
+      "file": "eii-Educate-accumulation.json.gz",
+      "sha256": "d63b9559704355d70fd7040f7e941a30fc1db654e27e9f32b24f34b1dd6dc060",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 28
+    },
+    {
+      "file": "eii-Educate-expenditure.json.gz",
+      "sha256": "2be32e622db3a87e591158dd4b5b98f53b10fff77c29cdbf1c09cee1d1f89cfd",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 29
+    },
+    {
+      "file": "eii-Embody-accumulation.json.gz",
+      "sha256": "f052969e534c1a2255e1c3c9709030e5df79d358fdbb9fcc2e8db23da754698d",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 8
+    },
+    {
+      "file": "eii-Embody-expenditure.json.gz",
+      "sha256": "2a51698f02262f9b89f8b18bd44c372d598fd4f35cf0b42b65bf148175616649",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 9
+    },
+    {
+      "file": "eii-Express-accumulation.json.gz",
+      "sha256": "ea0aaf3fecf1f7356888629157e953629d07f016a7b1bfb05c9b60a8ab346071",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 2
+    },
+    {
+      "file": "eii-Express-expenditure.json.gz",
+      "sha256": "77d3f74802a7b784bc1896952ef613b9e868bb561707a5d7189a2d779f39dd14",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 3
+    },
+    {
+      "file": "eii-Identify-accumulation.json.gz",
+      "sha256": "9acb071de3f0c9f7471b2287f208b8b8bf1137a236927edbb996683e6050864a",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 16
+    },
+    {
+      "file": "eii-Identify-expenditure.json.gz",
+      "sha256": "b9b76d86d827102603c737f7f89fe47d3d2d2af7395738d4f1ab6b937ad1f285",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 17
+    },
+    {
+      "file": "eii-Institutionalize-accumulation.json.gz",
+      "sha256": "65fc928ac524bc48480db719f267e48aedf290fab91663e6c5c747b019fcaf64",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 22
+    },
+    {
+      "file": "eii-Institutionalize-expenditure.json.gz",
+      "sha256": "324f4312a91d8028533cfedc0d8e21b2128989a476af932897abd2614c885582",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 23
+    },
+    {
+      "file": "eii-Integrate-accumulation.json.gz",
+      "sha256": "dda2ead441a5c0ee9a7e9ad9fe1760b9a6b273d4430748360d34c04566c51941",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 30
+    },
+    {
+      "file": "eii-Integrate-expenditure.json.gz",
+      "sha256": "a24428f360b0c1ebbb206eda93ba0337ee0099aac707d82c4f3cdac6dd61e0f2",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 31
+    },
+    {
+      "file": "eii-Mobilize-accumulation.json.gz",
+      "sha256": "465af7df5826ce9d23c656070f5432eb902b87adf669a13f831684e83fcffe81",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 18
+    },
+    {
+      "file": "eii-Mobilize-expenditure.json.gz",
+      "sha256": "1164ba2280eab6c6b0ba207b33cf7f0ce0f732522e4ee3fde9516fd64492a21f",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 19
+    },
+    {
+      "file": "eii-Organize-accumulation.json.gz",
+      "sha256": "17f48c121880612bb4057d29db0ef4680f04914fe09ee56ea20a70a10bf73ebf",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 14
+    },
+    {
+      "file": "eii-Organize-expenditure.json.gz",
+      "sha256": "f69b8b6f8e71f50b5d73da123d0c53cf335852bdab98f4d6c1ba00faf00c94cf",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 15
+    },
+    {
+      "file": "eii-Share-accumulation.json.gz",
+      "sha256": "9bc33fe6ba158b378cf99175c3bb23f97c1ba7e4c5dc479cb027f77b5f38bf68",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 4
+    },
+    {
+      "file": "eii-Share-expenditure.json.gz",
+      "sha256": "5ece8057f18211e6dee7a06cf04e40250ad8e0d3da93228d6748dfe14a2af058",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 5
+    },
+    {
+      "file": "eii-Theorize-accumulation.json.gz",
+      "sha256": "49f3a0b791e2a6e58644a7a191434bb890bc3e32d767d9e3d4242a955eeb7ed4",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 6
+    },
+    {
+      "file": "eii-Theorize-expenditure.json.gz",
+      "sha256": "894df672da48d355e5b9aee82f2971b1fe3f3a31a43f944b021b0b97459490f2",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 7
+    },
+    {
+      "file": "eii-Understand-accumulation.json.gz",
+      "sha256": "9add69c2284901060b4e3d57b585c9bed263f886fa160092ffb8b7dc929dc071",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 24
+    },
+    {
+      "file": "eii-Understand-expenditure.json.gz",
+      "sha256": "b46c55feae98d536047ff872736422cf946bc332769bf31c0a2d839d6d90212a",
+      "control": false,
+      "rejection": null,
+      "tim": "eii",
+      "cell": 25
+    },
+    {
+      "file": "ese-Act-accumulation.json.gz",
+      "sha256": "97cf1366380ff67eca4638016726f8ba092b839297502d95fa494c5250ce1468",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 10
+    },
+    {
+      "file": "ese-Act-expenditure.json.gz",
+      "sha256": "578fd6987189bc53cfb1048071f2cf63c098b5251d50db7b560dc1d46ab5d13f",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 11
+    },
+    {
+      "file": "ese-Apply-accumulation.json.gz",
+      "sha256": "de0690d869e2dcc0d77df91105eb5d99b636e961955fdff68e754e367d9e7de4",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 26
+    },
+    {
+      "file": "ese-Apply-expenditure.json.gz",
+      "sha256": "acf1ace231c869c6ba47d2af2890a91b5092d88512729b01c27acd38182f2823",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 27
+    },
+    {
+      "file": "ese-Commune-accumulation.json.gz",
+      "sha256": "a7489e759d21be47a90bc0df0a12bbb2502bceaf7c14b4b4c6a2065a09c0944c",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 20
+    },
+    {
+      "file": "ese-Commune-expenditure.json.gz",
+      "sha256": "124fc6beb1f447e31bcac92745c11b1b049d1f23011a3ee6fb16a43a5106eea7",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 21
+    },
+    {
+      "file": "ese-Contemplate-accumulation.json.gz",
+      "sha256": "54268f085ea6f253208deae110f7a114835487cda3e743c5b82c9d498d867a9c",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 0
+    },
+    {
+      "file": "ese-Contemplate-expenditure.json.gz",
+      "sha256": "7e1c5007a107ee82299bc639f4a498becb039c3f41e07a7892f2df5b284775f6",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 1
+    },
+    {
+      "file": "ese-Coordinate-accumulation.json.gz",
+      "sha256": "6060efa244aec9a1a881f94553548373d21e80a7c6db17cac01cbad7ac00c262",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 12
+    },
+    {
+      "file": "ese-Coordinate-expenditure.json.gz",
+      "sha256": "93bcac09a6de626b97c1249c41e472b4f59085b6697bd80214e2cbb1b04f0bb7",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 13
+    },
+    {
+      "file": "ese-Educate-accumulation.json.gz",
+      "sha256": "b8c9f577c2450d6f6ade88c042332f4c4328849997e9f7d0eed631d566c8e753",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 28
+    },
+    {
+      "file": "ese-Educate-expenditure.json.gz",
+      "sha256": "a203387e0f04016359d8339f067b90cc903dfcd08de59cd035237b2141673314",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 29
+    },
+    {
+      "file": "ese-Embody-accumulation.json.gz",
+      "sha256": "05b9e09c036ded6a815b378d03066ede72a57bb84a54e61169c28603da19aa01",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 8
+    },
+    {
+      "file": "ese-Embody-expenditure.json.gz",
+      "sha256": "2a3d5ca8052cad3afbf7ce9738cc7121904a456b445c6f720c85423125431b8e",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 9
+    },
+    {
+      "file": "ese-Express-accumulation.json.gz",
+      "sha256": "7d68fa9b3bc8d65f986bccf1d6278f7940cf4e4e381f4f41467d522de59737be",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 2
+    },
+    {
+      "file": "ese-Express-expenditure.json.gz",
+      "sha256": "003553e0a87313df079db58a55ac40ca75c7ef565033039400dd34c620098a09",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 3
+    },
+    {
+      "file": "ese-Identify-accumulation.json.gz",
+      "sha256": "70106cf048c11b8bedf16d2c77fc9f427ec916b8b2d2ed29167058a3ea307883",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 16
+    },
+    {
+      "file": "ese-Identify-expenditure.json.gz",
+      "sha256": "f19bf87d6a13523f112dc8a331aa2f4bed8951c6ab7e8f16470d321fc0ad3be9",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 17
+    },
+    {
+      "file": "ese-Institutionalize-accumulation.json.gz",
+      "sha256": "237957dcf60dd9ccfa9ce9db9a805917b0ce392efde36d1f4b6b7fea7c3e4ad4",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 22
+    },
+    {
+      "file": "ese-Institutionalize-expenditure.json.gz",
+      "sha256": "1679382628fb8c1ae5beb49073e6bd9dd79713a92f2b29345995eed0c966610d",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 23
+    },
+    {
+      "file": "ese-Integrate-accumulation.json.gz",
+      "sha256": "d60452df890d0d60b69508470e8f99b87abc8791341923222eeb44565ee88f39",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 30
+    },
+    {
+      "file": "ese-Integrate-expenditure.json.gz",
+      "sha256": "2d0c302ae53a9e3ec5fc7cb2b933088002e0909d26ee5b3427bc1133f6ec9e9e",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 31
+    },
+    {
+      "file": "ese-Mobilize-accumulation.json.gz",
+      "sha256": "07b152b5bf2d4ec916f329844a1929c634071810470fde025be49f4214251b01",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 18
+    },
+    {
+      "file": "ese-Mobilize-expenditure.json.gz",
+      "sha256": "5cc4f10866248580e247cdbc4bc2d07fbffea9cd931b618de4041383da504da2",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 19
+    },
+    {
+      "file": "ese-Organize-accumulation.json.gz",
+      "sha256": "b44c6457209b63f29129dd51f6c87d3898a74326ffe845c1e31b9d35e08e3e26",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 14
+    },
+    {
+      "file": "ese-Organize-expenditure.json.gz",
+      "sha256": "3621b7172f60e437399af8b7874a52683a4538b721218ac2733df03e4da259a6",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 15
+    },
+    {
+      "file": "ese-Share-accumulation.json.gz",
+      "sha256": "5365ce88efaca46db12c64dc52a50af7a32ba06624510a47734dfb04ecf1b265",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 4
+    },
+    {
+      "file": "ese-Share-expenditure.json.gz",
+      "sha256": "7f21b9ff3720f8a57819080d048857a211d59f7ecb8223bdbeb36120060a3fd9",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 5
+    },
+    {
+      "file": "ese-Theorize-accumulation.json.gz",
+      "sha256": "5a067a0804ca97dca57ba2b9af9eae46c0c8cba380c2715678123e4e43216c4f",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 6
+    },
+    {
+      "file": "ese-Theorize-expenditure.json.gz",
+      "sha256": "cb4e41216b500e3eea92bb8e47f58b64d6f34f3a5b05c718b0fcd1dacde5aa87",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 7
+    },
+    {
+      "file": "ese-Understand-accumulation.json.gz",
+      "sha256": "54830b9d03b1e36781b50adfb8a4cc6fe6fb43e35066832bb89a6785a6374d28",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 24
+    },
+    {
+      "file": "ese-Understand-expenditure.json.gz",
+      "sha256": "edd685134b2001786ca1372c2ba23d5e47d19a9b7672e508082fe5b250afd046",
+      "control": false,
+      "rejection": null,
+      "tim": "ese",
+      "cell": 25
+    },
+    {
+      "file": "esi-Act-accumulation.json.gz",
+      "sha256": "9444ae2175c5fbcc419930533157ffd002ad43b7416bb62c4ecb1a1607803a6a",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 10
+    },
+    {
+      "file": "esi-Act-expenditure.json.gz",
+      "sha256": "a2972567b33e4b6d97b7ae185105c422453d527e9ca9efa01762325a1a1a3a2d",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 11
+    },
+    {
+      "file": "esi-Apply-accumulation.json.gz",
+      "sha256": "2e72de19275a905a636bccc9287c999e2bc930631866e70198f447a76eed2aca",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 26
+    },
+    {
+      "file": "esi-Apply-expenditure.json.gz",
+      "sha256": "13e1a9d44c12354f271538db4303be06350ee1f51fe0223841b971ac79cd150a",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 27
+    },
+    {
+      "file": "esi-Commune-accumulation.json.gz",
+      "sha256": "7413da5be0400b44acf78d86ac88ae04f570085b34ceadb325dca89de329c09b",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 20
+    },
+    {
+      "file": "esi-Commune-expenditure.json.gz",
+      "sha256": "7d250e8204b195947b823721e06622387af9192990a5d24b515e5a017f6a9f55",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 21
+    },
+    {
+      "file": "esi-Contemplate-accumulation.json.gz",
+      "sha256": "5a43ef7b7c7fb9efed0bf4abf989d5c257c8cfe9da1393ac88ae2345dc259df3",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 0
+    },
+    {
+      "file": "esi-Contemplate-expenditure.json.gz",
+      "sha256": "6cb8d7782a9cbfe91857390006d3cf7f454ac645e4b8525d6b985d061615f8ea",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 1
+    },
+    {
+      "file": "esi-Coordinate-accumulation.json.gz",
+      "sha256": "019dc7c0726890bccdad45fc09636bde7ab9269e04338c05ba5f65ec34b8404c",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 12
+    },
+    {
+      "file": "esi-Coordinate-expenditure.json.gz",
+      "sha256": "10137c727000445cf26b31e6e23f7e4719d91e6167d9c6151a8bbcd3c4e448f5",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 13
+    },
+    {
+      "file": "esi-Educate-accumulation.json.gz",
+      "sha256": "deb095f5226de4be019204deec4cb0c71de3d4b5cfaaae3908988e7a5955b3ef",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 28
+    },
+    {
+      "file": "esi-Educate-expenditure.json.gz",
+      "sha256": "ad10ed86d157695108093809479e06e733095738e5dbd2d746cca3e1439ff18c",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 29
+    },
+    {
+      "file": "esi-Embody-accumulation.json.gz",
+      "sha256": "877ca52035078f69a20fc10e9eaf8b8afddd4651c930249fba492adb5b414f8f",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 8
+    },
+    {
+      "file": "esi-Embody-expenditure.json.gz",
+      "sha256": "a1ea616856c8bc4f43d1fe2afc65c629a3f5ed7d65d14b1fe8abb445e031e9b5",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 9
+    },
+    {
+      "file": "esi-Express-accumulation.json.gz",
+      "sha256": "a3220d823ff29b8bf6b41868d7d67f05228e59c8c9ee1fe80664c90f297283f0",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 2
+    },
+    {
+      "file": "esi-Express-expenditure.json.gz",
+      "sha256": "d195ae43793f53bd24b1717c71ecdaeadcf25fa8ea21aa7ef98a514cdaa931b1",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 3
+    },
+    {
+      "file": "esi-Identify-accumulation.json.gz",
+      "sha256": "bc52a0e037cf9f9f5e809d6c365c295d533ba64ae99e9e65b8371d5ed37ee32a",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 16
+    },
+    {
+      "file": "esi-Identify-expenditure.json.gz",
+      "sha256": "b54c4269eb570d7c0c7508675d026f92a2ed68108bbd2642ceda0f8bc93f895e",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 17
+    },
+    {
+      "file": "esi-Institutionalize-accumulation.json.gz",
+      "sha256": "1626a9d17f4e1a943d21d23df4a3cdc95fdbbd190de68c4d1b0469d4edf71750",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 22
+    },
+    {
+      "file": "esi-Institutionalize-expenditure.json.gz",
+      "sha256": "fa1615928b2c111f487d59d6c8b3aec213e840bd61cad5af1144b10c3fe2c587",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 23
+    },
+    {
+      "file": "esi-Integrate-accumulation.json.gz",
+      "sha256": "cc1873ebb539ef7a49b7fa895282a72caadcf5c7b4fc3a1c6346f197b1772ecd",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 30
+    },
+    {
+      "file": "esi-Integrate-expenditure.json.gz",
+      "sha256": "086272442ff15bea93194672090e3f5ebf932900f23c426cb7f88faf0730177b",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 31
+    },
+    {
+      "file": "esi-Mobilize-accumulation.json.gz",
+      "sha256": "1f5fb4ba8ba6bad7fe0810536de08e745d9dd09bd0c89fc35983d79ceee125c8",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 18
+    },
+    {
+      "file": "esi-Mobilize-expenditure.json.gz",
+      "sha256": "427bb0a3bda770b7a245674ea8cf9576bc9d1dec8f9e97de0cff0e7da5b39485",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 19
+    },
+    {
+      "file": "esi-Organize-accumulation.json.gz",
+      "sha256": "7d12f4902dd65aff2e21514aa9b6c8cb1d693104f2ed97b45ae7bec41b4e0c5c",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 14
+    },
+    {
+      "file": "esi-Organize-expenditure.json.gz",
+      "sha256": "baef30bb0e5071eba4752c1d81067c6a3817339fc1bd9043a153a327ce57db0d",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 15
+    },
+    {
+      "file": "esi-Share-accumulation.json.gz",
+      "sha256": "829fae97173deeaef353cced7a79fc9143b8ce6ffaf06cb07947707cc8cda4bd",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 4
+    },
+    {
+      "file": "esi-Share-expenditure.json.gz",
+      "sha256": "1449c76a3980ed2b00f6bb0c8fb7ff65d5acf82fb60099f5d3138a15ac9cff48",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 5
+    },
+    {
+      "file": "esi-Theorize-accumulation.json.gz",
+      "sha256": "90832b1ffe7b618da41998c46c9c53d8f5039c988a2f92767c8a994ccccbc264",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 6
+    },
+    {
+      "file": "esi-Theorize-expenditure.json.gz",
+      "sha256": "db002233c7efc822196f9e9fdd50e0a712be7d1bd785b1b315c7cd4424626000",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 7
+    },
+    {
+      "file": "esi-Understand-accumulation.json.gz",
+      "sha256": "e30c64d8c7e037ead2217ec5eefa89bd83ced97d40039f5ff2f698006df7aabb",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 24
+    },
+    {
+      "file": "esi-Understand-expenditure.json.gz",
+      "sha256": "413533e7eaaaff56dc3588688e81657aa941f6dbe6554204a4bbde33c2142507",
+      "control": false,
+      "rejection": null,
+      "tim": "esi",
+      "cell": 25
+    },
+    {
+      "file": "iee-Act-accumulation-control.json.gz",
+      "sha256": "3c443f4ca48c8a13781fadba7723a86c7bb51dca5f0aa79945574471a9c030dd",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 10
+    },
+    {
+      "file": "iee-Act-accumulation.json.gz",
+      "sha256": "bc4e776d988bb6ddcbbbb503fb6a884e07a15d2203478617d0ef353b5c9cd396",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 10
+    },
+    {
+      "file": "iee-Act-expenditure-control.json.gz",
+      "sha256": "1bd816de06179646133fade4d269d1f76beaba272aad067713a90f469235f475",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 11
+    },
+    {
+      "file": "iee-Act-expenditure.json.gz",
+      "sha256": "3af54c069c26c7ae6112ab3925ef69ae460ac3fa01cbd1d0e92c099a4fd786c4",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 11
+    },
+    {
+      "file": "iee-Apply-accumulation-control.json.gz",
+      "sha256": "15cb7b0397d0fedfbe86feaa0062d32b27b95e2cb71777cbfdf60e80bd5318b9",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 26
+    },
+    {
+      "file": "iee-Apply-accumulation.json.gz",
+      "sha256": "198bf20dc4949ee9c4202ec4e489409d26d0ce240d31c029c14f33a7824371d7",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 26
+    },
+    {
+      "file": "iee-Apply-expenditure-control.json.gz",
+      "sha256": "a74ead4abbd176e53d4936c0c77644c4180cfe1bba1e32e1b052811d93d26755",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 27
+    },
+    {
+      "file": "iee-Apply-expenditure.json.gz",
+      "sha256": "c5a93092dbdf1570bb637f2a27e51726f0989980eac29a9a78a68db033203dc6",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 27
+    },
+    {
+      "file": "iee-Commune-accumulation-control.json.gz",
+      "sha256": "f928756b75423e5e11deb2862cb4716e578934ae4e36222437244eb414da5698",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 20
+    },
+    {
+      "file": "iee-Commune-accumulation.json.gz",
+      "sha256": "d3dc46cd2455ac67341df26685920f4802bb8318da1bc82a419a4bd844dea9e3",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 20
+    },
+    {
+      "file": "iee-Commune-expenditure-control.json.gz",
+      "sha256": "def76b9c227cd5730b05920b33a8bc1ab70351fa361c954780fe1c4357e9b648",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 21
+    },
+    {
+      "file": "iee-Commune-expenditure.json.gz",
+      "sha256": "7dc3eb2353207040c72f4965c9878bc9c6550a58b26c0123bbc51102500e3838",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 21
+    },
+    {
+      "file": "iee-Contemplate-accumulation-control.json.gz",
+      "sha256": "b1cd58ea2bc5ff0a2f4de3bacb60dee1a3d3e9770011cdcb8b4b3b0ed65ec963",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 0
+    },
+    {
+      "file": "iee-Contemplate-accumulation.json.gz",
+      "sha256": "2af4cd79dcd60cfcb35cf136f84333fcd0ce02c9b149d9b3f42952910f04f987",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 0
+    },
+    {
+      "file": "iee-Contemplate-expenditure-control.json.gz",
+      "sha256": "6f5b30a1756a08b373fff09ebfe4bb0d2046988663433436ded0e8549941c083",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 1
+    },
+    {
+      "file": "iee-Contemplate-expenditure.json.gz",
+      "sha256": "5e1f3a4a6e2a459490762b53343d5432ed717c205c931b1072f3cfd7ec5e664f",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 1
+    },
+    {
+      "file": "iee-Coordinate-accumulation-control.json.gz",
+      "sha256": "038b16343c45484398d6b45423bbb7c8d6f1c5e2d62289737e40140ebf6364d0",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 12
+    },
+    {
+      "file": "iee-Coordinate-accumulation.json.gz",
+      "sha256": "1ba571de976b5aa704dd977a55d56727877803a573abf54fdef19bd54f570382",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 12
+    },
+    {
+      "file": "iee-Coordinate-expenditure-control.json.gz",
+      "sha256": "622694b0125dea196cfdc0e74e265eeb643ea8b83563e436ccc2381f696ef91e",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 13
+    },
+    {
+      "file": "iee-Coordinate-expenditure.json.gz",
+      "sha256": "5fc52d5175cdd503d7a58f18eae44f70b8ab4a463ffb835a3d5bed318fefde21",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 13
+    },
+    {
+      "file": "iee-Educate-accumulation-control.json.gz",
+      "sha256": "916f6acf854b88536cc6630fc0601d16c74d3d0ba486ae2fd3dae38d88f4defa",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 28
+    },
+    {
+      "file": "iee-Educate-accumulation.json.gz",
+      "sha256": "b6538fe0bcdc976d34f60b8d5a355aceb8b61dcced6163767191273f1effe088",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 28
+    },
+    {
+      "file": "iee-Educate-expenditure-control.json.gz",
+      "sha256": "2795a4e60b85be810f61573ae9e116aec7a3983e7082ae6a085cbda2140b3eb7",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 29
+    },
+    {
+      "file": "iee-Educate-expenditure.json.gz",
+      "sha256": "c88f44e52633cd5d982e72a4911c1eb701025b0f3e3d62fe989afb1d24932116",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 29
+    },
+    {
+      "file": "iee-Embody-accumulation-control.json.gz",
+      "sha256": "608346e94fa4332ef4bad61981eeb073cbfe1b7d6e7df0abbe76b9411b723223",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 8
+    },
+    {
+      "file": "iee-Embody-accumulation.json.gz",
+      "sha256": "af48f740f5d3da88a04fd6879c20955cd73d0a33a18695cb49d1cd7bc30a5107",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 8
+    },
+    {
+      "file": "iee-Embody-expenditure-control.json.gz",
+      "sha256": "8fe5b6fae4d36cad339d6c50c9ada5a83cb58872cc298874e8d5a8df4a51a929",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 9
+    },
+    {
+      "file": "iee-Embody-expenditure.json.gz",
+      "sha256": "7f5dc6eb7c546c897c1afae132eab9f89a87ef50c000d4d1fa5ecd0c20cf601d",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 9
+    },
+    {
+      "file": "iee-Express-accumulation-control.json.gz",
+      "sha256": "4323939f49212df961ab90b1c8dfac403eeb849ce50eadb074fb19d906949a1d",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 2
+    },
+    {
+      "file": "iee-Express-accumulation.json.gz",
+      "sha256": "528ecb649d0689d8304b46d49162aaceb21019dd397d12a38ce08ee37a57d56a",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 2
+    },
+    {
+      "file": "iee-Express-expenditure-control.json.gz",
+      "sha256": "55226ce1badd3ba82612311d24d2bff7a2e5373e5606b2cfb26f78cdffb65b33",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 3
+    },
+    {
+      "file": "iee-Express-expenditure.json.gz",
+      "sha256": "509b39d3d29993121ad9ef23beb680d95f3d7eebea901ffdac592f4e1b4cdc25",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 3
+    },
+    {
+      "file": "iee-Identify-accumulation-control.json.gz",
+      "sha256": "b0420089be11d0c5985070f2e6bc17c136e068e79c82acf5d04a5898cbb24651",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 16
+    },
+    {
+      "file": "iee-Identify-accumulation.json.gz",
+      "sha256": "98865434a5ab306525ffe4be8439aaf994b36a3b7d09e145a3fda03335d211a7",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 16
+    },
+    {
+      "file": "iee-Identify-expenditure-control.json.gz",
+      "sha256": "e65a8f7f09fa4d81c4cb92487fd7badd696a457139d9c75f1a9b2a7e7fc59636",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 17
+    },
+    {
+      "file": "iee-Identify-expenditure.json.gz",
+      "sha256": "86b95002f1a37a28fefa0f5aaa171030d0608d6b288e085d5e42d0f256a3ed45",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 17
+    },
+    {
+      "file": "iee-Institutionalize-accumulation-control.json.gz",
+      "sha256": "809b47509b37bfb7c1d9f15dd4ac8a6f231c6a45b2793920aee1e0d1bcffb109",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 22
+    },
+    {
+      "file": "iee-Institutionalize-accumulation.json.gz",
+      "sha256": "71ffffff2df0b8aa1562c1aafddd175b60b4c5cdf5632f5eb29a0b80713ec205",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 22
+    },
+    {
+      "file": "iee-Institutionalize-expenditure-control.json.gz",
+      "sha256": "d38232052c02118876a5d6dd8b156fadad7938b2b2d556cde86e9db1a79f363e",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 23
+    },
+    {
+      "file": "iee-Institutionalize-expenditure.json.gz",
+      "sha256": "f2b036a8db69307f4da151b4e5c4d8031db121ff5f061f6e22c70488398b6d10",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 23
+    },
+    {
+      "file": "iee-Integrate-accumulation-control.json.gz",
+      "sha256": "5c7802d52573b74ffce09c2cb7d64ab7b31432927fa500973db6dd3f1c174053",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 30
+    },
+    {
+      "file": "iee-Integrate-accumulation.json.gz",
+      "sha256": "7f9b6021c2be3ef1fc67d9066b831d774f44fcd5ef8f167cec0c51586be8411c",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 30
+    },
+    {
+      "file": "iee-Integrate-expenditure-control.json.gz",
+      "sha256": "e7ee109055b1e9176a63a898fecd1cd35c6b67874448a8e26b88fdd14d50995e",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 31
+    },
+    {
+      "file": "iee-Integrate-expenditure.json.gz",
+      "sha256": "d94b6e4b9a70e7d961eafc97e1860c8582e2b5777b4490777cc990f35dcda677",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 31
+    },
+    {
+      "file": "iee-Mobilize-accumulation-control.json.gz",
+      "sha256": "030bd51c354ae50030e58fd5e949f69395f51395f5fe8c651e01930924175d0e",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 18
+    },
+    {
+      "file": "iee-Mobilize-accumulation.json.gz",
+      "sha256": "b87a3a429d06e9be71c309ead82934f2a28df038fba79327946e6f7737928122",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 18
+    },
+    {
+      "file": "iee-Mobilize-expenditure-control.json.gz",
+      "sha256": "5f035076cbfb3f3f5facd236353dff2db1d2e6a6e996894849aeccc2d07c3efe",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 19
+    },
+    {
+      "file": "iee-Mobilize-expenditure.json.gz",
+      "sha256": "1437b5c5d89ffd2cc54196a1f58dd2ff5fb395d77cec4b169f8cb254a77bf8a8",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 19
+    },
+    {
+      "file": "iee-Organize-accumulation-control.json.gz",
+      "sha256": "9bb2d53d1df69146160568d029d54ca728b4634c5ebc41a98656465fc03c7af4",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 14
+    },
+    {
+      "file": "iee-Organize-accumulation.json.gz",
+      "sha256": "8683f78b4701a041e14f53b78d75e381f8470419cd54d20dba3d8717ff2afd26",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 14
+    },
+    {
+      "file": "iee-Organize-expenditure-control.json.gz",
+      "sha256": "0ad6c1cdb83e3dcb4d33dda0cf181cadb0b750ef93150248781ba4f256f87cf2",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 15
+    },
+    {
+      "file": "iee-Organize-expenditure.json.gz",
+      "sha256": "d24d42d5eeee0d68f23347fe1867a124cae438f7a60330dd7dbe423685863f63",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 15
+    },
+    {
+      "file": "iee-Share-accumulation-control.json.gz",
+      "sha256": "713a5174a532534aaeacb2930edfa16f36f1c1803f74ea7a4f1a264902a0e995",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 4
+    },
+    {
+      "file": "iee-Share-accumulation.json.gz",
+      "sha256": "eb64bf6bffcc169593d3a1a13fd86945337d8231ffe8232f91cdbcbec5bed338",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 4
+    },
+    {
+      "file": "iee-Share-expenditure-control.json.gz",
+      "sha256": "12d06c9921b039461046fafddba69763451d1ce9e96aa93a88c781b0a2f6e5f3",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 5
+    },
+    {
+      "file": "iee-Share-expenditure.json.gz",
+      "sha256": "f376d66b2737b571ac5591f0ada2dac8185d8d23b7bf46654e4c8a3734708aaa",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 5
+    },
+    {
+      "file": "iee-Theorize-accumulation-control.json.gz",
+      "sha256": "be2f6438b616f2048ff92b656e876361e31a3b0dceda9d0175f6e2b199d4fbd2",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 6
+    },
+    {
+      "file": "iee-Theorize-accumulation.json.gz",
+      "sha256": "023a14aa67af3aac76374f34a14af8191dfd215518264385deac50643656208f",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 6
+    },
+    {
+      "file": "iee-Theorize-expenditure-control.json.gz",
+      "sha256": "1d0d8ed5340b7245478076b0a77c60fb2d62378bf020cdd6ecb78d981a7f7172",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 7
+    },
+    {
+      "file": "iee-Theorize-expenditure.json.gz",
+      "sha256": "2b42844c10bd824f107ff5d32342113311603805ea10bd4681aecfb06bcca426",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 7
+    },
+    {
+      "file": "iee-Understand-accumulation-control.json.gz",
+      "sha256": "128e88219bb207aa5679760bedac6a8ed5f373f5c4a271ebd83dac20ef7e10cf",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 24
+    },
+    {
+      "file": "iee-Understand-accumulation.json.gz",
+      "sha256": "0196611672aaa07cadd29064ba3a455c73f273011589193c41bb82ce13387fdd",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 24
+    },
+    {
+      "file": "iee-Understand-expenditure-control.json.gz",
+      "sha256": "2595883e547a399a9cebf84ed32fea0568f010eec4c6c19caa0248027e73fc62",
+      "control": true,
+      "rejection": "choice withheld after paid comparison",
+      "tim": "iee",
+      "cell": 25
+    },
+    {
+      "file": "iee-Understand-expenditure.json.gz",
+      "sha256": "73a02f8d44ece29235d10b8908ef6ac31e46cb378646bf5701f58c311c106665",
+      "control": false,
+      "rejection": null,
+      "tim": "iee",
+      "cell": 25
+    },
+    {
+      "file": "iei-Act-accumulation.json.gz",
+      "sha256": "6bc48c666779e0c9dd85510b98e75de4fe1d722deb90b3db92afa2c911514c35",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 10
+    },
+    {
+      "file": "iei-Act-expenditure.json.gz",
+      "sha256": "47c0c7497d4b3e82d96b3250e2ed19efe5a0596d2a34483c5ef1f609e719d568",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 11
+    },
+    {
+      "file": "iei-Apply-accumulation.json.gz",
+      "sha256": "c7215b560e104144be313a6fc462ff0c56d85bb13a0dba50447f10e7fc3bcbdc",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 26
+    },
+    {
+      "file": "iei-Apply-expenditure.json.gz",
+      "sha256": "b2310a51f2207c77742d7e1c69ea7830cc43bffe458f799989769199be1a8e18",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 27
+    },
+    {
+      "file": "iei-Commune-accumulation.json.gz",
+      "sha256": "9fc737d7667faac02c944fa35fcd100c9b68f1587af604f70d116641310e0f62",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 20
+    },
+    {
+      "file": "iei-Commune-expenditure.json.gz",
+      "sha256": "d386bb7e5776d5b52039860dc6e8247bc4656a9a70519289df9375ec1c616c60",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 21
+    },
+    {
+      "file": "iei-Contemplate-accumulation.json.gz",
+      "sha256": "6ad9b3936fbc0cec516f02feb7f4d30907f6680e2bea58054314fdebb338508f",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 0
+    },
+    {
+      "file": "iei-Contemplate-expenditure.json.gz",
+      "sha256": "a1ab01b4d4e79bf556e235f6eccbfeb1d04279a7c4de5d2e5df885f612acebd8",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 1
+    },
+    {
+      "file": "iei-Coordinate-accumulation.json.gz",
+      "sha256": "d847c0fc6edf614ec56dc53b63b3a8361860b149c87263d20817d44ce39e68a5",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 12
+    },
+    {
+      "file": "iei-Coordinate-expenditure.json.gz",
+      "sha256": "b01b1561684bfc51fe7cacee004963856d2eb93883caa2aae46e543d518ee7a5",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 13
+    },
+    {
+      "file": "iei-Educate-accumulation.json.gz",
+      "sha256": "66cd281d707e3407a68cf000c78f546200bd65a4fae6214cafc655a76fa74cf3",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 28
+    },
+    {
+      "file": "iei-Educate-expenditure.json.gz",
+      "sha256": "6c80f38e6cbe6e5d286e9abe955aaaf3f3cd850ebd569d8c259ab572b871855e",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 29
+    },
+    {
+      "file": "iei-Embody-accumulation.json.gz",
+      "sha256": "c2c90c5eea00ece44f65b7110c99a5015254c360d1bd706fc8cae284311fc73d",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 8
+    },
+    {
+      "file": "iei-Embody-expenditure.json.gz",
+      "sha256": "9f5d94299bae84b4023cd5e08cba70274acc7fd69db73f8809d027825c499747",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 9
+    },
+    {
+      "file": "iei-Express-accumulation.json.gz",
+      "sha256": "82f4534a9ec842b76ad40fd7aa0f56c10cae84e4f3356ad4a796fc0fa1711227",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 2
+    },
+    {
+      "file": "iei-Express-expenditure.json.gz",
+      "sha256": "a6f6da403f2d726b1afb5d5af9bf626821723280bb5958ef3c41c5e7a3c669e4",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 3
+    },
+    {
+      "file": "iei-Identify-accumulation.json.gz",
+      "sha256": "81e1616708f114d0a37f56faadb741435ac04ac9b87e74b9dfce96a3b480b8be",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 16
+    },
+    {
+      "file": "iei-Identify-expenditure.json.gz",
+      "sha256": "6bf96fc9ffa7517fa79d60d02c7c07e04b9429e06138ba1ec2e916a4fc1f89b8",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 17
+    },
+    {
+      "file": "iei-Institutionalize-accumulation.json.gz",
+      "sha256": "4ca109c4bf68e00aaeca292cc9a71d1d1e74c4053adfd8007f434abe8ea84be0",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 22
+    },
+    {
+      "file": "iei-Institutionalize-expenditure.json.gz",
+      "sha256": "627e617420047cfe61882b0d00f96680d7cae386d0ea59d3c1dde8f5827d0a8f",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 23
+    },
+    {
+      "file": "iei-Integrate-accumulation.json.gz",
+      "sha256": "5d23d73c027513311cfe4c57ebf21cd44febe78674b782e407b6c728213d29b6",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 30
+    },
+    {
+      "file": "iei-Integrate-expenditure.json.gz",
+      "sha256": "7f8eabdb92fe0aaad6a549c535405b10f9cae1e73078281418a0cdce943f2901",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 31
+    },
+    {
+      "file": "iei-Mobilize-accumulation.json.gz",
+      "sha256": "3b55efd7c3f899710b0b29d193b44659690be2a125919461884f2237d01b2129",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 18
+    },
+    {
+      "file": "iei-Mobilize-expenditure.json.gz",
+      "sha256": "762dad545916324b3202c4eea6a8eff511779eea4916473c073651424b5cf2ef",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 19
+    },
+    {
+      "file": "iei-Organize-accumulation.json.gz",
+      "sha256": "8284e198171a351dd8dead56ab6297788e2f61eb8b27da0a7d539ebea5794965",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 14
+    },
+    {
+      "file": "iei-Organize-expenditure.json.gz",
+      "sha256": "9c09059d66f7eafc5dd7fc6919bdacf6194057fce7a1eef5dfe2a1db6c290ad0",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 15
+    },
+    {
+      "file": "iei-Share-accumulation.json.gz",
+      "sha256": "a654ea927fe5de77f132d4188be2b22ce39f9317bece9535ad756d46c22668a7",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 4
+    },
+    {
+      "file": "iei-Share-expenditure.json.gz",
+      "sha256": "1385f588a564a7cdf899edf3ad57f84e47071b7ba7a1a89b201d55fb3838f6a7",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 5
+    },
+    {
+      "file": "iei-Theorize-accumulation.json.gz",
+      "sha256": "0dae65e1015e184dcb9c38402bf7922c76bb03e875578e0d955ccde91653dc0b",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 6
+    },
+    {
+      "file": "iei-Theorize-expenditure.json.gz",
+      "sha256": "74e24c3e3fbb6ce8ddc06395c7f3fb0129b72156da984b0336a0c66a4efbc84f",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 7
+    },
+    {
+      "file": "iei-Understand-accumulation.json.gz",
+      "sha256": "4d4b5f104e8003d2c63f2125828688f9962a00b9a5bb5e3ba9cd7c3d7b8031a3",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 24
+    },
+    {
+      "file": "iei-Understand-expenditure.json.gz",
+      "sha256": "590a4f2c6770f8e9eb020fc3c6ca49adf9191230a541cfac1f55f31e46e9fd51",
+      "control": false,
+      "rejection": null,
+      "tim": "iei",
+      "cell": 25
+    },
+    {
+      "file": "ile-Act-accumulation.json.gz",
+      "sha256": "3beedcb56b174bcab0a6c01d6629caf5591488b11b3563f73f352927d5de73a9",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 10
+    },
+    {
+      "file": "ile-Act-expenditure.json.gz",
+      "sha256": "9026f4fcfc7f76cbf73e31d2d966b9d02bd2fa0b60c71163eb8f4be3011c4ba5",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 11
+    },
+    {
+      "file": "ile-Apply-accumulation.json.gz",
+      "sha256": "c39cff878bb601c923a3ffc1957eda299841da6d5047f6f68e4f390a5b1d448a",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 26
+    },
+    {
+      "file": "ile-Apply-expenditure.json.gz",
+      "sha256": "0763d3bfe98cb882b6d8e1577a35e094c30bc3900eba59c5fc399c468b308f6d",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 27
+    },
+    {
+      "file": "ile-Commune-accumulation.json.gz",
+      "sha256": "05aa3cb260ac8958d41ec63247bbad44bb78d4e67b4f9a327d8717bfb1bc954a",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 20
+    },
+    {
+      "file": "ile-Commune-expenditure.json.gz",
+      "sha256": "2971e1def9faef0387a92e588910074806723111f27fe3e01a4077a693b122d4",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 21
+    },
+    {
+      "file": "ile-Contemplate-accumulation.json.gz",
+      "sha256": "467959f1691bf514f18b10220836b11238229925ef8b59fe269a106d51651b4b",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 0
+    },
+    {
+      "file": "ile-Contemplate-expenditure.json.gz",
+      "sha256": "1f1b1b2be57ac670cfcc4f92a13b988bac7ac47cc8d0a93f9f3d04ae0a0eac5c",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 1
+    },
+    {
+      "file": "ile-Coordinate-accumulation.json.gz",
+      "sha256": "0fcc009660fea515a730d9f2d0356e8b16d10d31a101abbf18099e241e67b1d5",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 12
+    },
+    {
+      "file": "ile-Coordinate-expenditure.json.gz",
+      "sha256": "f76e6e4f1aab8eb1c5d29f970d3ecac1b39c934ce1be6cf59f1990194f9d0af4",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 13
+    },
+    {
+      "file": "ile-Educate-accumulation.json.gz",
+      "sha256": "1aade10054aec2be59e2f835becb7b213a714ed1c19d4f0a943d1d4a0661df1d",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 28
+    },
+    {
+      "file": "ile-Educate-expenditure.json.gz",
+      "sha256": "774a5cb749e771649988ce6625ab15d16a2e2372c7fb7acfd9030060d4fc3fa7",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 29
+    },
+    {
+      "file": "ile-Embody-accumulation.json.gz",
+      "sha256": "6b45e30f78e111a89b445e2635b0f90be6d0f35210592093771eaa89b41e7635",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 8
+    },
+    {
+      "file": "ile-Embody-expenditure.json.gz",
+      "sha256": "fb0f1cee205f63f006251db7f98fd0eded4cd13e60f6988a94f139bc6f38fc73",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 9
+    },
+    {
+      "file": "ile-Express-accumulation.json.gz",
+      "sha256": "1589949a29aff273da6feacb0ab70ea774e57b59f6798c1c2ab39d45fe17071d",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 2
+    },
+    {
+      "file": "ile-Express-expenditure.json.gz",
+      "sha256": "0e9b0e2c72f5b6521c5d0deda24285a1aa4f85797fc743f0af65dda42305b2c9",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 3
+    },
+    {
+      "file": "ile-Identify-accumulation.json.gz",
+      "sha256": "1807718163e0f716f664fb19855ab5129485a123c9f9095af220f289520d4fc0",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 16
+    },
+    {
+      "file": "ile-Identify-expenditure.json.gz",
+      "sha256": "fcc4f3ff7f522c7ff2a7eccb375f791d7451c14baf8191336bf07b601843ada5",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 17
+    },
+    {
+      "file": "ile-Institutionalize-accumulation.json.gz",
+      "sha256": "526f934ad170a501da68713a2340e0f7bbedafec2fa3a10277704c297eb2bca8",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 22
+    },
+    {
+      "file": "ile-Institutionalize-expenditure.json.gz",
+      "sha256": "0161aba24e2de39cf0554ad6e1ab7a3657c71cb583f5c0ff2698e08986e23706",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 23
+    },
+    {
+      "file": "ile-Integrate-accumulation.json.gz",
+      "sha256": "73697b717517acd46b356ce063133ad7dfdcbfecb6ef8d004383191fe3895e1e",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 30
+    },
+    {
+      "file": "ile-Integrate-expenditure.json.gz",
+      "sha256": "d677a63f7cc37687e77babee4523e194c3905d751ff73a839273e21721bec8ce",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 31
+    },
+    {
+      "file": "ile-Mobilize-accumulation.json.gz",
+      "sha256": "966282082d01ee7bc8dbef481321ca6bdf4a885f8c94c753b65e2286d62b5ade",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 18
+    },
+    {
+      "file": "ile-Mobilize-expenditure.json.gz",
+      "sha256": "f9829d736ce004262bd16e99bfb5d23f7f89642bdcd433d55d5d62c5af6dbeee",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 19
+    },
+    {
+      "file": "ile-Organize-accumulation.json.gz",
+      "sha256": "2931a77abfe41290c74cfd52776c4d88023df4ebbe1740aeeb46a2eba05830c6",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 14
+    },
+    {
+      "file": "ile-Organize-expenditure.json.gz",
+      "sha256": "59feeff983fcb03035fc940454b7c76354a4fbde2cbe693703218f1f7adaa348",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 15
+    },
+    {
+      "file": "ile-Share-accumulation.json.gz",
+      "sha256": "e9cd2b0ebf865ab12e1ceea02e31f9f0faba214e08bb869b33c6ad0775018e9f",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 4
+    },
+    {
+      "file": "ile-Share-expenditure.json.gz",
+      "sha256": "7df8dc2817b026fb09d52b892c70aab065868cbfae76d52ddd731bdcab1e5ed9",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 5
+    },
+    {
+      "file": "ile-Theorize-accumulation.json.gz",
+      "sha256": "6acd3a3cace01a7cf56c58a2b0339f7cc28fcdebd1550419c6d68a44df47b348",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 6
+    },
+    {
+      "file": "ile-Theorize-expenditure.json.gz",
+      "sha256": "cb003f1edae410ca12ebe9c316a8d1ea19981198416daf65b95d2eabccb524b5",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 7
+    },
+    {
+      "file": "ile-Understand-accumulation.json.gz",
+      "sha256": "1949d12ee3e50c5e8540a24cff130cc3f1f6dec7c8fc735e54a9b21cfe6f3582",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 24
+    },
+    {
+      "file": "ile-Understand-expenditure.json.gz",
+      "sha256": "23f5429a28f99f894269e8c6bae4a926a628c124ea35f82d6f2eaf58d3827667",
+      "control": false,
+      "rejection": null,
+      "tim": "ile",
+      "cell": 25
+    },
+    {
+      "file": "ili-Act-accumulation.json.gz",
+      "sha256": "fcb1cca71cf4fb88db46a5c93753c6f27f0a1ea1581ad4eba1027eb35737bdb7",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 10
+    },
+    {
+      "file": "ili-Act-expenditure.json.gz",
+      "sha256": "f5f77d8b7b16db31f57b55ec38dd1a1fd6981f8030ec127261b2d0407290f1a0",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 11
+    },
+    {
+      "file": "ili-Apply-accumulation.json.gz",
+      "sha256": "34ed563aa6d5cc53ac4684ca44111007b8d3df55006802cd8817f51d0499212e",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 26
+    },
+    {
+      "file": "ili-Apply-expenditure.json.gz",
+      "sha256": "d1e48fec3d9f1629e04171d947f440c4c616a0b07f6695db4e4b12be2ce0abc1",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 27
+    },
+    {
+      "file": "ili-Commune-accumulation.json.gz",
+      "sha256": "e69121ebbaefce28be40d287eddace57de4637ab17cc5c897bcb4c3583366f94",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 20
+    },
+    {
+      "file": "ili-Commune-expenditure.json.gz",
+      "sha256": "16093f771178234c627841fa44f7f52d647e638d36a0adec8b551e54cb9fc0d6",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 21
+    },
+    {
+      "file": "ili-Contemplate-accumulation.json.gz",
+      "sha256": "edd781f7ab71cd40cba442ada64cdb5d94a2dc74160ec14bdc96d3c30dfc5140",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 0
+    },
+    {
+      "file": "ili-Contemplate-expenditure.json.gz",
+      "sha256": "001e3559a954cd5aa8e57291c00282004d45565c8ab892169ec81da5f96f7984",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 1
+    },
+    {
+      "file": "ili-Coordinate-accumulation.json.gz",
+      "sha256": "b630c00c7456ac5b0541c12d9f27c3eeaf7c54a860b83e74155d16592ca35498",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 12
+    },
+    {
+      "file": "ili-Coordinate-expenditure.json.gz",
+      "sha256": "a223dfcce28e916a187303b00c4695d14f00ceeda8e8cd1937e78fcd37741f59",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 13
+    },
+    {
+      "file": "ili-Educate-accumulation.json.gz",
+      "sha256": "0a8ae00f4ed243c41fc314c82d81e46c6cf49b55093bbdfd2cf54b1d3e3ec1eb",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 28
+    },
+    {
+      "file": "ili-Educate-expenditure.json.gz",
+      "sha256": "5618ed22404e22e5710bd32506a18533c1005551995f7cf1d83ea3d07b7af60c",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 29
+    },
+    {
+      "file": "ili-Embody-accumulation.json.gz",
+      "sha256": "3a7b6e13a4ee869f9f1259c5cd1ca7a44d8a2d0426668a83f2471981b479cbdf",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 8
+    },
+    {
+      "file": "ili-Embody-expenditure.json.gz",
+      "sha256": "649440c728c009c62f8ec2fc6e8ab6bc56c906779c7d8e30f4d9d2c9c10a7104",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 9
+    },
+    {
+      "file": "ili-Express-accumulation.json.gz",
+      "sha256": "22891b9b5f9449f343588e67c96ba9e45609f2f6c33f53129e5a3d26bc9ac60c",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 2
+    },
+    {
+      "file": "ili-Express-expenditure.json.gz",
+      "sha256": "225ab9a47bb3808b723d11c41b3e59d2cba9161a9cb0f239ca13d36acaf30052",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 3
+    },
+    {
+      "file": "ili-Identify-accumulation.json.gz",
+      "sha256": "660c83fe3a3f25f31b95ffe12a5ec9c42aae8898d10f139691a43573d1c647d1",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 16
+    },
+    {
+      "file": "ili-Identify-expenditure.json.gz",
+      "sha256": "758fb52f474f5e21bc247a7057e1f7c0435dc5fc9c5ff7bc15d2d55f115d5d28",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 17
+    },
+    {
+      "file": "ili-Institutionalize-accumulation.json.gz",
+      "sha256": "0e50290776158eb823a1dd9cc978c0fdf8709c0446d18a13dcba33963b217d03",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 22
+    },
+    {
+      "file": "ili-Institutionalize-expenditure.json.gz",
+      "sha256": "a3e0a8226e9a390026342278f3b2091858e6776903c6df2d3b5ab94b062c0953",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 23
+    },
+    {
+      "file": "ili-Integrate-accumulation.json.gz",
+      "sha256": "1f1e1585b54e57ef74140bbb880ae622fda524283363348234803f1ac2ce1434",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 30
+    },
+    {
+      "file": "ili-Integrate-expenditure.json.gz",
+      "sha256": "6090fa7bc415dbcc99fa926d86ceaeb67c7ecd9ed4fd05eff4680ef649a27781",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 31
+    },
+    {
+      "file": "ili-Mobilize-accumulation.json.gz",
+      "sha256": "f09e6a281d3a5bed8248c6798c97d153e4becf1215a08d3ef308768afabbdcea",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 18
+    },
+    {
+      "file": "ili-Mobilize-expenditure.json.gz",
+      "sha256": "ff81c3faeaf7434acb1798e434c3e6622fb81d4113fab7e49edb38d77c309516",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 19
+    },
+    {
+      "file": "ili-Organize-accumulation.json.gz",
+      "sha256": "efa3c8bfe3e7e66be080d350df78db34f139c73fddbe7b06291af6137995e3c2",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 14
+    },
+    {
+      "file": "ili-Organize-expenditure.json.gz",
+      "sha256": "cc0555b196423f0ab774722e7efcb847ce28cc93b93ee12111831977ae6c3d7e",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 15
+    },
+    {
+      "file": "ili-Share-accumulation.json.gz",
+      "sha256": "9c6e1f303152154039d52841765dbec91093035bd6452c49bd024e7a2eaa0231",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 4
+    },
+    {
+      "file": "ili-Share-expenditure.json.gz",
+      "sha256": "e0262b9b83384abc7086a0167984dbe9b0aed977acd037cf3c77562a524bab25",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 5
+    },
+    {
+      "file": "ili-Theorize-accumulation.json.gz",
+      "sha256": "49f8a08597f0c3218899f920684956f5ff9193d4c1675f07585b2503c501ff42",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 6
+    },
+    {
+      "file": "ili-Theorize-expenditure.json.gz",
+      "sha256": "08fd457c094cad64c083d66e814dd0a513a97b38b964f1a525d10f4a4f6b081f",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 7
+    },
+    {
+      "file": "ili-Understand-accumulation.json.gz",
+      "sha256": "ebffd7429bf602e9aa8ce4f13ef21f612d2dba6ac73c20210888ed77c6155730",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 24
+    },
+    {
+      "file": "ili-Understand-expenditure.json.gz",
+      "sha256": "e1f2cf9997f3070261205b29d32699f336b4351dc35c1785d60a3d440eee60bd",
+      "control": false,
+      "rejection": null,
+      "tim": "ili",
+      "cell": 25
+    },
+    {
+      "file": "lie-Act-accumulation.json.gz",
+      "sha256": "e69a857107472398745b521457b1acd432984bbae0e58d237abf571b36329efd",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 10
+    },
+    {
+      "file": "lie-Act-expenditure.json.gz",
+      "sha256": "8542037d7adbcdb629ff52f4b05e357b6d569da1aa40ab4c54d0ea4f2dc0c384",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 11
+    },
+    {
+      "file": "lie-Apply-accumulation.json.gz",
+      "sha256": "855cc7c04c54caaea8514d97db5384a66a32727b51e2d369d16aab4238320b0c",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 26
+    },
+    {
+      "file": "lie-Apply-expenditure.json.gz",
+      "sha256": "60cfe94c9ad99c2f84bb313dec1552f012c1de15327485c23f79597e2ff2f71c",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 27
+    },
+    {
+      "file": "lie-Commune-accumulation.json.gz",
+      "sha256": "da9d8e1cec647884da88d963dc89bbdbeb2729984213bd9ff796ac8f1d1a0862",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 20
+    },
+    {
+      "file": "lie-Commune-expenditure.json.gz",
+      "sha256": "15f97c1a2546d72dc9b519d854f54c61ebca0f86737fd02f9374f17c3f6e6b96",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 21
+    },
+    {
+      "file": "lie-Contemplate-accumulation.json.gz",
+      "sha256": "dac0037b3aa3ac49623f9768b4ab37e38f0d2c4a08e71a5d221020483b673ca8",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 0
+    },
+    {
+      "file": "lie-Contemplate-expenditure.json.gz",
+      "sha256": "394960fc0429b7ddc808c3794baed9553c2916c26e6e788994bc667ce746004b",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 1
+    },
+    {
+      "file": "lie-Coordinate-accumulation.json.gz",
+      "sha256": "069efe881514ebe0410405b6fe6cead4c4795defb7f821a8ba3d2c9cbba87a5b",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 12
+    },
+    {
+      "file": "lie-Coordinate-expenditure.json.gz",
+      "sha256": "ee9b735511b9a25cd1a5296f7c4d829feb8c99e99a3d09778605a0655ef28ee0",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 13
+    },
+    {
+      "file": "lie-Educate-accumulation.json.gz",
+      "sha256": "6761402202048f01d502263a19ebef5962a72969a9cd7906a3458a27371da5d3",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 28
+    },
+    {
+      "file": "lie-Educate-expenditure.json.gz",
+      "sha256": "38081f13ccc9ac907c9848c79c42555606bc855d7e9283575c06fa2678477e00",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 29
+    },
+    {
+      "file": "lie-Embody-accumulation.json.gz",
+      "sha256": "04fd8edf5d123237e53a2a2328858f370d9c3cb2022164ed4d807201d5777574",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 8
+    },
+    {
+      "file": "lie-Embody-expenditure.json.gz",
+      "sha256": "154dee6226fe3d00cbe4b2657b110b1ef603dc7307cb906396108fb987149d6c",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 9
+    },
+    {
+      "file": "lie-Express-accumulation.json.gz",
+      "sha256": "76cb5418f6c5106e445ec435b1758241546702840f2f978df5ea16f002c367b6",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 2
+    },
+    {
+      "file": "lie-Express-expenditure.json.gz",
+      "sha256": "04df5b47eaeaa09baca5d354706f7d9c9c77af4b4a2a0008c2767f8cf858b664",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 3
+    },
+    {
+      "file": "lie-Identify-accumulation.json.gz",
+      "sha256": "6d489d29a243a29f5b4433dcf9f143a5ad30781fd16d24a884d4eb198a8e11f0",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 16
+    },
+    {
+      "file": "lie-Identify-expenditure.json.gz",
+      "sha256": "510a1ed56e301d143e1777ef731b07e5e2dad241e0f613f4c459513eb3a2dd9f",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 17
+    },
+    {
+      "file": "lie-Institutionalize-accumulation.json.gz",
+      "sha256": "dc24c0891a62e287fe45fdbf0653143acc00a1456d17264afd8b803074a918a2",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 22
+    },
+    {
+      "file": "lie-Institutionalize-expenditure.json.gz",
+      "sha256": "0eff377bbaad4ebee618b55fe6ddb03db7e86e430f4af265dfca5c072365423e",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 23
+    },
+    {
+      "file": "lie-Integrate-accumulation.json.gz",
+      "sha256": "5d1841ee2e5729398382680f789e3976e75351c704ffa82781fbbbed4f81e34a",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 30
+    },
+    {
+      "file": "lie-Integrate-expenditure.json.gz",
+      "sha256": "6f916dffc128d3d890dee84029ac48bf48d0a56db54d3a991b7202bc9e2e3de3",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 31
+    },
+    {
+      "file": "lie-Mobilize-accumulation.json.gz",
+      "sha256": "a3627bff11e148a206a700e8d84cb90d6360a846f5d5633db3d07ffc9bd104e7",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 18
+    },
+    {
+      "file": "lie-Mobilize-expenditure.json.gz",
+      "sha256": "d1e223fa790c2bd3a3be07a51b7a5e21b0399d21cdb668e71305b8b1d0c0f249",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 19
+    },
+    {
+      "file": "lie-Organize-accumulation.json.gz",
+      "sha256": "e6015e95768b8fed8fa08de1747d6421358550e2d014555900d28790cf10bd5f",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 14
+    },
+    {
+      "file": "lie-Organize-expenditure.json.gz",
+      "sha256": "de9bc6304b7de8e2a2c6cd65b150ce69f0dfea9e43a25e8a6dd4ecdb51e1efc4",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 15
+    },
+    {
+      "file": "lie-Share-accumulation.json.gz",
+      "sha256": "ec20b42e51611c70439a0220ded9f788317e4fc843244b4f7ce1b4c3ebbb0471",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 4
+    },
+    {
+      "file": "lie-Share-expenditure.json.gz",
+      "sha256": "46c4796fec70a9b6d1a7cc415dad44cd224c2b5331e07314840d4ec5c9aa8785",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 5
+    },
+    {
+      "file": "lie-Theorize-accumulation.json.gz",
+      "sha256": "a0b5712c2e4c065a2fc30f81a45ea1bf4a284b6bd81c869956359390730b1233",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 6
+    },
+    {
+      "file": "lie-Theorize-expenditure.json.gz",
+      "sha256": "7328281a454b8417c4f087de879ea1a3ad4b74a5b71a680e99b53b6f4ad67af9",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 7
+    },
+    {
+      "file": "lie-Understand-accumulation.json.gz",
+      "sha256": "61c5d37689a0fcbd5b0c2f74c3bcd00eb7e7aef159585e4802272de15e2cc7b1",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 24
+    },
+    {
+      "file": "lie-Understand-expenditure.json.gz",
+      "sha256": "949acf70dc8fbd7cc70261f287dcb89d50b69617ca5b1924244e9036378a6373",
+      "control": false,
+      "rejection": null,
+      "tim": "lie",
+      "cell": 25
+    },
+    {
+      "file": "lii-Act-accumulation.json.gz",
+      "sha256": "8e8ece9777bf0171eb16b63eb44f49cb21c6c0fc99713ce9ebd20cbfa8aff256",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 10
+    },
+    {
+      "file": "lii-Act-expenditure.json.gz",
+      "sha256": "d803a862134b041f95781273b9448938e5a02107e8ee1e6f376fffca089583c6",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 11
+    },
+    {
+      "file": "lii-Apply-accumulation.json.gz",
+      "sha256": "8404b21b8bb00b5ac6c28b431478e60e011b27aa25097c3f04405eae3c7635c8",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 26
+    },
+    {
+      "file": "lii-Apply-expenditure.json.gz",
+      "sha256": "e005ba4e7b6107e2fba49729e25ed1751f83dbe9e6f79b7cb07f72e758c04a6f",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 27
+    },
+    {
+      "file": "lii-Commune-accumulation.json.gz",
+      "sha256": "297b67135efcc8345ea9e3fec9a589e784cfccdfdca8c4df298123b404dbabbe",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 20
+    },
+    {
+      "file": "lii-Commune-expenditure.json.gz",
+      "sha256": "60aa8ab6d9df05eef4721e0850a943911898a472e76bb71a8cd4b249e1736c22",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 21
+    },
+    {
+      "file": "lii-Contemplate-accumulation.json.gz",
+      "sha256": "9bd7d4786b58bbc46bd5c7fd4146188f29cb019954e6e69dda89f799e0d25a6f",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 0
+    },
+    {
+      "file": "lii-Contemplate-expenditure.json.gz",
+      "sha256": "a71c04adf10aed519d086ca92b40846ad050229c619b7f63d494fb5bb67261dc",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 1
+    },
+    {
+      "file": "lii-Coordinate-accumulation.json.gz",
+      "sha256": "438dbbe773ad1094f1425e1ed2878ba9dda3492ab4c0fecca1e1636f1847dcdd",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 12
+    },
+    {
+      "file": "lii-Coordinate-expenditure.json.gz",
+      "sha256": "365f8747c43fd2c805e226e7fb048a7302da19a79025fa90613ac4dfc9901459",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 13
+    },
+    {
+      "file": "lii-Educate-accumulation.json.gz",
+      "sha256": "91214c19732a320eea61aae41fd12f00b3b62f0534ec67abc2e1c95ee5f217b0",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 28
+    },
+    {
+      "file": "lii-Educate-expenditure.json.gz",
+      "sha256": "4d5ff3f1952c3a6893a879b3c88c82573c3985e8357ea8c13ffd66e5416c63af",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 29
+    },
+    {
+      "file": "lii-Embody-accumulation.json.gz",
+      "sha256": "a61a6b74279e4d5e303ed2750914827892b17b63591e338189f01ed3592e0d0a",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 8
+    },
+    {
+      "file": "lii-Embody-expenditure.json.gz",
+      "sha256": "bacbb323eae46a1f1b5f5b7085f1c349255c18ac6dfaee3a88f5be4fcca10ab3",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 9
+    },
+    {
+      "file": "lii-Express-accumulation.json.gz",
+      "sha256": "9032af4d9d113cb27e788a31566fe77c1c7c0d8cbfbe1541a87341a2332e2131",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 2
+    },
+    {
+      "file": "lii-Express-expenditure.json.gz",
+      "sha256": "f30e503d971abc9892d887b147f496b4f33dfeb6eeb9f8d2fb346a817b4a9aa7",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 3
+    },
+    {
+      "file": "lii-Identify-accumulation.json.gz",
+      "sha256": "764b995d62c4fe71527ce5e01f041a6204ce27dc4e6503641273e38392900399",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 16
+    },
+    {
+      "file": "lii-Identify-expenditure.json.gz",
+      "sha256": "871c85a91e11a68578748452e80913db8ba1a8d75c18d9eca4f7b51d41658a6c",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 17
+    },
+    {
+      "file": "lii-Institutionalize-accumulation.json.gz",
+      "sha256": "24bc1824f0f40194e3d8f2f56752b1161ac044373d65c1793a84fd6b6b72f776",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 22
+    },
+    {
+      "file": "lii-Institutionalize-expenditure.json.gz",
+      "sha256": "47f8330d9ae575114a7d967ece80ab9db9e21bbb3d135d13bcac40e677bdeef0",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 23
+    },
+    {
+      "file": "lii-Integrate-accumulation.json.gz",
+      "sha256": "bbe5093d3a0f879f637be0b151e94eacc0be6e0843010fa1c3e0b794977932a1",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 30
+    },
+    {
+      "file": "lii-Integrate-expenditure.json.gz",
+      "sha256": "a49ed6e76c5d39eb2785145d957d43383cce43ce3eeda70491976b5ea79b8145",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 31
+    },
+    {
+      "file": "lii-Mobilize-accumulation.json.gz",
+      "sha256": "3c054a6dd430f10a6f112b6947b945ebe700e26990fb3f7b32ac9f83d78eee60",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 18
+    },
+    {
+      "file": "lii-Mobilize-expenditure.json.gz",
+      "sha256": "ef5159bb926bc8ed6a8c4489819fe18b38646d8ded16a8744b539e3d0f3fdf18",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 19
+    },
+    {
+      "file": "lii-Organize-accumulation.json.gz",
+      "sha256": "ff4e4acc803ca1172b1bb82888f0d950a9e05bd72de9f600d89c507b18143343",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 14
+    },
+    {
+      "file": "lii-Organize-expenditure.json.gz",
+      "sha256": "585fa4211a1fb4244beceaa6dbcbf522eb4c68a86914082c333e228815cc1cf8",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 15
+    },
+    {
+      "file": "lii-Share-accumulation.json.gz",
+      "sha256": "faa9c50bbcfa7e596e447409c26239e287c6b5230f77d64002372616d9a79ef6",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 4
+    },
+    {
+      "file": "lii-Share-expenditure.json.gz",
+      "sha256": "1ab6ee4c351b14ccb6d2f590addc7250d7246ae3dcc0941972697de25860e6b4",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 5
+    },
+    {
+      "file": "lii-Theorize-accumulation.json.gz",
+      "sha256": "acd44df5e6b452cb5460d37d23295418d85dad5314fc830eea225cc1a775c92e",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 6
+    },
+    {
+      "file": "lii-Theorize-expenditure.json.gz",
+      "sha256": "d26890e3705bfe3075f01ca29122cead86ea1deff559800eb30ce94e5b9261a2",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 7
+    },
+    {
+      "file": "lii-Understand-accumulation.json.gz",
+      "sha256": "daea6c1b3e5d5ec68bcd30fe34c8ba934ef22ea5add5e90511b93980f7547096",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 24
+    },
+    {
+      "file": "lii-Understand-expenditure.json.gz",
+      "sha256": "3a8fd65d08bd499d60f48dd994c153a178a7b8c15f4c2f65e928137a8230d769",
+      "control": false,
+      "rejection": null,
+      "tim": "lii",
+      "cell": 25
+    },
+    {
+      "file": "lse-Act-accumulation.json.gz",
+      "sha256": "eb1dfef2866e7e5d8e14efef558cfd32be2baef5319567d5f3651e520dae78a7",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 10
+    },
+    {
+      "file": "lse-Act-expenditure.json.gz",
+      "sha256": "2cb7e01e185341d2559f2608e51cca919e7ebfc7639dae9c850b498fa98b6abb",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 11
+    },
+    {
+      "file": "lse-Apply-accumulation.json.gz",
+      "sha256": "3fbefdfa4b055b88450cdb602054d40beceed5e0e98de1bb99cf9ba56f6c1e32",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 26
+    },
+    {
+      "file": "lse-Apply-expenditure.json.gz",
+      "sha256": "dab07ebf7e179aff109b877e41fb46348697218f68499ce93ba79d8e540882e2",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 27
+    },
+    {
+      "file": "lse-Commune-accumulation.json.gz",
+      "sha256": "341bc32d80b3247fc63d51b6f72dc8315d620dbc1398177e98d84f124c597822",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 20
+    },
+    {
+      "file": "lse-Commune-expenditure.json.gz",
+      "sha256": "91aa6ce4b40bcde0f5fdc8466e1a53f19480ed3661a8e924c327eabe793c6e77",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 21
+    },
+    {
+      "file": "lse-Contemplate-accumulation.json.gz",
+      "sha256": "b2498575cb567a2ed593a383b0842343789245f4d5ad7bc35d99a737026573ab",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 0
+    },
+    {
+      "file": "lse-Contemplate-expenditure.json.gz",
+      "sha256": "fda2e8e919db373b527c6b787ac682b8aefe06c515ba4289f4795516dfe2046c",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 1
+    },
+    {
+      "file": "lse-Coordinate-accumulation.json.gz",
+      "sha256": "4ec69443f46d4e58f49d0f5541ea0bcc6587288663589c653abda47278747dd7",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 12
+    },
+    {
+      "file": "lse-Coordinate-expenditure.json.gz",
+      "sha256": "61eea97d727ce9e3c6aa76c922aff9bb90918fb26fbdb286174e5042cc0bd65f",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 13
+    },
+    {
+      "file": "lse-Educate-accumulation.json.gz",
+      "sha256": "025d8b3b1f48e2451d62be145e8b85b357ff1bdd37615a3aabb8a78266fbdfeb",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 28
+    },
+    {
+      "file": "lse-Educate-expenditure.json.gz",
+      "sha256": "f2f6a8cd34ce31f6b1ea97f5ab8291c7b8b1ee58c6c008ee196a31f914501521",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 29
+    },
+    {
+      "file": "lse-Embody-accumulation.json.gz",
+      "sha256": "cc6c2d847d39f8b6da5419e82f9b2a1cf2ca41bf81dff71e9bf05657977b7a81",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 8
+    },
+    {
+      "file": "lse-Embody-expenditure.json.gz",
+      "sha256": "bbf28743ec42b5bb65a075ba6e36f0aea7a4ef40656c8de5a8fc0c46fe5d5446",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 9
+    },
+    {
+      "file": "lse-Express-accumulation.json.gz",
+      "sha256": "2aa6de0e3297f6a6866783033c3615e2b1083a1e7f5194a5ddecd7ecac263806",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 2
+    },
+    {
+      "file": "lse-Express-expenditure.json.gz",
+      "sha256": "24e8008da77c3bb9cc3c24212f70bf9675cf06d9c92119761b46d18be3abcb5f",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 3
+    },
+    {
+      "file": "lse-Identify-accumulation.json.gz",
+      "sha256": "5f9ddf8a492bbba252c2ea991377e272fff021b4fdab276778243dedd1dce878",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 16
+    },
+    {
+      "file": "lse-Identify-expenditure.json.gz",
+      "sha256": "081841271efc61f7390b403f052070e91dca82baf0f6857ac907e3ec58db3b88",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 17
+    },
+    {
+      "file": "lse-Institutionalize-accumulation.json.gz",
+      "sha256": "6990c0569f49b7c3826e52695f718c71c3a9d3f69171b5b354a3a3dd956822d9",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 22
+    },
+    {
+      "file": "lse-Institutionalize-expenditure.json.gz",
+      "sha256": "ce51c9f91b404515cd7010b2f09e13938262fa10459a3c6d85824dde35d2c84d",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 23
+    },
+    {
+      "file": "lse-Integrate-accumulation.json.gz",
+      "sha256": "36f31421bbcd9cf47334cd14c2d5a13428fbeddce3a4f5211a3792ccc610a7f2",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 30
+    },
+    {
+      "file": "lse-Integrate-expenditure.json.gz",
+      "sha256": "f41679ebcf6aa746bd787958be2dac81cdfb93051986097e810c032e9637d08c",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 31
+    },
+    {
+      "file": "lse-Mobilize-accumulation.json.gz",
+      "sha256": "e85eef530b6e83f4d8f6d89f2019b8d1e03f1dd15947e3c3c22a4d677a327931",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 18
+    },
+    {
+      "file": "lse-Mobilize-expenditure.json.gz",
+      "sha256": "b3bd00fc31daf4e9d0865b8717680d4ec1a301562c3b7463f277fdfa2d07b707",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 19
+    },
+    {
+      "file": "lse-Organize-accumulation.json.gz",
+      "sha256": "e6be99a11fe93b0f4f3c83f03b7367bbd0c2ccf912552511b93e4934a3dcb70e",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 14
+    },
+    {
+      "file": "lse-Organize-expenditure.json.gz",
+      "sha256": "6d23d7ad19e0fd8843f82164d405a7d97f3cdb2fcda5f1a6d58003fb6bed8b57",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 15
+    },
+    {
+      "file": "lse-Share-accumulation.json.gz",
+      "sha256": "06731259cf230de2d234426c8f14db7c777041f66806510058471b96fb63c2e0",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 4
+    },
+    {
+      "file": "lse-Share-expenditure.json.gz",
+      "sha256": "fddd57126a64f9f8c8906e9301ce4c7221a812a3160118a549d7f32846a24812",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 5
+    },
+    {
+      "file": "lse-Theorize-accumulation.json.gz",
+      "sha256": "564b86317942f6f3b0a51a65e5402f31a0cc2e3aeb1ae956eecefa8e9cb03b6b",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 6
+    },
+    {
+      "file": "lse-Theorize-expenditure.json.gz",
+      "sha256": "082d1cb571d1014e9e9870d83e45f9a1a3f5ba2657d7744b7950bdeabd40c88f",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 7
+    },
+    {
+      "file": "lse-Understand-accumulation.json.gz",
+      "sha256": "e1277ef66cb64f224b09c82858271ed7bd74eddf3dd3407d183ceabb02446a66",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 24
+    },
+    {
+      "file": "lse-Understand-expenditure.json.gz",
+      "sha256": "daae77156e80da7fd680e8a3aff67fbf08954e1d22cfd600a7ab3184e585db61",
+      "control": false,
+      "rejection": null,
+      "tim": "lse",
+      "cell": 25
+    },
+    {
+      "file": "lsi-Act-accumulation.json.gz",
+      "sha256": "178f904d5288a687f8f0b18259e19d12ebd328061de50ba525127ea92ef540a1",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 10
+    },
+    {
+      "file": "lsi-Act-expenditure.json.gz",
+      "sha256": "9778506faddc302817379dd2714abe20d1225ab36bec2923cc0515e14ac94e82",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 11
+    },
+    {
+      "file": "lsi-Apply-accumulation.json.gz",
+      "sha256": "a136a5eacfaeec4102cf4659ae9d6e6455bdcecb6c266e019955c7e49d74f8f8",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 26
+    },
+    {
+      "file": "lsi-Apply-expenditure.json.gz",
+      "sha256": "65900deef62a44128fcf25908f06b4a3b17a132bdf164bbcf8b21ecdba180c92",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 27
+    },
+    {
+      "file": "lsi-Commune-accumulation.json.gz",
+      "sha256": "979e86371841dd9709468d63c5e0de322859428006fc4199f393985072709d25",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 20
+    },
+    {
+      "file": "lsi-Commune-expenditure.json.gz",
+      "sha256": "84e6dbe771074f6788367404f1b444052ac76bad7889b32c9782fcc3a386691b",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 21
+    },
+    {
+      "file": "lsi-Contemplate-accumulation.json.gz",
+      "sha256": "61c79cd71a9e850a2ef726de2cf488f994b2110bfdee82cb2fd732d2f9fa41da",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 0
+    },
+    {
+      "file": "lsi-Contemplate-expenditure.json.gz",
+      "sha256": "2085ca869aa117e753a6970f34b07e7d81456e4b26b0c48a9919269170c3c5b6",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 1
+    },
+    {
+      "file": "lsi-Coordinate-accumulation.json.gz",
+      "sha256": "6bf2572de030d5dbb775824e87b82f13947c87721411ab32eccad6231bcd7bdd",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 12
+    },
+    {
+      "file": "lsi-Coordinate-expenditure.json.gz",
+      "sha256": "d3c143928185b0c7788f9b91c691b05ed9f338009ccae6bea2b9d9759613dac3",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 13
+    },
+    {
+      "file": "lsi-Educate-accumulation.json.gz",
+      "sha256": "874e2e2ff57626407e897cbcd0c16d264651b8fa27f40c66285b49c83e2af7e2",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 28
+    },
+    {
+      "file": "lsi-Educate-expenditure.json.gz",
+      "sha256": "3c3181dbbeb45de1ddef39cf1a834b33b29e9b6b8ab42dbcf4b2a51222d6749f",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 29
+    },
+    {
+      "file": "lsi-Embody-accumulation.json.gz",
+      "sha256": "3ddd2e172deb8613412e436df76e4800f8a75c23b0f0695abb1b127bca4a461f",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 8
+    },
+    {
+      "file": "lsi-Embody-expenditure.json.gz",
+      "sha256": "6a316c17412e9af18a91c305016b588f01a72d2acee104d9a4cd3801027b328d",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 9
+    },
+    {
+      "file": "lsi-Express-accumulation.json.gz",
+      "sha256": "b4f66f0d8ef57ad789c19920f2893501aabdecd1430e28fe9e9a87e4a0414c98",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 2
+    },
+    {
+      "file": "lsi-Express-expenditure.json.gz",
+      "sha256": "4ab92177a38ae6e8f507bbf3f3abd83e6139d785d0c4d3586ac13f20fffceab4",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 3
+    },
+    {
+      "file": "lsi-Identify-accumulation.json.gz",
+      "sha256": "36147781acd472e06d63c289ebb49845fb0daddaeeb3837050c5a459e58a540c",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 16
+    },
+    {
+      "file": "lsi-Identify-expenditure.json.gz",
+      "sha256": "83197fe0f00f1b86dc16d084a24b5c8c6b259fbfeb1388519087c2f0d2d28ede",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 17
+    },
+    {
+      "file": "lsi-Institutionalize-accumulation.json.gz",
+      "sha256": "30f721c5d20dcedccaa20fd81b33ad98d2b04bb61d75c0bae53f2d96a00b9e81",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 22
+    },
+    {
+      "file": "lsi-Institutionalize-expenditure.json.gz",
+      "sha256": "7146cbe0337e390dbfbf75ab72375cd4ead0314c37dfaab62f3d290d2c4e98e4",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 23
+    },
+    {
+      "file": "lsi-Integrate-accumulation.json.gz",
+      "sha256": "72aea73bb1801abf5bc66789ac4f0109a08554168bc920d6bb9c4849b5804049",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 30
+    },
+    {
+      "file": "lsi-Integrate-expenditure.json.gz",
+      "sha256": "a3de104a74b2cde236b836acd7a3f494b62827bee70e1f3dc2908f9fd6de6e98",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 31
+    },
+    {
+      "file": "lsi-Mobilize-accumulation.json.gz",
+      "sha256": "dd337542aceaa37af226fd94e62f054bc04a8cf3e8198603658fcd44cf7d3211",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 18
+    },
+    {
+      "file": "lsi-Mobilize-expenditure.json.gz",
+      "sha256": "3d26ea819c3bac130e2f4f3bae15aa0f108505e7d7212e0fb61fbeee3274e4fd",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 19
+    },
+    {
+      "file": "lsi-Organize-accumulation.json.gz",
+      "sha256": "db917a7b7a3b8f684b4955acd3fb96bb30ea31ec401c3fefddb3d6aca826c991",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 14
+    },
+    {
+      "file": "lsi-Organize-expenditure.json.gz",
+      "sha256": "581a11ecf31c1a7b03b20907d8ead24c319199e8c0c64acf3f7b13269bcd574d",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 15
+    },
+    {
+      "file": "lsi-Share-accumulation.json.gz",
+      "sha256": "026a906ecb058adeb1efd52295a244b70b70fc0effb790a0e25dfceb60ef7a4d",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 4
+    },
+    {
+      "file": "lsi-Share-expenditure.json.gz",
+      "sha256": "d5a2f93e83528028e40c235c19a9e016077d33024f0df890e0b47657736a4ed9",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 5
+    },
+    {
+      "file": "lsi-Theorize-accumulation.json.gz",
+      "sha256": "a84dc9e29e6cfd195b963b3c3b988f4fe62a47619bcc6f7576f272449f0937f0",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 6
+    },
+    {
+      "file": "lsi-Theorize-expenditure.json.gz",
+      "sha256": "4b386eaa655f4b6872bb3fbb0ee5228076757161c1c26e38917cad1a14436e64",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 7
+    },
+    {
+      "file": "lsi-Understand-accumulation.json.gz",
+      "sha256": "fedec5303e770f084e2b38f5464d2e6df493a59a2636753c29a43f17139ee3bc",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 24
+    },
+    {
+      "file": "lsi-Understand-expenditure.json.gz",
+      "sha256": "b648b049f57910360b7d7f97fc5e84861cd461c0a2611d2b572a50f020ee8438",
+      "control": false,
+      "rejection": null,
+      "tim": "lsi",
+      "cell": 25
+    },
+    {
+      "file": "see-Act-accumulation.json.gz",
+      "sha256": "0d6309d5f40142c469c0b1672163d234d0113975220cc1a7971fb7b7187a31a7",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 10
+    },
+    {
+      "file": "see-Act-expenditure.json.gz",
+      "sha256": "72087ad577c1edefbb3f5b4b57f210e21b633a4d9e1b1e4d606a9ffd91a64cfb",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 11
+    },
+    {
+      "file": "see-Apply-accumulation.json.gz",
+      "sha256": "0c95d442b7d014c5718e3eec8b7e76757df6c1f093ea2c3a1b74d7f71ec4a179",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 26
+    },
+    {
+      "file": "see-Apply-expenditure.json.gz",
+      "sha256": "ebbb00a33d865cd19d58ca3aca09efc74bc07a376d60e8833c516b5b526aeada",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 27
+    },
+    {
+      "file": "see-Commune-accumulation.json.gz",
+      "sha256": "4d7aaeff82f09df819e45aab9593f993b11cd55963b5044f009d6e32c473f122",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 20
+    },
+    {
+      "file": "see-Commune-expenditure.json.gz",
+      "sha256": "d3d1439b90ca1922a5c8bfb029064a78176ba878d224537d9de6d589f342c040",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 21
+    },
+    {
+      "file": "see-Contemplate-accumulation.json.gz",
+      "sha256": "845f9ff347c290d5d7b173c1ec95125167bffe26b16e1ca30494091353f343f4",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 0
+    },
+    {
+      "file": "see-Contemplate-expenditure.json.gz",
+      "sha256": "b17e156eaabfe17a6eb3504bafa2075599e16241a3b363c3417d753532aa68a4",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 1
+    },
+    {
+      "file": "see-Coordinate-accumulation.json.gz",
+      "sha256": "15007ab704619dbd106e6f50548927360c7988f3e8daa4534c0d212bb27ff749",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 12
+    },
+    {
+      "file": "see-Coordinate-expenditure.json.gz",
+      "sha256": "1d9c7aad45a648e0434d1fd710329a7084f0ebf95fbf41b1824777ca3df9b61a",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 13
+    },
+    {
+      "file": "see-Educate-accumulation.json.gz",
+      "sha256": "932ffb194601e33660e824ff902d62471e71b45cc82c7c26c53673b5cf4b525e",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 28
+    },
+    {
+      "file": "see-Educate-expenditure.json.gz",
+      "sha256": "562873a1c57d3add3a1b7eb6f2ee23dc7f5668346d6f0f9c8e4279142adc2cb4",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 29
+    },
+    {
+      "file": "see-Embody-accumulation.json.gz",
+      "sha256": "9b39160ef5cd0e7f0a4fc90781d107844ad194a0e6416dc7b8f94cc0149a26ca",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 8
+    },
+    {
+      "file": "see-Embody-expenditure.json.gz",
+      "sha256": "a4f77ba55c4f50088f5b319c226a75084f28a1898ef6fd46f4c37c1dddac4f25",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 9
+    },
+    {
+      "file": "see-Express-accumulation.json.gz",
+      "sha256": "8929b04da82718f4d776f3ca156291d5e57cf942686fc5b95304c4eddfc99e2a",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 2
+    },
+    {
+      "file": "see-Express-expenditure.json.gz",
+      "sha256": "4fa5ccc2141b752e8a5730ad17101f3034b428b2eb7134a2a0599a025976387b",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 3
+    },
+    {
+      "file": "see-Identify-accumulation.json.gz",
+      "sha256": "7dd409d9fea56625feb0b12b9b49665b48929c72c9aea75ea6f8140790a4bc1d",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 16
+    },
+    {
+      "file": "see-Identify-expenditure.json.gz",
+      "sha256": "244d6d73075c1ccf20a98ccba4d5fece7ae5b84f0db213a2a309e15b54a9b9c2",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 17
+    },
+    {
+      "file": "see-Institutionalize-accumulation.json.gz",
+      "sha256": "e451fc3f66b8b1e99e5912f5f6e82d9e85632a969bb4f37372136094c8a22b49",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 22
+    },
+    {
+      "file": "see-Institutionalize-expenditure.json.gz",
+      "sha256": "2ba4cbf5bae5129740920a1f05cc95f2087aded4cac7e85f862adcc42a30c236",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 23
+    },
+    {
+      "file": "see-Integrate-accumulation.json.gz",
+      "sha256": "b7a80ed1f98da343dbbf768a66581fc5806da8f33d55daf58323777e91a48d4b",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 30
+    },
+    {
+      "file": "see-Integrate-expenditure.json.gz",
+      "sha256": "1c8edbd12f1183020a090c378d744bc8eb43a1971abe093a9d273dc8e0b93a76",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 31
+    },
+    {
+      "file": "see-Mobilize-accumulation.json.gz",
+      "sha256": "3f408c43ee8065f4664e7f8ae5eae2b93573a73651465d2c9e1f6a94939c2de2",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 18
+    },
+    {
+      "file": "see-Mobilize-expenditure.json.gz",
+      "sha256": "22d7556bd5d292b074716d5f0ea6f736b61fa3f693b507c7647ddddf92e7b531",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 19
+    },
+    {
+      "file": "see-Organize-accumulation.json.gz",
+      "sha256": "b55ec0b4085236ef91f77d5cbebb4d9cdec75339134efb12afc842e9d42313f8",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 14
+    },
+    {
+      "file": "see-Organize-expenditure.json.gz",
+      "sha256": "96fc9a699cb5023555f236e8ece26a59b65c70ae30e54e851f172bb7c01c2124",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 15
+    },
+    {
+      "file": "see-Share-accumulation.json.gz",
+      "sha256": "f380ac2fbe8f614ce375c81b9f6281f576435a16c12dfcfe38c05c43190fa212",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 4
+    },
+    {
+      "file": "see-Share-expenditure.json.gz",
+      "sha256": "4e6a33254d186ccbc7508b82268f5cc58ec6de89cca33167f9d708e91b0b6f41",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 5
+    },
+    {
+      "file": "see-Theorize-accumulation.json.gz",
+      "sha256": "ad07a7477244dddd827567d13dc2fcc55d230428ba08dd6202ff1e218bc705bf",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 6
+    },
+    {
+      "file": "see-Theorize-expenditure.json.gz",
+      "sha256": "3cd3a2914f92ee88276ff0653e61a3592c4a5ff635dd5ce11698fb10ee650488",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 7
+    },
+    {
+      "file": "see-Understand-accumulation.json.gz",
+      "sha256": "56b0453aa416ecff59e32a21cf3c258552d0a0c7fcd7b025c1ff0135283a1167",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 24
+    },
+    {
+      "file": "see-Understand-expenditure.json.gz",
+      "sha256": "96c228a6664a2f647711b49ec0a2b958f928ae80f78ac46cd31ee417c6254fd7",
+      "control": false,
+      "rejection": null,
+      "tim": "see",
+      "cell": 25
+    },
+    {
+      "file": "sei-Act-accumulation.json.gz",
+      "sha256": "404ec20b706a25493b12f740b860f0f85604fc524d8f9d0b5e8fd2762adba820",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 10
+    },
+    {
+      "file": "sei-Act-expenditure.json.gz",
+      "sha256": "21fe56e78f74f1befcfe2357da812a6cbe913e87d12027e6123fae633867bcdb",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 11
+    },
+    {
+      "file": "sei-Apply-accumulation.json.gz",
+      "sha256": "2acf1e26a668c0f1c6f1c0f321d3f5dd33e044880f385a729130d6bbc3a46ce2",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 26
+    },
+    {
+      "file": "sei-Apply-expenditure.json.gz",
+      "sha256": "fdbf0287d8f1833ab927a799cb2438c07c718c484db4a20d384ff93ca0a47f99",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 27
+    },
+    {
+      "file": "sei-Commune-accumulation.json.gz",
+      "sha256": "75466c6e38f3f9f2a58a73202c28c7509d4de58f3bd7c4f3c1127ce96bdf091c",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 20
+    },
+    {
+      "file": "sei-Commune-expenditure.json.gz",
+      "sha256": "b671ae8ce0ec26df188bf47969cb7b3fb3d1139cc85c5cd77277ebd49b8c7c86",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 21
+    },
+    {
+      "file": "sei-Contemplate-accumulation.json.gz",
+      "sha256": "624596350718472066df61b5e8216dafb5443b51d8ab1f4753f47d09d2510fea",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 0
+    },
+    {
+      "file": "sei-Contemplate-expenditure.json.gz",
+      "sha256": "f2f178e43e25ebe573ce28f8c7af418e38ae8750de8dd14bc32084811afd861e",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 1
+    },
+    {
+      "file": "sei-Coordinate-accumulation.json.gz",
+      "sha256": "02fa20f8ceacaf49e9eed9aad37acc18b1566050c3333cbcdfb2d0ec4f161a0a",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 12
+    },
+    {
+      "file": "sei-Coordinate-expenditure.json.gz",
+      "sha256": "f9447595fe1cf02fed30c4c7200918c73a97cfbf8a3ad6aa8570b2eca2f32707",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 13
+    },
+    {
+      "file": "sei-Educate-accumulation.json.gz",
+      "sha256": "cbc61c1647174973a073ab784bca1c854a37cdadbda88df4f4be4dc3d7a5beaa",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 28
+    },
+    {
+      "file": "sei-Educate-expenditure.json.gz",
+      "sha256": "0799614bea13c3f43130d7caecea0637422c09875ac7bda0706446c9430ac3c4",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 29
+    },
+    {
+      "file": "sei-Embody-accumulation.json.gz",
+      "sha256": "5327b45d250ae4760334440bd1b281418a7e90bae5a68cba77504d8595d9511c",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 8
+    },
+    {
+      "file": "sei-Embody-expenditure.json.gz",
+      "sha256": "adabdf5c448e0bc6b6fd225950eaa373bb7a318cc666788d74ed2c78de46bc70",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 9
+    },
+    {
+      "file": "sei-Express-accumulation.json.gz",
+      "sha256": "ad28f32ee226a7fb5eb54f8585a998bc2300a84c87cc944596b9e1ec06464058",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 2
+    },
+    {
+      "file": "sei-Express-expenditure.json.gz",
+      "sha256": "c12d2711a860d39ad334d1cdc4de700971dae3711d6c25bbec62d66a062749e7",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 3
+    },
+    {
+      "file": "sei-Identify-accumulation.json.gz",
+      "sha256": "0c24ebf0a4c0e62e72664944e4c6371a233647e4143469e45a9f53fe161f8b4b",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 16
+    },
+    {
+      "file": "sei-Identify-expenditure.json.gz",
+      "sha256": "d8f90a89aa5d354ee0cef33b8759306cd6f75ada365aeed88e2d5543af6e7694",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 17
+    },
+    {
+      "file": "sei-Institutionalize-accumulation.json.gz",
+      "sha256": "3262d239acb223db382c0160799de37ab819e7cda6e0dca7d1388351e0c8f0af",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 22
+    },
+    {
+      "file": "sei-Institutionalize-expenditure.json.gz",
+      "sha256": "f6b723eb31e44b24998986bc522b61f28c7107a28db692bd251598c6f4248c4b",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 23
+    },
+    {
+      "file": "sei-Integrate-accumulation.json.gz",
+      "sha256": "b1bf5883676e130e1cfd0e0d3b3b3910884a62728e3cbed52d485ce5a6053736",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 30
+    },
+    {
+      "file": "sei-Integrate-expenditure.json.gz",
+      "sha256": "fd1112f4e79c5c6daac67b4da4655991fd66425d101b4fd68235fa9c5123e2d3",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 31
+    },
+    {
+      "file": "sei-Mobilize-accumulation.json.gz",
+      "sha256": "4d1ef8b9c847f06f2ee4e06df2e0ff0554a420410eb6573a2b462b4830f01aa1",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 18
+    },
+    {
+      "file": "sei-Mobilize-expenditure.json.gz",
+      "sha256": "1e4606c4269b6bb9142eda54f60a352267453623a83418fbe633b682efdac3e5",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 19
+    },
+    {
+      "file": "sei-Organize-accumulation.json.gz",
+      "sha256": "62353f07f97464812697bd457f418ef6980f3c39693a27e98b0d26b0144bc606",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 14
+    },
+    {
+      "file": "sei-Organize-expenditure.json.gz",
+      "sha256": "87ca5df0e13cd359a3473b7d1f3c5d5c9be94274a63436c0cfc4acdb33d88acd",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 15
+    },
+    {
+      "file": "sei-Share-accumulation.json.gz",
+      "sha256": "1093272076e6687e640761e2e0308b58f2f94f9b43c43f5131cbba389e0f9170",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 4
+    },
+    {
+      "file": "sei-Share-expenditure.json.gz",
+      "sha256": "81ecbb4d4348db6d08e85d85287a164686735671078bc46975418cd614fa8f9d",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 5
+    },
+    {
+      "file": "sei-Theorize-accumulation.json.gz",
+      "sha256": "995eb2c4b4350ca680912d02ad9caf8d695ff78d5aa291056b44cdf1cde98cb7",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 6
+    },
+    {
+      "file": "sei-Theorize-expenditure.json.gz",
+      "sha256": "7580c7d0227a8a7ef1ad5a2135d1d18c5d25e5e457e08a4519c2d46d8fcf22be",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 7
+    },
+    {
+      "file": "sei-Understand-accumulation.json.gz",
+      "sha256": "90aadaf76ba8be6e2a38c93c6b69fe9d00517a65bdc99622a5a592a149bc7a6f",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 24
+    },
+    {
+      "file": "sei-Understand-expenditure.json.gz",
+      "sha256": "8e6a4dd18286b94bf50858ab3027aa04e38a976ec07bcb9f6418eab5db39ec65",
+      "control": false,
+      "rejection": null,
+      "tim": "sei",
+      "cell": 25
+    },
+    {
+      "file": "sle-Act-accumulation.json.gz",
+      "sha256": "c593676491b857a9f9eaea10afc7c2815037e3cb75f719b80aad1e69ee465bcc",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 10
+    },
+    {
+      "file": "sle-Act-expenditure.json.gz",
+      "sha256": "be0bf45be16f56e3910f156f55e78bfac3bb6314c83614efff8fbd91ebb20449",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 11
+    },
+    {
+      "file": "sle-Apply-accumulation.json.gz",
+      "sha256": "1533e7898bbc317ca4256b24f20d976309a0f1dcb4be47e7b77f3c728f73c452",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 26
+    },
+    {
+      "file": "sle-Apply-expenditure.json.gz",
+      "sha256": "57bc9ca6b3ea2ef31328ec5404c8dab76d86a5a8540f6f9dfda95242f08efa5e",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 27
+    },
+    {
+      "file": "sle-Commune-accumulation.json.gz",
+      "sha256": "691adf53bc2e532dcacb88ebdfec1f6d2fa072d12accdd69feed0e5163b64b00",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 20
+    },
+    {
+      "file": "sle-Commune-expenditure.json.gz",
+      "sha256": "8ecd2968dcccd76c0727a1fef43b2a5975e0d586a7427f8d8c3530d80bdfc7d6",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 21
+    },
+    {
+      "file": "sle-Contemplate-accumulation.json.gz",
+      "sha256": "325d6f42961218be3e035be2bca0341e1266943f3a34a0221ef0bca3d7e7670c",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 0
+    },
+    {
+      "file": "sle-Contemplate-expenditure.json.gz",
+      "sha256": "f57cc52dcdfba4caf4a2a9d64cac3c52fd55d9fb119bd26903144379e61050c7",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 1
+    },
+    {
+      "file": "sle-Coordinate-accumulation.json.gz",
+      "sha256": "9e92b9ecdf6a9fe7918dbccab7e99118fee2fb2c720664311fdcfdd2de4e164b",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 12
+    },
+    {
+      "file": "sle-Coordinate-expenditure.json.gz",
+      "sha256": "499dad4605cea0e155b8c2d3e2522e91d6c9d77b2880ee7f23df34722a42fc59",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 13
+    },
+    {
+      "file": "sle-Educate-accumulation.json.gz",
+      "sha256": "53b709d7ba2f1cc8dc13a57a7bb117f8963fa2075b4390d1e4789670babdd3d8",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 28
+    },
+    {
+      "file": "sle-Educate-expenditure.json.gz",
+      "sha256": "e76e13c59f526387450fed344b2355f13f2613f27eb3f17ed7d6dd2cb3ca85ba",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 29
+    },
+    {
+      "file": "sle-Embody-accumulation.json.gz",
+      "sha256": "256c7de57b2905d679296c64da54e25f2fd7cdf3fca8084fcad8b582f941f2a7",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 8
+    },
+    {
+      "file": "sle-Embody-expenditure.json.gz",
+      "sha256": "4fe8677392e1aa360994037cb140d42de771b934f69c7fbf17b21a25a69888cd",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 9
+    },
+    {
+      "file": "sle-Express-accumulation.json.gz",
+      "sha256": "ad9e4dfbf8aebab9d0fa5e2b91be18c6e6d1d18a557b88cfac044f3dd70f989b",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 2
+    },
+    {
+      "file": "sle-Express-expenditure.json.gz",
+      "sha256": "1d58de9d30a6ac63dfabae22ed04149c77f88f8b681012ffc459b67eb5feb508",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 3
+    },
+    {
+      "file": "sle-Identify-accumulation.json.gz",
+      "sha256": "e6e834556a39d862ad3d91882458d42c190ac03566a931873cc2a30b325a7bc6",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 16
+    },
+    {
+      "file": "sle-Identify-expenditure.json.gz",
+      "sha256": "fb899a9ea10a891c257f469ab43fcbbc21ad013ec40d000fd56fa54c1db4c285",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 17
+    },
+    {
+      "file": "sle-Institutionalize-accumulation.json.gz",
+      "sha256": "04cae477d1aac66330cde6713e6922a94bc7cf26f4b1d7fa49c36d72f80f108f",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 22
+    },
+    {
+      "file": "sle-Institutionalize-expenditure.json.gz",
+      "sha256": "4dba34c30b265c0a7a8eb3c4a30c991e206d79ba84fab336d0214ff38e36903a",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 23
+    },
+    {
+      "file": "sle-Integrate-accumulation.json.gz",
+      "sha256": "5f2d34a70a2d715588d79012321d0b20e9ecec9f1056957ab6e5380d9db11062",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 30
+    },
+    {
+      "file": "sle-Integrate-expenditure.json.gz",
+      "sha256": "9213626ee97b67a3cb41fa2fad6afdf6b72d18d6b925d84ba124eb08a4cb9598",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 31
+    },
+    {
+      "file": "sle-Mobilize-accumulation.json.gz",
+      "sha256": "32899c29f037439d5a8185114f8b0b30ac127a45d33eecf778b071d62aba451d",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 18
+    },
+    {
+      "file": "sle-Mobilize-expenditure.json.gz",
+      "sha256": "1b65a0436b89f420ac7732d75b389a5cdc7a61548bf5df7efd15fbe52fdf294c",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 19
+    },
+    {
+      "file": "sle-Organize-accumulation.json.gz",
+      "sha256": "69bb7a9f20190817f41d7959f538b21e5250b7d6ea746988b5f65078a273013d",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 14
+    },
+    {
+      "file": "sle-Organize-expenditure.json.gz",
+      "sha256": "30b2e03f419b19421a5d2a83da713c1a927ea700322751fb0cdf16b4c45abc32",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 15
+    },
+    {
+      "file": "sle-Share-accumulation.json.gz",
+      "sha256": "b6296cc6c334fbc9b9e19e295a5338becde6836b2db11f58b4a0e5794405ca04",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 4
+    },
+    {
+      "file": "sle-Share-expenditure.json.gz",
+      "sha256": "ba9de985c8bee0ce702a86af8d25e6eb9cab2bdae4d43b083c97c91302492474",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 5
+    },
+    {
+      "file": "sle-Theorize-accumulation.json.gz",
+      "sha256": "3ff8cae2ab9108879af8cbfdbe50c56dd47a92f2e9bdf092bd620b18cc48fcf8",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 6
+    },
+    {
+      "file": "sle-Theorize-expenditure.json.gz",
+      "sha256": "750a7c8786a1f64ddf841312f2f6f898483e6609190e9b0c0cf3b86cc70b6b5a",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 7
+    },
+    {
+      "file": "sle-Understand-accumulation.json.gz",
+      "sha256": "481470192f6d4d76b13797119daabbba35c69cb227373c98b4151d5a7cce6c47",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 24
+    },
+    {
+      "file": "sle-Understand-expenditure.json.gz",
+      "sha256": "f355d5c97a2ab92e7323b075cdb1d9c7384c452816c7b9eb2a50afb8cd7a073f",
+      "control": false,
+      "rejection": null,
+      "tim": "sle",
+      "cell": 25
+    },
+    {
+      "file": "sli-Act-accumulation.json.gz",
+      "sha256": "6425229e56bdb211153b69e5f10ea9f980f165e318f5cb0547cd6d991674bc3d",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 10
+    },
+    {
+      "file": "sli-Act-expenditure.json.gz",
+      "sha256": "bae12c2a7b12602be6469580b5bca16ce20065baf98ea42dba6d28ffa3956e96",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 11
+    },
+    {
+      "file": "sli-Apply-accumulation.json.gz",
+      "sha256": "18aac023fc8e86731bab876f109348c02991ca261c2a736f51262ee7e6bc2b88",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 26
+    },
+    {
+      "file": "sli-Apply-expenditure.json.gz",
+      "sha256": "00f7d587a8985c9498578ab230237ec264fc1b7bfabf5775025cad75b6fecda8",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 27
+    },
+    {
+      "file": "sli-Commune-accumulation.json.gz",
+      "sha256": "31291ca3aae25680bdb3f14dc1d7c3a37cae55949bff5a4db307807a521ce792",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 20
+    },
+    {
+      "file": "sli-Commune-expenditure.json.gz",
+      "sha256": "d6f7bea293b7f83dd0218b5dc6c3f57ab49ec16a2db3296aae5e2e0c2a8dcf76",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 21
+    },
+    {
+      "file": "sli-Contemplate-accumulation.json.gz",
+      "sha256": "11cf6937a301b73643b29adf7c5705556027d6646b5e468b6cbf8b9f65d53ea0",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 0
+    },
+    {
+      "file": "sli-Contemplate-expenditure.json.gz",
+      "sha256": "376883018eaa2c033d564083f0243acfd1d3d0ee27f44ee7d5d7d7ac5615fb21",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 1
+    },
+    {
+      "file": "sli-Coordinate-accumulation.json.gz",
+      "sha256": "1362116c146cb9154cb06f966a0f012ccaa1c4b9164e037c550e2910022a21f8",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 12
+    },
+    {
+      "file": "sli-Coordinate-expenditure.json.gz",
+      "sha256": "27215f5524458e2bcd8057e725cff2a80938d7044812a4fcbb58e96fc4d74fd7",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 13
+    },
+    {
+      "file": "sli-Educate-accumulation.json.gz",
+      "sha256": "a6bacec4667f6c426327229d6298b7f7d36be4ef6f1320b38cebbb865bde2bb1",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 28
+    },
+    {
+      "file": "sli-Educate-expenditure.json.gz",
+      "sha256": "566dc5458aea482f4c49646c0f0c7824310e79fab4ffd919710326e280b105b7",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 29
+    },
+    {
+      "file": "sli-Embody-accumulation.json.gz",
+      "sha256": "b8d5da628056ab003e6fef0d6eab8f82a1e465b37c62b26ced8c175e99e2d74c",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 8
+    },
+    {
+      "file": "sli-Embody-expenditure.json.gz",
+      "sha256": "4e6cc08b103e36f3ab7a8758ed2fa4530cbf2085c178923c1295d0fbe7f45d39",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 9
+    },
+    {
+      "file": "sli-Express-accumulation.json.gz",
+      "sha256": "a9bcda21c11fac4a00c7481abc0c692801553ddf7dcbfd9b3ccedeb804479b90",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 2
+    },
+    {
+      "file": "sli-Express-expenditure.json.gz",
+      "sha256": "81b4fd64db6c07578dd1be1ed78448f372cdae6785db4f8972adb4d90d18f596",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 3
+    },
+    {
+      "file": "sli-Identify-accumulation.json.gz",
+      "sha256": "ac728e26fcaff05f05f16b4046b5bcfd65e14409171211b23475104b47448792",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 16
+    },
+    {
+      "file": "sli-Identify-expenditure.json.gz",
+      "sha256": "27ca1ba6c819364a79253538df4692bcff5b779cd36973c552623da5bd88eb99",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 17
+    },
+    {
+      "file": "sli-Institutionalize-accumulation.json.gz",
+      "sha256": "7a863f4c6361ebb2109a6ce8fb7ea73446b53b78d2c390070f3543376713ac45",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 22
+    },
+    {
+      "file": "sli-Institutionalize-expenditure.json.gz",
+      "sha256": "b73ca32fb38539a8961a886192590e391872b28005cb1f3de7fdbf3a9b06fd98",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 23
+    },
+    {
+      "file": "sli-Integrate-accumulation.json.gz",
+      "sha256": "b003b87e82f2e695d2c176a0c967b2753f5b0a3bbef2b1da1719e29d491f4233",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 30
+    },
+    {
+      "file": "sli-Integrate-expenditure.json.gz",
+      "sha256": "393c592df5a7f24738b37b2a110de5bdea79c3ea13006d82241ded7ab1f48aa8",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 31
+    },
+    {
+      "file": "sli-Mobilize-accumulation.json.gz",
+      "sha256": "07d51767e76b03e257ce35562655fcea66436ef5fa9450bbd525cd537706f239",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 18
+    },
+    {
+      "file": "sli-Mobilize-expenditure.json.gz",
+      "sha256": "7a5bc6b6f21b3c9848a47f22c7acdc82fac29b457f743c58b68b09083ab4db2e",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 19
+    },
+    {
+      "file": "sli-Organize-accumulation.json.gz",
+      "sha256": "9b24909599b9e22de8ce22ba36d2ff9d439238b34c82495c619239ff3791329f",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 14
+    },
+    {
+      "file": "sli-Organize-expenditure.json.gz",
+      "sha256": "571160721d4b86424f3c8dd4110000f3db830d799d88a7ef2597e417a4f1d7b7",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 15
+    },
+    {
+      "file": "sli-Share-accumulation.json.gz",
+      "sha256": "17365e6f2068f3478b35da101e12de4857104edf3250efd4d60a56fff9ed5b3b",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 4
+    },
+    {
+      "file": "sli-Share-expenditure.json.gz",
+      "sha256": "1c24caadf8d596427175f3ee63dd5d50676b200969779025367d0e37b563870d",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 5
+    },
+    {
+      "file": "sli-Theorize-accumulation.json.gz",
+      "sha256": "fea299cf1b89030489ad2a6a31232b5e8498e3310e325b4dc5cee4aa19fc1eac",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 6
+    },
+    {
+      "file": "sli-Theorize-expenditure.json.gz",
+      "sha256": "b1f38d475b64e356296de62ce488399cd6c51ca39c3764e7cee1ee7bb098b59b",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 7
+    },
+    {
+      "file": "sli-Understand-accumulation.json.gz",
+      "sha256": "53b743ef6025fc3cd8471da4f93f2e4b4601f6efa15290a61f179124f959f68c",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 24
+    },
+    {
+      "file": "sli-Understand-expenditure.json.gz",
+      "sha256": "bd4ce5f34171c1f48bde74df0cbd57b1b28bbba88c0c2518c156d7259a3d2294",
+      "control": false,
+      "rejection": null,
+      "tim": "sli",
+      "cell": 25
+    }
+  ]
+}

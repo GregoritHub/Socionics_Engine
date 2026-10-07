@@ -1,0 +1,41 @@
+{
+  "batch": "2.4",
+  "attempt": 3,
+  "status": "passed",
+  "accepted": true,
+  "verified_at": "2026-10-07T12:02:55.868300+00:00",
+  "source_freeze_sha256": "d4e971c761650f55cfd5074f15d0f614f338578aa3918489ed70b160f33991e1",
+  "source_files": 1239,
+  "source_unchanged": true,
+  "tests": {
+    "distinct_methods": 661,
+    "new_and_workflow_and_model_g": 59,
+    "inherited": 602,
+    "all_passed": true,
+    "skipped": 0
+  },
+  "matrix": {
+    "cases": 512,
+    "types": 16,
+    "cells": 32,
+    "matched_controls": 32,
+    "independent_worlds": 544,
+    "all_passed": true,
+    "controls_rejected": 32,
+    "participant_replay": false
+  },
+  "responsiveness": {
+    "pairs": 3,
+    "worlds": 9,
+    "information": true,
+    "capacity": true,
+    "withheld_information": true,
+    "unresponsive_controls_rejected": 2
+  },
+  "commands": "commands.json",
+  "historical_failures": [
+    "../attempt1/Attempt_Summary.json",
+    "../attempt2/Attempt_Summary.json"
+  ],
+  "scope": "Scoped lossless paid Procedure definition representation; C6 encoder, inherited laws and baseline unchanged."
+}

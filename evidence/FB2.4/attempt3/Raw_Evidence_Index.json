@@ -1,0 +1,15 @@
+{
+  "status": "accepted",
+  "archive": "Socionics_Final_Build_FB2.4_Attempt3_Evidence.zip",
+  "library_file_id": "libfile_ca3933d078fc8191ac1df6c631d97e0f",
+  "file_id": "file_00000000dea481f5b361019b8f20ed7f",
+  "bytes": 73482270,
+  "sha256": "941c387212198241d669ef7b49c909cdb5a853baaf20c02f8d965b829af0ad52",
+  "members": 658,
+  "restore": "Materialize the exact Library/file IDs with the Library skill. Verify archive SHA-256 and byte size before extraction. Extract into the repository root; members begin evidence/FB2.4/attempt3/. Verify every member against attempt3/Raw_SHA256.json. The manifest excludes itself. Preserve attempts 1 and 2.",
+  "verification_commands": [
+    "python tools/verify_workflow_selection.py --responsiveness evidence/FB2.4/attempt3/responsiveness",
+    "python tools/verify_workflow_selection.py evidence/FB2.4/attempt3/matrix 512 32"
+  ],
+  "source_freeze_sha256": "d4e971c761650f55cfd5074f15d0f614f338578aa3918489ed70b160f33991e1"
+}

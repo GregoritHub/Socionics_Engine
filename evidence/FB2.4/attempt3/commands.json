@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "python",
+      "tools/evaluate_c7_workflow_selection.py",
+      "responsiveness",
+      "evidence/FB2.4/attempt3/responsiveness"
+    ],
+    "started_at": "2026-10-07T11:29:59.042503+00:00",
+    "seconds": 17.687697392997507,
+    "exit_code": 0,
+    "log": "evidence/FB2.4/attempt3/responsiveness.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/verify_workflow_selection.py",
+      "--responsiveness",
+      "evidence/FB2.4/attempt3/responsiveness"
+    ],
+    "started_at": "2026-10-07T11:30:16.924068+00:00",
+    "seconds": 9.034860556006606,
+    "exit_code": 0,
+    "log": "evidence/FB2.4/attempt3/independent-responsiveness.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB2.4/attempt3/new-tests",
+      "tests_workflow_selection",
+      "tests_c7_workflow",
+      "tests_g"
+    ],
+    "started_at": "2026-10-07T11:31:39.709519+00:00",
+    "seconds": 505.13513468900055,
+    "exit_code": 0,
+    "log": "evidence/FB2.4/attempt3/new-tests.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/regress_c7_parallel.py",
+      "evidence/FB2.4/attempt3/inherited-regression"
+    ],
+    "started_at": "2026-10-07T11:31:39.710243+00:00",
+    "seconds": 635.1266962249938,
+    "exit_code": 0,
+    "log": "evidence/FB2.4/attempt3/inherited-regression.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/evaluate_c7_workflow_selection.py",
+      "matrix",
+      "evidence/FB2.4/attempt3/matrix"
+    ],
+    "started_at": "2026-10-07T11:31:39.710808+00:00",
+    "seconds": 963.8245836739952,
+    "exit_code": 0,
+    "log": "evidence/FB2.4/attempt3/matrix.stdout.log",
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/verify_workflow_selection.py",
+      "evidence/FB2.4/attempt3/matrix",
+      "512",
+      "32"
+    ],
+    "started_at": "2026-10-07T11:47:43.642302+00:00",
+    "seconds": 628.6894876520091,
+    "exit_code": 0,
+    "log": "evidence/FB2.4/attempt3/independent-matrix.stdout.log",
+    "source_unchanged": true
+  }
+]

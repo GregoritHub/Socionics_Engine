@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "2.4",
+  "current_batch": "3.1",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -9,17 +9,18 @@
     "1.2",
     "2.1",
     "2.2",
-    "2.3"
+    "2.3",
+    "2.4"
   ],
-  "next_batch": "2.4",
+  "next_batch": "3.1",
   "run_id": "fb24-recovery-20261007T112546Z-827fc48b",
-  "lease_expires_at": "2026-10-07T12:17:28.639213Z",
-  "updated_at": "2026-10-07T11:47:28.639213Z",
+  "lease_expires_at": "2026-10-07T12:35:03.887012Z",
+  "updated_at": "2026-10-07T12:05:03.887012Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB2.4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB2.4 attempt3: 661 tests and three independently reconstructed responsiveness pairs passed; full automatic matrix and independent matrix reconstruction remain in progress.",
+  "activity": "FB2.4 attempt3 verified and archived; starting prospective protocol and inherited Shell diagnostic for FB3.1.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",

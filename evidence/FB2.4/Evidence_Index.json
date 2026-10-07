@@ -1,9 +1,10 @@
 {
-  "status": "blocked",
-  "accepted": false,
+  "status": "passed",
+  "accepted": true,
   "attempts": [
     "attempt1/Attempt_Summary.json",
-    "attempt2/Attempt_Summary.json"
+    "attempt2/Attempt_Summary.json",
+    "attempt3/Acceptance_Summary.json"
   ],
   "blocker": "Blocker.json",
   "files": {
@@ -30,6 +31,15 @@
     "attempt2/responsiveness.stdout.log": "60a49e17274af8bed0a6cc7f5acc28a5dd1f8ed78b8601539484e7c3940f6c9d",
     "attempt2/selection_records.py.txt": "1a691f5072c52389d87c376aa21443a854ffbe39167074ee279a92486dd0333c",
     "attempt2/source_freeze.json": "490615e4d45b9f5e727c500be0c1998cb36ecee8921bdf0f041af1e746f730ad",
-    "attempt2/workflow_selection_execution.py.txt": "8c166d24e8f43615778970eff8dbbe5d031edcea420b605c288bd86513c2cf3d"
-  }
+    "attempt2/workflow_selection_execution.py.txt": "8c166d24e8f43615778970eff8dbbe5d031edcea420b605c288bd86513c2cf3d",
+    "attempt3/Acceptance_Summary.json": "ecaba36b99480a8f400269b95fbc2e350f63adfb848c912b2d5398a02c214929",
+    "attempt3/Raw_SHA256.json": "53251c2b09c5267fa767507d638cf8c40a13b502d9b09be063b0288e29969cf7",
+    "attempt3/Raw_Evidence_Index.json": "098559997d1236d0003b58e29086b79c456450fb021b03becf84df1841d95a65",
+    "attempt3/commands.json": "5d73d6f7101b16bc5b5c3a772e40d4211c99d6da5113bdc08dd51d7b466de6ce",
+    "attempt3/Protection_Check.json": "cb212748457fa09bfafd92c67fccff6c963bcb8926f771c52f5a5e999e707044",
+    "attempt3/source_freeze.json": "d4e971c761650f55cfd5074f15d0f614f338578aa3918489ed70b160f33991e1"
+  },
+  "accepted_attempt": 3,
+  "archive_index": "attempt3/Raw_Evidence_Index.json",
+  "prior_blocker_disposition": "Resolved by explicit author authorization and verified attempt3; historical Blocker.json unchanged."
 }
