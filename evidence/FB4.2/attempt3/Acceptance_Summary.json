@@ -1,0 +1,34 @@
+{
+  "batch": "4.2",
+  "passed": true,
+  "tests": {
+    "total_distinct_methods": 692,
+    "inherited": 602,
+    "workflow_shell_interruption_model_g": 74,
+    "workflow_development": 4,
+    "workflow_composition": 6,
+    "workflow_nesting_faces": 6,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "raw_panel": {
+    "parent_worlds": 4,
+    "face_pairs": 16,
+    "face_worlds": 32,
+    "raw_worlds": 36,
+    "converged_final_answers": 7,
+    "divergent_final_answers": 9,
+    "participant_replay": false
+  },
+  "source_freeze": {
+    "files": 1288,
+    "sha256": "77a3e2a98a04d3c4042b146dedc34fe2d70040d10cc3affdf2f38c1f3b928397",
+    "prior_files": 1278,
+    "prior_changed": 0,
+    "prior_removed": 0,
+    "new_files": 10
+  },
+  "protocol_sha256": "901fdd0cf2a4234a1e38866e9e72eba6312edc48bb95021ed97004f8befee283",
+  "independent_verification_sha256": "d468817aa615ca0873593a1e26a711a679db2f5568af2882fe1597556910c3ba"
+}

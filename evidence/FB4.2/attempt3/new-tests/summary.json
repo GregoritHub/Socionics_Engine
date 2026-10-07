@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 32.562967189995106,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_all_sixteen_matched_route_face_pairs",
+      "status": "passed",
+      "seconds": 26.231349023000803
+    },
+    {
+      "test_id": "tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_distinct_operation_accounting_and_duplicate_child_rejection",
+      "status": "passed",
+      "seconds": 0.6459256330126664
+    },
+    {
+      "test_id": "tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_face_pair_requires_the_same_fresh_start",
+      "status": "passed",
+      "seconds": 0.7425198130076751
+    },
+    {
+      "test_id": "tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_four_parent_lifecycle_worlds",
+      "status": "passed",
+      "seconds": 3.3312674879998667
+    },
+    {
+      "test_id": "tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_parent_summary_grants_no_model_competence_or_authority",
+      "status": "passed",
+      "seconds": 0.8919469899992691
+    },
+    {
+      "test_id": "tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_raw_parent_capacity_mutation_is_rejected",
+      "status": "passed",
+      "seconds": 0.7173908219992882
+    }
+  ]
+}

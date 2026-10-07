@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "ready",
   "current_batch": "4.2",
   "completed_batches": [
     "0.1",
@@ -14,17 +14,18 @@
     "3.1",
     "3.2",
     "3.3",
-    "4.1"
+    "4.1",
+    "4.2"
   ],
-  "next_batch": "4.2",
-  "run_id": "fb42-20261007T164544Z-9e52cfc1",
-  "lease_expires_at": "2026-10-07T17:46:04Z",
-  "updated_at": "2026-10-07T17:16:04Z",
+  "next_batch": "5.1",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-07T17:19:19Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB4.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB4.2 gate execution passed: 692 methods, 36 independently verified raw worlds and 1,288-file freeze with all 1,278 prior files unchanged. Archiving durable evidence before acceptance.",
+  "activity": "FB4.2 accepted: 692 methods and 36 raw worlds passed; four parent lifecycle cases and all sixteen route-face comparisons independently reconstructed. Ready for batch5.1 population.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -33,7 +34,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Enabled; ready for next eligible batch 4.2.",
+  "automation_status": "Enabled; ready for next eligible batch 5.1.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
@@ -60,7 +61,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb41-20261007T153322Z-7fd6021a",
+  "last_run_id": "fb42-20261007T164544Z-9e52cfc1",
   "blocker": null,
   "automation_verification_history": [
     {

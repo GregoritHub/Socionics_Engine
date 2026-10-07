@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "parent_worlds": 4,
+  "face_pairs": 16,
+  "face_worlds": 32,
+  "raw_worlds": 36,
+  "converged_pairs": 7,
+  "divergent_pairs": 9,
+  "source_unchanged": true
+}

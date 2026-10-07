@@ -16,7 +16,7 @@
 | 3.2 | Active interruption | complete after authorized recovery; see FB3.2_Record.md | |
 | 3.3 | Effects, signs, correction and recurrence | complete; see FB3.3_Record.md | |
 | 4.1 | The five families in workflow content | complete; see FB4.1_Record.md | |
-| 4.2 | Nested accountability and the two faces | in progress; protocol and implementation checkpoint committed | |
+| 4.2 | Nested accountability and the two faces | complete; see FB4.2_Record.md | |
 | 5.1 | Population over workflow selection | pending | |
 | 5.2 | Sustained panel and costs | pending | |
 | 6.1 | The joint §9 ledger | pending | |
@@ -27,6 +27,6 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[machine-checked] Batches through 4.1 are accepted. Latest checkpoint: 686 distinct passing methods; five workflow composition families and five equal-price defining-step ablations independently reconstructed from 10 raw worlds; all five controls changed the fixed downstream answer and were rejected by the ordinary auditor. Earlier failed attempts and author releases remain preserved in their batch records.
+[machine-checked] Batches through 4.2 are accepted. Latest checkpoint: 692 distinct passing methods; four bounded workflow-parent lifecycle worlds and sixteen matched route-face comparisons independently reconstructed from 36 raw worlds. Seven face pairs legitimately converged on one downstream answer and nine diverged; every pair retained its preregistered responsibility distinction. Earlier failed attempts and author releases remain preserved in their batch records.
 
-[open] Release 1.0 remains incomplete. Batch 4.2 is active under its prospective four-parent-world and sixteen-face-pair protocol. Six new development methods pass; final freeze, full regression and the raw 36-world panel remain pending. Phase 7 requires explicit R5.
+[open] Release 1.0 remains incomplete. Next batch is 5.1, population over workflow selection. Automatic continuation is enabled; the build lease is released at this verified checkpoint. Phase 7 requires explicit R5.

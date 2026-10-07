@@ -1,0 +1,22 @@
+{
+  "prior_batch": "4.1",
+  "prior_manifest": "evidence/FB4.1/attempt3/matrix/source_freeze.json",
+  "prior_files": 1278,
+  "current_manifest": "evidence/FB4.2/attempt3/source_freeze.json",
+  "current_files": 1288,
+  "changed_prior_files": [],
+  "removed_prior_files": [],
+  "added_files": [
+    "contracts/C7_Workflow_Nesting_Faces_Protocol_v1.json",
+    "contracts/C7_Workflow_Nesting_Faces_Protocol_v1.sha256",
+    "hle_unified/workflow_nesting_audit.py",
+    "hle_unified/workflow_nesting_execution.py",
+    "hle_unified/workflow_nesting_records.py",
+    "tests_workflow_nesting_faces/__init__.py",
+    "tests_workflow_nesting_faces/fixtures.py",
+    "tests_workflow_nesting_faces/test_nesting_faces.py",
+    "tools/evaluate_workflow_nesting_faces.py",
+    "tools/verify_workflow_nesting_faces.py"
+  ],
+  "passed": true
+}
