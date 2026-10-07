@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": "5.1",
+  "status": "running",
+  "current_batch": "5.2",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -19,14 +19,14 @@
     "5.1"
   ],
   "next_batch": "5.2",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T20:07:00Z",
+  "run_id": "fb52-20261007T203651Z-c84d2e30",
+  "lease_expires_at": "2026-10-07T21:06:51Z",
+  "updated_at": "2026-10-07T20:36:51Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.1 accepted: 713 methods and six raw workflow-population worlds passed; legacy v2 and tagged v3 continuation were independently reconstructed. Ready for batch 5.2.",
+  "activity": "FB5.2 lease claimed from accepted FB5.1 head; reading sustained-panel and cost-measurement requirements before protocol freeze.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -35,7 +35,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Enabled; ready for next eligible batch 5.2.",
+  "automation_status": "Enabled; FB5.2 active under a 30-minute lease.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
