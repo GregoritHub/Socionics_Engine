@@ -36,8 +36,8 @@
   "automation_status": "Enabled; ready for next eligible batch 4.2.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
-    "checked_at": "2026-10-07T14:33:25.046873Z",
-    "method": "automations peek after completed regression",
+    "checked_at": "2026-10-07T16:12:58.490617Z",
+    "method": "automations update after FB4.1 acceptance",
     "verified_enabled": true
   },
   "automation_stop_action": "Prior FB3.2 stop released by explicit author approval; continuation successfully resumed.",
@@ -76,6 +76,11 @@
     {
       "checked_at": "2026-10-07T13:50:14.139404Z",
       "method": "automations update",
+      "verified_enabled": true
+    },
+    {
+      "checked_at": "2026-10-07T16:12:58.490617Z",
+      "method": "automations update after FB4.1 acceptance",
       "verified_enabled": true
     }
   ]
