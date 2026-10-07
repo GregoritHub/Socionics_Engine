@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Contemplate",
+    "face": "accumulation",
+    "comparison_spent": 33,
+    "child_spent": 32,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Contemplate-accumulation.json.gz",
+      "sha256": "f9df6008d079b27e4ac1a92e8ca03fc9748e3016185e2981d6a25c70f88010e1"
+    },
+    "control": {
+      "file": "Contemplate-accumulation-control.json.gz",
+      "sha256": "725aa20ee9b41eb837ee33c0f82aea0384d226c862585354a2d7646b67aaf183"
+    }
+  },
+  {
+    "name": "Contemplate",
+    "face": "expenditure",
+    "comparison_spent": 33,
+    "child_spent": 38,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Contemplate-expenditure.json.gz",
+      "sha256": "9de8c442544f5e4f6871fbc02eb6ad41b79a0ddd0d2603bcd7c904bbcfd92c33"
+    },
+    "control": {
+      "file": "Contemplate-expenditure-control.json.gz",
+      "sha256": "6cc84395e3f9364de9d1bb7f39ae7cf581697927b38cb0fa60b1a11987c1d12a"
+    }
+  },
+  {
+    "name": "Act",
+    "face": "accumulation",
+    "comparison_spent": 28,
+    "child_spent": 64,
+    "good": "succeeded",
+    "control_result": "failed",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Act-accumulation.json.gz",
+      "sha256": "58fd7cd66003562f2c776b4ef945fe6d2ec7463b487340afed065ebae4a768ef"
+    },
+    "control": {
+      "file": "Act-accumulation-control.json.gz",
+      "sha256": "80bd625fded076c9a77baa42f89d8291478ea1882db0f2f01d5d70db12f4c370"
+    }
+  },
+  {
+    "name": "Act",
+    "face": "expenditure",
+    "comparison_spent": 28,
+    "child_spent": 54,
+    "good": "succeeded",
+    "control_result": "failed",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Act-expenditure.json.gz",
+      "sha256": "fd16897d9106c0cf3333fca263b9bd6f26158c9f7efb691ea8d12b19dd7c7659"
+    },
+    "control": {
+      "file": "Act-expenditure-control.json.gz",
+      "sha256": "464fbaa423160db961e70f3c56a786f385b11f20f195a95ef42115a883427bdc"
+    }
+  },
+  {
+    "name": "Commune",
+    "face": "accumulation",
+    "comparison_spent": 26,
+    "child_spent": 129,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Commune-accumulation.json.gz",
+      "sha256": "239d7dd62b1d034a1946bf4b3cdaf6970dc11826d82f190405320a90d018ac50"
+    },
+    "control": {
+      "file": "Commune-accumulation-control.json.gz",
+      "sha256": "4958d2c6e345ec354333ee7086939e129975f399cc225b32a5e44f9fb5203b84"
+    }
+  },
+  {
+    "name": "Commune",
+    "face": "expenditure",
+    "comparison_spent": 26,
+    "child_spent": 123,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Commune-expenditure.json.gz",
+      "sha256": "1d243ac5f38d63ee26f2fcd47b6acb83a60ab2c59d5c5218b28ee88bc13c9304"
+    },
+    "control": {
+      "file": "Commune-expenditure-control.json.gz",
+      "sha256": "53cdf6081c382ad09aed9ce1c27d39c92d549e11e99e8f60fb8aceb2f2edd6f7"
+    }
+  },
+  {
+    "name": "Integrate",
+    "face": "accumulation",
+    "comparison_spent": 29,
+    "child_spent": 63,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Integrate-accumulation.json.gz",
+      "sha256": "50ab8d30f6dfeade5dad71f71d6151b7377fecbb18e9d993cbe81ff04912f9d7"
+    },
+    "control": {
+      "file": "Integrate-accumulation-control.json.gz",
+      "sha256": "87c305f24e2c2f74b4843d140b53fabff33ce36a132fa264f94a670732788732"
+    }
+  },
+  {
+    "name": "Integrate",
+    "face": "expenditure",
+    "comparison_spent": 29,
+    "child_spent": 69,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Integrate-expenditure.json.gz",
+      "sha256": "1ade4669a1e1823b904816c80b8331417dcaad773ff787ad502025fe518ad605"
+    },
+    "control": {
+      "file": "Integrate-expenditure-control.json.gz",
+      "sha256": "0268ae159b7771c3ad75a87a662b0857fa36d355ce5a6f46e394c35f75d021ba"
+    }
+  },
+  {
+    "name": "Express",
+    "face": "accumulation",
+    "comparison_spent": 26,
+    "child_spent": 32,
+    "good": "maintain",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Express-accumulation.json.gz",
+      "sha256": "7bf4652350367b2603d02019be02238ef979b37048f33694389d48442840f352"
+    },
+    "control": {
+      "file": "Express-accumulation-control.json.gz",
+      "sha256": "36aa29fa13868c9b3420cee8a1591a5b09bc2f4a7c2691566e0b3eb54cf6e685"
+    }
+  },
+  {
+    "name": "Express",
+    "face": "expenditure",
+    "comparison_spent": 26,
+    "child_spent": 43,
+    "good": "work",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Express-expenditure.json.gz",
+      "sha256": "7ea17d3770b1c1f6569af8b8f1cf51171dc44f5036ce5b48b82bb6fe0e791aa4"
+    },
+    "control": {
+      "file": "Express-expenditure-control.json.gz",
+      "sha256": "4953b7a7e6887eae6a04bb263bf547e0d737dbf937a15446b67b5672e1a9cc36"
+    }
+  },
+  {
+    "name": "Embody",
+    "face": "accumulation",
+    "comparison_spent": 28,
+    "child_spent": 55,
+    "good": "maintain",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Embody-accumulation.json.gz",
+      "sha256": "c820ea9ff7a1e9bca6a245c6bacf59aa4b92a620f3b826fce493d67afe476584"
+    },
+    "control": {
+      "file": "Embody-accumulation-control.json.gz",
+      "sha256": "eafa40c349d596683a771d4307d7d0f1394f91f63dfda74ef9f8d3f4e4847e18"
+    }
+  },
+  {
+    "name": "Embody",
+    "face": "expenditure",
+    "comparison_spent": 28,
+    "child_spent": 53,
+    "good": "maintain",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Embody-expenditure.json.gz",
+      "sha256": "21d79d932e4cdca493271a62e4f8ad6f77e9b0c6695605e04e6caee6aed3a7b3"
+    },
+    "control": {
+      "file": "Embody-expenditure-control.json.gz",
+      "sha256": "f9e4782fa7aea1ceed7a2dfe8c7f69738a27ab3bb5a485d36c837c6fb8c8c6f3"
+    }
+  },
+  {
+    "name": "Theorize",
+    "face": "accumulation",
+    "comparison_spent": 26,
+    "child_spent": 22,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Theorize-accumulation.json.gz",
+      "sha256": "1a8f91cee3d83f876ee5bf2c06cb0f6194f14fcfa8a84b25118ed385c05f1528"
+    },
+    "control": {
+      "file": "Theorize-accumulation-control.json.gz",
+      "sha256": "6cc1322f8c0600f5c591cca539f5068970d7ec4df67c680eb5e657f1fe4a22b5"
+    }
+  },
+  {
+    "name": "Theorize",
+    "face": "expenditure",
+    "comparison_spent": 26,
+    "child_spent": 25,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Theorize-expenditure.json.gz",
+      "sha256": "0da59d9894be78629ca2346ded4b77250dc3ab47a1c508ae5a2705878cebf8ed"
+    },
+    "control": {
+      "file": "Theorize-expenditure-control.json.gz",
+      "sha256": "345f608e3455fa2f44396be86baace9028fbfc6c941bc286ee23a14e2e937d13"
+    }
+  },
+  {
+    "name": "Understand",
+    "face": "accumulation",
+    "comparison_spent": 27,
+    "child_spent": 45,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Understand-accumulation.json.gz",
+      "sha256": "dfd945fd33119461989bb6a3a62440293bc04a65d2f4d56591fe8da796cbd153"
+    },
+    "control": {
+      "file": "Understand-accumulation-control.json.gz",
+      "sha256": "f9ff35aeebf1e560f581d18aef498ac09d9f71ebc488cc8f555ed5e5c98af4eb"
+    }
+  },
+  {
+    "name": "Understand",
+    "face": "expenditure",
+    "comparison_spent": 27,
+    "child_spent": 48,
+    "good": "handover",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Understand-expenditure.json.gz",
+      "sha256": "a0af163bbf809ddb55b71bf812c846c70d9a98b3931631aaaeceb2768892014b"
+    },
+    "control": {
+      "file": "Understand-expenditure-control.json.gz",
+      "sha256": "15d44665d1836bf4e09b626a7fe7e3ffd2c27db39ee655b31b17cbc14796f7d7"
+    }
+  },
+  {
+    "name": "Apply",
+    "face": "accumulation",
+    "comparison_spent": 24,
+    "child_spent": 45,
+    "good": "maintain",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Apply-accumulation.json.gz",
+      "sha256": "5244dfec1d7a5c4d524f0c1698b4371d98bc82026083242dd8d25de000e1c777"
+    },
+    "control": {
+      "file": "Apply-accumulation-control.json.gz",
+      "sha256": "e916827d0c29dfbb1295ef2b74b4f88c068f0e7ac8199747cb2bfd6aa0b92a7f"
+    }
+  },
+  {
+    "name": "Apply",
+    "face": "expenditure",
+    "comparison_spent": 24,
+    "child_spent": 53,
+    "good": "work",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Apply-expenditure.json.gz",
+      "sha256": "e1b02a30500c7630785cf9194fb0155ccdba14c1ad207e40f31d98d3a8e4465c"
+    },
+    "control": {
+      "file": "Apply-expenditure-control.json.gz",
+      "sha256": "36476bf8f7733b3db54785ccbb19a28b2155de343589d02953bfb7f85843de72"
+    }
+  },
+  {
+    "name": "Organize",
+    "face": "accumulation",
+    "comparison_spent": 33,
+    "child_spent": 89,
+    "good": "use-1",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Organize-accumulation.json.gz",
+      "sha256": "835f487d9228709ad88ba43b32ed3bc3056d6eafc1562dc1a9945f0c9c9314f3"
+    },
+    "control": {
+      "file": "Organize-accumulation-control.json.gz",
+      "sha256": "2669ccd81562fbd1286c152017ca7651d60e1dc7e363eba2f8535bcdbd70ec8d"
+    }
+  },
+  {
+    "name": "Organize",
+    "face": "expenditure",
+    "comparison_spent": 33,
+    "child_spent": 87,
+    "good": "use-1",
+    "control_result": "unavailable selected output",
+    "expected_rejection": "choice withheld after paid comparison",
+    "witness": {
+      "file": "Organize-expenditure.json.gz",
+      "sha256": "1cb12cc2056bb7fe372a0aadebe35c4eee669d087a08215a32e6036f3a6ccc1a"
+    },
+    "control": {
+      "file": "Organize-expenditure-control.json.gz",
+      "sha256": "e673259a16f3b798a9b3786d98e8ac8047a0ad2c89771b2689682c6f525a7de0"
+    }
+  }
+]

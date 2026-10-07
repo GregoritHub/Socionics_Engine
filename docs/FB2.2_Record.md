@@ -15,3 +15,11 @@
 [source_defined] Commands and exact failed counts: `evidence/FB2.2/Blocker.json`. Both runner outputs, logs, per-method results, original defective verifier and the complete fresh freeze are in `evidence/FB2.2/Failed_Attempts.zip`, with digest and extraction instructions in `evidence/FB2.2/Evidence_Index.json`. Failed attempts are not relabelled as passes.
 
 [open] Proposed recovery, requiring the author's release of this explicit stop: handle an absent child as unavailable output in the evaluator query, preserve these attempts, freeze again and rerun the entire gate, then the raw twenty-case panel, independent verifier and inherited regression. No engine law or baseline fix is indicated by this error. FB2.1 remains the last completed batch at `da9fae82bdc1ca68799903529f0f0490334aa60e`. Release 1.0 remains open; Phase 7 is unauthorized; no theoretical register item is closed.
+
+## Authorized recovery — acceptance in progress
+
+[source_defined] Greg explicitly released the previous twice-failed stop and authorized the absent-child fixture correction and continued Release 1.0 build. The prior two failures and Blocker.json remain historical evidence. All remaining stop gates apply; Phase 7 still requires R5.
+
+[derived] Recovery lease committed at `ef068d1`; isolated job-status KeyError handling and the new 1,228-file source freeze committed at `100762f`. No engine, baseline, auditor or control assertion changed.
+
+[probe] New raw panel passes 20 witnesses and 20 controls on the unchanged freeze; separate independent reconstruction passes 20 ordinary worlds and rejects all 20 controls. Raw worlds, per-case hashes and audit report are in `evidence/FB2.2/recovery/panel/`. Full tests and inherited regression are still running; this checkpoint does not close FB2.2.
