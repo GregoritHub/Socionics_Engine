@@ -1,0 +1,40 @@
+{
+  "schema": "hle-c7-workflow-selection-fb2.4-v1",
+  "status": "source_defined prospective amendment",
+  "parent": "C7_Workflow_Selection_Protocol_v1.json",
+  "panel": {
+    "cells": 32,
+    "types": 16,
+    "automatic_cases": 512,
+    "withholding_controls": 32,
+    "responsiveness_pairs": 3,
+    "seeds": "none; deterministic fixtures"
+  },
+  "scope": "Close workflow selection only. Keep scripted workflow coverage separate. Preserve earlier v1/v2/v3 engines, policies, request schema and checkpoints. Add a v4 policy with an optional named practiced-care requirement through a new request record; all ordinary matrix requests omit that requirement and retain v3 selection behavior.",
+  "capacity_request": "A new request record extends outcome demand with an optional exact paid procedure reference. It names a supported physical means, never a route/recipe. If supplied, the definition must be the inherited native u4.care.v1 procedure with its exact target/stock signature. Expenditure care proposals require this actor's native acquired-use receipt for that procedure in this context. Inspection/preparation remains available before acquisition. No direct primitive or inherited checkpoint is changed, and no skill is created by a type label, teaching or fixture summary. Other material primitives do not satisfy the named care means: only contained inspection or acquired care expenditure is applicable under that optional requirement.",
+  "capacity_audit": "Snapshot paid procedure definition and actual acquired receipts; independently reconstruct all matching prior acquisition receipts from raw transactions, including actor, context, exact procedure and paid successful practice. Native operation auditor checks the acquisition chain. No evaluator capacity flag is accepted.",
+  "responsiveness": [
+    "Additional relevant stock particulars delivered and paid-read change selection from contained inspection to actual care; withholding those particulars leaves the original choice. Same outcome demand and material opportunity; comparison spending matched.",
+    "Successful paid care practice on a distinct training object, delivered/read outcome and native acquisition change selection on a held-out target; without acquisition it remains preparation. Teaching alone cannot fill the acquired ledger. Exact procedure/context scoped; same outcome demand and held-out target.",
+    "A hidden actual material revision changes no candidate choice before delivered evidence. After delivery and explicit adoption of that exact paid role revision, selection reflects the changed custody/resources. Native admission may refuse stale material; predicted choice never proves actual completion."
+  ],
+  "controls": "Retain raw responsive and withheld-information/acquisition arms, report actual separate preparation costs and equal main comparison spending. Add deliberately unresponsive selection controls at the changed information/capacity state; their comparisons use the ordinary candidate rows but force the old winner, and the ordinary independent auditor must reject them. Predelivery hidden-world control is a legitimate no-change witness, not a semantic failure. Retain the 32 ordinary choice-withholding controls from the IEE panel and reconstruct them afresh.",
+  "auditor": "hle_unified/workflow_selection_audit.py owns independent reconstruction from committed objects and access receipts; tools/verify_workflow_selection.py remains a compatible CLI. No selector/executor imports. All legacy policies reconstruct with their own schema and ordering.",
+  "evaluation": "tools/evaluate_c7_workflow_selection.py writes one raw world per cell/type with actual later paid consumption, plus IEE controls and separate responsiveness worlds. Save per-case hash and status continuously, preserve a failed world and traceback on error, freeze before evaluation and verify all executed-file hashes afterward.",
+  "split": "2.4a extends the capacity request/view/policy under a new schema; 2.4b supplies independent reconstruction and executable type/responsiveness panel. Neither is credited until every gate passes.",
+  "gates": [
+    "512/512 automatic raw worlds independently reconstruct",
+    "32 matched controls rejected",
+    "three responsiveness pairs with paid evidence and matched non-responsive controls",
+    "all inherited and new methods pass with exact legacy checkpoint continuation",
+    "source freeze unchanged"
+  ],
+  "limits": [
+    "eight tasks and inputs, two actors, unit serial slots 0\u20131000",
+    "engineering eligibility policy, not general learning or human competence",
+    "no native material law or inherited request meaning changes",
+    "no Shell/population credit",
+    "Phase 7 requires R5"
+  ],
+  "failure_policy": "Retain every failed/source-changed attempt. Stop if a gate fails twice after correction, baseline/inherited contract alteration is required, an author ruling is needed or a companion-theory contradiction appears."
+}

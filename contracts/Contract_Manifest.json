@@ -80,6 +80,11 @@
       "path": "contracts/C7_Workflow_Selection_FB2.3_Amendment_v1.json",
       "sha256": "5b21848a8581d54a172db49cf6a7562cc6eed3e5117991c1ace5750ccf0a71fc",
       "bytes": 3869
+    },
+    {
+      "path": "contracts/C7_Workflow_Selection_FB2.4_Amendment_v1.json",
+      "sha256": "1a735687ded747bcd6c526fe2ef3a9f4477777c8e4784b08861cbc07b43b0255",
+      "bytes": 4982
     }
   ]
 }
