@@ -1,0 +1,86 @@
+{
+  "schema": "hle-c7-workflow-composition-protocol-v1",
+  "status": "source_defined prospective batch4.1 protocol",
+  "scope": "Evaluate five generated-result workflow families and one matched intermediate-removal ablation per family. Add fixtures, independent raw composition audit, tests and evaluation tools only unless the preregistered native semantics prove insufficient.",
+  "sources": [
+    "project_sources/HLE_Final_Build_Plan_v1_0.txt batch 4.1",
+    "project_sources/HLE_Companion_Theory_v1_0.txt sections 3.2, 3.3 and 9.5",
+    "project_sources/HLE_Build_Specification_v10.txt section 6"
+  ],
+  "families": [
+    {
+      "id": "theorize-apply-embody",
+      "steps": ["Theorize", "Apply", "Embody"],
+      "claim": "A runbook model yields a real maintenance trial whose observed result changes the retained personal response.",
+      "polarities": ["accumulation", "expenditure", "expenditure"],
+      "ablation": "Remove Apply and present the unchanged theory directly to Embody; the retained response must differ and the witness chain must fail."
+    },
+    {
+      "id": "share-commune-identify",
+      "steps": ["Share", "Commune", "Identify"],
+      "claim": "A personal contribution changes shared commitment, which changes the owned stance.",
+      "polarities": ["expenditure", "accumulation", "expenditure"],
+      "ablation": "Remove Commune and present the unchanged contribution directly to Identify; the owned stance must differ and the witness chain must fail."
+    },
+    {
+      "id": "coordinate-mobilize",
+      "steps": ["Coordinate", "Mobilize"],
+      "claim": "Observed activity supports shared participation and then a paid care task.",
+      "polarities": ["accumulation", "expenditure"],
+      "ablation": "Remove Coordinate and present the unchanged observation directly to Mobilize; the paid task result must differ and the witness chain must fail."
+    },
+    {
+      "id": "institutionalize-educate",
+      "steps": ["Institutionalize", "Educate"],
+      "claim": "A paid rule change changes what a later teaching result can establish while competence and authority remain distinct.",
+      "polarities": ["expenditure", "expenditure"],
+      "ablation": "Remove Institutionalize and teach against the unchanged prior rule state; the teaching result must differ and the witness chain must fail."
+    },
+    {
+      "id": "organize-integrate-apply",
+      "steps": ["Organize", "Integrate", "Apply"],
+      "claim": "A concrete arrangement changes reconciliation, whose exact result changes the later governed action.",
+      "polarities": ["expenditure", "expenditure", "expenditure"],
+      "ablation": "Remove Integrate and present the arrangement directly to Apply; the governed result must differ and the witness chain must fail."
+    }
+  ],
+  "per_family_requirements": {
+    "exact_consumption": "Every noninitial step consumes the exact prior result by digest and declared source reference; equal endpoint or reconstructed substitute is forbidden.",
+    "intermediate_retention": "All intermediate results remain present in the final raw record; a family may not be compressed to endpoints.",
+    "mixed_polarity": "Use the preregistered polarity sequence; the panel as a whole must contain both accumulation and expenditure.",
+    "return_conflict": "Plant an inherited origin-perspective conflict before the first step and require it to remain explicit after return to the origin perspective; no family may erase or silently resolve it.",
+    "downstream_question": "Fix one family-specific downstream question before both witness and ablation. Compare its canonical answer bytes.",
+    "matched_ablation": "From an identical fresh checkpoint and equal declared main cost, remove exactly one named intermediate. Do not substitute a different family or equal endpoint. The downstream answer must change; the ordinary audit must reject the ablated chain as the claimed family."
+  },
+  "panel": {
+    "split": [
+      "First evaluate the three new leads: theorize-apply-embody, share-commune-identify, coordinate-mobilize.",
+      "Then evaluate the two existing leads: institutionalize-educate and organize-integrate-apply."
+    ],
+    "witness_worlds": 5,
+    "ablation_worlds": 5,
+    "raw_worlds": 10,
+    "required_passes": "5 family worlds and 5 matched ablations; zero missing, duplicate, compressed or equal-endpoint substitutions."
+  },
+  "tests": {
+    "minimum_new_methods": 5,
+    "existing_methods": 680,
+    "minimum_total": 685,
+    "meaningful_negatives": [
+      "wrong prior-result digest",
+      "reconstructed equal endpoint instead of exact result",
+      "removed intermediate reported as complete family",
+      "origin conflict erased on return",
+      "ablation that does not change the fixed downstream answer",
+      "family or polarity substitution"
+    ]
+  },
+  "audit": "One new independent raw composition auditor may compose accepted independent auditors but imports no workflow executor, selector, policy, scheduler or test fixtures. The standalone verifier reads frozen raw worlds and verifies exact digest lineage, step order, polarities, retained intermediates, inherited conflict survival, fixed downstream answer change, equal declared main cost and ordinary rejection of each ablated family. No participant replay or evaluator summary is evidence.",
+  "freeze": "Freeze all Python and contract bytes before evaluation. Preserve every failed or source-changed attempt. Previously accepted frozen bytes must remain byte-identical.",
+  "limits": [
+    "Workflow composition evidence only; no universal claim about people or institutions.",
+    "Composition does not establish competence, authority, conflict resolution or family equivalence beyond each raw witness.",
+    "No theoretical register closure, Model G pricing change, release decision or Phase 7 authorization."
+  ],
+  "failure_policy": "All standing Final Build Plan stops remain unchanged, including the two-failure and inherited-contract stop conditions."
+}

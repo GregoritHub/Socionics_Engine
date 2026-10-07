@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": "3.3",
+  "status": "running",
+  "current_batch": "4.1",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -16,14 +16,14 @@
     "3.3"
   ],
   "next_batch": "4.1",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T14:33:25.046873Z",
+  "run_id": "fb41-20261007T153322Z-7fd6021a",
+  "lease_expires_at": "2026-10-07T16:03:22.651980Z",
+  "updated_at": "2026-10-07T15:33:22.651980Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB3.3_Record.md",
+  "record": "docs/FB4.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Phase3 complete: FB3.2 recovery accepted and FB3.3 passed 680 methods plus 80 raw reconstructions. Ready for batch4.1 composition protocol and five families.",
+  "activity": "Claimed FB4.1 lease and prospectively registered five-family workflow composition protocol; no implementation source changed.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
