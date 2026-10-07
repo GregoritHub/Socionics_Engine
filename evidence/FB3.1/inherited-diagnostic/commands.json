@@ -1,0 +1,7 @@
+[
+  {
+    "command": "python tools/diagnose_workflow_shell.py evidence/FB3.1/inherited-diagnostic",
+    "exit_code": 0,
+    "source_unchanged": true
+  }
+]

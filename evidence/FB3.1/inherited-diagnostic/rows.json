@@ -1,0 +1,52 @@
+[
+  {
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "inherited_gate": "ShellMovementRequest.movement: wrong type or mutable value",
+    "bare_workflow_status": "succeeded",
+    "next_task": "handover",
+    "independent_audit": true,
+    "file": "obligation.json.gz",
+    "sha256": "24c20a8d3315de2402aedddd9b51ca6dc58faf6b618913828df959debad142f9"
+  },
+  {
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "inherited_gate": "ShellMovementRequest.movement: wrong type or mutable value",
+    "bare_workflow_status": "succeeded",
+    "next_task": "handover",
+    "independent_audit": true,
+    "file": "salience.json.gz",
+    "sha256": "49702e3fa39033a743b0a504f99d9610b3529b36fc71b9180ffd14bf3fb162fb"
+  },
+  {
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "inherited_gate": "ShellMovementRequest.movement: wrong type or mutable value",
+    "bare_workflow_status": "succeeded",
+    "next_task": "handover",
+    "independent_audit": true,
+    "file": "forecast.json.gz",
+    "sha256": "923a4625ff35114921d67264613a3e1fa1728fb906b41912d241f684e70ee83c"
+  },
+  {
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "inherited_gate": "ShellMovementRequest.movement: wrong type or mutable value",
+    "bare_workflow_status": "succeeded",
+    "next_task": "handover",
+    "independent_audit": true,
+    "file": "exclude_route.json.gz",
+    "sha256": "0f550f3a1bed116ef63238d271b77e999e5521534eafa9aeee2fe020f1e57d59"
+  },
+  {
+    "effect": "approval",
+    "origin_mode": "injected_fixture",
+    "inherited_gate": "ShellMovementRequest.movement: wrong type or mutable value",
+    "bare_workflow_status": "succeeded",
+    "next_task": "handover",
+    "independent_audit": true,
+    "file": "approval.json.gz",
+    "sha256": "a3c1b110908612cce6f592feacd64f2418fe0540a4f1abf1dcdae6042e79032e"
+  }
+]
