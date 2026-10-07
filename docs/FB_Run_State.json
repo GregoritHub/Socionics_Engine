@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "active",
+  "status": "blocked",
   "current_batch": "2.4",
   "completed_batches": [
     "0.1",
@@ -13,13 +13,13 @@
   ],
   "next_batch": "2.4",
   "run_id": "recovery-20261007T022751Z-4a05440d",
-  "lease_expires_at": "2026-10-07T03:55:04.906876Z",
-  "updated_at": "2026-10-07T03:25:04.906876Z",
-  "stop_reason": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-07T03:29:10.359574Z",
+  "stop_reason": "FB2.4 responsiveness gate failed twice after correction; mandatory Final Build Plan section 1 stop.",
   "release_1_1_authorized": false,
   "record": "docs/FB2.4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB2.4 first responsiveness gate failed checkpoint replay of late fixture materials; preserved at 023d7d3. Fixtures now supply resources before initial-state capture. Second freeze and responsiveness rerun; repeat-failure stop applies.",
+  "activity": "Stopped; both FB2.4 failures preserved. No active build process. Latest accepted batch 2.3.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",
@@ -27,12 +27,19 @@
     "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
     "remaining_stop_gates": "unchanged; Phase 7 requires R5"
   },
-  "automation_status": "Greg reports task re-enabled (Ok should be good now). Permitted executor peek returned no visible automations; enabled state unverified. automation_enabled=false is the last recorded state, not a fresh scheduler observation.",
+  "automation_status": "Parent independently observed a scheduled run at 03:07:05 UTC after user-reported reenabling. Current enabled setting remains unverified; automation_enabled=false is historical, not a current observation. No disable is claimed.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T02:57:24.799711Z",
     "method": "permitted automations peek",
     "visible_automations": 0,
     "verified_enabled": null
+  },
+  "automation_stop_action": "No scheduler mutation: parent reported denied modification and explicitly prohibited retries or replacement. Parent must coordinate disposition; repository terminal blocked gate applies.",
+  "automation_observed_run": {
+    "at": "2026-10-07T03:07:05Z",
+    "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
+    "result": "SKIP_COMPLETION",
+    "evidence": "Parent independently observed scheduled execution; settings and skip reason unknown"
   }
 }

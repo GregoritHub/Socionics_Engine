@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/workspace/Socionics_Engine/tools/evaluate_c7_workflow_selection.py", line 47, in responsive
+    worlds,pairs=responsiveness(lambda name,e,bad:observed.update({name:(e,bad)}))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/tests_workflow_selection/final_fixtures.py", line 79, in responsiveness
+    acquire_care(before,r,False);d0=selection_outcome(before,r,b);worlds.append(('capacity-withheld-acquisition',before,False))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/tests_workflow_selection/final_fixtures.py", line 52, in selection_outcome
+    d=finish(e,r);later=consume(e,r,b);query=social_query(e,r,'Express')
+      ^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/tests_workflow_selection/fixtures.py", line 25, in finish
+    if e.participate('turn-'+str(i),r) is None: break
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/selection_execution.py", line 151, in participate
+    if (r.actor,r.key) not in self._jobs:self.start(cid+':start',r)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/operations.py", line 111, in start
+    return self._execute(("start", command_id, request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/shell.py", line 66, in _execute
+    result = dispatch[command[0]](*command[1:])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_selection_execution.py", line 74, in _start
+    snapshot = record(address('c7ws.snapshot',r.actor,r.key),'Paid accessible selection inputs',dict(payload=dumps(s)))
+                                                                                                             ^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/selection_records.py", line 49, in dumps
+    return json.dumps(enc(value),sort_keys=True,separators=(',',':'))
+                      ^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/selection_records.py", line 46, in enc
+    if type(x) is dict: return {k:enc(v) for k,v in x.items()}
+                                  ^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/selection_records.py", line 48, in enc
+    raise ValueError('unsupported C6 audit value '+str(type(x)))
+ValueError: unsupported C6 audit value <class 'hle_unified.records.Procedure'>

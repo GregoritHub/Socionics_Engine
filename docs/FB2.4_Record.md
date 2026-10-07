@@ -1,4 +1,4 @@
-# FB2.4 — Type matrix and responsiveness: acceptance in progress
+# FB2.4 — Type matrix and responsiveness: blocked after second failure
 
 [source_defined] Prospective protocol `C7_Workflow_Selection_FB2.4_Amendment_v1.json` committed before implementation at `039c4de`. The work is split into capacity request/view/policy (`56af69d`) and independent reconstruction/panels. All remaining stop gates apply; Phase 7 requires R5.
 
@@ -11,3 +11,13 @@
 [probe] First attempt failed the responsiveness gate before any comparison completed: checkpoint replay could not find a stock resource inserted directly after engine initialization. Traceback and a clearly labelled unchanged-source reproduction checkpoint are preserved in `evidence/FB2.4/attempt1/`, committed at `023d7d3`. Full tests, matrix, independent verification and inherited regression were not run.
 
 [derived] Correction changes fixtures only: supplied material and procedure definitions are installed by the setup factory before the engine captures its initial state. Available worlds are registered before cloning for failure preservation. No native declaration, material law or engine change. A second 1,237-file freeze precedes the rerun; a repeated gate failure triggers the standing stop.
+
+[probe] Second responsiveness attempt exited 1 at `capacity-withheld-acquisition`: `ValueError: unsupported C6 audit value <class 'hle_unified.records.Procedure'>`. The new v4 paid snapshot includes a Procedure dataclass unsupported by the inherited C6 audit encoder. Five registered raw failure checkpoints and the full traceback are preserved under `evidence/FB2.4/attempt2/`. All 1,237 frozen source/contract files remained unchanged. Partial information branches do not establish a complete accepted responsiveness gate.
+
+[source_defined] Final Build Plan §1 requires: “Stop and report to the author, without working around it, when: a gate fails twice after a correction”. This second failure invokes that stop. The prior authorization released FB2.2 only; no third FB2.4 attempt was made.
+
+[open] FB2.4 has no passed acceptance gate. Prior syntax checks passed, but full new tests, the 512-case automatic matrix and 32 controls, independent responsiveness and matrix reconstruction, and inherited regression are unrun. FB2.3 remains accepted at `06c706e`; the new FB2.4 implementation is unaccepted. `evidence/FB2.4/Blocker.json` and `Evidence_Index.json` preserve the exact commands, failures and hashes.
+
+[open] A future authorized recovery should represent the paid care definition with supported exact audit values in the v4 snapshot and independent reconstruction, without broadening inherited C6 serialization semantics. It needs a new freeze and all acceptance gates. No repair was applied after the second failure. Phase 7 remains unauthorized.
+
+[probe] Parent reports independently observing a scheduled continuation at 2026-10-07 03:07:05 UTC, conversation https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3, ending SKIP_COMPLETION. This establishes that a scheduled run occurred, not its settings or skip reason. Scheduler ID `6ac53cec617881919c9d68ea800adde1` was not modified: parent reported a denied modification and instructed no alternate route or duplicate. Repository state is terminal blocked, lease released; parent must coordinate scheduler disposition. No build process remains active.

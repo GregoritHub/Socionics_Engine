@@ -11,7 +11,7 @@
 | 2.1 | Workflow selection: the four self-routes | complete; see FB2.1_Record.md | |
 | 2.2 | Workflow selection: crossings that end in I, IT or ITS for one actor | complete; see FB2.2_Record.md | |
 | 2.3 | Workflow selection: the social crossings | complete; see FB2.3_Record.md | |
-| 2.4 | Type matrix, responsiveness and the selection auditor | pending | |
+| 2.4 | Type matrix, responsiveness and the selection auditor | blocked; see FB2.4_Record.md | |
 | 3.1 | Prevention of initiation | pending | |
 | 3.2 | Active interruption | pending | |
 | 3.3 | Effects, signs, correction and recurrence | pending | |
@@ -27,4 +27,4 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[open] Release 1.0 is not yet complete. Completed through batch 2.3 after Greg-authorized recovery. FB2.4 is next. Current-session execution is active; Greg reports the continuation schedule re-enabled, but this executor cannot independently verify that status.
+[open] Release 1.0 is incomplete; batches through 2.3 are accepted. FB2.4 stopped after its second responsiveness failure following a correction. Both attempts are preserved. No live build remains; lease released. A scheduled continuation was independently observed by the parent at 03:07:05 UTC, but current settings and enabled state are unverified here. Scheduler mutation was denied to the parent; parent coordinates disposition. Terminal blocked repository state must prevent further work until a new explicit stop release. Phase 7 still requires R5.

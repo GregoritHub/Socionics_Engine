@@ -1,0 +1,15 @@
+{
+  "Attempt_Summary.json": "29cbc272349d8b65c32f18e6c7c81beed1b937dda7adea14225de99e40fac119",
+  "final_fixtures.py.txt": "4be08ff29de48d19cca2edb9ca059984525a7488b2e4dab0ff92ba73e8ca3660",
+  "responsiveness/capacity-responsive-failed.json.gz": "e49253c8e8920aed79f5501683392de9be2f779ab8e30d22c970d1fccf2927b5",
+  "responsiveness/capacity-withheld-acquisition-failed.json.gz": "51a2e6b41290b3704897d2ea631c3dfc971520828bd033e4f706ce839f916ec9",
+  "responsiveness/failure.txt": "1ab01ea6869df93874a0ef97007c124e56f7c71853e078f61a0b5a16d6ca0456",
+  "responsiveness/information-responsive-failed.json.gz": "5d720b062590bff09c38946a3c1462211059039dd7813172d1e6d364b2024f0f",
+  "responsiveness/information-unresponsive-failed.json.gz": "9b2380c529527187435f7f7877573738788c87d560e52e3195fa6047a8f8d966",
+  "responsiveness/information-withheld-failed.json.gz": "29bbd30af581b81671b91470903e55ed40b3a556e033a97a1632c8ea0774d2bc",
+  "responsiveness/source_freeze.json": "490615e4d45b9f5e727c500be0c1998cb36ecee8921bdf0f041af1e746f730ad",
+  "responsiveness.stdout.log": "60a49e17274af8bed0a6cc7f5acc28a5dd1f8ed78b8601539484e7c3940f6c9d",
+  "selection_records.py.txt": "1a691f5072c52389d87c376aa21443a854ffbe39167074ee279a92486dd0333c",
+  "source_freeze.json": "490615e4d45b9f5e727c500be0c1998cb36ecee8921bdf0f041af1e746f730ad",
+  "workflow_selection_execution.py.txt": "8c166d24e8f43615778970eff8dbbe5d031edcea420b605c288bd86513c2cf3d"
+}

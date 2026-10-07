@@ -1,0 +1,34 @@
+{
+  "status": "blocked",
+  "recorded_at": "2026-10-07T03:29:10.359574Z",
+  "gate": "FB2.4 responsiveness",
+  "attempts": 2,
+  "stop_rule": "Final Build Plan section 1: Stop and report to the author, without working around it, when: a gate fails twice after a correction.",
+  "attempt1": {
+    "command": "python tools/evaluate_c7_workflow_selection.py responsiveness evidence/FB2.4/attempt1/responsiveness",
+    "exit_code": 1,
+    "failure": "KeyError replaying partly-known-care-stock absent from initial fixture state",
+    "preserved_at": "023d7d3",
+    "correction": "Fixture resources supplied before initial engine capture; committed b769979"
+  },
+  "attempt2": {
+    "command": "python tools/evaluate_c7_workflow_selection.py responsiveness evidence/FB2.4/attempt2/responsiveness",
+    "exit_code": 1,
+    "failure": "ValueError: unsupported C6 audit value <class 'hle_unified.records.Procedure'>",
+    "source_unchanged": true,
+    "frozen_files": 1237
+  },
+  "latest_accepted_batch": "2.3",
+  "latest_accepted_commit": "06c706ee1a3acc8206aa2e1c3b2c363314c54183",
+  "fb24_acceptance_gates_passed": [],
+  "not_run": [
+    "full new test suite",
+    "512-case automatic type/cell matrix and 32 controls",
+    "independent responsiveness verification",
+    "independent matrix verification",
+    "full inherited regression"
+  ],
+  "remaining_work": "FB2.4 and subsequent Release 1.0 batches remain incomplete. No third attempt authorized by the FB2.2 stop release.",
+  "future_recovery_proposal": "Only after a new explicit stop release: encode immutable care procedure fields using supported exact audit values in the v4 snapshot and independent reconstruction, preserving inherited C6 serialization semantics; preserve both failures, freeze again and run every acceptance gate.",
+  "phase7_authorized": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "gate": "FB2.4 responsiveness",
+  "exit_code": 1,
+  "source_unchanged": true,
+  "frozen_files": 1237,
+  "freeze_sha256": "490615e4d45b9f5e727c500be0c1998cb36ecee8921bdf0f041af1e746f730ad",
+  "source_commit": "b769979651828bae165c93fde799e92b62da1e4d",
+  "failure": "ValueError: unsupported C6 audit value <class 'hle_unified.records.Procedure'>",
+  "failure_location": "capacity-withheld-acquisition, selection start snapshot serialization",
+  "raw_worlds_preserved": [
+    "capacity-responsive-failed.json.gz",
+    "capacity-withheld-acquisition-failed.json.gz",
+    "information-responsive-failed.json.gz",
+    "information-unresponsive-failed.json.gz",
+    "information-withheld-failed.json.gz"
+  ],
+  "acceptance_note": "Partial information branches were reached; no complete responsiveness gate or independent reconstruction passed. Five failure checkpoints are diagnostic evidence, not accepted witnesses.",
+  "not_run": [
+    "full new test suite",
+    "512-case automatic type/cell matrix and 32 controls",
+    "independent responsiveness verification",
+    "independent matrix verification",
+    "full inherited regression"
+  ]
+}
