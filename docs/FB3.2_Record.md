@@ -1,6 +1,6 @@
-# FB3.2 — Workflow active interruption: blocked after second failed gate
+# FB3.2 — Workflow active interruption: complete after authorized recovery
 
-[open] Current disposition: authorized recovery in progress. Historical blocked disposition follows. Neither attempt passed the new-test gate. Batch 3.1 remains the latest accepted checkpoint; earlier statements below are chronological development history.
+[machine-checked] Current disposition: complete on attempt3 after explicit author release. The chronology below preserves both failed attempts. Neither attempt passed the new-test gate. Batch 3.1 remains the latest accepted checkpoint; earlier statements below are chronological development history.
 
 [source_defined] Batch 3.2 follows the unchanged Phase 3 protocol and CT §10. The separate prospective clarification `C7_Workflow_Shell_FB3.2_Amendment_v1.json` specifies the matched paid prefix, the zero-cost cancellation intervention, 32 exact checkpoint pairs, effect assignment and one-attempt preservation. SHA-256: `9bcd49e3e71ed8709c1b92cb0f16be793d539775f6b968fc7903be9ceaa332ba`.
 
@@ -33,3 +33,9 @@
 [machine-checked] Continuation was re-enabled after the explicit author release.
 
 [machine-checked] Attempt3 new-test gate passed: nine distinct methods, zero failures/errors, unchanged source. Native cancellation Account provenance and four forged-source controls are verified. Remaining regression and panel gates are still running; batch not yet accepted.
+
+[machine-checked] Accepted attempt3: 676 distinct passing methods (667 existing + nine interruption), zero skipped/failures/errors. All 32 interruption/control pairs passed, all 32 invalid continuations were rejected, and the independent verifier reconstructed 96 panel worlds plus 96 continuation worlds with 32 exact original/restored paid progressions. Five command groups exited zero on freeze `8bc14dc3420735d9784bc3f692c9f41a7d5737221367ac5ec30988bc07817f35`; all 1,250 accepted FB3.1 frozen files stayed unchanged.
+
+[machine-checked] The 296-member accepted archive has SHA-256 `78a25d3d9357493152bc72e4be1c06b8d808b18fd50b2069e8e27f3ca4c855f6`. Exact identity and clean extraction instructions: `evidence/FB3.2/attempt3/Raw_Evidence_Index.json`. The earlier blocked archive and both failed attempts remain immutable. The correction changes only the new auditor and its test; inherited cancellation meaning and execution are unchanged.
+
+[derived] What becomes possible: every declared workflow cell can now be stopped after its first paid semantic intermediate, keeping expenditure and one-attempt allowances while refusing destination completion; the same checkpoint resumes subsequent paid work exactly. Batch 3.3 is next, for effect/sign coverage, scoped correction, recurrence and refused clearance. Release 1.0 remains incomplete; Phase 7 is unauthorized.

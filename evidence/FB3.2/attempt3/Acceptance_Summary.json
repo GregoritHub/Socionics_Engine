@@ -1,0 +1,33 @@
+{
+  "batch": "3.2",
+  "attempt": 3,
+  "status": "passed",
+  "accepted": true,
+  "verified_at": "2026-10-07T14:07:36.638753+00:00",
+  "source_commit": "3c4a300edf7df47865acb5a6a6e5097918385690",
+  "source_freeze_sha256": "8bc14dc3420735d9784bc3f692c9f41a7d5737221367ac5ec30988bc07817f35",
+  "source_files": 1262,
+  "source_unchanged": true,
+  "accepted_FB3_1_files_unchanged": 1250,
+  "distinct_passing_methods": 676,
+  "existing_methods": 667,
+  "new_methods": 9,
+  "skipped": 0,
+  "interruption_pairs": 32,
+  "panel_worlds": 96,
+  "continuation_worlds": 96,
+  "exact_continuations": 32,
+  "invalid_continuations_rejected": 32,
+  "participant_replay_by_verifier": false,
+  "prior_failures": [
+    "../attempt1",
+    "../attempt2"
+  ],
+  "authorization": "C7_Workflow_Shell_FB3.2_Recovery_v1.json",
+  "limits": [
+    "IEE frame and 32 declared route/face cells",
+    "Approval generated; four other effects injected fixtures",
+    "First semantic boundary only; no new Model G execution pricing",
+    "Phase3.3 and Release1.0 not completed by this batch"
+  ]
+}

@@ -10,5 +10,53 @@
     "seconds": 61.62352961800934,
     "exit_code": 0,
     "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/evaluate_workflow_interruption.py",
+      "evidence/FB3.2/attempt3/matrix"
+    ],
+    "started_at": "2026-10-07T13:55:32.205682+00:00",
+    "seconds": 325.2350499739987,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/verify_workflow_interruption.py",
+      "evidence/FB3.2/attempt3/matrix"
+    ],
+    "started_at": "2026-10-07T14:00:57.574922+00:00",
+    "seconds": 142.89739157400618,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB3.2/attempt3/workflow-regression",
+      "tests_workflow_selection",
+      "tests_c7_workflow",
+      "tests_g",
+      "tests_workflow_shell"
+    ],
+    "started_at": "2026-10-07T13:55:32.204753+00:00",
+    "seconds": 537.9478054979991,
+    "exit_code": 0,
+    "source_unchanged": true
+  },
+  {
+    "command": [
+      "python",
+      "tools/regress_c7_parallel.py",
+      "evidence/FB3.2/attempt3/inherited-regression"
+    ],
+    "started_at": "2026-10-07T13:55:32.203976+00:00",
+    "seconds": 607.8410039949958,
+    "exit_code": 0,
+    "source_unchanged": true
   }
 ]

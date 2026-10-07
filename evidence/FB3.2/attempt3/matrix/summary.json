@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "pairs": 32,
+  "panel_worlds": 96,
+  "continuation_worlds": 96,
+  "invalid_continuations_rejected": 32,
+  "exact_continuations": 32,
+  "effects": 5,
+  "source_unchanged": true
+}

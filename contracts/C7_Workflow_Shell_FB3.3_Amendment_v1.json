@@ -1,0 +1,61 @@
+{
+  "schema": "hle-c7-workflow-shell-development-protocol-v1",
+  "status": "source_defined prospective batch3.3 clarification",
+  "parent": "C7_Workflow_Shell_Protocol_v1.json",
+  "scope": "Add independent workflow development diagnostics and evaluation/test fixtures only. No accepted engine, auditor, baseline or contract changes.",
+  "effect_coverage": {
+    "raw_witnesses": 64,
+    "prevention": 32,
+    "active_interruption": 32,
+    "source_prevention": "evidence/FB3.1/attempt2/matrix",
+    "source_active": "evidence/FB3.2/attempt3/matrix",
+    "reconstruction": "Read the exact accepted raw worlds and verify their hashes. Derive effect kinds, origins, opportunities and paid traces independently; five kinds required, generated approval distinguished from four injected fixtures."
+  },
+  "signs": [
+    "premature translation: actual first intermediate and substituted personal intention with destination unmet",
+    "attempted forced placement: requested non-I destination and actual I result retained, never accepted as completion",
+    "new defensive structure: added approval attribution from two fresh paid blame encounters, original source material and later applicable demand",
+    "residual fragmentation: same source material after local correction elsewhere, renewed same/changed target demand or external support withdrawal"
+  ],
+  "development_panel": {
+    "continuing_history_snapshots": 7,
+    "sequence": [
+      "initial active interruption",
+      "paid correction elsewhere and same-target recurrence",
+      "changed-target workflow recurrence",
+      "exact-target paid correction plus native workflow and consumer",
+      "changed-target recurrence persists after exact-target correction",
+      "external support permits native workflow without capacity",
+      "withdrawal renews active interruption"
+    ],
+    "targets": "Theorize accumulation on existing workflow DEVICE and distinct accessible LOAN, each with its own authored target-specific content. Original generated material remains byte-identical.",
+    "unsupported_effects": [
+      "forecast",
+      "salience",
+      "exclude_route"
+    ],
+    "per_unsupported_effect": "before refusal, identical checkpoint after native release rejection, and a subsequent still-interrupted workflow: three raw worlds each",
+    "new_raw_worlds": 16,
+    "unsupported_clearance_control": "Record exact refused request/error and unchanged checkpoint bytes with hashes; independently refuse a scoped-clearance claim without an actual supported correction. Ordinary inherited audit checks original material, scope, payments and all workflow effects.",
+    "matched_controls": "Accepted FB3.1/FB3.2 matched cost bypasses remain defining-step controls. New paid corrections and external support are separately reported, never mislabeled cost-matched. False scope or origin in correction records must be rejected by the ordinary auditor."
+  },
+  "tests": {
+    "new_methods": 4,
+    "existing_methods": 676,
+    "total": 680,
+    "meaningful_negatives": [
+      "wrong correction target",
+      "wrong original material",
+      "unsupported clearance",
+      "supported performance without capacity"
+    ]
+  },
+  "audit": "One new raw diagnostic module composes the accepted independent interruption auditor and imports no executor, selector or policy. The standalone verifier reads raw worlds; no participant replay or evaluator summary as evidence. Require all five effect kinds, all four signs, actual local correction and native downstream use, same/changed recurrence, support withdrawal and all three refusals.",
+  "freeze": "All Python and contract bytes frozen before evaluation; preserve every failed or source-changed attempt. Existing accepted bytes remain unchanged.",
+  "limits": [
+    "bounded workflow simulation operationalizations only",
+    "no general Shell detector, formation of other effects, blanket clearance or mastery from support",
+    "no theoretical register closure, Model G pricing change or Phase7 authorization"
+  ],
+  "failure_policy": "All standing Final Build Plan stops unchanged."
+}

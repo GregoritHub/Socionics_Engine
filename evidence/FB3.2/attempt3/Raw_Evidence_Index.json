@@ -1,0 +1,12 @@
+{
+  "file_name": "Socionics_Final_Build_FB3.2_Attempt3_Evidence.zip",
+  "bytes": 27041446,
+  "sha256": "78a25d3d9357493152bc72e4be1c06b8d808b18fd50b2069e8e27f3ca4c855f6",
+  "members": 296,
+  "library_file_id": "libfile_e02a7f94f60c819198310b348649412d",
+  "file_id": "file_00000000e44081f5aec9fb5a61827e1b",
+  "restore": "Materialize this exact file_id via Library. Verify archive SHA-256 before extracting into evidence/; members begin FB3.2/attempt3/. Validate every member in Raw_SHA256.json. Source is frozen at Git commit 3c4a300edf7df47865acb5a6a6e5097918385690.",
+  "manifest": "FB3.2/attempt3/Raw_SHA256.json",
+  "prior_failed_archive": "../Evidence_Index.json",
+  "index_added_after_archive": true
+}

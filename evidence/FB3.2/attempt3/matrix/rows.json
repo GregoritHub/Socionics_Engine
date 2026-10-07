@@ -1,0 +1,1410 @@
+[
+  {
+    "name": "Contemplate",
+    "face": "accumulation",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 38,
+    "bypass_admission_spent": 38,
+    "retained_prefix_spent": 27,
+    "bypass_prefix_spent": 27,
+    "bypass_total_child_spent": 29,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 38,
+    "worlds": {
+      "interrupted": {
+        "file": "Contemplate-accumulation-interrupted.json.gz",
+        "sha256": "e82f72cd69dc5261c579535b5d4998865b0e78c92d400a97dbab8c4231e0379d"
+      },
+      "control": {
+        "file": "Contemplate-accumulation-control.json.gz",
+        "sha256": "9decfe56a8e4c31dc8aaa677282a6643d0852c6e88f762b23178cb9292e4221b"
+      },
+      "bypass": {
+        "file": "Contemplate-accumulation-bypass.json.gz",
+        "sha256": "1d5f643f610d585652d830fe51d1290210b66b6511c79b38e102316b9ef09adb"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Contemplate-accumulation-checkpoint.json.gz",
+        "sha256": "e82f72cd69dc5261c579535b5d4998865b0e78c92d400a97dbab8c4231e0379d"
+      },
+      "original": {
+        "file": "Contemplate-accumulation-original.json.gz",
+        "sha256": "423e437032aae757e9d9d2d3d51447aba7696b41e24bb1ad0cd976cbb501df74"
+      },
+      "restored": {
+        "file": "Contemplate-accumulation-restored.json.gz",
+        "sha256": "423e437032aae757e9d9d2d3d51447aba7696b41e24bb1ad0cd976cbb501df74"
+      }
+    }
+  },
+  {
+    "name": "Contemplate",
+    "face": "expenditure",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 38,
+    "bypass_admission_spent": 38,
+    "retained_prefix_spent": 30,
+    "bypass_prefix_spent": 30,
+    "bypass_total_child_spent": 35,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 38,
+    "worlds": {
+      "interrupted": {
+        "file": "Contemplate-expenditure-interrupted.json.gz",
+        "sha256": "1a0f7ba301a1b400b31ee9c1d5cead7995e0f226a829e4e0fd48d20ff85174d5"
+      },
+      "control": {
+        "file": "Contemplate-expenditure-control.json.gz",
+        "sha256": "de9ab3b9726ebf279005b789b5cb3f405ddafb8c5a197b0b57aab3243491ae01"
+      },
+      "bypass": {
+        "file": "Contemplate-expenditure-bypass.json.gz",
+        "sha256": "3b3645a65c16b7a490b45bef78c3400d5e5e8761116bc552c50622d6ac4be60a"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Contemplate-expenditure-checkpoint.json.gz",
+        "sha256": "1a0f7ba301a1b400b31ee9c1d5cead7995e0f226a829e4e0fd48d20ff85174d5"
+      },
+      "original": {
+        "file": "Contemplate-expenditure-original.json.gz",
+        "sha256": "0b47d41c809ff6286b7167259560f7208975b95c1c22cb65b27da74a152394f8"
+      },
+      "restored": {
+        "file": "Contemplate-expenditure-restored.json.gz",
+        "sha256": "0b47d41c809ff6286b7167259560f7208975b95c1c22cb65b27da74a152394f8"
+      }
+    }
+  },
+  {
+    "name": "Express",
+    "face": "accumulation",
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 37,
+    "bypass_admission_spent": 37,
+    "retained_prefix_spent": 19,
+    "bypass_prefix_spent": 19,
+    "bypass_total_child_spent": 29,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 37,
+    "worlds": {
+      "interrupted": {
+        "file": "Express-accumulation-interrupted.json.gz",
+        "sha256": "50db21f9700ef36933732e5444146dfbae2fa0979b632169bae7e343d397cdc9"
+      },
+      "control": {
+        "file": "Express-accumulation-control.json.gz",
+        "sha256": "d0dd20b2b29b75e3487d346c7289291e0245dfadd279ac007cc73daf86c77f1a"
+      },
+      "bypass": {
+        "file": "Express-accumulation-bypass.json.gz",
+        "sha256": "38d11ea3f92238a4c69e4cdbc86f421cd021ee9a1e8a7b7003ab1f304b21abed"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Express-accumulation-checkpoint.json.gz",
+        "sha256": "50db21f9700ef36933732e5444146dfbae2fa0979b632169bae7e343d397cdc9"
+      },
+      "original": {
+        "file": "Express-accumulation-original.json.gz",
+        "sha256": "f1646036c353711cea787cf15d0c952391abf3b3dd877f276936f3e34a2edb12"
+      },
+      "restored": {
+        "file": "Express-accumulation-restored.json.gz",
+        "sha256": "f1646036c353711cea787cf15d0c952391abf3b3dd877f276936f3e34a2edb12"
+      }
+    }
+  },
+  {
+    "name": "Express",
+    "face": "expenditure",
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 37,
+    "bypass_admission_spent": 37,
+    "retained_prefix_spent": 29,
+    "bypass_prefix_spent": 29,
+    "bypass_total_child_spent": 40,
+    "query": "work",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 37,
+    "worlds": {
+      "interrupted": {
+        "file": "Express-expenditure-interrupted.json.gz",
+        "sha256": "af1d27e796d617286405cb3525d90f7c6594f4ac568fe528e2d45c1794dcbda4"
+      },
+      "control": {
+        "file": "Express-expenditure-control.json.gz",
+        "sha256": "856732da1877c3f2711e1edc89b31eb540a4a0bfac996f8ad38a00e45104a550"
+      },
+      "bypass": {
+        "file": "Express-expenditure-bypass.json.gz",
+        "sha256": "4b4692d0dbebe683edb6538de9a547833d4e5e6b263b5e965aae056bf331937f"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Express-expenditure-checkpoint.json.gz",
+        "sha256": "af1d27e796d617286405cb3525d90f7c6594f4ac568fe528e2d45c1794dcbda4"
+      },
+      "original": {
+        "file": "Express-expenditure-original.json.gz",
+        "sha256": "8b8c393f2f342c9b6d38f5ec352e8c8ba0341267ce0714627078a0676399276c"
+      },
+      "restored": {
+        "file": "Express-expenditure-restored.json.gz",
+        "sha256": "8b8c393f2f342c9b6d38f5ec352e8c8ba0341267ce0714627078a0676399276c"
+      }
+    }
+  },
+  {
+    "name": "Share",
+    "face": "accumulation",
+    "effect": "approval",
+    "origin_mode": "generated",
+    "interrupted_admission_spent": 41,
+    "bypass_admission_spent": 41,
+    "retained_prefix_spent": 83,
+    "bypass_prefix_spent": 83,
+    "bypass_total_child_spent": 83,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 42,
+    "worlds": {
+      "interrupted": {
+        "file": "Share-accumulation-interrupted.json.gz",
+        "sha256": "3cb4de66eda6c7f64b741d4cec31a3310fddbccd83c5927382501ca852458b08"
+      },
+      "control": {
+        "file": "Share-accumulation-control.json.gz",
+        "sha256": "e3ca733fb6677a5f1fc7caa7d6789b7fece574997f018f742cfa067395426ef7"
+      },
+      "bypass": {
+        "file": "Share-accumulation-bypass.json.gz",
+        "sha256": "f99b45cdb0608f390a2fea2d770af8a5ad5c773a396100f7f1115cbf34d32d1f"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Share-accumulation-checkpoint.json.gz",
+        "sha256": "3cb4de66eda6c7f64b741d4cec31a3310fddbccd83c5927382501ca852458b08"
+      },
+      "original": {
+        "file": "Share-accumulation-original.json.gz",
+        "sha256": "90627cdf99132171558451f4801419fe758980e1d1bba39c30288732c1ed45a1"
+      },
+      "restored": {
+        "file": "Share-accumulation-restored.json.gz",
+        "sha256": "90627cdf99132171558451f4801419fe758980e1d1bba39c30288732c1ed45a1"
+      }
+    }
+  },
+  {
+    "name": "Share",
+    "face": "expenditure",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 39,
+    "bypass_admission_spent": 39,
+    "retained_prefix_spent": 85,
+    "bypass_prefix_spent": 85,
+    "bypass_total_child_spent": 85,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 40,
+    "worlds": {
+      "interrupted": {
+        "file": "Share-expenditure-interrupted.json.gz",
+        "sha256": "914f2f00070cfbc6c3af909d1357fbdde43fc3a48f22eda5b07218f388007558"
+      },
+      "control": {
+        "file": "Share-expenditure-control.json.gz",
+        "sha256": "30218cbfe1457babf08fa4653a27d7988dc83a8eed831f5950ea725cbab2cd0c"
+      },
+      "bypass": {
+        "file": "Share-expenditure-bypass.json.gz",
+        "sha256": "25afb0eb046ba541ae3d25d7cdef415e1e1fa600f490ba1a115deaa9e911d635"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Share-expenditure-checkpoint.json.gz",
+        "sha256": "914f2f00070cfbc6c3af909d1357fbdde43fc3a48f22eda5b07218f388007558"
+      },
+      "original": {
+        "file": "Share-expenditure-original.json.gz",
+        "sha256": "e5f08bc64de61d338855d2c9bd6e069db354da70b52289d6dfab43c24b106ef7"
+      },
+      "restored": {
+        "file": "Share-expenditure-restored.json.gz",
+        "sha256": "e5f08bc64de61d338855d2c9bd6e069db354da70b52289d6dfab43c24b106ef7"
+      }
+    }
+  },
+  {
+    "name": "Theorize",
+    "face": "accumulation",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 37,
+    "bypass_admission_spent": 37,
+    "retained_prefix_spent": 19,
+    "bypass_prefix_spent": 19,
+    "bypass_total_child_spent": 19,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 37,
+    "worlds": {
+      "interrupted": {
+        "file": "Theorize-accumulation-interrupted.json.gz",
+        "sha256": "5738a14c4b8c4e094accd581f8d0eabfed96083359810b0c0f23978d6b5cfab0"
+      },
+      "control": {
+        "file": "Theorize-accumulation-control.json.gz",
+        "sha256": "7afd249ef09c6ac1d47d226178dbd170d89d082dd82363caec608c0f22ca18f0"
+      },
+      "bypass": {
+        "file": "Theorize-accumulation-bypass.json.gz",
+        "sha256": "896c2d5535129bf5bd8c1726a989d2354a12a935cf77603ab13757491846e462"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Theorize-accumulation-checkpoint.json.gz",
+        "sha256": "5738a14c4b8c4e094accd581f8d0eabfed96083359810b0c0f23978d6b5cfab0"
+      },
+      "original": {
+        "file": "Theorize-accumulation-original.json.gz",
+        "sha256": "795549548934c24b6cb850b74116a8382023d9b94e20bf60e483266963590b94"
+      },
+      "restored": {
+        "file": "Theorize-accumulation-restored.json.gz",
+        "sha256": "795549548934c24b6cb850b74116a8382023d9b94e20bf60e483266963590b94"
+      }
+    }
+  },
+  {
+    "name": "Theorize",
+    "face": "expenditure",
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 37,
+    "bypass_admission_spent": 37,
+    "retained_prefix_spent": 22,
+    "bypass_prefix_spent": 22,
+    "bypass_total_child_spent": 22,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 37,
+    "worlds": {
+      "interrupted": {
+        "file": "Theorize-expenditure-interrupted.json.gz",
+        "sha256": "a567a22fef25aa9b930b4e6c70be3ae7bb596d2c25f3f7d55b7b1d3a392a8f1c"
+      },
+      "control": {
+        "file": "Theorize-expenditure-control.json.gz",
+        "sha256": "498157155849ef6ed8122d22e29ad5b698cbb807b14d983690c370da90f221d7"
+      },
+      "bypass": {
+        "file": "Theorize-expenditure-bypass.json.gz",
+        "sha256": "db93d2c897a3fea59bf6b77b0acd04598dcb6bdd8443b899c27a79df9caf0b2e"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Theorize-expenditure-checkpoint.json.gz",
+        "sha256": "a567a22fef25aa9b930b4e6c70be3ae7bb596d2c25f3f7d55b7b1d3a392a8f1c"
+      },
+      "original": {
+        "file": "Theorize-expenditure-original.json.gz",
+        "sha256": "f99bcc5ebccc034be4fdfdbb947822c96c0c1f4b16f593ebd25c7f365cb6059e"
+      },
+      "restored": {
+        "file": "Theorize-expenditure-restored.json.gz",
+        "sha256": "f99bcc5ebccc034be4fdfdbb947822c96c0c1f4b16f593ebd25c7f365cb6059e"
+      }
+    }
+  },
+  {
+    "name": "Embody",
+    "face": "accumulation",
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 36,
+    "bypass_admission_spent": 36,
+    "retained_prefix_spent": 46,
+    "bypass_prefix_spent": 46,
+    "bypass_total_child_spent": 51,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 32,
+    "worlds": {
+      "interrupted": {
+        "file": "Embody-accumulation-interrupted.json.gz",
+        "sha256": "59754c5548209a259e932669b6cc058ba2381e7e076cd951f0f8d0cb58ac197c"
+      },
+      "control": {
+        "file": "Embody-accumulation-control.json.gz",
+        "sha256": "75145c2cf2ab8f8dd82dac6958de5c181aed2208bfeb9376f6f987bb6d2a0131"
+      },
+      "bypass": {
+        "file": "Embody-accumulation-bypass.json.gz",
+        "sha256": "f71c04f5270960ae01d5bd077b7153ad10e92379bccd05a9b4bdf19452fc5784"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Embody-accumulation-checkpoint.json.gz",
+        "sha256": "59754c5548209a259e932669b6cc058ba2381e7e076cd951f0f8d0cb58ac197c"
+      },
+      "original": {
+        "file": "Embody-accumulation-original.json.gz",
+        "sha256": "1c2a99a48d9442b39c38ed765af7253cc7f3dbc14ac3ef9decf1bf9203171832"
+      },
+      "restored": {
+        "file": "Embody-accumulation-restored.json.gz",
+        "sha256": "1c2a99a48d9442b39c38ed765af7253cc7f3dbc14ac3ef9decf1bf9203171832"
+      }
+    }
+  },
+  {
+    "name": "Embody",
+    "face": "expenditure",
+    "effect": "approval",
+    "origin_mode": "generated",
+    "interrupted_admission_spent": 36,
+    "bypass_admission_spent": 36,
+    "retained_prefix_spent": 46,
+    "bypass_prefix_spent": 46,
+    "bypass_total_child_spent": 51,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 34,
+    "worlds": {
+      "interrupted": {
+        "file": "Embody-expenditure-interrupted.json.gz",
+        "sha256": "a3937010978e8ee0d2430ef669b919f017fb8b04df2c14e3b4cd0cce9abce0ac"
+      },
+      "control": {
+        "file": "Embody-expenditure-control.json.gz",
+        "sha256": "4b02905a4775f253fe511436d3649ae36dd77b6093959c682fff0f6feb2dc09b"
+      },
+      "bypass": {
+        "file": "Embody-expenditure-bypass.json.gz",
+        "sha256": "e93d8b1fc2d73e2a558850963097baff1f58cd9e6811ef690deeb570b57c9cc8"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Embody-expenditure-checkpoint.json.gz",
+        "sha256": "a3937010978e8ee0d2430ef669b919f017fb8b04df2c14e3b4cd0cce9abce0ac"
+      },
+      "original": {
+        "file": "Embody-expenditure-original.json.gz",
+        "sha256": "4659a3b4a0e1dbf4c3f2c686b2ed1905ed8dffe086b6032c61aa5f1bd8cc4143"
+      },
+      "restored": {
+        "file": "Embody-expenditure-restored.json.gz",
+        "sha256": "4659a3b4a0e1dbf4c3f2c686b2ed1905ed8dffe086b6032c61aa5f1bd8cc4143"
+      }
+    }
+  },
+  {
+    "name": "Act",
+    "face": "accumulation",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 36,
+    "bypass_admission_spent": 36,
+    "retained_prefix_spent": 47,
+    "bypass_prefix_spent": 47,
+    "bypass_total_child_spent": 60,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 32,
+    "worlds": {
+      "interrupted": {
+        "file": "Act-accumulation-interrupted.json.gz",
+        "sha256": "b4f4f6fb8063f7396594b5139dec5e3d05f9da3818606a9f5c22b8a9bdf38339"
+      },
+      "control": {
+        "file": "Act-accumulation-control.json.gz",
+        "sha256": "104dd2a6a881074677046a227bd9b4e9368e5faa5d2fe23642b483ecbd719896"
+      },
+      "bypass": {
+        "file": "Act-accumulation-bypass.json.gz",
+        "sha256": "d334359a4506af61e9c50cd6cb3bfe60cb8b2ab1fe8b23f2a222109808dfcefe"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Act-accumulation-checkpoint.json.gz",
+        "sha256": "b4f4f6fb8063f7396594b5139dec5e3d05f9da3818606a9f5c22b8a9bdf38339"
+      },
+      "original": {
+        "file": "Act-accumulation-original.json.gz",
+        "sha256": "954858fd5163bf75ec92ee0b73271e4f51ef5bbeee3d6220bb69674a95a0ff6a"
+      },
+      "restored": {
+        "file": "Act-accumulation-restored.json.gz",
+        "sha256": "954858fd5163bf75ec92ee0b73271e4f51ef5bbeee3d6220bb69674a95a0ff6a"
+      }
+    }
+  },
+  {
+    "name": "Act",
+    "face": "expenditure",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 36,
+    "bypass_admission_spent": 36,
+    "retained_prefix_spent": 46,
+    "bypass_prefix_spent": 46,
+    "bypass_total_child_spent": 52,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 32,
+    "worlds": {
+      "interrupted": {
+        "file": "Act-expenditure-interrupted.json.gz",
+        "sha256": "f98871010663ea23c6722f91ed2d3170180fd1ae4f061ad9e1341afb0ca6f8ba"
+      },
+      "control": {
+        "file": "Act-expenditure-control.json.gz",
+        "sha256": "925adff7b7766b14b244b7ed8f7ec6deb79b1e3f380f951d5537c51b27b19672"
+      },
+      "bypass": {
+        "file": "Act-expenditure-bypass.json.gz",
+        "sha256": "7e0bd86c0bd87ccefa69129d36fa1c501756a3133fed2191297bc79f3e4c6ee0"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Act-expenditure-checkpoint.json.gz",
+        "sha256": "f98871010663ea23c6722f91ed2d3170180fd1ae4f061ad9e1341afb0ca6f8ba"
+      },
+      "original": {
+        "file": "Act-expenditure-original.json.gz",
+        "sha256": "2dd10f4881c95804a9ebbcd0b331d8d3d9a6115440dbdf5588a913e0f3ef4eb0"
+      },
+      "restored": {
+        "file": "Act-expenditure-restored.json.gz",
+        "sha256": "2dd10f4881c95804a9ebbcd0b331d8d3d9a6115440dbdf5588a913e0f3ef4eb0"
+      }
+    }
+  },
+  {
+    "name": "Coordinate",
+    "face": "accumulation",
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 38,
+    "bypass_admission_spent": 38,
+    "retained_prefix_spent": 107,
+    "bypass_prefix_spent": 107,
+    "bypass_total_child_spent": 107,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 39,
+    "worlds": {
+      "interrupted": {
+        "file": "Coordinate-accumulation-interrupted.json.gz",
+        "sha256": "32e771b7c92303e336337de28f6721da9d9e4b0d4e1a84277555e32717df8387"
+      },
+      "control": {
+        "file": "Coordinate-accumulation-control.json.gz",
+        "sha256": "8723ec3bc616bf14f09cb71253e60140536ab9f1608fdf235979adc8fd358582"
+      },
+      "bypass": {
+        "file": "Coordinate-accumulation-bypass.json.gz",
+        "sha256": "fabbfc122ba7bf7ac47702e85760df49dd8d2912399b6bca29001565c1c8e3fb"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Coordinate-accumulation-checkpoint.json.gz",
+        "sha256": "32e771b7c92303e336337de28f6721da9d9e4b0d4e1a84277555e32717df8387"
+      },
+      "original": {
+        "file": "Coordinate-accumulation-original.json.gz",
+        "sha256": "067f8825ea5d855eacf99af09510f1b8c40b42cec929bac62b41c01af44b1645"
+      },
+      "restored": {
+        "file": "Coordinate-accumulation-restored.json.gz",
+        "sha256": "067f8825ea5d855eacf99af09510f1b8c40b42cec929bac62b41c01af44b1645"
+      }
+    }
+  },
+  {
+    "name": "Coordinate",
+    "face": "expenditure",
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 38,
+    "bypass_admission_spent": 38,
+    "retained_prefix_spent": 114,
+    "bypass_prefix_spent": 114,
+    "bypass_total_child_spent": 114,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 39,
+    "worlds": {
+      "interrupted": {
+        "file": "Coordinate-expenditure-interrupted.json.gz",
+        "sha256": "695010710970d5a89b50c9f7cace6564662ced5bc44faf52facfa8d5a48f32f4"
+      },
+      "control": {
+        "file": "Coordinate-expenditure-control.json.gz",
+        "sha256": "e575e19f9a39df193183a61ade37d6ddb0af737a8b9f4a8723dc89a1e8162629"
+      },
+      "bypass": {
+        "file": "Coordinate-expenditure-bypass.json.gz",
+        "sha256": "6d281b87409129d0cadf31c96d7d6065fc76d389f56cb02bffd37fbce8cfc909"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Coordinate-expenditure-checkpoint.json.gz",
+        "sha256": "695010710970d5a89b50c9f7cace6564662ced5bc44faf52facfa8d5a48f32f4"
+      },
+      "original": {
+        "file": "Coordinate-expenditure-original.json.gz",
+        "sha256": "032106bc3049ecdc311c7278783d4bb70a3c6df4133ef0521a17f662c1e7bba5"
+      },
+      "restored": {
+        "file": "Coordinate-expenditure-restored.json.gz",
+        "sha256": "032106bc3049ecdc311c7278783d4bb70a3c6df4133ef0521a17f662c1e7bba5"
+      }
+    }
+  },
+  {
+    "name": "Organize",
+    "face": "accumulation",
+    "effect": "approval",
+    "origin_mode": "generated",
+    "interrupted_admission_spent": 36,
+    "bypass_admission_spent": 36,
+    "retained_prefix_spent": 85,
+    "bypass_prefix_spent": 85,
+    "bypass_total_child_spent": 85,
+    "query": "use-1",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 34,
+    "worlds": {
+      "interrupted": {
+        "file": "Organize-accumulation-interrupted.json.gz",
+        "sha256": "d15af853dc0ee2c700514d07a37761f267f08f690945b001424e625e0fd63376"
+      },
+      "control": {
+        "file": "Organize-accumulation-control.json.gz",
+        "sha256": "ba198aaabfb23a7343b5ece8e0daa00b41a682f84a83095c5a1afd5abc932ac8"
+      },
+      "bypass": {
+        "file": "Organize-accumulation-bypass.json.gz",
+        "sha256": "7a246c830d8c5847fbe3605c683aa7c228f44d0edbfe6f41a64135a6b353df21"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Organize-accumulation-checkpoint.json.gz",
+        "sha256": "d15af853dc0ee2c700514d07a37761f267f08f690945b001424e625e0fd63376"
+      },
+      "original": {
+        "file": "Organize-accumulation-original.json.gz",
+        "sha256": "ad60c0fe7bb634154448a13eda8f54e491feb65334ab87c5558cc5a9a0ae3aa7"
+      },
+      "restored": {
+        "file": "Organize-accumulation-restored.json.gz",
+        "sha256": "ad60c0fe7bb634154448a13eda8f54e491feb65334ab87c5558cc5a9a0ae3aa7"
+      }
+    }
+  },
+  {
+    "name": "Organize",
+    "face": "expenditure",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 36,
+    "bypass_admission_spent": 36,
+    "retained_prefix_spent": 85,
+    "bypass_prefix_spent": 85,
+    "bypass_total_child_spent": 85,
+    "query": "use-1",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 32,
+    "worlds": {
+      "interrupted": {
+        "file": "Organize-expenditure-interrupted.json.gz",
+        "sha256": "d5fcf9f3723965f3592f3f1687d890b9762a42ec229b003832689a74573b520c"
+      },
+      "control": {
+        "file": "Organize-expenditure-control.json.gz",
+        "sha256": "4f8abbd5cd8a3cf77a4a5288bd361c02c2a04e7b4989d9116c2bdfd384d45768"
+      },
+      "bypass": {
+        "file": "Organize-expenditure-bypass.json.gz",
+        "sha256": "271dda36447155d30ba2be9bb1b5324632be44e4d63d37dbc75accfb97049c31"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Organize-expenditure-checkpoint.json.gz",
+        "sha256": "d5fcf9f3723965f3592f3f1687d890b9762a42ec229b003832689a74573b520c"
+      },
+      "original": {
+        "file": "Organize-expenditure-original.json.gz",
+        "sha256": "4f3b3cb4195e9aea3347518c04957e97328f3463c7c78f27afd28464c1094ab0"
+      },
+      "restored": {
+        "file": "Organize-expenditure-restored.json.gz",
+        "sha256": "4f3b3cb4195e9aea3347518c04957e97328f3463c7c78f27afd28464c1094ab0"
+      }
+    }
+  },
+  {
+    "name": "Identify",
+    "face": "accumulation",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 41,
+    "bypass_admission_spent": 41,
+    "retained_prefix_spent": 59,
+    "bypass_prefix_spent": 59,
+    "bypass_total_child_spent": 59,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 42,
+    "worlds": {
+      "interrupted": {
+        "file": "Identify-accumulation-interrupted.json.gz",
+        "sha256": "954b9dde504ae15fff24011ad01f2fa8fd6b8e6cb861ffb807caca769642ac5b"
+      },
+      "control": {
+        "file": "Identify-accumulation-control.json.gz",
+        "sha256": "48e0f8795d23c85a37f754c082b78c216e04340ce77fda200711851acd40a17f"
+      },
+      "bypass": {
+        "file": "Identify-accumulation-bypass.json.gz",
+        "sha256": "8129b1cde7c059eb2a67ae779af2f4b9c40ec2733e1a1af41ce577b60cbe22d3"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Identify-accumulation-checkpoint.json.gz",
+        "sha256": "954b9dde504ae15fff24011ad01f2fa8fd6b8e6cb861ffb807caca769642ac5b"
+      },
+      "original": {
+        "file": "Identify-accumulation-original.json.gz",
+        "sha256": "cd62171b221c073b48449bf13da819cd19c2a4b8c605d6c289ce91f51c2989fe"
+      },
+      "restored": {
+        "file": "Identify-accumulation-restored.json.gz",
+        "sha256": "cd62171b221c073b48449bf13da819cd19c2a4b8c605d6c289ce91f51c2989fe"
+      }
+    }
+  },
+  {
+    "name": "Identify",
+    "face": "expenditure",
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 41,
+    "bypass_admission_spent": 41,
+    "retained_prefix_spent": 61,
+    "bypass_prefix_spent": 61,
+    "bypass_total_child_spent": 61,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 42,
+    "worlds": {
+      "interrupted": {
+        "file": "Identify-expenditure-interrupted.json.gz",
+        "sha256": "fbf6a1edbe9ae3b36a5cdc3c3962bd46115853b1a07b94b6ffd14aebff2439db"
+      },
+      "control": {
+        "file": "Identify-expenditure-control.json.gz",
+        "sha256": "8b527c649f0f7de97bca8bfa6a8e1bc5efea7a6a2a6b54adaeb51f8bfc31adcd"
+      },
+      "bypass": {
+        "file": "Identify-expenditure-bypass.json.gz",
+        "sha256": "70c4b7491540ff5a81ffa193fc0f72d708dba9170fd7177c41c9e29092fe3d74"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Identify-expenditure-checkpoint.json.gz",
+        "sha256": "fbf6a1edbe9ae3b36a5cdc3c3962bd46115853b1a07b94b6ffd14aebff2439db"
+      },
+      "original": {
+        "file": "Identify-expenditure-original.json.gz",
+        "sha256": "fef0a9d4de1ac6ee664483bceaf392b75076103c85946c80f0ca560f04532107"
+      },
+      "restored": {
+        "file": "Identify-expenditure-restored.json.gz",
+        "sha256": "fef0a9d4de1ac6ee664483bceaf392b75076103c85946c80f0ca560f04532107"
+      }
+    }
+  },
+  {
+    "name": "Mobilize",
+    "face": "accumulation",
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 40,
+    "bypass_admission_spent": 40,
+    "retained_prefix_spent": 50,
+    "bypass_prefix_spent": 50,
+    "bypass_total_child_spent": 53,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 41,
+    "worlds": {
+      "interrupted": {
+        "file": "Mobilize-accumulation-interrupted.json.gz",
+        "sha256": "261e562493124c0fd817452cc0d76ade8a772ae05ed5a5a180471468226a6a08"
+      },
+      "control": {
+        "file": "Mobilize-accumulation-control.json.gz",
+        "sha256": "489720b16c8962b4121d50025159be3e067ddb403e5d1613567e1dfd7452fc2d"
+      },
+      "bypass": {
+        "file": "Mobilize-accumulation-bypass.json.gz",
+        "sha256": "2ba6e7a8a126c6da38654670c9069addbafbce1bfee4b8ea363df00fc245f9d9"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Mobilize-accumulation-checkpoint.json.gz",
+        "sha256": "261e562493124c0fd817452cc0d76ade8a772ae05ed5a5a180471468226a6a08"
+      },
+      "original": {
+        "file": "Mobilize-accumulation-original.json.gz",
+        "sha256": "80c88f5556208cd8b1f64659ada1eb0804858b8489529582cf13ffca3cf9ed64"
+      },
+      "restored": {
+        "file": "Mobilize-accumulation-restored.json.gz",
+        "sha256": "80c88f5556208cd8b1f64659ada1eb0804858b8489529582cf13ffca3cf9ed64"
+      }
+    }
+  },
+  {
+    "name": "Mobilize",
+    "face": "expenditure",
+    "effect": "approval",
+    "origin_mode": "generated",
+    "interrupted_admission_spent": 42,
+    "bypass_admission_spent": 42,
+    "retained_prefix_spent": 64,
+    "bypass_prefix_spent": 64,
+    "bypass_total_child_spent": 68,
+    "query": "work",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 43,
+    "worlds": {
+      "interrupted": {
+        "file": "Mobilize-expenditure-interrupted.json.gz",
+        "sha256": "e44663a40197ffa1aac1e9bfabb61e15c6a2195b263d7a84ada506d0e46d0680"
+      },
+      "control": {
+        "file": "Mobilize-expenditure-control.json.gz",
+        "sha256": "71ce07cd56e9d64cd699a8365608fe43f2e19d3974db81070f9684aa880f9a81"
+      },
+      "bypass": {
+        "file": "Mobilize-expenditure-bypass.json.gz",
+        "sha256": "ca2c3e6e3331f0db3bb57db646d2eb5e508157006786ad2a24a11c56509d59fe"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Mobilize-expenditure-checkpoint.json.gz",
+        "sha256": "e44663a40197ffa1aac1e9bfabb61e15c6a2195b263d7a84ada506d0e46d0680"
+      },
+      "original": {
+        "file": "Mobilize-expenditure-original.json.gz",
+        "sha256": "7095dc992addcd808b4648478b77cdcb5a4a753d407f51832501cb48c9dfbe00"
+      },
+      "restored": {
+        "file": "Mobilize-expenditure-restored.json.gz",
+        "sha256": "7095dc992addcd808b4648478b77cdcb5a4a753d407f51832501cb48c9dfbe00"
+      }
+    }
+  },
+  {
+    "name": "Commune",
+    "face": "accumulation",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 42,
+    "bypass_admission_spent": 42,
+    "retained_prefix_spent": 114,
+    "bypass_prefix_spent": 114,
+    "bypass_total_child_spent": 124,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 43,
+    "worlds": {
+      "interrupted": {
+        "file": "Commune-accumulation-interrupted.json.gz",
+        "sha256": "31dd2e84d2d98e7cf87371754ea89c3ade9502f44521392c0f2a9afc366b840d"
+      },
+      "control": {
+        "file": "Commune-accumulation-control.json.gz",
+        "sha256": "b8a007dfd1cac307e3b0a333bbd64cbe10f7b72b06ff56d6df268c2c77e4db2f"
+      },
+      "bypass": {
+        "file": "Commune-accumulation-bypass.json.gz",
+        "sha256": "1d5211f4489eab8d349c1e043de1144cac84c820b03e300915bdb8f210e2c103"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Commune-accumulation-checkpoint.json.gz",
+        "sha256": "31dd2e84d2d98e7cf87371754ea89c3ade9502f44521392c0f2a9afc366b840d"
+      },
+      "original": {
+        "file": "Commune-accumulation-original.json.gz",
+        "sha256": "44fe22f7befebe1b6c863696eb25a1303ccaa9224a7c60126e41424db16abcf3"
+      },
+      "restored": {
+        "file": "Commune-accumulation-restored.json.gz",
+        "sha256": "44fe22f7befebe1b6c863696eb25a1303ccaa9224a7c60126e41424db16abcf3"
+      }
+    }
+  },
+  {
+    "name": "Commune",
+    "face": "expenditure",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 42,
+    "bypass_admission_spent": 42,
+    "retained_prefix_spent": 116,
+    "bypass_prefix_spent": 116,
+    "bypass_total_child_spent": 123,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 43,
+    "worlds": {
+      "interrupted": {
+        "file": "Commune-expenditure-interrupted.json.gz",
+        "sha256": "0d6cb924423eca49750499efacc588c4f660d37c5ca02a92dfc2ef545398ebbc"
+      },
+      "control": {
+        "file": "Commune-expenditure-control.json.gz",
+        "sha256": "3707a46b4ed29b1bd723e071701d666a6c393f3cc0a77cfaf955b9d4ba4e2779"
+      },
+      "bypass": {
+        "file": "Commune-expenditure-bypass.json.gz",
+        "sha256": "03be3a35fb5e1369304dc3a47bc3606664aa3870d3cf2c66cfc6674db50bdf0e"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Commune-expenditure-checkpoint.json.gz",
+        "sha256": "0d6cb924423eca49750499efacc588c4f660d37c5ca02a92dfc2ef545398ebbc"
+      },
+      "original": {
+        "file": "Commune-expenditure-original.json.gz",
+        "sha256": "ec215b9d5768c7c3acfd905efa217045f1eb1059537813ae758e51e382cc28eb"
+      },
+      "restored": {
+        "file": "Commune-expenditure-restored.json.gz",
+        "sha256": "ec215b9d5768c7c3acfd905efa217045f1eb1059537813ae758e51e382cc28eb"
+      }
+    }
+  },
+  {
+    "name": "Institutionalize",
+    "face": "accumulation",
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 40,
+    "bypass_admission_spent": 40,
+    "retained_prefix_spent": 90,
+    "bypass_prefix_spent": 90,
+    "bypass_total_child_spent": 98,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 41,
+    "worlds": {
+      "interrupted": {
+        "file": "Institutionalize-accumulation-interrupted.json.gz",
+        "sha256": "9223b4f416f5e5b2b81b3151732283fdec6682c31840124cadc4956c3b452b9b"
+      },
+      "control": {
+        "file": "Institutionalize-accumulation-control.json.gz",
+        "sha256": "c72b99f5033c9c6422201f4daed12e3bb2e57f5f395a9eb436c326dd54d97f0b"
+      },
+      "bypass": {
+        "file": "Institutionalize-accumulation-bypass.json.gz",
+        "sha256": "59404a1eec071e896c1650e7c5530b62b565b85ffb57c312a4e3f3200956d4f9"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Institutionalize-accumulation-checkpoint.json.gz",
+        "sha256": "9223b4f416f5e5b2b81b3151732283fdec6682c31840124cadc4956c3b452b9b"
+      },
+      "original": {
+        "file": "Institutionalize-accumulation-original.json.gz",
+        "sha256": "5409504355c0028b139b6c78c10e57ca070707e0fe1fdc1adadd31f9965d05bc"
+      },
+      "restored": {
+        "file": "Institutionalize-accumulation-restored.json.gz",
+        "sha256": "5409504355c0028b139b6c78c10e57ca070707e0fe1fdc1adadd31f9965d05bc"
+      }
+    }
+  },
+  {
+    "name": "Institutionalize",
+    "face": "expenditure",
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 43,
+    "bypass_admission_spent": 43,
+    "retained_prefix_spent": 103,
+    "bypass_prefix_spent": 103,
+    "bypass_total_child_spent": 111,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 44,
+    "worlds": {
+      "interrupted": {
+        "file": "Institutionalize-expenditure-interrupted.json.gz",
+        "sha256": "9c6101ed57a08fa55a8088f98d8c7bd7a95ef19c6ab71658a625643971cae2b4"
+      },
+      "control": {
+        "file": "Institutionalize-expenditure-control.json.gz",
+        "sha256": "1b2df9873210a437cac741df2844e78cb22155423b189816ae8afe1fe6101065"
+      },
+      "bypass": {
+        "file": "Institutionalize-expenditure-bypass.json.gz",
+        "sha256": "868926c3479d43200603a52a7074defb0d5ea1f5a842ca5285bf3741444353c3"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Institutionalize-expenditure-checkpoint.json.gz",
+        "sha256": "9c6101ed57a08fa55a8088f98d8c7bd7a95ef19c6ab71658a625643971cae2b4"
+      },
+      "original": {
+        "file": "Institutionalize-expenditure-original.json.gz",
+        "sha256": "36d101aee3ece3b3a60bb8e9229f828da10466784f9dd4e85a0b99dcc5174f94"
+      },
+      "restored": {
+        "file": "Institutionalize-expenditure-restored.json.gz",
+        "sha256": "36d101aee3ece3b3a60bb8e9229f828da10466784f9dd4e85a0b99dcc5174f94"
+      }
+    }
+  },
+  {
+    "name": "Understand",
+    "face": "accumulation",
+    "effect": "approval",
+    "origin_mode": "generated",
+    "interrupted_admission_spent": 40,
+    "bypass_admission_spent": 40,
+    "retained_prefix_spent": 47,
+    "bypass_prefix_spent": 47,
+    "bypass_total_child_spent": 47,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 41,
+    "worlds": {
+      "interrupted": {
+        "file": "Understand-accumulation-interrupted.json.gz",
+        "sha256": "6174ed8c6d7995a5fa2845d7130b3fbfb6248084108dc2f9ddce004e448e53b3"
+      },
+      "control": {
+        "file": "Understand-accumulation-control.json.gz",
+        "sha256": "00d706f2577dfd51b2ae4aabd7ee565a44ff70852b74fc9860464b454da170e4"
+      },
+      "bypass": {
+        "file": "Understand-accumulation-bypass.json.gz",
+        "sha256": "919080563a45ef9b8dd0ce85207a9178c201e142f43b936ed14145520065f527"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Understand-accumulation-checkpoint.json.gz",
+        "sha256": "6174ed8c6d7995a5fa2845d7130b3fbfb6248084108dc2f9ddce004e448e53b3"
+      },
+      "original": {
+        "file": "Understand-accumulation-original.json.gz",
+        "sha256": "3a6a75ac51fc37cd35197376446951d26c942afbb4b1064e5e021d9600d6f200"
+      },
+      "restored": {
+        "file": "Understand-accumulation-restored.json.gz",
+        "sha256": "3a6a75ac51fc37cd35197376446951d26c942afbb4b1064e5e021d9600d6f200"
+      }
+    }
+  },
+  {
+    "name": "Understand",
+    "face": "expenditure",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 38,
+    "bypass_admission_spent": 38,
+    "retained_prefix_spent": 50,
+    "bypass_prefix_spent": 50,
+    "bypass_total_child_spent": 50,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 39,
+    "worlds": {
+      "interrupted": {
+        "file": "Understand-expenditure-interrupted.json.gz",
+        "sha256": "1882de364570a967bb65a11ba27be0e90d9e3971cbd2c44fecf834851d56dbf5"
+      },
+      "control": {
+        "file": "Understand-expenditure-control.json.gz",
+        "sha256": "d6bd8d5b7478680c3be2e895c5da75cb3ced8e867466f3b05fcc126b4b98bb68"
+      },
+      "bypass": {
+        "file": "Understand-expenditure-bypass.json.gz",
+        "sha256": "50ad8e723864cb13c3e938401f6f1c2a4b0f641415f00a83a9e7d99b95a5fa35"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Understand-expenditure-checkpoint.json.gz",
+        "sha256": "1882de364570a967bb65a11ba27be0e90d9e3971cbd2c44fecf834851d56dbf5"
+      },
+      "original": {
+        "file": "Understand-expenditure-original.json.gz",
+        "sha256": "6fabd25750131ed7aaf8f11363f6c17d347562956cbf5ade922b1509a3312abb"
+      },
+      "restored": {
+        "file": "Understand-expenditure-restored.json.gz",
+        "sha256": "6fabd25750131ed7aaf8f11363f6c17d347562956cbf5ade922b1509a3312abb"
+      }
+    }
+  },
+  {
+    "name": "Apply",
+    "face": "accumulation",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 37,
+    "bypass_admission_spent": 37,
+    "retained_prefix_spent": 41,
+    "bypass_prefix_spent": 41,
+    "bypass_total_child_spent": 44,
+    "query": "maintain",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 34,
+    "worlds": {
+      "interrupted": {
+        "file": "Apply-accumulation-interrupted.json.gz",
+        "sha256": "ae41f249f9eec613eb429513b881ed27eaadb91dff2297a00780758e20d942ba"
+      },
+      "control": {
+        "file": "Apply-accumulation-control.json.gz",
+        "sha256": "6983e9d813d51b0e16278a0df3436977038881580bc41ea28e7338f5cc04b1e3"
+      },
+      "bypass": {
+        "file": "Apply-accumulation-bypass.json.gz",
+        "sha256": "4aa404c55e11e099437cb5ee2a6677223cda4a45f3a69b87fbded18d3d70c223"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Apply-accumulation-checkpoint.json.gz",
+        "sha256": "ae41f249f9eec613eb429513b881ed27eaadb91dff2297a00780758e20d942ba"
+      },
+      "original": {
+        "file": "Apply-accumulation-original.json.gz",
+        "sha256": "63ca3e72c87ccb3f2838453a1e004e83e6327a461af061a9e8e1289b15d5e0bf"
+      },
+      "restored": {
+        "file": "Apply-accumulation-restored.json.gz",
+        "sha256": "63ca3e72c87ccb3f2838453a1e004e83e6327a461af061a9e8e1289b15d5e0bf"
+      }
+    }
+  },
+  {
+    "name": "Apply",
+    "face": "expenditure",
+    "effect": "forecast",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 37,
+    "bypass_admission_spent": 37,
+    "retained_prefix_spent": 48,
+    "bypass_prefix_spent": 48,
+    "bypass_total_child_spent": 52,
+    "query": "work",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 34,
+    "worlds": {
+      "interrupted": {
+        "file": "Apply-expenditure-interrupted.json.gz",
+        "sha256": "aee8f96a14db832d80a68c802a9b78de57b48acd9181d4e2602ff514d15dbabb"
+      },
+      "control": {
+        "file": "Apply-expenditure-control.json.gz",
+        "sha256": "df74bfc803859feda33404519efa75f78959aa7345f8de620f2746b3cdd96fae"
+      },
+      "bypass": {
+        "file": "Apply-expenditure-bypass.json.gz",
+        "sha256": "1b08c6e74f7ca1f4aeb64bddcf78fdf03674a8e915a961d664391e96c22fcc4b"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Apply-expenditure-checkpoint.json.gz",
+        "sha256": "aee8f96a14db832d80a68c802a9b78de57b48acd9181d4e2602ff514d15dbabb"
+      },
+      "original": {
+        "file": "Apply-expenditure-original.json.gz",
+        "sha256": "d818250293838f494cfa3a54f82cc6d5527da5e486aa47734c8e086e08d5efef"
+      },
+      "restored": {
+        "file": "Apply-expenditure-restored.json.gz",
+        "sha256": "d818250293838f494cfa3a54f82cc6d5527da5e486aa47734c8e086e08d5efef"
+      }
+    }
+  },
+  {
+    "name": "Educate",
+    "face": "accumulation",
+    "effect": "exclude_route",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 40,
+    "bypass_admission_spent": 40,
+    "retained_prefix_spent": 103,
+    "bypass_prefix_spent": 103,
+    "bypass_total_child_spent": 111,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 42,
+    "worlds": {
+      "interrupted": {
+        "file": "Educate-accumulation-interrupted.json.gz",
+        "sha256": "2ecdc299e2514953829e35906ac9c28501960fb61cf0bad1af33219a71100a02"
+      },
+      "control": {
+        "file": "Educate-accumulation-control.json.gz",
+        "sha256": "805c3971b92ac6f0357c59fa1ba93a5b4467cfecce1d27d197debd89f8075234"
+      },
+      "bypass": {
+        "file": "Educate-accumulation-bypass.json.gz",
+        "sha256": "00a936aaa9fdfd84b357fe5057c2980e006d075e5534fa2bf7f1ad9790782d1a"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Educate-accumulation-checkpoint.json.gz",
+        "sha256": "2ecdc299e2514953829e35906ac9c28501960fb61cf0bad1af33219a71100a02"
+      },
+      "original": {
+        "file": "Educate-accumulation-original.json.gz",
+        "sha256": "ba936c5c26bac1dd805a7716a81cee2249654e04237b0eb77dbfe477c701e92e"
+      },
+      "restored": {
+        "file": "Educate-accumulation-restored.json.gz",
+        "sha256": "ba936c5c26bac1dd805a7716a81cee2249654e04237b0eb77dbfe477c701e92e"
+      }
+    }
+  },
+  {
+    "name": "Educate",
+    "face": "expenditure",
+    "effect": "approval",
+    "origin_mode": "generated",
+    "interrupted_admission_spent": 42,
+    "bypass_admission_spent": 42,
+    "retained_prefix_spent": 106,
+    "bypass_prefix_spent": 106,
+    "bypass_total_child_spent": 114,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 44,
+    "worlds": {
+      "interrupted": {
+        "file": "Educate-expenditure-interrupted.json.gz",
+        "sha256": "1163a94d0a1fb67cbad1e38aa09e2ddc4b2a069f5c46ea76f8aca2656a7930f6"
+      },
+      "control": {
+        "file": "Educate-expenditure-control.json.gz",
+        "sha256": "4ff1518ddef8079b264151b2375338421c4883a22730d9264909c6094beac284"
+      },
+      "bypass": {
+        "file": "Educate-expenditure-bypass.json.gz",
+        "sha256": "8f726a1b416b771680d7847206aa57660f01dad35e001c77241b10be596cd156"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Educate-expenditure-checkpoint.json.gz",
+        "sha256": "1163a94d0a1fb67cbad1e38aa09e2ddc4b2a069f5c46ea76f8aca2656a7930f6"
+      },
+      "original": {
+        "file": "Educate-expenditure-original.json.gz",
+        "sha256": "764e8bd934ffe63625d94dbd027b855d1b384f672fe83240e5336938ad0c7da8"
+      },
+      "restored": {
+        "file": "Educate-expenditure-restored.json.gz",
+        "sha256": "764e8bd934ffe63625d94dbd027b855d1b384f672fe83240e5336938ad0c7da8"
+      }
+    }
+  },
+  {
+    "name": "Integrate",
+    "face": "accumulation",
+    "effect": "obligation",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 39,
+    "bypass_admission_spent": 39,
+    "retained_prefix_spent": 63,
+    "bypass_prefix_spent": 63,
+    "bypass_total_child_spent": 65,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 40,
+    "worlds": {
+      "interrupted": {
+        "file": "Integrate-accumulation-interrupted.json.gz",
+        "sha256": "916d50380588154254910ac38f250900fb0a88ceef8d8c8c7c9a499c9e7b96e5"
+      },
+      "control": {
+        "file": "Integrate-accumulation-control.json.gz",
+        "sha256": "661348f8ede4b10a5a6cfbb0e17c5f9d9ce1d83f6255be6da75501561de69561"
+      },
+      "bypass": {
+        "file": "Integrate-accumulation-bypass.json.gz",
+        "sha256": "e0391e63ccefe678bb431019b9072dfcf2517e790f8bb6d63d53fd2a83af51b9"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Integrate-accumulation-checkpoint.json.gz",
+        "sha256": "916d50380588154254910ac38f250900fb0a88ceef8d8c8c7c9a499c9e7b96e5"
+      },
+      "original": {
+        "file": "Integrate-accumulation-original.json.gz",
+        "sha256": "c93f6da6888cec86aac7de7ee43bda5781d7a30b15ca29925bee75885ca27657"
+      },
+      "restored": {
+        "file": "Integrate-accumulation-restored.json.gz",
+        "sha256": "c93f6da6888cec86aac7de7ee43bda5781d7a30b15ca29925bee75885ca27657"
+      }
+    }
+  },
+  {
+    "name": "Integrate",
+    "face": "expenditure",
+    "effect": "salience",
+    "origin_mode": "injected_fixture",
+    "interrupted_admission_spent": 39,
+    "bypass_admission_spent": 39,
+    "retained_prefix_spent": 66,
+    "bypass_prefix_spent": 66,
+    "bypass_total_child_spent": 71,
+    "query": "handover",
+    "blocked": "unavailable",
+    "expected_rejection": "workflow interruption escaped first boundary",
+    "exact_continuation": true,
+    "continuation_spent": 40,
+    "worlds": {
+      "interrupted": {
+        "file": "Integrate-expenditure-interrupted.json.gz",
+        "sha256": "0d192a31f44e03aea837144e14136e8a2f59042816b7a3435bf50a89611495a9"
+      },
+      "control": {
+        "file": "Integrate-expenditure-control.json.gz",
+        "sha256": "b3fd838129eaeab74a021017a7ed8056742ed134700797537e98c9234b117200"
+      },
+      "bypass": {
+        "file": "Integrate-expenditure-bypass.json.gz",
+        "sha256": "d8f65bdd2add79adb50011fff505f880ad083c345b49b665fca6229a845d708f"
+      }
+    },
+    "continuation_worlds": {
+      "checkpoint": {
+        "file": "Integrate-expenditure-checkpoint.json.gz",
+        "sha256": "0d192a31f44e03aea837144e14136e8a2f59042816b7a3435bf50a89611495a9"
+      },
+      "original": {
+        "file": "Integrate-expenditure-original.json.gz",
+        "sha256": "44112618282d4a1a4b356337873f497050400388561358088cc1bd2918f44e7b"
+      },
+      "restored": {
+        "file": "Integrate-expenditure-restored.json.gz",
+        "sha256": "44112618282d4a1a4b356337873f497050400388561358088cc1bd2918f44e7b"
+      }
+    }
+  }
+]
