@@ -12,13 +12,13 @@
   ],
   "next_batch": "2.3",
   "run_id": "recovery-20261007T022751Z-4a05440d",
-  "lease_expires_at": "2026-10-07T03:25:06.362550Z",
-  "updated_at": "2026-10-07T02:55:06.362550Z",
+  "lease_expires_at": "2026-10-07T03:27:24.799711Z",
+  "updated_at": "2026-10-07T02:57:24.799711Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB2.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB2.3 first attempt preserved at 0a1fbd6: one wrong-type negative fixture error. Corrected peer to EVE ObjectId; fresh 1232-file freeze and complete second acceptance underway. Repeated-failure stop remains active.",
+  "activity": "FB2.2 complete (652 methods). FB2.3 second acceptance on bca7707 live: 32/32 raw pairs saved, 269/602 inherited methods completed. No repeated failure observed.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",
@@ -26,5 +26,12 @@
     "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
     "remaining_stop_gates": "unchanged; Phase 7 requires R5"
   },
-  "automation_status": "Parent re-enable attempt rejected: You cannot modify this task. User asked to re-enable existing task in ChatGPT Tasks; no replacement authorized."
+  "automation_status": "Greg reports task re-enabled (Ok should be good now). Permitted executor peek returned no visible automations; enabled state unverified. automation_enabled=false is the last recorded state, not a fresh scheduler observation.",
+  "automation_user_reported_enabled": true,
+  "automation_verification": {
+    "checked_at": "2026-10-07T02:57:24.799711Z",
+    "method": "permitted automations peek",
+    "visible_automations": 0,
+    "verified_enabled": null
+  }
 }
