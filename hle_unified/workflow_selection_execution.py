@@ -1,7 +1,7 @@
 """Paid workflow comparison and admission; native movement remains authoritative."""
 from .workflow_execution import WorkflowEngine
 from .workflow_records import WorkflowRequest
-from .workflow_selection_records import WorkflowSelectionRequest, registry, demand_value, fields_of, dumps
+from .workflow_selection_records import WorkflowSelectionRequest, WorkflowCapacitySelectionRequest, registry, demand_value, fields_of, dumps
 from .workflow_selection_policy import proposals, choose
 from .workflow_content import decode
 from .operation_records import OperationRequest
@@ -12,6 +12,7 @@ from .store import next_version
 
 class WorkflowSelectionEngine(WorkflowEngine):
     SCHEMA = 'hle-full-crux-c7-workflow-selection-v1'
+    SELECTION_REQUEST_TYPES = (WorkflowSelectionRequest,)
 
     @staticmethod
     def _registry(): return registry()
@@ -65,7 +66,7 @@ class WorkflowSelectionEngine(WorkflowEngine):
         return rows, choose(rows)
 
     def _start(self, cid, r):
-        if type(r) is not WorkflowSelectionRequest: return super()._start(cid, r)
+        if type(r) not in self.SELECTION_REQUEST_TYPES: return super()._start(cid, r)
         if r.actor not in self._profiles or r.actor in self._locks or (r.actor,r.key) in self._jobs:
             raise ValueError('free typed participant and unused selection key required')
         s = self.workflow_selection_view(r); rows, selected = self._workflow_policy(s)
@@ -147,3 +148,25 @@ class WorkflowSocialSelectionEngine(WorkflowSelectionEngine):
     def _workflow_policy(self, s):
         rows = proposals(s, tuple(range(32)))
         return rows, choose(rows)
+
+
+class WorkflowFinalSelectionEngine(WorkflowSocialSelectionEngine):
+    """All cells plus optional native acquired-care requirement; legacy is intact."""
+    SCHEMA = 'hle-full-crux-c7-workflow-selection-v4'
+    SELECTION_REQUEST_TYPES = (WorkflowSelectionRequest, WorkflowCapacitySelectionRequest)
+
+    def workflow_selection_view(self, r):
+        from .records import Procedure
+        from .operation_records import SIGNATURES
+        s = super().workflow_selection_view(r); view = self.participant_view(r.actor)
+        procedure_ref = getattr(r, 'procedure', None); definition = None; acquired = ()
+        if procedure_ref is not None:
+            definitions = [p.value for p in view.resolve(procedure_ref) if type(p.value) is Procedure]
+            if len(definitions) != 1: raise ValueError('paid exact care procedure required')
+            definition = definitions[0]
+            if (definition.executor != 'u4.care.v1' or definition.inputs != SIGNATURES['care']
+                or definition.steps or definition.preconditions or definition.effects):
+                raise ValueError('supported native care procedure required')
+            acquired = tuple((a.procedure, a.context, a.receipt) for a in view.snapshot.acquired
+                if a.procedure == procedure_ref and a.context == r.context)
+        return dict(s, policy='c7-workflow-selection-v4', procedure=definition, acquired=acquired)

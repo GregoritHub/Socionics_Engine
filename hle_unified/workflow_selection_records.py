@@ -36,5 +36,11 @@ def demand_value(d):
         raise ValueError('four integer outcome priorities and externalization preference required')
     return d
 
+@dataclass(frozen=True)
+class WorkflowCapacitySelectionRequest(WorkflowSelectionRequest):
+    """Optional exact practiced-care means; never a route or a recipe."""
+    procedure: ObjectRef | None = None
+
 def registry():
-    return {**parent_registry(), 'WorkflowSelectionRequest': WorkflowSelectionRequest}
+    return {**parent_registry(), 'WorkflowSelectionRequest': WorkflowSelectionRequest,
+        'WorkflowCapacitySelectionRequest': WorkflowCapacitySelectionRequest}

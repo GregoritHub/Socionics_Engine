@@ -15,7 +15,7 @@ SOCIAL_NAMES = ('Share', 'Coordinate', 'Identify', 'Mobilize', 'Institutionalize
 
 def proposals(s, cells=CELLS):
     r = s['request']; a = r['actor']; items = s['items']; rows = []
-    social_policy = s.get('policy') == 'c7-workflow-selection-v3'
+    social_policy = s.get('policy') in ('c7-workflow-selection-v3', 'c7-workflow-selection-v4')
     def kind(*ks): return [x for x in items if x['data']['kind'] in ks]
     for cell in cells:
         name = NAMES[cell // 2]; face = ('accumulation', 'expenditure')[cell % 2]
@@ -75,6 +75,9 @@ def proposals(s, cells=CELLS):
             if name in SOCIAL_NAMES:
                 good = good and social_applicable(s, name, face, bundle)
                 reason = 'paid scoped social prerequisites' if good else 'missing paid social prerequisite'
+            if s.get('policy') == 'c7-workflow-selection-v4' and r.get('procedure') is not None and recipe.material_units:
+                good = good and name in ('Express', 'Apply', 'Mobilize') and (face == 'accumulation' or bool(s['acquired']))
+                reason = 'paid named care prerequisite' if good else 'missing acquired care or incompatible material means'
             priority = s['need']['priorities'][PERSPECTIVES.index(recipe.destination)]
             options.append(dict(cell=cell, recipe=recipe.key, inputs=tuple(x['ref'] for x in bundle),
                 eligible=bool(good and priority), reason=reason, priority=priority,
