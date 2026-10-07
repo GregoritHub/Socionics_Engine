@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
-  "current_batch": "5.3",
+  "status": "active",
+  "current_batch": "5.4",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -21,14 +21,14 @@
     "5.3"
   ],
   "next_batch": "5.4",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T21:50:07.251822+00:00",
+  "run_id": "fb54-20261007T215221Z-3439a775",
+  "lease_expires_at": "2026-10-07T22:22:21.935294+00:00",
+  "updated_at": "2026-10-07T21:52:21.935294+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.3_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.3 accepted: one paid generated-content chain and six independently verified raw cases; 712 distinct methods passed on unchanged freeze. Next: prospectively specify and implement five continued families in FB5.4. Revised goal incomplete.",
+  "activity": "FB5.4 prospective social-exchange and multisource continuation investigation; reconcile method inventory and FB5.2 ZIP metadata.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
