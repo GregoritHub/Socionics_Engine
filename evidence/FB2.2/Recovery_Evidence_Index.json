@@ -1,0 +1,13 @@
+{
+  "status": "probe",
+  "passed": true,
+  "raw_directory": "evidence/FB2.2/recovery",
+  "raw_sha256_manifest": "evidence/FB2.2/recovery/Raw_SHA256.json",
+  "manifest_sha256": "78ede371de05c14e2dd65be56b1955dd5abc4f2b7d72e071475d16becc977d09",
+  "acceptance": "evidence/FB2.2/recovery/Acceptance_Summary.json",
+  "historical_failed_attempts": "evidence/FB2.2/Evidence_Index.json",
+  "retrieval": "Fresh raw evidence is committed directly in Git. Verify every recovery file against Raw_SHA256.json; gzip checkpoints are independently audited by tools/verify_workflow_selection.py with cases=20.",
+  "tests": 652,
+  "cases": 20,
+  "controls": 20
+}

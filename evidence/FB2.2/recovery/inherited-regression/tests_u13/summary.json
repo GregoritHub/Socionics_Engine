@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "tests": 17,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 5.979744239000013,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_actor_ownership_and_publication_match_independent_reference",
+      "status": "passed",
+      "seconds": 0.00017102699999327342
+    },
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_exception_clears_every_uncommitted_check",
+      "status": "passed",
+      "seconds": 6.181200001265097e-05
+    },
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_nested_publication_clears_outer_checks",
+      "status": "passed",
+      "seconds": 5.131699998628392e-05
+    },
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_no_cached_check_survives_a_later_command",
+      "status": "passed",
+      "seconds": 4.3855999990682903e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_compiled_validation_matches_original_predicate",
+      "status": "passed",
+      "seconds": 0.0007370659999992313
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_empty_archive_is_exact",
+      "status": "passed",
+      "seconds": 0.004567286999986209
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_graph_sharing_has_no_cross_world_table",
+      "status": "passed",
+      "seconds": 5.747700001279554e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_graph_sharing_keeps_mutable_containers_and_distinct_revisions",
+      "status": "passed",
+      "seconds": 3.952900001991111e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_hidden_update_invalidates_cache_without_changing_view",
+      "status": "passed",
+      "seconds": 0.05183201099998769
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_local_validation_still_rejects_invalid_extent",
+      "status": "passed",
+      "seconds": 0.00016478800000641058
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_long_revisions_have_bounded_lookup_and_exact_reconstruction",
+      "status": "passed",
+      "seconds": 5.858484057999988
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_pool_reuses_structure_without_merging_referents",
+      "status": "passed",
+      "seconds": 0.0002164150000112386
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_segment_corruption_and_manifest_reordering_reject",
+      "status": "passed",
+      "seconds": 0.0061931190000166225
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_segment_history_exact_full_and_selective_reconstruction",
+      "status": "passed",
+      "seconds": 0.05022574899999199
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_structural_hash_collisions_verify_equality_before_reuse",
+      "status": "passed",
+      "seconds": 6.894300000226394e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_structural_pool_distinguishes_nested_bool_and_int",
+      "status": "passed",
+      "seconds": 6.70299999967483e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_unresolved_instance_and_ref_still_rejected_atomically",
+      "status": "passed",
+      "seconds": 0.004206826000000774
+    }
+  ]
+}

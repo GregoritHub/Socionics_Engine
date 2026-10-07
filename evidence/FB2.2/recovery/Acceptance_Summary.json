@@ -1,0 +1,37 @@
+{
+  "status": "probe",
+  "passed": true,
+  "tests": 652,
+  "inherited": 602,
+  "workflow": 23,
+  "phase1": 16,
+  "selection": 11,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "witnesses": 20,
+  "controls_rejected": 20,
+  "independent_worlds": 40,
+  "freeze_files": 1228,
+  "source_unchanged": true,
+  "source_freeze_sha256": "c5fffa4235c474b7c027cc5d25bf021c2b37a950e3e192040eca5df768db3e88",
+  "previous_attempts": "Both failures preserved in evidence/FB2.2/Failed_Attempts.zip; not reclassified.",
+  "commands": [
+    {
+      "command": "python tools/test_c6.py evidence/FB2.2/recovery/new-tests tests_workflow_selection tests_c7_workflow tests_g",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/regress_c7_parallel.py evidence/FB2.2/recovery/inherited-regression",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/evaluate_workflow_crossings.py evidence/FB2.2/recovery/panel",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/verify_workflow_selection.py evidence/FB2.2/recovery/panel 20",
+      "exit_code": 0
+    }
+  ]
+}

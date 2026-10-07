@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "tests": 19,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 87.53019123400003,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_actual_acquired_repair_enables_held_out_target",
+      "status": "passed",
+      "seconds": 0.7828437239999744
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_all_32_automatic_cells_have_native_consumers_and_raw_audit",
+      "status": "passed",
+      "seconds": 41.434731949000025
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_automatic_selection_does_not_bypass_shell",
+      "status": "passed",
+      "seconds": 0.8893318699999782
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_c5_upgrade_preserves_exact_world_and_access",
+      "status": "passed",
+      "seconds": 1.0768451070000538
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_cancelled_selection_keeps_spending_and_no_child",
+      "status": "passed",
+      "seconds": 0.8875655230000348
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_context_transfer_absent_without_actual_local_evidence",
+      "status": "passed",
+      "seconds": 0.6391846770000029
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_context_transfer_uses_local_limits_without_importing_authority",
+      "status": "passed",
+      "seconds": 1.814966586999958
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_exhaustion_retains_partial_work_without_launch",
+      "status": "passed",
+      "seconds": 2.177466084999992
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_foreign_demand_cannot_select_for_actor",
+      "status": "passed",
+      "seconds": 0.4098641799999996
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_goal_contract_refuses_route_instructions",
+      "status": "passed",
+      "seconds": 3.6945999966064846e-05
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_hidden_material_change_does_not_change_predelivery_selection",
+      "status": "passed",
+      "seconds": 0.5062270770000055
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_labels_and_candidate_order_do_not_determine_choice",
+      "status": "passed",
+      "seconds": 0.9039581899999689
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_new_owned_observation_changes_competing_route",
+      "status": "passed",
+      "seconds": 0.6133975609999993
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_other_context_does_not_inherit_practiced_skill",
+      "status": "passed",
+      "seconds": 0.5080831719999992
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_partial_selection_and_child_resume_exactly",
+      "status": "passed",
+      "seconds": 32.671088639999994
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_pending_delivery_does_not_become_processed_evidence",
+      "status": "passed",
+      "seconds": 0.4383032249999701
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_raw_auditor_rejects_choice_and_input_tampering",
+      "status": "passed",
+      "seconds": 0.9345878519999928
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_search_budget_discloses_deferred_alternatives",
+      "status": "passed",
+      "seconds": 0.4145520349999856
+    },
+    {
+      "test_id": "tests_c6.test_selection.SelectionTests.test_unpaid_selection_cannot_launch",
+      "status": "passed",
+      "seconds": 0.4246131460000129
+    }
+  ]
+}

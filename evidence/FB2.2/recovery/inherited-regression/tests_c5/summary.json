@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "tests": 19,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 48.77426520099999,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_active_interruption_has_no_material_destination_effect",
+      "status": "passed",
+      "seconds": 2.2598025350000057
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_active_interruption_preserves_first_step_and_exact_resume",
+      "status": "passed",
+      "seconds": 1.8070840139999973
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_all_five_effects_change_native_admission",
+      "status": "passed",
+      "seconds": 13.413291996999988
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_c4_checkpoint_upgrade_preserves_authority_and_history",
+      "status": "passed",
+      "seconds": 1.9728640760000076
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_cancelled_admission_spends_without_child",
+      "status": "passed",
+      "seconds": 1.4458991299999866
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_hidden_evidence_does_not_change_admission",
+      "status": "passed",
+      "seconds": 1.3004462580000222
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_legitimate_constraints_are_not_shell_deformation",
+      "status": "passed",
+      "seconds": 3.380403613999988
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_local_release_does_not_clear_another_target",
+      "status": "passed",
+      "seconds": 0.7282267190000198
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_no_demand_and_incomplete_recall_do_not_clear",
+      "status": "passed",
+      "seconds": 1.5562998180000136
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_partial_admission_and_child_exact_continuation",
+      "status": "passed",
+      "seconds": 4.745210686000007
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_practice_reorganization_and_return_preserve_origin",
+      "status": "passed",
+      "seconds": 1.7474922939999828
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_raw_auditor_rejects_false_completion_endpoint_and_child",
+      "status": "passed",
+      "seconds": 1.2961527429999933
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_received_change_invalidates_paid_admission",
+      "status": "passed",
+      "seconds": 0.5155913799999894
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_route_and_polarity_specificity",
+      "status": "passed",
+      "seconds": 1.084091204999993
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_scaffolded_success_does_not_award_capacity",
+      "status": "passed",
+      "seconds": 0.5381788189999952
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_type_frames_preserve_gate_contract",
+      "status": "passed",
+      "seconds": 8.480192892000048
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_unpaid_admission_cannot_commit",
+      "status": "passed",
+      "seconds": 0.5152127010000527
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_unread_or_stale_subset_cannot_admit",
+      "status": "passed",
+      "seconds": 0.6516914439999937
+    },
+    {
+      "test_id": "tests_c5.test_shell_routes.ShellRouteTests.test_unsupported_effect_cannot_be_cleared",
+      "status": "passed",
+      "seconds": 1.3332759379999857
+    }
+  ]
+}

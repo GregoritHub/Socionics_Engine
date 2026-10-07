@@ -1,28 +1,30 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "active",
-  "current_batch": "2.2",
+  "current_batch": "2.3",
   "completed_batches": [
     "0.1",
     "0.2",
     "1.1",
     "1.2",
-    "2.1"
+    "2.1",
+    "2.2"
   ],
-  "next_batch": "2.2",
+  "next_batch": "2.3",
   "run_id": "recovery-20261007T022751Z-4a05440d",
-  "lease_expires_at": "2026-10-07T03:01:30.884819Z",
-  "updated_at": "2026-10-07T02:31:30.884819Z",
+  "lease_expires_at": "2026-10-07T03:09:30.040079Z",
+  "updated_at": "2026-10-07T02:39:30.040079Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB2.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB2.2 recovery panel 20/20 and independent reconstruction 20 witnesses/20 rejected controls passed. Full tests and inherited regression live; batch not yet complete.",
+  "activity": "FB2.2 accepted: 652 methods; 20 raw witnesses and 20 rejected controls independently reconstructed. Proceeding to FB2.3.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",
     "authorization": "Greg answered Yes to authorizing the fix and resuming remaining Release 1.0 batches under the existing plan.",
     "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
     "remaining_stop_gates": "unchanged; Phase 7 requires R5"
-  }
+  },
+  "automation_status": "Parent re-enable attempt rejected: You cannot modify this task. User asked to re-enable existing task in ChatGPT Tasks; no replacement authorized."
 }

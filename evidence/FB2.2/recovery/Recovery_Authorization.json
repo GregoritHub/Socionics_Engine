@@ -1,0 +1,9 @@
+{
+  "status": "source_defined",
+  "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
+  "question": "Do you want to authorize that fix and resume the remaining Release 1.0 batches under the existing plan?",
+  "answer": "Yes. Will it just keep running as I\u2019d like?",
+  "scope": "Release FB2.2 previous twice-failed stop, fix absent child handling, freeze, rerun acceptance and resume Release 1.0. Remaining gates unchanged; Phase 7/R5 unauthorized.",
+  "previous_failed_archive_sha256": "468f4a14d44273b3fe80556cb4f3cfa4506345f654c803825a5e5e4c509957d2",
+  "prior_blocker_preserved": "evidence/FB2.2/Blocker.json"
+}

@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "tests": 28,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 497.30119397600004,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_c2_upgrade_preserves_exact_world_access_and_behavior",
+      "status": "passed",
+      "seconds": 1.5182310269999846
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_cancel_all_cells_retains_work_and_private_intermediates",
+      "status": "passed",
+      "seconds": 16.03555714899997
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_display_labels_are_not_the_semantic_operation",
+      "status": "passed",
+      "seconds": 1.1996718369999826
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_dissent_retained_without_performance_permission",
+      "status": "passed",
+      "seconds": 3.143784975000017
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_draft_cannot_ratify_itself_or_authorize_apply",
+      "status": "passed",
+      "seconds": 0.7472013089999905
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_duplicate_commands_do_not_duplicate_debits",
+      "status": "passed",
+      "seconds": 0.4933943510000063
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_exact_continuation_three_boundaries_all_cells",
+      "status": "passed",
+      "seconds": 130.725621398
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_exhaustion_cannot_grant_output_or_refund",
+      "status": "passed",
+      "seconds": 0.8665830560000245
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_foreign_inputs_wrong_scope_and_unread_evidence",
+      "status": "passed",
+      "seconds": 0.3320670020000307
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_hidden_stock_change_does_not_alter_undelivered_theory",
+      "status": "passed",
+      "seconds": 0.755397964999986
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_matched_semantic_ablations_change_all_later_uses",
+      "status": "passed",
+      "seconds": 31.28219426100003
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_material_failure_retains_paid_work_without_effect",
+      "status": "passed",
+      "seconds": 1.0026051649999772
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_missing_row_edges_are_composite_and_attitudes_can_vary",
+      "status": "passed",
+      "seconds": 7.650300117000029
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_native_observation_forgery_rejected_independently",
+      "status": "passed",
+      "seconds": 0.37040702799998826
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_no_import_or_private_step_disclosure",
+      "status": "passed",
+      "seconds": 0.30148422299998856
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_observation_revision_changes_reusable_model_use",
+      "status": "passed",
+      "seconds": 0.4354346830000395
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_one_attempt_survives_cancellation_and_public_aliases",
+      "status": "passed",
+      "seconds": 0.6714869680000106
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_polarity_faces_have_distinct_downstream_permissions",
+      "status": "passed",
+      "seconds": 4.879388767999956
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_raw_semantics_debits_predecessors_polarity_and_public_result",
+      "status": "passed",
+      "seconds": 1.4260962710000058
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_received_governed_arrangement_does_not_borrow_authority",
+      "status": "passed",
+      "seconds": 0.47159623699997155
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_received_rule_does_not_grant_practiced_competence",
+      "status": "passed",
+      "seconds": 0.5931816199999957
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_shared_allowance_cannot_be_spent_through_both_apis",
+      "status": "passed",
+      "seconds": 1.8627632480000216
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_stale_group_and_transitive_stance_invalidate_paid_work",
+      "status": "passed",
+      "seconds": 1.4584854280000172
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_twenty_four_contracts_across_sixteen_types",
+      "status": "passed",
+      "seconds": 203.66190093299997
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_unread_reply_and_sent_offer_do_not_make_shared_meaning",
+      "status": "passed",
+      "seconds": 0.7813335949999782
+    },
+    {
+      "test_id": "tests_c3.test_crossings.CrossingTests.test_wrong_draft_votes_and_duplicate_voter_rejected",
+      "status": "passed",
+      "seconds": 0.9179635400000734
+    },
+    {
+      "test_id": "tests_c3.test_source_transfer.SourceTransferTests.test_received_source_changes_existing_choice_all_types_and_faces",
+      "status": "passed",
+      "seconds": 64.70143170099993
+    },
+    {
+      "test_id": "tests_c3.test_source_transfer.SourceTransferTests.test_source_binding_transfer_controls_and_continuation",
+      "status": "passed",
+      "seconds": 19.013124249000043
+    }
+  ]
+}

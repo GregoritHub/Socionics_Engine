@@ -1,0 +1,11 @@
+{
+  "status": "probe",
+  "library_file_id": "libfile_e694eef861f0819198a980dec0eaa456",
+  "expected_sha256": "693112b5fe50d148b93725aea34bc1543269ca05a09c8ac299bbd1e3ab688970",
+  "purpose": "Optional legacy raw-evidence compatibility reuse for subsequent work; not a substitute for current FB2.2 gates.",
+  "metadata_resolved": true,
+  "readable_bytes_verified": false,
+  "helper_result": "library file transfer failed: download failed",
+  "attempts": "Pinned identity, refreshed latest identity, and sandbox escalation; all returned the same download failure.",
+  "effect": "No Library file mutated; no old executor path used; no FB2.1 evidence reclassified. Parent may retry materialization in its environment; current FB2.2 acceptance uses fresh frozen raw worlds saved in Git."
+}
