@@ -37,6 +37,7 @@ def audit_population(transactions, state):
     actors=[r['actor'] for r in requests]
     signatures=[None]*len(actors);repeats=[0]*len(actors)
     counts=[0]*len(actors);stops=[None]*len(actors);cursor=0;total=0;complete=0
+    successful_recipes={};repeated_outputs=0
     for number,row in enumerate(state['events'],1):
         runnable=[(cursor+i)%len(actors) for i in range(len(actors))
                   if stops[(cursor+i)%len(actors)] is None and counts[(cursor+i)%len(actors)]<state['episodes']]
@@ -64,6 +65,8 @@ def audit_population(transactions, state):
                 if row.get('native_status')!=child['status'] or row.get('output')!=(child.get('binding') or child.get('result')):
                     raise ValueError('false native completion summary')
                 complete+=child['status']=='succeeded'
+                if child['status']=='succeeded' and d['recipe'] is not None:
+                    successful_recipes[d['recipe']]=successful_recipes.get(d['recipe'],0)+1
             elif 'native_status' in row:raise ValueError('invented native child')
             feedback=bool(child and child.get('result') and child.get('primitive') in ('inspect','consume','use','repair','care','damage'))
             if not feedback:
@@ -72,7 +75,9 @@ def audit_population(transactions, state):
                     from .records import Account
                     account=versions[child['binding']].facet(Account)
                     signature=(actor,child['context'],child['content_target'],tuple((p.relation,p.object) for p in account.content))
-                    repeats[index]=repeats[index]+1 if signature==signatures[index] else 1
+                    same=signature==signatures[index]
+                    repeats[index]=repeats[index]+1 if same else 1
+                    repeated_outputs+=int(same)
                     signatures[index]=signature
                     if state['repeat_limit'] is not None and repeats[index]>=state['repeat_limit']:
                         if row.get('stop')!='unchanged_retained_result':raise ValueError('missing repetition stop')
@@ -85,4 +90,5 @@ def audit_population(transactions, state):
     if signatures!=state['signatures'] or repeats!=state['repeats']:raise ValueError('retained-result repetition count differs')
     if counts!=state['counts'] or stops!=state['stopped'] or cursor!=state['cursor'] or len(state['events'])!=state['turn']:
         raise ValueError('population final counters differ')
-    return dict(passed=True,turns=state['turn'],modeled_energy=total,native_completions=complete)
+    return dict(passed=True,turns=state['turn'],modeled_energy=total,native_completions=complete,
+        successful_recipes=successful_recipes,repeated_outputs=repeated_outputs)

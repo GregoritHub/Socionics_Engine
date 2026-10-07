@@ -1,0 +1,18 @@
+{
+  "schema": "srl-fb5.2-measurement-amendment-v1",
+  "batch": "5.2",
+  "declared_at": "2026-10-07T20:55:00Z",
+  "supersedes_field": "cost_panel.downstream_query",
+  "original": "One separately timed workflow use-system query consumes a retained output after active timing.",
+  "replacement": "One separately timed workflow use-personal query consumes a retained output after active timing.",
+  "reason": "The frozen population fixture actually selects Contemplate and produces personal content. The first isolated-worker preflight correctly rejected use-system with 'native output consumer required'. The query domain is corrected to the output's declared perspective before any cost panel is accepted.",
+  "unchanged": [
+    "all population seeds, frames, horizons and stop policies",
+    "all history and task-count configurations",
+    "two timing plus one traced sample per configuration",
+    "3.0 inactive-history ratio tolerance",
+    "all separate metrics and audit requirements"
+  ],
+  "failed_preflight_retained": true,
+  "no_results_used_to_tune_tolerance": true
+}
