@@ -19,6 +19,10 @@
 | 4.2 | Nested accountability and the two faces | complete; see FB4.2_Record.md | |
 | 5.1 | Population over workflow selection | complete; see FB5.1_Record.md | |
 | 5.2 | Sustained panel and costs | complete; see FB5.2_Record.md | |
+| 5.3 | Participant-owned generated-content continuation | pending; prospective amendment v1 | |
+| 5.4 | Five continued composition families | pending | |
+| 5.5 | Preregistered 32/32 sustained panel | pending | |
+| 5.6 | Longitudinal Shell controls and integrated extension assessment | pending | |
 | 6.1 | The joint §9 ledger | pending | |
 | 6.2 | Freeze, regression and measurement | pending | |
 | 6.3 | Package and decide | pending | |
@@ -30,3 +34,5 @@
 [machine-checked] Batches through 5.2 are accepted. Latest checkpoint: four sustained IEE/SLI workflow-population worlds independently reconstructed with 60 native completions and 52 repeated outputs; actual sustained coverage is 2/32 cells. Twenty-four isolated cost workers passed with unique/shared inactive-history ratios 1.053×/1.024× against the 3.0× limit. The focused population run passed 24 methods. Earlier failed attempts and author releases remain preserved in their batch records.
 
 [open] Release 1.0 remains incomplete. Next batch is 6.1, the joint §9 ledger. Automatic continuation is enabled; the build lease is released at this verified checkpoint. Phase 7 requires explicit R5.
+
+[source_defined] Revised finish line approved 2026-10-07: see FB_Sustained_Development_Amendment_v1.md. Next work is 5.3, then 5.4–5.6 before original 6.1–6.3. Earlier next-6.1 guidance is superseded prospectively. Accepted evidence remains unchanged; goal-complete is false.

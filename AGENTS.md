@@ -4,7 +4,7 @@ The user authorized completing the supplied Final Build Plan through Release 1.0
 
 Read project_sources/HLE_Final_Build_Plan_v1_0.txt, its companion theory and closure ledger, then docs/FB_Job_Register.md and docs/FB_Run_State.json. Original DOCX files are authoritative if the text transcription is ambiguous. The existing README and Build Specification v10 describe the delivered baseline.
 
-Proceed through batches 0.1–6.3 in order. A batch handoff is a saved checkpoint, not a request for permission. Continue to the next eligible batch once its gate passes. Do not start Phase 7 without the author's explicit R5 ruling.
+Proceed through batches 0.1–6.3 in order, inserting approved batches 5.3–5.6 before 6.1. Read docs/FB_Sustained_Development_Amendment_v1.md; original packaging alone does not satisfy the revised finish line. A batch handoff is a saved checkpoint, not a request for permission. Continue to the next eligible batch once its gate passes. Do not start Phase 7 without the author's explicit R5 ruling.
 
 Preserve every standing rule in the plan: baseline/ is sealed; Python standard library and exact integer structures; protocols hashed before implementation; freezes before evaluation; failed and source-changed attempts retained; independent auditors; matched controls; bounded claims; no changes to inherited meanings. Stop and report for the plan's explicit blocker conditions. Batch 0.1 mismatches are findings, not invitations to repair the supplied baseline. No theoretical register item is closed by the assistant.
 

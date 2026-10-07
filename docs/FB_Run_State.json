@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "active",
-  "current_batch": "5.2",
+  "current_batch": "5.3",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -19,7 +19,7 @@
     "5.1",
     "5.2"
   ],
-  "next_batch": "6.1",
+  "next_batch": "5.3",
   "run_id": "fb-extension-20261007T213135Z-db5e4815",
   "lease_expires_at": "2026-10-07T22:01:35.363453+00:00",
   "updated_at": "2026-10-07T21:31:35.363453+00:00",
@@ -27,7 +27,7 @@
   "release_1_1_authorized": false,
   "record": "docs/FB5.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Claiming approved sustained-development amendment and first prospective continuation batch; no Phase 7 authorization.",
+  "activity": "Approved amendment saved prospectively; FB5.3 continuation investigation before implementation.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -36,7 +36,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Enabled; ready for next eligible batch 6.1.",
+  "automation_status": "Enabled; follow approved 5.3\u20135.6 extension before 6.1\u20136.3; respect active lease.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
@@ -86,5 +86,13 @@
       "method": "automations update after FB4.1 acceptance",
       "verified_enabled": true
     }
-  ]
+  ],
+  "finish_line_amendment": "docs/FB_Sustained_Development_Amendment_v1.md",
+  "additional_batches": [
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+  ],
+  "goal_complete": false
 }
