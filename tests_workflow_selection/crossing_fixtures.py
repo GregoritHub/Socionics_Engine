@@ -22,7 +22,11 @@ def crossing_fixture(name,face,engine_type=WorkflowCrossingSelectionEngine,tim='
 
 def crossing_query(e,r,name):
     if name in SELF_NAMES:return fixed_query(e,r,name)
-    key=r.key+':movement';job=e.job_status(r.actor,key)
+    key=r.key+':movement'
+    # Withholding the defining step creates no native job. Only the lookup's
+    # absent-job error means unavailable output; later consumer errors propagate.
+    try:job=e.job_status(r.actor,key)
+    except KeyError:return 'unavailable selected output'
     if job is None or job['status']!='succeeded':return 'unavailable selected output'
     if name in ('Express','Apply'):
         source=receive(e,job['result'],ALICE,'fixed-selected-event');domain='activity';done=();clock=0
