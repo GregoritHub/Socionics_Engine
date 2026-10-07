@@ -1,0 +1,14 @@
+test_admission_schema_and_history_stay_unchanged (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_admission_schema_and_history_stay_unchanged) ... ok
+test_all_five_effect_kinds_and_exact_continuation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_all_five_effect_kinds_and_exact_continuation) ... ok
+test_governed_apply_allowance_is_not_restored (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_governed_apply_allowance_is_not_restored) ... ok
+test_legitimate_danger_does_not_start_or_interrupt (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_legitimate_danger_does_not_start_or_interrupt) ... ok
+test_material_history_and_debits_survive_cancellation (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_material_history_and_debits_survive_cancellation) ... ok
+test_mobilize_allowance_is_not_restored (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_mobilize_allowance_is_not_restored) ... ok
+test_partial_child_restore_before_boundary (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_partial_child_restore_before_boundary) ... ok
+test_single_and_multiple_steps_keep_paid_intermediates (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_single_and_multiple_steps_keep_paid_intermediates) ... ok
+test_tampered_intermediate_spending_and_completion_rejected (tests_workflow_interruption.test_active.ActiveInterruptionTests.test_tampered_intermediate_spending_and_completion_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 61.440s
+
+OK

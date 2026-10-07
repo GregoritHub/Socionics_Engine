@@ -31,3 +31,5 @@
 [open] Attempt3 freeze `8bc14dc3420735d9784bc3f692c9f41a7d5737221367ac5ec30988bc07817f35` covers 1262 files. Nine new methods and 667 existing methods, the 32-cell panel and independent 192-world continuation reconstruction are pending.
 
 [machine-checked] Continuation was re-enabled after the explicit author release.
+
+[machine-checked] Attempt3 new-test gate passed: nine distinct methods, zero failures/errors, unchanged source. Native cancellation Account provenance and four forged-source controls are verified. Remaining regression and panel gates are still running; batch not yet accepted.
