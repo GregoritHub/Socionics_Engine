@@ -1,0 +1,25 @@
+{
+  "file_name": "Socionics_Final_Build_FB4.1_Evidence.zip",
+  "bytes": 2024755,
+  "sha256": "af9db4a060b9365d8ad83982b15c374866fac15b1829578fa30b02ac5a0eacc4",
+  "members": 157,
+  "library_file_id": "libfile_c06cafc408b88191803a984a832c736e",
+  "file_id": "file_000000008c84820ea5464b573df75ed2",
+  "restore": "Materialize the exact file_id through Library. Verify archive bytes and SHA-256, extract into evidence/ (members start FB4.1/), and validate every file in FB4.1/attempt3/Raw_SHA256.json. The manifest excludes itself and the post-archive index. Source freeze commit: 99ffe443dd4a7daf9e79e20f56d2c7f3b93aedc4.",
+  "manifest": "FB4.1/attempt3/Raw_SHA256.json",
+  "source_freeze_sha256": "feb356ea859278fb9436d18f7e62b455c74910db7229659ef6327b7a10814da3",
+  "source_freeze_files": 1278,
+  "accepted_attempt": 3,
+  "failed_attempts": [
+    "FB4.1/attempt1",
+    "FB4.1/attempt2"
+  ],
+  "verify_command": "python tools/verify_workflow_composition.py evidence/FB4.1/attempt3/matrix",
+  "test_commands": [
+    "python tools/test_c6.py evidence/FB4.1/attempt3/new-tests tests_workflow_composition",
+    "python tools/test_c6.py evidence/FB4.1/attempt3/development-regression tests_workflow_development",
+    "python tools/regress_c7_parallel.py evidence/FB4.1/attempt3/inherited-regression",
+    "python tools/test_c6.py evidence/FB4.1/attempt3/workflow-regression tests_workflow_selection tests_c7_workflow tests_g tests_workflow_shell tests_workflow_interruption"
+  ],
+  "index_added_after_archive": true
+}

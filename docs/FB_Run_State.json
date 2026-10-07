@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "ready",
   "current_batch": "4.1",
   "completed_batches": [
     "0.1",
@@ -13,17 +13,18 @@
     "2.4",
     "3.1",
     "3.2",
-    "3.3"
+    "3.3",
+    "4.1"
   ],
-  "next_batch": "4.1",
-  "run_id": "fb41-20261007T153322Z-7fd6021a",
-  "lease_expires_at": "2026-10-07T16:34:47.585119Z",
-  "updated_at": "2026-10-07T16:04:47.585119Z",
+  "next_batch": "4.2",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-07T16:10:58.763576Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB4.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB4.1 frozen run active: 612 targeted/inherited methods passed; 74-method workflow regression running before the ten-world composition panel.",
+  "activity": "FB4.1 accepted: 686 methods and 10 raw composition worlds passed; five ordinary-auditor control rejections verified. Ready for batch4.2 nesting and face protocol.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -32,7 +33,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Verified enabled; ready for next eligible batch.",
+  "automation_status": "Enabled; ready for next eligible batch 4.2.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T14:33:25.046873Z",
@@ -59,7 +60,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb32-recovery-20261007T134938Z-5f1c59d6",
+  "last_run_id": "fb41-20261007T153322Z-7fd6021a",
   "blocker": null,
   "automation_verification_history": [
     {

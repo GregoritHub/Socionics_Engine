@@ -1,0 +1,340 @@
+{
+  "passed": true,
+  "families": 5,
+  "witness_worlds": 5,
+  "ablation_worlds": 5,
+  "raw_worlds": 10,
+  "participant_replay": false,
+  "rows": [
+    {
+      "family": "theorize-apply-embody",
+      "witness": {
+        "file": "theorize-apply-embody.json.gz",
+        "bytes": 120355,
+        "sha256": "fcabc5f40b78003563aa008b4a285cea7f0da9586b359061b73f5e4409da7ca3"
+      },
+      "ablation": {
+        "file": "theorize-apply-embody-ablation.json.gz",
+        "bytes": 118338,
+        "sha256": "fbc10f3f0327c62e60e70f51c7473736cfe0d71d6c63e15c88f7745382d97cb5"
+      },
+      "audit": {
+        "passed": true,
+        "family": "theorize-apply-embody",
+        "steps": [
+          [
+            "Theorize",
+            "accumulation"
+          ],
+          [
+            "Apply",
+            "expenditure"
+          ],
+          [
+            "Embody",
+            "expenditure"
+          ]
+        ],
+        "witness_outputs": [
+          "656a29e2e4fbbb96783954d28bf64ddfb400ba3d2949a94b13ceb8d3d350641c",
+          "7a451136aa78bffeebc503757e96d93bb9a4363cd21f0937146554c70a6b78dc",
+          "9103c0fcbb9393e58a8484f8336697927f3f142efede293e6c99bcc135a13cef"
+        ],
+        "ablation_outputs": [
+          "656a29e2e4fbbb96783954d28bf64ddfb400ba3d2949a94b13ceb8d3d350641c",
+          "899abbbd0d427a64495d51e8405bbe3b8ff0e8f3360e7471cbb76c2ade04ffdd",
+          "27732b064fc9e747214da66f357b4c15ab42e1a59b3fa55b5f64db48a0f5c461"
+        ],
+        "comparison_spent": 53,
+        "cut": "tae-apply",
+        "changed_outputs": [
+          "tae-apply",
+          "tae-embody"
+        ],
+        "witness_answer": [
+          "work",
+          "use",
+          "ObjectId(namespace='workshop', key='alice')",
+          true
+        ],
+        "ablation_answer": [
+          null,
+          null,
+          null,
+          false
+        ],
+        "ordinary_ablation_rejection": "workflow semantic postcondition differs",
+        "origin_conflict": {
+          "source": "c7w.output:58ebec56a34a5d2948d5d644b9c452f69d6597cfc71654b451a54d8f5d06564d@1",
+          "digest": "9206d9014fae57a5d84336b65475e981b3d2fa09e4e751e889318670f24ad03e",
+          "conflicts": [
+            "maintain"
+          ]
+        },
+        "exact_generated_handoffs": 2,
+        "participant_replay": false
+      }
+    },
+    {
+      "family": "share-commune-identify",
+      "witness": {
+        "file": "share-commune-identify.json.gz",
+        "bytes": 190265,
+        "sha256": "07eab999af4c5d0135f4d9fec8873e3eacde8bf5a851d35ff81d3e59a7749d72"
+      },
+      "ablation": {
+        "file": "share-commune-identify-ablation.json.gz",
+        "bytes": 190208,
+        "sha256": "5252e562536772b99afe8b65dda840eb5f7f8044d08f62345985cfc1f2649d21"
+      },
+      "audit": {
+        "passed": true,
+        "family": "share-commune-identify",
+        "steps": [
+          [
+            "Share",
+            "accumulation"
+          ],
+          [
+            "Commune",
+            "expenditure"
+          ],
+          [
+            "Identify",
+            "expenditure"
+          ]
+        ],
+        "witness_outputs": [
+          "b686a905b775b630f2e1a9d76f6a79fe3a390cd58d28ca0f5c4258723ce9a1da",
+          "bc4cdcc5fb9db801ea104ecea0302ee4d7e00b5dd8165544ab5eb7d34e9ec9f1",
+          "7e7f7d2f278cc56c196643c80a3759264a1643474b19e838f33dbf15f213d970"
+        ],
+        "ablation_outputs": [
+          "b686a905b775b630f2e1a9d76f6a79fe3a390cd58d28ca0f5c4258723ce9a1da",
+          "0fd13a160e0821fd9aee449d0b7de996b6bbdbce0d4a112049f26246bfff9ada",
+          "6c7efd19bcd96d849ff863012c67834ae48ebb84b68d1fc6c184caf764c2f1f6"
+        ],
+        "comparison_spent": 123,
+        "cut": "sci-commune",
+        "changed_outputs": [
+          "sci-commune",
+          "sci-identify"
+        ],
+        "witness_answer": [
+          "handover",
+          "transfer",
+          "ObjectId(namespace='workshop', key='alice')",
+          true
+        ],
+        "ablation_answer": [
+          null,
+          null,
+          null,
+          false
+        ],
+        "ordinary_ablation_rejection": "workflow semantic postcondition differs",
+        "origin_conflict": {
+          "source": "c7w.output:42eb9a56947392df6e1e45202ea476a252e9fe5802c5fed9e7be881df5baaba1@1",
+          "digest": "b98ece5793036214c22f1b65233d12f6b1e9b9d1ff27b5d2a8e80977391e5ad3",
+          "conflicts": [
+            "maintain"
+          ]
+        },
+        "exact_generated_handoffs": 2,
+        "participant_replay": false
+      }
+    },
+    {
+      "family": "coordinate-mobilize",
+      "witness": {
+        "file": "coordinate-mobilize.json.gz",
+        "bytes": 167131,
+        "sha256": "c1f7c4e2816c384b9c1eac6fec9d6c95f0edd3621c6fe3edbf7b8c38674f9302"
+      },
+      "ablation": {
+        "file": "coordinate-mobilize-ablation.json.gz",
+        "bytes": 165390,
+        "sha256": "79328d59d7683abcfacd073e0571a4ca673e3a77388362ad09c783c2b08873ba"
+      },
+      "audit": {
+        "passed": true,
+        "family": "coordinate-mobilize",
+        "steps": [
+          [
+            "Coordinate",
+            "expenditure"
+          ],
+          [
+            "Mobilize",
+            "expenditure"
+          ]
+        ],
+        "witness_outputs": [
+          "e62cc23d43d633f25353dff433b15c236b9262bf3cf69f6c2c0f2979b31fe651",
+          "63f7b444d6d400fa0fcee67e56f2ea794905859cb675d0e26523f03408516b0c"
+        ],
+        "ablation_outputs": [
+          "e62cc23d43d633f25353dff433b15c236b9262bf3cf69f6c2c0f2979b31fe651",
+          "852b8736ec3225e30012484f8776a509df846b2d0bc6af2ab8c456aef2567dc4"
+        ],
+        "comparison_spent": 68,
+        "cut": "cm-mobilize",
+        "changed_outputs": [
+          "cm-mobilize"
+        ],
+        "witness_answer": [
+          "work",
+          "use",
+          "ObjectId(namespace='workshop', key='alice')",
+          true
+        ],
+        "ablation_answer": [
+          null,
+          null,
+          null,
+          false
+        ],
+        "ordinary_ablation_rejection": "workflow semantic postcondition differs",
+        "origin_conflict": {
+          "source": "c7w.output:e2859a495cb0cc9c3087d55826b1cef3a707b28f8182f91700e2c06e23c4e0c4@1",
+          "digest": "4d863f413bd1e864e341eaec9038d79e460ff48c43098895e70ef0001b1eabac",
+          "conflicts": [
+            "maintain"
+          ]
+        },
+        "exact_generated_handoffs": 1,
+        "participant_replay": false
+      }
+    },
+    {
+      "family": "institutionalize-educate",
+      "witness": {
+        "file": "institutionalize-educate.json.gz",
+        "bytes": 228021,
+        "sha256": "8878993623292f6633234b8f1b749cd5b64b1596d34cb6aec14b1e7f06a1404c"
+      },
+      "ablation": {
+        "file": "institutionalize-educate-ablation.json.gz",
+        "bytes": 227764,
+        "sha256": "f160bada7d72fef15afb34d02e43238fafca6de1c9b9cb9b1079be43d1c203de"
+      },
+      "audit": {
+        "passed": true,
+        "family": "institutionalize-educate",
+        "steps": [
+          [
+            "Institutionalize",
+            "expenditure"
+          ],
+          [
+            "Educate",
+            "accumulation"
+          ]
+        ],
+        "witness_outputs": [
+          "446582d4923ad338d5565ad105ebdc30287faee9ca0b1ef54a76625ecb3b8344",
+          "1ef71c70aa5a3412722301a79a8dc777bd3c8ead51b380a138c2cdf9c34e1c51"
+        ],
+        "ablation_outputs": [
+          "446582d4923ad338d5565ad105ebdc30287faee9ca0b1ef54a76625ecb3b8344",
+          "15b34c96aa420f4c57f11d86e359cb80fa5378f4ae92a186922eea3f2c0a695c"
+        ],
+        "comparison_spent": 131,
+        "cut": "ie-educate",
+        "changed_outputs": [
+          "ie-educate"
+        ],
+        "witness_answer": [
+          "handover",
+          "transfer",
+          "ObjectId(namespace='workshop', key='alice')",
+          true
+        ],
+        "ablation_answer": [
+          null,
+          null,
+          null,
+          false
+        ],
+        "ordinary_ablation_rejection": "workflow semantic postcondition differs",
+        "origin_conflict": {
+          "source": "c7w.output:137cd7c32c6d1d26358e6cb1a9cfa183a428cfb3f18343a170035ee9d7ff24f8@1",
+          "digest": "7907c95974d15eb811e4d0a73b32271537fc1f9992022c55799177c8a83f7075",
+          "conflicts": [
+            "maintain"
+          ]
+        },
+        "exact_generated_handoffs": 1,
+        "participant_replay": false
+      }
+    },
+    {
+      "family": "organize-integrate-apply",
+      "witness": {
+        "file": "organize-integrate-apply.json.gz",
+        "bytes": 143149,
+        "sha256": "b9b14ed6d88cd3ef670aa074e8c8016b82a97b119f6ac2f52aed55a50adcde26"
+      },
+      "ablation": {
+        "file": "organize-integrate-apply-ablation.json.gz",
+        "bytes": 141930,
+        "sha256": "147af02a7e65e8de505e22a0da33d63845939884805a798fdcc851da779de13b"
+      },
+      "audit": {
+        "passed": true,
+        "family": "organize-integrate-apply",
+        "steps": [
+          [
+            "Organize",
+            "expenditure"
+          ],
+          [
+            "Integrate",
+            "expenditure"
+          ],
+          [
+            "Apply",
+            "expenditure"
+          ]
+        ],
+        "witness_outputs": [
+          "4c676f7d95163e4e072a670e07dfeabfa21af2017e73c122915ae0322a825a86",
+          "4bef6ac585933a9f876439c31e63ceba4ffe73159a43c2b48636a9a6c410ed2f",
+          "e65dcfa52507d7642d6f2d0ee17e785fa9de7f2f22de5aeb290775936856a98d"
+        ],
+        "ablation_outputs": [
+          "4c676f7d95163e4e072a670e07dfeabfa21af2017e73c122915ae0322a825a86",
+          "4bef6ac585933a9f876439c31e63ceba4ffe73159a43c2b48636a9a6c410ed2f",
+          "f67895b42a93ea081ed3ea828d2a5b4dbbfbbf280cbae037469fb43c375de8fc"
+        ],
+        "comparison_spent": 89,
+        "cut": "oia-apply",
+        "changed_outputs": [
+          "oia-apply"
+        ],
+        "witness_answer": [
+          "work",
+          "use",
+          "ObjectId(namespace='workshop', key='alice')",
+          true
+        ],
+        "ablation_answer": [
+          null,
+          null,
+          null,
+          false
+        ],
+        "ordinary_ablation_rejection": "workflow semantic postcondition differs",
+        "origin_conflict": {
+          "source": "c7w.output:0bbf51b43ef0f1c8440a39413510e4bfad460da9685e60e9de90a6db6739ccbd@1",
+          "digest": "a409211ce9e156898da0fe80f801a52220ccd9cee39bc6860f915dd2b758bf3a",
+          "conflicts": [
+            "maintain"
+          ]
+        },
+        "exact_generated_handoffs": 2,
+        "participant_replay": false
+      }
+    }
+  ]
+}

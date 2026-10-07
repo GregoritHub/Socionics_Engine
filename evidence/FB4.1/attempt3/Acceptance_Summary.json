@@ -1,0 +1,42 @@
+{
+  "batch": "4.1",
+  "accepted_attempt": 3,
+  "passed": true,
+  "tests": {
+    "existing": 680,
+    "new": 6,
+    "total": 686,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "panel": {
+    "families": 5,
+    "witness_worlds": 5,
+    "ablation_worlds": 5,
+    "raw_worlds": 10,
+    "ordinary_ablation_rejections": 5,
+    "changed_fixed_downstream_answers": 5,
+    "origin_conflicts_preserved": 5,
+    "participant_replay": false
+  },
+  "family_costs": {
+    "theorize-apply-embody": 53,
+    "share-commune-identify": 123,
+    "coordinate-mobilize": 68,
+    "institutionalize-educate": 131,
+    "organize-integrate-apply": 89
+  },
+  "source_freeze": {
+    "files": 1278,
+    "sha256": "feb356ea859278fb9436d18f7e62b455c74910db7229659ef6327b7a10814da3",
+    "prior_accepted_files_unchanged": 1270,
+    "new_files": 8
+  },
+  "development_attempts": {
+    "attempt1": "failed pre-freeze: new auditor did not canonicalize ObjectRef/ObjectId values",
+    "attempt2": "failed pre-freeze: public/binding alias and stale material-target fixture assumptions",
+    "attempt3": "accepted frozen run"
+  },
+  "limits": "Bounded workflow content only; no competence, authority, conflict resolution, theoretical register closure, release decision, Model G pricing change or Phase 7 authorization."
+}

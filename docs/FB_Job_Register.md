@@ -15,7 +15,7 @@
 | 3.1 | Prevention of initiation | complete; see FB3.1_Record.md | |
 | 3.2 | Active interruption | complete after authorized recovery; see FB3.2_Record.md | |
 | 3.3 | Effects, signs, correction and recurrence | complete; see FB3.3_Record.md | |
-| 4.1 | The five families in workflow content | pending | |
+| 4.1 | The five families in workflow content | complete; see FB4.1_Record.md | |
 | 4.2 | Nested accountability and the two faces | pending | |
 | 5.1 | Population over workflow selection | pending | |
 | 5.2 | Sustained panel and costs | pending | |
@@ -27,6 +27,6 @@
 | 7.3 | The conditioning ledger | awaiting author R5 | |
 | 7.4 | Evaluation and decision | awaiting author R5 | |
 
-[machine-checked] Batches through 3.3 are accepted. Latest checkpoint: 680 distinct passing methods, 64 accepted effect witnesses reverified, 16 new development snapshots, and all four workflow diagnostic signs. FB3.2 failures and its explicit author release remain recorded in FB3.2_Record.md.
+[machine-checked] Batches through 4.1 are accepted. Latest checkpoint: 686 distinct passing methods; five workflow composition families and five equal-price defining-step ablations independently reconstructed from 10 raw worlds; all five controls changed the fixed downstream answer and were rejected by the ordinary auditor. Earlier failed attempts and author releases remain preserved in their batch records.
 
-[open] Release 1.0 remains incomplete. Next batch is 4.1, workflow composition. Automatic continuation is enabled; the build lease is released at this verified checkpoint. Phase 7 requires explicit R5.
+[open] Release 1.0 remains incomplete. Next batch is 4.2, bounded workflow nesting and the 16 face comparisons. Automatic continuation is enabled; the build lease is released at this verified checkpoint. Phase 7 requires explicit R5.

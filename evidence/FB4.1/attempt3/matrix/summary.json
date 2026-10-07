@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "families": 5,
+  "witness_worlds": 5,
+  "ablation_worlds": 5,
+  "raw_worlds": 10,
+  "source_unchanged": true
+}

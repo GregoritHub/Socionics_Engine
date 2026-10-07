@@ -1,0 +1,20 @@
+{
+  "prior_freeze": "evidence/FB3.3/attempt1/matrix/source_freeze.json",
+  "prior_files": 1270,
+  "current_freeze": "evidence/FB4.1/attempt3/matrix/source_freeze.json",
+  "current_files": 1278,
+  "overlap_changed": 0,
+  "removed": 0,
+  "added": 8,
+  "added_files": [
+    "contracts/C7_Workflow_Composition_Protocol_v1.json",
+    "contracts/C7_Workflow_Composition_Protocol_v1.sha256",
+    "hle_unified/workflow_composition_audit.py",
+    "tests_workflow_composition/__init__.py",
+    "tests_workflow_composition/fixtures.py",
+    "tests_workflow_composition/test_composition.py",
+    "tools/evaluate_workflow_composition.py",
+    "tools/verify_workflow_composition.py"
+  ],
+  "passed": true
+}
