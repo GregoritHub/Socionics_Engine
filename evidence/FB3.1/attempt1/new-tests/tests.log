@@ -1,0 +1,114 @@
+test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) ... 
+  test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Contemplate') ... ERROR
+  test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Express') ... ERROR
+  test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Share') ... ERROR
+  test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Theorize') ... ERROR
+test_audit_records_private_and_legacy_checkpoint_upgrade (tests_workflow_shell.test_prevention.PreventionTests.test_audit_records_private_and_legacy_checkpoint_upgrade) ... ERROR
+test_exact_partial_admission_and_child_continuation (tests_workflow_shell.test_prevention.PreventionTests.test_exact_partial_admission_and_child_continuation) ... ok
+test_legitimate_constraints_are_not_deformations (tests_workflow_shell.test_prevention.PreventionTests.test_legitimate_constraints_are_not_deformations) ... ERROR
+test_partial_information_and_no_demand_are_not_shells (tests_workflow_shell.test_prevention.PreventionTests.test_partial_information_and_no_demand_are_not_shells) ... ok
+test_tampered_completion_roles_and_exact_inputs_rejected (tests_workflow_shell.test_prevention.PreventionTests.test_tampered_completion_roles_and_exact_inputs_rejected) ... ERROR
+
+======================================================================
+ERROR: test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Contemplate')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 12, in test_all_destinations_and_matched_invalid_bypasses
+    worlds,row=panel_case(name,'accumulation')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 59, in panel_case
+    _,d,blocked=finish(worlds['deformed'],out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+======================================================================
+ERROR: test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Express')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 12, in test_all_destinations_and_matched_invalid_bypasses
+    worlds,row=panel_case(name,'accumulation')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 59, in panel_case
+    _,d,blocked=finish(worlds['deformed'],out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+======================================================================
+ERROR: test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Share')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 12, in test_all_destinations_and_matched_invalid_bypasses
+    worlds,row=panel_case(name,'accumulation')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 59, in panel_case
+    _,d,blocked=finish(worlds['deformed'],out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+======================================================================
+ERROR: test_all_destinations_and_matched_invalid_bypasses (tests_workflow_shell.test_prevention.PreventionTests.test_all_destinations_and_matched_invalid_bypasses) (name='Theorize')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 12, in test_all_destinations_and_matched_invalid_bypasses
+    worlds,row=panel_case(name,'accumulation')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 59, in panel_case
+    _,d,blocked=finish(worlds['deformed'],out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+======================================================================
+ERROR: test_audit_records_private_and_legacy_checkpoint_upgrade (tests_workflow_shell.test_prevention.PreventionTests.test_audit_records_private_and_legacy_checkpoint_upgrade)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 70, in test_audit_records_private_and_legacy_checkpoint_upgrade
+    out=prepare(e,'Contemplate','accumulation');dev.supply8(e,'current',target=out['request'].target);e,d,_=finish(e,out)
+                                                                                                            ^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+======================================================================
+ERROR: test_legitimate_constraints_are_not_deformations (tests_workflow_shell.test_prevention.PreventionTests.test_legitimate_constraints_are_not_deformations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 31, in test_legitimate_constraints_are_not_deformations
+    e,receipt,later=finish(e,out)
+                    ^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+======================================================================
+ERROR: test_tampered_completion_roles_and_exact_inputs_rejected (tests_workflow_shell.test_prevention.PreventionTests.test_tampered_completion_roles_and_exact_inputs_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/test_prevention.py", line 44, in test_tampered_completion_roles_and_exact_inputs_rejected
+    worlds,_=panel_case('Theorize','accumulation');e=worlds['corrected']
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 59, in panel_case
+    _,d,blocked=finish(worlds['deformed'],out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined
+
+----------------------------------------------------------------------
+Ran 6 tests in 11.941s
+
+FAILED (errors=7)

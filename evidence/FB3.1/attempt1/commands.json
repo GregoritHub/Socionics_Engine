@@ -1,0 +1,14 @@
+[
+  {
+    "command": [
+      "python",
+      "tools/test_c6.py",
+      "evidence/FB3.1/attempt1/new-tests",
+      "tests_workflow_shell"
+    ],
+    "started_at": "2026-10-07T12:16:55.817798+00:00",
+    "seconds": 12.132294634997379,
+    "exit_code": 1,
+    "source_unchanged": true
+  }
+]

@@ -9,3 +9,5 @@
 [derived] Added three workflow-specific modules for the request/schema, paid execution and independent raw audit. Canonical route correspondence feeds the unchanged inherited encounter policy; the child remains an ordinary native workflow. Exact material/social/query roles, original obligation, owner/carrier/bearer, paid extent and child lineage are independently checked. A deliberate evaluator-only bypass supplies matched-cost negative controls.
 
 [open] Attempt1 freeze: `d8e5efa6219e07d1cb4ad1536e3c78f03e7562c58fa27e8de0a1fdb673bb8a1d`; 1250 source/contract files. All previously frozen files are unchanged. Acceptance tests and the 32-cell panel are next.
+
+[probe] Attempt1 new-test gate failed: the new fixture omitted the explicit `address` import, causing seven error entries across four methods (including four destination subtests); two methods passed. No full gate is credited. Tests/logs, frozen source and a separately labelled unchanged-source reproduced deformed raw world are preserved under `evidence/FB3.1/attempt1/`. The correction is a fixture import only; native runtime remains unchanged.

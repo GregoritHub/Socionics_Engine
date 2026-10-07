@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "changed_from_attempt1": [
+    "tests_workflow_shell/fixtures.py"
+  ],
+  "engine_unchanged": true,
+  "baseline_unchanged": true,
+  "source_files": 1250
+}

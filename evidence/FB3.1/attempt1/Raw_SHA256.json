@@ -1,0 +1,13 @@
+{
+  "Attempt_Summary.json": "b95853dc1a9deb6b6d9b51a6197f9a1da539333662e6a383f63d8d83821e99b6",
+  "Protection_Check.json": "3223deba2ac5708add56abcbb8fe7643555620109ac8af7c09aab1b107b4a24d",
+  "commands.json": "38df5fbe5319af48ec37a58bc7d0c1b878cb8e9b47fc75ed52e8dc7a9c35b157",
+  "failed_fixtures.py.txt": "f97b7bbb13b9ff814da6f76a9437ff60d34525239f520cd258bf13c243942088",
+  "new-tests/source.json": "9b6685799f822cd5ef2f0091fe171169b7d73e9a73581d688309c936999bb97c",
+  "new-tests/summary.json": "c7ab7e83781399088192deee7a7c8e77febb268e7dbc022d8a27229b9f65080e",
+  "new-tests/tests.log": "fa3eaa21a28d86ca5d7069bab67155bf80524bd11dc93705a33f572cd932194a",
+  "new-tests.stdout.log": "a7bc7d963d222d4545cec0d6be9d8d5f417ed38344e8cb91947990700ac54def",
+  "reproduction-traceback.txt": "c327ddd4f9b1120c103c840e39255288ea3366a7dae4a32fc31d3d06d5b90d80",
+  "source_freeze.json": "d8e5efa6219e07d1cb4ad1536e3c78f03e7562c58fa27e8de0a1fdb673bb8a1d",
+  "unchanged-source-reproduced-deformed.json.gz": "b458a4e4026986e59bc48a4e0e5834f30d32e2b9faa1b2a62799fbf88af9eee1"
+}

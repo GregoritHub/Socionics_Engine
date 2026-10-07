@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 59, in panel_case
+    _,d,blocked=finish(worlds['deformed'],out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics/tests_workflow_shell/fixtures.py", line 38, in finish
+    d=attrs(e.world.resolve(address('c7sh.admission',r.actor,key)))
+                            ^^^^^^^
+NameError: name 'address' is not defined

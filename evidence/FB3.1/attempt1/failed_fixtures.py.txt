@@ -6,7 +6,6 @@ from hle_unified.workflow_shell_records import WorkflowShellRequest
 from hle_unified.workflow_shell_audit import audit
 from hle_unified.shell_records import PatternPolicy, Effect
 from hle_unified.selection_records import NAMES, FACES
-from hle_unified.operations import address
 
 class BypassedGate(WorkflowShellEngine):
     """Deliberate evaluator intervention; ordinary raw audit must reject it."""

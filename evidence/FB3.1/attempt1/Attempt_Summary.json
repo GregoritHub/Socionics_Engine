@@ -1,0 +1,12 @@
+{
+  "accepted": false,
+  "status": "failed",
+  "gate": "new workflow Shell tests",
+  "methods": 6,
+  "errors": 7,
+  "failures": 0,
+  "source_unchanged": true,
+  "cause": "Fixture did not import address; four test methods errored (including four destination subtests). Two methods passed. No complete gate credited.",
+  "reproduction": "One separate unchanged-source Contemplate reproduction retains the deformed raw world; not a passing evaluation.",
+  "correction": "Import address explicitly from hle_unified.operations; no runtime change."
+}
