@@ -1,0 +1,32 @@
+{
+  "schema": "hle-c7-workflow-shell-interruption-protocol-v1",
+  "status": "source_defined prospective clarification; no gates weakened",
+  "batch": "3.2",
+  "parent": "C7_Workflow_Shell_Protocol_v1.json",
+  "scope": "Three new interruption modules and a new checkpoint schema leave accepted admission-only classes and all inherited files byte-for-byte unchanged.",
+  "panel": {
+    "cells": 32,
+    "types": [
+      "iee"
+    ],
+    "interrupted_worlds": 32,
+    "undeformed_controls": 32,
+    "invalid_continuation_controls": 32,
+    "exact_checkpoint_pairs": 32,
+    "effects": "Cycle obligation, salience(-1), forecast, exclude_route, approval over canonical NAMES/FACES order. Only approval is generated; others are fixtures."
+  },
+  "boundary": "Native recall plus first route step charges plus first content units. The first actual semantic intermediate is retained; remaining work, retention and material commitment are cancelled. Single-step recipes stop before retention/commit, not before a fictional second step.",
+  "controls": "The deliberately invalid continuation arm starts from the identical checkpoint and pays the identical encounter and first-semantic-step prefix. It bypasses the zero-cost cancellation decision and completes the unchanged native workflow plus the fixed consumer. Audit must reject escaped continuation. Later child/consumer spending is separately reported, never represented as matched cancelled spending.",
+  "undeformed": "Generated-approval control pays inherited exact-target correction. Other effect kinds use the declared pre-pattern fixture control. All controls complete the actual native consumer; no unsupported correction is invented.",
+  "continuation": "Save a checkpoint at the actual cancelled boundary for every cell. Restore it with the new schema. Both original and restored execute an identical additional paid native encounter in increments 1,3,remaining and commit; checkpoints and wallet progression must be exactly equal. Save both results and the cancelled checkpoint. Never reopen the cancelled child.",
+  "allowances": "Explicit Mobilize and governed-Apply one-attempt tests must show unchanged rejection after interruption and restoration; the original paid intermediate and debits remain.",
+  "audit": "New independent auditor composes accepted workflow Shell audit and reconstructs new interruption namespace from raw transactions. No executor/selector imports and no participant replay in independent verifier. Verify endpoint, first intermediate lineage, cancellation, remaining material absence, replacement intention, exact spent prefix and old request ownership.",
+  "test_gate": "667 existing distinct test methods plus new interruption tests on one unchanged source freeze; source hashes and all command results retained.",
+  "failure_policy": "Standing plan stop rules unchanged; every failed/source-changed attempt retained.",
+  "not_claimed": [
+    "active energy Model G pricing",
+    "general psychological mechanism",
+    "general cross-owner nesting",
+    "completion of Phase3.3 or Release1.0"
+  ]
+}
