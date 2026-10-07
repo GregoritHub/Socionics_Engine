@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT),str(ROOT/'baseline/HLE_Rebuild_R21B')]
 from itertools import permutations
 from hle_unified.workflow_audit import audit as native_audit, extent as native_extent
-from hle_unified.workflow_reference import decode, check_authored, schedule, answer
+from hle_unified.workflow_reference import decode, check_authored, schedule, answer, response_tasks
 from hle_unified.workflow_records import WORKFLOW_RECIPES
 from hle_unified.workflow_selection_records import demand_value, dumps, loads
 from hle_unified.crux_audit import _access
@@ -29,6 +29,7 @@ def policy_cells(s):
     policy=s.get('policy','c7-workflow-selection-v1')
     if policy=='c7-workflow-selection-v1':return CELLS
     if policy=='c7-workflow-selection-v2':return tuple(i for i in range(32) if i//2 in (0,1,3,4,5,7,10,12,13,15))
+    if policy=='c7-workflow-selection-v3':return tuple(range(32))
     raise ValueError('unknown candidate policy')
 
 def reference(s):
@@ -38,7 +39,8 @@ def reference(s):
     for cell in cells:
         n=names[cell//2]; f=('accumulation','expenditure')[cell%2]
         recipe=WORKFLOW_RECIPES['workflow-'+n.lower()+'-'+f+'-v1']
-        size={'Contemplate':2,'Act':1,'Commune':3,'Integrate':2,'Express':1,'Theorize':1,'Embody':1,'Understand':2,'Apply':1,'Organize':0}[n]; bundles=[]
+        size={'Contemplate':2,'Act':1,'Commune':3,'Integrate':2,'Express':1,'Theorize':1,'Embody':1,'Understand':2,'Apply':1,'Organize':0,
+            'Share':3,'Coordinate':3,'Educate':3,'Identify':2,'Mobilize':1,'Institutionalize':0}[n]; bundles=[]
         for bundle in permutations(s['items'],size):
             ks=tuple(x['data']['kind'] for x in bundle)
             if n=='Contemplate' and not (set(ks)<={'intention','stance'} and dumps(bundle[0]['ref'])<dumps(bundle[1]['ref'])):continue
@@ -51,10 +53,25 @@ def reference(s):
             if n=='Apply' and ks[0] not in ('system','rule'):continue
             if n=='Understand' and not (ks[0] in ('system','rule') and ks[1] in ('intention','stance')):continue
             if n=='Organize':continue
+            if n in ('Share','Coordinate','Educate'):
+                kinds={'Share':('intention','personal'),'Coordinate':('activity',),'Educate':('system','rule')}[n]
+                if not (ks[0] in kinds and ks[1:]==('offer','reply')
+                    and bundle[1]['data'].get('source')==bundle[0]['ref'] and bundle[2]['data'].get('offer')==bundle[1]['ref']):continue
+            if n=='Identify' and not (ks[0]=='shared' and ks[1] in ('intention','stance')):continue
+            if n=='Mobilize' and ks!=('shared',):continue
+            if n=='Institutionalize':continue
             bundles.append(bundle)
         if n=='Organize':
             observations=tuple(v for v in s['items'] if v['data']['kind']=='activity')
             bundles=[observations] if observations else []
+        if n=='Institutionalize':
+            if f=='accumulation':
+                observations=tuple(v for v in s['items'] if v['data']['kind']=='activity')
+                bundles=[(x,*observations) for x in s['items'] if x['data']['kind']=='shared'] if observations else []
+            else:
+                bundles=[(x,v,w) for x in s['items'] if x['data']['kind']=='rule'
+                    for v,w in permutations(s['items'],2) if v['data']['kind']==w['data']['kind']=='vote'
+                    and dumps(v['ref'])<dumps(w['ref']) and v['data'].get('draft')==w['data'].get('draft')==x['ref']]
         effort=recipe.material_units+sum(sum(x['charges'])+x['content_units'] for x in route(s['tim'],s['cursor'],recipe.elements,recipe.origin,recipe.destination,f))
         options=[]
         for bundle in bundles[:r['alternatives']]:
@@ -72,17 +89,48 @@ def reference(s):
                     and all(t[5] in ms for v in (x,o,q) for t in v.get('tasks',())))
             if n in ('Express','Theorize','Embody','Organize','Understand','Apply'):
                 good=good and crossing_reference(s,n,f,bundle)
+            if n in ('Share','Coordinate','Identify','Mobilize','Institutionalize','Educate'):
+                good=good and social_reference(s,n,f,bundle)
             priority=s['need']['priorities'][('I','IT','WE','ITS').index(recipe.destination)]
             options.append(dict(cell=cell,recipe=recipe.key,inputs=tuple(x['ref'] for x in bundle),eligible=bool(good and priority),
                 priority=priority,preference=int(s['need']['externalize']==(f=='expenditure')),effort=effort))
-        def order(x):return (-x['priority'],-x['preference'],x['effort'],x['cell'],dumps(x['inputs']))
+            if s.get('policy')=='c7-workflow-selection-v3':options[-1]['coverage']=len(bundle)
+        def order(x):return (-x['priority'],-x['preference'],-x.get('coverage',0),x['effort'],x['cell'],dumps(x['inputs']))
         best=min(options,key=lambda x:(not x['eligible'],*order(x))) if options else dict(cell=cell,recipe=recipe.key,inputs=(),eligible=False,
             priority=s['need']['priorities'][('I','IT','WE','ITS').index(recipe.destination)],preference=int(s['need']['externalize']==(f=='expenditure')),effort=effort)
+        if s.get('policy')=='c7-workflow-selection-v3' and not options:best['coverage']=0
         candidates.append(dict(best,examined=min(len(bundles),r['alternatives']),deferred=len(bundles)>r['alternatives']))
     cost=1+len(s['items'])+len(cells)+sum(x['examined'] for x in candidates)
     for row in candidates:row['eligible']=row['eligible'] and min(s['wallet'])>=cost+row['effort']
     winner=min((x for x in candidates if x['eligible']),key=order,default=None)
     return candidates,winner
+
+def social_reference(s,name,face,bundle):
+    r=s['request'];group=s['group'];values=[item['data'] for item in bundle];source=values[0]
+    if not group or group.get('context')!=r['context']:return False
+    members=set(group.get('members',()))
+    if len(group.get('members',()))!=2 or members!={r['actor'],r['peer']}:return False
+    if any(task[5] not in members for value in values for task in value.get('tasks',())):return False
+    if source['kind'] in ('shared','rule'):
+        if source.get('group')!=r['group'] or set(source.get('participants',()))!=members:return False
+    if name in ('Share','Coordinate','Educate'):
+        offer,reply=values[1:]
+        tasks=response_tasks(source) if source['kind']=='activity' else source['tasks']
+        return (offer.get('source')==bundle[0]['ref'] and reply.get('offer')==bundle[1]['ref']
+            and offer.get('speaker')==reply.get('receiver')==r['actor']
+            and reply.get('speaker')==offer.get('receiver')==r['peer']
+            and offer.get('group')==reply.get('group')==r['group'] and offer.get('tasks')==tasks)
+    if name=='Identify':return True
+    if name=='Mobilize':
+        if not source.get('authorized',False):return False
+        return crossing_reference(s,'Express',face,bundle)
+    if face=='accumulation':
+        events=[value['event'] for value in values[1:]]
+        return len(events)==len(set(events)) and all(value['outcome']=='succeeded' and value['actor'] in members
+            and value['primitive'] in {task[1] for task in source['tasks']} for value in values[1:])
+    votes=values[1:]
+    return (source.get('status')=='draft' and {v.get('speaker') for v in votes}==members
+        and all(v.get('draft')==bundle[0]['ref'] and v.get('tasks')==source['tasks'] and v.get('group')==r['group'] for v in votes))
 
 def crossing_reference(s,name,face,bundle):
     actor=s['request']['actor'];r=s['request'];values=tuple(v['data'] for v in bundle);source=values[0]
@@ -212,7 +260,7 @@ def verify(folder, cases=8):
     rows=[]
     for path in sorted(folder.glob('*.json.gz')):
         text=gzip.decompress(path.read_bytes()).decode();schema=json.loads(text)['schema']
-        if schema not in ('hle-full-crux-c7-workflow-selection-v1','hle-full-crux-c7-workflow-selection-v2'):raise ValueError('unknown selection schema')
+        if schema not in ('hle-full-crux-c7-workflow-selection-v1','hle-full-crux-c7-workflow-selection-v2','hle-full-crux-c7-workflow-selection-v3'):raise ValueError('unknown selection schema')
         raw=unseal(text,schema)
         world=OperationStore.restore(raw['world']);control=path.name.endswith('-control.json.gz')
         native_audit(world.journal(),raw['access'],extent_check=extent,extended_flags=('c7ws',))

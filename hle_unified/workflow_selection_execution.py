@@ -135,3 +135,15 @@ class WorkflowCrossingSelectionEngine(WorkflowSelectionEngine):
         from .workflow_selection_policy import CROSSING_CELLS
         rows = proposals(s, CROSSING_CELLS)
         return rows, choose(rows)
+
+
+class WorkflowSocialSelectionEngine(WorkflowSelectionEngine):
+    """FB2.3 all-cell policy; earlier checkpoint schemas retain their policies."""
+    SCHEMA = 'hle-full-crux-c7-workflow-selection-v3'
+
+    def workflow_selection_view(self, r):
+        return dict(super().workflow_selection_view(r), policy='c7-workflow-selection-v3')
+
+    def _workflow_policy(self, s):
+        rows = proposals(s, tuple(range(32)))
+        return rows, choose(rows)
