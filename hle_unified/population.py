@@ -13,12 +13,15 @@ from .material import attrs
 
 
 class Population:
-    SCHEMA = 'hle-c7-population-v2'
+    LEGACY_SCHEMA = 'hle-c7-population-v2'
+    SCHEMA = 'hle-c7-workflow-population-v3'
 
     def __init__(self, engine, requests, episodes=24, quantum=32, repeat_limit=2):
+        from .workflow_selection_records import WorkflowSelectionRequest, WorkflowCapacitySelectionRequest
         requests = tuple(requests)
-        if not requests or any(type(r) is not SelectionRequest for r in requests):
-            raise ValueError('owned selection requests required')
+        allowed = (SelectionRequest, WorkflowSelectionRequest, WorkflowCapacitySelectionRequest)
+        if not requests or any(type(r) not in allowed for r in requests):
+            raise ValueError('owned legacy or workflow selection requests required')
         if len({r.actor for r in requests}) != len(requests):
             raise ValueError('one independent demand per actor')
         if any(type(x) is not int or x < 1 for x in (episodes, quantum)):
@@ -38,7 +41,39 @@ class Population:
         self.events = []
         # Reject foreign or malformed goals before starting any work.
         for r in requests:
-            engine.selection_view(r)
+            self._selection_view(r)
+
+    @staticmethod
+    def _is_workflow(r):
+        from .workflow_selection_records import WorkflowSelectionRequest, WorkflowCapacitySelectionRequest
+        return type(r) in (WorkflowSelectionRequest, WorkflowCapacitySelectionRequest)
+
+    def _selection_view(self, r):
+        return self.engine.workflow_selection_view(r) if self._is_workflow(r) else self.engine.selection_view(r)
+
+    @staticmethod
+    def _keys(r):
+        if Population._is_workflow(r):
+            return (r.key, r.key + ':movement', r.key + ':feedback')
+        return (r.key, r.key + ':admission', r.key + ':movement', r.key + ':feedback')
+
+    def _participate(self, cid, r):
+        if not self._is_workflow(r):
+            return self.engine.participate(cid, r, self.quantum)
+        if (r.actor, r.key) not in self.engine._jobs:
+            self.engine.start(cid + ':start', r)
+        for key in (r.key, r.key + ':movement'):
+            if (r.actor, key) not in self.engine._jobs:
+                continue
+            d = self.engine.job_status(r.actor, key)
+            if d['status'] in ('cancelled', 'succeeded', 'failed'):
+                continue
+            if d['status'] != 'ready':
+                self.engine.advance(cid + ':work:' + key, r.actor, key, self.quantum)
+            if self.engine.job_status(r.actor, key)['status'] == 'ready':
+                self.engine.commit(cid + ':commit:' + key, r.actor, key)
+            return self.engine.job_status(r.actor, key)
+        return None
 
     def request(self, index):
         r = self.requests[index]
@@ -67,7 +102,7 @@ class Population:
         elif r.actor in self.engine._locks and not any(
                 (r.actor, key) in self.engine._jobs and
                 self.engine.job_status(r.actor, key)['status'] not in ('succeeded', 'failed', 'cancelled')
-                for key in (r.key, r.key + ':admission', r.key + ':movement', r.key + ':feedback')):
+                for key in self._keys(r)):
             row['status'] = 'blocked_by_other_work'
         elif self.feedback[i] is not None:
             key = r.key + ':feedback'
@@ -86,12 +121,12 @@ class Population:
                 self.feedback[i] = None
                 self.counts[i] += 1
         else:
-            outcome = self.engine.participate(cid, r, self.quantum)
+            outcome = self._participate(cid, r)
             row['status'] = 'working' if outcome is not None else 'episode_complete'
             if outcome is not None:
                 row.update(job_status=outcome['status'], spent=outcome['spent'])
             else:
-                ref = address('c6.decision', r.actor, r.key)
+                ref = address('c7ws.decision' if self._is_workflow(r) else 'c6.decision', r.actor, r.key)
                 decision = attrs(self.engine.world.resolve(ref))
                 row.update(decision=ref, recipe=decision['recipe'], failure=decision['failure'])
                 key = r.key + ':movement'
@@ -131,18 +166,38 @@ class Population:
                     stops=tuple(self.stopped), pending=not self.done)
 
     def checkpoint(self):
-        return dumps(dict(schema=self.SCHEMA, engine=self.engine.checkpoint(),
-                          requests=[fields_of(r) for r in self.requests], episodes=self.episodes,
+        workflow = any(self._is_workflow(r) for r in self.requests)
+        requests = ([dict(request_type=type(r).__name__, fields=fields_of(r)) for r in self.requests]
+                    if workflow else [fields_of(r) for r in self.requests])
+        return dumps(dict(schema=self.SCHEMA if workflow else self.LEGACY_SCHEMA,
+                          engine=self.engine.checkpoint(), requests=requests, episodes=self.episodes,
                           quantum=self.quantum, repeat_limit=self.repeat_limit, signatures=self.signatures, repeats=self.repeats, cursor=self.cursor, turn=self.turn,
                           counts=self.counts, stopped=self.stopped, feedback=self.feedback, events=self.events))
 
     @classmethod
     def restore(cls, text):
         d = loads(text)
-        if d.pop('schema') != cls.SCHEMA:
+        schema = d.pop('schema')
+        if schema == cls.LEGACY_SCHEMA:
+            e = SelectionEngine.restore(d.pop('engine'))
+            requests = [SelectionRequest(**r) for r in d.pop('requests')]
+        elif schema == cls.SCHEMA:
+            from .workflow_selection_execution import WorkflowFinalSelectionEngine
+            from .workflow_selection_records import WorkflowSelectionRequest, WorkflowCapacitySelectionRequest
+            types = dict(SelectionRequest=SelectionRequest,
+                         WorkflowSelectionRequest=WorkflowSelectionRequest,
+                         WorkflowCapacitySelectionRequest=WorkflowCapacitySelectionRequest)
+            e = WorkflowFinalSelectionEngine.restore(d.pop('engine'))
+            encoded = d.pop('requests'); requests = []
+            for row in encoded:
+                if set(row) != {'request_type', 'fields'} or row['request_type'] not in types:
+                    raise ValueError('unsupported population request type')
+                requests.append(types[row['request_type']](**row['fields']))
+            if not any(cls._is_workflow(r) for r in requests):
+                raise ValueError('workflow population schema requires workflow demand')
+        else:
             raise ValueError('unsupported population schema')
-        e = SelectionEngine.restore(d.pop('engine'))
-        obj = cls(e, [SelectionRequest(**r) for r in d.pop('requests')], d.pop('episodes'), d.pop('quantum'), d.pop('repeat_limit'))
+        obj = cls(e, requests, d.pop('episodes'), d.pop('quantum'), d.pop('repeat_limit'))
         for k, v in d.items():
             if k not in ('cursor', 'turn', 'counts', 'stopped', 'feedback', 'events', 'signatures', 'repeats'):
                 raise ValueError('unknown scheduler field')

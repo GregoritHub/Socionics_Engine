@@ -9,6 +9,17 @@ from .operations import address
 
 
 def audit_population(transactions, state):
+    schema=state.get('schema')
+    if schema=='hle-c7-population-v2':
+        requests=state['requests'];request_types=['SelectionRequest']*len(requests)
+    elif schema=='hle-c7-workflow-population-v3':
+        encoded=state['requests']
+        if (not encoded or any(set(r)!={'request_type','fields'} for r in encoded)
+            or any(r['request_type'] not in ('SelectionRequest','WorkflowSelectionRequest','WorkflowCapacitySelectionRequest') for r in encoded)
+            or not any(r['request_type']!='SelectionRequest' for r in encoded)):
+            raise ValueError('invalid workflow population request registry')
+        requests=[r['fields'] for r in encoded];request_types=[r['request_type'] for r in encoded]
+    else:raise ValueError('unsupported population schema')
     versions={};heads={};charges={};turn_wallets={}
     for tx in transactions:
         match=re.match(r'^u4:c7-turn:(\d+):',tx.key)
@@ -23,7 +34,7 @@ def audit_population(transactions, state):
                 if any(x<0 for x in delta):raise ValueError('population replenished resources')
                 charges[key]=tuple(a+b for a,b in zip(prior,delta))
             versions[v.ref]=v;heads[v.ref.identity]=v
-    actors=[r['actor'] for r in state['requests']]
+    actors=[r['actor'] for r in requests]
     signatures=[None]*len(actors);repeats=[0]*len(actors)
     counts=[0]*len(actors);stops=[None]*len(actors);cursor=0;total=0;complete=0
     for number,row in enumerate(state['events'],1):
@@ -42,6 +53,9 @@ def audit_population(transactions, state):
             if not wallet or min(wallet[0][k] for k in ('energy','time'))!=0:raise ValueError('false exhaustion')
             stops[index]='exhausted'
         elif status=='episode_complete':
+            decision_namespace='c6.decision' if request_types[index]=='SelectionRequest' else 'c7ws.decision'
+            if row['decision'].identity.namespace!=decision_namespace or row['decision'] not in versions:
+                raise ValueError('wrong population decision family')
             d=attrs(versions[row['decision']])
             if (d['recipe'],d['failure'])!=(row['recipe'],row['failure']):raise ValueError('false decision summary')
             child_id=address('u4.operation',actor,row['key']+':movement').identity
