@@ -1,0 +1,65 @@
+{
+  "schema": "hle-c7-workflow-shell-protocol-v1",
+  "status": "source_defined prospective engineering protocol",
+  "phase": 3,
+  "batches": [
+    "3.1",
+    "3.2",
+    "3.3"
+  ],
+  "domain": "Inherited bounded workflow domain: at most eight tasks, eight inputs, two participants, serial unit-duration scheduling, local slots 0\u20131000. No new route, primitive or inherited meaning.",
+  "panels": {
+    "3.1": {
+      "inherited_diagnostic": 5,
+      "prevention_pairs": 32,
+      "deformed_worlds": 32,
+      "paid_corrected_worlds": 32,
+      "matched_invalid_gate_bypass_controls": 32,
+      "types": [
+        "iee"
+      ],
+      "inherited_C5_raw_worlds": 143
+    },
+    "3.2": {
+      "interruption_pairs": 32,
+      "matched_invalid_continuation_controls": 32,
+      "exact_interruption_continuations": 32
+    },
+    "3.3": {
+      "effect_kinds": 5,
+      "operationalized_signs": 4,
+      "same_target_recurrence": 1,
+      "changed_target_recurrence": 1,
+      "unsupported_clearance": 1
+    }
+  },
+  "seeds": "none; deterministic exhaustive 16 named routes \u00d7 two polarity cells",
+  "diagnostic": "Before extending the gate, apply each inherited effect kind to the same workflow cell; preserve original ShellMovementRequest acceptance/rejection and whether a bare native workflow completes. Expected unsupported behavior is a finding, not a fabricated pass.",
+  "extension": "New WorkflowShellRequest and schema wrap existing native workflow requests and paid EncounterRequest using the unchanged canonical route/face correspondence. Preserve intended destination, target, projecting owner, carrier, bearer, demand, exact inputs/material/social roles and query. Never count admission as movement completion.",
+  "prevention": "Generated approval formed by two paid blame encounters. Neutral current evidence shows an available opportunity. The deformed arm cannot start the movement. An identical-pattern corrected arm pays the inherited exact-target release and completes the same native workflow plus a paid native downstream consumer. Original pattern and evidence remain.",
+  "controls": "For every cell, a deliberately invalid evaluator subclass bypasses the admission decision while paying exactly the same complete encounter work from an identical checkpoint. It runs the unchanged native workflow and the same downstream consumer. Fixed question: is a completed native result available and what next_task does its paid consumer return? Blocked arm has no such result. The ordinary Shell auditor must reject the bypass arm. Correction and downstream work are reported separately and never called cost-matched.",
+  "active_interruption": "Keep first paid semantic intermediate and all spending; cancel before further continuation, output retention or material commit. Preserve spent one-attempt allowances. Single-step recipes stop after computation before retention/commit. No prevention world is relabelled active.",
+  "effect_coverage": "3.1 generated approval for every cell. 3.2 deterministically cycles obligation, salience(-1), forecast, exclude_route, approval across ordered cells; only approval is generated, the others are explicitly injected fixtures. Unsupported correction rules are never invented.",
+  "signs": "Use the four inherited simulation operationalizations from CT10/C5: premature translation, attempted forced placement, new defensive structure, residual fragmentation; prevention is separate. Phase3.3 traces scoped correction, same and changed target recurrence, unsupported clearance. No psychological detector claim.",
+  "legitimate_noncompletion": "Separate missing resources, incomplete received information, real refusal, danger, actual authorization and missing demand from deformation. No resources, capacity, consent or authority arise from labels.",
+  "audit": "New independent raw workflow Shell auditor composes existing independent native/selection/development audit, reconstructs exact request/admission/child lineage, roles, scope, charges and completion. No executor, selector or scheduler import. Independent CLI never replays participant commands or trusts evaluator summary.",
+  "gates": [
+    "All32prevention/correction pairs reconstructed from raw worlds; 32 matched bypass controls rejected",
+    "Five inherited diagnostic results preserved",
+    "143 immutable inherited C5 raw worlds pass unchanged C5 auditor",
+    "All existing test methods plus meaningful new scope, tamper, correction and continuation tests pass on recorded unchanged source",
+    "3.2 active32 pairs and exact continuations",
+    "3.3 five effects, four operationalized signs and correction/recurrence/refused-clearance controls saved"
+  ],
+  "tolerances": "Exact structure, exact integer accounting and exact checkpoint continuation; zero semantic/audit failures. No new performance claim before Phase6.",
+  "failure_policy": "Preserve every failed or source-changed attempt; stop on the standing second failure after correction, inherited-contract/baseline edit, necessary author ruling or companion-theory contradiction.",
+  "split": "3.1 diagnostic and eight self cells can be saved before the remaining24; 3.2 single/multi-step split; 3.3 effects before development. No split is complete until full gates pass.",
+  "not_claimed": [
+    "general psychology",
+    "automatic Shell diagnosis",
+    "unrestricted meaning",
+    "new effect formation except approval",
+    "Phase7 energy extension",
+    "Release1.0 before6.3"
+  ]
+}
