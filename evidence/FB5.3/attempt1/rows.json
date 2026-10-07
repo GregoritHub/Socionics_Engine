@@ -1,0 +1,34 @@
+[
+  {
+    "case": "generated-chain",
+    "file": "generated-chain.json.gz",
+    "sha256": "8b20b1ee985a7a945ea9659a4517b1db1883c4df36e9865984196138d07b9cb8"
+  },
+  {
+    "case": "withheld-generated-handoff",
+    "file": "withheld-generated-handoff.json.gz",
+    "sha256": "7b263aa0e5b1227787bed215f9fbc8b26bade3ecdadb0184cf162aa2f24333b1"
+  },
+  {
+    "case": "restore-comparison",
+    "exact_restore": true,
+    "file": "restore-comparison.json.gz",
+    "sha256": "82473ef2991fe0fadf1d92aca0a05324232608b48c5d56a28424dd12d8e0146a"
+  },
+  {
+    "case": "restore-feedback",
+    "exact_restore": true,
+    "file": "restore-feedback.json.gz",
+    "sha256": "82473ef2991fe0fadf1d92aca0a05324232608b48c5d56a28424dd12d8e0146a"
+  },
+  {
+    "case": "finite-turn-budget",
+    "file": "finite-turn-budget.json.gz",
+    "sha256": "eb5b826b2cf584d5ea68f8a5fcbf96c1d8a3e901d6c91769dbf2500865a4ff32"
+  },
+  {
+    "case": "exhausted-wallet",
+    "file": "exhausted-wallet.json.gz",
+    "sha256": "51d2a1625c3ffee161bdd8a3b6795c09976a70b7db671cc0cd0b826b20ecd791"
+  }
+]

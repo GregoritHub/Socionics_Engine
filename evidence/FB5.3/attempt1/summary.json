@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "source_unchanged": true,
+  "cases": 6,
+  "claim": "One bounded generated-content chain only; independent verification required."
+}

@@ -1,0 +1,11 @@
+test_budget_exhaustion_retains_paid_partial_work (tests_workflow_continuation.test_continuation.ContinuationTests.test_budget_exhaustion_retains_paid_partial_work) ... ok
+test_exact_restore_during_comparison_and_feedback (tests_workflow_continuation.test_continuation.ContinuationTests.test_exact_restore_during_comparison_and_feedback) ... ok
+test_finite_turns_preserve_pending_state (tests_workflow_continuation.test_continuation.ContinuationTests.test_finite_turns_preserve_pending_state) ... ok
+test_forged_history_and_need_are_rejected (tests_workflow_continuation.test_continuation.ContinuationTests.test_forged_history_and_need_are_rejected) ... ok
+test_generated_chain_has_causal_material_and_personal_result (tests_workflow_continuation.test_continuation.ContinuationTests.test_generated_chain_has_causal_material_and_personal_result) ... ok
+test_withheld_handoff_changes_choice_and_fails_provenance (tests_workflow_continuation.test_continuation.ContinuationTests.test_withheld_handoff_changes_choice_and_fails_provenance) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 10.182s
+
+OK

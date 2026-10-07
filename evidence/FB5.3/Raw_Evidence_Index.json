@@ -1,0 +1,21 @@
+{
+  "schema": "srl-fb5.3-raw-evidence-index-v1",
+  "batch": "5.3",
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB5.3_Evidence.zip",
+    "library_path": "/Socionics_Final_Build_FB5.3_Evidence.zip",
+    "library_file_id": "libfile_ac65c45d804c8191833a030a9091a14d",
+    "file_id": "file_00000000957081f99ac5f3ad0d3f42b7",
+    "version": 0,
+    "bytes": 1219114,
+    "sha256": "0f168ce5be8ceb99375054b958acca91e0d65494fd4bb2c785a3dcd58af75f82",
+    "members": 115
+  },
+  "restore": [
+    "Resolve the exact Library identifiers through supported materialization. Verify archive byte count and SHA256 before extraction.",
+    "Extract into the repository root, restoring evidence/FB5.3.",
+    "Verify each local file listed in evidence/FB5.3/Raw_SHA256.json.",
+    "Run python tools/verify_workflow_continuation.py evidence/FB5.3/attempt1."
+  ],
+  "scope": "One generated-content chain and controls. No 32/32 sustained or revised-goal completion claim."
+}

@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "cases": 6,
+  "participant_replay": false,
+  "reports": [
+    {
+      "case": "generated-chain",
+      "continuation": {
+        "passed": true,
+        "turns": 23,
+        "modeled_energy": 248,
+        "native_completions": 3,
+        "successful_recipes": {
+          "workflow-theorize-expenditure-v1": 1,
+          "workflow-apply-expenditure-v1": 1,
+          "workflow-embody-expenditure-v1": 1
+        },
+        "repeated_outputs": 0,
+        "retained_handoffs": 3,
+        "policy": "latest-successful-owned-result-v1"
+      },
+      "native_passed": true,
+      "native_selections": 3
+    },
+    {
+      "case": "withheld-generated-handoff",
+      "continuation": {
+        "rejected": "continuation input provenance differs"
+      },
+      "native_passed": true,
+      "native_selections": 3
+    },
+    {
+      "case": "restore-comparison",
+      "continuation": {
+        "passed": true,
+        "turns": 23,
+        "modeled_energy": 248,
+        "native_completions": 3,
+        "successful_recipes": {
+          "workflow-theorize-expenditure-v1": 1,
+          "workflow-apply-expenditure-v1": 1,
+          "workflow-embody-expenditure-v1": 1
+        },
+        "repeated_outputs": 0,
+        "retained_handoffs": 3,
+        "policy": "latest-successful-owned-result-v1"
+      },
+      "native_passed": true,
+      "native_selections": 3
+    },
+    {
+      "case": "restore-feedback",
+      "continuation": {
+        "passed": true,
+        "turns": 23,
+        "modeled_energy": 248,
+        "native_completions": 3,
+        "successful_recipes": {
+          "workflow-theorize-expenditure-v1": 1,
+          "workflow-apply-expenditure-v1": 1,
+          "workflow-embody-expenditure-v1": 1
+        },
+        "repeated_outputs": 0,
+        "retained_handoffs": 3,
+        "policy": "latest-successful-owned-result-v1"
+      },
+      "native_passed": true,
+      "native_selections": 3
+    },
+    {
+      "case": "finite-turn-budget",
+      "continuation": {
+        "passed": true,
+        "turns": 1,
+        "modeled_energy": 17,
+        "native_completions": 0,
+        "successful_recipes": {},
+        "repeated_outputs": 0,
+        "retained_handoffs": 0,
+        "policy": "latest-successful-owned-result-v1"
+      },
+      "native_passed": true,
+      "native_selections": 0
+    },
+    {
+      "case": "exhausted-wallet",
+      "continuation": {
+        "passed": true,
+        "turns": 6,
+        "modeled_energy": 39,
+        "native_completions": 0,
+        "successful_recipes": {},
+        "repeated_outputs": 0,
+        "retained_handoffs": 0,
+        "policy": "latest-successful-owned-result-v1"
+      },
+      "native_passed": true,
+      "native_selections": 1
+    }
+  ]
+}

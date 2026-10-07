@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "files": {
+    "5.1": 130,
+    "5.2": 78
+  },
+  "method": "Library prepare_materialize resolved exact committed IDs; signed transfer failed with proxy 403. Supported download_file materialized exact file IDs; current Library helper applied returned identity metadata. Archive byte counts and SHA256 verified locally before extraction; every hash-listed member verified.",
+  "metadata_finding": "FB5.2 immutable archive matches committed bytes and digest, but has 84 ZIP members versus index metadata 79. No archive or accepted evidence modified."
+}

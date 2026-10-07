@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "tests": 712,
+  "inherited_tests": 602,
+  "workflow_and_new_tests": 110,
+  "new_methods": 6,
+  "raw_cases": 6,
+  "source_unchanged": true,
+  "freeze_sha256": "315b61615c5c99b7cd16e4af527d8435db4ee165e930dc77e6dd211d0839bc9c",
+  "actual_sustained_cells": [
+    "Theorize expenditure",
+    "Apply expenditure",
+    "Embody expenditure"
+  ],
+  "goal_complete": false,
+  "next_batch": "5.4"
+}

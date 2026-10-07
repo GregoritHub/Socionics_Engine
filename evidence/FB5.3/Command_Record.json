@@ -1,0 +1,31 @@
+{
+  "schema": "srl-fb5.3-command-record-v1",
+  "commands": [
+    {
+      "command": "PYTHONPATH=.:baseline/HLE_Rebuild_R21B python -m unittest tests_workflow_continuation.test_continuation -v",
+      "role": "development",
+      "result": "6 passing; development1 failure retained separately"
+    },
+    {
+      "command": "python tools/evaluate_workflow_continuation.py evidence/FB5.3/attempt1",
+      "result": "exit 0; six frozen cases"
+    },
+    {
+      "command": "python tools/verify_workflow_continuation.py evidence/FB5.3/attempt1",
+      "result": "exit 0; six independent raw cases; deliberate withheld provenance rejected"
+    },
+    {
+      "command": "python tools/regress_c7_parallel.py evidence/FB5.3/attempt1-regression",
+      "result": "exit 0; 602 methods; zero failures/errors; source unchanged"
+    },
+    {
+      "command": "python tools/test_c6.py evidence/FB5.3/attempt1-new-tests tests_workflow_continuation tests_workflow_population tests_workflow_selection tests_workflow_shell tests_workflow_composition tests_workflow_nesting tests_workflow_development tests_model_g",
+      "result": "preflight exit 1 before executing tests: incorrect nesting/model package names; traceback retained"
+    },
+    {
+      "command": "python tools/test_c6.py evidence/FB5.3/attempt1-new-tests-retry tests_workflow_continuation tests_workflow_population tests_workflow_selection tests_workflow_shell tests_workflow_composition tests_workflow_nesting_faces tests_workflow_development tests_workflow_interruption tests_g tests_c7_workflow",
+      "result": "exit 0; 110 methods; zero failures/errors; source unchanged"
+    }
+  ],
+  "skills_check": "No .agents/skills directory or applicable local SKILL.md found in selected workspace/repository; Library skill used for archived evidence."
+}

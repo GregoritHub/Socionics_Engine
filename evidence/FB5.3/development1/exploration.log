@@ -1,0 +1,28 @@
+{'done': True, 'turns': 18, 'counts': (3,), 'stops': (None,), 'pending': False}
+[('workflow-theorize-expenditure-v1', 'succeeded'), ('workflow-theorize-expenditure-v1', 'succeeded'), ('workflow-theorize-expenditure-v1', 'succeeded')]
+{'passed': True, 'turns': 18, 'modeled_energy': 179, 'native_completions': 3, 'successful_recipes': {'workflow-theorize-expenditure-v1': 3}, 'repeated_outputs': 0, 'retained_handoffs': 0, 'policy': 'latest-successful-owned-result-v1'}
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "/workspace/Socionics_Engine/tests_workflow_continuation/fixtures.py", line 27, in query_personal
+    return work(p.engine, request(p.engine, 'continuation-query', 'use-personal', None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/tests_c7_workflow/fixtures.py", line 42, in work
+    perform(e,r,limit=1000000); d=e.job_status(r.actor,r.key)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/tests_u4/fixtures.py", line 63, in perform
+    engine.start("start:" + request.actor.key + ":" + request.key, request)
+  File "/workspace/Socionics_Engine/hle_unified/operations.py", line 111, in start
+    return self._execute(("start", command_id, request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/shell.py", line 66, in _execute
+    result = dispatch[command[0]](*command[1:])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_selection_execution.py", line 69, in _start
+    if type(r) not in self.SELECTION_REQUEST_TYPES: return super()._start(cid, r)
+                                                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_execution.py", line 155, in _start
+    p=self._prepare_workflow(r); recipe=p["recipe"]; native={}
+      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Socionics_Engine/hle_unified/workflow_execution.py", line 129, in _prepare_workflow
+    raise ValueError("native output consumer required")
+ValueError: native output consumer required

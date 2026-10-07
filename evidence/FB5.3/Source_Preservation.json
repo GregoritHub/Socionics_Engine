@@ -1,0 +1,18 @@
+{
+  "source_freeze_sha256": "315b61615c5c99b7cd16e4af527d8435db4ee165e930dc77e6dd211d0839bc9c",
+  "freeze_files": 1313,
+  "inherited_files": 1304,
+  "inherited_changed": [],
+  "added": [
+    "contracts/C7_Workflow_Continuation_Protocol_v1.json",
+    "contracts/C7_Workflow_Continuation_Protocol_v1.sha256",
+    "hle_unified/workflow_continuation.py",
+    "hle_unified/workflow_continuation_audit.py",
+    "tests_workflow_continuation/__init__.py",
+    "tests_workflow_continuation/fixtures.py",
+    "tests_workflow_continuation/test_continuation.py",
+    "tools/evaluate_workflow_continuation.py",
+    "tools/verify_workflow_continuation.py"
+  ],
+  "baseline_unchanged": true
+}
