@@ -48,6 +48,8 @@ def _validate_goals(state):
             if (set(slot) not in ({'initial'}, {'result'}) or ('result' in slot
                     and (type(slot['result']) is not int or not 0 <= slot['result'] < i))):
                 raise ValueError('invalid prior-result slot')
+        if i and not any('result' in slot for slot in goal['sources']):
+            raise ValueError('later sustained goal lacks generated prior result')
 
 
 def audit_namespaced_agenda(transactions, access, state):

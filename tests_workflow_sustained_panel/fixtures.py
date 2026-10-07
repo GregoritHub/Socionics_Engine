@@ -9,6 +9,7 @@ from hle_unified.selection_records import PERSPECTIVES
 
 
 FACES = ('accumulation', 'expenditure')
+cell_fixture = cell
 CONSUMERS = {
     'I': ('Theorize', 'ITS', 'none'),
     'IT': ('Embody', 'I', 'none'),
@@ -35,12 +36,18 @@ def _need(engine, key, destination, target):
 
 def sustained_cell(cell, budget=200000):
     row = panel_row(cell)
-    engine, template, base = social_fixture(row['name'], row['face'],
-        engine_type=WorkflowFinalSelectionEngine, tim=row['owner_type'])
+    engine = setup_workflow(row['owner_type'], engine_type=WorkflowFinalSelectionEngine, budget=budget)
+    base = cell_fixture(engine, row['name'], row['face'], prepare_only=True)
+    native = base['request']
+    destination = WORKFLOW_RECIPES[native.recipe].destination
+    target_need = seed(engine, 'outcome-need', wf.encode(dict(kind='workflow_need',
+        priorities=tuple(10 if x == destination else 0 for x in PERSPECTIVES),
+        externalize=row['face'] == 'expenditure')), target=native.target, relation='c7ws.need')
+    template = WorkflowSelectionRequest('auto', ALICE, ROOM, CUE5, native.target, target_need,
+        native.inputs, stock=native.stock, relation=native.relation, peer=native.peer, group=native.group)
     rows = tasks()
     own = authored(engine, 'panel-own-stance', rows, kind='stance')
     peer = authored(engine, 'panel-peer-stance', rows, actor=BOB, kind='stance')
-    destination = WORKFLOW_RECIPES[base['request'].recipe].destination
     consumer = row['consumer'] or CONSUMERS[destination]
     first = dict(need=template.demand, sources=[{'initial': ref} for ref in template.accessible],
                  companion='none', own_stance=own, peer_stance=peer)

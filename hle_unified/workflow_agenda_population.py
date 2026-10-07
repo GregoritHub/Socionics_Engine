@@ -19,6 +19,10 @@ class NamespacedWorkflowAgenda(WorkflowAgenda):
     def __init__(self, namespace, engine, template, goals, quantum=17):
         if type(namespace) is not str or not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,47}', namespace):
             raise ValueError('bounded deterministic agenda namespace required')
+        goals = list(goals)
+        if any(index and not any('result' in slot for slot in goal['sources'])
+               for index, goal in enumerate(goals)):
+            raise ValueError('every later sustained goal requires a generated prior result')
         self.namespace = namespace
         super().__init__(engine, template, goals, quantum)
 
