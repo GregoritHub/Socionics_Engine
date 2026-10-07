@@ -169,4 +169,9 @@ class WorkflowFinalSelectionEngine(WorkflowSocialSelectionEngine):
                 raise ValueError('supported native care procedure required')
             acquired = tuple((a.procedure, a.context, a.receipt) for a in view.snapshot.acquired
                 if a.procedure == procedure_ref and a.context == r.context)
+            # The audit codec accepts exact structures, not Procedure records.
+            # These are the fields of the paid definition, after validation.
+            definition = dict(executor=definition.executor, inputs=definition.inputs,
+                preconditions=definition.preconditions, steps=definition.steps,
+                effects=definition.effects)
         return dict(s, policy='c7-workflow-selection-v4', procedure=definition, acquired=acquired)

@@ -190,6 +190,8 @@ def audit(transactions,access_text):
                     definition=definitions[0]
                     if (definition.executor!='u4.care.v1' or definition.inputs!=SIGNATURES['care']
                         or definition.steps or definition.preconditions or definition.effects):raise ValueError('unsupported named care means')
+                    definition={'inputs':definition.inputs,'preconditions':definition.preconditions,
+                        'steps':definition.steps,'effects':definition.effects,'executor':definition.executor}
                     for value in versions.values():
                         rd=attrs(value)
                         if (value.ref.identity.namespace=='u4.receipt' and times[value.ref]<at

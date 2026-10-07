@@ -1,4 +1,4 @@
-# FB2.4 — Type matrix and responsiveness: blocked after second failure
+# FB2.4 — Type matrix and responsiveness: authorized recovery in progress
 
 [source_defined] Prospective protocol `C7_Workflow_Selection_FB2.4_Amendment_v1.json` committed before implementation at `039c4de`. The work is split into capacity request/view/policy (`56af69d`) and independent reconstruction/panels. All remaining stop gates apply; Phase 7 requires R5.
 
@@ -23,3 +23,9 @@
 [probe] Parent reports independently observing a scheduled continuation at 2026-10-07 03:07:05 UTC, conversation https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3, ending SKIP_COMPLETION. This establishes that a scheduled run occurred, not its settings or skip reason. Scheduler ID `6ac53cec617881919c9d68ea800adde1` was not modified: parent reported a denied modification and instructed no alternate route or duplicate. Repository state is terminal blocked, lease released; parent must coordinate scheduler disposition. No build process remains active.
 
 [machine-checked] The continuation task `6ac53cec617881919c9d68ea800adde1` was verified enabled, then disabled successfully at 2026-10-07T05:19:18.162608Z because this repository is in the terminal blocked state required by Final Build Plan §1. No third FB2.4 attempt or engine change was made.
+
+[source_defined] Greg released the FB2.4 stop on 2026-10-07 at 07:24:31 America/New_York: "Ok so keep going". See `FB2.4_Recovery_Authorization.md`. Recovery protocol `C7_Workflow_Selection_FB2.4_Recovery_v1.json` was hashed before implementation (SHA-256 `38735187dd1ee3a4c831b337b722273f16d4be3ebabcdebd09639d75e2b2405d`) and committed at `eea139b`. Prior attempts and the blocked decision remain evidence.
+
+[derived] The unaccepted v4 snapshot now serializes all five validated procedure fields as supported exact audit structures. The auditor independently reconstructs those fields from paid raw particulars. The inherited C6 encoder and native Procedure record remain byte-for-byte unchanged. A new test mutates each of the five fields and requires ordinary independent audit rejection.
+
+[open] Attempt3 is running on `evidence/FB2.4/attempt3/source_freeze.json`; no new gate pass is claimed yet. Automatic continuation was successfully re-enabled at 2026-10-07T11:30:34.532266Z. The current worker holds a 30-minute lease; all other stop rules and the Phase 7 R5 requirement remain.

@@ -13,28 +13,27 @@
   ],
   "next_batch": "2.4",
   "run_id": "fb24-recovery-20261007T112546Z-827fc48b",
-  "lease_expires_at": "2026-10-07T11:55:46.065481Z",
-  "updated_at": "2026-10-07T11:25:46.065481Z",
+  "lease_expires_at": "2026-10-07T12:01:02.081771Z",
+  "updated_at": "2026-10-07T11:31:02.081771Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB2.4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Authorized third FB2.4 recovery: inspect and repair exact audit snapshot representation; earlier attempts remain preserved.",
-  "automation_enabled": false,
+  "activity": "FB2.4 attempt3 running on a new frozen source after scoped exact-value audit fix.",
+  "automation_enabled": true,
   "stop_release": {
     "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",
     "authorization": "Greg: \"Ok so keep going\" in direct response to the FB2.4 stop explanation on 2026-10-07T07:24:31-04:00. Authorizes FB2.4 recovery and continued Release 1.0 work under the existing plan.",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
   },
-  "automation_status": "Verified disabled after observing the terminal blocked state; no further automatic retries are scheduled.",
+  "automation_status": "Verified re-enabled after the author authorized FB2.4 recovery and continuation.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
-    "checked_at": "2026-10-07T05:19:18.162608Z",
-    "method": "automations list followed by automations update",
-    "visible_automations": 6,
-    "verified_enabled": false
+    "checked_at": "2026-10-07T11:30:34.532266Z",
+    "method": "automations update",
+    "verified_enabled": true
   },
-  "automation_stop_action": "Automation 6ac53cec617881919c9d68ea800adde1 disabled successfully because Final Build Plan section 1 requires stopping after the second corrected gate failure.",
+  "automation_stop_action": "Prior disable preserved in history; re-enabled on explicit continuation authorization.",
   "automation_observed_run": {
     "at": "2026-10-07T03:07:05Z",
     "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
