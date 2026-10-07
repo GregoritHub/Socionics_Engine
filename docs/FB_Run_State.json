@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "blocked",
+  "status": "running",
   "current_batch": "2.4",
   "completed_batches": [
     "0.1",
@@ -12,20 +12,19 @@
     "2.3"
   ],
   "next_batch": "2.4",
-  "run_id": "recovery-20261007T022751Z-4a05440d",
-  "lease_expires_at": null,
-  "updated_at": "2026-10-07T05:19:18.162608Z",
-  "stop_reason": "FB2.4 responsiveness gate failed twice after correction; mandatory Final Build Plan section 1 stop.",
+  "run_id": "fb24-recovery-20261007T112546Z-827fc48b",
+  "lease_expires_at": "2026-10-07T11:55:46.065481Z",
+  "updated_at": "2026-10-07T11:25:46.065481Z",
+  "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB2.4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Stopped; both FB2.4 failures preserved. No active build process. Latest accepted batch 2.3.",
+  "activity": "Authorized third FB2.4 recovery: inspect and repair exact audit snapshot representation; earlier attempts remain preserved.",
   "automation_enabled": false,
   "stop_release": {
-    "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",
-    "authorization": "Greg answered Yes to authorizing the fix and resuming remaining Release 1.0 batches under the existing plan.",
-    "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
-    "remaining_stop_gates": "unchanged; Phase 7 requires R5"
+    "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",
+    "authorization": "Greg: \"Ok so keep going\" in direct response to the FB2.4 stop explanation on 2026-10-07T07:24:31-04:00. Authorizes FB2.4 recovery and continued Release 1.0 work under the existing plan.",
+    "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
   },
   "automation_status": "Verified disabled after observing the terminal blocked state; no further automatic retries are scheduled.",
   "automation_user_reported_enabled": true,
@@ -41,5 +40,13 @@
     "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
     "result": "SKIP_COMPLETION",
     "evidence": "Parent independently observed scheduled execution; settings and skip reason unknown"
-  }
+  },
+  "stop_release_history": [
+    {
+      "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",
+      "authorization": "Greg answered Yes to authorizing the fix and resuming remaining Release 1.0 batches under the existing plan.",
+      "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
+      "remaining_stop_gates": "unchanged; Phase 7 requires R5"
+    }
+  ]
 }
