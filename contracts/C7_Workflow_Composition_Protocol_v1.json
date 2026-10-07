@@ -19,7 +19,7 @@
       "id": "share-commune-identify",
       "steps": ["Share", "Commune", "Identify"],
       "claim": "A personal contribution changes shared commitment, which changes the owned stance.",
-      "polarities": ["expenditure", "accumulation", "expenditure"],
+      "polarities": ["accumulation", "expenditure", "expenditure"],
       "ablation": "Remove Commune and present the unchanged contribution directly to Identify; the owned stance must differ and the witness chain must fail."
     },
     {
@@ -33,7 +33,7 @@
       "id": "institutionalize-educate",
       "steps": ["Institutionalize", "Educate"],
       "claim": "A paid rule change changes what a later teaching result can establish while competence and authority remain distinct.",
-      "polarities": ["expenditure", "expenditure"],
+      "polarities": ["expenditure", "accumulation"],
       "ablation": "Remove Institutionalize and teach against the unchanged prior rule state; the teaching result must differ and the witness chain must fail."
     },
     {
