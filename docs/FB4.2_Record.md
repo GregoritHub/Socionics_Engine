@@ -6,4 +6,10 @@
 
 [source_defined] The face gate is a matched fresh-checkpoint comparison of accumulation and expenditure for every one of the sixteen fixed routes. Each pair must make its responsibility distinction inspectable in content, interaction, commitment or usable output. Legitimate convergence on one final answer is declared rather than replaced by an artificial difference.
 
-[open] Implementation, source freeze, regression, independent raw evaluation and exit-gate decision remain pending.
+[derived] The implementation is a narrow `WorkflowNestingEngine` subclass and separate `c7n` request/output schema. It does not modify the accepted workflow, C4, selection or inherited auditor bytes. The parent accepts only the actor's exact terminal workflow children in one context and target, retains child outcomes and distinct-operation spending, and produces a non-executable summary with competence false and no authority.
+
+[machine-checked] Development attempt 1 exposed two local extension errors: the new `c7n` flag was outside the inherited paid-step dispatch list, and the first face checker incorrectly required Act's return and transfer faces to use one target role. The added subclass now owns its paid-step dispatch. Act still begins from the identical fresh world but correctly uses a borrowed return target for accumulation and an owned transfer target for expenditure, as fixed by the second-setting contract. The failed attempt is preserved in `evidence/FB4.2/attempt1/Failure_Record.md`.
+
+[machine-checked] Development attempt 2 passed six new methods. The smoke covered four parent lifecycle worlds, distinct-operation accounting, summary non-transfer, all sixteen matched face pairs, a mismatched-start rejection and a raw parent-capacity mutation rejection. This is development evidence, not the final freeze or exit-gate run.
+
+[open] Final source freeze, inherited regression, independent raw 36-world evaluation and exit-gate decision remain pending.
