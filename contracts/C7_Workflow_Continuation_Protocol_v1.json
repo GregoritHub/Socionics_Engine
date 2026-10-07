@@ -1,0 +1,63 @@
+{
+  "schema": "srl-fb5.3-continuation-protocol-v1",
+  "batch": "5.3",
+  "entry": "b6ff69c0ef602ccb44741ce671311d1587da517d",
+  "goal": "Participant-owned continuation from paid generated outputs and own paid-read consequences, with unchanged supplied need and automatic selection.",
+  "scope": {
+    "source_modules": [
+      "hle_unified/workflow_continuation.py",
+      "hle_unified/workflow_continuation_audit.py"
+    ],
+    "test_directory": "tests_workflow_continuation",
+    "legacy": "No changes to Population, its v2/v3 schemas, selectors, recipes, prices, or baseline."
+  },
+  "contract": {
+    "schema": "hle-c7-workflow-continuation-v1",
+    "policy": "latest-successful-owned-result-v1",
+    "inputs": "Start with supplied accessible refs. Only after completed successful native work replace accessible with its exact owned retained binding; for material work wait for inherited own-event delivery and successful paid feedback read, then use that exact observation. Failed/cancelled/absent outputs keep the prior accessible tuple. No fabricated outputs or authoring after setup. All other request fields and supplied need remain fixed. Public/social handoff is not credited in this first split.",
+    "scheduler": "Inherit round-robin budget and repetition behavior unchanged. The continuation adapter supplies only the owned accessible refs; selector chooses route. Checkpoint stores legacy population state and exact per-episode input history; exact restore validates history before continuing."
+  },
+  "panel": {
+    "seeds": [
+      17
+    ],
+    "actors": [
+      "iee"
+    ],
+    "worlds": [
+      "generated-chain",
+      "withheld-generated-handoff",
+      "interrupted-restore",
+      "finite-turn-budget",
+      "exhausted-wallet"
+    ],
+    "episodes": 3,
+    "quantum": 17,
+    "repeat_limit": 2,
+    "ample_wallet": 200000,
+    "need_priorities": [
+      10,
+      8,
+      0,
+      9
+    ],
+    "externalize": true,
+    "initial_content": "One clearly authored hypothetical maintenance intention and paid supplied need, device and stock. No route instructions. Anticipated Theorize\u2192Apply\u2192Embody is a falsifiable expectation, never passed to the selector."
+  },
+  "acceptance": [
+    "Three paid completed native transformations and two exact generated-result/observed-consequence handoffs in generated-chain",
+    "Actual care changes material wear; paid-read observed consequence changes retained personal readiness; fixed paid downstream personal query can use it",
+    "Withholding the generated handoff preserves producer work/cost but changes subsequent choice or usable outcome; normal continuation auditor rejects its claimed provenance",
+    "Interrupted restored execution equals uninterrupted engine and continuation checkpoint bytes",
+    "Finite turn budget stays pending rather than claiming completion; finite wallet exhaustion or failed work preserves charges and no replenishment",
+    "Legacy population tests remain unchanged and pass",
+    "Independent raw auditor imports no scheduler, selector, executor or fixture builder; reconstructs episode inputs, fairness, charges and native semantics; forged history rejected",
+    "Freeze before acceptance, compare every source hash after execution, preserve failed/source-changed attempts"
+  ],
+  "exclusions": [
+    "No social-family acceptance yet",
+    "No 32/32 sustained claim",
+    "No Phase 7 or inherited contract change",
+    "No new goal formation, replenishment, growing population or unrestricted meanings"
+  ]
+}
