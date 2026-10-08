@@ -1,0 +1,86 @@
+test_exhaustion_and_cancelled_paid_work_preserve_history (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_exhaustion_and_cancelled_paid_work_preserve_history) ... FAIL
+test_no_pattern_controls_complete_for_both_types (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_no_pattern_controls_complete_for_both_types) ... 
+  test_no_pattern_controls_complete_for_both_types (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_no_pattern_controls_complete_for_both_types) (tim='iee') ... ERROR
+  test_no_pattern_controls_complete_for_both_types (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_no_pattern_controls_complete_for_both_types) (tim='sli') ... ERROR
+test_original_material_and_restore_tampers_are_rejected (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_original_material_and_restore_tampers_are_rejected) ... ERROR
+test_three_unsupported_clearances_are_byte_stable_and_recur (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_three_unsupported_clearances_are_byte_stable_and_recur) ... ok
+test_two_type_histories_have_scoped_causal_controls_and_exact_restore (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_two_type_histories_have_scoped_causal_controls_and_exact_restore) ... 
+  test_two_type_histories_have_scoped_causal_controls_and_exact_restore (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_two_type_histories_have_scoped_causal_controls_and_exact_restore) (tim='iee') ... ERROR
+  test_two_type_histories_have_scoped_causal_controls_and_exact_restore (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_two_type_histories_have_scoped_causal_controls_and_exact_restore) (tim='sli') ... ERROR
+
+======================================================================
+ERROR: test_no_pattern_controls_complete_for_both_types (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_no_pattern_controls_complete_for_both_types) (tim='iee')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/test_longitudinal_shell.py", line 30, in test_no_pattern_controls_complete_for_both_types
+    self.assertEqual(report['longitudinal_consumers'][-1]['next_task'], 'handover')
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_no_pattern_controls_complete_for_both_types (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_no_pattern_controls_complete_for_both_types) (tim='sli')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/test_longitudinal_shell.py", line 30, in test_no_pattern_controls_complete_for_both_types
+    self.assertEqual(report['longitudinal_consumers'][-1]['next_task'], 'handover')
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_original_material_and_restore_tampers_are_rejected (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_original_material_and_restore_tampers_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/test_longitudinal_shell.py", line 54, in test_original_material_and_restore_tampers_are_rejected
+    worlds, _ = longitudinal('iee')
+                ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/fixtures.py", line 96, in longitudinal
+    comparison = compare_correction_control(witness_report, control_report, out['request'].target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/hle_unified/workflow_longitudinal_shell_audit.py", line 72, in compare_correction_control
+    raise ValueError('correction control did not change the terminal consequence')
+ValueError: correction control did not change the terminal consequence
+
+======================================================================
+ERROR: test_two_type_histories_have_scoped_causal_controls_and_exact_restore (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_two_type_histories_have_scoped_causal_controls_and_exact_restore) (tim='iee')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/test_longitudinal_shell.py", line 12, in test_two_type_histories_have_scoped_causal_controls_and_exact_restore
+    worlds, row = longitudinal(tim)
+                  ^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/fixtures.py", line 96, in longitudinal
+    comparison = compare_correction_control(witness_report, control_report, out['request'].target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/hle_unified/workflow_longitudinal_shell_audit.py", line 72, in compare_correction_control
+    raise ValueError('correction control did not change the terminal consequence')
+ValueError: correction control did not change the terminal consequence
+
+======================================================================
+ERROR: test_two_type_histories_have_scoped_causal_controls_and_exact_restore (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_two_type_histories_have_scoped_causal_controls_and_exact_restore) (tim='sli')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/test_longitudinal_shell.py", line 12, in test_two_type_histories_have_scoped_causal_controls_and_exact_restore
+    worlds, row = longitudinal(tim)
+                  ^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/fixtures.py", line 96, in longitudinal
+    comparison = compare_correction_control(witness_report, control_report, out['request'].target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/hle_unified/workflow_longitudinal_shell_audit.py", line 72, in compare_correction_control
+    raise ValueError('correction control did not change the terminal consequence')
+ValueError: correction control did not change the terminal consequence
+
+======================================================================
+FAIL: test_exhaustion_and_cancelled_paid_work_preserve_history (tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_exhaustion_and_cancelled_paid_work_preserve_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/test_longitudinal_shell.py", line 33, in test_exhaustion_and_cancelled_paid_work_preserve_history
+    e, row = exhaustion()
+             ^^^^^^^^^^^^
+  File "/workspace/scratch/07b063671898/socionics_fb55/tests_workflow_longitudinal_shell/fixtures.py", line 149, in exhaustion
+    assert e.wallet(ALICE)['energy'] == 0 and d['status'] == 'pending'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+----------------------------------------------------------------------
+Ran 5 tests in 38.385s
+
+FAILED (failures=1, errors=5)

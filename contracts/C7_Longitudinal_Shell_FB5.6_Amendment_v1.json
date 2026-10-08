@@ -1,0 +1,18 @@
+{
+  "schema": "srl-fb5.6-longitudinal-shell-boundary-amendment-v1",
+  "batch": "5.6",
+  "parent": "C7_Longitudinal_Shell_Protocol_v1.json",
+  "status": "prospective clarification before counted evaluation; original protocol and failed attempt retained",
+  "finding": "The accepted operation lifecycle locks an actor while paid correction work is active. Through public commands, no new paid participant evidence can be read by that actor before commit, and the correction job's four dependencies are sealed law, cue, profile and Development contract objects. Therefore the preregistered stale-input failed-correction scenario cannot be produced without bypassing the public engine or changing an inherited dependency.",
+  "decision": "Use the inherited public cancel command after one paid correction quantum. The job must be status cancelled, retain its exact spent prefix and cancellation event, produce no u8.correction, retain the original generated material and earlier interrupted workflow, and remain independently reconstructable. This is the companion theory's explicit cancellation/failed-work preservation boundary; it is not relabelled as a commit failure.",
+  "unchanged_gates": [
+    "one counted boundary world; total raw worlds remains 29",
+    "finite exhaustion remains a separate one-unit-short partial-work case",
+    "all prior records, first intermediate and spending retained",
+    "no correction result or clearance credited",
+    "no inherited engine, contract or meaning changed",
+    "all original tamper, restore, recurrence, control, regression and freeze gates remain"
+  ],
+  "failure_record": "The first focused implementation run is preserved under evidence/FB5.6/attempt1. It had five methods, one assertion failure and five subtest errors; the source was unchanged during that run. Its failures were fixture/auditor assumptions, not accepted evidence.",
+  "stop_rules": "All standing stop conditions remain unchanged. This clarification does not weaken a repeated failed gate, authorize Phase 7 or alter the original protocol bytes."
+}
