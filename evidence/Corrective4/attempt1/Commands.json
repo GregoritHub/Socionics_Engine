@@ -1,0 +1,24 @@
+[
+  {
+    "argv": [
+      "python3",
+      "tools/test_c6.py",
+      "evidence/Corrective4/attempt1/tests",
+      "tests_release_corrective"
+    ],
+    "exit_code": 0,
+    "source_unchanged": true,
+    "seconds": 0.9408234500006074
+  },
+  {
+    "argv": [
+      "python3",
+      "tools/run_corrective_release.py",
+      "evidence/Corrective5/attempt1",
+      "--check-plan"
+    ],
+    "exit_code": 0,
+    "source_unchanged": true,
+    "seconds": 0.07988898799976596
+  }
+]

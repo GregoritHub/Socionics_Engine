@@ -1,0 +1,11 @@
+{
+  "requested": "One socket.getaddrinfo health check against the same authentic previously returned transfer host; no raw download.",
+  "performed": false,
+  "reason": "The retained committed diagnosis omits the hostname and signed transfer metadata. No authentic hostname was found in retained transfer JSON files or known metadata handles after context recovery. Guessing a host or preparing a new transfer before the changed-condition check would not satisfy the instruction.",
+  "last_observed": "[Errno -3] Temporary failure in name resolution",
+  "last_observation_record": "evidence/Corrective0/Transfer_Diagnosis_20261008.json",
+  "current_resolver_health": "unknown; not rechecked",
+  "new_download_attempts": 0,
+  "sandbox_denial_established": false,
+  "needed": "Recover the authentic prior hostname/metadata in this executor to perform the requested health check, or platform-supported direct placement; no user archive upload needed."
+}

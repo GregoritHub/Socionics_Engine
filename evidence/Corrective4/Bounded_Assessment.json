@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "Preparation checks only; no complete release run or historical reconstruction performed",
+  "corrective_method_ids": [
+    "tests_release_corrective.test_longitudinal.CorrectiveLongitudinalTests.test_preparation_cannot_count_as_auditor_rejection",
+    "tests_release_corrective.test_longitudinal.CorrectiveLongitudinalTests.test_real_forgery_rejected_and_accepting_auditor_fails",
+    "tests_release_corrective.test_native_verifier.NativeCoverageVerifierTests.test_duplicate_cannot_hide_missing_boundary",
+    "tests_release_corrective.test_native_verifier.NativeCoverageVerifierTests.test_same_total_wrong_setting_fails",
+    "tests_release_corrective.test_parent_verifier.ParentVerifierTests.test_accepting_auditor_cannot_count_forged_parent_rejection",
+    "tests_release_corrective.test_parent_verifier.ParentVerifierTests.test_duplicate_scenario_does_not_supply_eight_worlds",
+    "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_cross_cell_native_mapping_rejected",
+    "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_duplicate_method_rejected",
+    "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_missing_historical_bytes_block_mapping",
+    "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_missing_inherited_job_rejected"
+  ],
+  "source_unchanged": true,
+  "source_freeze_files": 1376,
+  "plan_jobs": 54,
+  "declared_full_method_count": 742,
+  "historical_preflight_refused": true,
+  "historical_preflight_error_type": "FileNotFoundError",
+  "historical_preflight_error_sha256": "d041c697ac4b60f04042c76b49e40355e72bad550634877687bec646c4483534",
+  "full_release_evaluation_run": false,
+  "ledger_independent_reconstruction_run": false,
+  "goal_complete": false
+}

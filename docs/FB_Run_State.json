@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "blocked",
   "current_batch": "corrective-4",
   "completed_batches": [
     "0.1",
@@ -25,15 +25,15 @@
     "6.1",
     "6.2"
   ],
-  "next_batch": "corrective-4",
-  "run_id": "fb-corrective4-20261008T192334Z",
-  "lease_expires_at": "2026-10-08T19:53:34.289248+00:00",
-  "updated_at": "2026-10-08T19:23:34.289248+00:00",
-  "stop_reason": null,
+  "next_batch": null,
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T19:31:07.405Z",
+  "stop_reason": "Historical raw recovery remains necessary before integrated ledger validation and complete release freeze. Prior transfer hostname unavailable after context recovery, so requested resolver health check not performed; current resolver health unknown. No new download attempted.",
   "release_1_1_authorized": false,
-  "record": "docs/FB_Corrective_3_Record.md",
+  "record": "docs/FB_Corrective_4_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Authorized independent corrective-4 preparation; no full evaluation or scheduler changes.",
+  "activity": "Independent corrective4 preparation checkpoint saved; historical raw recovery, integrated reconstruction, complete freeze/rerun and clean delivery remain. No schedule changes.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -71,11 +71,11 @@
   ],
   "last_run_id": "fb62-20261008T160423Z-codex",
   "blocker": {
-    "kind": "historical_raw_unavailable",
-    "record": "evidence/Corrective3/Release_Dependency_Check.json",
-    "transfer_diagnosis": "evidence/Corrective0/Transfer_Diagnosis_20261008.json",
-    "verified_ledger_objects": 36,
-    "unavailable_ledger_objects": 703,
+    "kind": "historical_raw_recovery",
+    "record": "evidence/Corrective4/Resume_Commands.json",
+    "resolver_check": "evidence/Corrective4/Resolver_Health_Check.json",
+    "current_resolver_health": "unknown",
+    "last_observed_error": "[Errno -3] Temporary failure in name resolution",
     "approval_denial": false
   },
   "automation_verification_history": [
@@ -138,12 +138,13 @@
     "prospective supplement",
     "longitudinal bounded correction",
     "192 newly evaluated native comparison reconstruction with six negative worlds",
-    "eight fresh parent scenarios, eight exact restores and six ordinary-audited forged-success controls"
+    "eight fresh parent scenarios, eight exact restores and six ordinary-audited forged-success controls",
+    "prospective 742-method/54-job release orchestration and raw ledger mapping preparation; bounded checks pass"
   ],
   "corrective_remaining": [
-    "restore and verify historical archive inventory (703 ledger objects currently unavailable)",
-    "revised raw ledger and complete orchestration",
-    "complete new freeze and full FB6.2 rerun",
-    "final historical reassembly and clean-unpack revised durable delivery"
+    "recover exact historical archives and authentic transfer metadata for requested health check",
+    "execute integrated raw ledger reconstruction and resolve findings under standing gates",
+    "declare complete final source freeze and full 54-job/742-method release rerun",
+    "independent final assessment and historical/new clean durable delivery"
   ]
 }
