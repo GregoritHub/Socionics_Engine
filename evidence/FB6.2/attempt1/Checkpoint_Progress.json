@@ -1,0 +1,262 @@
+{
+  "checkpoint_at": "2026-10-08T16:51:16.203965+00:00",
+  "complete": false,
+  "source_unchanged": true,
+  "freeze_files": 1355,
+  "distinct_methods_passed": 732,
+  "commands": [
+    {
+      "job": "additional",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "5f8972fa9fc1b883ea8d8f2feafc0063700d0a81579fb995babf4d8f73fd4579"
+    },
+    {
+      "job": "automatic-audit",
+      "passed": false,
+      "exit_code": null,
+      "source_unchanged": null,
+      "record_sha256": "a03a5faaaefeeaa7630530db333df136554efe52ea28a01b563af1a06d3a8638"
+    },
+    {
+      "job": "automatic",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "5f9f20d472e22a0b2c0a28b343f1e4f785137020b8f82c632fea850659e131fe"
+    },
+    {
+      "job": "canonical-choice",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "0ce715ae18ba0ba79a2d86e4c494de28aa92a7d6146a0df0d742d49352473bd0"
+    },
+    {
+      "job": "canonical-interruption",
+      "passed": false,
+      "exit_code": null,
+      "source_unchanged": null,
+      "record_sha256": "acff70b4a7e121694b5fe88ecdbaba8e476c3e9af6d93bb18b9be606997a491b"
+    },
+    {
+      "job": "canonical-prevention",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "70ad344b5e4ce4d7deaef1ff8e7b04537d2c892b00e0008a56e3e544b5b370d1"
+    },
+    {
+      "job": "canonical-responsive",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "76a8b8fbf045b1b694a93703a84493a32030c817079c20e4a7e360054e79cd24"
+    },
+    {
+      "job": "canonical-types",
+      "passed": false,
+      "exit_code": null,
+      "source_unchanged": null,
+      "record_sha256": "162a0f33ad347574bcc5f3dda03206f5f4e89486d5600eb4cf9ac5ad61d3190b"
+    },
+    {
+      "job": "composition-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "9d15fc628211d9ad4b6f5c54f64e6b6b17786bf78caf99e1a5808329f2cb52a1"
+    },
+    {
+      "job": "composition",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "cf13125da2d9f4e17a0a0ec3bbac6c34a3bced95a8492515e5db2e84f01ea0af"
+    },
+    {
+      "job": "continuation-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "1bf7fa52f3dfb64dce6ba91eed2f0e26f8fda6327b2649fdacfc03ad0391b224"
+    },
+    {
+      "job": "continuation",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "86836e0276eb763d2c93fd8cccee9dec5388b8205421734b208720698c8bdc54"
+    },
+    {
+      "job": "development-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "1543475ec59b530a183cfb9de982f786a73a7c2ffac0d189decc623f5e8037af"
+    },
+    {
+      "job": "development",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "90c14c831b3405007ca4ffb7e15187c62df3c5584f48f10053f948c210809dd8"
+    },
+    {
+      "job": "families-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "eb2c12efa04bce9c1318b1a59eda01134d5a4cd13fc1245c414565b66da1e476"
+    },
+    {
+      "job": "families",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "b3397f5f27aba331c6844952b9c7f5f75d0f10b6b75c12f4dc04dd5a2609b9df"
+    },
+    {
+      "job": "historical-ledger-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "2b82aef36340d79e1409a61a4c3b6d728e6e7ac150af382c47755e30085a0423"
+    },
+    {
+      "job": "inherited",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "f3300e31739f9688010ae8dbe8c78ee9477e4174ec18c64fc574bfe7159520bd"
+    },
+    {
+      "job": "interruption-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "292177481daf79a034afee5339dc0b594be0712d652bd2de2375e2358c8b0723"
+    },
+    {
+      "job": "interruption",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "f61dd0bb23535f7f549c04e73006339d8567179a47f7100181d1b7748c9ef92a"
+    },
+    {
+      "job": "longitudinal-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "52ebe01a4364e09f8afadd1ec674ef20d1f232209be2e84d0af6a46e5a63bdda"
+    },
+    {
+      "job": "longitudinal",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "068cb030a015c48ca9c087ff33aa2da19873f8ed495bf0621054890e7d8cc31d"
+    },
+    {
+      "job": "nesting-faces-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "d077d1447ade8a1fb4d9181219f0256e1b8ad2b3dc51ba1f17c77a084592e69f"
+    },
+    {
+      "job": "nesting-faces",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "2218f8d0aeee71acf6b9dc13b60e3bd799643079ec9a10399f5250ca2d8a2342"
+    },
+    {
+      "job": "population-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "600b17690a864cc27e0294b1c1537bd951966895db9defc6627b1b2d0414719c"
+    },
+    {
+      "job": "population",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "8173853395f2d6f0c1bc27108f9da7363e7cd3384feab5929db712a1ff79afad"
+    },
+    {
+      "job": "prevention-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "76ca6fea35be4b14da69eea71608afb8b267fb079ff3726b3894bb656faa683c"
+    },
+    {
+      "job": "prevention",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "b7b364740a35771822e740993a139a6222dba227e14482571e0b923d81fb7536"
+    },
+    {
+      "job": "responsive-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "a4541b258f7aacba9f75bcceb4db3feca137d1bb95c7ab315b92c434e873ab85"
+    },
+    {
+      "job": "responsive",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "77894f018edefc49d68ae60ec9140cbcc67bd9b9bf25bb7ce8f0ec5224aafa5a"
+    },
+    {
+      "job": "scripted-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "7e3ab7365e50e57f3e9b79d76f93d878bccd1dcb40a9eea9c4f80603391e8b07"
+    },
+    {
+      "job": "scripted",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "767f0ce44d7f811503b226280ab994fa513567ef6bdf6c3c4a0e6e340845801f"
+    },
+    {
+      "job": "sustained-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "49cd774cccd21c5ca2bca9cd807b78c0bf65f388ee657f9c3b18c621411cb58d"
+    },
+    {
+      "job": "sustained-cells-audit",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "a0e43fd0c90ae6787e2a94a0e9a393c407e2e12d9c38b6af5e21e886aaf8c101"
+    },
+    {
+      "job": "sustained-cells",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "cc380fe26e343cccbc8b6a799f7fb4c84a6981100c93787a652bc327641e7a11"
+    },
+    {
+      "job": "sustained",
+      "passed": true,
+      "exit_code": 0,
+      "source_unchanged": true,
+      "record_sha256": "138aa0071c614cd7b0c139acd85f0ac0bb6f6d6e07567f4bd8c2482a7b9b29ac"
+    }
+  ],
+  "release_assessment_notes": "docs/FB6.3_Entry_Notes.md"
+}
