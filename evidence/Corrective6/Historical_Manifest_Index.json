@@ -1,0 +1,7 @@
+{
+  "manifest": "evidence/Corrective6/Historical_Delivery_Manifest.json.gz",
+  "decoded_sha256": "6ac972548a5a04297ad388c67c9250eebbce0d7fcec26eab1714e4fd6d2e39b6",
+  "members": 15993,
+  "purpose": "Clean reassembly from 16 original pinned immutable archives, not the unsaved combined candidate",
+  "script_sha256": "241f51552ea99dfc3bcc32e8f87eafa76008fb00b910aa6869881b0c70dd0d74"
+}

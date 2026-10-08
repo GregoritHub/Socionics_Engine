@@ -1,0 +1,15 @@
+# Corrective6 prospective delivery procedure
+
+[source_defined] This procedure supplements the preserved held FB6.3 delivery. It changes no engine behavior, historical contract, semantic acceptance condition or evaluation source. Final Build Plan section 9 and the corrective supplement govern. Phase 7 remains unauthorized.
+
+[source_defined] Entry requires the complete Corrective5 54-job/742-method verifier, all 81 isolated measurement workers at unchanged tolerances, both intake-identical probes, the complete unchanged source freeze and independent corrected 32-row ledger reconstruction. No packaging check substitutes for any entry gate.
+
+[source_defined] Use a new corrected ledger/release report/inspector and specification amendment, preserving all prior versions. The candidate ledger remains unchanged; a separately derived release decision may promote all 32 rows only when its independent assessment and every delivery gate pass. If any item remains unsupported, keep held status and list it. No retrospective rewrite of original outcomes.
+
+[source_defined] Package source and immutable evidence into the common root Socionics_Research_Lab_Release_1_0. Historical ledger member paths resolve under evidence/historical. Preserve original FB6.2 and prior corrective paths at the common root; also retain their bytes under the historical root for original reconstruction. New Corrective5 evidence remains at its recorded repository-relative path. The exact FB5.6 recurrence dependency is supplied at its original source-relative path. Original containers remain unchanged at their indexed durable identities.
+
+[source_defined] Each package has a complete SHA-256/member-size manifest. Reject unsafe archive paths, nonregular members, byte collisions and existing-directory reuse. On a fresh clean unpack verify CRCs, every source and evidence hash, all 739 historical identities, the 3,465-file original FB6.2 manifest, all prior corrective manifests, the complete new source freeze, exact 742-method set and every command/result digest. Reconstruct corrected native/parent/longitudinal evidence independently; verify the 32-row decision against its independent assessment. Verify inspector data, all route/polarity filters and raw links; do not claim pixel rendering.
+
+[source_defined] Execution command records retain original absolute paths. Portable integrity checking resolves their recorded repository-relative result paths beneath the clean root; it does not rewrite archived commands to pretend execution occurred elsewhere. Reproduction instructions explicitly run a fresh full evaluation into a new directory if computation is to be repeated.
+
+[source_defined] Save large evidence via immutable durable archives; commit source, complete manifests, exact archive identities/digests, commands, delivery verification and final decision to GitHub using expected-head updates. A local clean candidate is not durable delivery until all required saves succeed. Release the lease at the verified checkpoint. Preserve every failure and stop condition.

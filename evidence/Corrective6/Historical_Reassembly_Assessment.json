@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "archives_verified": [
+    {
+      "key": "c2",
+      "passed": true,
+      "bytes": 2735649,
+      "file_id": "file_00000000952481f5aca66d3980d18c7b",
+      "file_name": "HLE_Full_Crux_C2_Evidence_v1.zip",
+      "library_file_id": "libfile_a72d37ac5fac81919ca066a12838b50b",
+      "sha256": "95af2c60593235d3b53c6130128366a09aca780aaea04cee999e4ad2e7fe2361",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "c3",
+      "passed": true,
+      "bytes": 12788947,
+      "file_id": "file_00000000146081f599f053bfd8e68e50",
+      "file_name": "HLE_Full_Crux_C3_Evidence_v1(1).zip",
+      "library_file_id": "libfile_b45be6b185ac8191a1a7cf08198703e8",
+      "sha256": "f666109201031836050c70c6048e6b24276ce7003058d5a74496dc1ffbee66b8",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "c4",
+      "passed": true,
+      "bytes": 7963085,
+      "file_id": "file_0000000032cc81f5880da1e507c38f68",
+      "file_name": "HLE_Full_Crux_C4_Evidence_v1.zip",
+      "library_file_id": "libfile_3632e1b9d7648191976b4dc452d29ad5",
+      "sha256": "ff1eb74a11ff37b0d843ed09db5a6525c68d5c242d4fd0e849052fc9edb17dc1",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "c5",
+      "passed": true,
+      "bytes": 29026838,
+      "file_id": "file_000000005b4481f5b1f80cd7cf32de43",
+      "file_name": "HLE_Full_Crux_C5_Evidence_v1.zip",
+      "library_file_id": "libfile_ac4f6303a49c81918fccf9135a272e79",
+      "sha256": "cd10349fee7ddf13d80e0ab4b5154266ef1d7c88776cd5f27ecc939b667d8f7d",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "c7_original",
+      "passed": true,
+      "bytes": 361646273,
+      "file_name": "HLE_Full_Crux_C7_Evidence_v2.zip",
+      "library_file_id": "libfile_9d4b7893f3b48191b58467a74f80cc46",
+      "sha256": "5a43c6d53a52df0884dd53b6ac2e3bf778696aae472aad9bea6b71148639783d",
+      "extract_to": "evidence/historical",
+      "file_id": "file_0000000014d881f59fed8a59c3e91f27"
+    },
+    {
+      "key": "fb2.4",
+      "passed": true,
+      "bytes": 73482270,
+      "file_id": "file_00000000dea481f5b361019b8f20ed7f",
+      "file_name": "Socionics_Final_Build_FB2.4_Attempt3_Evidence.zip",
+      "library_file_id": "libfile_ca3933d078fc8191ac1df6c631d97e0f",
+      "sha256": "941c387212198241d669ef7b49c909cdb5a853baaf20c02f8d965b829af0ad52",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "fb3.1",
+      "passed": true,
+      "bytes": 15310983,
+      "file_id": "file_00000000ecb881f5b29d0a5bee2aa32c",
+      "file_name": "Socionics_Final_Build_FB3.1_Evidence.zip",
+      "library_file_id": "libfile_97794a2fa93481918309e115ce4f01fe",
+      "sha256": "519b1c94f698e46d81791930440dff22e1e3a5d87f26c45dd0d7b64020004aab",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "fb3.2",
+      "passed": true,
+      "bytes": 27041446,
+      "file_id": "file_00000000e44081f5aec9fb5a61827e1b",
+      "file_name": "Socionics_Final_Build_FB3.2_Attempt3_Evidence.zip",
+      "library_file_id": "libfile_e02a7f94f60c819198310b348649412d",
+      "sha256": "78a25d3d9357493152bc72e4be1c06b8d808b18fd50b2069e8e27f3ca4c855f6",
+      "extract_to": "evidence/historical/evidence"
+    },
+    {
+      "key": "fb4.1",
+      "passed": true,
+      "bytes": 2024755,
+      "file_id": "file_000000008c84820ea5464b573df75ed2",
+      "file_name": "Socionics_Final_Build_FB4.1_Evidence.zip",
+      "library_file_id": "libfile_c06cafc408b88191803a984a832c736e",
+      "sha256": "af9db4a060b9365d8ad83982b15c374866fac15b1829578fa30b02ac5a0eacc4",
+      "extract_to": "evidence/historical/evidence"
+    },
+    {
+      "key": "fb4.2",
+      "passed": true,
+      "bytes": 4757794,
+      "file_id": "file_0000000041e88246b68a700c013dacdb",
+      "file_name": "Socionics_Final_Build_FB4.2_Evidence.zip",
+      "library_file_id": "libfile_3e917d8d23e48191a155c6d7defd9975",
+      "sha256": "bcc3c2e356974fee501be7dcd026d251afed62a2166f246ef21af19219b08741",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "fb5.5",
+      "passed": true,
+      "bytes": 11088803,
+      "file_id": "file_00000000744c82069f11e03bcfd7c6ee",
+      "file_name": "Socionics_Final_Build_FB5.5_Evidence.zip",
+      "library_file_id": "libfile_13c0fc1d0320819192b1df6a596fba06",
+      "sha256": "6b937ad3d27409426bebf8b4e622bafb768a848b75122c71fe2a005bb0df864e",
+      "extract_to": "evidence/historical/evidence/FB5.5"
+    },
+    {
+      "key": "fb5.6",
+      "passed": true,
+      "bytes": 11427947,
+      "file_id": "file_000000000cfc8206a734e46eb53cef7d",
+      "file_name": "Socionics_Final_Build_FB5.6_Evidence.zip",
+      "library_file_id": "libfile_724e93ce09008191a105e54d8e66b9fb",
+      "sha256": "6cb06f34991b9c83c6b3fd976124951b54f62d9257cf9d6c2126981231bda9ba",
+      "extract_to": "evidence/historical"
+    },
+    {
+      "key": "fb6.2",
+      "file_name": "Socionics_Final_Build_FB6.2_Evidence.zip",
+      "bytes": 320391477,
+      "sha256": "62a5a4852ad756b54ec62ca4e0b47c03a50017ec21f96c916333f6447cf47043",
+      "files": 3466,
+      "directory_entries": 0,
+      "members": 3466,
+      "library_path": "/Socionics_Final_Build_FB6.2_Evidence.zip",
+      "library_file_id": "libfile_d9bad3f1de90819196be06b9718a31a2",
+      "file_id": "file_0000000083fc8209ad9bd8a6f0a610a9",
+      "version": 0,
+      "extract_to": "."
+    },
+    {
+      "file_name": "Socionics_Corrective1_Longitudinal_Evidence.zip",
+      "library_file_id": "libfile_ce79f32da76c8191bcd8df46b1208cd0",
+      "file_id": "file_00000000f1f4823088b36d43b97d6ba5",
+      "library_path": "/Socionics_Corrective1_Longitudinal_Evidence.zip",
+      "version": 0,
+      "bytes": 1195119,
+      "sha256": "ec29788fc56f37e177372cf01637b48f6f82e33f6b0f6b95cf7bcfbb781b989f",
+      "key": "corrective1"
+    },
+    {
+      "file_name": "Socionics_Corrective2_Native_Evidence.tar.xz",
+      "library_file_id": "libfile_254bfe48fb208191ba7113698beda65b",
+      "file_id": "file_000000006ef082309accd5b0fd235909",
+      "library_path": "/Socionics_Corrective2_Native_Evidence.tar.xz",
+      "version": 0,
+      "bytes": 22401356,
+      "sha256": "00ea11fd9c775d2c2c855ba7b02ad8b36f4c43a573f6347fa81a57d6647ee4e8",
+      "format": "tar.xz",
+      "files": 792,
+      "key": "corrective2"
+    },
+    {
+      "file_name": "Socionics_Corrective3_Parent_Evidence.tar.xz",
+      "library_file_id": "libfile_78c1c420ffd08191b03e0e540faf0ed7",
+      "file_id": "file_0000000013fc81f78ca6986b111d78bf",
+      "library_path": "/Socionics_Corrective3_Parent_Evidence.tar.xz",
+      "version": 0,
+      "bytes": 1750764,
+      "sha256": "9c8515727ee4d41bd1b2d404abddba7f79ed2274a750a4bce22cd0e3d595e8d1",
+      "format": "tar.xz",
+      "files": 36,
+      "key": "corrective3"
+    }
+  ],
+  "historical_members": 739,
+  "raw_manifests": {
+    "evidence/FB6.2/Raw_SHA256.json": 3465,
+    "evidence/Corrective1/Raw_SHA256.json": 28,
+    "evidence/Corrective2/Raw_SHA256.json": 791,
+    "evidence/Corrective3/Raw_SHA256.json": 35
+  },
+  "delivered_members": 15993,
+  "source_instruction": "Clean reassembly of all immutable indexed components; no reconstructed history or overwritten evidence."
+}

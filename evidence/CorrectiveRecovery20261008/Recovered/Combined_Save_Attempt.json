@@ -1,0 +1,12 @@
+{
+  "file_name": "Socionics_Corrective_Historical_Evidence_20261008.zip",
+  "bytes": 1560452143,
+  "sha256": "dd82d7a3c477637e208dd45aaf49feb6035eb8d4677779343421e608dcf950c0",
+  "manifest_sha256": "7b34c2aac39505f28e7670d5dfe3fb5386dc0c9a22a8aba345f2d27b6f80c2be",
+  "members_hashed": 16071,
+  "attempted_at": "2026-10-08T22:41:44.457904+00:00",
+  "exit_code": 1,
+  "error": "library upload failed: prepare_uploads failed",
+  "durable_save_verified": false,
+  "fallback": "No repeat write. All 16 original indexed immutable archives remain durably saved and have just been recovered and verified. Final historical delivery will prove clean reassembly from those exact original components and mappings, preserving this failed combined save."
+}
