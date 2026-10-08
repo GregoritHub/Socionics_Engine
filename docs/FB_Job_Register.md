@@ -1,5 +1,7 @@
 # Final Build job register
 
+[machine-checked] Corrective5 input recovery supersedes the prior transfer blocker: all 739 historical objects, 13 durable historical containers, three corrective archives and all four raw manifests verified. Independent historical preflight reconstructed 32 rows. Complete final freeze committed before full rerun; evaluation and delivery remain pending. See FB_Corrective_5_Record.md. Historical held results and scheduling remain unchanged.
+
 [source_defined] Follow the supplied Final Build Plan v1.0 in order. D-series numbers remain unassigned.
 
 | Batch | Work | Status | D-series |

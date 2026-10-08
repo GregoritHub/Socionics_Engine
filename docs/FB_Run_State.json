@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "corrective-recovery",
+  "current_batch": "corrective-5",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -27,13 +27,13 @@
   ],
   "next_batch": null,
   "run_id": "corrective-recovery-2026-10-08T223209073Z",
-  "lease_expires_at": "2026-10-08T23:02:09.073Z",
-  "updated_at": "2026-10-08T22:32:09.073Z",
+  "lease_expires_at": "2026-10-08T23:07:14.915Z",
+  "updated_at": "2026-10-08T22:37:14.915Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB_Corrective_Recovery_20261008_Record.md",
+  "record": "docs/FB_Corrective_5_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Recover exact indexed C5 backup, FB6.2, C2 and C7 v2 archives; verify historical bytes before full freeze.",
+  "activity": "All 739 historical objects and 16 indexed archives verified; independent 32-row historical preflight passed. Complete freeze committed before full rerun.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -70,14 +70,7 @@
     }
   ],
   "last_run_id": "fb-recovery-20261008T194023439Z",
-  "blocker": {
-    "kind": "historical_raw_recovery",
-    "record": "evidence/CorrectiveRecovery20261008/Attempt1.json",
-    "fresh_transfer_http_status": 403,
-    "current_resolver_health": "authentic returned host getaddrinfo failed with errno -3",
-    "approval_denial": false,
-    "raw_archive_created": false
-  },
+  "blocker": null,
   "automation_verification_history": [
     {
       "checked_at": "2026-10-07T11:30:34.532266Z",

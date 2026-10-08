@@ -1,0 +1,10 @@
+{
+  "historical_members": 739,
+  "historical_rows_checked": 32,
+  "passed": true,
+  "historical_release_complete": false,
+  "full_rerun_started": false,
+  "support_attempt1_error": "Schema handling error: compared Corrective3 SHA/bytes object to digest string; exact digest was equal. Preserved script. Corrected attempt2 verifies both fields; all 35 entries pass.",
+  "baseline_changed": false,
+  "archives_rewritten": false
+}
