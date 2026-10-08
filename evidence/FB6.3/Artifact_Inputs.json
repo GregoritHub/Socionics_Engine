@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "docs/FB6.3_Delivery_Procedure.md": "a27574e5c7441637e40b4d40e211aa9522c2d4f2b78d87f9d4564b8ca51765e6",
+    "docs/FB6.3_Reproduce.md": "aa4a936734eb101857d2afef48e24ead45406be276e4a8ca22712dcac6402948",
+    "C7_Final_Ledger_v2.json": "279aa24f35bdb66a13a4e54fa64a43fd470c8ef3881eed1e1421da3d84c7d5a1",
+    "docs/HLE_Full_Crux_C7_Inspector_v3.html": "972ccce8bf315b764198609c9d01bbf3d2651f59529e0335069fe0ed2af3d47b",
+    "docs/HLE_Full_Crux_C7_Release_Report_v3.md": "1809a1fb4f89e1b12cf836400408ebdaf72ff48591b448c71dfc565f3e796ec0",
+    "docs/HLE_Full_Crux_Build_Specification_v11.md": "a69f496fd3daa01edc1100606f061c6ee5c045ced403f05d205676a6abc2edde"
+  },
+  "new_repository_executables": 0
+}
