@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "tools/verify_c7_final_regression.py",
+    "/workspace/scratch/07b063671898/socionics_fb62/evidence/FB6.2/attempt1"
+  ],
+  "started_at": "2026-10-08T17:12:37.030450+00:00",
+  "finished_at": "2026-10-08T17:12:38.083778+00:00",
+  "exit_code": 0,
+  "source_unchanged": true,
+  "freeze_sha256": "0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7",
+  "stdout_sha256": "999186f723433c14a54166e926debbe55a748c6f98b100968508e5b84e35d812",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
