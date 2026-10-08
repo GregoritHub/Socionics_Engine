@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
+  "status": "active",
   "current_batch": "5.6",
   "completed_batches": [
     "0.1",
@@ -23,14 +23,14 @@
     "5.5"
   ],
   "next_batch": "5.6",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-08T00:16:00Z",
+  "run_id": "fb56-20261008T014518Z-codex",
+  "lease_expires_at": "2026-10-08T02:15:00Z",
+  "updated_at": "2026-10-08T01:45:18Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.5_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.5 accepted and lease released. Next eligible batch is FB5.6 longitudinal Shell controls and integrated extension assessment.",
+  "activity": "FB5.6 lease claimed; reading accepted Shell evidence and preregistering the longitudinal Shell protocol before implementation.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
