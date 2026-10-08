@@ -1,0 +1,24 @@
+{
+  "schema": "corrective-release-dependency-check-v1",
+  "ledger": "C7_Final_Ledger_v2.json",
+  "ledger_sha256": "279aa24f35bdb66a13a4e54fa64a43fd470c8ef3881eed1e1421da3d84c7d5a1",
+  "scope": "Exact member suffix, size and SHA-256 check against files currently under /workspace; no remote transfer attempted.",
+  "counts": {
+    "missing_or_mismatched": 703,
+    "verified": 36
+  },
+  "full_freeze_ready": false,
+  "remaining_implementation": [
+    "Integrate corrected native, parent and longitudinal raw mappings in new joint ledger and independent verifier.",
+    "Prospectively enumerate inherited and new methods; update complete release orchestration and verifier; new complete freeze."
+  ],
+  "historical_recovery": "Still required for final delivery. Conditional direct workspace placement is exposed but prior supported calls returned null; no force-direct parameter. Signed transfer host resolver failed, not a proven sandbox denial.",
+  "full_unavailable_inventory": {
+    "archive_member": "evidence/Corrective3/Release_Dependency_Check.json",
+    "sha256": "978a038d299634aaf7fa73e73a447180b02e1128183938c366365efb6cac0625"
+  },
+  "source_freeze": {
+    "archive_member": "evidence/Corrective3/attempt1/Source_Freeze.json",
+    "sha256": "8f8569f37da2f36a035df271accb0c152d1ac14de1644c36b1a09f3103d52019"
+  }
+}

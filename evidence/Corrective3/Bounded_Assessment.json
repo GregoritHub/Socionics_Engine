@@ -1,0 +1,1284 @@
+{
+  "passed": true,
+  "new_parent_scenarios": 8,
+  "raw_restore_checks": 8,
+  "forged_parent_controls": [
+    {
+      "setting": "canonical",
+      "native_scenario": "cancelled-child",
+      "mode": "blocked-summary-complete",
+      "reason": "retained binding differs from raw paid content",
+      "raw": {
+        "file": "canonical-cancelled-child-forged.json.gz",
+        "sha256": "2a7edd1947d7d90b4172746d87dd4f7ed83c476868347f7e12951f16f574390d"
+      }
+    },
+    {
+      "setting": "canonical",
+      "native_scenario": "membership-change",
+      "mode": "failed-parent-status-success",
+      "reason": "stale or unfinished composition completed",
+      "raw": {
+        "file": "canonical-membership-change-forged.json.gz",
+        "sha256": "bc75e0f5ffa5e323e7683038911420aaf22908353d6e40096f7004aa05206841"
+      }
+    },
+    {
+      "setting": "canonical",
+      "native_scenario": "withdrawal",
+      "mode": "failed-parent-status-success",
+      "reason": "stale or unfinished composition completed",
+      "raw": {
+        "file": "canonical-withdrawal-forged.json.gz",
+        "sha256": "e6d6ea8634a4d5506bc8cc5ec4a0d556faaf3aed3e14c31be6f4cfe8bf955f6e"
+      }
+    },
+    {
+      "setting": "workflow",
+      "native_scenario": "failed-child",
+      "mode": "blocked-summary-complete",
+      "reason": "retained binding differs from raw paid content",
+      "raw": {
+        "file": "workflow-failed-child-forged.json.gz",
+        "sha256": "cd06ca7b3260a76ea52d05c33d4fb6cb192496c2128c9bb210a6e92da9a5ba5a"
+      }
+    },
+    {
+      "setting": "workflow",
+      "native_scenario": "membership-change",
+      "mode": "failed-parent-status-success",
+      "reason": "event does not describe its operation",
+      "raw": {
+        "file": "workflow-membership-change-forged.json.gz",
+        "sha256": "5d909b56afb9c12fb74913633c2d014d9478d063a768eb40735457d7c8a79867"
+      }
+    },
+    {
+      "setting": "workflow",
+      "native_scenario": "participant-withdrawal",
+      "mode": "failed-parent-status-success",
+      "reason": "event does not describe its operation",
+      "raw": {
+        "file": "workflow-participant-withdrawal-forged.json.gz",
+        "sha256": "4c8457b281eb5f4737f5631df15408b332166d985a8165c7a849373df5f4eb22"
+      }
+    }
+  ],
+  "parents": [
+    {
+      "setting": "canonical",
+      "category": "normal",
+      "native_scenario": "normal",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "succeeded",
+      "parent_failure": null,
+      "parent_binding": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "c4.output",
+              "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+            }
+          },
+          "revision": 1
+        }
+      },
+      "parent_review_spent": 54,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:work:alice:case",
+          "paid": 54
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "aca0a2c22b7f223ac84ec97edd2de47b37e25bc601346349cf1a2e720c44cf40"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.output",
+                  "key": "aca0a2c22b7f223ac84ec97edd2de47b37e25bc601346349cf1a2e720c44cf40"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 19,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-child-0",
+              "paid": 19
+            }
+          ],
+          "output_sha256": "d5a76206e35a447cf8240c99dadfb0ae28f55d1899f2957e1beaecc41080c345"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "e708223f60156c570377c4ee152839fe1f919f14f92a74ea86c3e75b46afee5d"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.output",
+                  "key": "e708223f60156c570377c4ee152839fe1f919f14f92a74ea86c3e75b46afee5d"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 14,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-child-1",
+              "paid": 14
+            }
+          ],
+          "output_sha256": "c32c64a884ecbe0b1f540a3893d18ddf142e04497e86acc2f662896a1a167cff"
+        }
+      ],
+      "unique_child_operations": 2,
+      "cited_child_spending": 33,
+      "combined_review_and_cited_spending": 87,
+      "complete": true,
+      "change": null,
+      "stale_dependencies": [],
+      "exact_restore": true
+    },
+    {
+      "setting": "canonical",
+      "category": "unsuccessful-child",
+      "native_scenario": "cancelled-child",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "succeeded",
+      "parent_failure": null,
+      "parent_binding": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "c4.output",
+              "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+            }
+          },
+          "revision": 1
+        }
+      },
+      "parent_review_spent": 59,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:work:alice:case",
+          "paid": 59
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "aca0a2c22b7f223ac84ec97edd2de47b37e25bc601346349cf1a2e720c44cf40"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.output",
+                  "key": "aca0a2c22b7f223ac84ec97edd2de47b37e25bc601346349cf1a2e720c44cf40"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 19,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-child-0",
+              "paid": 19
+            }
+          ],
+          "output_sha256": "d5a76206e35a447cf8240c99dadfb0ae28f55d1899f2957e1beaecc41080c345"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "e708223f60156c570377c4ee152839fe1f919f14f92a74ea86c3e75b46afee5d"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.observation",
+                  "key": "7ab362fb0e2a30690ac009c080fe1085dd4055118267c87351e5d08b07016b1b"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "cancelled",
+          "spent": 1,
+          "wallet_payments": [
+            {
+              "transaction": "u4:case-child-1-advance",
+              "paid": 1
+            }
+          ],
+          "output_sha256": "50b36b02a4c7696d62f44893171b1f3b83346c692086d6748b57c3568987a6aa"
+        }
+      ],
+      "unique_child_operations": 2,
+      "cited_child_spending": 20,
+      "combined_review_and_cited_spending": 79,
+      "complete": false,
+      "change": null,
+      "stale_dependencies": [],
+      "exact_restore": true
+    },
+    {
+      "setting": "canonical",
+      "category": "membership-change",
+      "native_scenario": "membership-change",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "21013f464e077f3dafa6f748adf732fae398856bdf7d7e16f1405f45cfeca248"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "failed",
+      "parent_failure": "stale_dependency",
+      "parent_binding": null,
+      "parent_review_spent": 109,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:paid-parent",
+          "paid": 109
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "ed95c55f848b0c19c8e5e3ebef8cdd289dfd5b3c021a343f4f9179964387f600"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.message",
+                  "key": "ed95c55f848b0c19c8e5e3ebef8cdd289dfd5b3c021a343f4f9179964387f600"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 66,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-share",
+              "paid": 66
+            }
+          ],
+          "output_sha256": "637b45a5f96c76ee97384d13c94bec8ca473b9c681223c2fdefdd46d913fff0a"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c4.message",
+                  "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 100,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case",
+              "paid": 100
+            }
+          ],
+          "output_sha256": "edd4a7f120d673671dc8146e952da854631984416d9bd5c9f13eb1443fee50dc"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "c314535a2a2d67d944558fbef356b351b64cfcf773dfad32040e1e566b7d969e"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.output",
+                  "key": "c314535a2a2d67d944558fbef356b351b64cfcf773dfad32040e1e566b7d969e"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 53,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-identify",
+              "paid": 53
+            }
+          ],
+          "output_sha256": "9040ecad8af56fae89545195189516a4c9cba52f12c1d9fc4661cea514b0a9d7"
+        }
+      ],
+      "unique_child_operations": 3,
+      "cited_child_spending": 219,
+      "combined_review_and_cited_spending": 328,
+      "complete": null,
+      "change": {
+        "old": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u11.group",
+                "key": "4d95f4be0a6a48e3eddf00429787b05a2c6a42e69bbc3237788f41e61e5c9db3"
+              }
+            },
+            "revision": 2
+          }
+        },
+        "new": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u11.group",
+                "key": "4d95f4be0a6a48e3eddf00429787b05a2c6a42e69bbc3237788f41e61e5c9db3"
+              }
+            },
+            "revision": 3
+          }
+        },
+        "removed": [
+          "bob"
+        ]
+      },
+      "stale_dependencies": [
+        {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u11.group",
+                "key": "4d95f4be0a6a48e3eddf00429787b05a2c6a42e69bbc3237788f41e61e5c9db3"
+              }
+            },
+            "revision": 2
+          }
+        }
+      ],
+      "exact_restore": true
+    },
+    {
+      "setting": "canonical",
+      "category": "withdrawal",
+      "native_scenario": "withdrawal",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "21013f464e077f3dafa6f748adf732fae398856bdf7d7e16f1405f45cfeca248"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "failed",
+      "parent_failure": "stale_dependency",
+      "parent_binding": null,
+      "parent_review_spent": 109,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:paid-parent",
+          "paid": 109
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "ed95c55f848b0c19c8e5e3ebef8cdd289dfd5b3c021a343f4f9179964387f600"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.message",
+                  "key": "ed95c55f848b0c19c8e5e3ebef8cdd289dfd5b3c021a343f4f9179964387f600"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 66,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-share",
+              "paid": 66
+            }
+          ],
+          "output_sha256": "637b45a5f96c76ee97384d13c94bec8ca473b9c681223c2fdefdd46d913fff0a"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c4.message",
+                  "key": "ce918d780609d14412dd79201fa65c561f50a181c6b98cf07767382850e945ba"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 100,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case",
+              "paid": 100
+            }
+          ],
+          "output_sha256": "edd4a7f120d673671dc8146e952da854631984416d9bd5c9f13eb1443fee50dc"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "c314535a2a2d67d944558fbef356b351b64cfcf773dfad32040e1e566b7d969e"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c3.output",
+                  "key": "c314535a2a2d67d944558fbef356b351b64cfcf773dfad32040e1e566b7d969e"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 53,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:case-identify",
+              "paid": 53
+            }
+          ],
+          "output_sha256": "9040ecad8af56fae89545195189516a4c9cba52f12c1d9fc4661cea514b0a9d7"
+        }
+      ],
+      "unique_child_operations": 3,
+      "cited_child_spending": 219,
+      "combined_review_and_cited_spending": 328,
+      "complete": null,
+      "change": {
+        "old": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "workshop",
+                "key": "case-renew-b"
+              }
+            },
+            "revision": 1
+          }
+        },
+        "new": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "workshop",
+                "key": "case-renew-b"
+              }
+            },
+            "revision": 2
+          }
+        },
+        "consent": false,
+        "paid_retention": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u4.operation",
+                "key": "1d84f525438dbb8d62de7f7e5ddc054ca1cdaea6b4fe432f9eefe4c935436049"
+              }
+            },
+            "revision": 3
+          }
+        },
+        "retention_spent": 3
+      },
+      "stale_dependencies": [
+        {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "workshop",
+                "key": "case-renew-b"
+              }
+            },
+            "revision": 1
+          }
+        }
+      ],
+      "exact_restore": true
+    },
+    {
+      "setting": "workflow",
+      "category": "normal",
+      "native_scenario": "normal",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "ca2faf5486796ea6fd3a5419c87141dbe3641e496539ab851a3853c2445bc956"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "succeeded",
+      "parent_failure": null,
+      "parent_binding": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "c7n.output",
+              "key": "ca2faf5486796ea6fd3a5419c87141dbe3641e496539ab851a3853c2445bc956"
+            }
+          },
+          "revision": 1
+        }
+      },
+      "parent_review_spent": 97,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:work:alice:parent",
+          "paid": 97
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 22,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-model",
+              "paid": 22
+            }
+          ],
+          "output_sha256": "086f3b850a75e0663ff2e07902a9c892c78f3a24e3c41eee9251cde2fd672260"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "8eb919aa0854681b4754b611f25f29715b93770dc1134c8b759344573c7c42f3"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "8eb919aa0854681b4754b611f25f29715b93770dc1134c8b759344573c7c42f3"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 86,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-social",
+              "paid": 86
+            }
+          ],
+          "output_sha256": "61c583a38ad745e2c9ced7b40b2ebb32992d9142d04e5f6af47349f48381afe3"
+        }
+      ],
+      "unique_child_operations": 2,
+      "cited_child_spending": 108,
+      "combined_review_and_cited_spending": 205,
+      "complete": true,
+      "change": null,
+      "stale_dependencies": [],
+      "exact_restore": true
+    },
+    {
+      "setting": "workflow",
+      "category": "unsuccessful-child",
+      "native_scenario": "failed-child",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "ca2faf5486796ea6fd3a5419c87141dbe3641e496539ab851a3853c2445bc956"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "succeeded",
+      "parent_failure": null,
+      "parent_binding": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "c7n.output",
+              "key": "ca2faf5486796ea6fd3a5419c87141dbe3641e496539ab851a3853c2445bc956"
+            }
+          },
+          "revision": 1
+        }
+      },
+      "parent_review_spent": 73,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:work:alice:parent",
+          "paid": 73
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 22,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-model",
+              "paid": 22
+            }
+          ],
+          "output_sha256": "086f3b850a75e0663ff2e07902a9c892c78f3a24e3c41eee9251cde2fd672260"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "a7bc03f5213bace3f48e878b7f476e5bada72976b1c529226b29f9626b0d5ca0"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.observation",
+                  "key": "7c502f3934740904b9d789668da6e688423977b6d83ced162256a8b0cbf0bdaa"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "failed",
+          "spent": 17,
+          "wallet_payments": [
+            {
+              "transaction": "u4:failed-paid",
+              "paid": 17
+            }
+          ],
+          "output_sha256": "d1ebfd8dd66f25276d5c522e8e1e1fc471c6d310c917853d945037b08b66e1c5"
+        }
+      ],
+      "unique_child_operations": 2,
+      "cited_child_spending": 39,
+      "combined_review_and_cited_spending": 112,
+      "complete": false,
+      "change": null,
+      "stale_dependencies": [],
+      "exact_restore": true
+    },
+    {
+      "setting": "workflow",
+      "category": "membership-change",
+      "native_scenario": "membership-change",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "ca2faf5486796ea6fd3a5419c87141dbe3641e496539ab851a3853c2445bc956"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "failed",
+      "parent_failure": "stale_dependency",
+      "parent_binding": null,
+      "parent_review_spent": 97,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:parent-paid",
+          "paid": 97
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 22,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-model",
+              "paid": 22
+            }
+          ],
+          "output_sha256": "086f3b850a75e0663ff2e07902a9c892c78f3a24e3c41eee9251cde2fd672260"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "8eb919aa0854681b4754b611f25f29715b93770dc1134c8b759344573c7c42f3"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "8eb919aa0854681b4754b611f25f29715b93770dc1134c8b759344573c7c42f3"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 86,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-social",
+              "paid": 86
+            }
+          ],
+          "output_sha256": "61c583a38ad745e2c9ced7b40b2ebb32992d9142d04e5f6af47349f48381afe3"
+        }
+      ],
+      "unique_child_operations": 2,
+      "cited_child_spending": 108,
+      "combined_review_and_cited_spending": 205,
+      "complete": null,
+      "change": {
+        "old": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u11.group",
+                "key": "3226a05c67ba74848d8299f51af86c4d61b2c92d85a6b2b4625c1f326c8cefc5"
+              }
+            },
+            "revision": 2
+          }
+        },
+        "new": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u11.group",
+                "key": "3226a05c67ba74848d8299f51af86c4d61b2c92d85a6b2b4625c1f326c8cefc5"
+              }
+            },
+            "revision": 3
+          }
+        },
+        "removed": [
+          "bob"
+        ]
+      },
+      "stale_dependencies": [
+        {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u11.group",
+                "key": "3226a05c67ba74848d8299f51af86c4d61b2c92d85a6b2b4625c1f326c8cefc5"
+              }
+            },
+            "revision": 2
+          }
+        }
+      ],
+      "exact_restore": true
+    },
+    {
+      "setting": "workflow",
+      "category": "withdrawal",
+      "native_scenario": "participant-withdrawal",
+      "parent": {
+        "record": "ObjectRef",
+        "fields": {
+          "identity": {
+            "record": "ObjectId",
+            "fields": {
+              "namespace": "u4.operation",
+              "key": "ca2faf5486796ea6fd3a5419c87141dbe3641e496539ab851a3853c2445bc956"
+            }
+          },
+          "revision": 3
+        }
+      },
+      "parent_status": "failed",
+      "parent_failure": "stale_dependency",
+      "parent_binding": null,
+      "parent_review_spent": 97,
+      "parent_wallet_payments": [
+        {
+          "transaction": "u4:parent-paid",
+          "paid": 97
+        }
+      ],
+      "children": [
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "c57109ac30df6fd490b7d531144e00390ba06032a731c1959a4594eb78259739"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 22,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-model",
+              "paid": 22
+            }
+          ],
+          "output_sha256": "086f3b850a75e0663ff2e07902a9c892c78f3a24e3c41eee9251cde2fd672260"
+        },
+        {
+          "operation": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "u4.operation",
+                  "key": "8eb919aa0854681b4754b611f25f29715b93770dc1134c8b759344573c7c42f3"
+                }
+              },
+              "revision": 3
+            }
+          },
+          "output": {
+            "record": "ObjectRef",
+            "fields": {
+              "identity": {
+                "record": "ObjectId",
+                "fields": {
+                  "namespace": "c7w.output",
+                  "key": "8eb919aa0854681b4754b611f25f29715b93770dc1134c8b759344573c7c42f3"
+                }
+              },
+              "revision": 1
+            }
+          },
+          "status": "succeeded",
+          "spent": 86,
+          "wallet_payments": [
+            {
+              "transaction": "u4:work:alice:parent-social",
+              "paid": 86
+            }
+          ],
+          "output_sha256": "61c583a38ad745e2c9ced7b40b2ebb32992d9142d04e5f6af47349f48381afe3"
+        }
+      ],
+      "unique_child_operations": 2,
+      "cited_child_spending": 108,
+      "combined_review_and_cited_spending": 205,
+      "complete": null,
+      "change": {
+        "old": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "workshop",
+                "key": "parent-social-exchange-peer"
+              }
+            },
+            "revision": 1
+          }
+        },
+        "new": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "workshop",
+                "key": "parent-social-exchange-peer"
+              }
+            },
+            "revision": 2
+          }
+        },
+        "consent": false,
+        "paid_retention": {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "u4.operation",
+                "key": "cfdc1029dbdc60bc4197f39075b4f4eb866f8ec34730f8fa18ad6195dfd0687b"
+              }
+            },
+            "revision": 3
+          }
+        },
+        "retention_spent": 3
+      },
+      "stale_dependencies": [
+        {
+          "record": "ObjectRef",
+          "fields": {
+            "identity": {
+              "record": "ObjectId",
+              "fields": {
+                "namespace": "workshop",
+                "key": "parent-social-exchange-peer"
+              }
+            },
+            "revision": 1
+          }
+        }
+      ],
+      "exact_restore": true
+    }
+  ],
+  "historical_recovery_claimed": false,
+  "participant_replay": false,
+  "source_unchanged": true,
+  "historical_recovery": false,
+  "release_complete": false
+}

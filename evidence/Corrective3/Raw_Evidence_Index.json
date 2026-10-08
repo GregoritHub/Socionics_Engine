@@ -1,0 +1,24 @@
+{
+  "schema": "srl-corrective3-evidence-index-v1",
+  "archive": {
+    "file_name": "Socionics_Corrective3_Parent_Evidence.tar.xz",
+    "library_file_id": "libfile_78c1c420ffd08191b03e0e540faf0ed7",
+    "file_id": "file_0000000013fc81f78ca6986b111d78bf",
+    "library_path": "/Socionics_Corrective3_Parent_Evidence.tar.xz",
+    "version": 0,
+    "bytes": 1750764,
+    "sha256": "9c8515727ee4d41bd1b2d404abddba7f79ed2274a750a4bce22cd0e3d595e8d1",
+    "format": "tar.xz",
+    "files": 36
+  },
+  "evidence_status": "newly_evaluated_not_historical_recovery",
+  "restore": [
+    "Materialize pinned identity through supported Library tools; verify archive size and SHA-256.",
+    "Reject absolute/traversal paths and nonregular members; extract isolated staging.",
+    "Verify evidence/Corrective3/Raw_SHA256.json, then run tools/verify_corrective_parents.py against attempt1/matrix on the recorded freeze."
+  ],
+  "parent_worlds": 8,
+  "exact_restores": 8,
+  "forged_parent_controls": 6,
+  "release_complete": false
+}

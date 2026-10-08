@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 0.5501206799999636,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_release_corrective.test_longitudinal.CorrectiveLongitudinalTests.test_preparation_cannot_count_as_auditor_rejection",
+      "status": "passed",
+      "seconds": 0.00010669899984350195
+    },
+    {
+      "test_id": "tests_release_corrective.test_longitudinal.CorrectiveLongitudinalTests.test_real_forgery_rejected_and_accepting_auditor_fails",
+      "status": "passed",
+      "seconds": 0.5470371210003577
+    },
+    {
+      "test_id": "tests_release_corrective.test_native_verifier.NativeCoverageVerifierTests.test_duplicate_cannot_hide_missing_boundary",
+      "status": "passed",
+      "seconds": 0.0002881800000977819
+    },
+    {
+      "test_id": "tests_release_corrective.test_native_verifier.NativeCoverageVerifierTests.test_same_total_wrong_setting_fails",
+      "status": "passed",
+      "seconds": 0.00013421000039670616
+    },
+    {
+      "test_id": "tests_release_corrective.test_parent_verifier.ParentVerifierTests.test_accepting_auditor_cannot_count_forged_parent_rejection",
+      "status": "passed",
+      "seconds": 6.884300000820076e-05
+    },
+    {
+      "test_id": "tests_release_corrective.test_parent_verifier.ParentVerifierTests.test_duplicate_scenario_does_not_supply_eight_worlds",
+      "status": "passed",
+      "seconds": 2.5889000426104758e-05
+    }
+  ]
+}
