@@ -1,0 +1,56 @@
+{
+  "schema": "srl-corrective-parent-export-addendum-v1",
+  "prospective": true,
+  "authority": "Parent continuation explicitly authorizes fresh complete eight-scenario parent panel and prospective execution-order amendment on 2026-10-08. No inherited-contract or author ruling change needed.",
+  "amends_execution_order_only": "The corrective-3 requirement to establish historical absence before any new parent export is superseded for this newly evaluated complete panel. Historical inventory/recovery remains a mandatory independent final-delivery obligation. Old supplement/addenda and all held/failed evidence remain unchanged.",
+  "evidence_status": "Newly evaluated evidence from preserved C4 and workflow fixtures. Not recovery, replacement or proof of absence of any historical world.",
+  "panel": {
+    "settings": [
+      "canonical",
+      "workflow"
+    ],
+    "categories": [
+      "normal",
+      "unsuccessful-child",
+      "membership-change",
+      "withdrawal"
+    ],
+    "worlds": 8,
+    "unsuccessful_child_semantics": {
+      "canonical": "existing C4 nested(failed=True) cancels a paid child; native label cancelled-child stays unchanged",
+      "workflow": "existing workflow parent_world(failed-child) retains a paid stale-dependency child failure; native label failed-child stays unchanged"
+    },
+    "canonical_methods": [
+      "nested normal",
+      "nested cancelled-child",
+      "test_group_change_and_real_withdrawal_invalidate_parent group branch",
+      "test_group_change_and_real_withdrawal_invalidate_parent withdrawal branch"
+    ],
+    "workflow_modes": [
+      "normal",
+      "failed-child",
+      "membership-change",
+      "participant-withdrawal"
+    ],
+    "excluded": "Ablation and context-transfer cases do not substitute for parent scenarios."
+  },
+  "raw_evidence": [
+    "Eight hashed native terminal engine checkpoints and eight exact-restored copies (copies are checks, not extra scenarios)",
+    "Ordinary C4/workflow-parent audits reconstruct child authorization, paid access, context/target/output exact revisions and transitive dependencies",
+    "Independent per-operation payment deltas and corresponding energy/time wallet debits for parent and cited children, each operation charged once",
+    "Parent result cites exact unique descendant operations/spending; parent review charge separate; no competence or authority created",
+    "Normal parent complete, unsuccessful-child parent review may succeed but semantic summary is blocked, stale membership/withdrawal parent fails without binding",
+    "Changed group membership or real consent withdrawal identified from raw revision history and timing; retain paid withdrawal action",
+    "Six actual ordinary-auditor rejections: blocked semantic summary forged complete (two settings) and stale failed parent status forged succeeded (two scenarios x two settings)",
+    "Accepting-auditor regression must fail; no preparation exception counts as rejection"
+  ],
+  "scope": [
+    "tools/export_corrective_parents.py",
+    "tools/verify_corrective_parents.py",
+    "tests_release_corrective/test_parent_verifier.py"
+  ],
+  "freeze": "Hash all Python/contracts before one counted bounded evaluation; record exact command/method inventory and unchanged hashes. Preserve failures and changed attempts.",
+  "final_dependencies": "Fresh eight-world panel can proceed without historical archives. Revised raw joint ledger and full FB6.2 orchestration must be finished before complete new release freeze. Required historical bytes and verified 13-component clean durable reassembly remain mandatory; observed candidate summary is not delivery acceptance.",
+  "stops": "Unchanged repeated-failure, theory-contradiction, baseline/inherited-contract and author-ruling stops. No Phase 7 or scheduler changes.",
+  "library": "Current evidence supports resolver failure only, not confirmed sandbox denial. Destination was requested but workspace_path was null; no force-direct switch exists in exposed schema. No identical transfer retry without changed condition."
+}
