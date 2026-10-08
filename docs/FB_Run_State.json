@@ -26,13 +26,13 @@
   ],
   "next_batch": "6.2",
   "run_id": "fb62-20261008T160423Z-codex",
-  "lease_expires_at": "2026-10-08T16:47:13.695942+00:00",
-  "updated_at": "2026-10-08T16:17:13.695942+00:00",
+  "lease_expires_at": "2026-10-08T17:04:00.524498+00:00",
+  "updated_at": "2026-10-08T16:34:00.524498+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB6.1_Record.md",
+  "record": "docs/FB6.2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB6.2 source v5 frozen; starting exact 732-method regression and canonical/workflow panels, then isolated cost protocols.",
+  "activity": "FB6.2 frozen run: inherited 602/602 passed; scripted 512 and 32 controls independently verified; workflow responsiveness passed; automatic, additional and Shell panels running.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -103,5 +103,6 @@
   "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
   "last_verified_freeze": "6f7970acc2709f6b7f8602af337f8894bdc6d01598f7be3f5c5d3c50d0e9f411",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
-  "accepted_method_inventory": "evidence/FB5.6/Accepted_Method_Inventory.json"
+  "accepted_method_inventory": "evidence/FB5.6/Accepted_Method_Inventory.json",
+  "release_assessment_notes": "docs/FB6.3_Entry_Notes.md"
 }
