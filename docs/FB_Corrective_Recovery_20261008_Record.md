@@ -1,0 +1,13 @@
+# Fresh archive recovery — blocked before raw bytes
+
+[source_defined] Greg's direct instruction on 2026-10-08 was: “Resume archive recovery with a fresh Library transfer, then continue the corrective plan.” This authorizes a fresh request instead of waiting for the previous ephemeral transfer metadata. The original held release and all corrective attempts remain preserved.
+
+[machine-checked] Current GitHub main was retrieved into a clean execution workspace. The lease was claimed at `4de84052005d0c744130a82db5add3907d23f621` using an expected-head, non-forced ref update from `9956cf5da8e231521fe419181e557c04660faf4b`. The existing engine source, baseline and corrective protocols were unchanged.
+
+[machine-checked] A fresh request for the exact pinned C4 archive succeeded with no unavailable items or warnings. It returned the expected file identity, version 0 and 7,963,085-byte size. The current Library materialization helper and companion were obtained unchanged from the skill. The download was attempted once while its authorization had approximately one hour remaining. It exited 1 with the exact error: `library file transfer failed: download failed with HTTP status 403`. No local archive was created, so no archive hash or extraction gate passed.
+
+[machine-checked] One separate, read-only `socket.getaddrinfo` check against the authentic host returned by this fresh request failed with errno -3, “Temporary failure in name resolution.” The HTTP response's origin and the underlying access/network cause are not established by the helper's output. These are two observed failures, not proof that DNS caused the HTTP 403. The authentic hostname, exact error, IDs, expiry, helper digests and attempt boundaries are retained in `evidence/CorrectiveRecovery20261008/Attempt1.json`. Signed URLs and credentials are excluded from the repository.
+
+[source_defined] The current gate in `evidence/Corrective4/Resume_Commands.json` requires: “All pinned archives safely extracted into a merged isolated root preserving exact ledger member paths; source/root recovery completed.” The historical-byte gate cannot be satisfied from GitHub summaries or regenerated data. A working supported Library-to-workspace transfer or supported direct placement of the exact pinned archive bytes is required. No full source freeze, corrective release evaluation, integrated ledger assessment or new delivery was performed in this attempt.
+
+[open] Recovery remains blocked. Existing 742-method/54-job preparation remains preserved and unexecuted as a complete release run. The lease is released with no next batch. Goal-complete stays false and Phase 7 remains unauthorized. This direct recovery request did not modify the continuation schedule.

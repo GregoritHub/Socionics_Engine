@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "blocked",
   "current_batch": "corrective-recovery",
   "completed_batches": [
     "0.1",
@@ -25,15 +25,15 @@
     "6.1",
     "6.2"
   ],
-  "next_batch": "corrective-recovery",
-  "run_id": "fb-recovery-20261008T194023439Z",
-  "lease_expires_at": "2026-10-08T20:10:23.439Z",
-  "updated_at": "2026-10-08T19:40:23.439Z",
-  "stop_reason": null,
+  "next_batch": null,
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T19:44:59.683Z",
+  "stop_reason": "Fresh pinned C4 Library preparation succeeded, but the current unmodified supported helper returned HTTP 403 before creating an archive. A read-only DNS check of the authentic returned host also failed with errno -3. Historical raw recovery remains a prerequisite for integrated validation, complete refreeze/rerun and clean delivery.",
   "release_1_1_authorized": false,
-  "record": "docs/FB_Corrective_4_Record.md",
+  "record": "docs/FB_Corrective_Recovery_20261008_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Direct user-authorized fresh Library transfer and verified historical recovery; then continue corrective plan. Prior failed attempts and held decision preserved.",
+  "activity": "Fresh-transfer attempt and exact failure preserved; repository source restored; no engine evaluation started. Lease released.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -69,14 +69,14 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb62-20261008T160423Z-codex",
+  "last_run_id": "fb-recovery-20261008T194023439Z",
   "blocker": {
     "kind": "historical_raw_recovery",
-    "record": "evidence/Corrective4/Resume_Commands.json",
-    "resolver_check": "evidence/Corrective4/Resolver_Health_Check.json",
-    "current_resolver_health": "unknown",
-    "last_observed_error": "[Errno -3] Temporary failure in name resolution",
-    "approval_denial": false
+    "record": "evidence/CorrectiveRecovery20261008/Attempt1.json",
+    "fresh_transfer_http_status": 403,
+    "current_resolver_health": "authentic returned host getaddrinfo failed with errno -3",
+    "approval_denial": false,
+    "raw_archive_created": false
   },
   "automation_verification_history": [
     {
@@ -144,7 +144,7 @@
     "prospective 742-method/54-job release orchestration and raw ledger mapping preparation; bounded checks pass"
   ],
   "corrective_remaining": [
-    "recover exact historical archives and authentic transfer metadata for requested health check",
+    "Restore and verify all pinned historical archives through a working supported Library-to-workspace transfer; current attempt and authentic transfer hostname recorded in evidence/CorrectiveRecovery20261008/Attempt1.json",
     "execute integrated raw ledger reconstruction and resolve findings under standing gates",
     "declare complete final source freeze and full 54-job/742-method release rerun",
     "independent final assessment and historical/new clean durable delivery"
