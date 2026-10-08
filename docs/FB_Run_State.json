@@ -20,26 +20,27 @@
     "5.2",
     "5.3",
     "5.4",
-    "5.5"
+    "5.5",
+    "5.6"
   ],
   "next_batch": "5.6",
   "run_id": "fb56-20261008T014518Z-codex",
-  "lease_expires_at": "2026-10-08T03:11:00Z",
-  "updated_at": "2026-10-08T02:41:00Z",
+  "lease_expires_at": "2026-10-08T03:25:00Z",
+  "updated_at": "2026-10-08T02:55:00Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB5.5_Record.md",
+  "record": "docs/FB5.6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.6 protocol is preregistered; implementing and testing longitudinal Shell histories, controls and integrated assessment.",
+  "activity": "FB5.6 accepted locally; saving final counted evidence checkpoint.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
-    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
     "recorded_at": "2026-10-07T13:49:38.884670Z",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4\u20135.6 then 6.1\u20136.3.",
+  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4–5.6 then 6.1–6.3.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
@@ -66,7 +67,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb55-20261007T231339Z-codex",
+  "last_run_id": "fb56-20261008T014518Z-codex",
   "blocker": null,
   "automation_verification_history": [
     {
@@ -98,8 +99,8 @@
     "5.6"
   ],
   "goal_complete": false,
-  "last_implementation_checkpoint": "3c78d08a922d4032d6f16e47d5e3af7367ae72c0",
-  "last_verified_freeze": "5beba72e21e9c9c5c9d8d49864a9710ccb7dc4240edb09897838b216fd450dce",
+  "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
+  "last_verified_freeze": "b3216c10e32148884df499e227db4f6b4f2ef4acab0fbf386ac6133bff1c4ed0",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
-  "accepted_method_inventory": "evidence/FB5.5/Accepted_Method_Inventory.json"
+  "accepted_method_inventory": "evidence/FB5.6/Accepted_Method_Inventory.json"
 }
