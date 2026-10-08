@@ -1,4 +1,4 @@
-# FB6.3 — Package and decide: in progress
+# FB6.3 — Formal held decision; partial delivery
 
 [source_defined] Entry is the completed FB6.2 frozen run with three recorded per-cell evidence deficiencies. Final Build Plan batch 6.3 explicitly permits a held release with open rows listed. No release-complete claim is supported.
 
@@ -6,4 +6,14 @@
 
 [source_defined] An initial metadata-assembly command used a relative parent path and stopped before writing any file; the dependent checkpoint read also failed without moving GitHub main. Corrected by resolving the repository path. No engine evaluation was affected.
 
-[open] Delivery construction and clean-unpack verification are pending.
+[source_defined] The terminal decision is **held**. Final Build Plan batch 6.3 states: “If not, hold, and list the open rows.” All 32 reviewed rows remain incomplete. The exact required source instructions and findings are in `evidence/FB6.2/Release_Evidence_Findings.json`: incomplete §9.8 indexing of 192 continuation comparisons; canonical §9.11 membership-change/withdrawal raw worlds not separately identified; and the FB5.6 forged-completion negative control not actually constructed/submitted to the ordinary auditor. The report lists every open row. Passing methods and costs do not supply these proofs.
+
+[machine-checked] FB6.2 executed 47 commands, 732 exact distinct accepted methods and 81 isolated cost workers successfully, with every one of 1,355 frozen-file hashes unchanged. Both kernel probes passed. The durable fresh raw archive contains 2,373 compressed raw files. This is not an unconditional release acceptance.
+
+[machine-checked] At 2026-10-08T17:43:27–17:43:42Z, candidate1 source plus the combined local evidence ZIP passed a clean-unpack check: 3,120 source hashes, 10,814 raw hashes, 1,355 frozen files, 3,465 FB6.2 manifest entries, 739 historical references, 256 fresh links, 32 held rows and 732 exact method IDs. The frozen inspector structural/event verifier passed; the canonical-family verifier reconstructed 15 worlds and seven causal pairs. Pixel rendering was not verified. `Candidate_Check_Summary.json` preserves the observed command/output hashes and counts; it is explicitly a recovered summary, not the missing detailed log files.
+
+[open] Two combined-archive save attempts failed at prepare_uploads. Three smaller volumes failed transfer, including a fresh-helper retry; no finalized file identities were returned. The twelve original historical archives and the successfully saved FB6.2 archive remain durably preserved. Their exact IDs and digests are indexed in `Durable_Components.json`. The alternative 13-component clean reassembly was prepared but not executed. The final delivery gate therefore remains unverified, and batch 6.3 is not marked completed.
+
+[source_defined] A running-state lease extension after the held decision was rejected. Implementation and package-save retries stopped; continuation was successfully disabled and subsequently reconfirmed disabled. A later terminal-closing save was interrupted before its ref update. Read-only recovery confirmed main remained at `61dc9faf1d9850a8f9995c060aa9bdbf2c6ed258`, while the original execution workspace was no longer present. Some uncommitted candidate manifests/closing logs were consequently unavailable. The combined raw ZIP and three volumes remain in the current scratch workspace, but are not claimed durably saved. Existing committed source, report, specification, reviewed ledger and inspector are preserved; no frozen engine source changed.
+
+[source_defined] The user's exact terminal instruction is: “If Release 1.0 is complete or formally held at 6.3, save its deliverables and decision, notify me, and disable this automation.” AGENTS.md likewise makes held terminal. This closing checkpoint records that decision, releases the expired owned lease, preserves recoverable metadata and schedules no next batch. Goal-complete remains false; progress stays 6 of 7. Phase 7 was not started and still requires explicit R5.

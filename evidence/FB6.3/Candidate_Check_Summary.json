@@ -1,0 +1,49 @@
+{
+  "schema": "srl-candidate-check-recovered-summary-v1",
+  "record_type": "Recovered from observed execution output after original workspace disappeared; not original full logs",
+  "started_at": "2026-10-08T17:43:27.110750+00:00",
+  "finished_at": "2026-10-08T17:43:42.162554+00:00",
+  "candidate_passed": true,
+  "zip_crc": true,
+  "source_files": 3120,
+  "raw_files": 10814,
+  "frozen_files": 1355,
+  "fb62_files_hashed": 3465,
+  "historical_members": 739,
+  "fresh_raw_links": 256,
+  "held_rows": 32,
+  "complete_rows": 0,
+  "distinct_methods": 732,
+  "commands": [
+    {
+      "check": "integrity",
+      "command": "python3 - (portable integrity block from candidate docs/FB6.3_Reproduce.md)",
+      "exit_code": 0,
+      "stdin_sha256": "fe5de76f1c16821f982c58761ad2041a957a18cf8a2903f8681b6eef9177cfe9",
+      "stdout_sha256": "8447c2a5cbdba99181bface880611880142e10e82656d064056bc53605716bf6"
+    },
+    {
+      "check": "inspector",
+      "command": "node tools/verify_c7_second_inspector.cjs docs/HLE_Full_Crux_C7_Inspector_v3.html verification-output/inspector",
+      "exit_code": 0,
+      "stdout_sha256": "3205de68837a55c07ca8bc6b5b4cf842690ee4f047f905fbf11d0e0658ac86a2",
+      "cells": 32,
+      "settings": 2,
+      "filters": true
+    },
+    {
+      "check": "canonical-families",
+      "command": "python3 tools/verify_c7_canonical_families.py verification-output/canonical-families",
+      "exit_code": 0,
+      "stdout_sha256": "ecd7d385477c84a58e6876ef0756721d1ef093fce79c3bde8d2cfe17e50f1156",
+      "raw_worlds": 15,
+      "causal_pairs": 7,
+      "participant_replay": false
+    }
+  ],
+  "all_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "original_detailed_logs_committed": false,
+  "visual_render_verified": false,
+  "engine_claims_repaired": false,
+  "final_component_delivery_verified": false
+}

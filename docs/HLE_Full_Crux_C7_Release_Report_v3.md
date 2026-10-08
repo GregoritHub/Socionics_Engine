@@ -99,18 +99,15 @@
 
 ## Delivery and reproduction
 
-[source_defined] Source: `Socionics_Research_Lab_Release_1_0_Held_Source_20261008.zip`. Evidence: `Socionics_Research_Lab_Release_1_0_Held_Evidence_20261008.zip`. Extract both into one empty directory; both use the root `Socionics_Research_Lab_Release_1_0_Held/`. The repository preserves the source and documents. Exact archive identities, checksums and restore instructions are in `evidence/FB6.3/Delivery_Index.json`.
+[source_defined] The reviewed ledger, inspector v3, report v3 and specification v11 are committed in GitHub. The candidate source snapshot is `61dc9faf1d9850a8f9995c060aa9bdbf2c6ed258`. `evidence/FB6.3/Delivery_Index.json` records exact candidate archive names, hashes and the partial-delivery boundary.
 
-[source_defined] From the unpacked root, use the commands in `docs/FB6.3_Reproduce.md`. They verify the source/evidence manifests, the unchanged freeze, the 739 historical ledger references, all FB6.2 file hashes, the 32-row held decision, the inspector data/filters and ordinary canonical-family reconstruction. Results are recorded separately in `evidence/FB6.3/Clean_Unpack_Verification.json`. The older final verifier is a historical implemented check and is not a validator of the reviewed v2 decision.
+[machine-checked] The candidate source plus combined local evidence ZIP passed clean-unpack checks on 2026-10-08: source/raw hashes, unchanged freeze, 739 historical references, FB6.2 hashes, the 32-row held decision, inspector structural/event behavior and ordinary canonical-family reconstruction. Observed counts and output hashes are preserved in `Candidate_Check_Summary.json`; original detailed logs were not committed before the workspace interruption.
 
-[source_defined] To repeat the entire unchanged 6.2 command run without overwriting the delivered attempt:
+[open] Two combined-container saves failed at preparation; three smaller volumes also failed transfer, including a fresh-helper retry. None returned a successful durable identity. The twelve historical raw archives and the successfully saved fresh FB6.2 archive remain preserved with exact identities/digests in `Durable_Components.json`. The alternative 13-component clean reassembly was not executed. The original candidate source ZIP/manifest became unavailable when its scratch workspace disappeared during closing; the GitHub source snapshot remains. No verified final durable delivery or completed batch 6.3 is claimed.
 
-```sh
-python3 tools/run_c7_final_regression.py evidence/reproduction-6.2 --stage all
-python3 tools/verify_c7_final_regression.py evidence/reproduction-6.2
-```
+[source_defined] The candidate `docs/FB6.3_Reproduce.md` commands and `Artifact_Inputs.json` are preserved as historical procedures/hashes, not proof that the later closing document set or alternate archive route has passed. A future authorized recovery must reconstruct the exact components, regenerate an explicitly scoped source manifest if needed and run the actual delivery gate. No engine work or packaging retry continues after this terminal hold.
 
-[source_defined] Original command records retain their actual absolute execution paths. A newly executed run records its own paths. The command assessor's success does not resolve the three known proof defects. The sealed 5.2.1 pyref remains unavailable and its separate rerun is owed, as the plan explicitly permits.
+[source_defined] All 47 FB6.2 commands and the exact frozen source are preserved. The command assessor's success does not resolve the three proof defects. The sealed 5.2.1 pyref remains unavailable and its separate rerun is owed, as the plan explicitly permits. Continuation is disabled and Phase 7 remains unauthorized.
 
 ## Limits and remaining work
 

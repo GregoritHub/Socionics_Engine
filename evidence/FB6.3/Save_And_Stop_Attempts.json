@@ -1,0 +1,41 @@
+{
+  "schema": "srl-held-save-attempt-summary-v1",
+  "record_type": "Recovered observed tool results; no fabricated finalization receipts",
+  "combined": [
+    {
+      "attempt": 1,
+      "result": "prepare_uploads failed"
+    },
+    {
+      "attempt": 2,
+      "result": "prepare_uploads failed after staging in current workspace"
+    }
+  ],
+  "volumes": [
+    {
+      "attempt": 1,
+      "result": "transfer_failed for all three"
+    },
+    {
+      "attempt": 2,
+      "result": "transfer_failed for all three after fresh official helper retrieval"
+    }
+  ],
+  "successful_new_container_saves": 0,
+  "terminal_state_extension": {
+    "rejected": true,
+    "reason": "Running/unblocked/automation-enabled state contradicted the recorded held decision and required stop.",
+    "ref_moved": false
+  },
+  "closing_save": {
+    "interrupted": true,
+    "observed_head_after_interruption": "61dc9faf1d9850a8f9995c060aa9bdbf2c6ed258",
+    "original_workspace_present": false
+  },
+  "automation": {
+    "id": "6ac53cec617881919c9d68ea800adde1",
+    "is_enabled": false,
+    "confirmed_by": "successful update and subsequent private lookup"
+  },
+  "no_further_packaging_retries": true
+}

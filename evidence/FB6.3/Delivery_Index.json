@@ -1,0 +1,36 @@
+{
+  "schema": "srl-held-delivery-index-v1",
+  "decision": "held",
+  "release_complete": false,
+  "goal_complete": false,
+  "phase_7_authorized": false,
+  "batch_6_3_completed": false,
+  "source_snapshot_commit": "61dc9faf1d9850a8f9995c060aa9bdbf2c6ed258",
+  "reviewed_ledger": "C7_Final_Ledger_v2.json",
+  "open_rows": 32,
+  "candidate_source": {
+    "file_name": "Socionics_Research_Lab_Release_1_0_Held_Source_20261008_candidate1.zip",
+    "bytes": 81565610,
+    "sha256": "3fe937ea666d62840be6ce02ac2f92a9faca530047f114b1c3607c0246f909e5",
+    "source_files_hashed": 3120,
+    "manifest_sha256": "cb3b8b62a48418bc6f64f8515782db41e18fa7e695d95d8e5a0f7d8cfd43c4d8",
+    "current_archive_availability": "Original workspace no longer present; GitHub snapshot preserves source, but candidate manifest was not committed.",
+    "excludes": "docs/FB_Run_State.json"
+  },
+  "combined_evidence": {
+    "file_name": "Socionics_Research_Lab_Release_1_0_Held_Evidence_20261008.zip",
+    "bytes": 977163244,
+    "sha256": "be9c0081d21aec0e8f0f67ff6912932db27850c17509c6103245a0add51c337b",
+    "files": 10815,
+    "raw_files_hashed": 10814,
+    "raw_manifest_sha256": "535db162e7d01093471fc214bfd1809b808bf04e25390fe128d7c7b35de6e8d0",
+    "durable_save_succeeded": false,
+    "retained_in_current_scratch": true
+  },
+  "durable_evidence_components": "evidence/FB6.3/Durable_Components.json",
+  "candidate_clean_unpack_observed": true,
+  "candidate_check_record": "evidence/FB6.3/Candidate_Check_Summary.json",
+  "final_component_clean_unpack_verified": false,
+  "automation_disabled": true,
+  "limitations": "A candidate integrity pass is not a release acceptance or verified final durable delivery. No archive save receipt is invented."
+}

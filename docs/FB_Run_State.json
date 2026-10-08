@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "held",
   "current_batch": "6.3",
   "completed_batches": [
     "0.1",
@@ -25,31 +25,31 @@
     "6.1",
     "6.2"
   ],
-  "next_batch": "6.3",
-  "run_id": "fb62-20261008T160423Z-codex",
-  "lease_expires_at": "2026-10-08T18:07:54.017197+00:00",
-  "updated_at": "2026-10-08T17:37:54.017197+00:00",
-  "stop_reason": null,
+  "next_batch": null,
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T18:21:43Z",
+  "stop_reason": "Release 1.0 formally held for three recorded evidence gaps. Candidate clean unpack passed, but combined/volume archive saves failed and the alternate durable-component delivery was not verified. The original execution workspace disappeared during an interrupted closing save.",
   "release_1_1_authorized": false,
   "record": "docs/FB6.3_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB6.3 reviewed held ledger, report v3, specification v11 and inspector v3 prepared; packaging and clean-unpack validation remain.",
-  "automation_enabled": true,
+  "activity": "Terminal handoff only; no implementation, lease renewal, packaging retries or Phase 7 work.",
+  "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
-    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
     "recorded_at": "2026-10-07T13:49:38.884670Z",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4\u20135.6 then 6.1\u20136.3.",
+  "automation_status": "Disabled; reconfirmed by private lookup on 2026-10-08T18:20Z.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
-    "checked_at": "2026-10-07T16:12:58.490617Z",
-    "method": "automations update after FB4.1 acceptance",
-    "verified_enabled": true
+    "checked_at": "2026-10-08T18:20:04Z",
+    "method": "automations peek following successful disable",
+    "verified_enabled": false
   },
-  "automation_stop_action": "Prior FB3.2 stop released by explicit author approval; continuation successfully resumed.",
+  "automation_stop_action": "Disabled for formal 6.3 hold under the user's standing stop instruction.",
   "automation_observed_run": {
     "at": "2026-10-07T03:07:05Z",
     "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
@@ -69,8 +69,12 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb56-20261008T014518Z-codex",
-  "blocker": null,
+  "last_run_id": "fb62-20261008T160423Z-codex",
+  "blocker": {
+    "findings": "evidence/FB6.2/Release_Evidence_Findings.json",
+    "delivery": "evidence/FB6.3/Delivery_Index.json",
+    "decision": "held"
+  },
   "automation_verification_history": [
     {
       "checked_at": "2026-10-07T11:30:34.532266Z",
@@ -91,6 +95,11 @@
       "checked_at": "2026-10-07T16:12:58.490617Z",
       "method": "automations update after FB4.1 acceptance",
       "verified_enabled": true
+    },
+    {
+      "checked_at": "2026-10-08T18:20:04Z",
+      "method": "automations peek following successful disable",
+      "verified_enabled": false
     }
   ],
   "finish_line_amendment": "docs/FB_Sustained_Development_Amendment_v1.md",
@@ -106,5 +115,8 @@
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
   "accepted_method_inventory": "evidence/FB6.2/Accepted_Method_Inventory.json",
   "release_assessment_notes": "docs/FB6.3_Entry_Notes.md",
-  "batch_6_2_outcome": "completed evidence run with recorded cell evidence failures; unconditional acceptance withheld"
+  "batch_6_2_outcome": "completed evidence run with recorded cell evidence failures; unconditional acceptance withheld",
+  "release_decision": "held",
+  "batch_6_3_exit_gate_verified": false,
+  "batch_6_3_outcome": "Held decision; partial delivery. Candidate integrity verified, final durable-component gate unverified. Not completed."
 }
