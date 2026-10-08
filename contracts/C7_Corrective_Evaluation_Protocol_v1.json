@@ -1,0 +1,826 @@
+{
+  "schema": "srl-corrective-full-evaluation-protocol-v1",
+  "batch": "6.2",
+  "status": "prospective corrective4 preparation; full freeze and evaluation not yet performed",
+  "authority": [
+    "project_sources/HLE_Final_Build_Plan_v1_0.txt \u00a71 and batch 6.2",
+    "contracts/C7_Final_Protocol_v1.json",
+    "docs/FB_Sustained_Development_Amendment_v1.md"
+  ],
+  "scope": "Final regression under the amended finish line. No engine or inherited contract changes. Does not retroactively preregister FB6.1.",
+  "entry_commit": "dda44b3dc6b7cf91ef72d430066bb227a2df27c9",
+  "freeze": "C7_Corrective_Final_Source_Freeze_v1.json",
+  "freeze_scope": "Every repository Python source recursively, every contract file, every tool file; includes sealed baseline, fixtures, new orchestration, auditors, probes and read-only Model G/axes. Evidence/output and bytecode are not executable inputs. Check exact hashes before and after every command and at exit.",
+  "accepted_method_inventory": "contracts/C7_Corrective_Method_Inventory_v1.json",
+  "required_unique_methods": 742,
+  "new_methods": 10,
+  "inventory_gate": "Exact 732 inherited IDs plus six prior corrective and four declared preparation regressions; no duplicates, skips or substituted IDs.",
+  "workers": {
+    "evaluation_max_concurrent_commands": 3,
+    "inherited_command_workers": 4,
+    "measurements": "Entire evaluation/probe pool must stop first; one protocol and one fresh subprocess worker at a time, unchanged inherited workloads and thresholds."
+  },
+  "panels": "All listed jobs mandatory; exact original recipes, seeds, domains, controls and raw auditors retained. Workflow 512 scripted and 512 automatic are separate. Canonical reruns are labelled independently. The sustained 32-cell amendment and longitudinal histories are mandatory.",
+  "jobs": [
+    {
+      "id": "inherited",
+      "lane": "regression",
+      "argv": [
+        "python",
+        "tools/regress_c7_parallel.py",
+        "{out}/inherited"
+      ],
+      "depends_on": [],
+      "result": "{out}/inherited/summary.json"
+    },
+    {
+      "id": "additional",
+      "lane": "regression",
+      "argv": [
+        "python",
+        "tools/test_c6.py",
+        "{out}/additional",
+        "tests_workflow_longitudinal_shell",
+        "tests_workflow_sustained_panel",
+        "tests_workflow_families",
+        "tests_workflow_continuation",
+        "tests_workflow_population",
+        "tests_workflow_selection",
+        "tests_workflow_shell",
+        "tests_workflow_composition",
+        "tests_workflow_nesting_faces",
+        "tests_workflow_development",
+        "tests_workflow_interruption",
+        "tests_g",
+        "tests_c7_workflow"
+      ],
+      "depends_on": [],
+      "result": "{out}/additional/summary.json",
+      "expected_counts": {
+        "tests": 130
+      }
+    },
+    {
+      "id": "scripted",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_c7_settings.py",
+        "{out}/scripted"
+      ],
+      "depends_on": [],
+      "result": "{out}/scripted/summary.json",
+      "expected_counts": {
+        "matrix_worlds": 512,
+        "semantic_controls": 32
+      }
+    },
+    {
+      "id": "scripted-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_c7_settings.py",
+        "{out}/scripted"
+      ],
+      "depends_on": [
+        "scripted"
+      ],
+      "result": "{out}/scripted/independent_raw_verification.json",
+      "expected_counts": {
+        "ordinary_worlds": 512,
+        "deliberate_controls": 32
+      }
+    },
+    {
+      "id": "automatic",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_c7_workflow_selection.py",
+        "matrix",
+        "{out}/automatic"
+      ],
+      "depends_on": [],
+      "result": "{out}/automatic/summary.json",
+      "expected_counts": {
+        "cases": 512,
+        "controls": 32
+      }
+    },
+    {
+      "id": "automatic-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_selection.py",
+        "{out}/automatic",
+        "512",
+        "32"
+      ],
+      "depends_on": [
+        "automatic"
+      ],
+      "result": "{out}/automatic/independent_verification.json"
+    },
+    {
+      "id": "responsive",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_c7_workflow_selection.py",
+        "responsiveness",
+        "{out}/responsive"
+      ],
+      "depends_on": [],
+      "result": "{out}/responsive/summary.json",
+      "expected_counts": {
+        "worlds": 9
+      }
+    },
+    {
+      "id": "responsive-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_selection.py",
+        "--responsiveness",
+        "{out}/responsive"
+      ],
+      "depends_on": [
+        "responsive"
+      ],
+      "result": "{out}/responsive/independent_verification.json"
+    },
+    {
+      "id": "prevention",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_shell.py",
+        "{out}/prevention"
+      ],
+      "depends_on": [],
+      "result": "{out}/prevention/summary.json"
+    },
+    {
+      "id": "prevention-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_shell.py",
+        "{out}/prevention"
+      ],
+      "depends_on": [
+        "prevention"
+      ],
+      "result": "{out}/prevention/independent_verification.json"
+    },
+    {
+      "id": "interruption",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_interruption.py",
+        "{out}/interruption"
+      ],
+      "depends_on": [],
+      "result": "{out}/interruption/summary.json"
+    },
+    {
+      "id": "interruption-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_interruption.py",
+        "{out}/interruption"
+      ],
+      "depends_on": [
+        "interruption"
+      ],
+      "result": "{out}/interruption/independent_verification.json"
+    },
+    {
+      "id": "development",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_development.py",
+        "{out}/development"
+      ],
+      "depends_on": [],
+      "result": "{out}/development/summary.json"
+    },
+    {
+      "id": "development-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_development.py",
+        "{out}/development",
+        "{out}/prevention",
+        "{out}/interruption"
+      ],
+      "depends_on": [
+        "development",
+        "prevention-audit",
+        "interruption-audit"
+      ],
+      "result": "{out}/development/independent_verification.json"
+    },
+    {
+      "id": "composition",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_composition.py",
+        "{out}/composition"
+      ],
+      "depends_on": [],
+      "result": "{out}/composition/summary.json"
+    },
+    {
+      "id": "composition-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_composition.py",
+        "{out}/composition"
+      ],
+      "depends_on": [
+        "composition"
+      ],
+      "result": "{out}/composition/independent_verification.json"
+    },
+    {
+      "id": "nesting-faces",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_nesting_faces.py",
+        "{out}/nesting-faces"
+      ],
+      "depends_on": [],
+      "result": "{out}/nesting-faces/summary.json"
+    },
+    {
+      "id": "nesting-faces-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_nesting_faces.py",
+        "{out}/nesting-faces"
+      ],
+      "depends_on": [
+        "nesting-faces"
+      ],
+      "result": "{out}/nesting-faces/independent_verification.json"
+    },
+    {
+      "id": "population",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_population.py",
+        "{out}/population"
+      ],
+      "depends_on": [],
+      "result": "{out}/population/summary.json"
+    },
+    {
+      "id": "population-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_population.py",
+        "{out}/population"
+      ],
+      "depends_on": [
+        "population"
+      ],
+      "result": "{out}/population/independent_verification.json"
+    },
+    {
+      "id": "sustained",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_sustained_workflow_population.py",
+        "{out}/sustained"
+      ],
+      "depends_on": [],
+      "result": "{out}/sustained/summary.json"
+    },
+    {
+      "id": "sustained-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_sustained_workflow_population.py",
+        "{out}/sustained"
+      ],
+      "depends_on": [
+        "sustained"
+      ],
+      "result": "{out}/sustained/independent_verification.json"
+    },
+    {
+      "id": "continuation",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_workflow_continuation.py",
+        "{out}/continuation"
+      ],
+      "depends_on": [],
+      "result": "{out}/continuation/summary.json"
+    },
+    {
+      "id": "continuation-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_workflow_continuation.py",
+        "{out}/continuation"
+      ],
+      "depends_on": [
+        "continuation"
+      ],
+      "result": "{out}/continuation/independent_verification.json"
+    },
+    {
+      "id": "families",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_continued_families.py",
+        "{out}/families"
+      ],
+      "depends_on": [],
+      "result": "{out}/families/summary.json"
+    },
+    {
+      "id": "families-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_continued_families.py",
+        "{out}/families"
+      ],
+      "depends_on": [
+        "families"
+      ],
+      "result": "{out}/families/independent_verification.json"
+    },
+    {
+      "id": "sustained-cells",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_sustained_32_cell_panel.py",
+        "{out}/sustained-cells"
+      ],
+      "depends_on": [],
+      "result": "{out}/sustained-cells/summary.json"
+    },
+    {
+      "id": "sustained-cells-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_sustained_32_cell_panel.py",
+        "{out}/sustained-cells"
+      ],
+      "depends_on": [
+        "sustained-cells"
+      ],
+      "result": "{out}/sustained-cells/independent_verification.json"
+    },
+    {
+      "id": "longitudinal",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_longitudinal_shell.py",
+        "{out}/longitudinal",
+        "{out}/sustained-extension-ledger.json"
+      ],
+      "depends_on": [],
+      "result": "{out}/longitudinal/summary.json"
+    },
+    {
+      "id": "longitudinal-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_longitudinal_shell.py",
+        "{out}/longitudinal",
+        "{out}/sustained-extension-ledger.json"
+      ],
+      "depends_on": [
+        "longitudinal"
+      ],
+      "result": "{out}/longitudinal/independent_verification.json"
+    },
+    {
+      "id": "canonical-choice",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/evaluate_c6.py",
+        "panel",
+        "{out}/canonical-c6/panel_final"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-c6/panel_final/summary.json"
+    },
+    {
+      "id": "canonical-types",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/evaluate_c6.py",
+        "types",
+        "{out}/canonical-c6/types_final"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-c6/types_final/summary.json"
+    },
+    {
+      "id": "canonical-responsive",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/evaluate_c6.py",
+        "transfer",
+        "{out}/canonical-c6/transfer_final"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-c6/transfer_final/summary.json"
+    },
+    {
+      "id": "canonical-choice-audit",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/verify_c6_delivery.py",
+        "{out}/canonical-c6"
+      ],
+      "depends_on": [
+        "canonical-choice",
+        "canonical-types",
+        "canonical-responsive"
+      ],
+      "result": "{out}/canonical-c6/raw_verification_final.json",
+      "expected_counts": {
+        "worlds": 583,
+        "valid_worlds": 551,
+        "deliberate_ablations": 32
+      }
+    },
+    {
+      "id": "canonical-prevention",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/evaluate_c5.py",
+        "{out}/canonical-c5/admission_panel_final",
+        "admission"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-c5/admission_panel_final/summary.json"
+    },
+    {
+      "id": "canonical-interruption",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/evaluate_c5.py",
+        "{out}/canonical-c5/active_panel_attempt1",
+        "after_first_step"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-c5/active_panel_attempt1/summary.json"
+    },
+    {
+      "id": "canonical-development",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/export_c5_development.py",
+        "{out}/canonical-c5/development_final"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-c5/development_final/summary.json"
+    },
+    {
+      "id": "canonical-shell-audit",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/verify_c5_delivery.py",
+        "{out}/canonical-c5"
+      ],
+      "depends_on": [
+        "canonical-prevention",
+        "canonical-interruption",
+        "canonical-development"
+      ],
+      "result": "{out}/canonical-c5/raw_verification_final.json",
+      "expected_counts": {
+        "raw_witnesses": 143
+      }
+    },
+    {
+      "id": "canonical-families",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/export_c4.py",
+        "--out",
+        "{out}/canonical-families"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-families/summary.json",
+      "expected_counts": {
+        "causal_pairs": 7,
+        "witnesses": 15
+      }
+    },
+    {
+      "id": "canonical-families-audit",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/verify_c7_canonical_families.py",
+        "{out}/canonical-families"
+      ],
+      "depends_on": [
+        "canonical-families"
+      ],
+      "result": "{out}/canonical-families/independent_verification.json",
+      "expected_counts": {
+        "raw_worlds": 15,
+        "causal_pairs": 7
+      }
+    },
+    {
+      "id": "canonical-population",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/evaluate_c7.py",
+        "{out}/canonical-population"
+      ],
+      "depends_on": [],
+      "result": "{out}/canonical-population/summary.json",
+      "expected_counts": {
+        "worlds": 6
+      }
+    },
+    {
+      "id": "canonical-population-audit",
+      "lane": "canonical",
+      "argv": [
+        "python",
+        "tools/verify_c7_raw.py",
+        "{out}/canonical-population"
+      ],
+      "depends_on": [
+        "canonical-population"
+      ],
+      "result": "{out}/canonical-population/raw_verification.json",
+      "expected_counts": {
+        "worlds": 12
+      }
+    },
+    {
+      "id": "closure-probe",
+      "lane": "probes",
+      "argv": [
+        "python",
+        "project_sources/closure_probes.py",
+        "baseline/HLE_Rebuild_R21B"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "below_dcnh-probe",
+      "lane": "probes",
+      "argv": [
+        "python",
+        "project_sources/below_dcnh_probes.py",
+        "baseline/HLE_Rebuild_R21B"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "native-costs",
+      "lane": "measurements",
+      "argv": [
+        "python",
+        "tools/measure_c6.py",
+        "{out}/native-costs"
+      ],
+      "depends_on": [],
+      "result": "{out}/native-costs/summary.json",
+      "expected_counts": {
+        "workers": 33
+      }
+    },
+    {
+      "id": "workflow-costs",
+      "lane": "measurements",
+      "argv": [
+        "python",
+        "tools/measure_c7_settings.py",
+        "{out}/workflow-costs"
+      ],
+      "depends_on": [],
+      "result": "{out}/workflow-costs/summary.json",
+      "expected_counts": {
+        "workers": 24
+      }
+    },
+    {
+      "id": "population-costs",
+      "lane": "measurements",
+      "argv": [
+        "python",
+        "tools/measure_workflow_population.py",
+        "{out}/population-costs"
+      ],
+      "depends_on": [],
+      "result": "{out}/population-costs/summary.json",
+      "expected_counts": {
+        "workers": 24
+      }
+    },
+    {
+      "id": "corrective-tests",
+      "lane": "regression",
+      "argv": [
+        "python",
+        "tools/test_c6.py",
+        "{out}/corrective-tests",
+        "tests_release_corrective"
+      ],
+      "depends_on": [],
+      "result": "{out}/corrective-tests/summary.json",
+      "expected_counts": {
+        "tests": 10
+      }
+    },
+    {
+      "id": "corrective-native",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/export_corrective_native.py",
+        "{out}/corrective-native"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "corrective-native-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_corrective_native.py",
+        "{out}/corrective-native"
+      ],
+      "depends_on": [
+        "corrective-native"
+      ],
+      "result": "{out}/corrective-native/independent_verification.json",
+      "expected_counts": {
+        "comparisons": 192,
+        "ordinary_raw_audits": 780
+      }
+    },
+    {
+      "id": "corrective-parents",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/export_corrective_parents.py",
+        "{out}/corrective-parents"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "corrective-parents-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_corrective_parents.py",
+        "{out}/corrective-parents"
+      ],
+      "depends_on": [
+        "corrective-parents"
+      ],
+      "result": "{out}/corrective-parents/independent_verification.json",
+      "expected_counts": {
+        "new_parent_scenarios": 8,
+        "raw_restore_checks": 8
+      }
+    },
+    {
+      "id": "corrective-longitudinal",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/evaluate_corrective_longitudinal.py",
+        "{out}/corrective-longitudinal"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "corrective-longitudinal-audit",
+      "lane": "panels",
+      "argv": [
+        "python",
+        "tools/verify_longitudinal_shell.py",
+        "--corrective",
+        "{out}/corrective-longitudinal"
+      ],
+      "depends_on": [
+        "corrective-longitudinal"
+      ],
+      "result": "{out}/corrective-longitudinal/independent_verification.json",
+      "expected_counts": {
+        "status_mutations": 1,
+        "paid_bypass_pairs": 2
+      }
+    }
+  ],
+  "counts_note": "Counts with keys present in a saved result are checked exactly; raw-audit counts and method inventory determine acceptance. No summary by itself proves a panel.",
+  "cost_tolerances": {
+    "inactive_history_max": [
+      3,
+      1
+    ],
+    "unchanged_native_max": [
+      2,
+      1
+    ]
+  },
+  "probes": {
+    "closure": 10,
+    "below_dcnh": 17,
+    "kernel_reference": "evidence/FB6.2/Intake_Kernel_Hashes.json",
+    "pyref": "No supplied sealed 5.2.1 pyref identified in current tree/inventory; rerun remains owed; does not block Release 1.0."
+  },
+  "failure_policy": "Preserve every command log, raw output, source freeze and failure. No source changes during a counted run. Source changes require a new complete attempt. Apply standing two-failures-after-correction, baseline/inherited-contract, author-ruling and theory-contradiction stops.",
+  "split_point": "Tests and panels may be checkpointed before measurements. An incomplete checkpoint is ready for resumption, never completed.",
+  "exit_gate": "All 54 jobs, 742 exact passed IDs, independent raw reconstruction, unchanged complete freeze, 81 isolated cost workers, both unchanged-kernel probes; final ledger and clean delivery separately required.",
+  "release_ledger": "6.2 acceptance references hashed command records, independent reconstructions, raw worlds and freeze. Final 32-row decision and clean-unpack packaging remain batch 6.3.",
+  "phase_7_authorized": false,
+  "not_claimed": [
+    "unrestricted human meaning",
+    "universal Shell detector",
+    "derivation of developmental altitude",
+    "spontaneous institutions or goals",
+    "general learning",
+    "general cross-owner nesting",
+    "optimal scheduling",
+    "open-ended development",
+    "optimization gain",
+    "statements about people",
+    "calibrated energy rates, units or thresholds",
+    "conditioning ledger as a measured subtype",
+    "Release 1.1 or energy-pricing changes"
+  ],
+  "inherited_protocol": {
+    "path": "contracts/C7_Final_Evaluation_Protocol_v1.json",
+    "sha256": "db508117b91030d6683d474381210e9fac53c83764cfce6041c8f8e710b187c3"
+  },
+  "preparation_batches": [
+    {
+      "id": "corrective-4a",
+      "source_files": [
+        "tools/run_corrective_release.py",
+        "tools/verify_corrective_release.py"
+      ],
+      "test_file": "tests_release_corrective/test_release_preparation.py",
+      "gate": "Job preservation, exact method set, guarded freeze and resume, independent complete-run verifier. Only bounded unit checks credited now."
+    },
+    {
+      "id": "corrective-4b",
+      "source_files": [
+        "tools/build_corrective_ledger.py",
+        "tools/verify_corrective_ledger.py"
+      ],
+      "gate": "Hash-addressed native3-per-cell, setting-scoped six negatives, four parent categories per setting, distinct status and paid-bypass controls. Historical raw objects mandatory, no flag-only promotion. Bounded mapping checks now; historical-dependent reconstruction deferred."
+    }
+  ],
+  "ledger_mapping": {
+    "historical": "Retain immutable historical evidence registry and original applicable sections; verify exact bytes and inherited semantics. Old FB3.2 cancellation/new-request pairs remain history, never credited as native continuation.",
+    "9.8": "Map setting/route/polarity to exactly boundary0,1,2 from corrective-native/rows.json, each containing four hashed raw references; include all three setting negatives. Independent native audit reopens all raw worlds.",
+    "9.11": "Map each setting to exactly four categories from corrective-parents/rows.json; preserve native cancelled-child versus failed-child labels. Independent parent verifier reconstructs revisions, payments, stale failures, six auditor rejections.",
+    "9.9": "Reference corrective-longitudinal/rows.json source-forgery and actual two paid bypass arms separately, audited with unchanged access. Do not describe paid status forgery as unpaid.",
+    "9.12": "Only new complete release verifier result for this protocol and complete freeze; old held acceptance cannot satisfy.",
+    "decision": "Raw ledger comparison passes only after independent corrected panel reconstruction, historical object verification and complete release verification. Delivery remains a separate unresolved gate; no goal-complete from ledger."
+  },
+  "recovery": "Exact indexed archives via supported materialization, byte hashes before safe extraction; preserve every historical archive. No scheduler changes."
+}
