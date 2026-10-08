@@ -1,0 +1,39 @@
+test_account_and_access_replay_remain_exact (tests_u8.test_controls.ControlTests.test_account_and_access_replay_remain_exact) ... ok
+test_assessor_output_cannot_change_actor (tests_u8.test_controls.ControlTests.test_assessor_output_cannot_change_actor) ... ok
+test_cancel_preserves_charges_and_does_not_release (tests_u8.test_controls.ControlTests.test_cancel_preserves_charges_and_does_not_release) ... ok
+test_development_view_is_detached (tests_u8.test_controls.ControlTests.test_development_view_is_detached) ... ok
+test_duplicate_reorganization_requires_new_experience (tests_u8.test_controls.ControlTests.test_duplicate_reorganization_requires_new_experience) ... ok
+test_foreign_observation_cannot_be_practiced (tests_u8.test_controls.ControlTests.test_foreign_observation_cannot_be_practiced) ... ok
+test_foreign_owner_cannot_use_alice_development (tests_u8.test_controls.ControlTests.test_foreign_owner_cannot_use_alice_development) ... ok
+test_hidden_changes_do_not_alter_participant_input_or_choice (tests_u8.test_controls.ControlTests.test_hidden_changes_do_not_alter_participant_input_or_choice) ... ok
+test_local_scope_is_exact_target_revision (tests_u8.test_controls.ControlTests.test_local_scope_is_exact_target_revision) ... ok
+test_one_endpoint_does_not_prove_composite_return (tests_u8.test_controls.ControlTests.test_one_endpoint_does_not_prove_composite_return) ... ok
+test_other_effects_are_explicitly_unassessed (tests_u8.test_controls.ControlTests.test_other_effects_are_explicitly_unassessed) ... ok
+test_partial_fields_cannot_hide_actual_requirement (tests_u8.test_controls.ControlTests.test_partial_fields_cannot_hide_actual_requirement) ... ok
+test_partial_operation_restores_then_commits_same_correction (tests_u8.test_controls.ControlTests.test_partial_operation_restores_then_commits_same_correction) ... ok
+test_received_counterchange_invalidates_pending_work_with_spend_retained (tests_u8.test_controls.ControlTests.test_received_counterchange_invalidates_pending_work_with_spend_retained) ... ok
+test_scarcity_cannot_publish_capacity (tests_u8.test_controls.ControlTests.test_scarcity_cannot_publish_capacity) ... ok
+test_tampered_capacity_rejected_by_raw_audit (tests_u8.test_controls.ControlTests.test_tampered_capacity_rejected_by_raw_audit) ... ok
+test_tampered_charge_rejected_by_raw_audit (tests_u8.test_controls.ControlTests.test_tampered_charge_rejected_by_raw_audit) ... ok
+test_truncated_recall_is_not_clearance_or_mastery (tests_u8.test_controls.ControlTests.test_truncated_recall_is_not_clearance_or_mastery) ... ok
+test_undelivered_actual_outcome_does_not_grant_practice (tests_u8.test_controls.ControlTests.test_undelivered_actual_outcome_does_not_grant_practice) ... ok
+test_unknown_partner_cannot_be_changed_by_request_only (tests_u8.test_controls.ControlTests.test_unknown_partner_cannot_be_changed_by_request_only) ... ok
+test_unread_opportunity_does_not_correct (tests_u8.test_controls.ControlTests.test_unread_opportunity_does_not_correct) ... ok
+test_unrelated_affordance_does_not_supply_training (tests_u8.test_controls.ControlTests.test_unrelated_affordance_does_not_supply_training) ... ok
+test_actual_constraints_survive_generalization (tests_u8.test_development.DevelopmentTests.test_actual_constraints_survive_generalization) ... ok
+test_corrected_shell_encounter_uses_retained_account (tests_u8.test_development.DevelopmentTests.test_corrected_shell_encounter_uses_retained_account) ... ok
+test_duplicate_delivery_is_not_another_practice (tests_u8.test_development.DevelopmentTests.test_duplicate_delivery_is_not_another_practice) ... ok
+test_local_repair_preserves_other_bindings_and_original_material (tests_u8.test_development.DevelopmentTests.test_local_repair_preserves_other_bindings_and_original_material) ... ok
+test_overload_remains_residual_and_does_not_inflate_capacity (tests_u8.test_development.DevelopmentTests.test_overload_remains_residual_and_does_not_inflate_capacity) ... ok
+test_quiet_is_not_success (tests_u8.test_development.DevelopmentTests.test_quiet_is_not_success) ... ok
+test_reownership_requires_later_independent_returns (tests_u8.test_development.DevelopmentTests.test_reownership_requires_later_independent_returns) ... ok
+test_restore_retains_scoped_capacity_and_future_choices (tests_u8.test_development.DevelopmentTests.test_restore_retains_scoped_capacity_and_future_choices) ... ok
+test_retained_capacity_changes_u6_action_and_actual_material_effect (tests_u8.test_development.DevelopmentTests.test_retained_capacity_changes_u6_action_and_actual_material_effect) ... ok
+test_single_success_is_not_generalization (tests_u8.test_development.DevelopmentTests.test_single_success_is_not_generalization) ... ok
+test_support_enables_performance_without_mastery_and_withdrawal_recurs (tests_u8.test_development.DevelopmentTests.test_support_enables_performance_without_mastery_and_withdrawal_recurs) ... ok
+test_two_independent_practices_change_reusable_capacity (tests_u8.test_development.DevelopmentTests.test_two_independent_practices_change_reusable_capacity) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 51.948s
+
+OK

@@ -1,0 +1,220 @@
+{
+  "passed": true,
+  "tests": 42,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 149.84553181199954,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_approval_wait_has_cost_cause_and_bearer",
+      "status": "passed",
+      "seconds": 2.4604216429979715
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_collective_correction_changes_actual_later_work",
+      "status": "passed",
+      "seconds": 6.96248057199773
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_consent_can_be_withdrawn_before_ratification",
+      "status": "passed",
+      "seconds": 2.2007432150021486
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_duplicate_response_is_rejected",
+      "status": "passed",
+      "seconds": 2.054367132997868
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_exact_permission_can_be_used_once",
+      "status": "passed",
+      "seconds": 3.3953367700014496
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_membership_change_invalidates_old_electorate",
+      "status": "passed",
+      "seconds": 2.3632567300010123
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_one_member_cannot_enact_missing_consent",
+      "status": "passed",
+      "seconds": 2.0624860229982005
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_other_member_cannot_grant_stewards_permission",
+      "status": "passed",
+      "seconds": 2.742082983000728
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_paid_observed_repetition_creates_public_rule",
+      "status": "passed",
+      "seconds": 5.023702095000772
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_personal_correction_does_not_edit_public_rule",
+      "status": "passed",
+      "seconds": 5.036176087000058
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_received_delay_changes_a_corrected_participants_next_response",
+      "status": "passed",
+      "seconds": 4.075394139999844
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_responses_cannot_be_reused_for_another_proposal",
+      "status": "passed",
+      "seconds": 2.212256148999586
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ConsentAndPracticeTests.test_rule_requires_repeated_actual_work_for_maintenance",
+      "status": "passed",
+      "seconds": 3.2044250020007894
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_assent_withdrawal_blocks_ready_work_preserving_cost_and_duty",
+      "status": "passed",
+      "seconds": 2.231354110997927
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_collective_revision_resolves_dispute_and_keeps_consequence",
+      "status": "passed",
+      "seconds": 6.1715480359998764
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_dispute_records_actual_bearer_without_erasing_rule",
+      "status": "passed",
+      "seconds": 2.433078664002096
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_dissolution_does_not_require_new_material_search",
+      "status": "passed",
+      "seconds": 2.2547985189994506
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_dissolution_preserves_outstanding_work_and_history",
+      "status": "passed",
+      "seconds": 2.589530001001549
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_joining_alone_does_not_assent_to_public_rule",
+      "status": "passed",
+      "seconds": 1.8840814889990725
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_newcomer_teaching_and_assent_do_not_grant_skill",
+      "status": "passed",
+      "seconds": 5.349900212000648
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_succession_and_founder_departure_preserve_active_institution",
+      "status": "passed",
+      "seconds": 5.20840328599661
+    },
+    {
+      "test_id": "tests_u12.test_institutions.ContinuityTests.test_teaching_cannot_be_read_as_another_persons_understanding",
+      "status": "passed",
+      "seconds": 2.29156064199924
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_actual_requirement_and_partner_refusal_remain_boundaries",
+      "status": "passed",
+      "seconds": 3.569279365001421
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_goal_and_material_change_construct_different_work",
+      "status": "passed",
+      "seconds": 1.667951727999025
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_hidden_fact_change_does_not_change_participant_proposal",
+      "status": "passed",
+      "seconds": 3.956067338996945
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_matched_history_ablation_changes_proposed_authority",
+      "status": "passed",
+      "seconds": 3.5078187590006564
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_missing_skill_or_search_budget_produces_no_rule",
+      "status": "passed",
+      "seconds": 1.8808203099979437
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_proposal_is_constructed_without_finished_rule_input",
+      "status": "passed",
+      "seconds": 1.998804115002713
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_public_message_does_not_disclose_private_attribution",
+      "status": "passed",
+      "seconds": 1.8148435780021828
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_second_material_context_has_same_causal_contract",
+      "status": "passed",
+      "seconds": 4.4729584050000994
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_unread_proposal_cannot_be_considered",
+      "status": "passed",
+      "seconds": 1.7616645250018337
+    },
+    {
+      "test_id": "tests_u12.test_institutions.GenerationTests.test_unsafe_refusal_is_preserved_without_shell_label",
+      "status": "passed",
+      "seconds": 1.6509227879978425
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_all_types_keep_lawful_routes_and_different_costs",
+      "status": "passed",
+      "seconds": 26.437575713000115
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_cancelled_institutional_work_preserves_spending",
+      "status": "passed",
+      "seconds": 1.7540357469988521
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_changed_actor_evidence_invalidates_paid_proposal",
+      "status": "passed",
+      "seconds": 1.8377669770015927
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_exhaustion_retains_partial_work_without_proposal",
+      "status": "passed",
+      "seconds": 1.9079778399973293
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_generated_history_cannot_be_minted_as_a_declaration",
+      "status": "passed",
+      "seconds": 1.9770630540006096
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_independent_raw_audit_rejects_unconsented_rule",
+      "status": "passed",
+      "seconds": 2.45616084699941
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_independent_raw_audit_rejects_wrong_consequence_bearer",
+      "status": "passed",
+      "seconds": 2.3554013760003727
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_modified_checkpoint_is_rejected",
+      "status": "passed",
+      "seconds": 4.32549904699772
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_partial_proposal_restores_and_continues_exactly",
+      "status": "passed",
+      "seconds": 4.468078793001041
+    },
+    {
+      "test_id": "tests_u12.test_institutions.IntegrityTests.test_u11_adoption_preserves_history_and_continued_work",
+      "status": "passed",
+      "seconds": 1.8336972869983583
+    }
+  ]
+}

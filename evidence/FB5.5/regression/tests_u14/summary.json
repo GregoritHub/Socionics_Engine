@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 3.0818175040003553,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u14.test_release.Accounting.test_budget_reallocation_cannot_hide_spending",
+      "status": "passed",
+      "seconds": 0.054274020996672334
+    },
+    {
+      "test_id": "tests_u14.test_release.Accounting.test_own_budget_reconstructed_and_forged_debit_rejected",
+      "status": "passed",
+      "seconds": 0.07900467299987213
+    },
+    {
+      "test_id": "tests_u14.test_release.Inspector.test_actor_export_excludes_unseen_material",
+      "status": "passed",
+      "seconds": 1.0632896889983385
+    },
+    {
+      "test_id": "tests_u14.test_release.Inspector.test_complete_export_serializes_wallet_and_evaluator",
+      "status": "passed",
+      "seconds": 0.5711847100028535
+    },
+    {
+      "test_id": "tests_u14.test_release.Inspector.test_exact_historical_revision_and_no_mutation",
+      "status": "passed",
+      "seconds": 0.5161967679996451
+    },
+    {
+      "test_id": "tests_u14.test_release.Inspector.test_gzip_checkpoint_restores_with_same_actor_export",
+      "status": "passed",
+      "seconds": 0.7877023729997745
+    },
+    {
+      "test_id": "tests_u14.test_release.Inspector.test_html_cannot_execute_record_text",
+      "status": "passed",
+      "seconds": 0.00031014900014270097
+    },
+    {
+      "test_id": "tests_u14.test_release.PanelValidation.test_duplicate_cases_are_not_independent_evidence",
+      "status": "passed",
+      "seconds": 0.006760407999536255
+    },
+    {
+      "test_id": "tests_u14.test_release.PanelValidation.test_empty_panel_is_not_a_pass",
+      "status": "passed",
+      "seconds": 0.0005914249995839782
+    }
+  ]
+}

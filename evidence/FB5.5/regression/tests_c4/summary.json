@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "tests": 23,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 147.4876347669997,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_c3_checkpoint_upgrade_preserves_world_and_access",
+      "status": "passed",
+      "seconds": 0.7964567270028056
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_cancel_every_recipe_preserves_spending_without_output",
+      "status": "passed",
+      "seconds": 5.801423644999886
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_cancelled_child_blocks_parent_and_later_release",
+      "status": "passed",
+      "seconds": 0.5199597829996492
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_commune_accumulation_preserves_difference_without_commitment",
+      "status": "passed",
+      "seconds": 1.8149210839983425
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_compatible_numeric_limits_keep_conflicts_and_provenance",
+      "status": "passed",
+      "seconds": 0.5095370740018552
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_context_transfer_needs_local_evidence_and_does_not_copy_authority",
+      "status": "passed",
+      "seconds": 0.4533564060002391
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_declared_depth_bound_and_exact_nested_costs",
+      "status": "passed",
+      "seconds": 1.9491669659983017
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_display_labels_do_not_change_meaning",
+      "status": "passed",
+      "seconds": 1.0922274939985073
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_distinct_histories_and_mixed_faces_survive_return",
+      "status": "passed",
+      "seconds": 0.3349198659998365
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_eight_recipes_exact_continuation_at_three_boundaries",
+      "status": "passed",
+      "seconds": 47.59108435999951
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_endpoint_equality_cannot_substitute_an_unrelated_history",
+      "status": "passed",
+      "seconds": 0.3812660040021001
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_exhaustion_preserves_child_work_and_no_parent_completion",
+      "status": "passed",
+      "seconds": 0.6393157519996748
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_five_connected_families_across_sixteen_types",
+      "status": "passed",
+      "seconds": 65.92648152000038
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_group_change_and_real_withdrawal_invalidate_parent",
+      "status": "passed",
+      "seconds": 3.1145416330000444
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_material_failure_remains_a_failed_child",
+      "status": "passed",
+      "seconds": 0.36056000199823757
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_nested_summary_cannot_be_used_as_model_or_borrowed_competence",
+      "status": "passed",
+      "seconds": 0.3147327190017677
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_parent_spends_only_own_review_and_deduplicates_descendants",
+      "status": "passed",
+      "seconds": 0.5017740299990692
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_raw_postconditions_handoffs_costs_and_parent_claims",
+      "status": "passed",
+      "seconds": 0.6263173749975977
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_renewal_cannot_mint_another_commitment_from_the_same_exchange",
+      "status": "passed",
+      "seconds": 4.363860445002501
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_seven_matched_semantic_controls",
+      "status": "passed",
+      "seconds": 8.747463082003378
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_stale_successful_parent_cannot_release_after_child_revision",
+      "status": "passed",
+      "seconds": 0.4562204899993958
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_uncoupled_integrate_permits_assessment_and_trial_only",
+      "status": "passed",
+      "seconds": 0.397400199999538
+    },
+    {
+      "test_id": "tests_c4.test_composition.CompositionTests.test_unread_or_foreign_child_and_forged_output_are_rejected",
+      "status": "passed",
+      "seconds": 0.7909332669987634
+    }
+  ]
+}

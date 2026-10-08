@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source_unchanged": true,
+  "cells": 32,
+  "faces": 32,
+  "witnesses": 32,
+  "matched_controls": 32,
+  "types": [
+    "iee",
+    "sli"
+  ],
+  "target_native_completions": 32,
+  "consumer_native_completions": 32,
+  "terminal_consequences": 32,
+  "fair_social_pair": true,
+  "exact_restore": true,
+  "finite_pending": true,
+  "wallet_exhaustion": true,
+  "cancelled_work": true
+}

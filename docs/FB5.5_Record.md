@@ -1,0 +1,19 @@
+# FB5.5 — Preregistered 32/32 sustained panel: accepted
+
+[source_defined] Entry is accepted FB5.4 at `798a2712ba18dcf443603fe1508434b60edd52c8`. The exact 32-row protocol was committed before implementation at `1875babd308611056b9b7143be813ac8726e4d37`; protocol SHA-256 is `398b1c8450574ba9bf0bc7958ea4691903acfc3d2f5d03754df38ec78bc4abec`. Executable source was frozen at `3c78d08a922d4032d6f16e47d5e3af7367ae72c0` before evaluation.
+
+[derived] Two additive modules implement and independently audit `hle-c7-fair-workflow-agenda-population-v1`. Every agenda has a deterministic command namespace. The scheduler sees pending action ownership, locks, finite wallets and cursors and chooses only which actual payer receives the next turn. It does not receive a route, recipe, result, skill, truth or new goal. Peer replies, votes, disclosures and reads are charged to their actual actor. Legacy agenda v1 and Population v2/v3 schemas and bytes are unchanged.
+
+[machine-checked] The preregistered panel covered both faces of all sixteen names: 32/32 completed paid native target selections, 32 decoded semantic deltas, 32 exact generated-result handoffs into later automatic consumers, and 32 fixed paid terminal consequences. Even-numbered rows used IEE owners and odd-numbered rows used SLI owners; each world retained both participant types. The two Institutionalize rows continued through generated offer/reply work into Educate rather than bypassing the rule contract.
+
+[machine-checked] Thirty-two matched withheld-result controls completed the identical target movement with the identical native result identity and spent cost, then stopped before the generated-result handoff. No control executed its consumer or gained a terminal consequence. Public-result controls retained the output hidden before disclosure; witness histories required disclosure and paid reading before later selection. Hidden content did not affect an earlier choice.
+
+[machine-checked] A shared-engine two-agenda case scheduled both Alice and Bob and included peer-owned vote and reply turns. Exact interrupted restore matched uninterrupted checkpoint bytes. Finite-turn pending state, finite-wallet exhaustion and a cancelled native child retained partial work and charges. Independent raw reconstruction rejected forged charge, namespace, goal provenance and scheduler ownership summaries.
+
+[machine-checked] The accepted frozen evaluation saved seventy raw checkpoints: 32 witnesses, 32 controls and six fairness/restore/boundary/failure cases. Independent verification reconstructed all 32 cells, semantic changes, generated links, terminal answers, producer costs, visibility boundaries and special cases without importing scheduler, selector, executor or fixture builders.
+
+[machine-checked] Regression passed 727 distinct methods with zero failures or errors: 602 inherited methods and 125 workflow/continuation methods. All 720 accepted FB5.4 method IDs remain present; seven FB5.5 methods were added. No inherited executable or contract file changed. The 1,333-file source freeze has SHA-256 `5beba72e21e9c9c5c9d8d49864a9710ccb7dc4240edb09897838b216fd450dce`.
+
+[source_defined] Immutable archive: `Socionics_Final_Build_FB5.5_Evidence.zip`, 11,088,803 bytes, 166 files and no directory entries, SHA-256 `6b937ad3d27409426bebf8b4e622bafb768a848b75122c71fe2a005bb0df864e`. Exact Library IDs and restoration instructions are in `evidence/FB5.5/Raw_Evidence_Index.json`. Re-run `python tools/verify_sustained_32_cell_panel.py evidence/FB5.5/attempt1` after restoration.
+
+[open] Next is FB5.6: longitudinal Shell deformation, scoped paid correction, renewed-demand recurrence, refused unsupported clearance and integrated extension assessment. FB5.5 establishes the revised 32/32 sustained-panel gate, not the Shell gate or Release 1.0 completion. Phase 7 remains unauthorized without R5.

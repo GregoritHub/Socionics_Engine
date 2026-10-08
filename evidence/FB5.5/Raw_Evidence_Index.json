@@ -1,0 +1,25 @@
+{
+  "schema": "srl-fb5.5-raw-evidence-index-v1",
+  "batch": "5.5",
+  "accepted_attempt": 1,
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB5.5_Evidence.zip",
+    "library_path": "/Socionics_Final_Build_FB5.5_Evidence.zip",
+    "library_file_id": "libfile_13c0fc1d0320819192b1df6a596fba06",
+    "file_id": "file_00000000744c82069f11e03bcfd7c6ee",
+    "version": 0,
+    "bytes": 11088803,
+    "sha256": "6b937ad3d27409426bebf8b4e622bafb768a848b75122c71fe2a005bb0df864e",
+    "files": 166,
+    "directory_entries": 0,
+    "members": 166
+  },
+  "restore": [
+    "Materialize the exact Library archive and verify byte count and SHA256 locally before extraction.",
+    "Extract from the repository root, restoring evidence/FB5.5.",
+    "Verify every file listed in evidence/FB5.5/Raw_SHA256.json.",
+    "Run python tools/verify_sustained_32_cell_panel.py evidence/FB5.5/attempt1.",
+    "The accepted source freeze is the mapping in evidence/FB5.5/attempt1/source_freeze.json."
+  ],
+  "scope": "Bounded preregistered 32/32 sustained panel and actual-payer fair agenda scheduling; no longitudinal Shell, Release 1.0 completion, Phase 7, spontaneous agency or unbounded-development claim."
+}

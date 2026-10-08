@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "accepted_attempt": 1,
+  "distinct_methods": 727,
+  "prior_methods_missing": 0,
+  "new_methods": 7,
+  "raw_cases": 70,
+  "sustained_cells": 32,
+  "matched_withheld_controls": 32,
+  "semantic_deltas": 32,
+  "automatic_consumers": 32,
+  "terminal_consequences": 32,
+  "mixed_types": [
+    "iee",
+    "sli"
+  ],
+  "source_unchanged": true,
+  "freeze_sha256": "5beba72e21e9c9c5c9d8d49864a9710ccb7dc4240edb09897838b216fd450dce",
+  "goal_complete": false,
+  "next_batch": "5.6"
+}

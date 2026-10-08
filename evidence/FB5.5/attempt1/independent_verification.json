@@ -1,0 +1,1726 @@
+{
+  "passed": true,
+  "cells": 32,
+  "witnesses": 32,
+  "controls": 32,
+  "semantic_deltas": 32,
+  "terminal_consequences": 32,
+  "matched_producer_costs": true,
+  "hidden_public_controls": 13,
+  "mixed_types": [
+    "iee",
+    "sli"
+  ],
+  "exact_restore": true,
+  "participant_replay": false,
+  "reports": [
+    {
+      "cell": 0,
+      "target": "workflow-contemplate-accumulation-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 32,
+      "witness_turns": 12,
+      "control_turns": 6,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 1,
+      "target": "workflow-contemplate-expenditure-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 48,
+      "witness_turns": 14,
+      "control_turns": 7,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 2,
+      "target": "workflow-act-accumulation-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 64,
+      "witness_turns": 18,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 3,
+      "target": "workflow-act-expenditure-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 59,
+      "witness_turns": 18,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 4,
+      "target": "workflow-commune-accumulation-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 129,
+      "witness_turns": 22,
+      "control_turns": 12,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 5,
+      "target": "workflow-commune-expenditure-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 115,
+      "witness_turns": 21,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 6,
+      "target": "workflow-integrate-accumulation-v1",
+      "consumer": "workflow-apply-accumulation-v1",
+      "target_spent": 63,
+      "witness_turns": 17,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 7,
+      "target": "workflow-integrate-expenditure-v1",
+      "consumer": "workflow-apply-accumulation-v1",
+      "target_spent": 81,
+      "witness_turns": 21,
+      "control_turns": 9,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 8,
+      "target": "workflow-express-accumulation-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 32,
+      "witness_turns": 16,
+      "control_turns": 6,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 9,
+      "target": "workflow-express-expenditure-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 50,
+      "witness_turns": 17,
+      "control_turns": 7,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 10,
+      "target": "workflow-embody-accumulation-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 55,
+      "witness_turns": 15,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 11,
+      "target": "workflow-embody-expenditure-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 61,
+      "witness_turns": 15,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 12,
+      "target": "workflow-theorize-accumulation-v1",
+      "consumer": "workflow-apply-accumulation-v1",
+      "target_spent": 22,
+      "witness_turns": 15,
+      "control_turns": 6,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 13,
+      "target": "workflow-theorize-expenditure-v1",
+      "consumer": "workflow-apply-accumulation-v1",
+      "target_spent": 29,
+      "witness_turns": 17,
+      "control_turns": 6,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 14,
+      "target": "workflow-understand-accumulation-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 45,
+      "witness_turns": 13,
+      "control_turns": 7,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 15,
+      "target": "workflow-understand-expenditure-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 54,
+      "witness_turns": 15,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 16,
+      "target": "workflow-apply-accumulation-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 45,
+      "witness_turns": 17,
+      "control_turns": 7,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 17,
+      "target": "workflow-apply-expenditure-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 56,
+      "witness_turns": 18,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 18,
+      "target": "workflow-organize-accumulation-v1",
+      "consumer": "workflow-apply-accumulation-v1",
+      "target_spent": 89,
+      "witness_turns": 21,
+      "control_turns": 10,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 19,
+      "target": "workflow-organize-expenditure-v1",
+      "consumer": "workflow-apply-accumulation-v1",
+      "target_spent": 88,
+      "witness_turns": 22,
+      "control_turns": 10,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 20,
+      "target": "workflow-share-accumulation-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 88,
+      "witness_turns": 20,
+      "control_turns": 10,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 21,
+      "target": "workflow-share-expenditure-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 81,
+      "witness_turns": 19,
+      "control_turns": 9,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 22,
+      "target": "workflow-coordinate-accumulation-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 107,
+      "witness_turns": 21,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 23,
+      "target": "workflow-coordinate-expenditure-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 112,
+      "witness_turns": 21,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 24,
+      "target": "workflow-identify-accumulation-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 64,
+      "witness_turns": 15,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 25,
+      "target": "workflow-identify-expenditure-v1",
+      "consumer": "workflow-theorize-accumulation-v1",
+      "target_spent": 57,
+      "witness_turns": 15,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 26,
+      "target": "workflow-mobilize-accumulation-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 58,
+      "witness_turns": 18,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 27,
+      "target": "workflow-mobilize-expenditure-v1",
+      "consumer": "workflow-embody-accumulation-v1",
+      "target_spent": 61,
+      "witness_turns": 18,
+      "control_turns": 8,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 28,
+      "target": "workflow-institutionalize-accumulation-v1",
+      "consumer": "workflow-educate-accumulation-v1",
+      "target_spent": 103,
+      "witness_turns": 43,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 29,
+      "target": "workflow-institutionalize-expenditure-v1",
+      "consumer": "workflow-educate-accumulation-v1",
+      "target_spent": 108,
+      "witness_turns": 44,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 30,
+      "target": "workflow-educate-accumulation-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 115,
+      "witness_turns": 21,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    },
+    {
+      "cell": 31,
+      "target": "workflow-educate-expenditure-v1",
+      "consumer": "workflow-identify-accumulation-v1",
+      "target_spent": 117,
+      "witness_turns": 21,
+      "control_turns": 11,
+      "witness_audit": true,
+      "control_audit": true
+    }
+  ],
+  "special": {
+    "fair": {
+      "passed": true,
+      "turns": 79,
+      "modeled_energy": 804,
+      "peer_turns": 14,
+      "completed": [
+        3,
+        1
+      ],
+      "agendas": [
+        {
+          "passed": true,
+          "namespace": "social",
+          "completed_goals": 3,
+          "modeled_energy": 742,
+          "main_selections": 4,
+          "native": {
+            "passed": true,
+            "transactions": 343,
+            "operation_attempts": 93,
+            "charged_energy": 2303,
+            "charged_time": 2303,
+            "physical_commits": 1,
+            "native_processing_receipts": 92,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 1,
+                "consumed": 1
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 0,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 11,
+            "workflow_completed": 11,
+            "workflow_main_completed": 5,
+            "workflow_steps": 15,
+            "workflow_results": [
+              {
+                "recipe": "workflow-offer-personal-v1",
+                "main": false,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 28,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='6f0f33e80c6bba41dead9a569ae2ad904de7b253a460832bacfe32770f428015'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 55,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='ac473947cf88f843ac8906a667e11d89156359bdb60b1fe142bcf94cdad69858'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='6f0f33e80c6bba41dead9a569ae2ad904de7b253a460832bacfe32770f428015'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-peer'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-share-expenditure-v1",
+                "main": true,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 86,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='c7ceae59c4d69d4485bb5e8d0f9fd6ce2250605611afadfd0c0e452e1cfb919c'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='6f0f33e80c6bba41dead9a569ae2ad904de7b253a460832bacfe32770f428015'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='ac473947cf88f843ac8906a667e11d89156359bdb60b1fe142bcf94cdad69858'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-theorize-accumulation-v1",
+                "main": true,
+                "route": "Theorize",
+                "polarity": "accumulation",
+                "spent": 24,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='f6674b5a4c260d2cf29c762c5b358aabb895a0cf7c1425a33fba8004f44e77c8'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='peer-owned-intention'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-accumulation-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "accumulation",
+                "spent": 103,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='c7ceae59c4d69d4485bb5e8d0f9fd6ce2250605611afadfd0c0e452e1cfb919c'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='u4.observation', key='023a8d6be5aba755ca89f9fcdd6e3dd4358c2845c55f833f64f9fa27b1be55a0'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 63,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='7d716bacfa3e6cbd3e243b0ae0d4cf6f206a7c632e7f83a62d42d4cc69f5ce92'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 64,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='2b62191cf000582e2c42e95baa347f7878c67aad184baa3d828eac6efd4104da'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-peer-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "expenditure",
+                "spent": 111,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='2b62191cf000582e2c42e95baa347f7878c67aad184baa3d828eac6efd4104da'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='7d716bacfa3e6cbd3e243b0ae0d4cf6f206a7c632e7f83a62d42d4cc69f5ce92'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-offer-system-v1",
+                "main": false,
+                "route": "Educate",
+                "polarity": "expenditure",
+                "spent": 74,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='55da69e4127814cb1e8592de335cc49d5000c79c2ce4266f67914c0557a39e55'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 55,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='06bec754f6043fc9cfa11c1e753395d8055523e5b906207c8cdde844bf40962b'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='55da69e4127814cb1e8592de335cc49d5000c79c2ce4266f67914c0557a39e55'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-peer-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-educate-expenditure-v1",
+                "main": true,
+                "route": "Educate",
+                "polarity": "expenditure",
+                "spent": 131,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='20b9cb742ed561abc2f19437f9387945a13e951d9f977b03a5cfd0c5e2dc51a6'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='55da69e4127814cb1e8592de335cc49d5000c79c2ce4266f67914c0557a39e55'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='06bec754f6043fc9cfa11c1e753395d8055523e5b906207c8cdde844bf40962b'), revision=1)"
+                ]
+              }
+            ],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 4,
+            "selection_rows": [
+              {
+                "selected": 22,
+                "recipe": "workflow-institutionalize-accumulation-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                "spent": 44,
+                "status": "launched"
+              },
+              {
+                "selected": 6,
+                "recipe": "workflow-theorize-accumulation-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='f6674b5a4c260d2cf29c762c5b358aabb895a0cf7c1425a33fba8004f44e77c8'), revision=1)",
+                "spent": 38,
+                "status": "launched"
+              },
+              {
+                "selected": 23,
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                "spent": 39,
+                "status": "launched"
+              },
+              {
+                "selected": 29,
+                "recipe": "workflow-educate-expenditure-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='20b9cb742ed561abc2f19437f9387945a13e951d9f977b03a5cfd0c5e2dc51a6'), revision=1)",
+                "spent": 40,
+                "status": "launched"
+              }
+            ]
+          }
+        },
+        {
+          "passed": true,
+          "namespace": "peer",
+          "completed_goals": 1,
+          "modeled_energy": 62,
+          "main_selections": 4,
+          "native": {
+            "passed": true,
+            "transactions": 343,
+            "operation_attempts": 93,
+            "charged_energy": 2303,
+            "charged_time": 2303,
+            "physical_commits": 1,
+            "native_processing_receipts": 92,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 1,
+                "consumed": 1
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 0,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 11,
+            "workflow_completed": 11,
+            "workflow_main_completed": 5,
+            "workflow_steps": 15,
+            "workflow_results": [
+              {
+                "recipe": "workflow-offer-personal-v1",
+                "main": false,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 28,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='6f0f33e80c6bba41dead9a569ae2ad904de7b253a460832bacfe32770f428015'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 55,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='ac473947cf88f843ac8906a667e11d89156359bdb60b1fe142bcf94cdad69858'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='6f0f33e80c6bba41dead9a569ae2ad904de7b253a460832bacfe32770f428015'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-peer'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-share-expenditure-v1",
+                "main": true,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 86,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='c7ceae59c4d69d4485bb5e8d0f9fd6ce2250605611afadfd0c0e452e1cfb919c'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-initial-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='6f0f33e80c6bba41dead9a569ae2ad904de7b253a460832bacfe32770f428015'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='ac473947cf88f843ac8906a667e11d89156359bdb60b1fe142bcf94cdad69858'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-theorize-accumulation-v1",
+                "main": true,
+                "route": "Theorize",
+                "polarity": "accumulation",
+                "spent": 24,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='f6674b5a4c260d2cf29c762c5b358aabb895a0cf7c1425a33fba8004f44e77c8'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='peer-owned-intention'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-accumulation-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "accumulation",
+                "spent": 103,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='c7ceae59c4d69d4485bb5e8d0f9fd6ce2250605611afadfd0c0e452e1cfb919c'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='u4.observation', key='023a8d6be5aba755ca89f9fcdd6e3dd4358c2845c55f833f64f9fa27b1be55a0'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 63,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='7d716bacfa3e6cbd3e243b0ae0d4cf6f206a7c632e7f83a62d42d4cc69f5ce92'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 64,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='2b62191cf000582e2c42e95baa347f7878c67aad184baa3d828eac6efd4104da'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-peer-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "expenditure",
+                "spent": 111,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='2b62191cf000582e2c42e95baa347f7878c67aad184baa3d828eac6efd4104da'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='7d716bacfa3e6cbd3e243b0ae0d4cf6f206a7c632e7f83a62d42d4cc69f5ce92'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-offer-system-v1",
+                "main": false,
+                "route": "Educate",
+                "polarity": "expenditure",
+                "spent": 74,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='55da69e4127814cb1e8592de335cc49d5000c79c2ce4266f67914c0557a39e55'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 55,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='06bec754f6043fc9cfa11c1e753395d8055523e5b906207c8cdde844bf40962b'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='55da69e4127814cb1e8592de335cc49d5000c79c2ce4266f67914c0557a39e55'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='agenda-peer-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-educate-expenditure-v1",
+                "main": true,
+                "route": "Educate",
+                "polarity": "expenditure",
+                "spent": 131,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='20b9cb742ed561abc2f19437f9387945a13e951d9f977b03a5cfd0c5e2dc51a6'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='55da69e4127814cb1e8592de335cc49d5000c79c2ce4266f67914c0557a39e55'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='06bec754f6043fc9cfa11c1e753395d8055523e5b906207c8cdde844bf40962b'), revision=1)"
+                ]
+              }
+            ],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 4,
+            "selection_rows": [
+              {
+                "selected": 22,
+                "recipe": "workflow-institutionalize-accumulation-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='dfc4dece3133047876e4f0ad4170dc47d17ca9e210f48dea57f8f94c98078cdf'), revision=1)",
+                "spent": 44,
+                "status": "launched"
+              },
+              {
+                "selected": 6,
+                "recipe": "workflow-theorize-accumulation-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='f6674b5a4c260d2cf29c762c5b358aabb895a0cf7c1425a33fba8004f44e77c8'), revision=1)",
+                "spent": 38,
+                "status": "launched"
+              },
+              {
+                "selected": 23,
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='e684ea924735fb240494e72f795bae8ca6db189802f0df567ec2fdc51699f26a'), revision=1)",
+                "spent": 39,
+                "status": "launched"
+              },
+              {
+                "selected": 29,
+                "recipe": "workflow-educate-expenditure-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='20b9cb742ed561abc2f19437f9387945a13e951d9f977b03a5cfd0c5e2dc51a6'), revision=1)",
+                "spent": 40,
+                "status": "launched"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "interrupted": {
+      "passed": true,
+      "turns": 13,
+      "modeled_energy": 149,
+      "peer_turns": 0,
+      "completed": [
+        0
+      ],
+      "agendas": [
+        {
+          "passed": true,
+          "namespace": "cell-29",
+          "completed_goals": 0,
+          "modeled_energy": 149,
+          "main_selections": 1,
+          "native": {
+            "passed": true,
+            "transactions": 232,
+            "operation_attempts": 69,
+            "charged_energy": 1263,
+            "charged_time": 1263,
+            "physical_commits": 1,
+            "native_processing_receipts": 68,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 1,
+                "consumed": 1
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 0,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 7,
+            "workflow_completed": 7,
+            "workflow_main_completed": 3,
+            "workflow_steps": 9,
+            "workflow_results": [
+              {
+                "recipe": "workflow-offer-personal-v1",
+                "main": false,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 30,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='9adb690003be6e82e1c418e49d9f7bb1ed15cd3ad3a0fcd63fdce76c78a9f7b0'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 55,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='7e01e7519f3c4e6d827ae8f5ce58f418369ffb2e928769aebda16809d1622bac'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='9adb690003be6e82e1c418e49d9f7bb1ed15cd3ad3a0fcd63fdce76c78a9f7b0'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-peer'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-share-expenditure-v1",
+                "main": true,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 82,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='5cb3f3de7371158a84c27da9e7722fd189613087d624082407badfc0957b718b'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='9adb690003be6e82e1c418e49d9f7bb1ed15cd3ad3a0fcd63fdce76c78a9f7b0'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='7e01e7519f3c4e6d827ae8f5ce58f418369ffb2e928769aebda16809d1622bac'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-accumulation-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "accumulation",
+                "spent": 104,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='5cb3f3de7371158a84c27da9e7722fd189613087d624082407badfc0957b718b'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='u4.observation', key='eef2b0a893adcdc563c33de263b53bc3bb894031184f3b5c7b5e7b5eb02d797a'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 64,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='0ed809b98942d058c2ccf00eb72a487e48a16dd1cb91bf8af84aa1177fe632fe'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-votealice-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 57,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='f42967b03a2bc10049d00a357c3bfea9f65964671ce26bbc18583044b2e79ef7'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-votebob-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "expenditure",
+                "spent": 108,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='2c3aec01af6bb0200fcc095b834bf5a5d8700dacf6b6fec1b446870ab343736a'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='0ed809b98942d058c2ccf00eb72a487e48a16dd1cb91bf8af84aa1177fe632fe'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='f42967b03a2bc10049d00a357c3bfea9f65964671ce26bbc18583044b2e79ef7'), revision=1)"
+                ]
+              }
+            ],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 1,
+            "selection_rows": [
+              {
+                "selected": 23,
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='2c3aec01af6bb0200fcc095b834bf5a5d8700dacf6b6fec1b446870ab343736a'), revision=1)",
+                "spent": 39,
+                "status": "launched"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "restored": {
+      "passed": true,
+      "turns": 44,
+      "modeled_energy": 465,
+      "peer_turns": 7,
+      "completed": [
+        2
+      ],
+      "agendas": [
+        {
+          "passed": true,
+          "namespace": "cell-29",
+          "completed_goals": 2,
+          "modeled_energy": 465,
+          "main_selections": 2,
+          "native": {
+            "passed": true,
+            "transactions": 273,
+            "operation_attempts": 77,
+            "charged_energy": 1579,
+            "charged_time": 1579,
+            "physical_commits": 1,
+            "native_processing_receipts": 76,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 1,
+                "consumed": 1
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 0,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 10,
+            "workflow_completed": 10,
+            "workflow_main_completed": 4,
+            "workflow_steps": 14,
+            "workflow_results": [
+              {
+                "recipe": "workflow-offer-personal-v1",
+                "main": false,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 30,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='9adb690003be6e82e1c418e49d9f7bb1ed15cd3ad3a0fcd63fdce76c78a9f7b0'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 55,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='7e01e7519f3c4e6d827ae8f5ce58f418369ffb2e928769aebda16809d1622bac'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='9adb690003be6e82e1c418e49d9f7bb1ed15cd3ad3a0fcd63fdce76c78a9f7b0'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-peer'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-share-expenditure-v1",
+                "main": true,
+                "route": "Share",
+                "polarity": "expenditure",
+                "spent": 82,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='5cb3f3de7371158a84c27da9e7722fd189613087d624082407badfc0957b718b'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-draft-shared-intent'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='9adb690003be6e82e1c418e49d9f7bb1ed15cd3ad3a0fcd63fdce76c78a9f7b0'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='7e01e7519f3c4e6d827ae8f5ce58f418369ffb2e928769aebda16809d1622bac'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-accumulation-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "accumulation",
+                "spent": 104,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='5cb3f3de7371158a84c27da9e7722fd189613087d624082407badfc0957b718b'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='u4.observation', key='eef2b0a893adcdc563c33de263b53bc3bb894031184f3b5c7b5e7b5eb02d797a'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 64,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='0ed809b98942d058c2ccf00eb72a487e48a16dd1cb91bf8af84aa1177fe632fe'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-votealice-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-vote-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "expenditure",
+                "spent": 57,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='f42967b03a2bc10049d00a357c3bfea9f65964671ce26bbc18583044b2e79ef7'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='case-votebob-own'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "main": true,
+                "route": "Institutionalize",
+                "polarity": "expenditure",
+                "spent": 108,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='2c3aec01af6bb0200fcc095b834bf5a5d8700dacf6b6fec1b446870ab343736a'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='787eb44a5fc78c34af5f42a0faa0f3a981a5d21c85b3c2599b48e681199a0da4'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='0ed809b98942d058c2ccf00eb72a487e48a16dd1cb91bf8af84aa1177fe632fe'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='f42967b03a2bc10049d00a357c3bfea9f65964671ce26bbc18583044b2e79ef7'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-offer-system-v1",
+                "main": false,
+                "route": "Educate",
+                "polarity": "expenditure",
+                "spent": 81,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='2ef0331335c6121ec6665b5421e1fc436a338a5a91674eac7a3a494a3dc01226'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='2c3aec01af6bb0200fcc095b834bf5a5d8700dacf6b6fec1b446870ab343736a'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='panel-own-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-reply-v1",
+                "main": false,
+                "route": "Identify",
+                "polarity": "accumulation",
+                "spent": 54,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='760d0e27ecc81130b5908ff3d48824f75c0463a886298bf65b03a1c42841719c'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='2ef0331335c6121ec6665b5421e1fc436a338a5a91674eac7a3a494a3dc01226'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='workshop', key='panel-peer-stance'), revision=1)"
+                ]
+              },
+              {
+                "recipe": "workflow-educate-accumulation-v1",
+                "main": true,
+                "route": "Educate",
+                "polarity": "accumulation",
+                "spent": 133,
+                "output": "ObjectRef(identity=ObjectId(namespace='c7w.output', key='1ff6458d6d496f506b94c545859c8eb0a63e8e978f924fcc13e76569e24bc5f3'), revision=1)",
+                "inputs": [
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='2c3aec01af6bb0200fcc095b834bf5a5d8700dacf6b6fec1b446870ab343736a'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='2ef0331335c6121ec6665b5421e1fc436a338a5a91674eac7a3a494a3dc01226'), revision=1)",
+                  "ObjectRef(identity=ObjectId(namespace='c7w.message', key='760d0e27ecc81130b5908ff3d48824f75c0463a886298bf65b03a1c42841719c'), revision=1)"
+                ]
+              }
+            ],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 2,
+            "selection_rows": [
+              {
+                "selected": 23,
+                "recipe": "workflow-institutionalize-expenditure-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='2c3aec01af6bb0200fcc095b834bf5a5d8700dacf6b6fec1b446870ab343736a'), revision=1)",
+                "spent": 39,
+                "status": "launched"
+              },
+              {
+                "selected": 28,
+                "recipe": "workflow-educate-accumulation-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='1ff6458d6d496f506b94c545859c8eb0a63e8e978f924fcc13e76569e24bc5f3'), revision=1)",
+                "spent": 40,
+                "status": "launched"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "finite": {
+      "passed": true,
+      "turns": 1,
+      "modeled_energy": 0,
+      "peer_turns": 0,
+      "completed": [
+        0
+      ],
+      "agendas": [
+        {
+          "passed": true,
+          "namespace": "cell-0",
+          "completed_goals": 0,
+          "modeled_energy": 0,
+          "main_selections": 0,
+          "native": {
+            "passed": true,
+            "transactions": 130,
+            "operation_attempts": 40,
+            "charged_energy": 85,
+            "charged_time": 85,
+            "physical_commits": 0,
+            "native_processing_receipts": 39,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 1,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 0,
+            "workflow_completed": 0,
+            "workflow_main_completed": 0,
+            "workflow_steps": 0,
+            "workflow_results": [],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 0,
+            "selection_rows": []
+          }
+        }
+      ]
+    },
+    "exhausted": {
+      "passed": true,
+      "turns": 5,
+      "modeled_energy": 40,
+      "peer_turns": 0,
+      "completed": [
+        0
+      ],
+      "agendas": [
+        {
+          "passed": true,
+          "namespace": "cell-0",
+          "completed_goals": 0,
+          "modeled_energy": 40,
+          "main_selections": 0,
+          "native": {
+            "passed": true,
+            "transactions": 133,
+            "operation_attempts": 40,
+            "charged_energy": 125,
+            "charged_time": 125,
+            "physical_commits": 0,
+            "native_processing_receipts": 39,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 1,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 0,
+            "workflow_completed": 0,
+            "workflow_main_completed": 0,
+            "workflow_steps": 0,
+            "workflow_results": [],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 0,
+            "selection_rows": []
+          }
+        }
+      ]
+    },
+    "failed": {
+      "passed": true,
+      "turns": 6,
+      "modeled_energy": 62,
+      "peer_turns": 0,
+      "completed": [
+        0
+      ],
+      "agendas": [
+        {
+          "passed": true,
+          "namespace": "cell-0",
+          "completed_goals": 0,
+          "modeled_energy": 62,
+          "main_selections": 1,
+          "native": {
+            "passed": true,
+            "transactions": 138,
+            "operation_attempts": 41,
+            "charged_energy": 147,
+            "charged_time": 147,
+            "physical_commits": 0,
+            "native_processing_receipts": 40,
+            "stocks": [
+              {
+                "key": "bob-consumables",
+                "quantity": 10,
+                "available": 10,
+                "consumed": 0
+              },
+              {
+                "key": "c3-alice-supply",
+                "quantity": 6,
+                "available": 6,
+                "consumed": 0
+              },
+              {
+                "key": "care",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              },
+              {
+                "key": "stock",
+                "quantity": 2,
+                "available": 2,
+                "consumed": 0
+              }
+            ],
+            "active_reservations": 0,
+            "conceptual_commits": 0,
+            "realized_surfaces": 0,
+            "concept_linked_actions": 0,
+            "c1_movements": 0,
+            "c1_semantic_steps": 0,
+            "c1_results": [],
+            "exact_access_reconstructed": true,
+            "c2_attempts": 0,
+            "c2_completed": 0,
+            "c2_self_completed": 0,
+            "c2_semantic_steps": 0,
+            "c2_results": [],
+            "c2_material_consumers": [],
+            "c2_independent_content_check": true,
+            "c3_attempts": 0,
+            "c3_completed": 0,
+            "c3_main_completed": 0,
+            "c3_semantic_steps": 0,
+            "c3_results": [],
+            "c3_material_consumers": [],
+            "c3_independent_content_check": true,
+            "c4_attempts": 0,
+            "c4_completed": 0,
+            "c4_steps": 0,
+            "c4_results": [],
+            "c4_terminals": [],
+            "c4_independent_content_check": true,
+            "predictions": 0,
+            "appraisals": 0,
+            "surprises": 0,
+            "rests": 0,
+            "requests": 0,
+            "anticipated_actions": 0,
+            "continuation_states": 0,
+            "encounters": 0,
+            "generated_patterns": 0,
+            "injected_patterns": 0,
+            "target_bindings": 0,
+            "forecast_applications": 0,
+            "encounter_surfaces": 0,
+            "local_corrections": 0,
+            "response_batches": 0,
+            "supported_batches": 0,
+            "independent_practices": 0,
+            "nonqualifying_practices": 0,
+            "reorganizations": 0,
+            "displacements": 0,
+            "reownerships": 0,
+            "development_surfaces": 0,
+            "c5_admissions": 0,
+            "c5_admitted": 0,
+            "c5_deformed": 0,
+            "c5_completed": 0,
+            "c5_rows": [],
+            "c6_selections": 0,
+            "c6_rows": [],
+            "workflow_attempts": 1,
+            "workflow_completed": 0,
+            "workflow_main_completed": 0,
+            "workflow_steps": 0,
+            "workflow_results": [],
+            "workflow_independent_content_check": true,
+            "workflow_selections": 1,
+            "selection_rows": [
+              {
+                "selected": 0,
+                "recipe": "workflow-contemplate-accumulation-v1",
+                "child": "ObjectRef(identity=ObjectId(namespace='u4.operation', key='b53c5150a87aaea09aca07dd6d8da4f2e6d4af02395768a90b52ef702df32429'), revision=1)",
+                "spent": 45,
+                "status": "launched"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

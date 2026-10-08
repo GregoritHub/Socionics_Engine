@@ -1,0 +1,18 @@
+{
+  "prior_files": 1324,
+  "new_files": 1333,
+  "inherited_changed": [],
+  "added": [
+    "contracts/C7_Sustained_32_Cell_Panel_Protocol_v1.json",
+    "contracts/C7_Sustained_32_Cell_Panel_Protocol_v1.sha256",
+    "hle_unified/workflow_agenda_population.py",
+    "hle_unified/workflow_agenda_population_audit.py",
+    "tests_workflow_sustained_panel/__init__.py",
+    "tests_workflow_sustained_panel/fixtures.py",
+    "tests_workflow_sustained_panel/test_panel.py",
+    "tools/evaluate_sustained_32_cell_panel.py",
+    "tools/verify_sustained_32_cell_panel.py"
+  ],
+  "freeze_sha256": "5beba72e21e9c9c5c9d8d49864a9710ccb7dc4240edb09897838b216fd450dce",
+  "comparison": "accepted FB5.4 Git tree 798a2712ba18dcf443603fe1508434b60edd52c8; all changed executable/protocol paths are additions"
+}

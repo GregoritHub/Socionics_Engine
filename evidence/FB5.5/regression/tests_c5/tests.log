@@ -1,0 +1,24 @@
+test_active_interruption_has_no_material_destination_effect (tests_c5.test_shell_routes.ShellRouteTests.test_active_interruption_has_no_material_destination_effect) ... ok
+test_active_interruption_preserves_first_step_and_exact_resume (tests_c5.test_shell_routes.ShellRouteTests.test_active_interruption_preserves_first_step_and_exact_resume) ... ok
+test_all_five_effects_change_native_admission (tests_c5.test_shell_routes.ShellRouteTests.test_all_five_effects_change_native_admission) ... ok
+test_c4_checkpoint_upgrade_preserves_authority_and_history (tests_c5.test_shell_routes.ShellRouteTests.test_c4_checkpoint_upgrade_preserves_authority_and_history) ... ok
+test_cancelled_admission_spends_without_child (tests_c5.test_shell_routes.ShellRouteTests.test_cancelled_admission_spends_without_child) ... ok
+test_hidden_evidence_does_not_change_admission (tests_c5.test_shell_routes.ShellRouteTests.test_hidden_evidence_does_not_change_admission) ... ok
+test_legitimate_constraints_are_not_shell_deformation (tests_c5.test_shell_routes.ShellRouteTests.test_legitimate_constraints_are_not_shell_deformation) ... ok
+test_local_release_does_not_clear_another_target (tests_c5.test_shell_routes.ShellRouteTests.test_local_release_does_not_clear_another_target) ... ok
+test_no_demand_and_incomplete_recall_do_not_clear (tests_c5.test_shell_routes.ShellRouteTests.test_no_demand_and_incomplete_recall_do_not_clear) ... ok
+test_partial_admission_and_child_exact_continuation (tests_c5.test_shell_routes.ShellRouteTests.test_partial_admission_and_child_exact_continuation) ... ok
+test_practice_reorganization_and_return_preserve_origin (tests_c5.test_shell_routes.ShellRouteTests.test_practice_reorganization_and_return_preserve_origin) ... ok
+test_raw_auditor_rejects_false_completion_endpoint_and_child (tests_c5.test_shell_routes.ShellRouteTests.test_raw_auditor_rejects_false_completion_endpoint_and_child) ... ok
+test_received_change_invalidates_paid_admission (tests_c5.test_shell_routes.ShellRouteTests.test_received_change_invalidates_paid_admission) ... ok
+test_route_and_polarity_specificity (tests_c5.test_shell_routes.ShellRouteTests.test_route_and_polarity_specificity) ... ok
+test_scaffolded_success_does_not_award_capacity (tests_c5.test_shell_routes.ShellRouteTests.test_scaffolded_success_does_not_award_capacity) ... ok
+test_type_frames_preserve_gate_contract (tests_c5.test_shell_routes.ShellRouteTests.test_type_frames_preserve_gate_contract) ... ok
+test_unpaid_admission_cannot_commit (tests_c5.test_shell_routes.ShellRouteTests.test_unpaid_admission_cannot_commit) ... ok
+test_unread_or_stale_subset_cannot_admit (tests_c5.test_shell_routes.ShellRouteTests.test_unread_or_stale_subset_cannot_admit) ... ok
+test_unsupported_effect_cannot_be_cleared (tests_c5.test_shell_routes.ShellRouteTests.test_unsupported_effect_cannot_be_cleared) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 34.203s
+
+OK

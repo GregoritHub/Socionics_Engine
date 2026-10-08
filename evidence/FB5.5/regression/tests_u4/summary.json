@@ -1,0 +1,235 @@
+{
+  "passed": true,
+  "tests": 45,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 4.019455655001366,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u4.test_acceptance.U4Acceptance.test_u4_01_paid_repair_interrupt_restore_and_resume",
+      "status": "passed",
+      "seconds": 0.22225012600029004
+    },
+    {
+      "test_id": "tests_u4.test_acceptance.U4Acceptance.test_u4_02_stale_definition_retains_work_and_earlier_effect",
+      "status": "passed",
+      "seconds": 0.06687314800001332
+    },
+    {
+      "test_id": "tests_u4.test_acceptance.U4Acceptance.test_u4_03_competing_repairs_never_double_spend",
+      "status": "passed",
+      "seconds": 0.13203792400236125
+    },
+    {
+      "test_id": "tests_u4.test_acceptance.U4Acceptance.test_u4_04_event_delivery_read_interpretation_retention_are_separate",
+      "status": "passed",
+      "seconds": 0.36990142300055595
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_auditor_detects_forged_charge_and_physical_result",
+      "status": "passed",
+      "seconds": 0.05336066900053993
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_cancellation_preserves_spent_work_and_releases_reservations",
+      "status": "passed",
+      "seconds": 0.05026017799900728
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_care_consumes_supply_and_reduces_wear",
+      "status": "passed",
+      "seconds": 0.0576705720013706
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_changed_procedure_invalidates_partial_named_execution",
+      "status": "passed",
+      "seconds": 0.07360238099863636
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_declaration_cannot_supply_material_or_paid_resource_changes",
+      "status": "passed",
+      "seconds": 0.08476284999778727
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_declared_condition_change_requires_paid_work",
+      "status": "passed",
+      "seconds": 0.047204182999848854
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_delayed_delivery_preserves_event_revision_after_later_wear",
+      "status": "passed",
+      "seconds": 0.06294300999797997
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_duplicate_input_roles_and_malformed_work_are_rejected",
+      "status": "passed",
+      "seconds": 0.1415022509972914
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_edited_checkpoint_is_rejected_even_with_recomputed_checksum",
+      "status": "passed",
+      "seconds": 0.10730411099939374
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_explicit_consumption_sink_never_makes_negative_stock",
+      "status": "passed",
+      "seconds": 0.053394709997519385
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_failed_outcome_does_not_disclose_hidden_dependency_reason",
+      "status": "passed",
+      "seconds": 0.055990028002270265
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_hidden_definition_change_does_not_change_view_or_probe",
+      "status": "passed",
+      "seconds": 0.044937531998584745
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_historical_participant_view_survives_u4_backend",
+      "status": "passed",
+      "seconds": 0.06022049999955925
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_inspection_samples_current_physical_identity_after_payment",
+      "status": "passed",
+      "seconds": 0.06568708199847606
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_insufficient_or_wrong_resource_does_not_partially_repair",
+      "status": "passed",
+      "seconds": 0.052257428997108946
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_later_interpretation_cannot_undo_performed_effect",
+      "status": "passed",
+      "seconds": 0.07219637199887075
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_material_validator_rejects_a_free_effect",
+      "status": "passed",
+      "seconds": 0.06494518899853574
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_multi_resource_reservation_is_all_or_nothing",
+      "status": "passed",
+      "seconds": 0.06107913800224196
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_native_processing_receipt_is_actor_owned_and_paid",
+      "status": "passed",
+      "seconds": 0.05560741900262656
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_new_binding_draft_during_partial_work_invalidates_old_draft",
+      "status": "passed",
+      "seconds": 0.06439420800234075
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_nonmental_tool_remains_nonmental_after_repair",
+      "status": "passed",
+      "seconds": 0.04881477200251538
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_observer_not_in_event_cannot_receive_it",
+      "status": "passed",
+      "seconds": 0.09251821299767471
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_partial_acquisition_and_other_actor_practice_do_not_confer_skill",
+      "status": "passed",
+      "seconds": 0.18052035100117791
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_partial_processing_restores_without_unlocking_delivery",
+      "status": "passed",
+      "seconds": 0.15965709100055392
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_raw_transaction_audit_balances_native_work_and_stock",
+      "status": "passed",
+      "seconds": 0.055512267997983145
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_reading_procedure_is_not_acquisition_or_physical_authority",
+      "status": "passed",
+      "seconds": 0.08675229700020282
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_return_changes_custody_and_exact_obligation",
+      "status": "passed",
+      "seconds": 0.08400101399820414
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_same_command_is_idempotent_but_different_content_is_rejected",
+      "status": "passed",
+      "seconds": 0.09081613599846605
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_stale_return_relation_preserves_custody_and_work",
+      "status": "passed",
+      "seconds": 0.10971296000207076
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_stale_stock_after_wait_is_rejected",
+      "status": "passed",
+      "seconds": 0.07212533499841811
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_stale_target_after_wait_is_rejected",
+      "status": "passed",
+      "seconds": 0.0583145370001148
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_stale_tool_after_wait_is_rejected",
+      "status": "passed",
+      "seconds": 0.05344406800213619
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_supported_acquired_procedure_can_execute_but_has_no_new_affordance",
+      "status": "passed",
+      "seconds": 0.07850000100006582
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_threaded_contenders_reserve_only_one_shared_tool_and_stock",
+      "status": "passed",
+      "seconds": 0.05840944000010495
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_time_budget_limits_work_even_with_energy",
+      "status": "passed",
+      "seconds": 0.04801293000127771
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_transfer_moves_real_ownership_and_custody",
+      "status": "passed",
+      "seconds": 0.046711801001947606
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_unknown_and_undelivered_input_cannot_start",
+      "status": "passed",
+      "seconds": 0.17733003300236305
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_unsupported_named_procedure_is_rejected_before_payment",
+      "status": "passed",
+      "seconds": 0.10108595600104309
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_use_wears_and_eventually_damages_a_tool",
+      "status": "passed",
+      "seconds": 0.13965436500075157
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_wrong_custodian_pays_but_cannot_use_tool",
+      "status": "passed",
+      "seconds": 0.0903782429995772
+    },
+    {
+      "test_id": "tests_u4.test_controls.U4Controls.test_zero_budget_defers_without_material_result",
+      "status": "passed",
+      "seconds": 0.06336591999934171
+    }
+  ]
+}

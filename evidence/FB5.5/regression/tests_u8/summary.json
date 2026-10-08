@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "tests": 34,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 51.95040173600137,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_account_and_access_replay_remain_exact",
+      "status": "passed",
+      "seconds": 2.8599759280004946
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_assessor_output_cannot_change_actor",
+      "status": "passed",
+      "seconds": 1.6660019020018808
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_cancel_preserves_charges_and_does_not_release",
+      "status": "passed",
+      "seconds": 1.641948524997133
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_development_view_is_detached",
+      "status": "passed",
+      "seconds": 1.8690431199975137
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_duplicate_reorganization_requires_new_experience",
+      "status": "passed",
+      "seconds": 1.5231788759992924
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_foreign_observation_cannot_be_practiced",
+      "status": "passed",
+      "seconds": 1.1712846700029331
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_foreign_owner_cannot_use_alice_development",
+      "status": "passed",
+      "seconds": 1.1520045670004038
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_hidden_changes_do_not_alter_participant_input_or_choice",
+      "status": "passed",
+      "seconds": 1.6693503560018144
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_local_scope_is_exact_target_revision",
+      "status": "passed",
+      "seconds": 1.16617172900078
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_one_endpoint_does_not_prove_composite_return",
+      "status": "passed",
+      "seconds": 4.472799992072396e-05
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_other_effects_are_explicitly_unassessed",
+      "status": "passed",
+      "seconds": 1.079006299998582
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_partial_fields_cannot_hide_actual_requirement",
+      "status": "passed",
+      "seconds": 1.056956361997436
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_partial_operation_restores_then_commits_same_correction",
+      "status": "passed",
+      "seconds": 1.6292809130027308
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_received_counterchange_invalidates_pending_work_with_spend_retained",
+      "status": "passed",
+      "seconds": 1.1431012110006122
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_scarcity_cannot_publish_capacity",
+      "status": "passed",
+      "seconds": 1.2270100379973883
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_tampered_capacity_rejected_by_raw_audit",
+      "status": "passed",
+      "seconds": 1.9452170300028229
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_tampered_charge_rejected_by_raw_audit",
+      "status": "passed",
+      "seconds": 1.3853639970002405
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_truncated_recall_is_not_clearance_or_mastery",
+      "status": "passed",
+      "seconds": 2.0029572390012618
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_undelivered_actual_outcome_does_not_grant_practice",
+      "status": "passed",
+      "seconds": 1.5116886059986427
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_unknown_partner_cannot_be_changed_by_request_only",
+      "status": "passed",
+      "seconds": 1.5502694909991988
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_unread_opportunity_does_not_correct",
+      "status": "passed",
+      "seconds": 1.280751305999729
+    },
+    {
+      "test_id": "tests_u8.test_controls.ControlTests.test_unrelated_affordance_does_not_supply_training",
+      "status": "passed",
+      "seconds": 1.1844310970009246
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_actual_constraints_survive_generalization",
+      "status": "passed",
+      "seconds": 1.9076819089968922
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_corrected_shell_encounter_uses_retained_account",
+      "status": "passed",
+      "seconds": 1.0795107730009477
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_duplicate_delivery_is_not_another_practice",
+      "status": "passed",
+      "seconds": 1.1899890800013964
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_local_repair_preserves_other_bindings_and_original_material",
+      "status": "passed",
+      "seconds": 1.1478003699994588
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_overload_remains_residual_and_does_not_inflate_capacity",
+      "status": "passed",
+      "seconds": 1.5732854720008618
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_quiet_is_not_success",
+      "status": "passed",
+      "seconds": 1.0653631440000026
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_reownership_requires_later_independent_returns",
+      "status": "passed",
+      "seconds": 1.6707471620029537
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_restore_retains_scoped_capacity_and_future_choices",
+      "status": "passed",
+      "seconds": 2.864996462001727
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_retained_capacity_changes_u6_action_and_actual_material_effect",
+      "status": "passed",
+      "seconds": 3.6670224260014948
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_single_success_is_not_generalization",
+      "status": "passed",
+      "seconds": 1.3203522350013372
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_support_enables_performance_without_mastery_and_withdrawal_recurs",
+      "status": "passed",
+      "seconds": 1.1949562629997672
+    },
+    {
+      "test_id": "tests_u8.test_development.DevelopmentTests.test_two_independent_practices_change_reusable_capacity",
+      "status": "passed",
+      "seconds": 1.5504576769999403
+    }
+  ]
+}

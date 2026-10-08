@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "active",
-  "current_batch": "5.5",
+  "status": "ready",
+  "current_batch": "5.6",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -19,26 +19,27 @@
     "5.1",
     "5.2",
     "5.3",
-    "5.4"
+    "5.4",
+    "5.5"
   ],
-  "next_batch": "5.5",
-  "run_id": "fb55-20261007T231339Z-codex",
-  "lease_expires_at": "2026-10-08T01:28:00Z",
-  "updated_at": "2026-10-08T00:58:00Z",
+  "next_batch": "5.6",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T00:16:00Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB5.4_Record.md",
+  "record": "docs/FB5.5_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.5 exit gates pass: independent 32/32 reconstruction and all 727 exact methods passed; durable raw archive saved, final GitHub evidence objects uploading.",
+  "activity": "FB5.5 accepted and lease released. Next eligible batch is FB5.6 longitudinal Shell controls and integrated extension assessment.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
-    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
     "recorded_at": "2026-10-07T13:49:38.884670Z",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4–5.6 then 6.1–6.3.",
+  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4\u20135.6 then 6.1\u20136.3.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
@@ -65,7 +66,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb54-20261007T215221Z-3439a775",
+  "last_run_id": "fb55-20261007T231339Z-codex",
   "blocker": null,
   "automation_verification_history": [
     {
@@ -97,8 +98,8 @@
     "5.6"
   ],
   "goal_complete": false,
-  "last_implementation_checkpoint": "0e5d10b1bd68c76c4c7c570c2beddef1a9a0750f",
-  "last_verified_freeze": "91d7d6dbe607d6fb86e323919dbb0ea4076039c3f857eead68858194a0fa7fce",
+  "last_implementation_checkpoint": "3c78d08a922d4032d6f16e47d5e3af7367ae72c0",
+  "last_verified_freeze": "5beba72e21e9c9c5c9d8d49864a9710ccb7dc4240edb09897838b216fd450dce",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
-  "accepted_method_inventory": "evidence/FB5.4/Accepted_Method_Inventory.json"
+  "accepted_method_inventory": "evidence/FB5.5/Accepted_Method_Inventory.json"
 }

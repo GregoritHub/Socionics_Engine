@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "tests": 32,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 0.3609483039981569,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_U3_01_hidden_changes_leave_views_reasons_and_choices_equal",
+      "status": "passed",
+      "seconds": 0.07522677800079691
+    },
+    {
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_U3_02_shared_structure_keeps_actor_learning_separate",
+      "status": "passed",
+      "seconds": 0.009714079998957459
+    },
+    {
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_U3_03_indexed_particulars_and_concept_binding_share_exact_refs",
+      "status": "passed",
+      "seconds": 0.004907725997327361
+    },
+    {
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_historical_binding_meanings_and_actor_views_restore_exactly",
+      "status": "passed",
+      "seconds": 0.03038068500245572
+    },
+    {
+      "test_id": "tests_u3.test_acceptance.Acceptance.test_incompatible_accounts_do_not_overwrite_material_truth",
+      "status": "passed",
+      "seconds": 0.009883255999739049
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_actor_local_history_ignores_other_actor_event_count",
+      "status": "passed",
+      "seconds": 0.010879524001211394
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_actor_view_is_detached_and_immutable",
+      "status": "passed",
+      "seconds": 0.006430671997804893
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_assessments_are_excluded_from_participant_access",
+      "status": "passed",
+      "seconds": 0.0015746730023238342
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_binding_cannot_use_undelivered_details_or_other_actor_links",
+      "status": "passed",
+      "seconds": 0.0077882359983050264
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_concept_links_are_contextual_bounded_and_cycle_safe",
+      "status": "passed",
+      "seconds": 0.005258908000541851
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_delivery_partial_completion_and_work_history",
+      "status": "passed",
+      "seconds": 0.007993735998752527
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_exact_names_dates_events_and_receipts_have_separate_indexes",
+      "status": "passed",
+      "seconds": 0.0045888640015618876
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_exact_value_index_distinguishes_boolean_and_integer",
+      "status": "passed",
+      "seconds": 0.0023080629980540834
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_grant_rejects_malformed_projection_before_publication",
+      "status": "passed",
+      "seconds": 0.0017030870003509335
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_grant_revocation_retains_memory_and_grants_no_future_revision",
+      "status": "passed",
+      "seconds": 0.005218647998844972
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_historical_rights_do_not_rebind_to_current_actor_roles",
+      "status": "passed",
+      "seconds": 0.0236812760012981
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_other_actor_private_account_and_capability_cannot_be_disclosed",
+      "status": "passed",
+      "seconds": 0.005477990001963917
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_partial_acquisition_cannot_grant_use",
+      "status": "passed",
+      "seconds": 0.005044503999670269
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_reading_procedure_name_is_not_reading_its_structure",
+      "status": "passed",
+      "seconds": 0.0050219100012327544
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_receipt_reuse_and_work_rollback_reject",
+      "status": "passed",
+      "seconds": 0.0026663649987312965
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_receipt_wrong_owner_work_revision_or_authority_rejects_atomically",
+      "status": "passed",
+      "seconds": 0.004458475999854272
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_reference_disclosure_does_not_disclose_target_contents",
+      "status": "passed",
+      "seconds": 0.003397321001102682
+    },
+    {
+      "test_id": "tests_u3.test_controls.AccessControls.test_same_named_instances_have_distinct_particulars",
+      "status": "passed",
+      "seconds": 0.0027565419986785855
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_24_revision_trace_matches_independent_full_snapshot_store",
+      "status": "passed",
+      "seconds": 0.08196290200066869
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_access_replay_rejects_rehashed_omission_and_extra_nodes",
+      "status": "passed",
+      "seconds": 0.020556708001095103
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_equal_immutable_definitions_are_physically_shared_with_distinct_ids",
+      "status": "passed",
+      "seconds": 0.0017176900000777096
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_exact_dependency_index_and_cache_invalidation_are_internal",
+      "status": "passed",
+      "seconds": 0.0049405569989176
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_material_lineage_and_rejected_writes_preserve_laws",
+      "status": "passed",
+      "seconds": 0.004258375000063097
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_pool_hash_verification_and_collision_reject",
+      "status": "passed",
+      "seconds": 4.772200190927833e-05
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_rehashed_compact_checkpoint_with_unused_or_reordered_data_rejects",
+      "status": "passed",
+      "seconds": 0.005268782999337418
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_retry_cannot_replace_boolean_with_equal_valued_integer",
+      "status": "passed",
+      "seconds": 0.0019876080004905816
+    },
+    {
+      "test_id": "tests_u3.test_controls.CompactControls.test_unchanged_state_is_omitted_and_type_changes_are_retained",
+      "status": "passed",
+      "seconds": 0.0011268249982094858
+    }
+  ]
+}

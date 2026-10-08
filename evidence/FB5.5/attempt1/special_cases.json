@@ -1,0 +1,32 @@
+{
+  "fair": {
+    "file": "fair-social-pair.json.gz",
+    "bytes": 309205,
+    "sha256": "85f1c24678d3dc7f9c1c48df6e740130a3e52e9d53b81182d38abef38bd2741e"
+  },
+  "interrupted": {
+    "file": "restore-interrupted.json.gz",
+    "bytes": 209611,
+    "sha256": "51fffa88b9a6b63350dcb3d1a977795eea810ab88ddf7b0248983df4c07708ab"
+  },
+  "restored": {
+    "file": "restore-final.json.gz",
+    "bytes": 253444,
+    "sha256": "6beb93563a2f68547a27cd3f3bf2aeeedd5f4fb4be301b22423896712e1ac639"
+  },
+  "finite": {
+    "file": "finite-turn-pending.json.gz",
+    "bytes": 100746,
+    "sha256": "cae4d27d8069c124e538062a32df8b46cc46d6f4bbc1fbbc238403d03ba3a243"
+  },
+  "exhausted": {
+    "file": "wallet-exhaustion.json.gz",
+    "bytes": 101776,
+    "sha256": "d63612cc5f1255b12d03ae67b7b0fdea6a1e24f324564eeb5e6ea05b96b87521"
+  },
+  "failed": {
+    "file": "cancelled-native-child.json.gz",
+    "bytes": 107964,
+    "sha256": "946e54ecdf344be17ca97afccd2a8c7dae89b6c06ed021f0dc18bb73aab58068"
+  }
+}

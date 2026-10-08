@@ -21,7 +21,7 @@
 | 5.2 | Sustained panel and costs | complete; see FB5.2_Record.md | |
 | 5.3 | Participant-owned generated-content continuation | complete; see FB5.3_Record.md | |
 | 5.4 | Five continued composition families | complete; see FB5.4_Record.md | |
-| 5.5 | Preregistered 32/32 sustained panel | pending | |
+| 5.5 | Preregistered 32/32 sustained panel | complete; see FB5.5_Record.md | |
 | 5.6 | Longitudinal Shell controls and integrated extension assessment | pending | |
 | 6.1 | The joint §9 ledger | pending | |
 | 6.2 | Freeze, regression and measurement | pending | |
@@ -40,3 +40,5 @@
 [machine-checked] FB5.3 accepted: one automatically selected Theorize → Apply → Embody chain, real care/readback and retained downstream use, six independently verified raw cases, and 712 distinct methods passing on unchanged source. Next is 5.4; revised goal remains incomplete.
 
 [machine-checked] FB5.4 accepted on attempt2: five generated continued families, five matched withheld-result controls, fourteen independent raw cases, and 720 distinct passed methods with every prior accepted method retained. The shared renewal changes a retained window and an actual fixed-question answer. Next is 5.5; serial agendas are not yet fair sustained population evidence. See FB5.5_Entry_Notes.md. Revised goal remains incomplete.
+
+[machine-checked] FB5.5 accepted: the prospectively fixed panel independently reconstructs 32/32 paid sustained cells, 32 semantic deltas, generated-result consumers and terminal consequences against 32 matched withheld controls. Actual-payer scheduling includes peer votes/replies, mixed IEE/SLI owners, paid visibility, exact restore, finite exhaustion and cancelled work. All 727 exact methods pass with every prior ID retained. Next is FB5.6; revised goal remains incomplete.
