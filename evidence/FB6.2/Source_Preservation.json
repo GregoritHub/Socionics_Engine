@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "frozen_files": 1355,
+  "freeze_sha256": "0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7",
+  "all_frozen_hashes_match": true,
+  "baseline_engine_contract_tool_diff_against_local_frozen_snapshot": [],
+  "intake_kernel_files": 5
+}

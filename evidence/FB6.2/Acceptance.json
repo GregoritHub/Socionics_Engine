@@ -1,0 +1,54 @@
+{
+  "schema": "srl-fb6.2-reviewed-acceptance-v1",
+  "batch": "6.2",
+  "passed": false,
+  "execution_passed": true,
+  "source_unchanged": true,
+  "batch_exit_gate_verified": true,
+  "batch_exit_gate_basis": "Final Build Plan batch 6.2: every executed-file hash equals the freeze; all panels pass or each failure is recorded against its cell. All 47 commands passed their implemented checks; unsupported evidence claims are recorded against all affected cells. No unconditional acceptance or release completion is claimed.",
+  "distinct_methods": 732,
+  "required_jobs_passed": 47,
+  "measurement_workers": 81,
+  "raw_files": 2373,
+  "raw_worlds": [],
+  "raw_worlds_manifest": {
+    "path": "evidence/FB6.2/attempt1/Acceptance.json",
+    "sha256": "9136bb88916c4e22a6b520e3c498fa549c71a7b31acb0444ab71f34a22661c0f"
+  },
+  "execution_assessment": {
+    "path": "evidence/FB6.2/Execution_Assessment.json",
+    "sha256": "ca806e8d4c55da5d75c9319cd57c95685485fba779dd61c866fe12dbc4dfd9b8"
+  },
+  "evidence_findings": {
+    "path": "evidence/FB6.2/Release_Evidence_Findings.json",
+    "sha256": "3a34f19705eb10cd3aef980df7117b0f20ad96763ac7ad721c5e52b62b534632"
+  },
+  "cell_failures": {
+    "path": "evidence/FB6.2/Cell_Evidence_Failures.json",
+    "sha256": "6dd84545dd190f0a847e3d95ba6a7151d45eecd88b21da5b1b816411a37b39c6"
+  },
+  "freeze": {
+    "path": "C7_Final_Source_Freeze_v5.json",
+    "sha256": "0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7",
+    "files": 1355
+  },
+  "costs": {
+    "native_reference_ratio": 1.2820837157179275,
+    "native_history_ratio": 1.1278492280985855,
+    "workflow-costs": {
+      "False": 1.066941523526786,
+      "True": 1.0620252761116356
+    },
+    "population-costs": {
+      "unique": 1.0585788933237303,
+      "shared": 1.129317355444258
+    }
+  },
+  "probes": {
+    "closure": "10/10",
+    "below_dcnh": "17/17",
+    "pyref": "owed"
+  },
+  "release_decision": "pending batch 6.3; unsupported gate evidence prevents completion",
+  "phase_7_authorized": false
+}

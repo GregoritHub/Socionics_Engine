@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "6.2",
+  "current_batch": "6.3",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -22,17 +22,18 @@
     "5.4",
     "5.5",
     "5.6",
-    "6.1"
+    "6.1",
+    "6.2"
   ],
-  "next_batch": "6.2",
+  "next_batch": "6.3",
   "run_id": "fb62-20261008T160423Z-codex",
-  "lease_expires_at": "2026-10-08T17:35:13.031812+00:00",
-  "updated_at": "2026-10-08T17:05:13.031812+00:00",
+  "lease_expires_at": "2026-10-08T17:48:25.360702+00:00",
+  "updated_at": "2026-10-08T17:18:25.360702+00:00",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB6.2_Record.md",
+  "record": "docs/FB6.3_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB6.2: all 732 exact methods, both 512-case workflow panels, sustained/longitudinal and canonical Shell/family/population checks passed their implemented checks; last canonical audit running, then isolated costs. Release evidence scope findings preserved.",
+  "activity": "FB6.2 evidence sealed with all commands passing and three release-evidence findings. Packaging FB6.3; full release completion not supported.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -101,8 +102,9 @@
   ],
   "goal_complete": false,
   "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
-  "last_verified_freeze": "6f7970acc2709f6b7f8602af337f8894bdc6d01598f7be3f5c5d3c50d0e9f411",
+  "last_verified_freeze": "0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
-  "accepted_method_inventory": "evidence/FB5.6/Accepted_Method_Inventory.json",
-  "release_assessment_notes": "docs/FB6.3_Entry_Notes.md"
+  "accepted_method_inventory": "evidence/FB6.2/Accepted_Method_Inventory.json",
+  "release_assessment_notes": "docs/FB6.3_Entry_Notes.md",
+  "batch_6_2_outcome": "completed evidence run with recorded cell evidence failures; unconditional acceptance withheld"
 }

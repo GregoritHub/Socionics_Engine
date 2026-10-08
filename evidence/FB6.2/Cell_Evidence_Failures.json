@@ -1,0 +1,487 @@
+{
+  "schema": "srl-fb6.2-cell-evidence-failures-v1",
+  "cells": 32,
+  "engine_failure_claimed": false,
+  "rows": [
+    {
+      "route": "Contemplate",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Contemplate",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Act",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Act",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Express",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Express",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Share",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Share",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Theorize",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Theorize",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Embody",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Embody",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Coordinate",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Coordinate",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Organize",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Organize",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Identify",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Identify",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Mobilize",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Mobilize",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Commune",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Commune",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Institutionalize",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Institutionalize",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Understand",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Understand",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Apply",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Apply",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Educate",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Educate",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Integrate",
+      "polarity": "accumulation",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    },
+    {
+      "route": "Integrate",
+      "polarity": "expenditure",
+      "full_release_complete": false,
+      "unsupported_items": [
+        "9.8",
+        "9.11:canonical",
+        "amendment:5.6:forged-completion-control"
+      ],
+      "finding_ids": [
+        "final-continuation-boundaries",
+        "canonical-nesting-scenarios",
+        "longitudinal-forged-completion-control"
+      ]
+    }
+  ]
+}

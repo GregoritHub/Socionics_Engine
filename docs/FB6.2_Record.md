@@ -1,35 +1,37 @@
-# FB6.2 — Freeze, regression and measurement: in progress
+# FB6.2 — Frozen evidence run complete; release acceptance withheld
 
-[source_defined] Entry is accepted FB6.1 at `dda44b3dc6b7cf91ef72d430066bb227a2df27c9`. The amended finish line, accepted FB5.3–FB5.6 evidence and exact 732-method inventory remain required. Phase 7 remains unauthorized.
+[source_defined] Entry: accepted FB6.1 at `dda44b3dc6b7cf91ef72d430066bb227a2df27c9`, with the approved FB5.3–FB5.6 amendment. The original plan permits the 6.2 exit when every executed-file hash matches and panels pass **or failures are recorded against their cells**. The execution is complete; three unsupported release-evidence claims are recorded against all 32 affected cells. This is not an unconditional release acceptance.
 
 ## What changed
 
-[source_defined] The phase-specific evaluation protocol named by the final protocol was absent at entry. `contracts/C7_Final_Evaluation_Protocol_v1.json` was committed prospectively at `903367a934831ffee92a362bc2a7366a0d1fb89c`, before the FB6.2 harness or evaluation. SHA-256: `db508117b91030d6683d474381210e9fac53c83764cfce6041c8f8e710b187c3`. This does not retrospectively preregister FB6.1.
-
-[source_defined] Three additive tools run the declared commands, independently reconstruct the fresh canonical family worlds, and assess exact method identities, freeze hashes, probes and measurement gates. No engine module, baseline file or inherited contract was changed.
+[source_defined] Added three tools: the frozen command runner, an independent canonical-family saved-world verifier, and the exact regression/measurement assessment. No engine module, inherited contract or baseline file changed. The previously absent phase-specific evaluation protocol was committed prospectively at `903367a934831ffee92a362bc2a7366a0d1fb89c`, before implementation/evaluation. Protocol SHA-256: `db508117b91030d6683d474381210e9fac53c83764cfce6041c8f8e710b187c3`. This does not retroactively preregister FB6.1.
 
 ## How
 
-[machine-checked] All 3,089 entry repository files were restored by exact Git blob identity; the local tree matched GitHub. Twelve historical evidence archives matched their recorded byte sizes and SHA-256 digests. Original archives remain immutable. The five intake kernel hashes were retrieved from the exact FB0.1 archive and match the current sealed R21B files.
+[machine-checked] Restored all 3,089 entry repository files by exact Git blob identity. Twelve historical archives matched their recorded sizes/digests. The exact FB0.1 archive supplied the five intake kernel hashes; all five match the sealed R21B files. Original archives and historical failures remain unchanged.
 
-[source_defined] `C7_Final_Source_Freeze_v5.json` covers 1,355 source, contract and tool files. SHA-256: `0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7`. The source and freeze were saved at `a060509eb4146e06c2a9ecaca5c0c9f19c8558ee` before evaluation. Source hashes are checked before and after every command. Measurements run sequentially after the evaluation pool stops.
+[machine-checked] `C7_Final_Source_Freeze_v5.json` covers 1,355 source, contract and tool files. SHA-256: `0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7`. Source/freeze commit: `a060509eb4146e06c2a9ecaca5c0c9f19c8558ee`. Every command's before/after guard and the final assessment matched it. The engine, baseline, contracts and tools also have no diff against the local frozen snapshot.
 
-[source_defined] Main command: `python3 tools/run_c7_final_regression.py evidence/FB6.2/attempt1 --stage all`. The prospective protocol declares 47 mandatory jobs: inherited and additional exact tests, scripted and automatic workflow matrices, all workflow Shell/composition/nesting/face/population/continuation/sustained/longitudinal panels and their independent verifiers, fresh canonical panels, both probes, and 81 isolated cost workers across the two inherited cost protocols and the workflow-population extension.
+[source_defined] Commands: `python3 tools/run_c7_final_regression.py evidence/FB6.2/attempt1 --stage all`, followed by `python3 tools/verify_c7_final_regression.py evidence/FB6.2/attempt1`. The 47 mandatory commands, stdout, timestamps, exit codes, source guards, summary digests, 81 isolated worker outputs and assessment command are preserved in the archive. Measurements ran sequentially after the entire evaluation/probe pool stopped.
 
-## Verified checkpoint
+## Executed results
 
-[machine-checked] All 732 distinct accepted method IDs passed, with no omissions or duplicates. Both workflow matrices (512 scripted and 512 automatic cases, plus their separate controls) passed independent raw reconstruction. The sustained 32-cell panel, continuation chain, five continued families, longitudinal histories, workflow Shell/nesting/faces/populations and canonical Shell/family/population panels passed their implemented checks. Closure and below-DCNH probes passed 10/10 and 17/17 on R21B. The final canonical choice audit and all isolated cost measurements remain unfinished at this checkpoint.
+[machine-checked] On the unchanged R21B-based implementation: 732/732 distinct accepted method IDs passed (602 inherited and 130 additional), with exact prior-ID equality, no omissions, skips, failures or duplicate executions. The 512 scripted and 512 automatic workflow panels and their separate 32-control panels passed saved-world reconstruction. Workflow Shell prevention/interruption/development, five composition families, nesting, polarity faces, population, generated-content continuation, five continued families and the sustained 32-cell panel passed their implemented checks. The longitudinal panel reconstructed 29 worlds and two restore pairs, subject to the negative-control limitation below.
 
-[machine-checked] A supplemental rerun of `tools/verify_c7_final.py` over the restored immutable evidence agreed on all 32 historical ledger rows and checked 739 declared raw-member hashes. All historical rows remain incomplete on §9.12, as expected before FB6.2 acceptance. This does not substitute for fresh panels.
+[machine-checked] Fresh canonical choice/type/responsiveness verification checked 583 worlds (551 valid and 32 deliberate ablations); canonical Shell checked 143 raw witnesses; canonical families checked 15 worlds and seven causal pairs; canonical population checked 12 final/intermediate worlds. Both probes passed: closure 10/10 and below-DCNH 17/17. The sealed 5.2.1 pyref was not supplied and its separate probe rerun remains owed.
 
-## What becomes possible
+[machine-checked] All 81 isolated cost workers passed unchanged thresholds. Native/reference median ratio: 1.282084 (limit 2). Native inactive-history ratio: 1.127849 (limit 3). Workflow unique/shared ratios: 1.066942 / 1.062025; population unique/shared ratios: 1.058579 / 1.129317 (all limit 3). These are measurements on this host, not optimization gains.
 
-[derived] The frozen run can establish the release-regression evidence needed by batch 6.3. No release or batch-completion claim is made at this checkpoint. Exact command records, stdout, independent reports and raw worlds are retained under `evidence/FB6.2/attempt1/` and will be archived with hashes at the final checkpoint.
+[machine-checked] The run retained 2,373 compressed raw files. The supplemental historical ledger verifier agreed with its implemented 32-row checks and verified 739 declared member hashes. It uses summaries for several gates, so this result does not establish the missing raw-denominator proof.
 
-## Failures and limits
+## Failures, corrections and evidence limits
 
-[source_defined] No evaluation failure has been observed at this checkpoint. A preliminary connector checkpoint attempt returned an error before moving main; the same prospective protocol was subsequently committed and its head verified. No engine evaluation was started before that commit.
+[source_defined] No command exited with an evaluation failure; no counted source changed. A preliminary connector checkpoint errored before moving main; the prospective protocol was subsequently committed and verified before evaluation.
 
-[open] The sealed 5.2.1 pyref is absent from the repository and supplied inventory; its separate rerun remains owed. Current state is running FB6.2. Release 1.0 remains incomplete; batch 6.3 and its clean-unpack verification are next only after this batch's actual exit gate.
+[open] The final review found three unsupported claims, detailed with exact instructions and source hashes in `Release_Evidence_Findings.json` and mapped to every affected cell in `Cell_Evidence_Failures.json`: (1) the final §9.8 ledger does not establish all 192 boundary/setting continuation comparisons from indexed raw pairs; (2) canonical §9.11 membership-change and withdrawal parent worlds are not separately indexed; (3) the longitudinal verifier counts a forged-completion rejection by unconditionally raising/catching an exception, without submitting a forged completion to the auditor. Its reported count of six is preserved, but does not prove all six declared tamper controls.
 
-[open] `evidence/FB6.2/Release_Evidence_Findings.json` records three release-assessment gaps with source instructions and hashes: the final 192-comparison boundary mapping, canonical membership/withdrawal parent-world references, and the longitudinal forged-completion negative control that was counted without testing a forgery. Preserve all passing tool output, but do not treat its acceptance booleans as proof of these unsupported claims.
+[source_defined] The unmodified command-level assessor's `attempt1/Acceptance.json` is preserved exactly. The reviewed root `Acceptance.json` has `passed: false` and `execution_passed: true`, preventing the older ledger builder from promoting unsupported full-release claims. Nothing is relabelled as an engine failure; nothing unsupported is relabelled as passed.
+
+## What becomes possible and handoff
+
+[derived] Batch 6.3 can package the verified source, execution evidence and precise open rows, then decide under the plan's explicit held-release option. All 32 full-release cells remain open. Phase 7 remains unauthorized and the goal remains incomplete. Evidence restoration uses `evidence/FB6.2/Raw_Evidence_Index.json`; the immutable archive contains 3,466 files and the complete raw SHA-256 manifest. The archive passed ZIP CRC/member-count checks and was durably saved. Its exact Library/file IDs are in the index. Archive SHA-256: `62a5a4852ad756b54ec62ca4e0b47c03a50017ec21f96c916333f6447cf47043`.

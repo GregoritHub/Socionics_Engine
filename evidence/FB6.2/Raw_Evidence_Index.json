@@ -1,0 +1,30 @@
+{
+  "schema": "srl-fb6.2-raw-evidence-index-v1",
+  "batch": "6.2",
+  "attempt": 1,
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB6.2_Evidence.zip",
+    "bytes": 320391477,
+    "sha256": "62a5a4852ad756b54ec62ca4e0b47c03a50017ec21f96c916333f6447cf47043",
+    "files": 3466,
+    "directory_entries": 0,
+    "members": 3466,
+    "library_path": "/Socionics_Final_Build_FB6.2_Evidence.zip",
+    "library_file_id": "libfile_d9bad3f1de90819196be06b9718a31a2",
+    "file_id": "file_0000000083fc8209ad9bd8a6f0a610a9",
+    "version": 0
+  },
+  "raw_manifest": {
+    "path": "evidence/FB6.2/Raw_SHA256.json",
+    "sha256": "0ce364598007f4903b05312df0ee46d22a3e0cf7572bde82ec5e1dff5aa13ae7",
+    "files_hashed": 3465
+  },
+  "restore": [
+    "Materialize the exact archive by Library/file IDs; verify bytes and SHA-256 before extraction.",
+    "Extract from the repository root; every member begins evidence/FB6.2/.",
+    "Verify every entry in evidence/FB6.2/Raw_SHA256.json. The index itself is outside the sealed archive to avoid a recursive digest.",
+    "Read Execution_Assessment.json and the reviewed Acceptance.json together. The unmodified tool-level acceptance in attempt1/Acceptance.json does not supersede the evidence findings.",
+    "Reproduce saved-world audits with contracts/C7_Final_Evaluation_Protocol_v1.json. Original command records retain their original execution-root paths; follow the report for a new run."
+  ],
+  "scope": "2373 compressed raw files; 47 successful mandatory commands, 732 distinct passed methods, 81 cost workers, both probes, logs, source freeze, command-level acceptance and per-cell evidence deficiencies. No release-complete claim."
+}

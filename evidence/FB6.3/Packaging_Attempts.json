@@ -1,0 +1,9 @@
+[
+  {
+    "stage": "FB6.2 index/handoff metadata",
+    "result": "failed_before_write",
+    "error": "FileNotFoundError: artifacts/FB6.2_Archive_Metadata.json; dependent checkpoint missing docs/FB6.3_Record.md",
+    "fix": "Use resolved Path.cwd() before parent lookup",
+    "engine_run_affected": false
+  }
+]
