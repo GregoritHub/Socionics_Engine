@@ -1,0 +1,82 @@
+{
+  "schema": "srl-supported-materialization-diagnosis-v1",
+  "recorded_at": "2026-10-08T18:49:44.365205+00:00",
+  "executor": "same consuming /workspace execution environment",
+  "helper": "Current Library skill scripts/library_file_transfer.py, unmodified",
+  "helper_sha256": "5c81478cd94a59d721a1677d0bd36f7cec23c18a21b48740b1c9ff94d27fb26f",
+  "prior_outcomes": [
+    {
+      "archive": "FB5.6",
+      "attempt": 1,
+      "exit_code": 1,
+      "exact_output": "library file transfer failed: download failed\n",
+      "local_archive_created": false
+    },
+    {
+      "archive": "C4",
+      "attempt": 1,
+      "exit_code": 1,
+      "exact_output": "library file transfer failed: download failed\n",
+      "local_archive_created": false
+    },
+    {
+      "archive": "FB5.6",
+      "attempt": 2,
+      "fresh_preparation": true,
+      "network_enabled": true,
+      "exit_code": 1,
+      "exact_output": "library file transfer failed: download failed\n",
+      "local_archive_created": false
+    }
+  ],
+  "fb62": {
+    "previously_attempted": false,
+    "attempt_this_diagnosis": 1,
+    "library_file_id": "libfile_d9bad3f1de90819196be06b9718a31a2",
+    "file_id": "file_0000000083fc8209ad9bd8a6f0a610a9",
+    "file_name": "Socionics_Final_Build_FB6.2_Evidence.zip",
+    "expected_bytes": 320391477,
+    "expected_sha256": "62a5a4852ad756b54ec62ca4e0b47c03a50017ec21f96c916333f6447cf47043",
+    "prepare_succeeded": true,
+    "unavailable_items": [],
+    "warnings": [],
+    "returned_size_bytes": 320391477,
+    "returned_version": 0,
+    "workspace_path": null,
+    "route": "returned signed HTTPS GET transfer, same route category as prior C4 and FB5.6",
+    "returned_header_names": [],
+    "expires_at": "2026-10-08T19:43:18Z",
+    "expired_when_attempted": false,
+    "destination": "/workspace/corrective-archives",
+    "destination_exists": true,
+    "destination_writable": true,
+    "free_bytes_before": 32025522176,
+    "helper_exit_code": 1,
+    "exact_helper_output": "library file transfer failed: download failed\n",
+    "local_archive_exists_after": false,
+    "local_hash_verified": false,
+    "dns_diagnostic": {
+      "operation": "socket.getaddrinfo on host parsed from the returned transfer; no HTTP/download request",
+      "resolved": false,
+      "errno": -3,
+      "exact_error": "[Errno -3] Temporary failure in name resolution",
+      "explicit_network_enabled_repeat": {
+        "resolved": false,
+        "errno": -3,
+        "exact_error": "[Errno -3] Temporary failure in name resolution"
+      }
+    },
+    "diagnosis": "Returned transfer host cannot resolve in the consuming executor. Helper exposed no HTTP status or lower exception. This establishes current DNS failure, not historical byte unavailability or proof of the cause of each earlier failure."
+  },
+  "constraints": {
+    "helper_internals_inspected": false,
+    "helper_modified": false,
+    "executor_switched": false,
+    "raw_curl_used": false,
+    "storage_url_invented": false,
+    "denied_action_retried": false,
+    "verified_fb56_redownloaded_this_diagnosis": false,
+    "signed_urls_recorded": false
+  },
+  "remaining_dependency": "Exact historical archives and final clean 13-component reassembly still unavailable. Native comparisons are new prospectively declared evidence; canonical replacement-parent export retains the prior inventory-confirmed-absence gate."
+}
