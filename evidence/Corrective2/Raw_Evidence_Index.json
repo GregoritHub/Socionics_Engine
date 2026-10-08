@@ -1,0 +1,25 @@
+{
+  "schema": "srl-corrective2-evidence-index-v1",
+  "archive": {
+    "file_name": "Socionics_Corrective2_Native_Evidence.tar.xz",
+    "library_file_id": "libfile_254bfe48fb208191ba7113698beda65b",
+    "file_id": "file_000000006ef082309accd5b0fd235909",
+    "library_path": "/Socionics_Corrective2_Native_Evidence.tar.xz",
+    "version": 0,
+    "bytes": 22401356,
+    "sha256": "00ea11fd9c775d2c2c855ba7b02ad8b36f4c43a573f6347fa81a57d6647ee4e8",
+    "format": "tar.xz",
+    "files": 792
+  },
+  "evidence_status": "newly_evaluated_not_historical_recovery",
+  "restore": [
+    "Materialize exact pinned identity through supported Library tools; verify bytes and SHA-256 before opening.",
+    "Extract into isolated staging after rejecting absolute/traversal paths and nonregular members. All members begin evidence/Corrective2/.",
+    "Verify evidence/Corrective2/Raw_SHA256.json before use. Preserve all raw filenames and checkpoint bytes.",
+    "Run tools/verify_corrective_native.py against the attempt1/matrix directory on the recorded freeze. This is bounded native evidence, not the full release rerun or historical package recovery."
+  ],
+  "comparisons": 192,
+  "negative_worlds": 6,
+  "historical_recovery": false,
+  "release_complete": false
+}

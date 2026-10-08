@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "comparisons": 192,
+  "negative_worlds": [
+    {
+      "setting": "canonical",
+      "kind": "cancelled",
+      "status": "cancelled",
+      "spent": 1,
+      "failure": null,
+      "ordinary_raw_audits": 2
+    },
+    {
+      "setting": "canonical",
+      "kind": "exhausted",
+      "status": "partial",
+      "spent": 1,
+      "failure": null,
+      "ordinary_raw_audits": 2
+    },
+    {
+      "setting": "canonical",
+      "kind": "stale_dependency",
+      "status": "failed",
+      "spent": 19,
+      "failure": "stale_dependency",
+      "ordinary_raw_audits": 2
+    },
+    {
+      "setting": "workflow",
+      "kind": "cancelled",
+      "status": "cancelled",
+      "spent": 1,
+      "failure": null,
+      "ordinary_raw_audits": 2
+    },
+    {
+      "setting": "workflow",
+      "kind": "exhausted",
+      "status": "partial",
+      "spent": 1,
+      "failure": null,
+      "ordinary_raw_audits": 2
+    },
+    {
+      "setting": "workflow",
+      "kind": "stale_dependency",
+      "status": "failed",
+      "spent": 43,
+      "failure": "stale_dependency",
+      "ordinary_raw_audits": 2
+    }
+  ],
+  "ordinary_raw_audits": 780,
+  "historical_recovery_claimed": false,
+  "participant_replay": false,
+  "source_unchanged": true,
+  "comparison_families": {
+    "canonical_c2": 24,
+    "canonical_c3": 72,
+    "workflow": 96
+  },
+  "first_boundary_equals_ready_cells": 24,
+  "raw_references": {
+    "evidence/Corrective2/attempt1/Source_Freeze.json": "96a50025f52e58ed65338f6d71d090189d391287cc895c40a1bf550c0b079640",
+    "evidence/Corrective2/attempt1/Commands.json": "408f6a7460ef4aad5770661233f813ac5a9b5a15dbfac1b1c2969e70ac88e9cd",
+    "evidence/Corrective2/attempt1/matrix/rows.json": "8e15f86457af9b0467df78def96fb43752135a29cce55fa8eba63b618bb82288",
+    "evidence/Corrective2/attempt1/matrix/independent_verification.json": "27a884b15d275d634866b0501778418fb5ef3e43fe44e041d599a7ebfb5bdc1f",
+    "evidence/Corrective2/Raw_SHA256.json": "14e59e4125f022e5d4cc412b8456b2091577c278986dbce2a5e2fc0dd35c8d9c"
+  },
+  "archive_index": "evidence/Corrective2/Raw_Evidence_Index.json",
+  "new_method_inventory": "evidence/Corrective2/attempt1/tests",
+  "full_release_regression_rerun": false,
+  "full_release_complete": false
+}
