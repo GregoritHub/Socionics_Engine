@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "blocked",
-  "current_batch": "corrective-2",
+  "status": "running",
+  "current_batch": "corrective-3",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -25,19 +25,19 @@
     "6.1",
     "6.2"
   ],
-  "next_batch": null,
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-08T19:02:28.102651+00:00",
-  "stop_reason": "Library-returned FB6.2 download host fails DNS resolution in the consuming executor (errno -3), including explicit-network check. Official helper exits 1: library file transfer failed: download failed. Historical C4 inventory and final 13-component reconstruction remain unavailable; parent-world replacement export retains inventory-confirmed-absence gate.",
+  "next_batch": "corrective-3",
+  "run_id": "fb-corrective3-20261008T190900Z",
+  "lease_expires_at": "2026-10-08T19:39:00Z",
+  "updated_at": "2026-10-08T19:09:00Z",
+  "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_2_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "192 new native comparisons independently verified and durably saved. Historical download DNS failure and C4 inventory dependency block remaining release work. No schedule changes.",
+  "activity": "New explicitly authorized eight-world parent panel under prospective execution-order amendment. Historical recovery/delivery obligations preserved; no scheduler changes.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
-    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
     "recorded_at": "2026-10-07T13:49:38.884670Z",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
@@ -123,14 +123,14 @@
   "corrective_authorization": {
     "source_thread_id": "01a11841-6b41-714b-9718-ee3a8369a0fa",
     "instruction": "Continue Greg's approved corrective work; preserve held package, prospectively declare a hashed supplement, repair three findings, refreeze and fully rerun FB6.2, independently reassess and deliver.",
-    "quoted_user_approval": "As is tradition. \ud83d\ude0e we march",
+    "quoted_user_approval": "As is tradition. 😎 we march",
     "approval_at": "2026-10-08T17:44:35Z",
     "coordination_instruction": "Once a safe handoff and permissible correction are established, execute the prospective repair plan and complete refrozen release evaluation as already requested, preserving all historical results.",
     "prior_terminal_commit": "d141888af69dbca6b92bca8b7db24c6c94e9e5e1",
     "prior_state_path": "docs/FB_Run_State.json",
     "schedule": "User reports resumed; current settings not independently verified. Do not alter or create schedule.",
     "limits": "No baseline/inherited-contract changes, gate waivers, repeated-failure or theory-contradiction bypass, old release-complete claim, or Phase 7.",
-    "latest_instruction": "Diagnose pinned evidence transfer in consuming executor; continue independently permitted newly evaluated 192 native comparisons, not historical replacements. Report supplement dependencies; no scheduler changes."
+    "latest_instruction": "Continue fresh complete eight-scenario parent panel from preserved fixtures; prospectively amend old-inventory execution dependency only, preserving all acceptance and historical recovery/delivery obligations."
   },
   "corrective_completed": [
     "prospective supplement",
