@@ -1,0 +1,99 @@
+{
+  "schema": "srl-fb5.6-longitudinal-shell-v1",
+  "batch": "5.6",
+  "entry": "a2e4d1f9104f3147e9cae0856e582bf5190102ba",
+  "goal": "Demonstrate bounded Shell deformation over continued workflow histories, exact scoped paid correction and later native use, renewed-demand recurrence on same and changed targets, refused unsupported clearance, and an independently reconstructed integrated assessment of batches 5.3 through 5.6.",
+  "scope": {
+    "source_modules": [
+      "hle_unified/workflow_longitudinal_shell_audit.py"
+    ],
+    "test_directory": "tests_workflow_longitudinal_shell",
+    "evaluation_tools": [
+      "tools/evaluate_longitudinal_shell.py",
+      "tools/verify_longitudinal_shell.py"
+    ],
+    "compatibility": "The accepted WorkflowShell v1, WorkflowInterruption v1, Development v1, workflow selection, agenda, population and fair agenda-population schemas remain unchanged. The new code is an additive independent diagnostic over committed raw history; it adds no route, effect, correction rule, scheduler force or participant capacity.",
+    "split": "This protocol is committed before implementation. Longitudinal histories and controls are implemented and frozen before one counted evaluation; the independent integrated assessment follows on the same freeze. Failed or source-changed attempts remain uncredited and preserved."
+  },
+  "fixed_meanings": {
+    "effects": "Use the inherited five kinds unchanged: generated approval and injected-fixture obligation, salience, forecast and exclude_route. No new effect generation is credited.",
+    "signs": "Use the inherited four bounded workflow operationalizations unchanged: premature translation, attempted forced placement, new defensive structure and residual fragmentation. Prevention remains separate.",
+    "correction": "A correction is a paid u8.release derived from current counterevidence for one exact pattern and target. It never deletes the original material or clears another target. A later native workflow and paid consumer must actually use the released opportunity.",
+    "recurrence": "Renewed demand is a new paid request with current paid opportunity evidence. Same-target and changed-target recurrence retain the original generated material and appear as new interrupted native attempts; duplicate requests are reported as recurrence, not new capacity.",
+    "control": "From the same post-interruption checkpoint, the witness pays an exact-target correction while the matched control pays a correction for a distinct target. The correction jobs must have equal required and spent work. The witness then completes native work and its fixed consumer; the control retains the same-target interruption and has no terminal answer. A separate no-pattern arm is the undeformed control.",
+    "withholding": "The matched off-target correction arm withholds an applicable exact-target correction result while preserving equal correction spending. The audit must reconstruct the absent applicable binding rather than trust an evaluator label."
+  },
+  "panel": {
+    "types": [
+      "iee",
+      "sli"
+    ],
+    "route": "Theorize",
+    "polarity": "accumulation",
+    "longitudinal_histories": 2,
+    "snapshots_per_history": 8,
+    "longitudinal_snapshots": 16,
+    "no_pattern_undeformed_controls": 2,
+    "unsupported_clearance_effects": [
+      "forecast",
+      "salience",
+      "exclude_route"
+    ],
+    "unsupported_clearance_worlds_per_effect": 3,
+    "exhaustion_worlds": 1,
+    "failed_work_worlds": 1,
+    "total_raw_worlds": 29,
+    "history_sequence": [
+      "generated-approval active interruption with first paid semantic intermediate retained",
+      "exact-target correction branch followed by completed native workflow and fixed paid consumer",
+      "equal-cost off-target correction branch with no applicable exact-target correction binding",
+      "renewed same-target demand recurs and remains interrupted",
+      "renewed changed-target demand recurs and remains interrupted",
+      "later exact-target paid correction followed by completed native workflow and fixed paid consumer",
+      "changed-target recurrence remains after the local correction",
+      "restored copy of the interrupted checkpoint reaches byte-identical final state"
+    ],
+    "domain": "At most two participants, eight inputs and eight tasks, serial unit-duration workflow slots 0-1000, finite integer wallets, no replenishment, no population growth and no spontaneous goals.",
+    "raw_format": "Each world is a sealed checkpoint plus SHA-256. The evaluator summary is not evidence."
+  },
+  "boundary_cases": {
+    "restore": "For each type, restore the exact checkpoint taken after the first interruption and rerun the declared continuation. Original and restored final checkpoint bytes, wallets, command identities, corrections, failures, retained first intermediates and later consumers must agree exactly.",
+    "exhaustion": "A deterministic sizing run fixes a fresh world's initial wallet to the complete preparation prefix plus one unit less than the next required paid operation. The counted finite world must stop for wallet exhaustion with all prior records, retained intermediate and spending preserved. No runtime replenishment or wallet mutation is permitted.",
+    "failed_work": "A paid correction is advanced to ready, then a newly delivered current fact invalidates its recorded input before commit. Commit must retain spent work and a failed job, produce no u8.correction and leave the original material and prior interruption intact.",
+    "unsupported_clearance": "For forecast, salience and exclude_route, preserve the identical checkpoint before and after the refused release request, save the exact error, then show a renewed paid workflow remains interrupted. No u8.correction may exist.",
+    "tamper_controls": [
+      "replace exact-target correction with off-target correction in the witness summary",
+      "remove the retained first intermediate",
+      "forge completed native use in a recurrent arm",
+      "change the generated original-material identity",
+      "claim final restore equality for unequal checkpoint bytes",
+      "change an integrated-ledger evidence digest"
+    ]
+  },
+  "integrated_extension_ledger": {
+    "path": "docs/C7_Sustained_Extension_Ledger_v1.json",
+    "rows": [
+      "5.3 generated-content continuation",
+      "5.4 five continued composition families",
+      "5.5 preregistered 32/32 sustained panel",
+      "5.6 longitudinal Shell histories"
+    ],
+    "rule": "Every row cites committed acceptance data and immutable raw-evidence index or raw world by repository path and SHA-256. The independent verifier reads those files and the FB5.6 worlds directly and rejects a digest, count, gate or next-state mismatch. Accepted earlier claims remain bounded by their own records."
+  },
+  "acceptance": [
+    "Two generated-approval longitudinal histories, one IEE and one SLI, reconstruct the declared eight-stage sequence from raw records",
+    "Each history has an exact-target correction/native-use witness, an equal-cost off-target correction control, a separate no-pattern undeformed control, renewed same-target and changed-target recurrence, and a fixed paid downstream consequence",
+    "The original generated material and effect/sign meanings remain byte-identical throughout each history; no correction is blanket and no support or label grants capacity",
+    "Original and restored continuations are byte-identical for both types",
+    "Finite exhaustion, stale-input failed correction and three unsupported-clearance refusals preserve spending, failed/interrupted work and prior history",
+    "The independent auditor imports no executor, selector, scheduler or fixture builder and rejects all six declared tamper controls",
+    "The integrated extension ledger independently verifies accepted 5.3, 5.4, 5.5 and counted 5.6 evidence with exact hashes",
+    "All previously accepted exact method IDs remain present and passing, new methods pass, inherited source and contracts remain unchanged, and all counted evaluation files match the frozen hashes"
+  ],
+  "limits": [
+    "The panel demonstrates bounded engineered histories, not a universal Shell detector, spontaneous agency, people typing, general learning or unbounded development",
+    "Only approval is generated; the three unsupported effects remain explicit fixtures and obligation coverage remains prior accepted evidence",
+    "Repeated demands and outputs are reported as repeats, never new capacities",
+    "No Phase 7 energy or conditioning work and no inherited meaning change without explicit R5"
+  ]
+}
