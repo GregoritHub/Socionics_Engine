@@ -1,0 +1,16 @@
+{
+  "schema": "srl-fb6.1-acceptance-v1",
+  "batch": "6.1",
+  "passed": true,
+  "ledger": "C7_Final_Ledger_v1.json",
+  "ledger_sha256": "86aac0409319b470989540750c1beaef8216b94e968a4437dd254ecd204a531d",
+  "rows": 32,
+  "settings": 2,
+  "raw_members_hash_checked": 739,
+  "independent_rows_agreed": 32,
+  "sections_9_1_through_9_11": "passed where applicable",
+  "section_9_12": "pending batch 6.2 release freeze",
+  "complete_cells": 0,
+  "full_release_complete": false,
+  "next_batch": "6.2"
+}

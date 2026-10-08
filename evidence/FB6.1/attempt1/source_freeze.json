@@ -1,0 +1,5 @@
+{
+  "contracts/C7_Final_Protocol_v1.json": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf",
+  "tools/evaluate_c7_final.py": "07bf4ca868b638d0a6db0dcddb7eda85a168b2d2592b2072bfaf295fdfe565fc",
+  "tools/verify_c7_final.py": "dbf8b13fbb0ef1ecc74c76a9ab30c54ddb2bfe58ceb8f2278ccf8787b4c85e8f"
+}

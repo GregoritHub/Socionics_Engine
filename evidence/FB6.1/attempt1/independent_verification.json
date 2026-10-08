@@ -1,0 +1,173 @@
+{
+  "agreements": [
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Contemplate"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Contemplate"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Act"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Act"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Express"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Express"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Share"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Share"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Theorize"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Theorize"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Embody"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Embody"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Coordinate"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Coordinate"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Organize"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Organize"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Identify"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Identify"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Mobilize"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Mobilize"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Commune"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Commune"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Institutionalize"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Institutionalize"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Understand"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Understand"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Apply"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Apply"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Educate"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Educate"
+    },
+    {
+      "agreed": true,
+      "polarity": "accumulation",
+      "route": "Integrate"
+    },
+    {
+      "agreed": true,
+      "polarity": "expenditure",
+      "route": "Integrate"
+    }
+  ],
+  "complete_cells": 0,
+  "independent_of_builder": true,
+  "passed": true,
+  "raw_members_hash_checked": 739,
+  "reads_saved_worlds": true,
+  "release_freeze_present": false,
+  "rows_agreed": 32,
+  "rows_reconstructed": 32,
+  "source_freeze_files": 3
+}

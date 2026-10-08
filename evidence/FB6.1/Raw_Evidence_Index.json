@@ -1,0 +1,42 @@
+{
+  "schema": "srl-fb6.1-raw-evidence-index-v1",
+  "batch": "6.1",
+  "accepted_attempt": 1,
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB6.1_Evidence.zip",
+    "library_path": "/Socionics_Final_Build_FB6.1_Evidence.zip",
+    "library_file_id": "libfile_4ffa0bbf6ae481919dd0c15bd185ec29",
+    "file_id": "file_000000003f5081f6b0d4714c07f30b7d",
+    "version": 2,
+    "bytes": 4182,
+    "sha256": "e431d3b472acbae2cbb124d10d002dc29e132edc61142fe9bd1b81f6c0fb005e",
+    "files": 7,
+    "directory_entries": 0,
+    "members": 7
+  },
+  "restore": [
+    "Materialize the exact Library archive and verify byte count and SHA-256 locally before extraction.",
+    "Extract from the repository root, restoring evidence/FB6.1.",
+    "Verify every file listed in evidence/FB6.1/Raw_SHA256.json.",
+    "Restore the inherited archives identified by C7_Final_Ledger_v1.json, then run python tools/verify_c7_final.py <restored-root> C7_Final_Ledger_v1.json.",
+    "The accepted source freeze is evidence/FB6.1/attempt1/source_freeze.json."
+  ],
+  "index_added_after_archive": true,
+  "prior_versions": [
+    {
+      "version": 0,
+      "file_id": "file_000000000a5c81f99e9949433fc70a20",
+      "bytes": 4011,
+      "sha256": "0d2651931abf518a8b117e660ad0d9b1f0ca6c23d547e0eadbec60c80e521cb5",
+      "reason_replaced": "Retains the post-acceptance evidence-registry collision correction and refreshed source freeze."
+    },
+    {
+      "version": 1,
+      "file_id": "file_00000000214c820cba2745531a322c82",
+      "bytes": 4187,
+      "sha256": "d6e2016c307de2c32558f7466e388a4b7683257994a669aaebb7d18d5c5c49be",
+      "reason_replaced": "Compacts the evidence registry without changing the accepted 32-row assessment."
+    }
+  ],
+  "scope": "Evidence-only joint section-9 integration. Sections 9.1-9.11 pass where applicable; section 9.12 and Release 1.0 remain pending batch 6.2."
+}

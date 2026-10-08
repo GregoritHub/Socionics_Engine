@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "active",
-  "current_batch": "6.1",
+  "status": "ready",
+  "current_batch": "6.2",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -21,17 +21,18 @@
     "5.3",
     "5.4",
     "5.5",
-    "5.6"
+    "5.6",
+    "6.1"
   ],
-  "next_batch": "6.1",
-  "run_id": "fb61-20261008T034633Z-codex",
-  "lease_expires_at": "2026-10-08T04:55:00Z",
-  "updated_at": "2026-10-08T04:24:30Z",
+  "next_batch": "6.2",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T04:46:00Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
-  "record": "docs/FB5.6_Record.md",
+  "record": "docs/FB6.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB6.1 lease refreshed; checkpoint upload retry after transient connector stall.",
+  "activity": "FB6.1 accepted and lease released; FB6.2 freeze, regression and measurement is ready.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -100,7 +101,7 @@
   ],
   "goal_complete": false,
   "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
-  "last_verified_freeze": "6431b15e3b3b17155ed0959f7ca54f415e9588ec06c47fc6af1949920001e793",
+  "last_verified_freeze": "6f7970acc2709f6b7f8602af337f8894bdc6d01598f7be3f5c5d3c50d0e9f411",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
   "accepted_method_inventory": "evidence/FB5.6/Accepted_Method_Inventory.json"
 }

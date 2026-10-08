@@ -23,7 +23,7 @@
 | 5.4 | Five continued composition families | complete; see FB5.4_Record.md | |
 | 5.5 | Preregistered 32/32 sustained panel | complete; see FB5.5_Record.md | |
 | 5.6 | Longitudinal Shell controls and integrated extension assessment | complete; see FB5.6_Record.md | |
-| 6.1 | The joint §9 ledger | pending | |
+| 6.1 | The joint §9 ledger | complete; see FB6.1_Record.md | |
 | 6.2 | Freeze, regression and measurement | pending | |
 | 6.3 | Package and decide | pending | |
 | 7.1 | Contract and predictions | awaiting author R5 | |
@@ -44,3 +44,5 @@
 [machine-checked] FB5.5 accepted: the prospectively fixed panel independently reconstructs 32/32 paid sustained cells, 32 semantic deltas, generated-result consumers and terminal consequences against 32 matched withheld controls. Actual-payer scheduling includes peer votes/replies, mixed IEE/SLI owners, paid visibility, exact restore, finite exhaustion and cancelled work. All 727 exact methods pass with every prior ID retained. Next is FB5.6; revised goal remains incomplete.
 
 [machine-checked] FB5.6 accepted on attempt4: 29/29 raw worlds independently reconstruct two IEE/SLI longitudinal Shell histories, exact scoped correction, same- and changed-target recurrence, exact restore, undeformed controls, three unsupported-clearance refusals, finite exhaustion and paid cancellation. All 732 exact methods pass with every prior ID retained. The integrated FB5.3–FB5.6 extension ledger passes. Next is FB6.1; Release 1.0 remains incomplete.
+
+[machine-checked] FB6.1 accepted: the evidence-only joint ledger has 32 rows × two settings, the independent verifier reconstructed and agreed with all 32, opened the 1,024-case two-setting type panel, and hash-checked 739 unique ledger-declared raw members. Sections 9.1–9.11 pass where applicable; all rows remain correctly incomplete only because the FB6.2 release-freeze evidence for §9.12 is not yet present. Next is FB6.2; Phase 7 remains forbidden without explicit R5.

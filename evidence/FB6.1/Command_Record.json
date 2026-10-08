@@ -1,0 +1,29 @@
+{
+  "schema": "srl-fb6.1-command-record-v1",
+  "batch": "6.1",
+  "accepted_attempt": 1,
+  "commands": [
+    {
+      "command": "python -m py_compile tools/evaluate_c7_final.py tools/verify_c7_final.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/evaluate_c7_final.py <restored-evidence-root> C7_Final_Ledger_v1.json",
+      "exit": 0,
+      "rows": 32,
+      "complete_cells": 0,
+      "release_freeze_present": false,
+      "source_freeze_files": 3
+    },
+    {
+      "command": "python tools/verify_c7_final.py <restored-evidence-root> C7_Final_Ledger_v1.json --output evidence/FB6.1/attempt1/independent_verification.json",
+      "exit": 0,
+      "rows_reconstructed": 32,
+      "rows_agreed": 32,
+      "raw_members_hash_checked": 739,
+      "complete_cells": 0
+    }
+  ],
+  "provisional_failures": "evidence/FB6.1/attempt1/Failure_Log.md",
+  "accepted_source_freeze": "evidence/FB6.1/attempt1/source_freeze.json"
+}
