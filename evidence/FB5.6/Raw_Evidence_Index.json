@@ -1,0 +1,25 @@
+{
+  "schema": "srl-fb5.6-raw-evidence-index-v1",
+  "batch": "5.6",
+  "accepted_attempt": 4,
+  "archive": {
+    "file_name": "Socionics_Final_Build_FB5.6_Evidence.zip",
+    "library_path": "/Socionics_Final_Build_FB5.6_Evidence.zip",
+    "library_file_id": "libfile_724e93ce09008191a105e54d8e66b9fb",
+    "file_id": "file_000000000cfc8206a734e46eb53cef7d",
+    "version": 0,
+    "bytes": 11427947,
+    "sha256": "6cb06f34991b9c83c6b3fd976124951b54f62d9257cf9d6c2126981231bda9ba",
+    "files": 201,
+    "directory_entries": 0,
+    "members": 201
+  },
+  "restore": [
+    "Materialize the exact Library archive and verify byte count and SHA256 locally before extraction.",
+    "Extract from the repository root, restoring evidence/FB5.6.",
+    "Verify every file listed in evidence/FB5.6/Raw_SHA256.json.",
+    "Run python tools/verify_longitudinal_shell.py evidence/FB5.6/attempt4/matrix docs/C7_Sustained_Extension_Ledger_v1.json.",
+    "The accepted source freeze is the mapping in evidence/FB5.6/attempt4/matrix/source_freeze.json."
+  ],
+  "scope": "Bounded longitudinal Shell deformation, exact scoped correction, recurrence and refused unsupported clearance across IEE and SLI histories; no participant replay, Release 1.0 completion, Phase 7, spontaneous agency or people claim."
+}

@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "tests": 28,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 119.67729933300143,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c2.test_review.ReviewTests.test_alternative_attitudes_preserve_content_for_eight_cells",
+      "status": "passed",
+      "seconds": 5.372077812000498
+    },
+    {
+      "test_id": "tests_c2.test_review.ReviewTests.test_changed_source_system_blocks_later_coupled_dispatch",
+      "status": "passed",
+      "seconds": 0.3083205500006443
+    },
+    {
+      "test_id": "tests_c2.test_review.ReviewTests.test_node_budget_does_not_silently_drop_work",
+      "status": "passed",
+      "seconds": 0.34437501600041287
+    },
+    {
+      "test_id": "tests_c2.test_review.ReviewTests.test_transitive_stance_revision_invalidates_old_exchange",
+      "status": "passed",
+      "seconds": 0.648122634000174
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_accumulation_agreement_is_not_commitment",
+      "status": "passed",
+      "seconds": 0.5608126880033524
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_act_preconditions_preserve_failed_work",
+      "status": "passed",
+      "seconds": 0.2826069399998232
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_c1_upgrade_preserves_exact_old_behavior",
+      "status": "passed",
+      "seconds": 0.6871830220006814
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_cancel_does_not_refund_or_publish_partial_content",
+      "status": "passed",
+      "seconds": 6.9732810919995245
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_display_labels_do_not_supply_semantic_capacity",
+      "status": "passed",
+      "seconds": 0.2816440420028812
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_dissent_is_retained_and_does_not_grant_action",
+      "status": "passed",
+      "seconds": 0.652204382000491
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_duplicate_commands_do_not_duplicate_work",
+      "status": "passed",
+      "seconds": 0.4084543479984859
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_eight_contracts_all_sixteen_types",
+      "status": "passed",
+      "seconds": 56.03327517700018
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_eight_matched_semantic_ablations",
+      "status": "passed",
+      "seconds": 6.922759986999154
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_exact_continuation_at_semantic_and_material_boundaries",
+      "status": "passed",
+      "seconds": 32.79837550400043
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_exhaustion_retains_work_without_success",
+      "status": "passed",
+      "seconds": 0.4503931869985536
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_foreign_owned_content_and_wrong_scope_rejected",
+      "status": "passed",
+      "seconds": 0.20561788299892214
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_hidden_state_does_not_change_personal_result",
+      "status": "passed",
+      "seconds": 0.45945780699912575
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_one_attempt_commitment_cannot_be_spent_twice",
+      "status": "passed",
+      "seconds": 0.449271322999266
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_private_steps_cannot_be_disclosed_or_injected",
+      "status": "passed",
+      "seconds": 0.20574270200086175
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_raw_audit_rejects_forged_semantics_debits_and_predecessors",
+      "status": "passed",
+      "seconds": 0.5128259449993493
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_reconciled_model_has_no_execution_authority",
+      "status": "passed",
+      "seconds": 0.22478766499989433
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_stale_membership_invalidates_commune",
+      "status": "passed",
+      "seconds": 0.5153783310015569
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_stale_owned_input_fails_without_erasing_paid_work",
+      "status": "passed",
+      "seconds": 0.24369626400221023
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_system_conflicts_cycles_and_external_requirements",
+      "status": "passed",
+      "seconds": 0.8109768169997551
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_transfer_second_tool_retains_scoped_content",
+      "status": "passed",
+      "seconds": 1.8207261329989706
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_unowned_system_authority_is_rejected",
+      "status": "passed",
+      "seconds": 0.20183688199904282
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_unread_reply_cannot_complete_shared_meaning",
+      "status": "passed",
+      "seconds": 1.0178041719991597
+    },
+    {
+      "test_id": "tests_c2.test_self_routes.SelfRouteTests.test_zero_displacement_is_not_zero_work",
+      "status": "passed",
+      "seconds": 0.28217423599926406
+    }
+  ]
+}

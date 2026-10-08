@@ -1,0 +1,26 @@
+test_all_types_and_four_evidence_conditions (tests_c1.test_execution.Execution.test_all_types_and_four_evidence_conditions) ... ok
+test_alternative_lawful_element_paths (tests_c1.test_execution.Execution.test_alternative_lawful_element_paths) ... ok
+test_apply_requires_independent_material_work (tests_c1.test_execution.Execution.test_apply_requires_independent_material_work) ... ok
+test_comparison_ablation_removes_useful_result (tests_c1.test_execution.Execution.test_comparison_ablation_removes_useful_result) ... ok
+test_completed_checkpoint_and_command_idempotency (tests_c1.test_execution.Execution.test_completed_checkpoint_and_command_idempotency) ... ok
+test_exhaustion_is_partial_and_no_refund_on_cancellation (tests_c1.test_execution.Execution.test_exhaustion_is_partial_and_no_refund_on_cancellation) ... ok
+test_existing_institution_continues_identically_after_upgrade (tests_c1.test_execution.Execution.test_existing_institution_continues_identically_after_upgrade) ... ok
+test_foreign_model_and_wrong_scope_are_rejected (tests_c1.test_execution.Execution.test_foreign_model_and_wrong_scope_are_rejected) ... ok
+test_fully_paid_cancellation_cannot_grant_retention (tests_c1.test_execution.Execution.test_fully_paid_cancellation_cannot_grant_retention) ... ok
+test_generated_state_cannot_be_declared (tests_c1.test_execution.Execution.test_generated_state_cannot_be_declared) ... ok
+test_hidden_material_differences_do_not_leak_before_read (tests_c1.test_execution.Execution.test_hidden_material_differences_do_not_leak_before_read) ... ok
+test_observation_cannot_rewrite_its_actual_trial (tests_c1.test_execution.Execution.test_observation_cannot_rewrite_its_actual_trial) ... ok
+test_output_not_available_before_paid_completion (tests_c1.test_execution.Execution.test_output_not_available_before_paid_completion) ... ok
+test_partial_continuation_at_semantic_boundaries (tests_c1.test_execution.Execution.test_partial_continuation_at_semantic_boundaries) ... ok
+test_retained_output_can_feed_a_new_model (tests_c1.test_execution.Execution.test_retained_output_can_feed_a_new_model) ... ok
+test_semantic_content_and_predecessor_corruption_fail_audit (tests_c1.test_execution.Execution.test_semantic_content_and_predecessor_corruption_fail_audit) ... ok
+test_stale_rule_preserves_spending_and_refuses_output (tests_c1.test_execution.Execution.test_stale_rule_preserves_spending_and_refuses_output) ... ok
+test_transfer_to_another_target (tests_c1.test_execution.Execution.test_transfer_to_another_target) ... ok
+test_u14_checkpoint_import_and_legacy_api_meaning (tests_c1.test_execution.Execution.test_u14_checkpoint_import_and_legacy_api_meaning) ... ok
+test_unread_observation_cannot_become_retention (tests_c1.test_execution.Execution.test_unread_observation_cannot_become_retention) ... ok
+test_wrong_model_observation_is_rejected (tests_c1.test_execution.Execution.test_wrong_model_observation_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 41.306s
+
+OK

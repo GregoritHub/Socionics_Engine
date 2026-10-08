@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "active",
-  "current_batch": "5.6",
+  "status": "ready",
+  "current_batch": "6.1",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -23,24 +23,24 @@
     "5.5",
     "5.6"
   ],
-  "next_batch": "5.6",
-  "run_id": "fb56-20261008T014518Z-codex",
-  "lease_expires_at": "2026-10-08T03:25:00Z",
-  "updated_at": "2026-10-08T02:55:00Z",
+  "next_batch": "6.1",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T02:48:00Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.6 accepted locally; saving final counted evidence checkpoint.",
+  "activity": "FB5.6 accepted; lease released. Next eligible batch is FB6.1 joint section 9 ledger.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
-    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
     "recorded_at": "2026-10-07T13:49:38.884670Z",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4–5.6 then 6.1–6.3.",
+  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4\u20135.6 then 6.1\u20136.3.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",

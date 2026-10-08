@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 30.505736844999774,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c7.test_audit.PopulationAuditTests.test_fabricated_completion_and_actor_order_rejected",
+      "status": "passed",
+      "seconds": 0.700154989001021
+    },
+    {
+      "test_id": "tests_c7.test_audit.PopulationAuditTests.test_raw_schedule_and_tampered_charge",
+      "status": "passed",
+      "seconds": 1.3068439550006588
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_actual_material_feedback_is_delivered_and_paid",
+      "status": "passed",
+      "seconds": 0.8991868550001527
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_exhaustion_is_retained_and_terminates",
+      "status": "passed",
+      "seconds": 14.580881191002845
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_finite_horizon_and_history_retention",
+      "status": "passed",
+      "seconds": 1.3828234900029202
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_foreign_demand_and_duplicate_actor_rejected",
+      "status": "passed",
+      "seconds": 0.45524485599889886
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_midpaid_resume_exact",
+      "status": "passed",
+      "seconds": 5.018653912997252
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_repeated_retained_content_stops_without_claiming_capacity",
+      "status": "passed",
+      "seconds": 4.106319172002259
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_round_robin_never_starves_a_runnable_actor",
+      "status": "passed",
+      "seconds": 0.6918356920032238
+    },
+    {
+      "test_id": "tests_c7.test_population.PopulationTests.test_turn_limit_preserves_unfinished_work",
+      "status": "passed",
+      "seconds": 1.3610136040006182
+    }
+  ]
+}

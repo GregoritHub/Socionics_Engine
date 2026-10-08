@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "accepted_attempt": 4,
+  "distinct_methods": 732,
+  "prior_methods_missing": 0,
+  "new_methods": 5,
+  "raw_worlds": 29,
+  "longitudinal_histories": 2,
+  "same_target_recurrence": 2,
+  "changed_target_recurrence": 2,
+  "exact_restore_pairs": 2,
+  "undeformed_controls": 2,
+  "unsupported_clearances": 3,
+  "exhaustion_worlds": 1,
+  "cancelled_paid_work_worlds": 1,
+  "tamper_rejections": 6,
+  "integrated_extension_rows": 4,
+  "mixed_types": [
+    "iee",
+    "sli"
+  ],
+  "participant_replay": false,
+  "source_unchanged": true,
+  "freeze_sha256": "b3216c10e32148884df499e227db4f6b4f2ef4acab0fbf386ac6133bff1c4ed0",
+  "goal_complete": false,
+  "next_batch": "6.1"
+}

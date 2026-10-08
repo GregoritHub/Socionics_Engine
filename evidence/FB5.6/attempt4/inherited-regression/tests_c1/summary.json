@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "tests": 21,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 41.31055270900106,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_all_types_and_four_evidence_conditions",
+      "status": "passed",
+      "seconds": 23.80076757400093
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_alternative_lawful_element_paths",
+      "status": "passed",
+      "seconds": 0.3609262550016865
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_apply_requires_independent_material_work",
+      "status": "passed",
+      "seconds": 0.16950483199980226
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_comparison_ablation_removes_useful_result",
+      "status": "passed",
+      "seconds": 0.6353487329979544
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_completed_checkpoint_and_command_idempotency",
+      "status": "passed",
+      "seconds": 0.9393801480000548
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_exhaustion_is_partial_and_no_refund_on_cancellation",
+      "status": "passed",
+      "seconds": 0.18188484299753327
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_existing_institution_continues_identically_after_upgrade",
+      "status": "passed",
+      "seconds": 4.040618031001941
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_foreign_model_and_wrong_scope_are_rejected",
+      "status": "passed",
+      "seconds": 0.17087811400051578
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_fully_paid_cancellation_cannot_grant_retention",
+      "status": "passed",
+      "seconds": 0.3940787069986982
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_generated_state_cannot_be_declared",
+      "status": "passed",
+      "seconds": 0.19158829899970442
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_hidden_material_differences_do_not_leak_before_read",
+      "status": "passed",
+      "seconds": 0.42970318700099597
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_observation_cannot_rewrite_its_actual_trial",
+      "status": "passed",
+      "seconds": 0.30262360900087515
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_output_not_available_before_paid_completion",
+      "status": "passed",
+      "seconds": 0.19873443200049223
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_partial_continuation_at_semantic_boundaries",
+      "status": "passed",
+      "seconds": 6.160783305997029
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_retained_output_can_feed_a_new_model",
+      "status": "passed",
+      "seconds": 0.37111356199966394
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_semantic_content_and_predecessor_corruption_fail_audit",
+      "status": "passed",
+      "seconds": 0.42716766899684444
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_stale_rule_preserves_spending_and_refuses_output",
+      "status": "passed",
+      "seconds": 0.5467830339985085
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_transfer_to_another_target",
+      "status": "passed",
+      "seconds": 0.3741861560010875
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_u14_checkpoint_import_and_legacy_api_meaning",
+      "status": "passed",
+      "seconds": 1.1972511739986658
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_unread_observation_cannot_become_retention",
+      "status": "passed",
+      "seconds": 0.19719203800195828
+    },
+    {
+      "test_id": "tests_c1.test_execution.Execution.test_wrong_model_observation_is_rejected",
+      "status": "passed",
+      "seconds": 0.21465543300291756
+    }
+  ]
+}

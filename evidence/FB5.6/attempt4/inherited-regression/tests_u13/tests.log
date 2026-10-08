@@ -1,0 +1,22 @@
+test_actor_ownership_and_publication_match_independent_reference (tests_u13.test_atomic_queries.AtomicQueryTests.test_actor_ownership_and_publication_match_independent_reference) ... ok
+test_exception_clears_every_uncommitted_check (tests_u13.test_atomic_queries.AtomicQueryTests.test_exception_clears_every_uncommitted_check) ... ok
+test_nested_publication_clears_outer_checks (tests_u13.test_atomic_queries.AtomicQueryTests.test_nested_publication_clears_outer_checks) ... ok
+test_no_cached_check_survives_a_later_command (tests_u13.test_atomic_queries.AtomicQueryTests.test_no_cached_check_survives_a_later_command) ... ok
+test_compiled_validation_matches_original_predicate (tests_u13.test_preservation.Preservation.test_compiled_validation_matches_original_predicate) ... ok
+test_empty_archive_is_exact (tests_u13.test_preservation.Preservation.test_empty_archive_is_exact) ... ok
+test_graph_sharing_has_no_cross_world_table (tests_u13.test_preservation.Preservation.test_graph_sharing_has_no_cross_world_table) ... ok
+test_graph_sharing_keeps_mutable_containers_and_distinct_revisions (tests_u13.test_preservation.Preservation.test_graph_sharing_keeps_mutable_containers_and_distinct_revisions) ... ok
+test_hidden_update_invalidates_cache_without_changing_view (tests_u13.test_preservation.Preservation.test_hidden_update_invalidates_cache_without_changing_view) ... ok
+test_local_validation_still_rejects_invalid_extent (tests_u13.test_preservation.Preservation.test_local_validation_still_rejects_invalid_extent) ... ok
+test_long_revisions_have_bounded_lookup_and_exact_reconstruction (tests_u13.test_preservation.Preservation.test_long_revisions_have_bounded_lookup_and_exact_reconstruction) ... ok
+test_pool_reuses_structure_without_merging_referents (tests_u13.test_preservation.Preservation.test_pool_reuses_structure_without_merging_referents) ... ok
+test_segment_corruption_and_manifest_reordering_reject (tests_u13.test_preservation.Preservation.test_segment_corruption_and_manifest_reordering_reject) ... ok
+test_segment_history_exact_full_and_selective_reconstruction (tests_u13.test_preservation.Preservation.test_segment_history_exact_full_and_selective_reconstruction) ... ok
+test_structural_hash_collisions_verify_equality_before_reuse (tests_u13.test_preservation.Preservation.test_structural_hash_collisions_verify_equality_before_reuse) ... ok
+test_structural_pool_distinguishes_nested_bool_and_int (tests_u13.test_preservation.Preservation.test_structural_pool_distinguishes_nested_bool_and_int) ... ok
+test_unresolved_instance_and_ref_still_rejected_atomically (tests_u13.test_preservation.Preservation.test_unresolved_instance_and_ref_still_rejected_atomically) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.543s
+
+OK

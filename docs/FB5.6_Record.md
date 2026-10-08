@@ -1,0 +1,17 @@
+# FB5.6 — Longitudinal Shell controls and integrated extension assessment: accepted
+
+[source_defined] Entry is accepted FB5.5 at `a2e4d1f9104f3147e9cae0856e582bf5190102ba`. The exact longitudinal protocol was committed before implementation at `2555f8ed7e723ba672d2e5ca5ee7b101bd19284e`; protocol SHA-256 is `0ad11a5b4cca3b8e76ec6d3c0ded17d533e490a419feb06ee865517e9b203cc2`. The prospective public-lifecycle boundary amendment has SHA-256 `7c254d80ef8dbb42ccb89284a4aed88bb9eef7ec413cdc72975458277ba6fce9`. Executable source was checkpointed at `3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3` before counted evaluation.
+
+[derived] One additive independent audit module reconstructs longitudinal Shell histories from raw journal and access records without importing executor, selector, scheduler or fixture builders. Existing engine, contracts, participant semantics and prior evidence are unchanged. The fixed operation lifecycle prevents a public stale-input commit failure while the actor is locked; the prospective amendment therefore tests the companion theory's explicit paid-cancellation boundary after one correction quantum, without relabelling it as a commit failure.
+
+[machine-checked] The accepted attempt saved twenty-nine raw worlds. Two mixed IEE/SLI histories each retain initial generated interruption, exact scoped correction and later native use, off-target equal-cost correction, renewed same-target recurrence, changed-target recurrence, a later exact correction, changed-target residual deformation and exact restored final bytes. Two no-pattern controls complete undeformed.
+
+[machine-checked] Three unsupported effects—forecast, salience and route exclusion—refuse clearance byte-stably and the original interruption recurs. A one-unit-short exhaustion world retains paid partial work with no correction. A public cancellation after one paid correction quantum retains spend, the original generated material and earlier interruption, creates no correction result and grants no clearance.
+
+[machine-checked] Independent verification reconstructed 29/29 raw worlds, both longitudinal histories, two same-target and two changed-target recurrences, two exact restore pairs, three unsupported-clearance refusals, finite exhaustion, paid cancellation, six tamper classes and all four FB5.3–FB5.6 integrated-ledger rows. It performs no participant replay.
+
+[machine-checked] Regression passed 732 distinct methods with zero failures or errors: 602 inherited methods and 130 workflow/continuation methods. Every one of the 727 accepted FB5.5 method IDs remains present; five FB5.6 methods were added. The 1,343-file source freeze has SHA-256 `b3216c10e32148884df499e227db4f6b4f2ef4acab0fbf386ac6133bff1c4ed0`; all ten executable/protocol differences from FB5.5 are additions.
+
+[source_defined] Immutable archive: `Socionics_Final_Build_FB5.6_Evidence.zip`, 11,427,947 bytes, 201 files and no directory entries, SHA-256 `6cb06f34991b9c83c6b3fd976124951b54f62d9257cf9d6c2126981231bda9ba`. Exact Library IDs and restoration instructions are in `evidence/FB5.6/Raw_Evidence_Index.json`. Re-run `python tools/verify_longitudinal_shell.py evidence/FB5.6/attempt4/matrix docs/C7_Sustained_Extension_Ledger_v1.json` after restoration.
+
+[open] Next is FB6.1, the joint §9 ledger. FB5.6 closes the approved sustained-development extension, not Release 1.0 packaging or Phase 7. Phase 7 remains unauthorized without a separate explicit R5 ruling.

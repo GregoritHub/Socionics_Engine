@@ -1,0 +1,19 @@
+{
+  "prior_files": 1333,
+  "new_files": 1343,
+  "inherited_changed": [],
+  "added": [
+    "contracts/C7_Longitudinal_Shell_FB5.6_Amendment_v1.json",
+    "contracts/C7_Longitudinal_Shell_FB5.6_Amendment_v1.sha256",
+    "contracts/C7_Longitudinal_Shell_Protocol_v1.json",
+    "contracts/C7_Longitudinal_Shell_Protocol_v1.sha256",
+    "hle_unified/workflow_longitudinal_shell_audit.py",
+    "tests_workflow_longitudinal_shell/__init__.py",
+    "tests_workflow_longitudinal_shell/fixtures.py",
+    "tests_workflow_longitudinal_shell/test_longitudinal_shell.py",
+    "tools/evaluate_longitudinal_shell.py",
+    "tools/verify_longitudinal_shell.py"
+  ],
+  "freeze_sha256": "b3216c10e32148884df499e227db4f6b4f2ef4acab0fbf386ac6133bff1c4ed0",
+  "comparison": "accepted FB5.5 source freeze; all changed executable/protocol paths are additions"
+}

@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "tests": 17,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 2.5451810539998405,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_actor_ownership_and_publication_match_independent_reference",
+      "status": "passed",
+      "seconds": 0.0001700470020296052
+    },
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_exception_clears_every_uncommitted_check",
+      "status": "passed",
+      "seconds": 7.170900062192231e-05
+    },
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_nested_publication_clears_outer_checks",
+      "status": "passed",
+      "seconds": 6.669099821010605e-05
+    },
+    {
+      "test_id": "tests_u13.test_atomic_queries.AtomicQueryTests.test_no_cached_check_survives_a_later_command",
+      "status": "passed",
+      "seconds": 6.836300235590898e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_compiled_validation_matches_original_predicate",
+      "status": "passed",
+      "seconds": 0.0011609559987846296
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_empty_archive_is_exact",
+      "status": "passed",
+      "seconds": 0.0007852380003896542
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_graph_sharing_has_no_cross_world_table",
+      "status": "passed",
+      "seconds": 6.946499706828035e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_graph_sharing_keeps_mutable_containers_and_distinct_revisions",
+      "status": "passed",
+      "seconds": 4.967499990016222e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_hidden_update_invalidates_cache_without_changing_view",
+      "status": "passed",
+      "seconds": 0.020464776000153506
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_local_validation_still_rejects_invalid_extent",
+      "status": "passed",
+      "seconds": 0.00014760300109628588
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_long_revisions_have_bounded_lookup_and_exact_reconstruction",
+      "status": "passed",
+      "seconds": 2.507162887999584
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_pool_reuses_structure_without_merging_referents",
+      "status": "passed",
+      "seconds": 0.00018895599714596756
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_segment_corruption_and_manifest_reordering_reject",
+      "status": "passed",
+      "seconds": 0.0022412499965867028
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_segment_history_exact_full_and_selective_reconstruction",
+      "status": "passed",
+      "seconds": 0.009400508999533486
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_structural_hash_collisions_verify_equality_before_reuse",
+      "status": "passed",
+      "seconds": 4.795299901161343e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_structural_pool_distinguishes_nested_bool_and_int",
+      "status": "passed",
+      "seconds": 4.906499816570431e-05
+    },
+    {
+      "test_id": "tests_u13.test_preservation.Preservation.test_unresolved_instance_and_ref_still_rejected_atomically",
+      "status": "passed",
+      "seconds": 0.00015204999726847745
+    }
+  ]
+}

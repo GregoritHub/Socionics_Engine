@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "tests": 5,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 40.942658446998394,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_exhaustion_and_cancelled_paid_work_preserve_history",
+      "status": "passed",
+      "seconds": 1.993445320000319
+    },
+    {
+      "test_id": "tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_no_pattern_controls_complete_for_both_types",
+      "status": "passed",
+      "seconds": 1.2778200209977513
+    },
+    {
+      "test_id": "tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_original_material_and_restore_tampers_are_rejected",
+      "status": "passed",
+      "seconds": 9.467737001999922
+    },
+    {
+      "test_id": "tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_three_unsupported_clearances_are_byte_stable_and_recur",
+      "status": "passed",
+      "seconds": 5.396594165998977
+    },
+    {
+      "test_id": "tests_workflow_longitudinal_shell.test_longitudinal_shell.LongitudinalShellTests.test_two_type_histories_have_scoped_causal_controls_and_exact_restore",
+      "status": "passed",
+      "seconds": 22.804205797998293
+    }
+  ]
+}

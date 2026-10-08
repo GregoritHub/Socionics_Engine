@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "raw_worlds": 29,
+  "longitudinal_histories": 2,
+  "same_target_recurrence": 2,
+  "changed_target_recurrence": 2,
+  "exact_restore_pairs": 2,
+  "unsupported_clearances": 3,
+  "exhaustion": true,
+  "cancelled_paid_work": true,
+  "tamper_rejections": 6,
+  "integrated_rows": 4,
+  "participant_replay": false
+}
