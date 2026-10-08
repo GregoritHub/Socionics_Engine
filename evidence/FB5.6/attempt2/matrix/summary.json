@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "raw_worlds": 29,
+  "types": [
+    "iee",
+    "sli"
+  ],
+  "longitudinal_histories": 2,
+  "unsupported_clearances": 3,
+  "exhaustion_worlds": 1,
+  "cancelled_work_worlds": 1,
+  "exact_restore_pairs": 2,
+  "source_unchanged": true
+}

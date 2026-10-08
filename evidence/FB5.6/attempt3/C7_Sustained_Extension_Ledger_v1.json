@@ -1,0 +1,337 @@
+{
+  "schema": "srl-c7-sustained-extension-ledger-v1",
+  "rows": [
+    {
+      "batch": "5.3",
+      "accepted": true,
+      "acceptance": {
+        "path": "evidence/FB5.3/Acceptance.json",
+        "sha256": "09d7dffd7d5f6732a3de645a4f3529093025e4a200c91f67da34b37896201d6c"
+      },
+      "raw_index": {
+        "path": "evidence/FB5.3/Raw_Evidence_Index.json",
+        "sha256": "133e237e7a86480fd527b87e5a75543d69ead21363c6184a9ee561a690ce7d65"
+      },
+      "gates": {
+        "passed": true,
+        "tests": 712,
+        "inherited_tests": 602,
+        "workflow_and_new_tests": 110,
+        "new_methods": 6,
+        "raw_cases": 6,
+        "source_unchanged": true,
+        "freeze_sha256": "315b61615c5c99b7cd16e4af527d8435db4ee165e930dc77e6dd211d0839bc9c",
+        "actual_sustained_cells": [
+          "Theorize expenditure",
+          "Apply expenditure",
+          "Embody expenditure"
+        ],
+        "goal_complete": false,
+        "next_batch": "5.4"
+      }
+    },
+    {
+      "batch": "5.4",
+      "accepted": true,
+      "acceptance": {
+        "path": "evidence/FB5.4/Acceptance.json",
+        "sha256": "f63e45f39f4a603d6d1d160b6a26f1e080ff2cb5e2a5d1d605a2488ff64bbcb0"
+      },
+      "raw_index": {
+        "path": "evidence/FB5.4/Raw_Evidence_Index.json",
+        "sha256": "4af3d1e1768d2dd19f1aa76569733abe801b2cb1ff4e256d508cf25f9949fd44"
+      },
+      "gates": {
+        "passed": true,
+        "accepted_attempt": 2,
+        "distinct_methods": 720,
+        "prior_methods_missing": 0,
+        "new_methods": 8,
+        "raw_cases": 14,
+        "families": 5,
+        "matched_withheld_controls": 5,
+        "source_unchanged": true,
+        "freeze_sha256": "91d7d6dbe607d6fb86e323919dbb0ea4076039c3f857eead68858194a0fa7fce",
+        "shared_semantic_witness": {
+          "handover_latest_before": 4,
+          "handover_latest_after": 2,
+          "query_clock": 3,
+          "completed": [
+            "maintain"
+          ],
+          "before_answer": "handover",
+          "after_answer": null,
+          "retained_personal_answer": null
+        },
+        "goal_complete": false,
+        "next_batch": "5.5"
+      }
+    },
+    {
+      "batch": "5.5",
+      "accepted": true,
+      "acceptance": {
+        "path": "evidence/FB5.5/Acceptance.json",
+        "sha256": "89f20b83c3955e176a389d18e0d5483d14a7683fa09c634f4622bdbdd974f4c4"
+      },
+      "raw_index": {
+        "path": "evidence/FB5.5/Raw_Evidence_Index.json",
+        "sha256": "cf41fa86b32c89a4c41f29704802c8b9a5b0d01ccc667de245dfec2e017d4d29"
+      },
+      "gates": {
+        "passed": true,
+        "accepted_attempt": 1,
+        "distinct_methods": 727,
+        "prior_methods_missing": 0,
+        "new_methods": 7,
+        "raw_cases": 70,
+        "sustained_cells": 32,
+        "matched_withheld_controls": 32,
+        "semantic_deltas": 32,
+        "automatic_consumers": 32,
+        "terminal_consequences": 32,
+        "mixed_types": [
+          "iee",
+          "sli"
+        ],
+        "source_unchanged": true,
+        "freeze_sha256": "5beba72e21e9c9c5c9d8d49864a9710ccb7dc4240edb09897838b216fd450dce",
+        "goal_complete": false,
+        "next_batch": "5.6"
+      }
+    },
+    {
+      "batch": "5.6",
+      "accepted": true,
+      "acceptance": {
+        "path": "/tmp/fb56-eval2/summary.json",
+        "sha256": "74d21a375584dcf414a78ca087ab959973cf7fd99ad1acbbdc36825a984d0c4b"
+      },
+      "raw_index": {
+        "path": "/tmp/fb56-eval2/rows.json",
+        "sha256": "17465c8cfd270d8d8af331903af3460f4d6538bc96ef966db01cae3e72b4257a"
+      },
+      "gates": {
+        "raw_worlds": 29,
+        "types": [
+          "iee",
+          "sli"
+        ],
+        "longitudinal_histories": 2,
+        "unsupported_clearances": 3,
+        "exhaustion_worlds": 1,
+        "cancelled_work_worlds": 1,
+        "exact_restore_pairs": 2,
+        "source_unchanged": true
+      },
+      "raw_worlds": [
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "01-initial-interruption",
+          "file": "iee-01-initial-interruption.json.gz",
+          "sha256": "c62e30224b89aa8df690be5a32d095a3646250115b0193c7582460af4a12bb38"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "02-exact-correction-witness",
+          "file": "iee-02-exact-correction-witness.json.gz",
+          "sha256": "4cfe5d48deeefc7d0100bff9e2337252cf00b3237bfa87fc63be655f93d301c7"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "03-off-target-correction",
+          "file": "iee-03-off-target-correction.json.gz",
+          "sha256": "2397e51be020b1e09635cb37f48adb4724c712a50529cde44e43f889dbfc9667"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "04-same-target-recurrence",
+          "file": "iee-04-same-target-recurrence.json.gz",
+          "sha256": "d922522cf0ba943baea82a4ec5e505e32c48785039c8e439c58cb04a22bad90a"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "05-changed-target-recurrence",
+          "file": "iee-05-changed-target-recurrence.json.gz",
+          "sha256": "9fdabe6ab068db6eca6005929e8dfd93f60c95b1fdc2f5a2b5bb2652719d3560"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "06-exact-correction-and-use",
+          "file": "iee-06-exact-correction-and-use.json.gz",
+          "sha256": "e7de34312322186bac29b469836c97e7d7652ed988ca6cb1d2655a1b81f44f3b"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "07-changed-target-residual",
+          "file": "iee-07-changed-target-residual.json.gz",
+          "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "iee",
+          "stage": "08-restored-final",
+          "file": "iee-08-restored-final.json.gz",
+          "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369"
+        },
+        {
+          "kind": "undeformed",
+          "type": "iee",
+          "file": "iee-undeformed.json.gz",
+          "sha256": "ca825c8955808b051a636cdf56aefafef7fef7a44a84d76efc681df1f108087d"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "01-initial-interruption",
+          "file": "sli-01-initial-interruption.json.gz",
+          "sha256": "c15b0ae141bb1d25b16333544d9135ce6d1fcb8007b797af214a924d37202f65"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "02-exact-correction-witness",
+          "file": "sli-02-exact-correction-witness.json.gz",
+          "sha256": "12f6da3859591667ba5b22d3711b38f4cc683c42085bb5fcea1befb1a48ead03"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "03-off-target-correction",
+          "file": "sli-03-off-target-correction.json.gz",
+          "sha256": "741e6acf6230ebd67e1f6a0e68cbaf32c74f2f842ca12a9d2860ae1459f6436a"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "04-same-target-recurrence",
+          "file": "sli-04-same-target-recurrence.json.gz",
+          "sha256": "935d770f7a9aea8ef69a5cf264858848df6768dc89830dbf84e65db162c22312"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "05-changed-target-recurrence",
+          "file": "sli-05-changed-target-recurrence.json.gz",
+          "sha256": "7923b0a88422c670a6e2df8edf38995d2dc52443e7ad959ac904e1d479e3ade2"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "06-exact-correction-and-use",
+          "file": "sli-06-exact-correction-and-use.json.gz",
+          "sha256": "06e5d0f9ad417003138623a9aa69555b6b5c5a071e6e86cacda6fd0a81fe4409"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "07-changed-target-residual",
+          "file": "sli-07-changed-target-residual.json.gz",
+          "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b"
+        },
+        {
+          "kind": "longitudinal",
+          "type": "sli",
+          "stage": "08-restored-final",
+          "file": "sli-08-restored-final.json.gz",
+          "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b"
+        },
+        {
+          "kind": "undeformed",
+          "type": "sli",
+          "file": "sli-undeformed.json.gz",
+          "sha256": "29677d6aba44ff2fc7b70dceb1a993a9bed1c98b6f037d4163864fa2ebd4b0cb"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "forecast",
+          "stage": "before",
+          "file": "unsupported-forecast-before.json.gz",
+          "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "forecast",
+          "stage": "after",
+          "file": "unsupported-forecast-after.json.gz",
+          "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "forecast",
+          "stage": "still-interrupted",
+          "file": "unsupported-forecast-still-interrupted.json.gz",
+          "sha256": "49983b45414c1ae728cd074fd4b2982ddce5bbf2bbd7932f503ff6d5fcbd20f4"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "salience",
+          "stage": "before",
+          "file": "unsupported-salience-before.json.gz",
+          "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "salience",
+          "stage": "after",
+          "file": "unsupported-salience-after.json.gz",
+          "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "salience",
+          "stage": "still-interrupted",
+          "file": "unsupported-salience-still-interrupted.json.gz",
+          "sha256": "dbfb7a6a52886eb898babf66cf7836a3a8dbc77acc10fb34b0460eef57188c82"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "exclude_route",
+          "stage": "before",
+          "file": "unsupported-exclude_route-before.json.gz",
+          "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "exclude_route",
+          "stage": "after",
+          "file": "unsupported-exclude_route-after.json.gz",
+          "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301"
+        },
+        {
+          "kind": "unsupported",
+          "effect": "exclude_route",
+          "stage": "still-interrupted",
+          "file": "unsupported-exclude_route-still-interrupted.json.gz",
+          "sha256": "ff608934ba7a02f458eb100e95d0111d215082bdec1952933067b27a943c0b75"
+        },
+        {
+          "kind": "exhaustion",
+          "file": "finite-exhaustion.json.gz",
+          "sha256": "f19e9641dd29f971d9a628cd08a684720e18a0262773ab8ed743808f7664ca7f"
+        },
+        {
+          "kind": "cancelled_work",
+          "file": "cancelled-paid-work.json.gz",
+          "sha256": "ccd9c19e2ffa95dbb869c24031ac87d946bec2b0be97c2d21325e922baa4f9c5"
+        }
+      ]
+    }
+  ],
+  "complete_batches": [
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+  ],
+  "goal_complete": false,
+  "next_batch": "6.1",
+  "limits": "Bounded engineered continuation and Shell evidence; no Phase 7 or people claim."
+}

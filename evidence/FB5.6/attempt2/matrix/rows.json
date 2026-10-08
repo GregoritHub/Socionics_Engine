@@ -1,0 +1,188 @@
+[
+  {
+    "kind": "longitudinal",
+    "type": "iee",
+    "worlds": {
+      "01-initial-interruption": {
+        "file": "iee-01-initial-interruption.json.gz",
+        "sha256": "c62e30224b89aa8df690be5a32d095a3646250115b0193c7582460af4a12bb38"
+      },
+      "02-exact-correction-witness": {
+        "file": "iee-02-exact-correction-witness.json.gz",
+        "sha256": "4cfe5d48deeefc7d0100bff9e2337252cf00b3237bfa87fc63be655f93d301c7"
+      },
+      "03-off-target-correction": {
+        "file": "iee-03-off-target-correction.json.gz",
+        "sha256": "2397e51be020b1e09635cb37f48adb4724c712a50529cde44e43f889dbfc9667"
+      },
+      "04-same-target-recurrence": {
+        "file": "iee-04-same-target-recurrence.json.gz",
+        "sha256": "d922522cf0ba943baea82a4ec5e505e32c48785039c8e439c58cb04a22bad90a"
+      },
+      "05-changed-target-recurrence": {
+        "file": "iee-05-changed-target-recurrence.json.gz",
+        "sha256": "9fdabe6ab068db6eca6005929e8dfd93f60c95b1fdc2f5a2b5bb2652719d3560"
+      },
+      "06-exact-correction-and-use": {
+        "file": "iee-06-exact-correction-and-use.json.gz",
+        "sha256": "e7de34312322186bac29b469836c97e7d7652ed988ca6cb1d2655a1b81f44f3b"
+      },
+      "07-changed-target-residual": {
+        "file": "iee-07-changed-target-residual.json.gz",
+        "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369"
+      },
+      "08-restored-final": {
+        "file": "iee-08-restored-final.json.gz",
+        "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369"
+      }
+    },
+    "restore_equal": true,
+    "correction_required": 33,
+    "correction_spent": 33,
+    "control_required": 33,
+    "control_spent": 33,
+    "terminal": "handover"
+  },
+  {
+    "kind": "undeformed",
+    "type": "iee",
+    "world": {
+      "file": "iee-undeformed.json.gz",
+      "sha256": "ca825c8955808b051a636cdf56aefafef7fef7a44a84d76efc681df1f108087d"
+    }
+  },
+  {
+    "kind": "longitudinal",
+    "type": "sli",
+    "worlds": {
+      "01-initial-interruption": {
+        "file": "sli-01-initial-interruption.json.gz",
+        "sha256": "c15b0ae141bb1d25b16333544d9135ce6d1fcb8007b797af214a924d37202f65"
+      },
+      "02-exact-correction-witness": {
+        "file": "sli-02-exact-correction-witness.json.gz",
+        "sha256": "12f6da3859591667ba5b22d3711b38f4cc683c42085bb5fcea1befb1a48ead03"
+      },
+      "03-off-target-correction": {
+        "file": "sli-03-off-target-correction.json.gz",
+        "sha256": "741e6acf6230ebd67e1f6a0e68cbaf32c74f2f842ca12a9d2860ae1459f6436a"
+      },
+      "04-same-target-recurrence": {
+        "file": "sli-04-same-target-recurrence.json.gz",
+        "sha256": "935d770f7a9aea8ef69a5cf264858848df6768dc89830dbf84e65db162c22312"
+      },
+      "05-changed-target-recurrence": {
+        "file": "sli-05-changed-target-recurrence.json.gz",
+        "sha256": "7923b0a88422c670a6e2df8edf38995d2dc52443e7ad959ac904e1d479e3ade2"
+      },
+      "06-exact-correction-and-use": {
+        "file": "sli-06-exact-correction-and-use.json.gz",
+        "sha256": "06e5d0f9ad417003138623a9aa69555b6b5c5a071e6e86cacda6fd0a81fe4409"
+      },
+      "07-changed-target-residual": {
+        "file": "sli-07-changed-target-residual.json.gz",
+        "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b"
+      },
+      "08-restored-final": {
+        "file": "sli-08-restored-final.json.gz",
+        "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b"
+      }
+    },
+    "restore_equal": true,
+    "correction_required": 37,
+    "correction_spent": 37,
+    "control_required": 37,
+    "control_spent": 37,
+    "terminal": "handover"
+  },
+  {
+    "kind": "undeformed",
+    "type": "sli",
+    "world": {
+      "file": "sli-undeformed.json.gz",
+      "sha256": "29677d6aba44ff2fc7b70dceb1a993a9bed1c98b6f037d4163864fa2ebd4b0cb"
+    }
+  },
+  {
+    "kind": "unsupported",
+    "effect": "forecast",
+    "worlds": {
+      "before": {
+        "file": "unsupported-forecast-before.json.gz",
+        "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef"
+      },
+      "after": {
+        "file": "unsupported-forecast-after.json.gz",
+        "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef"
+      },
+      "still-interrupted": {
+        "file": "unsupported-forecast-still-interrupted.json.gz",
+        "sha256": "49983b45414c1ae728cd074fd4b2982ddce5bbf2bbd7932f503ff6d5fcbd20f4"
+      }
+    },
+    "error": "unsupported, incomplete or scaffolded local correction",
+    "checkpoint_unchanged": true
+  },
+  {
+    "kind": "unsupported",
+    "effect": "salience",
+    "worlds": {
+      "before": {
+        "file": "unsupported-salience-before.json.gz",
+        "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6"
+      },
+      "after": {
+        "file": "unsupported-salience-after.json.gz",
+        "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6"
+      },
+      "still-interrupted": {
+        "file": "unsupported-salience-still-interrupted.json.gz",
+        "sha256": "dbfb7a6a52886eb898babf66cf7836a3a8dbc77acc10fb34b0460eef57188c82"
+      }
+    },
+    "error": "unsupported, incomplete or scaffolded local correction",
+    "checkpoint_unchanged": true
+  },
+  {
+    "kind": "unsupported",
+    "effect": "exclude_route",
+    "worlds": {
+      "before": {
+        "file": "unsupported-exclude_route-before.json.gz",
+        "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301"
+      },
+      "after": {
+        "file": "unsupported-exclude_route-after.json.gz",
+        "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301"
+      },
+      "still-interrupted": {
+        "file": "unsupported-exclude_route-still-interrupted.json.gz",
+        "sha256": "ff608934ba7a02f458eb100e95d0111d215082bdec1952933067b27a943c0b75"
+      }
+    },
+    "error": "unsupported, incomplete or scaffolded local correction",
+    "checkpoint_unchanged": true
+  },
+  {
+    "kind": "exhaustion",
+    "world": {
+      "file": "finite-exhaustion.json.gz",
+      "sha256": "f19e9641dd29f971d9a628cd08a684720e18a0262773ab8ed743808f7664ca7f"
+    },
+    "initial_budget": 217,
+    "prefix": 185,
+    "required": 33,
+    "spent": 32,
+    "completed": 32
+  },
+  {
+    "kind": "cancelled_work",
+    "world": {
+      "file": "cancelled-paid-work.json.gz",
+      "sha256": "ccd9c19e2ffa95dbb869c24031ac87d946bec2b0be97c2d21325e922baa4f9c5"
+    },
+    "spent": 1,
+    "status": "cancelled",
+    "failure": "cancelled_paid_work"
+  }
+]
