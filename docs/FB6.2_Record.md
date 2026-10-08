@@ -18,7 +18,7 @@
 
 ## Verified checkpoint
 
-[machine-checked] The scripted workflow matrix has passed 512 cases and saved 32 semantic controls on the unchanged freeze. Its independent raw reconstruction and the remaining commands are still running. These results are provisional until the full batch exit gate is checked.
+[machine-checked] All 732 distinct accepted method IDs passed, with no omissions or duplicates. Both workflow matrices (512 scripted and 512 automatic cases, plus their separate controls) passed independent raw reconstruction. The sustained 32-cell panel, continuation chain, five continued families, longitudinal histories, workflow Shell/nesting/faces/populations and canonical Shell/family/population panels passed their implemented checks. Closure and below-DCNH probes passed 10/10 and 17/17 on R21B. The final canonical choice audit and all isolated cost measurements remain unfinished at this checkpoint.
 
 [machine-checked] A supplemental rerun of `tools/verify_c7_final.py` over the restored immutable evidence agreed on all 32 historical ledger rows and checked 739 declared raw-member hashes. All historical rows remain incomplete on §9.12, as expected before FB6.2 acceptance. This does not substitute for fresh panels.
 
@@ -31,3 +31,5 @@
 [source_defined] No evaluation failure has been observed at this checkpoint. A preliminary connector checkpoint attempt returned an error before moving main; the same prospective protocol was subsequently committed and its head verified. No engine evaluation was started before that commit.
 
 [open] The sealed 5.2.1 pyref is absent from the repository and supplied inventory; its separate rerun remains owed. Current state is running FB6.2. Release 1.0 remains incomplete; batch 6.3 and its clean-unpack verification are next only after this batch's actual exit gate.
+
+[open] `evidence/FB6.2/Release_Evidence_Findings.json` records three release-assessment gaps with source instructions and hashes: the final 192-comparison boundary mapping, canonical membership/withdrawal parent-world references, and the longitudinal forged-completion negative control that was counted without testing a forgery. Preserve all passing tool output, but do not treat its acceptance booleans as proof of these unsupported claims.

@@ -1,0 +1,76 @@
+{
+  "schema": "srl-final-build-evidence-findings-v1",
+  "recorded_at": "2026-10-08T17:02:52.451148+00:00",
+  "engine_failure_claimed": false,
+  "release_completion_supported": false,
+  "findings": [
+    {
+      "id": "final-continuation-boundaries",
+      "status": "evidence_scope_unestablished",
+      "source_instruction": "contracts/C7_Final_Protocol_v1.json section 9.8: 32 cells x 2 settings x 3 boundaries = 192 continuation comparisons; Final Build Plan batch 6.1 requires a saved raw-world hash for each entry",
+      "expected": {
+        "cells": 32,
+        "settings": 2,
+        "boundaries": 3,
+        "comparisons": 192
+      },
+      "observed": "The final verifier partial() checks 32 workflow interruption restored/original pairs. Passed regression methods exercise further boundaries, but the final ledger has no complete 192-comparison raw mapping. A passing method count is not that mapping.",
+      "affected_cells": "all 32; canonical and workflow section 9.8",
+      "sources": [
+        "tools/verify_c7_final.py",
+        "C7_Final_Ledger_v1.json",
+        "contracts/C7_Final_Protocol_v1.json"
+      ],
+      "source_sha256": {
+        "tools/verify_c7_final.py": "dbf8b13fbb0ef1ecc74c76a9ab30c54ddb2bfe58ceb8f2278ccf8787b4c85e8f",
+        "C7_Final_Ledger_v1.json": "86aac0409319b470989540750c1beaef8216b94e968a4437dd254ecd204a531d",
+        "contracts/C7_Final_Protocol_v1.json": "c132e777e41e34221856ac71a02513168e42e8524c366114b0a430e8dcbe6baf"
+      }
+    },
+    {
+      "id": "canonical-nesting-scenarios",
+      "status": "evidence_scope_unestablished",
+      "source_instruction": "contracts/C7_Final_Protocol_v1.json section 9.11: ordinary child, failed child, membership change and withdrawal in both settings; 8 worlds",
+      "expected": {
+        "scenarios": 4,
+        "settings": 2,
+        "worlds": 8
+      },
+      "observed": "Canonical raw references are 06-healthy, 06-control, 07-healthy, 07-control and 08-cancelled-child. The membership/withdrawal regression method passes, but distinct matching raw parent worlds are not indexed. Workflow four-scenario panel has separate raw verification.",
+      "affected_cells": "all 32 canonical section 9.11 release-panel applicability",
+      "sources": [
+        "tools/export_c4.py",
+        "tools/verify_c7_final.py",
+        "C7_Final_Ledger_v1.json",
+        "tests_c4/test_composition.py"
+      ],
+      "source_sha256": {
+        "tools/export_c4.py": "4751176982cdeb4ea5932eeef92039392ce98c44df7eaa3cba6e1f3dc413de64",
+        "tools/verify_c7_final.py": "dbf8b13fbb0ef1ecc74c76a9ab30c54ddb2bfe58ceb8f2278ccf8787b4c85e8f",
+        "C7_Final_Ledger_v1.json": "86aac0409319b470989540750c1beaef8216b94e968a4437dd254ecd204a531d",
+        "tests_c4/test_composition.py": "52a17b9d405262ef05c10842b74fa6a469a967f652eb64fbf0689ee0eeca052e"
+      }
+    },
+    {
+      "id": "longitudinal-forged-completion-control",
+      "status": "declared_negative_control_not_executed",
+      "source_instruction": "contracts/C7_Longitudinal_Shell_Protocol_v1.json acceptance requires the independent auditor to reject all six declared tamper controls; tamper_controls includes forge completed native use in a recurrent arm",
+      "expected": {
+        "real_tamper_controls": 6
+      },
+      "observed": "The sixth counted branch checks that a genuine recurrent report has no consumers, then unconditionally raises and catches ValueError(\"forged recurrent completion\"). It never forges completed use or submits that forgery to the ordinary auditor. The output count 6 is preserved as the historical tool result and is not credited as six actual rejection tests.",
+      "affected_cells": "shared FB5.6 amendment acceptance; all 32 full-release cells require accepted 5.3-5.6",
+      "sources": [
+        "tools/verify_longitudinal_shell.py",
+        "contracts/C7_Longitudinal_Shell_Protocol_v1.json",
+        "docs/FB_Sustained_Development_Amendment_v1.md"
+      ],
+      "source_sha256": {
+        "tools/verify_longitudinal_shell.py": "effe4609adf38c5c75ca48c942361cfa757bba2dc0a61a81dbf7b677916b15a4",
+        "contracts/C7_Longitudinal_Shell_Protocol_v1.json": "0ad11a5b4cca3b8e76ec6d3c0ded17d533e490a419feb06ee865517e9b203cc2",
+        "docs/FB_Sustained_Development_Amendment_v1.md": "9ac6faf0f88411db48c4a8560593c5248f3c1167f86bb6da3257c97ed14748fc"
+      }
+    }
+  ],
+  "policy": "Preserve historical outputs. Do not promote completion from acceptance flags. Finish the frozen run; record these against affected cells. Batch 6.3 may hold under the supplied plan if unsupported items remain."
+}
