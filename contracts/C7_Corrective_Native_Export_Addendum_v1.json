@@ -1,0 +1,80 @@
+{
+  "schema": "srl-corrective-native-export-addendum-v1",
+  "prospective": true,
+  "authority": "Parent explicitly permits newly evaluated evidence from preserved source fixtures while historical recovery remains blocked; 2026-10-08 corrective task.",
+  "evidence_status": "Newly evaluated native comparisons only; never a historical reconstruction or replacement archive. Missing historical inventory remains missing.",
+  "dependency_interpretation": "Supplement inventory-before-replacements is preserved: this batch generates new prospective evidence, not replacements. C3 canonical missing-parent export remains blocked because its declared gate requires inventory confirming absence. No historical or final-delivery gate is relaxed.",
+  "panel": {
+    "canonical_c2": {
+      "cells": 8,
+      "boundary_indices": [
+        0,
+        1,
+        3
+      ],
+      "comparisons": 24
+    },
+    "canonical_c3": {
+      "cells": 24,
+      "boundaries": [
+        0,
+        1,
+        2
+      ],
+      "comparisons": 72
+    },
+    "workflow": {
+      "cells": 32,
+      "boundaries": [
+        0,
+        1,
+        2
+      ],
+      "comparisons": 96
+    },
+    "total": 192,
+    "type": "iee",
+    "boundary_units": [
+      "1",
+      "recall_units + first route charges + first content units",
+      "required"
+    ],
+    "overlap": "One-step routes can have first-step boundary equal to ready-to-commit. Report same-byte boundaries honestly; keys remain the three declared boundary conditions, not claims of distinct work."
+  },
+  "per_comparison": [
+    "setting/route/polarity/boundary key",
+    "hashed boundary and exact restored-boundary raw checkpoint",
+    "hashed original-terminal and restored-terminal raw checkpoint",
+    "same native operation identity/key and journal prefix",
+    "paid boundary units and terminal required/spent/steps",
+    "semantic binding/event/public output validated by ordinary raw auditor",
+    "exact restored-boundary and terminal byte equality",
+    "ordinary independent audits on every raw checkpoint, no executor/fixture imports in verifier"
+  ],
+  "negative_panel": {
+    "settings": [
+      "canonical",
+      "workflow"
+    ],
+    "kinds": [
+      "cancelled",
+      "exhausted",
+      "stale_dependency"
+    ],
+    "total": 6,
+    "assertions": [
+      "spent work remains",
+      "no successful focus job or binding",
+      "exhaustion wallet empty and commit rejected",
+      "stale dependency yields retained failed work",
+      "ordinary raw audit passes valid negative world"
+    ]
+  },
+  "scope": [
+    "tools/export_corrective_native.py",
+    "tools/verify_corrective_native.py",
+    "tests_release_corrective/test_native_verifier.py"
+  ],
+  "capacity": "Two new source modules, one existing test directory, one frozen bounded evaluation. Preserve failures, full refreeze after corrections; original stop rules unchanged.",
+  "final_requirements": "These outputs must participate in the new complete FB6.2 freeze/rerun and independent final ledger. No full-release claim from this batch. Final historical reassembly remains blocked pending exact archive bytes."
+}
