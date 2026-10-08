@@ -1,0 +1,19 @@
+{
+  "schema": "srl-corrective-longitudinal-addendum-v1",
+  "prospective": true,
+  "supplement_sha256": "429e541766c515257e1c90894c28d44791fe733d0409b9c1f3617a3d9135bc24",
+  "observed_semantics": "Verified IEE04 raw child history-same-recurrence is cancelled with spent=required=completed=19, one retained step, binding=None and no consumer. Payment is not a committed output. Do not label the status mutation unpaid.",
+  "status_forgery_claim": "Ordinary audit rejects a forged successful latest status with unchanged paid history, missing native binding and absent consumer. Exactly one attribute in exactly one latest version mutates.",
+  "strong_control": "Also evaluate real fully paid interruption-bypass recurrent arms for IEE and SLI, using the existing evaluator-only Uninterrupted subclass (_workflow_interrupts returns False). Branch from the same post-off-target-correction checkpoint as ordinary same-target recurrence; complete the actual native request and its paid handover consumer. Preserve ordinary interrupted arm, shared checkpoint and bypass terminal. The ordinary longitudinal audit must reject each bypass; acceptance is a test failure. No engine/auditor weakening.",
+  "denominators": {
+    "raw_status_mutations": 1,
+    "paid_bypass_pairs": 2
+  },
+  "regression": "An injected accepting auditor must cause the shared rejection assertion to fail for status forgery and bypass; count only caught ValueError from the actual auditor call. Preparation exceptions are never rejection evidence.",
+  "scope": [
+    "tools/verify_longitudinal_shell.py",
+    "tools/evaluate_corrective_longitudinal.py",
+    "tests_release_corrective/test_longitudinal.py"
+  ],
+  "freeze": "Hash all executed Python/contracts/tools before counted run; preserve command log, exported forged transactions unchanged access, raw shared checkpoints and both terminal arms, independent rejection messages and before/after freeze hashes."
+}
