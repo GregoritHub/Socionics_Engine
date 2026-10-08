@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
+  "status": "running",
   "current_batch": "6.2",
   "completed_batches": [
     "0.1",
@@ -25,14 +25,14 @@
     "6.1"
   ],
   "next_batch": "6.2",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-08T04:46:00Z",
+  "run_id": "fb62-20261008T160423Z-codex",
+  "lease_expires_at": "2026-10-08T16:34:23.570Z",
+  "updated_at": "2026-10-08T16:04:23.570Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB6.1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB6.1 accepted and lease released; FB6.2 freeze, regression and measurement is ready.",
+  "activity": "FB6.2: restoring current committed repository and reading amended final regression requirements.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
