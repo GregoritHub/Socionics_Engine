@@ -25,22 +25,22 @@
   ],
   "next_batch": "6.1",
   "run_id": "fb61-20261008T034633Z-codex",
-  "lease_expires_at": "2026-10-08T04:29:15Z",
-  "updated_at": "2026-10-08T03:59:15Z",
+  "lease_expires_at": "2026-10-08T04:55:00Z",
+  "updated_at": "2026-10-08T04:24:30Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB6.1 lease refreshed; finalizing the frozen joint section 9 ledger and independent verifier.",
+  "activity": "FB6.1 lease refreshed; checkpoint upload retry after transient connector stall.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
-    "authorization": "Greg: \u201cI approve the batch 3.2 fix and resumption\u201d in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
     "recorded_at": "2026-10-07T13:49:38.884670Z",
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4\u20135.6 then 6.1\u20136.3.",
+  "automation_status": "Continuation reported enabled; delegated context lookup returned zero visible tasks. Durable guidance requires 5.4–5.6 then 6.1–6.3.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-07T16:12:58.490617Z",
@@ -100,7 +100,7 @@
   ],
   "goal_complete": false,
   "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
-  "last_verified_freeze": "b3216c10e32148884df499e227db4f6b4f2ef4acab0fbf386ac6133bff1c4ed0",
+  "last_verified_freeze": "6431b15e3b3b17155ed0959f7ca54f415e9588ec06c47fc6af1949920001e793",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
   "accepted_method_inventory": "evidence/FB5.6/Accepted_Method_Inventory.json"
 }
