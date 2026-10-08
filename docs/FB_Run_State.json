@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "blocked",
+  "status": "running",
   "current_batch": "corrective-recovery",
   "completed_batches": [
     "0.1",
@@ -26,14 +26,14 @@
     "6.2"
   ],
   "next_batch": null,
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-08T19:44:59.683Z",
-  "stop_reason": "Fresh pinned C4 Library preparation succeeded, but the current unmodified supported helper returned HTTP 403 before creating an archive. A read-only DNS check of the authentic returned host also failed with errno -3. Historical raw recovery remains a prerequisite for integrated validation, complete refreeze/rerun and clean delivery.",
+  "run_id": "corrective-recovery-2026-10-08T223209073Z",
+  "lease_expires_at": "2026-10-08T23:02:09.073Z",
+  "updated_at": "2026-10-08T22:32:09.073Z",
+  "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_Recovery_20261008_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Fresh-transfer attempt and exact failure preserved; repository source restored; no engine evaluation started. Lease released.",
+  "activity": "Recover exact indexed C5 backup, FB6.2, C2 and C7 v2 archives; verify historical bytes before full freeze.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -132,7 +132,7 @@
     "prior_state_path": "docs/FB_Run_State.json",
     "schedule": "User reports resumed; current settings not independently verified. Do not alter or create schedule.",
     "limits": "No baseline/inherited-contract changes, gate waivers, repeated-failure or theory-contradiction bypass, old release-complete claim, or Phase 7.",
-    "latest_instruction": "Resume archive recovery with a fresh Library transfer, then continue the corrective plan",
+    "latest_instruction": "Continue the corrective plan. Recover the remaining evidence from the indexed FB6.2, C2 and C7 v2 archives, verify every required hash, then proceed through the full rerun and delivery gates.",
     "latest_instruction_at": "2026-10-08T19:40:23.439Z",
     "prior_checkpoint": "9956cf5da8e231521fe419181e557c04660faf4b"
   },
