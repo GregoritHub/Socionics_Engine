@@ -1,0 +1,72 @@
+{
+  "schema": "srl-release-corrective-supplement-v1",
+  "prospective": true,
+  "authority": {
+    "thread": "01a11841-6b41-714b-9718-ee3a8369a0fa",
+    "approval": "Greg, 2026-10-08T17:44:35Z: As is tradition. 😎 we march",
+    "scope": "Three explicit release findings, preserved held delivery, complete refrozen evaluation and revised delivery",
+    "terminal_handoff": "d141888af69dbca6b92bca8b7db24c6c94e9e5e1"
+  },
+  "history": {
+    "immutable": [
+      "baseline/",
+      "all prior protocols, freezes, evidence and held/failed deliverables"
+    ],
+    "held_release_complete": false,
+    "delivery_failures": "evidence/FB6.3/Save_And_Stop_Attempts.json",
+    "source_candidate_manifest_missing": true,
+    "final_historical_delivery_gate_verified": false
+  },
+  "batches": [
+    {
+      "id": "corrective-0",
+      "work": "Hash this supplement before implementation; verify committed archive identities and local raw hashes; inventory native comparisons and parent worlds before generating replacements. Preserve unresolved materialization/save failures.",
+      "gate": "Prospective protocol committed; actual recoverable inventory with hashes, missing members and blockers recorded."
+    },
+    {
+      "id": "corrective-1",
+      "work": "Repair forged-completion negative-control harness and add accepting-auditor regression.",
+      "source_limit": 3,
+      "test_directory": "tests_release_corrective",
+      "gate": "Exactly one latest cancelled history-same-recurrence native child status is changed to succeeded in copied transactions from IEE04; retained paid first step, absent genuine consumer and unchanged access asserted. Ordinary longitudinal audit must actually reject; acceptance raises test failure. Preserve mutated raw evidence and audit reason.",
+      "claim": "Rejection of unpaid forged completion; not evidence of rejection of a fully paid interruption-bypass recurrent arm. Inspect protocol and ordinary semantics before credit. If fully paid bypass is required, prospectively evaluate an evaluator-only real bypass plus paid terminal consumer and independent rejection; no inherited contract reinterpretation."
+    },
+    {
+      "id": "corrective-2",
+      "work": "Export and independently reconstruct required native continuation and negative worlds.",
+      "source_limit": 3,
+      "test_directory": "tests_release_corrective",
+      "gate": "192 unique keys = 32 cells x canonical/workflow x three boundaries. Canonical C2 24 from indices 0,1,3; C3 72; workflow 96. No cancelled-encounter/new-request substitutions. Each key contains hashed boundary, original-terminal and restored-terminal raw refs, exact initial restore, exact terminal equality, paid progression and semantic evidence plus independent ordinary audits. Cancellation, exhaustion and stale dependency evidence in each setting."
+    },
+    {
+      "id": "corrective-3",
+      "work": "Complete distinct canonical parent scenarios using inherited C4 group-change and real-withdrawal method; reuse verified existing worlds when available.",
+      "source_limit": 3,
+      "test_directory": "tests_release_corrective",
+      "gate": "Eight raw scenario/setting keys: ordinary, cancelled-child, membership-change, withdrawal across canonical/workflow. Four workflow worlds, canonical normal and cancelled-child preserved; two distinct missing canonical worlds exported only if inventory confirms absence. Ablation/context cases do not substitute; cancelled-child semantics unchanged."
+    },
+    {
+      "id": "corrective-4",
+      "work": "Prepare revised raw-based joint ledger builder/verifier and complete evaluation orchestration before release freeze.",
+      "source_limit": 3,
+      "test_directory": "tests_release_corrective",
+      "gate": "Independent assessment reads actual raw semantics, all applicable per-cell gates, corrected negative controls and exact inventories. Never promote historical flags or test counts alone. Split prospectively if scope exceeds capacity."
+    },
+    {
+      "id": "corrective-5",
+      "work": "New complete release source freeze and full FB6.2 rerun.",
+      "source_limit": 3,
+      "test_directory": "tests_release_corrective",
+      "gate": "All exact 732 inherited/accepted method IDs plus exact new IDs; all original 47 mandatory jobs/panels and raw independent verifiers plus corrective panels; 81 isolated cost workers with unchanged 3x/2x thresholds; probes 10/10 and 17/17 on intake-identical kernel; all executed-file hashes unchanged. Full refreeze/rerun after any evaluation-source change. Failed/source-changed attempts retained."
+    },
+    {
+      "id": "corrective-6",
+      "work": "Independent final ledger assessment and clean-unpack revised durable delivery.",
+      "gate": "Revised decision from raw verified cells, clean-unpack source/evidence manifests, inspector and reproduce checks. Store large immutable archives in Library; source/index/summary checkpoints in GitHub. Bounded resumable stages. Preserve old held decision and partial delivery; no completion if any gate remains unsupported."
+    }
+  ],
+  "stop_rules": "All original repeated-failure-after-correction, theory-contradiction, inherited-contract and author-ruling stops remain. No baseline changes, no Phase 7. Stop on denied approval; do not route around it.",
+  "coordination": "Expected-head lease protection; defer to any active owner. No scheduler changes. User reports resumed schedule, independently unverified.",
+  "freeze_policy": "Each implementation batch freezes before its counted evaluation. Exploratory checks are explicitly uncredited. Final source freeze after all evaluation implementation; full mandatory rerun.",
+  "evidence_policy": "Hashes checked on exact local bytes. Missing archive/member is missing evidence, never regenerated as historical evidence. New exports are labelled prospective. Immutable historical archives remain in Library."
+}
