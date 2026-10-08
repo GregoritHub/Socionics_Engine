@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "blocked",
-  "current_batch": "corrective-1",
+  "status": "running",
+  "current_batch": "corrective-2",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -25,15 +25,15 @@
     "6.1",
     "6.2"
   ],
-  "next_batch": null,
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-08T18:37:57.029887+00:00",
-  "stop_reason": "Supported Library materialization returned exact FB5.6/C4 identities but official-helper downloads failed, including fresh FB5.6 retry with network access. FB6.2 has 3452 missing local manifest members and C4 archive absent; historical inventory and complete refrozen release evaluation/delivery cannot be established.",
+  "next_batch": "corrective-2",
+  "run_id": "fb-corrective2-20261008T184500Z",
+  "lease_expires_at": "2026-10-08T19:15:00Z",
+  "updated_at": "2026-10-08T18:45:00Z",
+  "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Bounded longitudinal repair verified and durably saved; historical archive recovery blocked. No schedule changes.",
+  "activity": "Authorized transfer diagnosis and newly evaluated native comparisons; historical recovery and final delivery remain blocked. No scheduler changes.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -128,7 +128,8 @@
     "prior_terminal_commit": "d141888af69dbca6b92bca8b7db24c6c94e9e5e1",
     "prior_state_path": "docs/FB_Run_State.json",
     "schedule": "User reports resumed; current settings not independently verified. Do not alter or create schedule.",
-    "limits": "No baseline/inherited-contract changes, gate waivers, repeated-failure or theory-contradiction bypass, old release-complete claim, or Phase 7."
+    "limits": "No baseline/inherited-contract changes, gate waivers, repeated-failure or theory-contradiction bypass, old release-complete claim, or Phase 7.",
+    "latest_instruction": "Diagnose pinned evidence transfer in consuming executor; continue independently permitted newly evaluated 192 native comparisons, not historical replacements. Report supplement dependencies; no scheduler changes."
   },
   "corrective_completed": [
     "prospective supplement",
