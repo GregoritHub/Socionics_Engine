@@ -1,0 +1,53 @@
+{
+  "FB5.6": {
+    "verified": 200,
+    "mismatched": [],
+    "missing_count": 0,
+    "missing_examples": [],
+    "verified_examples": [
+      "evidence/FB5.6/Acceptance.json",
+      "evidence/FB5.6/Accepted_Method_Inventory.json",
+      "evidence/FB5.6/Command_Record.json",
+      "evidence/FB5.6/Source_Preservation.json",
+      "evidence/FB5.6/attempt1/fixtures.py",
+      "evidence/FB5.6/attempt1/focused-tests/source.json",
+      "evidence/FB5.6/attempt1/focused-tests/summary.json",
+      "evidence/FB5.6/attempt1/focused-tests/tests.log",
+      "evidence/FB5.6/attempt1/test_longitudinal_shell.py",
+      "evidence/FB5.6/attempt1/workflow_longitudinal_shell_audit.py"
+    ],
+    "source_manifest": "evidence/FB5.6/Raw_SHA256.json",
+    "source_manifest_sha256": "ae323f5eaf1fd253bc9f65c84638058078315a20a9913c696e3f64757216749d"
+  },
+  "FB6.2": {
+    "verified": 13,
+    "mismatched": [],
+    "missing_count": 3452,
+    "missing_examples": [
+      "evidence/FB6.2/Evaluation_Protocol_v1.json",
+      "evidence/FB6.2/Source_Freeze_v5.json",
+      "evidence/FB6.2/attempt1/Acceptance.json",
+      "evidence/FB6.2/attempt1/Accepted_Method_Inventory.json",
+      "evidence/FB6.2/attempt1/additional/source.json",
+      "evidence/FB6.2/attempt1/additional/summary.json",
+      "evidence/FB6.2/attempt1/additional/tests.log",
+      "evidence/FB6.2/attempt1/assessment.stderr.log",
+      "evidence/FB6.2/attempt1/automatic/eie-Act-accumulation.json.gz",
+      "evidence/FB6.2/attempt1/automatic/eie-Act-expenditure.json.gz"
+    ],
+    "verified_examples": [
+      "evidence/FB6.2/Acceptance.json",
+      "evidence/FB6.2/Accepted_Method_Inventory.json",
+      "evidence/FB6.2/Archive_Restoration_Checks.json",
+      "evidence/FB6.2/Cell_Evidence_Failures.json",
+      "evidence/FB6.2/Execution_Assessment.json",
+      "evidence/FB6.2/Intake_Kernel_Hashes.json",
+      "evidence/FB6.2/Release_Evidence_Findings.json",
+      "evidence/FB6.2/Source_Preservation.json",
+      "evidence/FB6.2/attempt1/Checkpoint_Progress.json",
+      "evidence/FB6.2/attempt1/Regression_Inventory.json"
+    ],
+    "source_manifest": "evidence/FB6.2/Raw_SHA256.json",
+    "source_manifest_sha256": "0ce364598007f4903b05312df0ee46d22a3e0cf7572bde82ec5e1dff5aa13ae7"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
-  "current_batch": "corrective-0",
+  "status": "blocked",
+  "current_batch": "corrective-1",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -25,15 +25,15 @@
     "6.1",
     "6.2"
   ],
-  "next_batch": "corrective-0",
-  "run_id": "fb-corrective-20261008T182800Z",
-  "lease_expires_at": "2026-10-08T18:58:00Z",
-  "updated_at": "2026-10-08T18:28:00Z",
-  "stop_reason": null,
+  "next_batch": null,
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-08T18:37:57.029887+00:00",
+  "stop_reason": "Supported Library materialization returned exact FB5.6/C4 identities but official-helper downloads failed, including fresh FB5.6 retry with network access. FB6.2 has 3452 missing local manifest members and C4 archive absent; historical inventory and complete refrozen release evaluation/delivery cannot be established.",
   "release_1_1_authorized": false,
-  "record": "docs/FB6.3_Record.md",
+  "record": "docs/FB_Corrective_1_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "New explicitly scoped corrective run: prospective supplement and raw archive inventory first. Prior FB6.3 terminal decision remains held and incomplete. No continuation of the denied old lease; no scheduler change.",
+  "activity": "Bounded longitudinal repair verified and durably saved; historical archive recovery blocked. No schedule changes.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -42,7 +42,7 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Disabled; reconfirmed by private lookup on 2026-10-08T18:20Z.",
+  "automation_status": "Prior owner recorded disabled at 18:20Z; user later reports resumed. Current corrective run neither verified nor altered schedule.",
   "automation_user_reported_enabled": true,
   "automation_verification": {
     "checked_at": "2026-10-08T18:20:04Z",
@@ -71,9 +71,9 @@
   ],
   "last_run_id": "fb62-20261008T160423Z-codex",
   "blocker": {
-    "findings": "evidence/FB6.2/Release_Evidence_Findings.json",
-    "delivery": "evidence/FB6.3/Delivery_Index.json",
-    "decision": "held"
+    "kind": "evidence_materialization",
+    "record": "evidence/Corrective0/Recovery_Blocker.json",
+    "prior_terminal_commit": "d141888af69dbca6b92bca8b7db24c6c94e9e5e1"
   },
   "automation_verification_history": [
     {
@@ -129,5 +129,17 @@
     "prior_state_path": "docs/FB_Run_State.json",
     "schedule": "User reports resumed; current settings not independently verified. Do not alter or create schedule.",
     "limits": "No baseline/inherited-contract changes, gate waivers, repeated-failure or theory-contradiction bypass, old release-complete claim, or Phase 7."
-  }
+  },
+  "corrective_completed": [
+    "prospective supplement",
+    "longitudinal bounded correction"
+  ],
+  "corrective_remaining": [
+    "restore and verify historical archive inventory",
+    "192 native continuation comparisons",
+    "eight parent-scenario mapping",
+    "revised raw ledger",
+    "complete new freeze and full FB6.2 rerun",
+    "clean-unpack revised delivery"
+  ]
 }

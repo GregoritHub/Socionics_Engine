@@ -68,6 +68,50 @@ def reports(base, rows):
     return result
 
 
+def require_rejection(transactions, access_text, auditor=None):
+    """Count only rejection returned by an actual ordinary-auditor call."""
+    auditor = audit if auditor is None else auditor
+    try:
+        auditor(transactions, access_text)
+    except ValueError as exc:
+        return str(exc)
+    raise AssertionError('forged recurrent completion accepted by auditor')
+
+
+def forge_recurrent_status(txs, access_text):
+    """Copy one exact latest cancelled child; retain all paid work and access."""
+    txs = tuple(txs)
+    report = audit(txs, access_text)
+    assert not report['longitudinal_consumers']
+    heads = {v.ref.identity: v for tx in txs for v in tx.versions}
+    candidates = [v for v in heads.values() if v.ref.identity.namespace == 'u4.operation'
+                  and attrs(v).get('c7w') and attrs(v).get('key') == 'history-same-recurrence']
+    assert len(candidates) == 1
+    target = candidates[0]
+    d = attrs(target)
+    assert d['status'] == 'cancelled' and d['steps_completed'] == 1
+    assert d['spent'] > 0 and d['last_step'] in report['longitudinal_retained_intermediates']
+    assert d.get('binding') is None
+    forged = []
+    mutations = 0
+    for tx in txs:
+        versions = []
+        for v in tx.versions:
+            if v.ref == target.ref:
+                changed = dict(attrs(v)); changed['status'] = 'succeeded'
+                v = replace(v, attributes=attributes(changed))
+                mutations += 1
+            versions.append(v)
+        forged.append(replace(tx, versions=tuple(versions)))
+    assert mutations == 1
+    differences = [(a, b) for tx, ft in zip(txs, forged)
+                   for a, b in zip(tx.versions, ft.versions) if a != b]
+    assert len(differences) == 1
+    before, after = map(attrs, differences[0])
+    assert {k for k in before if before[k] != after[k]} == {'status'}
+    return tuple(forged)
+
+
 def verify(base, ledger_path):
     summary = json.loads((base / 'summary.json').read_text())
     rows = json.loads((base / 'rows.json').read_text())
@@ -187,13 +231,10 @@ def verify(base, ledger_path):
         tamper_rejections += 1
     else:
         raise AssertionError('ledger digest tamper passed')
-    try:
-        recurrent = histories['iee']['04-same-target-recurrence'][0]
-        if recurrent['longitudinal_consumers']:
-            raise AssertionError('unexpected recurrent consumer')
-        raise ValueError('forged recurrent completion')
-    except ValueError:
-        tamper_rejections += 1
+    _, recurrent_raw, recurrent_txs, _, _ = histories['iee']['04-same-target-recurrence']
+    forged = forge_recurrent_status(recurrent_txs, recurrent_raw['access'])
+    forged_rejection = require_rejection(forged, recurrent_raw['access'])
+    tamper_rejections += 1
 
     assert tamper_rejections == 6, tamper_rejections
     result = {'passed': True, 'raw_worlds': 29, 'longitudinal_histories': 2,
@@ -201,11 +242,62 @@ def verify(base, ledger_path):
               'exact_restore_pairs': 2, 'unsupported_clearances': 3,
               'exhaustion': True, 'cancelled_paid_work': True,
               'tamper_rejections': tamper_rejections, 'integrated_rows': len(ledger['rows']),
-              'participant_replay': False}
+              'participant_replay': False, 'forged_status_rejection': forged_rejection,
+              'forgery_claim': 'Cancelled paid child falsely marked succeeded; no genuine binding or consumer'}
     (base / 'independent_verification.json').write_text(json.dumps(result, indent=2) + '\n')
     print('PASS independent longitudinal Shell', json.dumps(result), flush=True)
     return result
 
 
+def verify_corrective(base):
+    from hle_unified import codec
+    rows = json.loads((base / 'rows.json').read_text())
+    ref = rows['forged']
+    raw, txs, _, _ = read(checked(ROOT / ref['source'], ref['source_sha256']))
+    forged, access = codec.loads(gzip.decompress(checked(base / ref['file'], ref['sha256']).read_bytes()).decode())
+    assert access == raw['access']
+    assert forged == forge_recurrent_status(txs, access)
+    rejections = {'status_forgery': require_rejection(forged, access)}
+    assert {r['type'] for r in rows['pairs']} == {'iee', 'sli'} and len(rows['pairs']) == 2
+    for row in rows['pairs']:
+        worlds = {k: read(checked(base / row[k]['file'], row[k]['sha256']))
+                  for k in ('checkpoint', 'ordinary', 'bypass')}
+        prefix = worlds['checkpoint'][1]
+        for arm in ('ordinary', 'bypass'):
+            assert worlds[arm][1][:len(prefix)] == prefix
+        report = audit(worlds['ordinary'][1], worlds['ordinary'][0]['access'])
+        assert report['longitudinal_recurrence_same'] > 0 and not report['longitudinal_consumers']
+        _, bypass_txs, versions, _ = worlds['bypass']
+        heads = {v.ref.identity: v for tx in bypass_txs for v in tx.versions}
+        jobs = [attrs(v) for v in heads.values() if v.ref.identity.namespace == 'u4.operation']
+        native = [d for d in jobs if d.get('c7w') and d.get('key') == 'history-same-recurrence']
+        consumers = [d for d in jobs if d.get('c7w') and d.get('key') == 'history-same-recurrence-consumer']
+        assert len(native) == len(consumers) == 1
+        for d in native + consumers:
+            assert d['status'] == 'succeeded' and d['spent'] == d['required'] > 0
+            assert d.get('binding') is not None
+        from hle_unified.workflow_audit import payload
+        assert payload(versions[consumers[0]['binding']])['next_task'] == 'handover'
+        assert native[0]['binding'] in [value for key, value in consumers[0].items() if key.startswith('input.')]
+        reason = require_rejection(bypass_txs, worlds['bypass'][0]['access'])
+        assert 'escaped first boundary' in reason
+        rejections[row['type'] + '_paid_bypass'] = reason
+        try:
+            require_rejection(bypass_txs, worlds['bypass'][0]['access'], lambda t, a: {'passed': True})
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('accepting-auditor bypass regression failed')
+    result = {'passed': True, 'actual_audit_rejections': rejections,
+              'status_mutations': 1, 'paid_bypass_pairs': 2, 'participant_replay': False,
+              'claim': 'Forged cancelled-success status and real fully paid recurrent interruption bypass are separately rejected'}
+    (base / 'independent_verification.json').write_text(json.dumps(result, indent=2) + '\n')
+    print(json.dumps(result), flush=True)
+    return result
+
+
 if __name__ == '__main__':
-    verify(Path(sys.argv[1]), Path(sys.argv[2]))
+    if sys.argv[1] == '--corrective':
+        verify_corrective(Path(sys.argv[2]))
+    else:
+        verify(Path(sys.argv[1]), Path(sys.argv[2]))

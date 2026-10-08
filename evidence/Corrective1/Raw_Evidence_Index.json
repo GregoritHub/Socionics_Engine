@@ -1,0 +1,19 @@
+{
+  "schema": "srl-corrective1-evidence-index-v1",
+  "archive": {
+    "file_name": "Socionics_Corrective1_Longitudinal_Evidence.zip",
+    "library_file_id": "libfile_ce79f32da76c8191bcd8df46b1208cd0",
+    "file_id": "file_00000000f1f4823088b36d43b97d6ba5",
+    "library_path": "/Socionics_Corrective1_Longitudinal_Evidence.zip",
+    "version": 0,
+    "bytes": 1195119,
+    "sha256": "ec29788fc56f37e177372cf01637b48f6f82e33f6b0f6b95cf7bcfbb781b989f"
+  },
+  "restore": [
+    "Materialize this exact identity with supported Library tools; verify byte count and SHA-256 before extraction.",
+    "Extract into repository root without overwriting any prior evidence. Verify evidence/Corrective1/Raw_SHA256.json.",
+    "Read attempt1 as failed, attempt2 as bounded successful correction. Full refrozen FB6.2 evaluation remains outstanding."
+  ],
+  "release_complete": false,
+  "full_regression_rerun": false
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "srl-corrective-recovery-blocker-v1",
+  "action": "Materialize exact historical Library archives locally and verify bytes before inventory/reconstruction",
+  "attempts": [
+    {
+      "archive": "FB5.6",
+      "result": "official helper download failed"
+    },
+    {
+      "archive": "C4",
+      "result": "official helper download failed"
+    },
+    {
+      "archive": "FB5.6",
+      "result": "fresh preparation, same current official helper, network-enabled retry: download failed"
+    }
+  ],
+  "existing_local_fb56": {
+    "verified_files": 200,
+    "missing": 0,
+    "mismatched": 0
+  },
+  "existing_local_fb62": {
+    "verified_files": 13,
+    "missing": 3452,
+    "mismatched": 0
+  },
+  "c4_local_archive_available": false,
+  "new_corrective_library_save_succeeded": true,
+  "no_historical_replacement_generated": true,
+  "no_approval_denied_this_run": true,
+  "prior_denial_preserved": "evidence/FB6.3/Save_And_Stop_Attempts.json",
+  "schedule_changed": false,
+  "full_release_evaluation_performed": false
+}
