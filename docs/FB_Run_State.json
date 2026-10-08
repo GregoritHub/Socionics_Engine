@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "ready",
+  "status": "active",
   "current_batch": "6.1",
   "completed_batches": [
     "0.1",
@@ -24,14 +24,14 @@
     "5.6"
   ],
   "next_batch": "6.1",
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-08T02:48:00Z",
+  "run_id": "fb61-20261008T034633Z-codex",
+  "lease_expires_at": "2026-10-08T04:17:00Z",
+  "updated_at": "2026-10-08T03:47:00Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB5.6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "FB5.6 accepted; lease released. Next eligible batch is FB6.1 joint section 9 ledger.",
+  "activity": "FB6.1 lease claimed; constructing and verifying the joint section 9 evidence ledger.",
   "automation_enabled": true,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
