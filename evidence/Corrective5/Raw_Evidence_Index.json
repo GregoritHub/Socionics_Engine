@@ -1,0 +1,13 @@
+{
+  "file_name": "Socionics_Corrective5_Full_Evidence_20261009.zip",
+  "bytes": 405657311,
+  "sha256": "293795749c77bc5b8f3c5eaadbafa23f23faa888e8ed8e09045aa34c2d060761",
+  "files": 4285,
+  "raw_manifest_sha256": "df5188b981e41af60772b54476f07a1fcc29e3b706bd58fca36caa40576b108d",
+  "library_file_id": "libfile_07c12b9d38c08191aee9a0307380c34b",
+  "file_id": "file_00000000ac4c81f58c69f8264d95fcdf",
+  "current_version_number": 0,
+  "durable_roundtrip_verified": true,
+  "crc_verified": true,
+  "root_prefix": "Socionics_Research_Lab_Release_1_0/"
+}

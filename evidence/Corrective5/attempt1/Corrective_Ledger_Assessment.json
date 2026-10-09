@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rows_reconstructed": 32,
+  "independent_of_corrected_builder": true,
+  "native_comparisons": 192,
+  "parent_worlds": 8,
+  "historical_members_checked": 739,
+  "candidate_sha256": "2702d5d93ff094e7108f56109f1167244bf14cd4fd8ab5d8521a2453932bea56",
+  "complete_release_evaluation": true,
+  "release_decision": "pending clean durable delivery",
+  "goal_complete": false,
+  "historical_delivery_gate_verified": false
+}
