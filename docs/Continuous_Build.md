@@ -1,8 +1,10 @@
 # Continuous build
 
+**Current status:** Release 1.0 is complete and the continuation automation is disabled. See [the accepted decision](../evidence/Corrective6/Delivery_Decision.json) and the [researcher documentation index](README.md). The instructions below preserve the build's recovery and saving procedure; they do not authorize restarting it or beginning Phase 7. Separately authorized documentation maintenance preserves the accepted engine and evidence.
+
 The user authorized the existing public GitHub repository and automatic batch continuation on 2026-10-06. Repository: https://github.com/GregoritHub/Socionics_Engine .
 
-The hosted automation **Continue Socionics build** checks hourly and executes eligible work. It reads AGENTS.md and the current repository state, claims a lease, implements and verifies batches, and saves the next checkpoint. It stops and disables itself on a blocker, a held final decision, or completion of the revised goal (accepted 5.3–5.6 and original 6.1–6.3). Phase 7 is not authorized.
+During the authorized build, the hosted automation **Continue Socionics build** checked for eligible work. It read AGENTS.md and the current repository state, claimed a lease, implemented and verified batches, and saved checkpoints. Its terminal stop rule disables continuation on a blocker, a held final decision, or completion of the revised goal (accepted 5.3–5.6 and original 6.1–6.3). Phase 7 is not authorized.
 
 This is a scheduled hosted continuation, not a separately provisioned Codex Cloud environment. No custom Codex Cloud environment has been created. A scheduled run must verify that its execution tools are available; missing tools are a reportable blocker, never an excuse to claim work was performed.
 

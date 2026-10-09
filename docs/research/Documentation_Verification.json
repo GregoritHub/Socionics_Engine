@@ -1,0 +1,46 @@
+{
+  "relative_links_checked": 274,
+  "broken_links": [],
+  "broken_anchors": [],
+  "accepted_frozen_files_unchanged": 1381,
+  "changed_files": [
+    "README.md",
+    "docs/Continuous_Build.md",
+    "docs/FB_Run_State.json",
+    "docs/README.md",
+    "docs/examples/first_run.py",
+    "docs/research/Capabilities.md",
+    "docs/research/Code_Map.md",
+    "docs/research/Concepts.md",
+    "docs/research/Documentation_Update_Record.md",
+    "docs/research/Documentation_Verification.json",
+    "docs/research/Evidence_and_Reproduction.md",
+    "docs/research/First_Run.md",
+    "docs/research/First_Run_Verification.json",
+    "docs/research/Glossary.md",
+    "docs/research/README.md",
+    "docs/research/Shells_and_Compensation.md",
+    "docs/research/verification/workflow_choice_source.json",
+    "docs/research/verification/workflow_choice_summary.json",
+    "docs/research/verification/workflow_choice_tests.log"
+  ],
+  "baseline_engine_contracts_evidence_unchanged": true,
+  "license_changed": false,
+  "private_files_added": false,
+  "phase_7_started": false,
+  "previous_check_findings": [
+    {
+      "finding": "One draft link named tests_workflow_sustained instead of tests_workflow_sustained_panel",
+      "resolution": "Corrected to the existing accepted panel directory; final link check passes"
+    },
+    {
+      "finding": "Initial README patch used two operations for the same path; patch rejected before any write",
+      "resolution": "Applied a single update operation; no engine or evidence affected"
+    }
+  ],
+  "first_run_passed": true,
+  "targeted_test_methods": 20,
+  "targeted_test_failures": 0,
+  "targeted_test_errors": 0,
+  "git_diff_check_passed": true
+}

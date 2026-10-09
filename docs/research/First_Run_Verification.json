@@ -1,0 +1,57 @@
+{
+  "schema": "srl-documentation-first-run-v1",
+  "base_commit": "5c55754b9068c4d47eafcbecc2ecca5d43cff316",
+  "checkout": "fresh detached git worktree of committed source; no historical raw archives installed",
+  "command": "python3 docs/examples/first_run.py --output ../srl-first-run",
+  "executed_output_directory": "../researcher-first-run-01",
+  "exit_code": 0,
+  "python": "3.12.14",
+  "platform": "Linux",
+  "dependencies": "Python standard library and committed repository only",
+  "example_sha256": "ef314de0cd48c70e99f21497bac05d3e7378390c1e9294ce974b2f69eb4b60fd",
+  "result": {
+    "passed": true,
+    "scenario": "prepared timed-maintenance opportunity",
+    "automatic_recipe": "workflow-contemplate-accumulation-v1",
+    "downstream_next_task": "handover",
+    "automatic_selections_audited": 1,
+    "checkpoint_restore_exact": true,
+    "shell": {
+      "name": "Contemplate",
+      "face": "accumulation",
+      "effect": "approval",
+      "origin_mode": "generated",
+      "deformed_admission_spent": 38,
+      "bypass_admission_spent": 38,
+      "corrected_admission_spent": 38,
+      "correction_spent": 29,
+      "blocked": "unavailable",
+      "corrected_next_task": "handover",
+      "bypass_next_task": "handover",
+      "rejection": "workflow Shell admission disagrees with paid encounter"
+    },
+    "scope": "documentation smoke demonstration, not the 54-job release suite"
+  },
+  "output_sha256": {
+    "automatic_checkpoint.json": "d658d3af8cd19e363d4fe50af1c450abc828eb00233e87a9ac75388a3f39418a",
+    "shell_bypass_checkpoint.json": "35cfbc5575dc683300920282f47f8f741168e65bb9b62046e845f82008e4a21e",
+    "shell_corrected_checkpoint.json": "93fae7fd4c40e658f25e6e366cf9509506403a5a2db608a78b76db2f6071c1a3",
+    "shell_deformed_checkpoint.json": "c7d632dd0038cc88d0174fd4294a025c77a5b3e8ac3b0b6fea616a7ef528090b",
+    "summary.json": "c1e44bfa7dd00ba6175f644b315223a6fb616f972177f1c93ce86119ffb12156"
+  },
+  "windows_execution_verified": false,
+  "full_release_rerun": false,
+  "verified_at": "2026-10-09T03:17:42.221327+00:00",
+  "executed_command": "python3 docs/examples/first_run.py --output ../researcher-first-run-01",
+  "additional_documented_test_command": {
+    "executed_command": "python3 tools/test_c6.py ../researcher-choice-tests-01 tests_workflow_selection",
+    "exit_code": 0,
+    "passed": true,
+    "methods": 20,
+    "failures": 0,
+    "errors": 0,
+    "source_unchanged": true,
+    "summary": "docs/research/verification/workflow_choice_summary.json",
+    "summary_sha256": "e58654ccaa6887be1adf1ed7744159fc83af483c60afd667002bc64f8c0c86da"
+  }
+}

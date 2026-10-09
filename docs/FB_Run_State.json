@@ -27,14 +27,14 @@
     "6.3"
   ],
   "next_batch": null,
-  "run_id": "researcher-docs-2026-10-09T03:01:05.284Z",
-  "lease_expires_at": "2026-10-09T03:31:05.284Z",
-  "updated_at": "2026-10-09T03:01:05.285Z",
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-09T03:17:42.406Z",
   "stop_reason": "Release 1.0 complete. Phase 7 requires separate explicit R5.",
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Authorized documentation presentation work; accepted Release 1.0 and engine unchanged.",
+  "activity": "Researcher documentation complete; Release 1.0 accepted, engine and historical evidence unchanged.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -142,8 +142,13 @@
   ],
   "corrective_remaining": [],
   "documentation_maintenance": {
-    "status": "in_progress",
+    "status": "completed",
     "scope": "README, navigation, capabilities, glossary, Shells/compensation explanation and verified first-run example",
-    "authorization": "User explicitly authorized documentation commits and pushes; no engine, evidence, licensing or Phase 7 changes."
-  }
+    "authorization": "User explicitly authorized documentation commits and pushes; no engine, evidence, licensing or Phase 7 changes.",
+    "record": "docs/research/Documentation_Update_Record.md",
+    "verified_first_run": true,
+    "targeted_test_methods": 20,
+    "accepted_frozen_files_unchanged": 1381
+  },
+  "last_documentation_run_id": "researcher-docs-2026-10-09T03:01:05.284Z"
 }
