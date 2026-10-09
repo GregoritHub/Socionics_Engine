@@ -6,6 +6,14 @@ The lab makes these ideas inspectable through finite scenarios, exact histories,
 
 **Current status: Release 1.0 accepted; milestone C7 complete, 7/7.** The [final decision](evidence/Corrective6/Delivery_Decision.json) records the corrected full evaluation and verified clean delivery. Historical held releases remain in the repository. Model G and axis/DCNH formula tables are implemented as read-only structure; energy/conditioning dynamics and Phase 7 are not implemented or authorized.
 
+Quick slides:
+
+https://claude.ai/artifact/QcnbsZcZyEMpkaDb3uMSjc#slide-4e5f2bfd42a7
+
+Fun Stuff: The Price of a Day
+
+https://claude.ai/artifact/1rK8AfUWHNKuUEdGJbgPVd
+
 ## Start here
 
 | Your question | Read |
