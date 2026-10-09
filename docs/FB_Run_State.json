@@ -27,14 +27,14 @@
     "6.3"
   ],
   "next_batch": null,
-  "run_id": null,
-  "lease_expires_at": null,
-  "updated_at": "2026-10-09T02:11:09.882Z",
+  "run_id": "researcher-docs-2026-10-09T03:01:05.284Z",
+  "lease_expires_at": "2026-10-09T03:31:05.284Z",
+  "updated_at": "2026-10-09T03:01:05.285Z",
   "stop_reason": "Release 1.0 complete. Phase 7 requires separate explicit R5.",
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Release 1.0 accepted after clean reassembly and independent audits; Phase 7 awaits explicit R5.",
+  "activity": "Authorized documentation presentation work; accepted Release 1.0 and engine unchanged.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -140,5 +140,10 @@
     "complete 54-job/742-method release rerun and independent 32-row assessment",
     "clean durable delivery: 3221 source members, 15993 historical members, 4284 fresh members and 1312 inspector links verified"
   ],
-  "corrective_remaining": []
+  "corrective_remaining": [],
+  "documentation_maintenance": {
+    "status": "in_progress",
+    "scope": "README, navigation, capabilities, glossary, Shells/compensation explanation and verified first-run example",
+    "authorization": "User explicitly authorized documentation commits and pushes; no engine, evidence, licensing or Phase 7 changes."
+  }
 }
