@@ -1,0 +1,83 @@
+{
+  "schema": "srl-corrective-delivery-decision-v1",
+  "recorded_at": "2026-10-09T02:11:09.983743+00:00",
+  "release": "1.0",
+  "decision": "accepted",
+  "goal_complete": true,
+  "milestone": "C7",
+  "progress": "7 of 7",
+  "complete_rows": 32,
+  "settings": [
+    "canonical",
+    "workflow"
+  ],
+  "source_commit": "83621ecddac7384f025f02ba3a5228f48256fb5f",
+  "final_ledger": {
+    "path": "C7_Final_Ledger_v3.json",
+    "sha256": "ab7251dad7a4b4a14d2e637c18194ca1049c99cae8c5916938165ace4e837cec",
+    "bytes": 950121
+  },
+  "full_rerun_acceptance": {
+    "path": "evidence/Corrective5/attempt1/Acceptance.json",
+    "sha256": "5c266864aab3b2ef0483b874798a4a92831ffc4ec74a4e6b4fda007c5181806a",
+    "bytes": 810580
+  },
+  "independent_joint_assessment": {
+    "path": "evidence/Corrective5/attempt1/Corrective_Ledger_Assessment.json",
+    "sha256": "cd202e7ee677ed87431301490d45bdc6e17d8eac142fb48c03994e5b0dfb87d8",
+    "bytes": 438
+  },
+  "clean_assessment": {
+    "path": "evidence/Corrective6/Clean_Assessment.json",
+    "sha256": "a414a5837a20175180c5b463613f544f7920799a474267fd475d9fefffef272b",
+    "bytes": 667
+  },
+  "clean_audit_log": {
+    "path": "evidence/Corrective6/Clean_Audit.log",
+    "sha256": "4197cba2896889fb22aa43f91a7b4a0054ea501e7e1e54570a76f094fdbdfb3f",
+    "bytes": 1701
+  },
+  "source_archive": {
+    "source_commit": "83621ecddac7384f025f02ba3a5228f48256fb5f",
+    "file_name": "Socionics_Corrective_Source_20261009.zip",
+    "bytes": 83069086,
+    "sha256": "703922423b39d91b33e7da51dcdf38eed99113b23e84157e876fe665bde53239",
+    "durable_source": "GitHub pinned commit; archive reproducible from git archive excluding docs/FB_Run_State.json",
+    "excluded_volatile_state": "docs/FB_Run_State.json"
+  },
+  "fresh_evidence_archive": {
+    "file_name": "Socionics_Corrective5_Full_Evidence_20261009.zip",
+    "bytes": 405657311,
+    "sha256": "293795749c77bc5b8f3c5eaadbafa23f23faa888e8ed8e09045aa34c2d060761",
+    "files": 4285,
+    "raw_manifest_sha256": "df5188b981e41af60772b54476f07a1fcc29e3b706bd58fca36caa40576b108d",
+    "library_file_id": "libfile_07c12b9d38c08191aee9a0307380c34b",
+    "file_id": "file_00000000ac4c81f58c69f8264d95fcdf",
+    "current_version_number": 0,
+    "durable_roundtrip_verified": true,
+    "crc_verified": true,
+    "root_prefix": "Socionics_Research_Lab_Release_1_0/"
+  },
+  "historical_reassembly": {
+    "path": "evidence/Corrective6/Historical_Reassembly_Assessment.json",
+    "sha256": "b1ef00c9824ad09681c5308d6dc5c6f0e62503ce2f32e2642d9e967e49a628ff",
+    "bytes": 7152
+  },
+  "historical_manifest": {
+    "path": "evidence/Corrective6/Historical_Delivery_Manifest.json.gz",
+    "sha256": "46ee161a502259849d703d48cbf830e5f8ff653be89168d28f49e4b8bc8d6621",
+    "bytes": 704191
+  },
+  "source_manifest": {
+    "path": "C7_Corrective_Delivery_Source_Manifest_v1.json",
+    "sha256": "7cc600cf79d50cef5ebf64a99246890897f5bbbb2a290d56efae9a9af645d285",
+    "bytes": 531654
+  },
+  "prior_failures_preserved": true,
+  "automation_enabled": false,
+  "phase_7_authorized": false,
+  "pyref_rerun": "owed; explicitly non-blocking under Final Build Plan section 12",
+  "pixel_rendering_verified": false,
+  "optimization_gain_claimed": false,
+  "delivery_receipt_scope": "This post-audit receipt and final job register are saved separately from the immutable verified source snapshot; they do not alter its bytes."
+}

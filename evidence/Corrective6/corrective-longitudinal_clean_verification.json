@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual_audit_rejections": {
+    "status_forgery": "event does not describe its operation",
+    "iee_paid_bypass": "workflow interruption escaped first boundary",
+    "sli_paid_bypass": "workflow interruption escaped first boundary"
+  },
+  "status_mutations": 1,
+  "paid_bypass_pairs": 2,
+  "participant_replay": false,
+  "claim": "Forged cancelled-success status and real fully paid recurrent interruption bypass are separately rejected"
+}

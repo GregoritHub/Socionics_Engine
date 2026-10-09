@@ -27,7 +27,7 @@
 | 5.6 | Longitudinal Shell controls and integrated extension assessment | complete; see FB5.6_Record.md | |
 | 6.1 | The joint §9 ledger | complete; see FB6.1_Record.md | |
 | 6.2 | Freeze, regression and measurement | complete evidence run; release acceptance withheld; see FB6.2_Record.md | |
-| 6.3 | Package and decide | formally held; partial delivery; final gate unverified; see FB6.3_Record.md | |
+| 6.3 | Package and decide | complete after corrective clean delivery; see FB_Corrective_6_Record.md; original hold preserved | |
 | 7.1 | Contract and predictions | awaiting author R5 | |
 | 7.2 | Two-ledger pricing behind a switch | awaiting author R5 | |
 | 7.3 | The conditioning ledger | awaiting author R5 | |
@@ -62,3 +62,5 @@
 [machine-checked] Corrective4 prospective preparation saved: exact 742-method inventory, 54-job runner/verifier and independent raw ledger mapping code. Ten bounded corrective methods and plan check pass unchanged source. [open] Historical raw recovery and actual joint reconstruction remain blocked; no complete final freeze/run or delivery performed. See FB_Corrective_4_Record.md and evidence/Corrective4/Resume_Commands.json. No scheduler changes.
 
 [machine-checked] Directly authorized fresh archive recovery on 2026-10-08 obtained new pinned C4 transfer metadata and restored current GitHub source. [open] The official download returned HTTP 403; a separate authentic-host DNS check failed with errno -3. No archive bytes or new release evaluation were obtained. Exact observations and the unsatisfied historical-byte gate are preserved in FB_Corrective_Recovery_20261008_Record.md and evidence/CorrectiveRecovery20261008/Attempt1.json. Lease released; goal-complete false; no scheduler changes.
+
+[machine-checked] Current final outcome: Corrective5 full evaluation and Corrective6 clean durable delivery PASSED. All 54 jobs, 742 exact methods, 81 isolated cost workers, 1,381 frozen files, 739 historical identities, 32 complete two-setting rows and 1,312 inspector links verified. Release 1.0 accepted; C7 progress 7 of 7. Supersedes current held/blocked/incomplete guidance above; all historical outcomes remain preserved. Final receipt: evidence/Corrective6/Delivery_Decision.json. Automation confirmed disabled; lease released; no next batch. Phase 7 awaits explicit R5.

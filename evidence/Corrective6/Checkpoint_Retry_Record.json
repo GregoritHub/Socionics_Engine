@@ -1,0 +1,12 @@
+{
+  "failed_action": "GitHub create_blob for first delivery checkpoint file",
+  "error": "tool call rejected because the catalog changed after codex_apps/github.create_blob was prepared",
+  "remote_head_after_failure": "bd91c17086f5e1bc5349cf97ad5c50bbc7681278",
+  "branch_update_occurred": false,
+  "lease_reclaimed_after_expiry": true,
+  "retry_result": "succeeded",
+  "saved_evidence_commit": "7796ae6b5b0b86ec1eacb6ff1d7d19a9032d2ef3",
+  "full_artifact_commit": "687373cd0fa7a68e1143e8bc8fe5677dc504376c",
+  "source_manifest_commit": "83621ecddac7384f025f02ba3a5228f48256fb5f",
+  "force_push": false
+}

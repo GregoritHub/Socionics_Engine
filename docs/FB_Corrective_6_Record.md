@@ -11,3 +11,7 @@
 [open] Final clean audit is running from the assembled root. Release acceptance remains held until its assessment is saved and the final delivery decision is committed. No pixel-rendering verification is claimed. The separate sealed pyref rerun remains owed; no kernel promotion is implied.
 
 [machine-checked] Connector catalog-change rejection prevented an earlier checkpoint write. The remote head was checked, the expired lease reclaimed with an expected-head update, and the checkpoint then succeeded. No force update or overlap occurred. The build automation is independently confirmed disabled.
+
+[machine-checked] Final exit gate PASSED: clean verification independently checked 3,221 source members, 15,993 historical members, 4,284 fresh evidence members, all 1,381 frozen files, all 739 historical identities, four inherited raw manifests, 54 jobs, 742 exact methods, fresh corrected raw audits, all 32 inspector cells and 1,312 exact evidence links. Inspector filters and reset passed. See evidence/Corrective6/Clean_Assessment.json and Clean_Audit.log.
+
+[source_defined] Decision: Release 1.0 ACCEPTED; milestone C7 complete, progress 7 of 7. This supersedes the current hold without rewriting any historical held record. Final decision: evidence/Corrective6/Delivery_Decision.json. Lease released, no next batch, automation remains disabled. Phase 7 requires separate explicit R5.

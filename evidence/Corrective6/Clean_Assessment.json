@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "source_members": 3221,
+  "historical_members_delivered": 15993,
+  "fresh_members": 4284,
+  "frozen_files": 1381,
+  "historical_ledger_objects": 739,
+  "raw_manifests": {
+    "evidence/FB6.2/Raw_SHA256.json": 3465,
+    "evidence/Corrective1/Raw_SHA256.json": 28,
+    "evidence/Corrective2/Raw_SHA256.json": 791,
+    "evidence/Corrective3/Raw_SHA256.json": 35
+  },
+  "jobs": 54,
+  "methods": 742,
+  "independent_corrected_raw_audits": true,
+  "original_execution_paths_preserved": true,
+  "inspector_cells": 32,
+  "inspector_verified_links": 1312,
+  "inspector_filters": true,
+  "phase_7_authorized": false,
+  "pixel_rendering_verified": false
+}

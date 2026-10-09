@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
-  "current_batch": "corrective-6",
+  "status": "completed",
+  "current_batch": "6.3",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -23,17 +23,18 @@
     "5.5",
     "5.6",
     "6.1",
-    "6.2"
+    "6.2",
+    "6.3"
   ],
   "next_batch": null,
-  "run_id": "corrective-delivery-2026-10-09T02:00:38.488Z",
-  "lease_expires_at": "2026-10-09T02:30:38.488Z",
-  "updated_at": "2026-10-09T02:00:38.488Z",
-  "stop_reason": null,
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-09T02:11:09.882Z",
+  "stop_reason": "Release 1.0 complete. Phase 7 requires separate explicit R5.",
   "release_1_1_authorized": false,
-  "record": "docs/FB_Corrective_5_Record.md",
+  "record": "docs/FB_Corrective_6_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "54 jobs and independent 32-row assessment passed; fresh archive saved and roundtrip verified. Retrying checkpoint after connector catalog change.",
+  "activity": "Release 1.0 accepted after clean reassembly and independent audits; Phase 7 awaits explicit R5.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -42,14 +43,14 @@
     "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
     "historical_blocker": "evidence/FB3.2/Blocker.json"
   },
-  "automation_status": "Disabled at last confirmed update; this direct archive-recovery request does not alter the schedule.",
-  "automation_user_reported_enabled": true,
+  "automation_status": "Confirmed disabled; Release 1.0 complete.",
+  "automation_user_reported_enabled": false,
   "automation_verification": {
-    "checked_at": "2026-10-08T18:20:04Z",
-    "method": "automations peek following successful disable",
+    "checked_at": "2026-10-09T02:11:09.882Z",
+    "method": "automations peek",
     "verified_enabled": false
   },
-  "automation_stop_action": "Disabled for formal 6.3 hold under the user's standing stop instruction.",
+  "automation_stop_action": "Remains disabled at verified Release 1.0 completion.",
   "automation_observed_run": {
     "at": "2026-10-07T03:07:05Z",
     "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
@@ -69,7 +70,7 @@
       "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
     }
   ],
-  "last_run_id": "fb-recovery-20261008T194023439Z",
+  "last_run_id": "corrective-delivery-2026-10-09T02:00:38.488Z",
   "blocker": null,
   "automation_verification_history": [
     {
@@ -105,16 +106,16 @@
     "5.5",
     "5.6"
   ],
-  "goal_complete": false,
+  "goal_complete": true,
   "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
-  "last_verified_freeze": "0a5ec54771c04838c0a1b41a82e3adc4e91eae20c0daed8a16c3aec147c414f7",
+  "last_verified_freeze": "3e9063a69252d09a850fd003b86d331bc8e39b7f6bdfcab3c11d03bb553bf5e6",
   "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
-  "accepted_method_inventory": "evidence/FB6.2/Accepted_Method_Inventory.json",
+  "accepted_method_inventory": "evidence/Corrective5/attempt1/Accepted_Method_Inventory.json",
   "release_assessment_notes": "docs/FB6.3_Entry_Notes.md",
-  "batch_6_2_outcome": "completed evidence run with recorded cell evidence failures; unconditional acceptance withheld",
-  "release_decision": "held",
-  "batch_6_3_exit_gate_verified": false,
-  "batch_6_3_outcome": "Held decision; partial delivery. Candidate integrity verified, final durable-component gate unverified. Not completed.",
+  "batch_6_2_outcome": "Corrective full frozen evaluation passed: 54 jobs, 742 exact methods, 81 isolated workers. Original held run preserved.",
+  "release_decision": "accepted",
+  "batch_6_3_exit_gate_verified": true,
+  "batch_6_3_outcome": "Corrective clean durable delivery verified; Release 1.0 complete, milestone C7 7 of 7.",
   "corrective_authorization": {
     "source_thread_id": "01a11841-6b41-714b-9718-ee3a8369a0fa",
     "instruction": "Continue Greg's approved corrective work; preserve held package, prospectively declare a hashed supplement, repair three findings, refreeze and fully rerun FB6.2, independently reassess and deliver.",
@@ -134,11 +135,10 @@
     "longitudinal bounded correction",
     "192 newly evaluated native comparison reconstruction with six negative worlds",
     "eight fresh parent scenarios, eight exact restores and six ordinary-audited forged-success controls",
-    "prospective 742-method/54-job release orchestration and raw ledger mapping preparation; bounded checks pass"
+    "prospective 742-method/54-job release orchestration and raw ledger mapping preparation; bounded checks pass",
+    "all 739 historical objects recovered and exact hashes verified",
+    "complete 54-job/742-method release rerun and independent 32-row assessment",
+    "clean durable delivery: 3221 source members, 15993 historical members, 4284 fresh members and 1312 inspector links verified"
   ],
-  "corrective_remaining": [
-    "GitHub delivery checkpoint",
-    "clean full package audit",
-    "final release decision"
-  ]
+  "corrective_remaining": []
 }
