@@ -1,0 +1,8 @@
+{
+  "source_commit": "83621ecddac7384f025f02ba3a5228f48256fb5f",
+  "file_name": "Socionics_Corrective_Source_20261009.zip",
+  "bytes": 83069086,
+  "sha256": "703922423b39d91b33e7da51dcdf38eed99113b23e84157e876fe665bde53239",
+  "durable_source": "GitHub pinned commit; archive reproducible from git archive excluding docs/FB_Run_State.json",
+  "excluded_volatile_state": "docs/FB_Run_State.json"
+}
