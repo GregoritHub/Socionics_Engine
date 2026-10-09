@@ -8,7 +8,7 @@ The lab makes these ideas inspectable through finite scenarios, exact histories,
 
 Quick slides:
 
-https://claude.ai/artifact/QcnbsZcZyEMpkaDb3uMSjc#slide-4e5f2bfd42a7
+https://claude.ai/artifact/QcnbsZcZyEMpkaDb3uMSjc#
 
 Fun Stuff: The Price of a Day
 
