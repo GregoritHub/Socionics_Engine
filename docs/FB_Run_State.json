@@ -26,14 +26,14 @@
     "6.2"
   ],
   "next_batch": null,
-  "run_id": "corrective-delivery-2026-10-09T000249110Z",
-  "lease_expires_at": "2026-10-09T00:32:49.114Z",
-  "updated_at": "2026-10-09T00:02:49.114Z",
+  "run_id": "corrective-delivery-2026-10-09T02:00:38.488Z",
+  "lease_expires_at": "2026-10-09T02:30:38.488Z",
+  "updated_at": "2026-10-09T02:00:38.488Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_5_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "Recovered completed 54-job rerun and passing independent 32-row ledger assessment after interrupted checkpoint write. Final durable delivery pending.",
+  "activity": "54 jobs and independent 32-row assessment passed; fresh archive saved and roundtrip verified. Retrying checkpoint after connector catalog change.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
@@ -137,9 +137,8 @@
     "prospective 742-method/54-job release orchestration and raw ledger mapping preparation; bounded checks pass"
   ],
   "corrective_remaining": [
-    "Restore and verify all pinned historical archives through a working supported Library-to-workspace transfer; current attempt and authentic transfer hostname recorded in evidence/CorrectiveRecovery20261008/Attempt1.json",
-    "execute integrated raw ledger reconstruction and resolve findings under standing gates",
-    "declare complete final source freeze and full 54-job/742-method release rerun",
-    "independent final assessment and historical/new clean durable delivery"
+    "GitHub delivery checkpoint",
+    "clean full package audit",
+    "final release decision"
   ]
 }
