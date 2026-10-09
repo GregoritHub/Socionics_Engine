@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "corrective-5",
+  "current_batch": "corrective-6",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -26,14 +26,14 @@
     "6.2"
   ],
   "next_batch": null,
-  "run_id": "corrective-recovery-2026-10-08T223209073Z",
-  "lease_expires_at": "2026-10-08T23:45:18.475Z",
-  "updated_at": "2026-10-08T23:15:18.475Z",
+  "run_id": "corrective-delivery-2026-10-09T000249110Z",
+  "lease_expires_at": "2026-10-09T00:32:49.114Z",
+  "updated_at": "2026-10-09T00:02:49.114Z",
   "stop_reason": null,
   "release_1_1_authorized": false,
   "record": "docs/FB_Corrective_5_Record.md",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
-  "activity": "44 mandatory jobs passed, including all 732 prior methods, ten corrective methods, automatic audit and both probes. Corrective raw panels active; measurements remain deferred.",
+  "activity": "Recovered completed 54-job rerun and passing independent 32-row ledger assessment after interrupted checkpoint write. Final durable delivery pending.",
   "automation_enabled": false,
   "stop_release": {
     "prior_head": "36cbce079732076baba267fdf78495156a018311",
