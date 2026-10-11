@@ -1,0 +1,5 @@
+{
+  "reason": "Interim audit invoked before matrix complete; missing expected baseline file. No evidence assertion failed before missing file. Final auditor adds explicit complete-matrix counts to prevent partial acceptance.",
+  "changes": "audit_v2.py only; model and driver frozen unchanged",
+  "sha256": "0d875281b27ccdb0c447daab76fe324d3df6f708558f8ee8262c1436c01c8414"
+}

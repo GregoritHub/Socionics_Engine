@@ -1,0 +1,125 @@
+--- a/hle_unified/development.py
++++ b/hle_unified/development.py
+@@ -4,6 +4,7 @@
+ their delivery, practice retention and broader organization are separate acts.
+ """
+ from dataclasses import fields, replace
++
+ from .records import (ObjectRef, ObjectVersion, Role, Account, Occurrence,
+                       ClaimStatus, Proposition, TimeScope)
+ from .material import attrs, attributes
+@@ -33,9 +34,20 @@
+ 
+     def __init__(self, world, law):
+         super().__init__(world, law)
++        self._experimental_load, self._experimental_fresh = "total", "historical"
++        self._experimental_configured = False
+         self._development_inputs = {}
+         self._corrections, self._capacities, self._practices = {}, {}, {}
+         self._response_results, self._practiced_events, self._treatments = {}, set(), {}
++
++    def _configure_experiment(self, cid, load, fresh):
++        if self._locks or self._experimental_configured:
++            raise ValueError("experiment configuration requires idle, unconfigured engine")
++        if load not in ("total", "unfamiliar") or fresh not in ("historical", "fresh_pattern", "fresh_scope"):
++            raise ValueError("invalid experiment profile")
++        self._experimental_load, self._experimental_fresh = load, fresh
++        self._experimental_configured = True
++        return load, fresh
+ 
+     def _declare(self, cid, versions):
+         if any(v.ref.identity.namespace.startswith("u8.") for v in versions):
+@@ -96,7 +108,7 @@
+                             or any(e.kind not in ("approval", "obligation") for e in p.effects)):
+                         raise ValueError("unsupported, incomplete or scaffolded local correction")
+                 matches, bases = self._selection(r.actor, target, r.context, r.cue, known,
+-                                                len(r.targets), recalled.visited)
++                                                (sum(not ((p.ref, t) in self._corrections and self._corrections[p.ref, t]["binding"] in recalled.visited) for t in r.targets) if self._experimental_load == "unfamiliar" else len(r.targets)), recalled.visited)
+                 request = EncounterRequest(r.key, r.actor, target, r.context, r.cue,
+                     r.partner or target, ObjectRef(r.actor, 1), r.evidence, demand=r.demand)
+                 decision = encounter(request, known, matches, recalled.truncated)
+@@ -142,6 +154,22 @@
+                 # include novel target(s) and a changed contextual partner.
+                 returned = tuple(x for x in usable if x["capacity"] == capacity["ref"]
+                                  and len(x["targets"]) >= capacity["max_load"])
++                if self._experimental_fresh != "historical":
++                    # Only paid, observed, retained failures enter owned deliberation.
++                    sequence = {event: i for i, event in enumerate(self._response_results)}
++                    cutoff = -1
++                    for ex in examples:
++                        if ex["binding"] not in recalled.visited:
++                            continue
++                        response = self._response_results[ex["event"]]
++                        if (response["actor"], response["pattern"], response["context"]) != (r.actor, p.ref, r.context):
++                            continue
++                        residual = any(response[f"row.{i}.patterns"] and response[f"row.{i}.route"] != response[f"row.{i}.base_route"] for i in range(response["load"]))
++                        if (not response["completed_demand"] and not response["supported"] and residual
++                                and (self._experimental_fresh == "fresh_pattern" or response["load"] <= capacity["max_load"])):
++                            cutoff = max(cutoff, sequence[ex["event"]])
++                    returned = tuple(x for x in returned if sequence[x["event"]] > cutoff)
++                    result["experimental_scan_units"] = len(examples) + len(sequence)
+                 trained = {t.identity for x in usable if x["ref"] in capacity["examples"] for t in x["targets"]}
+                 partners = {x["partner"] for x in usable if x["ref"] in capacity["examples"]}
+                 if (len(returned) < 2 or not any({t.identity for t in x["targets"]} - trained for x in returned)
+@@ -171,6 +199,7 @@
+         origin, destination, polarity = ("I", "IT", "expenditure") if outward else ("IT", "I", "accumulation")
+         rows = route(tim, self._cursors[r.actor], ("fi", "si") if outward else ("si", "fi"), origin, destination, polarity)
+         units = max(1, len(r.evidence) + len(result["recalled"]) + len(r.targets) + len(result["examples"]))
++        units += result.get("experimental_scan_units", 0)
+         route_units = sum(sum(x["charges"]) + x["content_units"] for x in rows)
+         base = OperationRequest(r.key, r.actor, "bind", r.context)
+         data = {f.name: getattr(base, f.name) for f in fields(base) if f.name not in ("participants", "evidence")}
+@@ -183,6 +212,9 @@
+             active_start=self._cursors[r.actor], tim=tim, origin=origin, destination=destination,
+             polarity=polarity, contract=LAW8, started_tick=self._now().tick,
+             truncated=result["truncated"], observation=r.observation, **flatten_route(rows))
++        if self._experimental_load != "total" or self._experimental_fresh != "historical":
++            data.update(experimental_load_rule=self._experimental_load, experimental_fresh_rule=self._experimental_fresh,
++                        experimental_scan_units=result.get("experimental_scan_units", 0))
+         inputs = tuple(dict.fromkeys((r.pattern, result["pattern"].origin, r.context, r.cue,
+                     *r.targets, *result["sources"], *result["recalled"], *(x["ref"] for x in result["examples"]))))
+         for prefix, values in (("input.", inputs), ("source.", result["sources"]), ("recalled.", result["recalled"]),
+--- a/hle_unified/development_audit.py
++++ b/hle_unified/development_audit.py
+@@ -5,6 +5,7 @@
+ disclosure selectors; raw transactions alone do not include those selectors.
+ """
+ from .development_values import attrs
++
+ from .operations import indexed
+ from .records import Account, Occurrence
+ from .shell_audit import audit as audit_parent, effects
+@@ -68,6 +69,7 @@
+                     retained.setdefault(d["actor"], set()).add(d["binding"])
+             if d.get("record_type") == "operation" and d.get("u8"):
+                 expected = max(1, d["evidence_count"]+d["recalled_count"]+d["target_count"]+d["example_count"])
++                expected += d.get("experimental_scan_units", 0)
+                 if (d["recall_units"] != expected or d["target_count"] != len(indexed(d, "target."))
+                         or d["recalled_count"] != len(indexed(d, "recalled."))
+                         or not set(indexed(d, "source.")) <= read.get(d["actor"], set())
+@@ -120,7 +122,13 @@
+                         raise ValueError("response uses unreceived, incomplete or hidden opportunity")
+                     selected = {ref: pd for ref, pd in patterns.items() if (pd["owner"],pd["context"],pd["cue"],pd["trigger"]) ==
+                                 (d["actor"],d["context"],d["cue"],k.get("trigger"))}
+-                    bases = tuple((ref,b) for ref in selected if (b := basis(ref,target,k,d["load"],indexed(job,"recalled."))) is not None)
++                    loads = {ref: d["load"] for ref in selected}
++                    if job.get("experimental_load_rule", "total") == "unfamiliar":
++                        for ref in selected:
++                            local_targets = {t for (pattern, t), correction in corrections.items()
++                                             if pattern == ref and correction["binding"] in indexed(job,"recalled.")}
++                            loads[ref] = len(set(d["targets"]) - local_targets)
++                    bases = tuple((ref,b) for ref in selected if (b := basis(ref,target,k,loads[ref],indexed(job,"recalled."))) is not None)
+                     active = {ref: pd for ref,pd in selected.items() if ref not in {x[0] for x in bases}}
+                     base = "engage"
+                     if not d["demand"]: base = "rest"
+--- a/hle_unified/shell.py
++++ b/hle_unified/shell.py
+@@ -61,6 +61,8 @@
+                 "configure": self._configure, "opportunity": self._step,
+                 "configure_patterns": self._configure_patterns,
+                 "inject_pattern_fixture": self._inject_pattern_fixture}
++            if hasattr(self, "_configure_experiment"):
++                dispatch["configure_experiment"] = self._configure_experiment
+             if command[0] not in dispatch:
+                 raise ValueError("unsupported U7 command")
+             result = dispatch[command[0]](*command[1:])

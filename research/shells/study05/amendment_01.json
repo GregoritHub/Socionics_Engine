@@ -1,0 +1,5 @@
+{
+  "failure": "Nonbaseline global profile changed replay of baseline commands: U7 world or access replay mismatch.",
+  "fix": "Add explicit configure_experiment command persisted in native command history; defaults remain baseline. Auditor reads job profile. Run all primary cases under attempt_02; keep attempt_01.",
+  "protocol_change": "Profile now native replay command, not process-only. Explicit host experiment configuration, not agent action. One configuration per engine, before new work, never with active locks."
+}

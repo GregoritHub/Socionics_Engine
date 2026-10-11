@@ -1,0 +1,9 @@
+{
+  "filename": "Shell_Native_Evidence_05.zip",
+  "sha256": "80473aa50e6a73ca2155bae0409bb6ccddc93ca80292f8eb5f00ac39735d0ed9",
+  "bytes": 22895799,
+  "library_file_id": "libfile_1b153c4a888081918a7e2b3d0633d70f",
+  "file_id": "file_00000000e99881f784a1b21c1cb6a0be",
+  "report_library_file_id": "libfile_43108368767c8191a1903cbba8745d55",
+  "note": "Immutable Study 05 evidence. Download from ChatGPT Library, then pass ZIP to launch.py."
+}

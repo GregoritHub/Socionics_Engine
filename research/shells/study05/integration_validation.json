@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scope": "packaging smoke, seven IEE total/fresh_pattern native outcomes; exact checkpoint restores in driver. Not a rerun of full 98-case audit.",
+  "exact_original_checkpoint_matches": {
+    "observed-old.json.gz": "6f5399c53854f6ce832b7d77d5f9d695ca5226ee5c4bfd79c4505550cea83b47",
+    "supported-True.json.gz": "be28f99f3caf11a4597f9700494e5ed6c44b72d90ac5d19b5bbc19aec4f1f417",
+    "observed-fresh.json.gz": "93b2c2d04e49ae52063e63718801129271c60c12317215a49b44b3953000f18c",
+    "mixed.json.gz": "5c9558e02d24975fc47429e908075e8c0ec23ecd34884d694f1f5e56f1309735",
+    "supported-False.json.gz": "c6fd0f6bfaceeb381d8487c304e5d68068dec8914412fc8871ddc2bad9025172",
+    "novel3.json.gz": "3f0488ef935b826df8ae13317e18e39add83fef217fa8910a9e58e7a2431fe05",
+    "unobserved-old.json.gz": "d98edf95756395aecbe7736a9c3066133cfe81b712d67cdf13bb308821ba1740"
+  },
+  "baseline_tracked_files_unchanged": 3248
+}
