@@ -1,0 +1,154 @@
+{
+  "schema": "srl-final-build-state-v1",
+  "status": "completed",
+  "current_batch": "6.3",
+  "completed_batches": [
+    "0.1",
+    "0.2",
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "3.1",
+    "3.2",
+    "3.3",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "6.1",
+    "6.2",
+    "6.3"
+  ],
+  "next_batch": null,
+  "run_id": null,
+  "lease_expires_at": null,
+  "updated_at": "2026-10-09T03:17:42.406Z",
+  "stop_reason": "Release 1.0 complete. Phase 7 requires separate explicit R5.",
+  "release_1_1_authorized": false,
+  "record": "docs/FB_Corrective_6_Record.md",
+  "automation_id": "6ac53cec617881919c9d68ea800adde1",
+  "activity": "Researcher documentation complete; Release 1.0 accepted, engine and historical evidence unchanged.",
+  "automation_enabled": false,
+  "stop_release": {
+    "prior_head": "36cbce079732076baba267fdf78495156a018311",
+    "authorization": "Greg: “I approve the batch 3.2 fix and resumption” in the current direct user message. Releases the FB3.2 two-failure stop for the scoped cancellation-provenance repair and continued Release 1.0 work.",
+    "recorded_at": "2026-10-07T13:49:38.884670Z",
+    "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5",
+    "historical_blocker": "evidence/FB3.2/Blocker.json"
+  },
+  "automation_status": "Confirmed disabled; Release 1.0 complete.",
+  "automation_user_reported_enabled": false,
+  "automation_verification": {
+    "checked_at": "2026-10-09T02:11:09.882Z",
+    "method": "automations peek",
+    "verified_enabled": false
+  },
+  "automation_stop_action": "Remains disabled at verified Release 1.0 completion.",
+  "automation_observed_run": {
+    "at": "2026-10-07T03:07:05Z",
+    "conversation": "https://chatgpt.com/c/01a11454-3a60-7606-8c7b-a5f5cadb20d3",
+    "result": "SKIP_COMPLETION",
+    "evidence": "Parent independently observed scheduled execution; settings and skip reason unknown"
+  },
+  "stop_release_history": [
+    {
+      "prior_head": "ebac22217d958d056e3b9c0d07db4db1e5584fb1",
+      "authorization": "Greg answered Yes to authorizing the fix and resuming remaining Release 1.0 batches under the existing plan.",
+      "source_thread_id": "01a0f8b8-c37d-72a3-a1d9-aca25df1600b",
+      "remaining_stop_gates": "unchanged; Phase 7 requires R5"
+    },
+    {
+      "prior_head": "5c179578329debfcb40dc2e0f00f27f0f64f8212",
+      "authorization": "Greg: \"Ok so keep going\" in direct response to the FB2.4 stop explanation on 2026-10-07T07:24:31-04:00. Authorizes FB2.4 recovery and continued Release 1.0 work under the existing plan.",
+      "remaining_stop_gates": "unchanged; Phase 7 requires explicit R5"
+    }
+  ],
+  "last_run_id": "corrective-delivery-2026-10-09T02:00:38.488Z",
+  "blocker": null,
+  "automation_verification_history": [
+    {
+      "checked_at": "2026-10-07T11:30:34.532266Z",
+      "method": "automations update",
+      "verified_enabled": true
+    },
+    {
+      "checked_at": "2026-10-07T12:51:55.713905Z",
+      "method": "automations update",
+      "verified_enabled": false
+    },
+    {
+      "checked_at": "2026-10-07T13:50:14.139404Z",
+      "method": "automations update",
+      "verified_enabled": true
+    },
+    {
+      "checked_at": "2026-10-07T16:12:58.490617Z",
+      "method": "automations update after FB4.1 acceptance",
+      "verified_enabled": true
+    },
+    {
+      "checked_at": "2026-10-08T18:20:04Z",
+      "method": "automations peek following successful disable",
+      "verified_enabled": false
+    }
+  ],
+  "finish_line_amendment": "docs/FB_Sustained_Development_Amendment_v1.md",
+  "additional_batches": [
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+  ],
+  "goal_complete": true,
+  "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
+  "last_verified_freeze": "3e9063a69252d09a850fd003b86d331bc8e39b7f6bdfcab3c11d03bb553bf5e6",
+  "automation_execution_context_observation": "evidence/FB5.3/Automation_Observation.json",
+  "accepted_method_inventory": "evidence/Corrective5/attempt1/Accepted_Method_Inventory.json",
+  "release_assessment_notes": "docs/FB6.3_Entry_Notes.md",
+  "batch_6_2_outcome": "Corrective full frozen evaluation passed: 54 jobs, 742 exact methods, 81 isolated workers. Original held run preserved.",
+  "release_decision": "accepted",
+  "batch_6_3_exit_gate_verified": true,
+  "batch_6_3_outcome": "Corrective clean durable delivery verified; Release 1.0 complete, milestone C7 7 of 7.",
+  "corrective_authorization": {
+    "source_thread_id": "01a11841-6b41-714b-9718-ee3a8369a0fa",
+    "instruction": "Continue Greg's approved corrective work; preserve held package, prospectively declare a hashed supplement, repair three findings, refreeze and fully rerun FB6.2, independently reassess and deliver.",
+    "quoted_user_approval": "As is tradition. 😎 we march",
+    "approval_at": "2026-10-08T17:44:35Z",
+    "coordination_instruction": "Once a safe handoff and permissible correction are established, execute the prospective repair plan and complete refrozen release evaluation as already requested, preserving all historical results.",
+    "prior_terminal_commit": "d141888af69dbca6b92bca8b7db24c6c94e9e5e1",
+    "prior_state_path": "docs/FB_Run_State.json",
+    "schedule": "User reports resumed; current settings not independently verified. Do not alter or create schedule.",
+    "limits": "No baseline/inherited-contract changes, gate waivers, repeated-failure or theory-contradiction bypass, old release-complete claim, or Phase 7.",
+    "latest_instruction": "Continue the corrective plan. Recover the remaining evidence from the indexed FB6.2, C2 and C7 v2 archives, verify every required hash, then proceed through the full rerun and delivery gates.",
+    "latest_instruction_at": "2026-10-08T19:40:23.439Z",
+    "prior_checkpoint": "9956cf5da8e231521fe419181e557c04660faf4b"
+  },
+  "corrective_completed": [
+    "prospective supplement",
+    "longitudinal bounded correction",
+    "192 newly evaluated native comparison reconstruction with six negative worlds",
+    "eight fresh parent scenarios, eight exact restores and six ordinary-audited forged-success controls",
+    "prospective 742-method/54-job release orchestration and raw ledger mapping preparation; bounded checks pass",
+    "all 739 historical objects recovered and exact hashes verified",
+    "complete 54-job/742-method release rerun and independent 32-row assessment",
+    "clean durable delivery: 3221 source members, 15993 historical members, 4284 fresh members and 1312 inspector links verified"
+  ],
+  "corrective_remaining": [],
+  "documentation_maintenance": {
+    "status": "completed",
+    "scope": "README, navigation, capabilities, glossary, Shells/compensation explanation and verified first-run example",
+    "authorization": "User explicitly authorized documentation commits and pushes; no engine, evidence, licensing or Phase 7 changes.",
+    "record": "docs/research/Documentation_Update_Record.md",
+    "verified_first_run": true,
+    "targeted_test_methods": 20,
+    "accepted_frozen_files_unchanged": 1381
+  },
+  "last_documentation_run_id": "researcher-docs-2026-10-09T03:01:05.284Z"
+}

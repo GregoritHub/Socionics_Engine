@@ -1,0 +1,17 @@
+{
+  "schema": "phase7-startup-observation-v1",
+  "observed_on": "2026-10-11",
+  "repository": "GregoritHub/Socionics_Engine",
+  "observed_main": "452063e2ab297ed41a234b92ae6a2dd7874f3007",
+  "prior_state_blob": "dc21dd724ab28ba3470ce7534dd00bb7828de335",
+  "command": ["git", "clone", "--depth", "1", "https://github.com/GregoritHub/Socionics_Engine.git", "/mnt/data/Socionics_Engine"],
+  "exit_code": 128,
+  "output": "Cloning into '/mnt/data/Socionics_Engine'...\nfatal: unable to access 'https://github.com/GregoritHub/Socionics_Engine.git/': Could not resolve host: github.com\n",
+  "github_connector_reads": "succeeded for main, run-state, AGENTS.md and workflow-run collection",
+  "workflow_run_response": {"total_count": 0, "workflow_runs": []},
+  "previous_build_automation_enabled": false,
+  "verified_execution_workspace": false,
+  "completed_phase7_batches": [],
+  "phase7_tests_executed": 0,
+  "scope": "Infrastructure observation only, not acceptance evidence or a failed Model G prediction. No engine, baseline or inherited-evidence files changed."
+}
