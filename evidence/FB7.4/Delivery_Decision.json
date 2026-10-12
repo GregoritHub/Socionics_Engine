@@ -1,0 +1,59 @@
+{
+  "schema": "srl-phase7-release-1.1-candidate-delivery-v1",
+  "decision": "accepted_candidate",
+  "goal_complete": true,
+  "completed_batches": [
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4"
+  ],
+  "accepted_at_utc": "2026-10-12T02:37:48.686644+00:00",
+  "default_resource_model": "legacy-r4",
+  "experimental_resource_model": "grade-v1",
+  "conditioning_feedback": false,
+  "release_1_0_decision": "unchanged: accepted",
+  "predictions": {
+    "P1": "held",
+    "P2": "held",
+    "P3": "held"
+  },
+  "paired_worlds": 620,
+  "ample_pairs": 548,
+  "scarce_pairs": 72,
+  "withheld_child_controls": 64,
+  "exact_legacy_methods": 742,
+  "all_distinct_methods": 751,
+  "cost_samples": 68,
+  "performance_guards_passed": 6,
+  "historical_input_aliases": 394,
+  "historical_unique_engine_histories": 153,
+  "current_population_conditioning_rows": 648,
+  "source_freeze_sha256": "03ad3ddc069b501aae7da0f700d234499dfd3bbc9ae504b5a2be89334004da8e",
+  "candidate": {
+    "candidate_commit": "689aabde7927cfb993245e35265bb9ad72b5d210",
+    "candidate_archive": "Socionics_Research_Lab_Release_1_1_Candidate.zip",
+    "candidate_bytes": 84006900,
+    "candidate_sha256": "668140f1c628656da49b831264d294ca9f62091d7369effc95540bbfdcc2af2b",
+    "zip_crc_verified": true,
+    "members": 3761,
+    "frozen_files_verified": 1398,
+    "sealed_baseline_files_verified": 1093,
+    "contracts_verified": true,
+    "clean_directory": "/workspace/scratch/cab01c7058d3/phase7-clean-check/Socionics_Research_Lab_Release_1_1_Candidate",
+    "focused_tests": "passed",
+    "focused_methods": 4,
+    "focused_tests_log_sha256": "e8ef2ecab279554eaeb4de6857907ff5c45686e371a12f96ff31c48d918d8ece",
+    "passed": true
+  },
+  "raw_evidence_index": "evidence/FB7.4/Raw_Evidence_Index.json",
+  "raw_evidence_archive_sha256": "2373fcddbc7be1520d63de7b6e5e557a4bba56f2fd3f0d66a5dc74ee7ae45a5f",
+  "cost_panel_bindings": "evidence/FB7.4/Cost_Panel_Bindings.json",
+  "source_snapshot_url": "https://github.com/GregoritHub/Socionics_Engine/archive/689aabde7927cfb993245e35265bb9ad72b5d210.zip",
+  "automation_enabled": false,
+  "notes": [
+    "The immutable candidate ZIP contains its assembly-era administrative state. This later receipt finalizes delivery without changing executable files.",
+    "The GitHub source snapshot has the same committed contents; its ZIP metadata/compressed hash may differ from the locally verified candidate ZIP.",
+    "No theoretical or psychological validation, default promotion, conditioning feedback or optimization claim."
+  ]
+}

@@ -1,0 +1,9 @@
+test_preextension_legacy_checkpoint_bytes_and_audit (tests_energy.test_energy.EnergyTests.test_preextension_legacy_checkpoint_bytes_and_audit) ... ok
+test_creation_identity_legacy_bytes_and_checkpoint (tests_energy.test_energy.EnergyTests.test_creation_identity_legacy_bytes_and_checkpoint) ... ok
+test_completed_boundary_partial_cancel_and_empty_ties (tests_energy.test_conditioning.ConditioningTests.test_completed_boundary_partial_cancel_and_empty_ties) ... ok
+test_unpaid_forged_completion_and_missing_wallet_rejected (tests_energy.test_conditioning.ConditioningTests.test_unpaid_forged_completion_and_missing_wallet_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.416s
+
+OK

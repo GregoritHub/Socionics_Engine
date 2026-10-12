@@ -1,0 +1,16 @@
+{
+  "candidate_commit": "689aabde7927cfb993245e35265bb9ad72b5d210",
+  "candidate_archive": "Socionics_Research_Lab_Release_1_1_Candidate.zip",
+  "candidate_bytes": 84006900,
+  "candidate_sha256": "668140f1c628656da49b831264d294ca9f62091d7369effc95540bbfdcc2af2b",
+  "zip_crc_verified": true,
+  "members": 3761,
+  "frozen_files_verified": 1398,
+  "sealed_baseline_files_verified": 1093,
+  "contracts_verified": true,
+  "clean_directory": "/workspace/scratch/cab01c7058d3/phase7-clean-check/Socionics_Research_Lab_Release_1_1_Candidate",
+  "focused_tests": "passed",
+  "focused_methods": 4,
+  "focused_tests_log_sha256": "e8ef2ecab279554eaeb4de6857907ff5c45686e371a12f96ff31c48d918d8ece",
+  "passed": true
+}

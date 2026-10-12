@@ -72,3 +72,5 @@
 - FB7.3 accepted: standalone raw reader reproduced all 225 Phase5 aliases (130 unique engine histories), unchanged freeze, two boundary/tamper tests. Next: FB7.4.
 
 - FB7.4 candidate evaluation passed: P1/P2/P3 held; 620 pairs, 64 controls, all 751 methods, all 68 cost samples and inherited guards. Raw evidence saved by exact immutable identity. Clean candidate delivery check is pending; see FB7.4_Record.md and HLE_Energy_Extension_Report_v1.md.
+
+- FB7.4 complete; Release1.1 candidate accepted. Clean ZIP/source/contracts/baseline and four extraction checks passed. All 751 methods, 620 pairs, 64 controls, 68 cost samples and six inherited guards passed. P1/P2/P3 held. Final decision: evidence/FB7.4/Delivery_Decision.json. State complete, lease released, continuation disabled, default legacy-r4 unchanged.

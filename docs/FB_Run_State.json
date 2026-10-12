@@ -1,6 +1,6 @@
 {
   "schema": "srl-final-build-state-v1",
-  "status": "running",
+  "status": "complete",
   "current_batch": "7.4",
   "completed_batches": [
     "0.1",
@@ -27,13 +27,14 @@
     "6.3",
     "7.1",
     "7.2",
-    "7.3"
+    "7.3",
+    "7.4"
   ],
-  "next_batch": "7.4",
+  "next_batch": null,
   "run_id": "phase7-20261012T005219Z-a86649e6",
-  "lease_expires_at": "2026-10-12T03:01:09.643782+00:00",
+  "lease_expires_at": null,
   "updated_on": "2026-10-12",
-  "stop_reason": null,
+  "stop_reason": "Authorized Phase7 batches 7.1\u20137.4 complete; Release1.1 candidate accepted; legacy default retained.",
   "release_1_1_authorized": true,
   "phase7_authorization": {
     "ruling": "R5",
@@ -44,16 +45,16 @@
   },
   "record": "docs/FB7.4_Record.md",
   "phase7_job_register": "docs/FB7_R5_Authorization.md",
-  "activity": "All Phase7 evaluation/cost gates passed; raw evidence saved. Assembling and verifying the clean Release1.1 candidate.",
+  "activity": "Complete: frozen evaluation, costs, durable evidence, source package and clean delivery verified.",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
   "automation_enabled": false,
   "automation_status": "Verified disabled on 2026-10-12; no schedule change made.",
-  "goal_complete": false,
+  "goal_complete": true,
   "release_1_0_complete": true,
   "release_decision": "accepted",
-  "release_1_1_decision": "pending",
+  "release_1_1_decision": "accepted_candidate",
   "batch_6_3_exit_gate_verified": true,
-  "last_implementation_checkpoint": "28449e49d9638b970bc055530bac8c230069a26d",
+  "last_implementation_checkpoint": "3d9ee18ffb73a00789db8818c25191aea6b2469d",
   "last_verified_freeze": "03ad3ddc069b501aae7da0f700d234499dfd3bbc9ae504b5a2be89334004da8e",
   "accepted_method_inventory": "evidence/Corrective5/attempt1/Accepted_Method_Inventory.json",
   "pre_phase7_head": "452063e2ab297ed41a234b92ae6a2dd7874f3007",
@@ -61,5 +62,8 @@
   "pre_phase7_state_blob": "dc21dd724ab28ba3470ce7534dd00bb7828de335",
   "history_note": "The complete prior state and all its histories are preserved byte-for-byte in pre_phase7_state. Historical statements that R5 is absent are superseded only by the present explicit authorization. Release 1.0 acceptance is unchanged.",
   "blocker": null,
-  "recovery_evidence": "evidence/FB7.1/Recovery_20261012.json"
+  "recovery_evidence": "evidence/FB7.1/Recovery_20261012.json",
+  "phase7_complete": true,
+  "release_1_1_candidate_commit": "689aabde7927cfb993245e35265bb9ad72b5d210",
+  "delivery_decision": "evidence/FB7.4/Delivery_Decision.json"
 }

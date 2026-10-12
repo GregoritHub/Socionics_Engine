@@ -54,3 +54,7 @@
 ## Limits
 
 [source_defined] This is the authorized engineering hypothesis, not a model of biological energy, psychological calibration or subtype identification. There is no energy regeneration, energy-based route optimization, conditioning feedback, new goal generation or default promotion. The sealed baseline and unrelated Shell research are preserved. Existing finite-world/workflow bounds and the separately owed, nonblocking sealed 5.2.1 reference-kernel rerun are unchanged. No theoretical ledger item is closed by this implementation.
+
+## Final delivery
+
+[machine-checked] The [final decision](../evidence/FB7.4/Delivery_Decision.json) accepts the candidate and completes batches 7.1–7.4. Clean extraction verified all 1,398 frozen files, 1,093 sealed-baseline files, both contract hashes and four focused restoration/conditioning checks. All eight measured model/core checkpoints exactly match their saved panel counterparts across all four cost samples. The immutable [candidate source snapshot](https://github.com/GregoritHub/Socionics_Engine/archive/689aabde7927cfb993245e35265bb9ad72b5d210.zip) is pinned to commit 689aabde7927cfb993245e35265bb9ad72b5d210. The separately verified local ZIP's identity is recorded in the receipt; GitHub's archive packaging may produce a different compressed-file hash from the same tree. The candidate contains assembly-era administrative state; this later receipt governs completion without changing executable source. The legacy default is retained and continuation remains disabled.
