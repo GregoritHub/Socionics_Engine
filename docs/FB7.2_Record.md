@@ -11,3 +11,5 @@
 [machine-checked] Pre-extension checkpoint and audit are in evidence/FB7.1/legacy-checkpoint. An optional serial pre-extension full regression was interrupted (exit 130) before source changes; it is uncredited. The exact FB5.3 and FB5.4 archives were materialized using their existing indices, SHA256 verified and only missing members restored; existing bytes matched. Other Phase5 raw inputs were checked against their manifests. Archive identity and historical failures are preserved.
 
 [open] FB7.2 remains incomplete until full regression and focused gates pass. FB7.3 and FB7.4 have not started. Release1.0 acceptance is unchanged; legacy-r4 remains default; no conditioning feedback or theoretical closure.
+
+[machine-checked] Acceptance supersedes the pending status above: attempt1 passed all 749 distinct methods, including every exact one of the 742 accepted IDs and seven new energy methods; no missing IDs, no failed IDs, 1,392 frozen files unchanged. Source implementation checkpoint: 28449e49d9638b970bc055530bac8c230069a26d. Raw evidence saved in Raw_Evidence_Index.json. FB7.2 exit gate complete; next FB7.3.

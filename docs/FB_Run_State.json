@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "7.2",
+  "current_batch": "7.3",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -25,9 +25,10 @@
     "6.1",
     "6.2",
     "6.3",
-    "7.1"
+    "7.1",
+    "7.2"
   ],
-  "next_batch": "7.2",
+  "next_batch": "7.3",
   "run_id": "phase7-20261012T005219Z-a86649e6",
   "lease_expires_at": "2026-10-12T01:37:43.999893+00:00",
   "updated_on": "2026-10-12",
@@ -42,7 +43,7 @@
   },
   "record": "docs/FB7.2_Record.md",
   "phase7_job_register": "docs/FB7_R5_Authorization.md",
-  "activity": "7.2 opt-in implementation checkpoint; full frozen 742-method accepted regression plus seven new methods running in this session; acceptance pending.",
+  "activity": "7.2 complete: 749 exact passing methods and unchanged freeze; implementing observation-only conditioning.",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
   "automation_enabled": false,
   "automation_status": "Observed disabled on 2026-10-11; no schedule change made.",
@@ -51,7 +52,7 @@
   "release_decision": "accepted",
   "release_1_1_decision": "pending",
   "batch_6_3_exit_gate_verified": true,
-  "last_implementation_checkpoint": "3c6c3fcc7d12ae0effd553a5f06c9fde3abb93d3",
+  "last_implementation_checkpoint": "28449e49d9638b970bc055530bac8c230069a26d",
   "last_verified_freeze": "3e9063a69252d09a850fd003b86d331bc8e39b7f6bdfcab3c11d03bb553bf5e6",
   "accepted_method_inventory": "evidence/Corrective5/attempt1/Accepted_Method_Inventory.json",
   "pre_phase7_head": "452063e2ab297ed41a234b92ae6a2dd7874f3007",

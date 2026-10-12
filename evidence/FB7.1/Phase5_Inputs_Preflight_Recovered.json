@@ -1,0 +1,38 @@
+[
+  {
+    "batch": "5.1",
+    "entries": 130,
+    "missing": [],
+    "changed": []
+  },
+  {
+    "batch": "5.2",
+    "entries": 78,
+    "missing": [],
+    "changed": []
+  },
+  {
+    "batch": "5.3",
+    "entries": 114,
+    "missing": [],
+    "changed": []
+  },
+  {
+    "batch": "5.4",
+    "entries": 237,
+    "missing": [],
+    "changed": []
+  },
+  {
+    "batch": "5.5",
+    "entries": 165,
+    "missing": [],
+    "changed": []
+  },
+  {
+    "batch": "5.6",
+    "entries": 200,
+    "missing": [],
+    "changed": []
+  }
+]

@@ -1,0 +1,1352 @@
+[
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/exhaustion-engine.json.gz",
+    "sha256": "19b151d132976364a8b4e5bf47cf6dc22c6b5322b9157e7e25e5df0efa0a5e5d",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/exhaustion-population.json.gz",
+    "sha256": "27469ed3dc22c1e84c26c8692da505569dd6b7d22e69dcb056f3bafdf0bded85",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/fair-engine.json.gz",
+    "sha256": "6e9b5717d1dbbe83098f8d6a4d110e3e7e1cb24a70a6d24aed09c61c8ef8dda3",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/fair-population.json.gz",
+    "sha256": "ffe766dc2648d6cdcca17be396e0127abb45c724167bb35ecc3a562847ebd11c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/interrupted-engine.json.gz",
+    "sha256": "fd40ae60d5368e06406a4482cd847a015bf2c36f83b75bc5938768a8e6250cc4",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/interrupted-population.json.gz",
+    "sha256": "57fe90ded523712be5d257cc13880bfcddc4ebc2f5e8393077e61b8961014895",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/material-feedback-engine.json.gz",
+    "sha256": "ea7354b170cf7e378ab2736f0b72672d13d0c58389eb6ce082dabd3a6b3f8900",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/material-feedback-population.json.gz",
+    "sha256": "6e5415d6566b7380dedb0d57b0ec9d0fa8bdd0bff1af4f91238154015af557af",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/mixed-engine.json.gz",
+    "sha256": "bb28f95ad248578ed3c9daa0d170c49f1005bb9253f10ada74acea7e4ba3758b",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/mixed-population.json.gz",
+    "sha256": "e271e1557fa0ac52ba3d3dc5bd55ccf034641e6396e4ae1a4713b324ddcbbd39",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/repetition-engine.json.gz",
+    "sha256": "52cf2ed3fa3e7cdbc7334ae38c4c777dc57da918436f437dabb48aca99c40f54",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.1/attempt4/matrix/repetition-population.json.gz",
+    "sha256": "96c1d1ae5325939b3d01ce686983de8f3596d206a3f86b9027a30e1a9bc32f97",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.1"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/default-17-engine.json.gz",
+    "sha256": "13391060a09f8e4a095ebe1a53df6afc5f77128c719939b048bff4c29e7d52d3",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/default-17-population.json.gz",
+    "sha256": "783ef0137e179def7489472c03b82ad1c6c6f1c1fbd9a47a77238ea6f5d6f4c7",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/default-43-engine.json.gz",
+    "sha256": "012c2573b8a6ec019e2f087610ac69d6a6b2c003eff57ccd540648920014c060",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/default-43-population.json.gz",
+    "sha256": "dcbada4f2b0b01b28783443d14514c835e796bf2b452b800f3dee618280c6662",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/default-89-engine.json.gz",
+    "sha256": "012c2573b8a6ec019e2f087610ac69d6a6b2c003eff57ccd540648920014c060",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/default-89-population.json.gz",
+    "sha256": "dcbada4f2b0b01b28783443d14514c835e796bf2b452b800f3dee618280c6662",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/diagnostic-17-engine.json.gz",
+    "sha256": "5f26df10a0ca5b20b926daf9e7f732f7d1c79d4a538593b18c268f5f99bfec60",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt0-precommit-population/diagnostic-17-population.json.gz",
+    "sha256": "610470fcb6d5a4d16d6e5250349735469b1934b192e4379e26eadcc8849269f8",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/default-17-engine.json.gz",
+    "sha256": "13391060a09f8e4a095ebe1a53df6afc5f77128c719939b048bff4c29e7d52d3",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/default-17-population.json.gz",
+    "sha256": "783ef0137e179def7489472c03b82ad1c6c6f1c1fbd9a47a77238ea6f5d6f4c7",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/default-43-engine.json.gz",
+    "sha256": "012c2573b8a6ec019e2f087610ac69d6a6b2c003eff57ccd540648920014c060",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/default-43-population.json.gz",
+    "sha256": "dcbada4f2b0b01b28783443d14514c835e796bf2b452b800f3dee618280c6662",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/default-89-engine.json.gz",
+    "sha256": "012c2573b8a6ec019e2f087610ac69d6a6b2c003eff57ccd540648920014c060",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/default-89-population.json.gz",
+    "sha256": "dcbada4f2b0b01b28783443d14514c835e796bf2b452b800f3dee618280c6662",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/diagnostic-17-engine.json.gz",
+    "sha256": "5f26df10a0ca5b20b926daf9e7f732f7d1c79d4a538593b18c268f5f99bfec60",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.2/attempt1/population/diagnostic-17-population.json.gz",
+    "sha256": "610470fcb6d5a4d16d6e5250349735469b1934b192e4379e26eadcc8849269f8",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.2"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/exhausted-wallet.json.gz",
+    "sha256": "51d2a1625c3ffee161bdd8a3b6795c09976a70b7db671cc0cd0b826b20ecd791",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/finite-turn-budget.json.gz",
+    "sha256": "eb5b826b2cf584d5ea68f8a5fcbf96c1d8a3e901d6c91769dbf2500865a4ff32",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/generated-chain.json.gz",
+    "sha256": "8b20b1ee985a7a945ea9659a4517b1db1883c4df36e9865984196138d07b9cb8",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/interrupted-comparison.json.gz",
+    "sha256": "eb5b826b2cf584d5ea68f8a5fcbf96c1d8a3e901d6c91769dbf2500865a4ff32",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/interrupted-feedback.json.gz",
+    "sha256": "a869fa05f79ee511a5b3a56befb9b0fea3eec0f39abfd80b418708a4c9995d62",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/restore-comparison.json.gz",
+    "sha256": "82473ef2991fe0fadf1d92aca0a05324232608b48c5d56a28424dd12d8e0146a",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/restore-feedback.json.gz",
+    "sha256": "82473ef2991fe0fadf1d92aca0a05324232608b48c5d56a28424dd12d8e0146a",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.3/attempt1/withheld-generated-handoff.json.gz",
+    "sha256": "7b263aa0e5b1227787bed215f9fbc8b26bade3ecdadb0184cf162aa2f24333b1",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.3"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/cancelled-child.json.gz",
+    "sha256": "496f43f58b27f42661e1187264ec8d9859e4173db4f5990d3c890c52162e0dd4",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/coordinate-mobilize-withheld.json.gz",
+    "sha256": "dc2acbe1334fa5aa9eaeb392d93279799fdb9fd3f6834174b185bafd067b0ac9",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/coordinate-mobilize.json.gz",
+    "sha256": "e18ec6522e1d6803e1b4f0b50d3365f773bd4dec2f5c73cb2907c9fcbfefa379",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/finite-budget.json.gz",
+    "sha256": "7cac81b09a5aab5ab887f2757b9f3bcf6655f9571c73b90ef3bb403abd9f13b1",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/institutionalize-educate-withheld.json.gz",
+    "sha256": "76fa90f56e9d59a244f5a9b995596ecca5200c0c20e63f698ce5dbcb4af10275",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/institutionalize-educate.json.gz",
+    "sha256": "65e34591eab1a50311a198e8e85ff92f0edba53a585538bbd4447bb2baeec145",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/organize-integrate-apply-withheld.json.gz",
+    "sha256": "5350d09c7162a8d821a550151ce2f358d47c4520cf00779eb26481fdc9f3d230",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/organize-integrate-apply.json.gz",
+    "sha256": "2cdbd6e8eb5414fddefd840ede7a8e03f95c85e1035817d19456f47fee163268",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/share-commune-identify-interrupted.json.gz",
+    "sha256": "d03ed9d05ea04f6f76ef184853e3b2d7d57c6786f1126fc633ae47910f334556",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/share-commune-identify-restore.json.gz",
+    "sha256": "a404c6152b269103d5a78bcf8397ae12fb52156452e0a14942435afcdb07dba8",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/share-commune-identify-withheld.json.gz",
+    "sha256": "98cf1b18f59febf9383c59d69dea51a577c0f78d6824daeb0f824093ae88b6dc",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/share-commune-identify.json.gz",
+    "sha256": "4ea84eaae5b82b8f3716b7135fbadb69f26095aba4d699e423a5e222a655e356",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/theorize-apply-embody-interrupted.json.gz",
+    "sha256": "287d56cfaacc456003dd781e08ae7cb2659e0b9f112881db55d7eea5aaad116e",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/theorize-apply-embody-restore.json.gz",
+    "sha256": "82e06a8b101f361ec9bd0950b6d78f2ffc886d2ed4f500e05dd2288b74ef7045",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/theorize-apply-embody-withheld.json.gz",
+    "sha256": "7a2664ca582b93fd64a49086b1f1a3cdd74da570662090af2c937302c510606c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt1/theorize-apply-embody.json.gz",
+    "sha256": "978ad3b02640668b62b72b4328a84fb6e4e29549d4a7b9f62a5c7194e6602390",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/cancelled-child.json.gz",
+    "sha256": "496f43f58b27f42661e1187264ec8d9859e4173db4f5990d3c890c52162e0dd4",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/coordinate-mobilize-withheld.json.gz",
+    "sha256": "dc2acbe1334fa5aa9eaeb392d93279799fdb9fd3f6834174b185bafd067b0ac9",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/coordinate-mobilize.json.gz",
+    "sha256": "e18ec6522e1d6803e1b4f0b50d3365f773bd4dec2f5c73cb2907c9fcbfefa379",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/finite-budget.json.gz",
+    "sha256": "40fbc2da8e35bd27c06aa0a5eb0c247f5341148ec28825bcd79606a7047f6447",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/institutionalize-educate-withheld.json.gz",
+    "sha256": "76fa90f56e9d59a244f5a9b995596ecca5200c0c20e63f698ce5dbcb4af10275",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/institutionalize-educate.json.gz",
+    "sha256": "65e34591eab1a50311a198e8e85ff92f0edba53a585538bbd4447bb2baeec145",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/organize-integrate-apply-withheld.json.gz",
+    "sha256": "5350d09c7162a8d821a550151ce2f358d47c4520cf00779eb26481fdc9f3d230",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/organize-integrate-apply.json.gz",
+    "sha256": "2cdbd6e8eb5414fddefd840ede7a8e03f95c85e1035817d19456f47fee163268",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/share-commune-identify-interrupted.json.gz",
+    "sha256": "19a2e6d970c06f64f4a84489a87d50c9b595379fd93502370232fb2a051ccddf",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/share-commune-identify-restore.json.gz",
+    "sha256": "a6d671003dcf35068817bf4e26531b6691c60c00614bc13719ec2102447b6ba9",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/share-commune-identify-withheld.json.gz",
+    "sha256": "248fca338ab2988e0a0ae3e99f904c9ee1d209beccc63a4311cfbfb0e7a3f490",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/share-commune-identify.json.gz",
+    "sha256": "57dc8eb8f55341d5e652c5184a2ea0832833e02610f2a429b504d74e24d628c8",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/theorize-apply-embody-interrupted.json.gz",
+    "sha256": "287d56cfaacc456003dd781e08ae7cb2659e0b9f112881db55d7eea5aaad116e",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/theorize-apply-embody-restore.json.gz",
+    "sha256": "82e06a8b101f361ec9bd0950b6d78f2ffc886d2ed4f500e05dd2288b74ef7045",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/theorize-apply-embody-withheld.json.gz",
+    "sha256": "7a2664ca582b93fd64a49086b1f1a3cdd74da570662090af2c937302c510606c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.4/attempt2/theorize-apply-embody.json.gz",
+    "sha256": "978ad3b02640668b62b72b4328a84fb6e4e29549d4a7b9f62a5c7194e6602390",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.4"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cancelled-native-child.json.gz",
+    "sha256": "946e54ecdf344be17ca97afccd2a8c7dae89b6c06ed021f0dc18bb73aab58068",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-00-withheld.json.gz",
+    "sha256": "59ca952372955ea9f7b02ad347468f3f4537de6dbdb259c00819fc3c74495e00",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-00-witness.json.gz",
+    "sha256": "bfcbb177b5c37a75301831316df9785d62e2daceaa1ea2eb8b8c30097dc72a9a",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-01-withheld.json.gz",
+    "sha256": "62683656afba5c0d91020507d7220974c74e7fd8e621c60b2a4793dfe5975c87",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-01-witness.json.gz",
+    "sha256": "422e57e5e06667ad7bb4290615ae95e9cb8d7e0adee471e3928120f7afe16d99",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-02-withheld.json.gz",
+    "sha256": "7b50600abbf53bd712cb558745bf615a303bbf746056b52913aca899b0b2f5b5",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-02-witness.json.gz",
+    "sha256": "e619d84ba638140bb25e7c9e648c34ec5bcfb7d8f41d589662d0d019ef2e0c1d",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-03-withheld.json.gz",
+    "sha256": "f823035d9399464a86a348d5303075c0e3c9250a6cb424a6fbcd1b9957006ac2",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-03-witness.json.gz",
+    "sha256": "99addcdd14f2e4fbf5af0111feb5f5d9b43ca9620267c2d5d152c3b0a8e3e229",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-04-withheld.json.gz",
+    "sha256": "f67c97e72abdab4159d619a4f6eecfcc3bf8292ef3dc8fdec5abe0e937db8a29",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-04-witness.json.gz",
+    "sha256": "139cbde04cb85a66f5bbc7d1a7c1f36a9714f16b8ebfbfd0304f7e068c22a841",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-05-withheld.json.gz",
+    "sha256": "d250d1cd26e5c483d3c9e6b52887a774abb8ed888f80e06f5e7db8ac6f45a97a",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-05-witness.json.gz",
+    "sha256": "1e90bd5f38a4a60bef5ffb46ab768f7a339b066bcb48af0ce8d953e63555c108",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-06-withheld.json.gz",
+    "sha256": "7df6c5056774110a94796d689b51f5065a21e6d7f1bca2c85d5854d405b32a7d",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-06-witness.json.gz",
+    "sha256": "b8df46795aa269be56bd0afbce97f158c55edb1164becb302d7680a954d43242",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-07-withheld.json.gz",
+    "sha256": "117402ae1a336c81456c26051eda8d15aea81d7839133e4629a99525570c5576",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-07-witness.json.gz",
+    "sha256": "98c6a25571afdb6fdf01a41470e427cb4599e04723b678188b3abacce03d47e2",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-08-withheld.json.gz",
+    "sha256": "216f90c317f0543830bb4c4da1fc826cd8c4d5d96a9282a5bd3acd9bd949a0b9",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-08-witness.json.gz",
+    "sha256": "c4847b2c5fb938fb3cf14fe1e6d8437df1f7c7c178e191e125b32522c9a25fcc",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-09-withheld.json.gz",
+    "sha256": "88be83dd4285c196f7b04f0276525c0980a1d0e2efc75e52fca9f2a3f5bd14e2",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-09-witness.json.gz",
+    "sha256": "dff767fc5728e07bd6375e27d5d827776940567c83209c5e5c65ea1a341e151b",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-10-withheld.json.gz",
+    "sha256": "066e28ca25ada60036b54dbaaa06a72c6a706ef6eb6b274f33717ea2259087f7",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-10-witness.json.gz",
+    "sha256": "d8c659621a84a96ee7184ab38cc223939524d36cab27d4ba86a26079bc7566f7",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-11-withheld.json.gz",
+    "sha256": "6051dfcf7082aee43a5d16ff5671843cfda268d8c128347911ef1a94dddb5ab9",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-11-witness.json.gz",
+    "sha256": "a6f80432db81c97ace250617fb1ea5654e5fd8fca935d0c009f9d0b4223ff5f4",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-12-withheld.json.gz",
+    "sha256": "21ef3bf925421750fed4fc746832b113445acc652e3b81936fe77a6c0093d0f1",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-12-witness.json.gz",
+    "sha256": "9669001f7e604d4d9d7dce7fbd9e2f08609b30a17d5e1521eaa11964b9f68eb1",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-13-withheld.json.gz",
+    "sha256": "28df69491a80d1d2c2353b3aac19d815da92731d6047d597486c9e9fc73a7576",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-13-witness.json.gz",
+    "sha256": "36248385a7012e10576d8c1a88f42bf1445101691756a6d06731bb1bfbaa91f3",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-14-withheld.json.gz",
+    "sha256": "8ef8ba1af13383ff2c2e4c98a7709d2ed4bb463e4e61107fe042a6c333aea867",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-14-witness.json.gz",
+    "sha256": "11b388aa8c586c93d8273f00888e46c83ee538429e6642869e0502acd665e19c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-15-withheld.json.gz",
+    "sha256": "c8e07fcf8e3e500876895af72a2344caa33ab2faeee265d4a7b94367e4f5ceda",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-15-witness.json.gz",
+    "sha256": "917e1ae1370a128addd3eeb79109bd791100ed05c5c411ce1dd1448a2c657596",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-16-withheld.json.gz",
+    "sha256": "c30db051c89246754b22f0acd66b570abe0618c38b175dcd5c93e57f3c88ce01",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-16-witness.json.gz",
+    "sha256": "10afd3029c6a2a1f6f83355c41956facf20d687ea49cde1dccea72d4de76ff16",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-17-withheld.json.gz",
+    "sha256": "fd98695cee159b65422372c0fe0a434ce3f25a3200af5e7996e1eebacdfea8ae",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-17-witness.json.gz",
+    "sha256": "ed171663cc494b3eb4e307d3177f1a78d2abd3d0b2ea94506ec2ad128c20f489",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-18-withheld.json.gz",
+    "sha256": "ad0e4916706ef9250482abbb0e0f089c6f88946cf6928bdf95228d2b4b65f20b",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-18-witness.json.gz",
+    "sha256": "81e09113e9057f2351bdb57b176c6cb3b5de5faf8f881c028007d8f7f5e97ee4",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-19-withheld.json.gz",
+    "sha256": "f7ae67710b325f573f2c1447a99c05423990c9cefe02f98a4b323cedea58d316",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-19-witness.json.gz",
+    "sha256": "876b4fb9c23b7a5aa248594e492f88122537dc0059d3cce1145a9c16832aaa5c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-20-withheld.json.gz",
+    "sha256": "31afc37903dbbb727f293996a222aa82a218ee57dcaa9b2e444fa3afda4861d2",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-20-witness.json.gz",
+    "sha256": "78b6e81177c2fdc066d1d582cb7ae63439a61f32ea78ead231ad46cbed38ae6e",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-21-withheld.json.gz",
+    "sha256": "c91fe4f2d6f169c2fcb4b5f0a6a533ce52ae66128882cf74a6e1dee5ff97804f",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-21-witness.json.gz",
+    "sha256": "bd0ef15c1e018d8d0627d72e17f758f32e6f493c7e07c51715eb94a53d9669c2",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-22-withheld.json.gz",
+    "sha256": "babada3cb284c1168119dcc650b82ab00d31c1514d478cb5666f4e0e5c8f845c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-22-witness.json.gz",
+    "sha256": "7e70240520b320d0cd8ecda96d260f897e4d454cbec9c4106eb61774f841f72e",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-23-withheld.json.gz",
+    "sha256": "659cbb3113eb50c61e003263a4382beb1e5c12846f601c945b2da265bbcb145d",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-23-witness.json.gz",
+    "sha256": "8055ba18c3e331b640b5ae0a0d226c82aa03042daaa4a2633a43e501997c10b9",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-24-withheld.json.gz",
+    "sha256": "84e789edd52d2090d1cbc29161a2726a11b561b1fb88e96765943fc0e6b4cd97",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-24-witness.json.gz",
+    "sha256": "80990d088712516fa5354f0602a89b80b1c91d86ca2cf8d36a59ac09509a9b38",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-25-withheld.json.gz",
+    "sha256": "913d300f2f1517c771498e7b172d8e146aac3a5291aedcaf0d1df411e8264149",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-25-witness.json.gz",
+    "sha256": "c6c0c761d500f471b28e2a03d15c73cec12811645d14244d3ba85c149fcef1fc",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-26-withheld.json.gz",
+    "sha256": "ed3da8dadf0931e8d091447802b68c5aad4e35152fd80bc88e8e814e5fa6e758",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-26-witness.json.gz",
+    "sha256": "80279e4e7c50285007fae27c1a83de2077c2e9f796ed738cff6a991892621633",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-27-withheld.json.gz",
+    "sha256": "1c3663b2a70230ec881dd1ec594076c8fb9afdf3d4e490ce052af5a1b3052336",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-27-witness.json.gz",
+    "sha256": "9bfc0a1202c8660a5d91d310faa2adbd741996087707bf636e67bade76bca205",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-28-withheld.json.gz",
+    "sha256": "d47423347ed04b5b9e07b9c2d90796bc9bd0984cc920fd1b8b4c00140035947c",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-28-witness.json.gz",
+    "sha256": "2ce0d81e77f318cc7ba1289186a1a7911ff6ddd756233b7e1db9446029ff75dd",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-29-withheld.json.gz",
+    "sha256": "9ed815acb053fef9934af1f4e5efbcbfb534b4285914ffe19c65cebc0cbaa8ce",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-29-witness.json.gz",
+    "sha256": "81f48bd4a03d00d97c925508780a9dc2d93a6ef44d8777371f9919b187f0158e",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-30-withheld.json.gz",
+    "sha256": "289c30a140c5f6e036f1d0da2374491ef846888e0f102ad1cc0b8587d4dee701",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-30-witness.json.gz",
+    "sha256": "9edee64a3ab75e97a364e639819fba2179661d6111e15ed33c82954a1e69406b",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-31-withheld.json.gz",
+    "sha256": "0715cb6ec1abd554f7dbdacdff2f519fdca0e69f6094a8e7d3c3ce7056db7e30",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/cell-31-witness.json.gz",
+    "sha256": "ff4d5e250b5630b95bc4e994f1fbbce30faecaeb4b9b2acacfe2c15d44034c52",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/fair-social-pair.json.gz",
+    "sha256": "85f1c24678d3dc7f9c1c48df6e740130a3e52e9d53b81182d38abef38bd2741e",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/finite-turn-pending.json.gz",
+    "sha256": "cae4d27d8069c124e538062a32df8b46cc46d6f4bbc1fbbc238403d03ba3a243",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/restore-final.json.gz",
+    "sha256": "6beb93563a2f68547a27cd3f3bf2aeeedd5f4fb4be301b22423896712e1ac639",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/restore-interrupted.json.gz",
+    "sha256": "51fffa88b9a6b63350dcb3d1a977795eea810ab88ddf7b0248983df4c07708ab",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.5/attempt1/wallet-exhaustion.json.gz",
+    "sha256": "d63612cc5f1255b12d03ae67b7b0fdea6a1e24f324564eeb5e6ea05b96b87521",
+    "schema": "hle-full-crux-c7-workflow-selection-v4",
+    "batch": "5.5"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/cancelled-paid-work.json.gz",
+    "sha256": "ccd9c19e2ffa95dbb869c24031ac87d946bec2b0be97c2d21325e922baa4f9c5",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/finite-exhaustion.json.gz",
+    "sha256": "f19e9641dd29f971d9a628cd08a684720e18a0262773ab8ed743808f7664ca7f",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-01-initial-interruption.json.gz",
+    "sha256": "c62e30224b89aa8df690be5a32d095a3646250115b0193c7582460af4a12bb38",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-02-exact-correction-witness.json.gz",
+    "sha256": "4cfe5d48deeefc7d0100bff9e2337252cf00b3237bfa87fc63be655f93d301c7",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-03-off-target-correction.json.gz",
+    "sha256": "2397e51be020b1e09635cb37f48adb4724c712a50529cde44e43f889dbfc9667",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-04-same-target-recurrence.json.gz",
+    "sha256": "d922522cf0ba943baea82a4ec5e505e32c48785039c8e439c58cb04a22bad90a",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-05-changed-target-recurrence.json.gz",
+    "sha256": "9fdabe6ab068db6eca6005929e8dfd93f60c95b1fdc2f5a2b5bb2652719d3560",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-06-exact-correction-and-use.json.gz",
+    "sha256": "e7de34312322186bac29b469836c97e7d7652ed988ca6cb1d2655a1b81f44f3b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-07-changed-target-residual.json.gz",
+    "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-08-restored-final.json.gz",
+    "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/iee-undeformed.json.gz",
+    "sha256": "ca825c8955808b051a636cdf56aefafef7fef7a44a84d76efc681df1f108087d",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-01-initial-interruption.json.gz",
+    "sha256": "c15b0ae141bb1d25b16333544d9135ce6d1fcb8007b797af214a924d37202f65",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-02-exact-correction-witness.json.gz",
+    "sha256": "12f6da3859591667ba5b22d3711b38f4cc683c42085bb5fcea1befb1a48ead03",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-03-off-target-correction.json.gz",
+    "sha256": "741e6acf6230ebd67e1f6a0e68cbaf32c74f2f842ca12a9d2860ae1459f6436a",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-04-same-target-recurrence.json.gz",
+    "sha256": "935d770f7a9aea8ef69a5cf264858848df6768dc89830dbf84e65db162c22312",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-05-changed-target-recurrence.json.gz",
+    "sha256": "7923b0a88422c670a6e2df8edf38995d2dc52443e7ad959ac904e1d479e3ade2",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-06-exact-correction-and-use.json.gz",
+    "sha256": "06e5d0f9ad417003138623a9aa69555b6b5c5a071e6e86cacda6fd0a81fe4409",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-07-changed-target-residual.json.gz",
+    "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-08-restored-final.json.gz",
+    "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/sli-undeformed.json.gz",
+    "sha256": "29677d6aba44ff2fc7b70dceb1a993a9bed1c98b6f037d4163864fa2ebd4b0cb",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-exclude_route-after.json.gz",
+    "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-exclude_route-before.json.gz",
+    "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-exclude_route-still-interrupted.json.gz",
+    "sha256": "ff608934ba7a02f458eb100e95d0111d215082bdec1952933067b27a943c0b75",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-forecast-after.json.gz",
+    "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-forecast-before.json.gz",
+    "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-forecast-still-interrupted.json.gz",
+    "sha256": "49983b45414c1ae728cd074fd4b2982ddce5bbf2bbd7932f503ff6d5fcbd20f4",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-salience-after.json.gz",
+    "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-salience-before.json.gz",
+    "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt2/matrix/unsupported-salience-still-interrupted.json.gz",
+    "sha256": "dbfb7a6a52886eb898babf66cf7836a3a8dbc77acc10fb34b0460eef57188c82",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/cancelled-paid-work.json.gz",
+    "sha256": "ccd9c19e2ffa95dbb869c24031ac87d946bec2b0be97c2d21325e922baa4f9c5",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/finite-exhaustion.json.gz",
+    "sha256": "f19e9641dd29f971d9a628cd08a684720e18a0262773ab8ed743808f7664ca7f",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-01-initial-interruption.json.gz",
+    "sha256": "c62e30224b89aa8df690be5a32d095a3646250115b0193c7582460af4a12bb38",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-02-exact-correction-witness.json.gz",
+    "sha256": "4cfe5d48deeefc7d0100bff9e2337252cf00b3237bfa87fc63be655f93d301c7",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-03-off-target-correction.json.gz",
+    "sha256": "2397e51be020b1e09635cb37f48adb4724c712a50529cde44e43f889dbfc9667",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-04-same-target-recurrence.json.gz",
+    "sha256": "d922522cf0ba943baea82a4ec5e505e32c48785039c8e439c58cb04a22bad90a",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-05-changed-target-recurrence.json.gz",
+    "sha256": "9fdabe6ab068db6eca6005929e8dfd93f60c95b1fdc2f5a2b5bb2652719d3560",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-06-exact-correction-and-use.json.gz",
+    "sha256": "e7de34312322186bac29b469836c97e7d7652ed988ca6cb1d2655a1b81f44f3b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-07-changed-target-residual.json.gz",
+    "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-08-restored-final.json.gz",
+    "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/iee-undeformed.json.gz",
+    "sha256": "ca825c8955808b051a636cdf56aefafef7fef7a44a84d76efc681df1f108087d",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-01-initial-interruption.json.gz",
+    "sha256": "c15b0ae141bb1d25b16333544d9135ce6d1fcb8007b797af214a924d37202f65",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-02-exact-correction-witness.json.gz",
+    "sha256": "12f6da3859591667ba5b22d3711b38f4cc683c42085bb5fcea1befb1a48ead03",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-03-off-target-correction.json.gz",
+    "sha256": "741e6acf6230ebd67e1f6a0e68cbaf32c74f2f842ca12a9d2860ae1459f6436a",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-04-same-target-recurrence.json.gz",
+    "sha256": "935d770f7a9aea8ef69a5cf264858848df6768dc89830dbf84e65db162c22312",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-05-changed-target-recurrence.json.gz",
+    "sha256": "7923b0a88422c670a6e2df8edf38995d2dc52443e7ad959ac904e1d479e3ade2",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-06-exact-correction-and-use.json.gz",
+    "sha256": "06e5d0f9ad417003138623a9aa69555b6b5c5a071e6e86cacda6fd0a81fe4409",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-07-changed-target-residual.json.gz",
+    "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-08-restored-final.json.gz",
+    "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/sli-undeformed.json.gz",
+    "sha256": "29677d6aba44ff2fc7b70dceb1a993a9bed1c98b6f037d4163864fa2ebd4b0cb",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-exclude_route-after.json.gz",
+    "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-exclude_route-before.json.gz",
+    "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-exclude_route-still-interrupted.json.gz",
+    "sha256": "ff608934ba7a02f458eb100e95d0111d215082bdec1952933067b27a943c0b75",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-forecast-after.json.gz",
+    "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-forecast-before.json.gz",
+    "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-forecast-still-interrupted.json.gz",
+    "sha256": "49983b45414c1ae728cd074fd4b2982ddce5bbf2bbd7932f503ff6d5fcbd20f4",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-salience-after.json.gz",
+    "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-salience-before.json.gz",
+    "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt3/matrix/unsupported-salience-still-interrupted.json.gz",
+    "sha256": "dbfb7a6a52886eb898babf66cf7836a3a8dbc77acc10fb34b0460eef57188c82",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/cancelled-paid-work.json.gz",
+    "sha256": "ccd9c19e2ffa95dbb869c24031ac87d946bec2b0be97c2d21325e922baa4f9c5",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/finite-exhaustion.json.gz",
+    "sha256": "f19e9641dd29f971d9a628cd08a684720e18a0262773ab8ed743808f7664ca7f",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-01-initial-interruption.json.gz",
+    "sha256": "c62e30224b89aa8df690be5a32d095a3646250115b0193c7582460af4a12bb38",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-02-exact-correction-witness.json.gz",
+    "sha256": "4cfe5d48deeefc7d0100bff9e2337252cf00b3237bfa87fc63be655f93d301c7",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-03-off-target-correction.json.gz",
+    "sha256": "2397e51be020b1e09635cb37f48adb4724c712a50529cde44e43f889dbfc9667",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-04-same-target-recurrence.json.gz",
+    "sha256": "d922522cf0ba943baea82a4ec5e505e32c48785039c8e439c58cb04a22bad90a",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-05-changed-target-recurrence.json.gz",
+    "sha256": "9fdabe6ab068db6eca6005929e8dfd93f60c95b1fdc2f5a2b5bb2652719d3560",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-06-exact-correction-and-use.json.gz",
+    "sha256": "e7de34312322186bac29b469836c97e7d7652ed988ca6cb1d2655a1b81f44f3b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-07-changed-target-residual.json.gz",
+    "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-08-restored-final.json.gz",
+    "sha256": "628ed12393ee17247ba03e1818da2ca5c545fe195382b34567181cc47ad5b369",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/iee-undeformed.json.gz",
+    "sha256": "ca825c8955808b051a636cdf56aefafef7fef7a44a84d76efc681df1f108087d",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-01-initial-interruption.json.gz",
+    "sha256": "c15b0ae141bb1d25b16333544d9135ce6d1fcb8007b797af214a924d37202f65",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-02-exact-correction-witness.json.gz",
+    "sha256": "12f6da3859591667ba5b22d3711b38f4cc683c42085bb5fcea1befb1a48ead03",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-03-off-target-correction.json.gz",
+    "sha256": "741e6acf6230ebd67e1f6a0e68cbaf32c74f2f842ca12a9d2860ae1459f6436a",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-04-same-target-recurrence.json.gz",
+    "sha256": "935d770f7a9aea8ef69a5cf264858848df6768dc89830dbf84e65db162c22312",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-05-changed-target-recurrence.json.gz",
+    "sha256": "7923b0a88422c670a6e2df8edf38995d2dc52443e7ad959ac904e1d479e3ade2",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-06-exact-correction-and-use.json.gz",
+    "sha256": "06e5d0f9ad417003138623a9aa69555b6b5c5a071e6e86cacda6fd0a81fe4409",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-07-changed-target-residual.json.gz",
+    "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-08-restored-final.json.gz",
+    "sha256": "792a076392411f72e8c71b4082971c142fc43e70296788fbb4d37ad004cbd03b",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/sli-undeformed.json.gz",
+    "sha256": "29677d6aba44ff2fc7b70dceb1a993a9bed1c98b6f037d4163864fa2ebd4b0cb",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-exclude_route-after.json.gz",
+    "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-exclude_route-before.json.gz",
+    "sha256": "a7101463baa48e8aff88d13a25e966b92c376e676fe97fad163970194c9f0301",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-exclude_route-still-interrupted.json.gz",
+    "sha256": "ff608934ba7a02f458eb100e95d0111d215082bdec1952933067b27a943c0b75",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-forecast-after.json.gz",
+    "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-forecast-before.json.gz",
+    "sha256": "4d60903b34d257f9d708170c3c9c3109aed7f41ee1454ec44ae4ae860e5e97ef",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-forecast-still-interrupted.json.gz",
+    "sha256": "49983b45414c1ae728cd074fd4b2982ddce5bbf2bbd7932f503ff6d5fcbd20f4",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-salience-after.json.gz",
+    "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-salience-before.json.gz",
+    "sha256": "f0a8c319692c0b2b7f65eb80a292c037b718e26147d405bc5e91f4f27647b4d6",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  },
+  {
+    "path": "evidence/FB5.6/attempt4/matrix/unsupported-salience-still-interrupted.json.gz",
+    "sha256": "dbfb7a6a52886eb898babf66cf7836a3a8dbc77acc10fb34b0460eef57188c82",
+    "schema": "hle-full-crux-c7-workflow-interruption-v1",
+    "batch": "5.6"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "schema": "phase7-evidence-index-v1",
+  "library_file_id": "libfile_1dfb157eec1881919d77b36a14662103",
+  "file_id": "file_00000000a07481f5825ce45d3349bfc8",
+  "file_name": "Socionics_Phase7_2_Evidence.zip",
+  "version": 0,
+  "bytes": 582510,
+  "sha256": "93aa1c137fe1dd19b653cc6a376cbb6cb80b63823b85f023ff18748dd6596d0d",
+  "restore": "Materialize exact archive, verify SHA256, extract into repository root; existing members must match. Covers FB7.1 and FB7.2 attempt1 plus both development runs and failed/interrupted logs."
+}
