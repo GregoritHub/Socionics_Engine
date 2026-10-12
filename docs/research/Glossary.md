@@ -89,4 +89,4 @@ Definitions below describe **this project's usage**. Source vocabulary, engineer
 | U / C / FB / Corrective | Unified-object layers; Full Crux milestones; final-build batches; preserved corrective batches. |
 | R21B / pyref | Preserved rebuild kernel versus the separately sealed 5.2.1 reference kernel not supplied for this release. |
 | `integrate` / Integrate | The inherited native request `integrate` realizes IT→I (Embody). The Crux route Integrate is ITS→ITS. Existing APIs keep their original meanings. |
-| Phase 7 / R5 | Proposed energy/conditioning experiment and the separate author ruling required to start it. Neither is implied by permission to improve documentation. |
+| Phase 7 / R5 | Energy/conditioning experiment and its separate author authorization, now recorded in [R5](../FB7_R5_Authorization.md). The [candidate](../HLE_Energy_Extension_Report_v1.md) keeps legacy pricing as default. |

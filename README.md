@@ -4,7 +4,7 @@ A Python research simulation for studying how situated participants interpret in
 
 The lab makes these ideas inspectable through finite scenarios, exact histories, independent auditors and matched controls. It does not establish that its mechanisms describe people.
 
-**Current status: Release 1.0 accepted; milestone C7 complete, 7/7.** The [final decision](evidence/Corrective6/Delivery_Decision.json) records the corrected full evaluation and verified clean delivery. Historical held releases remain in the repository. Model G and axis/DCNH formula tables are implemented as read-only structure; energy/conditioning dynamics and Phase 7 are not implemented or authorized.
+**Current status: Release 1.0 accepted; Phase 7 available as a Release 1.1 candidate.** The [Release 1.0 decision](evidence/Corrective6/Delivery_Decision.json) remains unchanged. The [energy extension report](docs/HLE_Energy_Extension_Report_v1.md) records the authorized Model G experiment and candidate decision. `legacy-r4` remains the default; `grade-v1` adds opt-in two-ledger pricing. Completed-use conditioning is an auditor-side observation and has no behavioral feedback. Historical held releases and invalidated attempts remain preserved.
 
 Quick slides:
 
@@ -63,7 +63,7 @@ The accepted run passed **54 required jobs, 742 distinct test methods, 81 isolat
 
 The canonical setting concerns tools, condition/repair, scalar resources and static interfaces. The workflow setting concerns timed maintenance runbooks, bounded to eight tasks, eight inputs, two participants, unit-duration serial scheduling and slots 0–1,000. Initial worlds and goals are supplied; there is no unrestricted natural-language understanding, spontaneous goal formation, general learning, unbounded population growth or universal Shell diagnosis.
 
-Model G grades do not price work in this release. Axis/DCNH mappings do not assign anyone a subtype or affect behavior. Wallets are finite, with no energy replenishment. The separate sealed 5.2.1 reference-kernel rerun remains owed and is explicitly non-blocking for Release 1.0. No optimization gain or pixel-rendering verification is claimed.
+Default `legacy-r4` keeps the accepted pricing. Experimental `grade-v1` prices Model A energy separately from unchanged time; see the [switch and reproduction guide](docs/Phase7_Reproduce.md). Axis/DCNH observations do not assign anyone a subtype or affect behavior. Wallets are finite, with no energy replenishment. The separate sealed 5.2.1 reference-kernel rerun remains owed and is explicitly non-blocking for Release 1.0. No optimization gain or pixel-rendering verification is claimed.
 
 ## Repository layout
 

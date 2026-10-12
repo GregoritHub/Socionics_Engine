@@ -70,3 +70,5 @@
 [machine-checked] FB7.2 complete: immutable opt-in grade-v1 wallet identity, exact two-currency payment, independent raw audit and next-payment resource stops; all 742 accepted IDs plus seven new methods pass unchanged freeze (749 total). Legacy checkpoint bytes/audit preserved. FB7.3 next.
 
 - FB7.3 accepted: standalone raw reader reproduced all 225 Phase5 aliases (130 unique engine histories), unchanged freeze, two boundary/tamper tests. Next: FB7.4.
+
+- FB7.4 candidate evaluation passed: P1/P2/P3 held; 620 pairs, 64 controls, all 751 methods, all 68 cost samples and inherited guards. Raw evidence saved by exact immutable identity. Clean candidate delivery check is pending; see FB7.4_Record.md and HLE_Energy_Extension_Report_v1.md.

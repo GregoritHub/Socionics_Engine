@@ -1,0 +1,14 @@
+{
+  "raw_evidence_visibility": "private archive; exact identities and hashes committed to the project",
+  "approval_review": {
+    "action": "Upload compressed corrective historical conditioning payload as GitHub blob",
+    "outcome": "rejected",
+    "reason": "Reviewer did not verify authorization for disclosing compressed historical payload to the destination",
+    "resolution": "No retry of the payload through another public path; retain raw supplement with the final private evidence archive. Public checkpoint contains source, already-public evidence member identities, source hashes and aggregate verification only."
+  },
+  "automation": {
+    "id": "6ac53cec617881919c9d68ea800adde1",
+    "is_enabled": false,
+    "observed_on": "2026-10-12"
+  }
+}

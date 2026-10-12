@@ -69,4 +69,4 @@ Prefer discriminating questions: does withholding a received result change a lat
 
 Freeze the executed code before a counted run. Compare exact method identities, not totals alone. Preserve raw worlds, command records, hashes, failures and controls. An ordinary auditor should reject a deliberately invalid control; a control reaching a desired endpoint does not make it valid. Report unsupported or untested claims explicitly.
 
-[open] Human validity, general learning, unrestricted meaning, universal Shell detection, source rulings and pyref reruns remain outside the software acceptance decision. Phase 7 requires separate explicit R5 authorization. Existing license notices and rights are unchanged.
+[open] Human validity, general learning, unrestricted meaning, universal Shell detection, source rulings and pyref reruns remain outside the software acceptance decision. Phase 7 was separately authorized by R5; its candidate evidence and unchanged default are documented in the [extension report](../HLE_Energy_Extension_Report_v1.md) and [reproduction guide](../Phase7_Reproduce.md). Existing license notices and rights are unchanged.

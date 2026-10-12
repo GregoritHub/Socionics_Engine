@@ -45,3 +45,7 @@ The accepted orchestration is [run_corrective_release.py](../../tools/run_correc
 ## Preserved layers
 
 `baseline/` is sealed. `reference/`, old protocols, source freezes and historical evidence are reference material, not cleanup candidates. New experiments should use a branch, separate output directories and a prospective protocol. Do not edit accepted evidence to make it match a new implementation. The large documentation history can be navigated through [docs/README.md](../README.md) without moving files and breaking archived paths.
+
+## Authorized Phase 7 extension
+
+[derived] `hle_unified/energy.py` implements creation-only model identity and opt-in once-only Model A energy admission. `energy_audit.py` independently reconstructs the literal CT prices. `conditioning_audit.py` derives completed element use and axis/formula observations from raw transactions; executors do not import it. Use the [switch/reproduction guide](../Phase7_Reproduce.md) and [candidate report](../HLE_Energy_Extension_Report_v1.md). The sealed baseline, legacy default, route selection and time prices are preserved.

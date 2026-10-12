@@ -1,6 +1,6 @@
 # Continuous build
 
-**Current status:** Release 1.0 is complete and the continuation automation is disabled. See [the accepted decision](../evidence/Corrective6/Delivery_Decision.json) and the [researcher documentation index](README.md). The instructions below preserve the build's recovery and saving procedure; they do not authorize restarting it or beginning Phase 7. Separately authorized documentation maintenance preserves the accepted engine and evidence.
+**Current status:** Release 1.0 remains accepted; the separately authorized Phase 7 experiment is available as a Release 1.1 candidate. See [the extension report](HLE_Energy_Extension_Report_v1.md), [R5](FB7_R5_Authorization.md), and the current run state for its exact delivery decision. The continuation automation remains disabled. Earlier statements below that Phase 7 lacked authorization are historical and superseded by R5.
 
 The user authorized the existing public GitHub repository and automatic batch continuation on 2026-10-06. Repository: https://github.com/GregoritHub/Socionics_Engine .
 

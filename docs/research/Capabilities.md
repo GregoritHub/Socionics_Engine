@@ -47,7 +47,7 @@ The [Shells guide](Shells_and_Compensation.md) explains why task success can coe
 | Capability | What is available | Boundary |
 | --- | --- | --- |
 | Model A and intertype relations | Eight-position stacks, exact fields, frames and relation/landing maps in the [kernel](../../baseline/HLE_Rebuild_R21B/hle/model_a.py) | Finite formal tables; no person typing or interpersonal-outcome prediction |
-| Model G | [Read-only queries](../../hle_unified/model_g.py) for A↔G positions, names, blocks, partners, grades, signs and the declared spine | No changed energy prices, conditioning, regeneration or behavioral feedback |
+| Model G | [Read-only queries](../../hle_unified/model_g.py) for A↔G positions, names, blocks, partners, grades, signs and the declared spine | Default pricing unchanged; opt-in [grade-v1 accounting and completed-use observations](../HLE_Energy_Extension_Report_v1.md). No regeneration or conditioning feedback |
 | Axes and DCNH formulas | [Read-only queries](../../hle_unified/axes.py) for position pairs, formula positions/planes and integer load/tilt recovery | No subtype assignment; source-transcription limits retained |
 | Independent assessment | Raw auditors reconstruct inputs, access, paid work, outputs and authority without calling the selector/executor being checked | Shared record definitions and formal geometry remain common; this is not an external human replication |
 | Release inspection | [Inspector v4](../HLE_Full_Crux_C7_Inspector_v4.html), per-cell ledger, full-run acceptance, hashes and clean-delivery verification | Data/filter/reference checks passed; no pixel-rendering claim |
@@ -58,7 +58,7 @@ The [Shells guide](Shells_and_Compensation.md) explains why task success can coe
 - Initial worlds, demands, opportunities and experimental conditions are supplied. No unlimited goal formation, open-ended institution invention, general learning or population growth is claimed.
 - Only approval formation is generated. Other Shell effects are explicit fixtures; correction does not grant blanket treatment of every effect kind or every context.
 - Acquired capacity, consent, understanding, authority, hypothetical possibility and actual completion are separate facts. A label never substitutes for one of them.
-- The current Model G/DCNH layer is structural. Phase 7's proposed two-currency pricing and conditioning experiment has not started.
+- Model G/DCNH structure is supplemented by the authorized Phase 7 candidate's opt-in two-currency pricing and read-only completed-use observations. These do not identify human subtypes or feed behavior.
 - Performance checks satisfy fixed host-specific tolerances. No speedup, constant-time behavior, bounded total history storage or calibrated human energy model is claimed.
 - The sealed pyref reruns, source questions and empirical human claims remain separate from release acceptance.
 

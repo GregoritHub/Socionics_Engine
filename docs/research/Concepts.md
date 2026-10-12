@@ -62,7 +62,7 @@ An automatic request identifies an owned outcome demand and accessible inputs. T
 
 Model G is exposed as a read-only mapping over the same position carrier, with its own names, blocks, signs and grades. Its table correspondence does not assert that Model G and Model A concepts mean the same thing. In particular, G2 Creative corresponds to A8 demonstrative, and G5 Demonstrative to A2 creative.
 
-The [axes module](../../hle_unified/axes.py) exposes four position pairs across value, DCNH formula positions, and integer load/tilt calculations on a supplied field. It does not derive a subtype from an actor's history or feed conditioning into selection. The proposed grade-based energy prices and conditioning ledger belong to unstarted Phase 7. Source transcription qualifications remain attached to the [Model G](../../contracts/sources/Model_G_Table_v1.json) and [axis](../../contracts/sources/Axis_Table_v1.json) tables.
+The [axes module](../../hle_unified/axes.py) exposes four position pairs across value, DCNH formula positions, and integer load/tilt calculations on a supplied field. It does not derive a subtype from an actor's history or feed conditioning into selection. The authorized [Phase 7 candidate](../HLE_Energy_Extension_Report_v1.md) adds opt-in grade-based energy prices and an independent completed-use ledger; the default remains legacy pricing. Source transcription qualifications remain attached to the [Model G](../../contracts/sources/Model_G_Table_v1.json) and [axis](../../contracts/sources/Axis_Table_v1.json) tables.
 
 ## What stays open
 

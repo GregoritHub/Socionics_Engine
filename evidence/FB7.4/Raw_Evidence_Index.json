@@ -1,0 +1,17 @@
+{
+  "file_name": "Socionics_Phase7_Final_Evidence.zip",
+  "bytes": 430635976,
+  "sha256": "2373fcddbc7be1520d63de7b6e5e557a4bba56f2fd3f0d66a5dc74ee7ae45a5f",
+  "files": 5956,
+  "raw_manifest": "evidence/FB7.4/Raw_SHA256.json",
+  "raw_manifest_sha256": "08ccfd25520e81eb5cb3330e858755d50486e1d1c223e35783d8949be9616b42",
+  "scope": "All regular FB7.3/FB7.4 evaluation, audit, cost and failed-attempt files through accepted costs1. Raw partition symlinks are excluded; their exact targets are included once under attempt2. Later delivery receipts are committed in Git.",
+  "crc_verified": true,
+  "source_freeze_sha256": "03ad3ddc069b501aae7da0f700d234499dfd3bbc9ae504b5a2be89334004da8e",
+  "library_file_id": "libfile_dda68c4de37c8191a14335fc37cd56ae",
+  "file_id": "file_0000000060ec820c9b7a2717b4fa5980",
+  "current_version_number": 0,
+  "path": "/Socionics_Phase7_Final_Evidence.zip",
+  "extraction": "Materialize the exact Library/file identity; verify archive bytes and SHA-256 before extracting at the repository root. Verify every member against the included Raw_SHA256.json. Original historical inputs remain in their existing pinned archives. For partition replay, recreate each file symlink from its summary to ../attempt2/<file>; alternatively run the unchanged serial verifier on attempt2.",
+  "saved": true
+}

@@ -19,3 +19,7 @@
 [machine-checked] All four independent audit partitions passed. Their disjoint union is exactly the original 620 pair IDs, with 548 ample pairs, 64 rejected withheld-child controls, no raw reconstruction failures, no execution imports and an unchanged source freeze. P1 and P2 held. P3 held in the preregistered core-diagnostic-17-tight-energy pair. Aggregate and component audit hashes are in Panel_Verification_Summary.json. No wallet, price, tolerance or fixture was tuned.
 
 [probe] Sequential cost measurements are now running after all panel/regression/audit workers completed. FB7.4 and final candidate delivery remain pending until costs and packaging are verified.
+
+[machine-checked] Costs1 completed all 68 samples, all six inherited guards passed, every restore was exact, and all four current legacy workload checkpoints equal the pre-extension reference. The same source freeze remained unchanged. Candidate packaging and clean delivery receipt are next; the report contains all three held predictions and bounded claims.
+
+[machine-checked] Raw FB7.3/FB7.4 evidence is saved as Socionics_Phase7_Final_Evidence.zip: 430,635,976 bytes, 5,956 regular files, SHA-256 2373fcddbc7be1520d63de7b6e5e557a4bba56f2fd3f0d66a5dc74ee7ae45a5f. Local ZIP CRC verification passed; the save receipt and exact identities are recorded in Raw_Evidence_Index.json. Historical raw input archives retain their original identities. The rejected public compressed-payload upload was not retried through another public route.

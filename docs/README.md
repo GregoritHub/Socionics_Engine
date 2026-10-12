@@ -1,6 +1,6 @@
 # Documentation index
 
-**Current release:** [Release 1.0 acceptance decision](../evidence/Corrective6/Delivery_Decision.json), recorded after the corrective full evaluation and clean delivery. Start with the [repository README](../README.md).
+**Current release:** [Release 1.0 acceptance](../evidence/Corrective6/Delivery_Decision.json) is preserved. The authorized Phase 7 experiment is available as a [Release 1.1 candidate](HLE_Energy_Extension_Report_v1.md). Start with the [repository README](../README.md).
 
 ## Researcher guides
 
@@ -16,6 +16,8 @@
 
 | Document | Use |
 | --- | --- |
+| [Energy extension report](HLE_Energy_Extension_Report_v1.md) | P1–P3 results, conditioning tables and Release 1.1 candidate decision |
+| [Phase 7 reproduction](Phase7_Reproduce.md) | Creation-only model switch, independent readers and exact evaluation commands |
 | [Specification v12](HLE_Full_Crux_Build_Specification_v12.md) | Current completion record plus preserved specification history |
 | [Release report v4](HLE_Full_Crux_C7_Release_Report_v4.md) | Accepted corrective evidence and bounded claims |
 | [Final ledger v3](../C7_Final_Ledger_v3.json) | Per-cell, per-setting evidence |
@@ -41,4 +43,4 @@ Original DOCX counterparts are in [project_sources](../project_sources/); they g
 
 `U1–U14` describe the successive unified-object build layers. `C1–C7` describe Full Crux milestones. `FB0.1–FB6.3` describe the final build. `Corrective1–6` preserve the later repairs, full rerun and acceptance. Older reports saying “held,” “next batch,” or “not implemented” are records of their own checkpoint, not the current release decision. Failed attempts remain inspectable.
 
-The [capability guide](research/Capabilities.md) links specific historical architecture documents where they explain an implementation. Read their last “next step” paragraphs historically. [Continuous build instructions](Continuous_Build.md) and [AGENTS.md](../AGENTS.md) are maintenance instructions, not a researcher quickstart. The build automation is stopped after Release 1.0; Phase 7 requires a separate explicit R5 ruling.
+The [capability guide](research/Capabilities.md) links specific historical architecture documents where they explain an implementation. Read their last “next step” paragraphs historically. [Continuous build instructions](Continuous_Build.md) and [AGENTS.md](../AGENTS.md) are maintenance instructions, not a researcher quickstart. The build automation remains disabled. Phase 7 was separately authorized by [R5](FB7_R5_Authorization.md); its current outcome is recorded in the run state and extension report.

@@ -1,0 +1,2788 @@
+{
+  "passed": true,
+  "source_unchanged": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "host": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "samples": 68,
+  "guards": [
+    {
+      "kind": "unchanged-native",
+      "world": "default-17",
+      "ratio": 1.0002377218915728,
+      "limit": 2,
+      "exact_checkpoint": true,
+      "passed": true
+    },
+    {
+      "kind": "unchanged-native",
+      "world": "default-43",
+      "ratio": 0.9758205283268934,
+      "limit": 2,
+      "exact_checkpoint": true,
+      "passed": true
+    },
+    {
+      "kind": "unchanged-native",
+      "world": "default-89",
+      "ratio": 0.9623946017263054,
+      "limit": 2,
+      "exact_checkpoint": true,
+      "passed": true
+    },
+    {
+      "kind": "unchanged-native",
+      "world": "diagnostic-17",
+      "ratio": 1.0200595953519533,
+      "limit": 2,
+      "exact_checkpoint": true,
+      "passed": true
+    },
+    {
+      "kind": "inactive-history",
+      "shared": false,
+      "medians": [
+        1.7042910219970508,
+        1.7666981059956015,
+        1.6934520349968807
+      ],
+      "ratio": 1.043252521763249,
+      "limit": 3,
+      "passed": true
+    },
+    {
+      "kind": "inactive-history",
+      "shared": true,
+      "medians": [
+        1.6709339419976459,
+        1.6985300830056076,
+        1.6840635469998233
+      ],
+      "ratio": 1.0165153991515485,
+      "limit": 3,
+      "passed": true
+    }
+  ],
+  "rows": [
+    {
+      "config": {
+        "id": "legacy-r4-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.30797531199641526,
+      "active_seconds": 1.664722557994537,
+      "active_cpu_seconds": 1.664719722,
+      "checkpoint_seconds": 0.08611564600141719,
+      "restore_seconds": 2.21720924499823,
+      "audit_seconds": 1.831102292999276,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3160611429993878,
+      "active_seconds": 1.7042910219970508,
+      "active_cpu_seconds": 1.704237387,
+      "checkpoint_seconds": 0.09280481900350424,
+      "restore_seconds": 2.2381690490001347,
+      "audit_seconds": 1.784295673998713,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3286239859953639,
+      "active_seconds": 1.7771102550032083,
+      "active_cpu_seconds": 1.7770809199999997,
+      "checkpoint_seconds": 0.09103998700447846,
+      "restore_seconds": 2.2485858780055423,
+      "audit_seconds": 1.72838706800394,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.311644483001146,
+      "active_seconds": 1.6764106470000115,
+      "active_cpu_seconds": 1.676395716,
+      "checkpoint_seconds": 0.09527847600111272,
+      "restore_seconds": 2.281244392004737,
+      "audit_seconds": 1.7162758330014185,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.31732695199752925,
+      "active_seconds": 1.7610566509974888,
+      "active_cpu_seconds": 1.761040513,
+      "checkpoint_seconds": 0.0976939489992219,
+      "restore_seconds": 2.4202596399991307,
+      "audit_seconds": 1.7280357600029674,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3020370109952637,
+      "active_seconds": 1.7431629089987837,
+      "active_cpu_seconds": 1.7431401420000001,
+      "checkpoint_seconds": 0.08982942199509125,
+      "restore_seconds": 2.362213118998625,
+      "audit_seconds": 1.8738669310041587,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3284362769991276,
+      "active_seconds": 1.640585988003295,
+      "active_cpu_seconds": 1.6404258159999998,
+      "checkpoint_seconds": 0.09008424799685599,
+      "restore_seconds": 2.2411299250015873,
+      "audit_seconds": 1.6786245189941837,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3173627959986334,
+      "active_seconds": 1.7368197100004181,
+      "active_cpu_seconds": 1.736760003,
+      "checkpoint_seconds": 0.09247010399849387,
+      "restore_seconds": 2.2152895760009415,
+      "audit_seconds": 1.7051646929976414,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.34520328900543973,
+      "active_seconds": 1.746202179005195,
+      "active_cpu_seconds": 1.7453671629999998,
+      "checkpoint_seconds": 0.08534637300181203,
+      "restore_seconds": 2.2553846090013394,
+      "audit_seconds": 1.8111205020031775,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3333986650031875,
+      "active_seconds": 1.7388899189973017,
+      "active_cpu_seconds": 1.738641144,
+      "checkpoint_seconds": 0.09208058199874358,
+      "restore_seconds": 2.3502411340014078,
+      "audit_seconds": 1.7704462449983112,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.32884807600203203,
+      "active_seconds": 1.7597906730006798,
+      "active_cpu_seconds": 1.759656658,
+      "checkpoint_seconds": 0.14881708299799357,
+      "restore_seconds": 2.2425115939986426,
+      "audit_seconds": 1.8185142919974169,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.34763171099621104,
+      "active_seconds": 1.7306395409977995,
+      "active_cpu_seconds": 1.7306049490000002,
+      "checkpoint_seconds": 0.10737321299529867,
+      "restore_seconds": 2.4151231209980324,
+      "audit_seconds": 2.0156461850056075,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3763604330015369,
+      "active_seconds": 19.98223310100002,
+      "active_cpu_seconds": 19.981383834,
+      "checkpoint_seconds": 0.3303277410013834,
+      "restore_seconds": 20.638937678995717,
+      "audit_seconds": 18.029570168997452,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "legacy-r4-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.32294873000500957,
+      "active_seconds": 19.126127315001213,
+      "active_cpu_seconds": 19.125462828,
+      "checkpoint_seconds": 0.40962107900122646,
+      "restore_seconds": 21.270712418001494,
+      "audit_seconds": 19.171627127005195,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3524918080001953,
+      "active_seconds": 20.12187521300075,
+      "active_cpu_seconds": 20.121331027,
+      "checkpoint_seconds": 0.3098130409998703,
+      "restore_seconds": 21.611729854004807,
+      "audit_seconds": 18.651016905001597,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "legacy-r4-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.31999558100505965,
+      "active_seconds": 19.83993148800073,
+      "active_cpu_seconds": 19.839323577,
+      "checkpoint_seconds": 0.3784882740001194,
+      "restore_seconds": 20.70140805200208,
+      "audit_seconds": 18.227971074993548,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3854373089998262,
+      "active_seconds": 1.9558021139964694,
+      "active_cpu_seconds": 1.955735013,
+      "checkpoint_seconds": 0.08056695899722399,
+      "restore_seconds": 2.617094174005615,
+      "audit_seconds": 1.8829108310019365,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 143331,
+      "checkpoint_sha256": "721a1475beaa82626c791ab9d75814d9750d9252e290c2ac209cc6e13fd75b7f",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.41981585099711083,
+      "active_seconds": 1.8643323950018384,
+      "active_cpu_seconds": 1.8640366529999999,
+      "checkpoint_seconds": 0.07410895400244044,
+      "restore_seconds": 2.2080271279992303,
+      "audit_seconds": 1.8088446819965611,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 143331,
+      "checkpoint_sha256": "721a1475beaa82626c791ab9d75814d9750d9252e290c2ac209cc6e13fd75b7f",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4545235449986649,
+      "active_seconds": 1.8430544219954754,
+      "active_cpu_seconds": 1.8430268120000002,
+      "checkpoint_seconds": 0.07547027900000103,
+      "restore_seconds": 2.6841188669932308,
+      "audit_seconds": 2.11880688599922,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 143331,
+      "checkpoint_sha256": "721a1475beaa82626c791ab9d75814d9750d9252e290c2ac209cc6e13fd75b7f",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4861857779978891,
+      "active_seconds": 2.1815741769969463,
+      "active_cpu_seconds": 2.1813237610000002,
+      "checkpoint_seconds": 0.11789995400613407,
+      "restore_seconds": 2.4930896859950735,
+      "audit_seconds": 1.8704668300051708,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 143331,
+      "checkpoint_sha256": "721a1475beaa82626c791ab9d75814d9750d9252e290c2ac209cc6e13fd75b7f",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3904854029970011,
+      "active_seconds": 1.836650612000085,
+      "active_cpu_seconds": 1.836557072,
+      "checkpoint_seconds": 0.121542248998594,
+      "restore_seconds": 2.563390198003617,
+      "audit_seconds": 1.7987119739991613,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.44331805300316773,
+      "active_seconds": 1.961946818002616,
+      "active_cpu_seconds": 1.9619274629999999,
+      "checkpoint_seconds": 0.09761569999682251,
+      "restore_seconds": 2.6546300959962537,
+      "audit_seconds": 1.8439977029993315,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4297705999997561,
+      "active_seconds": 1.7971546310000122,
+      "active_cpu_seconds": 1.7971177950000001,
+      "checkpoint_seconds": 0.08579392100364203,
+      "restore_seconds": 2.30105005200312,
+      "audit_seconds": 1.7518059029971482,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3844011120017967,
+      "active_seconds": 1.723931034000998,
+      "active_cpu_seconds": 1.7235457459999999,
+      "checkpoint_seconds": 0.085865927998384,
+      "restore_seconds": 2.2692193249968113,
+      "audit_seconds": 1.826087674999144,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3904786229977617,
+      "active_seconds": 1.744545626002946,
+      "active_cpu_seconds": 1.7445285839999998,
+      "checkpoint_seconds": 0.07967850500426721,
+      "restore_seconds": 2.1976431049988605,
+      "audit_seconds": 1.7724566699980642,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3804379249995691,
+      "active_seconds": 1.7668384060016251,
+      "active_cpu_seconds": 1.7665987890000001,
+      "checkpoint_seconds": 0.08251049200043781,
+      "restore_seconds": 2.354382716002874,
+      "audit_seconds": 1.8273249200065038,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3668935770037933,
+      "active_seconds": 1.681510487003834,
+      "active_cpu_seconds": 1.681371264,
+      "checkpoint_seconds": 0.07746787799987942,
+      "restore_seconds": 2.3315283929987345,
+      "audit_seconds": 1.801686967999558,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.368412456002261,
+      "active_seconds": 1.7371928170032334,
+      "active_cpu_seconds": 1.7371811270000002,
+      "checkpoint_seconds": 0.0898465970021789,
+      "restore_seconds": 2.2563482520054094,
+      "audit_seconds": 1.7228181960017537,
+      "checkpoint_bytes": 2330142,
+      "gzip_bytes": 141364,
+      "checkpoint_sha256": "8578051354c19a7d7fbd5173698d6c4450436c14b81296a32e761bf24d9918d0",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.36352970600273693,
+      "active_seconds": 19.653474420003477,
+      "active_cpu_seconds": 19.653210848,
+      "checkpoint_seconds": 0.33045992400002433,
+      "restore_seconds": 20.58200468600262,
+      "audit_seconds": 17.761119078000775,
+      "checkpoint_bytes": 7740223,
+      "gzip_bytes": 464902,
+      "checkpoint_sha256": "de784cf7c9bc7ffc545a9034ade6b731b6ff6661b021a19815d00e73c7cd0d54",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "grade-v1-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3956805869966047,
+      "active_seconds": 19.529528975996072,
+      "active_cpu_seconds": 19.529268988,
+      "checkpoint_seconds": 0.313437654003792,
+      "restore_seconds": 20.603408374001447,
+      "audit_seconds": 17.69441568199545,
+      "checkpoint_bytes": 7740223,
+      "gzip_bytes": 464902,
+      "checkpoint_sha256": "de784cf7c9bc7ffc545a9034ade6b731b6ff6661b021a19815d00e73c7cd0d54",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.35784112900000764,
+      "active_seconds": 19.57657155599736,
+      "active_cpu_seconds": 19.576326422,
+      "checkpoint_seconds": 0.32150453900248976,
+      "restore_seconds": 21.195573141005298,
+      "audit_seconds": 17.70433477700135,
+      "checkpoint_bytes": 7740223,
+      "gzip_bytes": 464902,
+      "checkpoint_sha256": "de784cf7c9bc7ffc545a9034ade6b731b6ff6661b021a19815d00e73c7cd0d54",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "grade-v1-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "grade-v1",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "model"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.40823436400387436,
+      "active_seconds": 19.579286176995083,
+      "active_cpu_seconds": 19.579018902,
+      "checkpoint_seconds": 0.3487131930014584,
+      "restore_seconds": 20.697779820002324,
+      "audit_seconds": 17.582324160001008,
+      "checkpoint_bytes": 7740223,
+      "gzip_bytes": 464902,
+      "checkpoint_sha256": "de784cf7c9bc7ffc545a9034ade6b731b6ff6661b021a19815d00e73c7cd0d54",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3209467120032059,
+      "active_seconds": 1.7040145999999368,
+      "active_cpu_seconds": 1.703334126,
+      "checkpoint_seconds": 0.09325107499898877,
+      "restore_seconds": 2.216517813001701,
+      "audit_seconds": 1.7320582149986876,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "reference-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.30991482899844414,
+      "active_seconds": 1.6587078540032962,
+      "active_cpu_seconds": 1.6584520120000001,
+      "checkpoint_seconds": 0.08490078400063794,
+      "restore_seconds": 2.114073290002125,
+      "audit_seconds": 1.6287218669967842,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.33332276700093644,
+      "active_seconds": 1.7038859710010001,
+      "active_cpu_seconds": 1.7037303040000003,
+      "checkpoint_seconds": 0.08645740600331919,
+      "restore_seconds": 2.075911134998023,
+      "audit_seconds": 1.8027365960006136,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3109044230004656,
+      "active_seconds": 1.7185136849948321,
+      "active_cpu_seconds": 1.718502681,
+      "checkpoint_seconds": 0.1083279990052688,
+      "restore_seconds": 2.3970797630026937,
+      "audit_seconds": 1.7324267599979066,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3191105490041082,
+      "active_seconds": 1.7136914559960132,
+      "active_cpu_seconds": 1.7136536210000002,
+      "checkpoint_seconds": 0.10303217099863105,
+      "restore_seconds": 2.465111510005954,
+      "audit_seconds": 1.83707642799709,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "reference-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.34590378300345037,
+      "active_seconds": 1.8741324669972528,
+      "active_cpu_seconds": 1.874124354,
+      "checkpoint_seconds": 0.08969983199494891,
+      "restore_seconds": 2.267633442999795,
+      "audit_seconds": 1.6833818629966117,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.326260280002316,
+      "active_seconds": 1.7798556799971266,
+      "active_cpu_seconds": 1.7787294249999999,
+      "checkpoint_seconds": 0.10241853500338038,
+      "restore_seconds": 2.312230780997197,
+      "audit_seconds": 1.7536293909943197,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-43",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 43,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.30325712299963925,
+      "active_seconds": 1.6255388470017351,
+      "active_cpu_seconds": 1.625518638,
+      "checkpoint_seconds": 0.09035895999841159,
+      "restore_seconds": 2.2820234690007055,
+      "audit_seconds": 1.722964533000777,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.31986225899890997,
+      "active_seconds": 1.8057190350009478,
+      "active_cpu_seconds": 1.8056147599999997,
+      "checkpoint_seconds": 0.08936558000277728,
+      "restore_seconds": 2.326094566997199,
+      "audit_seconds": 1.7013024870029767,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "reference-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.33535955700062914,
+      "active_seconds": 1.8068367339947145,
+      "active_cpu_seconds": 1.791820674,
+      "checkpoint_seconds": 0.09123653900314821,
+      "restore_seconds": 2.3039236410040758,
+      "audit_seconds": 1.768023272001301,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3211173849995248,
+      "active_seconds": 1.7864787970029283,
+      "active_cpu_seconds": 1.7864514370000002,
+      "checkpoint_seconds": 0.0889808930005529,
+      "restore_seconds": 2.214088045999233,
+      "audit_seconds": 1.8033029829966836,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-default-89",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 89,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3687068139988696,
+      "active_seconds": 1.8236695349987713,
+      "active_cpu_seconds": 1.823658181,
+      "checkpoint_seconds": 0.09526646699669072,
+      "restore_seconds": 2.27456571500079,
+      "audit_seconds": 1.7141648360047839,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 141224,
+      "checkpoint_sha256": "c7ab79a3f925ba7e16293e450eb48df87b66ac9583d0ca65d3739aaf6d725f14",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3186749480009894,
+      "active_seconds": 19.06341078800324,
+      "active_cpu_seconds": 19.059068657,
+      "checkpoint_seconds": 0.3452943040028913,
+      "restore_seconds": 19.895085377000214,
+      "audit_seconds": 17.49632272600138,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "reference-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.32266104399604956,
+      "active_seconds": 19.135197800998867,
+      "active_cpu_seconds": 19.134755232,
+      "checkpoint_seconds": 0.3363151750018005,
+      "restore_seconds": 20.173269769999024,
+      "audit_seconds": 17.67520971900376,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.32367965600133175,
+      "active_seconds": 19.44977683500474,
+      "active_cpu_seconds": 19.449433739,
+      "checkpoint_seconds": 0.3501409509990481,
+      "restore_seconds": 20.469663837000553,
+      "audit_seconds": 17.60735727699648,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "reference-diagnostic-17",
+        "root": "/workspace/scratch/cab01c7058d3/energy-reference",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": null,
+        "inactive": 0,
+        "shared": false,
+        "group": "reference"
+      },
+      "result": {
+        "done": true,
+        "turns": 216,
+        "counts": [
+          24,
+          24
+        ],
+        "stops": [
+          null,
+          null
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3098966190009378,
+      "active_seconds": 19.910474943993904,
+      "active_cpu_seconds": 19.910283404,
+      "checkpoint_seconds": 0.36114387300040107,
+      "restore_seconds": 20.90783664400078,
+      "audit_seconds": 17.828361041996686,
+      "checkpoint_bytes": 7732480,
+      "gzip_bytes": 464165,
+      "checkpoint_sha256": "68e2906f12c4cbc88ec9f112897bf85f19b85969b0cdb9d87e5179c1d441d43d",
+      "transactions": 537,
+      "native_completions": 48,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-False-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.33482390199787915,
+      "active_seconds": 1.7337301509978715,
+      "active_cpu_seconds": 1.731318015,
+      "checkpoint_seconds": 0.09076451500004623,
+      "restore_seconds": 2.2488023600017186,
+      "audit_seconds": 1.669405288004782,
+      "checkpoint_bytes": 2586031,
+      "gzip_bytes": 151698,
+      "checkpoint_sha256": "61156f925a7c3ebcd632e6acad74eb974be13945ec7f4d64ed9afe7e59cefe22",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "history-False-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3162029290033388,
+      "active_seconds": 1.691794899001252,
+      "active_cpu_seconds": 1.69178777,
+      "checkpoint_seconds": 0.10010692500509322,
+      "restore_seconds": 2.2588120700020227,
+      "audit_seconds": 1.7385378399994806,
+      "checkpoint_bytes": 2586031,
+      "gzip_bytes": 151698,
+      "checkpoint_sha256": "61156f925a7c3ebcd632e6acad74eb974be13945ec7f4d64ed9afe7e59cefe22",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-False-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.35106904699932784,
+      "active_seconds": 1.7666981059956015,
+      "active_cpu_seconds": 1.7653405810000002,
+      "checkpoint_seconds": 0.09775374599848874,
+      "restore_seconds": 2.238808459995198,
+      "audit_seconds": 1.791023801000847,
+      "checkpoint_bytes": 2586031,
+      "gzip_bytes": 151698,
+      "checkpoint_sha256": "61156f925a7c3ebcd632e6acad74eb974be13945ec7f4d64ed9afe7e59cefe22",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-False-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.35773248600162333,
+      "active_seconds": 1.7702232269948581,
+      "active_cpu_seconds": 1.7702084859999998,
+      "checkpoint_seconds": 0.1096750630022143,
+      "restore_seconds": 2.200228640002024,
+      "audit_seconds": 1.7494475760031492,
+      "checkpoint_bytes": 2586031,
+      "gzip_bytes": 151698,
+      "checkpoint_sha256": "61156f925a7c3ebcd632e6acad74eb974be13945ec7f4d64ed9afe7e59cefe22",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-False-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4311311619967455,
+      "active_seconds": 1.6737266929994803,
+      "active_cpu_seconds": 1.6734731909999998,
+      "checkpoint_seconds": 0.17341434999980265,
+      "restore_seconds": 2.6503339590053656,
+      "audit_seconds": 1.7981673090034747,
+      "checkpoint_bytes": 4840531,
+      "gzip_bytes": 221704,
+      "checkpoint_sha256": "d09bc85568a48e5fe646912d2b915ff7c4dd550d89df33367ab0801e3bec2e14",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "history-False-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.44556758199905744,
+      "active_seconds": 1.689644981001038,
+      "active_cpu_seconds": 1.6896171679999998,
+      "checkpoint_seconds": 0.17645559499942465,
+      "restore_seconds": 2.9075598519993946,
+      "audit_seconds": 1.998125940997852,
+      "checkpoint_bytes": 4840531,
+      "gzip_bytes": 221704,
+      "checkpoint_sha256": "d09bc85568a48e5fe646912d2b915ff7c4dd550d89df33367ab0801e3bec2e14",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-False-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.46729087800486013,
+      "active_seconds": 1.6934520349968807,
+      "active_cpu_seconds": 1.693184134,
+      "checkpoint_seconds": 0.176177043998905,
+      "restore_seconds": 2.7146000020002248,
+      "audit_seconds": 1.8477579609971144,
+      "checkpoint_bytes": 4840531,
+      "gzip_bytes": 221704,
+      "checkpoint_sha256": "d09bc85568a48e5fe646912d2b915ff7c4dd550d89df33367ab0801e3bec2e14",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-False-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": false,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4479745360004017,
+      "active_seconds": 1.761603926999669,
+      "active_cpu_seconds": 1.761587924,
+      "checkpoint_seconds": 0.1689012909992016,
+      "restore_seconds": 2.741035428996838,
+      "audit_seconds": 1.814076764996571,
+      "checkpoint_bytes": 4840531,
+      "gzip_bytes": 221704,
+      "checkpoint_sha256": "d09bc85568a48e5fe646912d2b915ff7c4dd550d89df33367ab0801e3bec2e14",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-0",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3475567920031608,
+      "active_seconds": 1.7390913080016617,
+      "active_cpu_seconds": 1.7390735729999998,
+      "checkpoint_seconds": 0.0907427700003609,
+      "restore_seconds": 2.20396630900359,
+      "audit_seconds": 1.7991515469984733,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "history-True-0",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.317535433001467,
+      "active_seconds": 1.6967517439989024,
+      "active_cpu_seconds": 1.6967260590000002,
+      "checkpoint_seconds": 0.09491954000259284,
+      "restore_seconds": 2.299654884998745,
+      "audit_seconds": 1.7906491219982854,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-0",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3224896419997094,
+      "active_seconds": 1.6332770449953387,
+      "active_cpu_seconds": 1.633273557,
+      "checkpoint_seconds": 0.09196569099731278,
+      "restore_seconds": 2.148746762999508,
+      "audit_seconds": 1.8245747609980754,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-0",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 0,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3098246660010773,
+      "active_seconds": 1.6709339419976459,
+      "active_cpu_seconds": 1.6707275010000002,
+      "checkpoint_seconds": 0.09091894100129139,
+      "restore_seconds": 2.353371958997741,
+      "audit_seconds": 1.8728324080002494,
+      "checkpoint_bytes": 2327583,
+      "gzip_bytes": 143198,
+      "checkpoint_sha256": "0267f121aad6ef9da6f677a0f76453fb058d15559d3bd33cc7692ba184e57c3b",
+      "transactions": 163,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3182450439999229,
+      "active_seconds": 1.6865669309991063,
+      "active_cpu_seconds": 1.686459439,
+      "checkpoint_seconds": 0.11831488399911905,
+      "restore_seconds": 2.2854162759977044,
+      "audit_seconds": 1.909042954997858,
+      "checkpoint_bytes": 2512231,
+      "gzip_bytes": 147762,
+      "checkpoint_sha256": "28aa9de7afc8ae5888d81a6f5a0c5ffe745073c0688facf888380f441f1ab4a4",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "history-True-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.3552844069999992,
+      "active_seconds": 1.6470421710037044,
+      "active_cpu_seconds": 1.6470273810000002,
+      "checkpoint_seconds": 0.11941658800060395,
+      "restore_seconds": 2.3084693230048288,
+      "audit_seconds": 1.748529665004753,
+      "checkpoint_bytes": 2512231,
+      "gzip_bytes": 147762,
+      "checkpoint_sha256": "28aa9de7afc8ae5888d81a6f5a0c5ffe745073c0688facf888380f441f1ab4a4",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.359732108998287,
+      "active_seconds": 1.6985300830056076,
+      "active_cpu_seconds": 1.698512013,
+      "checkpoint_seconds": 0.10846197700448101,
+      "restore_seconds": 2.3194110650001676,
+      "audit_seconds": 1.6861889190040529,
+      "checkpoint_bytes": 2512231,
+      "gzip_bytes": 147762,
+      "checkpoint_sha256": "28aa9de7afc8ae5888d81a6f5a0c5ffe745073c0688facf888380f441f1ab4a4",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-100",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 100,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.33074019700143253,
+      "active_seconds": 1.7071651559963357,
+      "active_cpu_seconds": 1.7052517200000001,
+      "checkpoint_seconds": 0.09594836600444978,
+      "restore_seconds": 2.300661827001022,
+      "audit_seconds": 1.7321859069998027,
+      "checkpoint_bytes": 2512231,
+      "gzip_bytes": 147762,
+      "checkpoint_sha256": "28aa9de7afc8ae5888d81a6f5a0c5ffe745073c0688facf888380f441f1ab4a4",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4326846789990668,
+      "active_seconds": 1.657473069994012,
+      "active_cpu_seconds": 1.6564719229999998,
+      "checkpoint_seconds": 0.16860919699684018,
+      "restore_seconds": 2.6060933510016184,
+      "audit_seconds": 1.9714140739961294,
+      "checkpoint_bytes": 4091731,
+      "gzip_bytes": 186220,
+      "checkpoint_sha256": "bb57eaa6f9f6b92c26c6812f5eccf5c7967402ed1147123be5b2184aaa3cd6fb",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 0,
+      "warmup": true
+    },
+    {
+      "config": {
+        "id": "history-True-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4359022520002327,
+      "active_seconds": 1.6604310289985733,
+      "active_cpu_seconds": 1.6603860200000002,
+      "checkpoint_seconds": 0.15586810399690876,
+      "restore_seconds": 2.6468777949994546,
+      "audit_seconds": 1.8171707069996046,
+      "checkpoint_bytes": 4091731,
+      "gzip_bytes": 186220,
+      "checkpoint_sha256": "bb57eaa6f9f6b92c26c6812f5eccf5c7967402ed1147123be5b2184aaa3cd6fb",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 1,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4745463529980043,
+      "active_seconds": 1.7547679009949206,
+      "active_cpu_seconds": 1.7547609480000004,
+      "checkpoint_seconds": 0.17737102699902607,
+      "restore_seconds": 2.727301154001907,
+      "audit_seconds": 1.883889837001334,
+      "checkpoint_bytes": 4091731,
+      "gzip_bytes": 186220,
+      "checkpoint_sha256": "bb57eaa6f9f6b92c26c6812f5eccf5c7967402ed1147123be5b2184aaa3cd6fb",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 2,
+      "warmup": false
+    },
+    {
+      "config": {
+        "id": "history-True-1000",
+        "root": "/workspace/scratch/cab01c7058d3/Socionics_Engine",
+        "model": "legacy-r4",
+        "seed": 17,
+        "repeat_limit": 2,
+        "inactive": 1000,
+        "shared": true,
+        "group": "history"
+      },
+      "result": {
+        "done": true,
+        "turns": 18,
+        "counts": [
+          2,
+          2
+        ],
+        "stops": [
+          "unchanged_retained_result",
+          "unchanged_retained_result"
+        ],
+        "pending": false
+      },
+      "setup_seconds": 0.4520798960002139,
+      "active_seconds": 1.6840635469998233,
+      "active_cpu_seconds": 1.683776184,
+      "checkpoint_seconds": 0.15384288399945945,
+      "restore_seconds": 2.475366352002311,
+      "audit_seconds": 1.8107958660039003,
+      "checkpoint_bytes": 4091731,
+      "gzip_bytes": 186220,
+      "checkpoint_sha256": "bb57eaa6f9f6b92c26c6812f5eccf5c7967402ed1147123be5b2184aaa3cd6fb",
+      "transactions": 164,
+      "native_completions": 4,
+      "exact_restore": true,
+      "raw_audit": true,
+      "sample": 3,
+      "warmup": false
+    }
+  ],
+  "claim": "Descriptive model costs, no optimization claim. Warmup excluded; timings untraced, sequential isolated subprocesses."
+}

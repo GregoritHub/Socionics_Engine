@@ -1,0 +1,271 @@
+[
+  {
+    "id": "core-diagnostic-17-tight-energy",
+    "models": [
+      {
+        "model": "legacy-r4",
+        "outcome": {
+          "counts": {
+            "$tuple": [
+              24,
+              21
+            ]
+          },
+          "done": true,
+          "pending": false,
+          "stops": {
+            "$tuple": [
+              null,
+              "exhausted"
+            ]
+          },
+          "turns": 205
+        },
+        "unaffordable_next_steps": [
+          {
+            "actor": "bob",
+            "completed": 31,
+            "currency": "energy",
+            "key": "c7:sustained-bob:21:movement",
+            "next_energy": 1,
+            "required": 45,
+            "wallet_energy": 0,
+            "wallet_time": 198000
+          }
+        ],
+        "by_actor_position": {
+          "alice": {
+            "0": {
+              "admissions": 0,
+              "energy": 1686,
+              "time": 1686
+            },
+            "1": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "2": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "3": {
+              "admissions": 1,
+              "energy": 3,
+              "time": 3
+            },
+            "4": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "5": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "6": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "7": {
+              "admissions": 49,
+              "energy": 98,
+              "time": 98
+            },
+            "8": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            }
+          },
+          "bob": {
+            "0": {
+              "admissions": 0,
+              "energy": 1527,
+              "time": 1527
+            },
+            "1": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "2": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "3": {
+              "admissions": 86,
+              "energy": 258,
+              "time": 258
+            },
+            "4": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "5": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "6": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "7": {
+              "admissions": 86,
+              "energy": 172,
+              "time": 172
+            },
+            "8": {
+              "admissions": 43,
+              "energy": 43,
+              "time": 43
+            }
+          }
+        },
+        "raw": {
+          "file": "core-diagnostic-17-tight-energy-legacy-r4.json.gz",
+          "sha256": "5c67ad98d6bbb79366623193b51d392f213bad48060a21215441c4fb87b5a523"
+        }
+      },
+      {
+        "model": "grade-v1",
+        "outcome": {
+          "counts": {
+            "$tuple": [
+              24,
+              19
+            ]
+          },
+          "done": true,
+          "pending": false,
+          "stops": {
+            "$tuple": [
+              null,
+              "exhausted"
+            ]
+          },
+          "turns": 195
+        },
+        "unaffordable_next_steps": [
+          {
+            "actor": "bob",
+            "completed": 21,
+            "currency": "energy",
+            "key": "c7:sustained-bob:19:movement",
+            "next_energy": 1,
+            "required": 39,
+            "wallet_energy": 0,
+            "wallet_time": 198190
+          }
+        ],
+        "by_actor_position": {
+          "alice": {
+            "0": {
+              "admissions": 0,
+              "energy": 1686,
+              "time": 1686
+            },
+            "1": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "2": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "3": {
+              "admissions": 1,
+              "energy": 3,
+              "time": 3
+            },
+            "4": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "5": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "6": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "7": {
+              "admissions": 49,
+              "energy": 196,
+              "time": 98
+            },
+            "8": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            }
+          },
+          "bob": {
+            "0": {
+              "admissions": 0,
+              "energy": 1389,
+              "time": 1389
+            },
+            "1": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "2": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "3": {
+              "admissions": 77,
+              "energy": 231,
+              "time": 231
+            },
+            "4": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "5": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "6": {
+              "admissions": 0,
+              "energy": 0,
+              "time": 0
+            },
+            "7": {
+              "admissions": 76,
+              "energy": 304,
+              "time": 152
+            },
+            "8": {
+              "admissions": 38,
+              "energy": 76,
+              "time": 38
+            }
+          }
+        },
+        "raw": {
+          "file": "core-diagnostic-17-tight-energy-grade-v1.json.gz",
+          "sha256": "42cd3d54eccef67754ee4f845063edb1f36a1ed0caba6f8f2b6b4a004f6d2011"
+        }
+      }
+    ]
+  }
+]
