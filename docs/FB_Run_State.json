@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "7.1",
+  "current_batch": "7.2",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -24,9 +24,10 @@
     "5.6",
     "6.1",
     "6.2",
-    "6.3"
+    "6.3",
+    "7.1"
   ],
-  "next_batch": "7.1",
+  "next_batch": "7.2",
   "run_id": "phase7-20261012T005219Z-a86649e6",
   "lease_expires_at": "2026-10-12T01:22:19.164995+00:00",
   "updated_on": "2026-10-12",
@@ -39,9 +40,9 @@
     "record": "docs/FB7_R5_Authorization.md",
     "scope": "Final Build Plan v1.0 batches 7.1-7.4. Keep legacy-r4 the default; no conditioning feedback."
   },
-  "record": "docs/FB7_R5_Authorization.md",
+  "record": "docs/FB7.1_Record.md",
   "phase7_job_register": "docs/FB7_R5_Authorization.md",
-  "activity": "Verified exact source recovery; reading and tracing batch 7.1 accounting before contract/preregistration.",
+  "activity": "7.1 prospective contract, protocol and exhaustive accounting inventory complete; no engine changes yet.",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
   "automation_enabled": false,
   "automation_status": "Observed disabled on 2026-10-11; no schedule change made.",

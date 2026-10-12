@@ -1,0 +1,1906 @@
+{
+  "schema": "phase7-accounting-sites-v1",
+  "source_commit": "6960145517974f6c69b8ae66b5b56de2c35cbbe1",
+  "search": "energy|[\\\"\\x27]time[\\\"\\x27]|content_units|charges\\.|route_execute|route_prepare|\\bspent\\b|\\bcompleted\\b.*\\brequired\\b",
+  "files": {
+    "hle_unified/anticipation.py": "9074cc7ffad273498ab973f8552937714eb083b3f8fbe0ed0a3043db43f3506c",
+    "hle_unified/autonomy.py": "b5e8a081ccd1b3a5873e3ff0a9887379771c6014f041243004c08e458edd751e",
+    "hle_unified/autonomy_audit.py": "ac003125b0066180753060ab6d587eeb90a80eab18e283e5c474d98b4d11e657",
+    "hle_unified/autonomy_records.py": "03ca0c640c54a728da615b5d64ee26a739f5591604a1aec6bced602a6cf81c9b",
+    "hle_unified/cognition.py": "33a13823ef77086636aeadd3263615070afac0242edf798ff2ea78fab7eea451",
+    "hle_unified/cognitive_audit.py": "0d3a5e8fbc7d38df2038606bcdc05c1e0476754002838157294857c7dab0c728",
+    "hle_unified/cognitive_content.py": "6aa3bcd85eada09216eab340d5189b1ffc871db2b5e2fa16bba1872c7d14b03a",
+    "hle_unified/cognitive_routes.py": "1eccb082a642f8cc4cf133adfabfa6b9af3477aea2096cf06e0fb63f77550ffb",
+    "hle_unified/collective.py": "c6b2b5f16b4008007d30454829f4601e6df77f2d809c649ebd32b29f38c31fca",
+    "hle_unified/composition.py": "989417a1ffe7de9c9ceb78dc816dea009504edc1db47d0186f0ca133ecafe05a",
+    "hle_unified/crossing_audit.py": "6f86a2cc39f91b63d8aba91eabbf26807f60bb0c1bf7cb706d4d48ed3d168310",
+    "hle_unified/crossing_execution.py": "d801ec3d454c7f5d0958ce1255c6d623ea82091d5a995006c72350fde403763d",
+    "hle_unified/crux_audit.py": "682ff73cb8ed15f75717e06caa0b837b671bcebad4cc0d9b458035de9abeb41d",
+    "hle_unified/crux_composition_audit.py": "af5cc129874a5971e0e634ef2e99c6f0cf23011d16abd3f802c4b5f395c1b3a5",
+    "hle_unified/crux_composition_execution.py": "f21f5e94d3b25f380439e59c71760e2d3fcaa82b808bc0bd165bdcc97d07746c",
+    "hle_unified/crux_execution.py": "d92edc4c8a0d741c1ee71d8b70e247832a0d30ff97595ec12d76d62957125984",
+    "hle_unified/crux_shell_audit.py": "ae531c5caa47f7cf1b161c06ebcfaa5b9d113c2df7228926381f0f52f4d551e2",
+    "hle_unified/crux_shell_execution.py": "995465cdef1ab14d357f774539fae314e8174bce0e47ee61a0d2646beeb48ed6",
+    "hle_unified/development.py": "057a8e48372974e20127a7638701492bfc82b0bee8615436b49a1f033d106e41",
+    "hle_unified/grounded_language.py": "dbc0f981cc18e2961a5c6d644ff19901070bd54c6726ff03db5f0f388d1a4d20",
+    "hle_unified/institution_audit.py": "0d69eea05162b40ad963c01bd9ee1fdfe182f8f44b27f60bf239d71c77c1e82a",
+    "hle_unified/institutions.py": "4b589fb2691a591c6607bfceabebe233c0a2b9521094b8c524da3b94d101906e",
+    "hle_unified/material.py": "b17e13734341e0caeeab1057af502d0d2fc4379fad7c9120185e88e472675bf8",
+    "hle_unified/operation_audit.py": "676ea02e41144a215b86000947474d639bfa96d54cc55705d534a49c1b6e0224",
+    "hle_unified/operations.py": "37bf064de9541a191f36d2202922fa709780034d6ad9adcbbb4af5101a258065",
+    "hle_unified/particulars.py": "5bf50edaca48e614fa4d44951b113d11f7e991334395b550047389c039e54a97",
+    "hle_unified/population.py": "47c255e990b980760a88471e67cc5abcf0f959defea9d868c934883810f65982",
+    "hle_unified/population_audit.py": "a560c5b24f53b934706dd229da6c5b06dfacfe9ee629aad0f86aaeb26cba4169",
+    "hle_unified/selection_audit.py": "9e77175fcc4e81c5de1058fccaeba7a4b809fa941c20b5d9f4f3f31025093fa7",
+    "hle_unified/selection_execution.py": "cb27fcffd197698fbd59a5e2a58cfe9edc9a287a4c6ba7fa525eda3ef0a99028",
+    "hle_unified/selection_policy.py": "50794409290a847fd1f98c2518619063175db51e0f314f02b400c9b764cbbbdc",
+    "hle_unified/self_audit.py": "d89f8a9cbdd2cd751a8f63956ba74bab89ebda8e2b010401026cb50ac0c8e1d8",
+    "hle_unified/self_execution.py": "f66af001b3ff8f6046d4fffa7ae41841a96c1a63cd4099722167d0cecd76c9e9",
+    "hle_unified/shell.py": "bc37058e2e1c031290089f6c4ae63d82f23337988f25280bb74da508a1f51224",
+    "hle_unified/shell_assessment.py": "1ae1255c7c4206c77e5f980000f37df3faa2119316615b81137ad2fc4d7946eb",
+    "hle_unified/shell_audit.py": "d0489c709d3aff5c460cb3355f5b0d28f8379b55ebdc4ee60dd84611c3bdeaa2",
+    "hle_unified/workflow_agenda.py": "addf759f26184c80c738d2d32417ac147a9a3086fa8afb7f4970e7bb391edec4",
+    "hle_unified/workflow_agenda_audit.py": "8e91b16d3b34cfe936a8764427dff7e34076ee4e2733f3c8d4e3525aa15c12df",
+    "hle_unified/workflow_agenda_population.py": "000f446831534318055c48d9927c4febeb29c7b628305332d8c3d43d2163a1e1",
+    "hle_unified/workflow_agenda_population_audit.py": "d164ab916ede29efeb540ae8e6a36ea4a19e2e92c7b624dbf87f1e02036d1f8a",
+    "hle_unified/workflow_audit.py": "27ab2fbfc0ed28f6bcae53833a7f8dc75b21b9bd10de56f431bc98482ce245a7",
+    "hle_unified/workflow_composition_audit.py": "eb9a1109b25e83c9e35a574ac49b379e8a1509156af65f94681b136a0a3103ed",
+    "hle_unified/workflow_execution.py": "78f8d58b722148161182e69673371ad24aabe54c255a4af8eb518dc8ce14b4c6",
+    "hle_unified/workflow_interruption_audit.py": "87c715be8904c30de44e90410ce5d4f284078f2c957c0c135f94c5b9792b1ec9",
+    "hle_unified/workflow_interruption_execution.py": "d453ea0f6ce7d90f7d7394f7e52a732c9bfdbfa2c7cbc8b93bbfc21ac06e772f",
+    "hle_unified/workflow_longitudinal_shell_audit.py": "8a628d26b318b2c3c633780dcfedb853d356aea4e056901dce88f1ff8e370487",
+    "hle_unified/workflow_nesting_audit.py": "03facc423ed2c22836f8118d800f82175f7ab0dae62f9a07bfdcc9ff1b0a64f0",
+    "hle_unified/workflow_nesting_execution.py": "3d422dab8be2aec60b0b5465dc16f0621f97fae441e5faeb692f38937385258c",
+    "hle_unified/workflow_records.py": "82be3dc02444f9c216367c80029615410cb6feeba5cb3ecc9a4105a5bdb9ffef",
+    "hle_unified/workflow_selection_audit.py": "09d16b4676bc03f41dc34d8419e368eb02a6e637cbab1e748e92cf893827a8e6",
+    "hle_unified/workflow_selection_execution.py": "ea63fcaf43e82898266a71e7f21cc8569930de7ab35e5242c04adc594853b310",
+    "hle_unified/workflow_selection_policy.py": "98186d119633ed98f9a1c499519fa355489548c6bd28af3fbdcaca453356159e",
+    "hle_unified/workflow_shell_audit.py": "1ebfc0825eb9c4d0f84c9cac54f611b7e62e5cebc70cd3cdaa897611cdc7e6d0",
+    "hle_unified/workflow_shell_execution.py": "046937018b65c04b122ee8665bbc340f22efdbc2aec77c8bdc9a343c69014a5f"
+  },
+  "sites": [
+    {
+      "path": "hle_unified/anticipation.py",
+      "line": 81,
+      "function": "needs",
+      "category": "non-Model-A work / work metadata",
+      "source": "scarcity = min(10, max(0, 20 - min(wallet[\"energy\"], wallet[\"time\"])) // 2)"
+    },
+    {
+      "path": "hle_unified/anticipation.py",
+      "line": 186,
+      "function": "choose",
+      "category": "non-Model-A work / work metadata",
+      "source": "affordable = [r for r in result[\"candidates\"] if r[\"cost\"] + 2 <= min(wallet[\"energy\"], wallet[\"time\"])]"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 64,
+      "function": "autonomy_view",
+      "category": "wallet/payment machinery",
+      "source": "job = {k: d[k] for k in (\"key\", \"completed\", \"required\", \"spent\", \"status\")}"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 68,
+      "function": "autonomy_view",
+      "category": "wallet/payment machinery",
+      "source": "\"wallet\": {k: self.wallet(actor)[k] for k in (\"energy\", \"time\")}, \"work\": job}"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 129,
+      "function": "_save",
+      "category": "wallet/payment machinery",
+      "source": "state = replace(state, decision=decision, reason=reason, energy_mark=wallet[\"energy\"], time_mark=wallet[\"time\"])"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 152,
+      "function": "_custom_start",
+      "category": "wallet/payment machinery",
+      "source": "required=required, completed=0, spent=0, status=\"pending\", failure=None, result=None,"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 153,
+      "function": "_custom_start",
+      "category": "wallet/payment machinery",
+      "source": "route_prepare=required, route_execute=0, started_tick=self._now().tick, contract=LAW6, **extra)"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 222,
+      "function": "_commit",
+      "category": "wallet/payment machinery",
+      "source": "**{k: d[k] for k in (\"required\", \"completed\", \"spent\")},"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 276,
+      "function": "_progress",
+      "category": "wallet/payment machinery",
+      "source": "before = d[\"spent\"]"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 280,
+      "function": "_progress",
+      "category": "wallet/payment machinery",
+      "source": "state = replace(state, fatigue=state.fatigue+d[\"spent\"]-before)"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 385,
+      "function": "_step",
+      "category": "wallet/payment machinery",
+      "source": "state = replace(state, fatigue=state.fatigue+max(0, state.energy_mark-wallet[\"energy\"]))"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 404,
+      "function": "_step",
+      "category": "wallet/payment machinery",
+      "source": "if min(wallet[\"energy\"], wallet[\"time\"]) < 1:"
+    },
+    {
+      "path": "hle_unified/autonomy.py",
+      "line": 423,
+      "function": "_step",
+      "category": "wallet/payment machinery",
+      "source": "if min(self.wallet(actor)[k] for k in (\"energy\", \"time\")) == 0:"
+    },
+    {
+      "path": "hle_unified/autonomy_audit.py",
+      "line": 23,
+      "function": "extent",
+      "category": "auditing",
+      "source": "if d[\"required\"] != required or d[\"route_prepare\"] != required or d[\"route_execute\"] != 0:"
+    },
+    {
+      "path": "hle_unified/autonomy_audit.py",
+      "line": 29,
+      "function": "audit",
+      "category": "auditing",
+      "source": "versions, heads, read, states, spent, attentions, appraisals = {}, {}, {}, {}, {}, {}, {}"
+    },
+    {
+      "path": "hle_unified/autonomy_audit.py",
+      "line": 40,
+      "function": "audit",
+      "category": "auditing",
+      "source": "delta = d[\"spent\"]-(attrs(old)[\"spent\"] if old else 0)"
+    },
+    {
+      "path": "hle_unified/autonomy_audit.py",
+      "line": 42,
+      "function": "audit",
+      "category": "auditing",
+      "source": "spent[actor] = spent.get(actor, 0)+delta"
+    },
+    {
+      "path": "hle_unified/autonomy_audit.py",
+      "line": 99,
+      "function": "audit",
+      "category": "auditing",
+      "source": "paid = spent.get(actor, 0)"
+    },
+    {
+      "path": "hle_unified/autonomy_audit.py",
+      "line": 122,
+      "function": "audit",
+      "category": "auditing",
+      "source": "spent[actor], attentions[actor], appraisals[actor] = 0, [], []"
+    },
+    {
+      "path": "hle_unified/autonomy_records.py",
+      "line": 15,
+      "function": "world_contract",
+      "category": "non-Model-A work / work metadata",
+      "source": "(Definition(\"Bounded anticipation and continuing participant opportunities; no energy or material regeneration.\","
+    },
+    {
+      "path": "hle_unified/autonomy_records.py",
+      "line": 18,
+      "function": "world_contract",
+      "category": "non-Model-A work / work metadata",
+      "source": "\"rest_fatigue_reduction\": 30, \"energy_regeneration\": 0,"
+    },
+    {
+      "path": "hle_unified/autonomy_records.py",
+      "line": 81,
+      "function": null,
+      "category": "non-Model-A work / work metadata",
+      "source": "energy_mark: int = 0"
+    },
+    {
+      "path": "hle_unified/cognition.py",
+      "line": 107,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_units = sum(sum(row[\"charges\"]) + row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/cognition.py",
+      "line": 113,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "required=recall_units+route_units, completed=0, spent=0,"
+    },
+    {
+      "path": "hle_unified/cognition.py",
+      "line": 114,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=recall_units, route_prepare=recall_units, route_execute=route_units,"
+    },
+    {
+      "path": "hle_unified/cognition.py",
+      "line": 206,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k: data[k] for k in (\"required\", \"completed\", \"spent\")}}"
+    },
+    {
+      "path": "hle_unified/cognitive_audit.py",
+      "line": 34,
+      "function": "audit_extent",
+      "category": "auditing",
+      "source": "path, charges = indexed(d,p+\"path.\"), indexed(d,p+\"charges.\")"
+    },
+    {
+      "path": "hle_unified/cognitive_audit.py",
+      "line": 47,
+      "function": "audit_extent",
+      "category": "auditing",
+      "source": "if d[p+\"content_units\"] != content:"
+    },
+    {
+      "path": "hle_unified/cognitive_audit.py",
+      "line": 54,
+      "function": "audit_extent",
+      "category": "auditing",
+      "source": "or d[\"route_execute\"] != total or d[\"route_prepare\"] != d[\"recall_units\"]):"
+    },
+    {
+      "path": "hle_unified/cognitive_content.py",
+      "line": 150,
+      "function": "plan_request",
+      "category": "non-Model-A work / work metadata",
+      "source": "raise ValueError(\"actor-owned completed plan required\")"
+    },
+    {
+      "path": "hle_unified/cognitive_routes.py",
+      "line": 37,
+      "function": "route",
+      "category": "Model A processing",
+      "source": "\"content_units\": price(element), \"path\": path, \"charges\": charges,"
+    },
+    {
+      "path": "hle_unified/cognitive_routes.py",
+      "line": 66,
+      "function": "progress",
+      "category": "non-Model-A work / work metadata",
+      "source": "while prefix + \"charges.\" + str(j) in data:"
+    },
+    {
+      "path": "hle_unified/cognitive_routes.py",
+      "line": 67,
+      "function": "progress",
+      "category": "non-Model-A work / work metadata",
+      "source": "cost = data[prefix + \"charges.\" + str(j)]"
+    },
+    {
+      "path": "hle_unified/cognitive_routes.py",
+      "line": 73,
+      "function": "progress",
+      "category": "Model A processing",
+      "source": "cost = data[prefix + \"content_units\"]"
+    },
+    {
+      "path": "hle_unified/collective.py",
+      "line": 146,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "execution=sum(sum(row[\"charges\"])+row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/collective.py",
+      "line": 150,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "cue=r.cue,target=r.focus or r.context,required=units+execution,completed=0,spent=0,"
+    },
+    {
+      "path": "hle_unified/collective.py",
+      "line": 151,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=units,route_prepare=units,route_execute=execution,status=\"pending\",failure=None,result=None,"
+    },
+    {
+      "path": "hle_unified/collective.py",
+      "line": 401,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\",\"completed\",\"spent\")},"
+    },
+    {
+      "path": "hle_unified/composition.py",
+      "line": 112,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_units = sum(sum(row[\"charges\"]) + row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/composition.py",
+      "line": 117,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "required=units+route_units, completed=0, spent=0, recall_units=units,"
+    },
+    {
+      "path": "hle_unified/composition.py",
+      "line": 118,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_prepare=units, route_execute=route_units, status=\"pending\", failure=None,"
+    },
+    {
+      "path": "hle_unified/composition.py",
+      "line": 309,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\", \"completed\", \"spent\")},"
+    },
+    {
+      "path": "hle_unified/crossing_audit.py",
+      "line": 227,
+      "function": "audit",
+      "category": "auditing",
+      "source": "mutable={\"completed\",\"spent\",\"status\",\"failure\",\"result\",\"steps_completed\",\"last_step\",\"binding\",\"amount\"}"
+    },
+    {
+      "path": "hle_unified/crossing_audit.py",
+      "line": 231,
+      "function": "audit",
+      "category": "auditing",
+      "source": "threshold+=sum(indexed(d,f\"route.{i}.charges.\"))+d[f\"route.{i}.content_units\"]; thresholds.append(threshold)"
+    },
+    {
+      "path": "hle_unified/crossing_audit.py",
+      "line": 271,
+      "function": "audit",
+      "category": "auditing",
+      "source": "results.append(dict(recipe=r.key,main=r.main,route=r.name,polarity=r.polarity,spent=d[\"spent\"],"
+    },
+    {
+      "path": "hle_unified/crossing_execution.py",
+      "line": 235,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "execution=sum(sum(x[\"charges\"])+x[\"content_units\"] for x in rows)"
+    },
+    {
+      "path": "hle_unified/crossing_execution.py",
+      "line": 240,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "observed_available=p[\"available\"],required=p[\"units\"]+execution+recipe.material_units,completed=0,spent=0,"
+    },
+    {
+      "path": "hle_unified/crossing_execution.py",
+      "line": 241,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=p[\"units\"],route_prepare=p[\"units\"],route_execute=execution,material_units=recipe.material_units,"
+    },
+    {
+      "path": "hle_unified/crossing_execution.py",
+      "line": 289,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\",\"completed\",\"spent\")},**{\"input.\"+str(i):x for i,x in enumerate((ref,*sources))}))"
+    },
+    {
+      "path": "hle_unified/crux_audit.py",
+      "line": 68,
+      "function": "_access",
+      "category": "auditing",
+      "source": "or rd[\"spent\"] != rd[\"required\"] or rd[\"completed\"] != rd[\"required\"]):"
+    },
+    {
+      "path": "hle_unified/crux_audit.py",
+      "line": 184,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if k not in {\"completed\", \"spent\", \"status\", \"failure\", \"result\", \"steps_completed\", \"last_step\", \"binding\"} and d[k] != value:"
+    },
+    {
+      "path": "hle_unified/crux_audit.py",
+      "line": 189,
+      "function": "audit",
+      "category": "auditing",
+      "source": "threshold += sum(indexed(d, f\"route.{i}.charges.\")) + d[f\"route.{i}.content_units\"]"
+    },
+    {
+      "path": "hle_unified/crux_audit.py",
+      "line": 260,
+      "function": "audit",
+      "category": "auditing",
+      "source": "\"semantic_steps\": [codec.encode(s.ref) for s in chain], \"paid_work\": d[\"spent\"],"
+    },
+    {
+      "path": "hle_unified/crux_composition_audit.py",
+      "line": 147,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if any(k not in fields or fields[k]!=jd.get(k) for k in (\"actor\",\"context\",\"status\",\"spent\",\"result\")):"
+    },
+    {
+      "path": "hle_unified/crux_composition_audit.py",
+      "line": 158,
+      "function": "audit",
+      "category": "auditing",
+      "source": "operations[op]=jd[\"spent\"]"
+    },
+    {
+      "path": "hle_unified/crux_composition_audit.py",
+      "line": 174,
+      "function": "audit",
+      "category": "auditing",
+      "source": "mutable={\"completed\",\"spent\",\"status\",\"failure\",\"result\",\"steps_completed\",\"last_step\",\"binding\"}"
+    },
+    {
+      "path": "hle_unified/crux_composition_audit.py",
+      "line": 178,
+      "function": "audit",
+      "category": "auditing",
+      "source": "threshold+=sum(indexed(d,f\"route.{i}.charges.\"))+d[f\"route.{i}.content_units\"]; thresholds.append(threshold)"
+    },
+    {
+      "path": "hle_unified/crux_composition_audit.py",
+      "line": 201,
+      "function": "audit",
+      "category": "auditing",
+      "source": "results.append(dict(recipe=r.key,output=codec.encode(output),spent=d[\"spent\"],complete=wanted.get(\"complete\"),kind=wanted[\"kind\"]))"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 134,
+      "function": "_prepare_composition",
+      "category": "non-Model-A work / work metadata",
+      "source": "required=(\"actor\",\"context\",\"status\",\"spent\",\"result\")"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 148,
+      "function": "_prepare_composition",
+      "category": "non-Model-A work / work metadata",
+      "source": "operations[child.operation]=d[\"spent\"]"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 151,
+      "function": "_prepare_composition",
+      "category": "non-Model-A work / work metadata",
+      "source": "for ref,spent in value[\"operations\"]:"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 152,
+      "function": "_prepare_composition",
+      "category": "non-Model-A work / work metadata",
+      "source": "if ref in operations and operations[ref]!=spent: raise ValueError(\"inconsistent descendant charge\")"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 153,
+      "function": "_prepare_composition",
+      "category": "non-Model-A work / work metadata",
+      "source": "operations[ref]=spent"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 179,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "execution=sum(sum(x[\"charges\"])+x[\"content_units\"] for x in rows)"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 183,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "completed=0,spent=0,recall_units=p[\"units\"],route_prepare=p[\"units\"],route_execute=execution,"
+    },
+    {
+      "path": "hle_unified/crux_composition_execution.py",
+      "line": 222,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\",\"completed\",\"spent\")},**{\"input.\"+str(i):z for i,z in enumerate((ref,*sources))}))"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 78,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "semantic = sum(sum(row[\"charges\"]) + row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 87,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "required=recall + semantic + recipe.material_units, completed=0, spent=0,"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 88,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=recall, route_prepare=recall, route_execute=semantic,"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 139,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "paid = min(work_limit, d[\"required\"] - d[\"completed\"], wallet[\"energy\"], wallet[\"time\"]) if reserve else 0"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 141,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "d[\"spent\"] += paid"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 142,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "d[\"status\"] = \"waiting\" if not reserve else (\"ready\" if d[\"completed\"] == d[\"required\"] else \"partial\")"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 149,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "threshold += sum(indexed(d, prefix + \"charges.\")) + d[prefix + \"content_units\"]"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 175,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "wallet[\"energy\"] -= paid"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 176,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "wallet[\"time\"] -= paid"
+    },
+    {
+      "path": "hle_unified/crux_execution.py",
+      "line": 248,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k: d[k] for k in (\"required\", \"completed\", \"spent\")},"
+    },
+    {
+      "path": "hle_unified/crux_shell_audit.py",
+      "line": 35,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if d['admission_spent']!=op['spent'] or d['movement_complete'] is not False or d['pending_obligation']!=recipe.destination: raise ValueError('admission is not completion')"
+    },
+    {
+      "path": "hle_unified/crux_shell_audit.py",
+      "line": 74,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if job['last_step']!=d['intermediate'] or d['spent']!=job['spent'] or d['original_obligation_met'] is not False:"
+    },
+    {
+      "path": "hle_unified/crux_shell_execution.py",
+      "line": 86,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "pending_obligation=recipe.destination,admission_spent=d['spent']))"
+    },
+    {
+      "path": "hle_unified/crux_shell_execution.py",
+      "line": 94,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "boundary=d['recall_units']+sum(indexed(d,'route.0.charges.'))+d['route.0.content_units']"
+    },
+    {
+      "path": "hle_unified/crux_shell_execution.py",
+      "line": 110,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "original_obligation_met=False,spent=current['spent']))"
+    },
+    {
+      "path": "hle_unified/development.py",
+      "line": 174,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_units = sum(sum(x[\"charges\"]) + x[\"content_units\"] for x in rows)"
+    },
+    {
+      "path": "hle_unified/development.py",
+      "line": 179,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "required=units+route_units, completed=0, spent=0, recall_units=units,"
+    },
+    {
+      "path": "hle_unified/development.py",
+      "line": 182,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_prepare=units, route_execute=route_units, status=\"pending\", failure=None, result=None,"
+    },
+    {
+      "path": "hle_unified/development.py",
+      "line": 323,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k: data[k] for k in (\"required\", \"completed\", \"spent\")},"
+    },
+    {
+      "path": "hle_unified/grounded_language.py",
+      "line": 130,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_units = sum(sum(row[\"charges\"]) + row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/grounded_language.py",
+      "line": 135,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "required=units+route_units, completed=0, spent=0, recall_units=units,"
+    },
+    {
+      "path": "hle_unified/grounded_language.py",
+      "line": 136,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_prepare=units, route_execute=route_units, status=\"pending\", failure=None, result=None,"
+    },
+    {
+      "path": "hle_unified/grounded_language.py",
+      "line": 354,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\",\"completed\",\"spent\")},"
+    },
+    {
+      "path": "hle_unified/institution_audit.py",
+      "line": 152,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if purpose!=\"apply\" or d[\"bearer\"]!=d[\"actor\"] or d[\"rule_cause\"]!=rule[\"proposal\"] or d[\"spent\"]!=job[\"spent\"]:"
+    },
+    {
+      "path": "hle_unified/institutions.py",
+      "line": 90,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "execution = sum(sum(x[\"charges\"])+x[\"content_units\"] for x in rows)"
+    },
+    {
+      "path": "hle_unified/institutions.py",
+      "line": 94,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "cue=r.cue,target=r.focus,required=units+execution,completed=0,spent=0,"
+    },
+    {
+      "path": "hle_unified/institutions.py",
+      "line": 95,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=units,route_prepare=units,route_execute=execution,status=\"pending\",failure=None,result=None,"
+    },
+    {
+      "path": "hle_unified/institutions.py",
+      "line": 238,
+      "function": "_derive11",
+      "category": "non-Model-A work / work metadata",
+      "source": "raise ValueError(\"completed institutional constituent run required\")"
+    },
+    {
+      "path": "hle_unified/institutions.py",
+      "line": 358,
+      "function": "_apply12",
+      "category": "non-Model-A work / work metadata",
+      "source": "origin_encounter=r.encounter,spent=raw_attrs(self.world.resolve(op))[\"spent\"])"
+    },
+    {
+      "path": "hle_unified/material.py",
+      "line": 124,
+      "function": "_validate_material_change",
+      "category": "non-Model-A work / work metadata",
+      "source": "or data.get(\"status\") != \"ready\" or data.get(\"completed\") != data.get(\"required\")"
+    },
+    {
+      "path": "hle_unified/material.py",
+      "line": 125,
+      "function": "_validate_material_change",
+      "category": "non-Model-A work / work metadata",
+      "source": "or data.get(\"spent\") != data.get(\"required\") or tx.actor != data.get(\"actor\")):"
+    },
+    {
+      "path": "hle_unified/material.py",
+      "line": 126,
+      "function": "_validate_material_change",
+      "category": "non-Model-A work / work metadata",
+      "source": "raise ValueError(\"completed actor-owned paid work required\")"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 20,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "heads, locks, energy, time = {}, {}, {}, {}"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 44,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "elif jd[\"required\"] != 1 + EXTENTS[jd[\"primitive\"]] or jd[\"route_prepare\"] != 1 or jd[\"route_execute\"] != EXTENTS[jd[\"primitive\"]]:"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 47,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "if not 0 <= jd[\"completed\"] <= jd[\"required\"] or delta < 0 or jd[\"spent\"] != jd[\"completed\"]:"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 49,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "if pd and jd[\"spent\"] - pd[\"spent\"] != delta:"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 50,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "raise ValueError(\"spent work was erased or forged\")"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 59,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "if jd[\"status\"] == \"ready\" and jd[\"completed\"] != jd[\"required\"]:"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 71,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "if any(type(wd[k]) is not int or wd[k] < 0 for k in (\"energy\", \"time\")) or wd[\"energy\"] != wd[\"initial_energy\"] or wd[\"time\"] != wd[\"initial_time\"]:"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 73,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "energy[actor], time[actor] = wd[\"energy\"], wd[\"time\"]"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 77,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "if wd[\"energy\"] != energy[actor] - delta or wd[\"time\"] != time[actor] - delta or min(wd[\"energy\"], wd[\"time\"]) < 0:"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 79,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "energy[actor], time[actor] = wd[\"energy\"], wd[\"time\"]"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 156,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "or any(rd[k] != jd[k] for k in (\"required\", \"completed\", \"spent\"))):"
+    },
+    {
+      "path": "hle_unified/operation_audit.py",
+      "line": 171,
+      "function": "audit_transactions",
+      "category": "auditing",
+      "source": "\"charged_energy\": charged, \"charged_time\": charged, \"physical_commits\": physical,"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 93,
+      "function": "__init__",
+      "category": "wallet/payment machinery",
+      "source": "or set(d) != {\"record_type\", \"actor\", \"energy\", \"time\", \"initial_energy\", \"initial_time\"}"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 94,
+      "function": "__init__",
+      "category": "wallet/payment machinery",
+      "source": "or any(type(d[k]) is not int or d[k] < 0 for k in (\"energy\", \"time\", \"initial_energy\", \"initial_time\"))"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 95,
+      "function": "__init__",
+      "category": "wallet/payment machinery",
+      "source": "or d[\"energy\"] != d[\"initial_energy\"] or d[\"time\"] != d[\"initial_time\"]):"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 130,
+      "function": "declare",
+      "category": "wallet/payment machinery",
+      "source": "\"\"\"Harness/actor-draft import. No material, wallets, jobs, or new energy.\"\"\""
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 283,
+      "function": "_compile",
+      "category": "wallet/payment machinery",
+      "source": "completed=0, spent=0, status=\"pending\", failure=None, result=None,"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 284,
+      "function": "_compile",
+      "category": "wallet/payment machinery",
+      "source": "route_prepare=1, route_execute=EXTENTS[primitive], started_tick=self._now().tick)"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 329,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "paid = min(work_limit, data[\"required\"] - data[\"completed\"], wallet[\"energy\"], wallet[\"time\"]) if reserve else 0"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 331,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "data[\"spent\"] += paid"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 332,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "data[\"status\"] = \"waiting\" if not reserve else (\"ready\" if data[\"completed\"] == data[\"required\"] else \"partial\")"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 336,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "wallet[\"energy\"] -= paid"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 337,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "wallet[\"time\"] -= paid"
+    },
+    {
+      "path": "hle_unified/operations.py",
+      "line": 396,
+      "function": "_processing",
+      "category": "wallet/payment machinery",
+      "source": "\"required\": d[\"required\"], \"completed\": d[\"completed\"], \"spent\": d[\"spent\"]}"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 105,
+      "function": null,
+      "category": "non-Model-A work / work metadata",
+      "source": "spent: int"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 112,
+      "function": "__post_init__",
+      "category": "non-Model-A work / work metadata",
+      "source": "if not 0 <= self.completed <= self.required or self.required < 1 or self.spent < self.completed:"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 117,
+      "function": "complete",
+      "category": "non-Model-A work / work metadata",
+      "source": "return self.completed == self.required"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 381,
+      "function": "_receipt",
+      "category": "non-Model-A work / work metadata",
+      "source": "base = {\"actor\", \"operation\", \"work_key\", \"required\", \"completed\", \"spent\"}"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 387,
+      "function": "_receipt",
+      "category": "non-Model-A work / work metadata",
+      "source": "tuple(data[k] for k in expected), data[\"required\"], data[\"completed\"], data[\"spent\"])"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 401,
+      "function": "process",
+      "category": "non-Model-A work / work metadata",
+      "source": "if previous and (receipt.required != previous[-1].required or receipt.completed < previous[-1].completed or receipt.spent < previous[-1].spent):"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 448,
+      "function": "bind",
+      "category": "non-Model-A work / work metadata",
+      "source": "raise ValueError(\"completed binding work required\")"
+    },
+    {
+      "path": "hle_unified/particulars.py",
+      "line": 468,
+      "function": "acquire",
+      "category": "non-Model-A work / work metadata",
+      "source": "raise ValueError(\"completed acquisition evidence required\")"
+    },
+    {
+      "path": "hle_unified/population.py",
+      "line": 5,
+      "function": null,
+      "category": "wallet/payment machinery",
+      "source": "a route, no energy is replenished, and an exhausted partial job is retained."
+    },
+    {
+      "path": "hle_unified/population.py",
+      "line": 99,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "if min(before[k] for k in ('energy', 'time')) == 0:"
+    },
+    {
+      "path": "hle_unified/population.py",
+      "line": 127,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "row.update(job_status=outcome['status'], spent=outcome['spent'])"
+    },
+    {
+      "path": "hle_unified/population.py",
+      "line": 155,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "row['charged'] = tuple(before[k] - after[k] for k in ('energy', 'time'))"
+    },
+    {
+      "path": "hle_unified/population_audit.py",
+      "line": 32,
+      "function": "audit_population",
+      "category": "auditing",
+      "source": "prior=charges.get(key,(0,0))"
+    },
+    {
+      "path": "hle_unified/population_audit.py",
+      "line": 33,
+      "function": "audit_population",
+      "category": "auditing",
+      "source": "delta=tuple(before[k]-d[k] for k in ('energy','time'))"
+    },
+    {
+      "path": "hle_unified/population_audit.py",
+      "line": 48,
+      "function": "audit_population",
+      "category": "auditing",
+      "source": "charged=charges.pop((number,actor),(0,0))"
+    },
+    {
+      "path": "hle_unified/population_audit.py",
+      "line": 54,
+      "function": "audit_population",
+      "category": "auditing",
+      "source": "if not wallet or min(wallet[0][k] for k in ('energy','time'))!=0:raise ValueError('false exhaustion')"
+    },
+    {
+      "path": "hle_unified/population_audit.py",
+      "line": 93,
+      "function": "audit_population",
+      "category": "auditing",
+      "source": "return dict(passed=True,turns=state['turn'],modeled_energy=total,native_completions=complete,"
+    },
+    {
+      "path": "hle_unified/selection_audit.py",
+      "line": 22,
+      "function": "extent",
+      "category": "auditing",
+      "source": "if d['required']!=1+d['scanned']+d['foreign_count']+33+d['evaluated'] or d['route_prepare']!=d['required'] or d['route_execute']!=0:"
+    },
+    {
+      "path": "hle_unified/selection_audit.py",
+      "line": 74,
+      "function": "reference",
+      "category": "auditing",
+      "source": "effort=sum(sum(x['charges'])+x['content_units'] for x in routes)+recipe.material_units+len(bundle)"
+    },
+    {
+      "path": "hle_unified/selection_audit.py",
+      "line": 133,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if not wallets or (wallets[-1]['energy'],wallets[-1]['time'])!=s['wallet']:raise ValueError('selection budget differs from actual wallet')"
+    },
+    {
+      "path": "hle_unified/selection_audit.py",
+      "line": 146,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if job['spent']!=job['required'] or d['spent']!=job['spent'] or d['completion_claim'] is not False:raise ValueError('unpaid or falsely completed selection')"
+    },
+    {
+      "path": "hle_unified/selection_audit.py",
+      "line": 150,
+      "function": "audit",
+      "category": "auditing",
+      "source": "rows.append(dict(decision=v.ref,recipe=d['recipe'],status=d['status'],failure=d['failure'],spent=d['spent'],candidate_count=len(ballot),eligible=len(eligible)))"
+    },
+    {
+      "path": "hle_unified/selection_execution.py",
+      "line": 83,
+      "function": "selection_view",
+      "category": "non-Model-A work / work metadata",
+      "source": "wallet=(self.wallet(r.actor)['energy'],self.wallet(r.actor)['time']),evidence=evidence,sources=sources)"
+    },
+    {
+      "path": "hle_unified/selection_execution.py",
+      "line": 96,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "d.update(record_type='operation',c6=True,primitive='bind',required=required,completed=0,spent=0,status='pending',failure=None,result=None,"
+    },
+    {
+      "path": "hle_unified/selection_execution.py",
+      "line": 97,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_prepare=required,route_execute=0,started_tick=self._now().tick,snapshot=snapshot.ref,candidates=ballot.ref,"
+    },
+    {
+      "path": "hle_unified/selection_execution.py",
+      "line": 132,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "receipt=() if failure else (record(address('u4.receipt',cid),'Paid selection comparison receipt',dict(actor=actor,operation='bind',work_key=key,required=d['required'],completed=d['completed'],spent=d['spent'],**{'input.0':r.demand})),)"
+    },
+    {
+      "path": "hle_unified/selection_execution.py",
+      "line": 144,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "admission=admission,failure=failure,spent=d['spent'],status='deferred' if selected is None else 'proposed' if admission is None else 'launched',"
+    },
+    {
+      "path": "hle_unified/selection_policy.py",
+      "line": 89,
+      "function": "proposals",
+      "category": "Model A processing",
+      "source": "effort=sum(sum(x['charges'])+x['content_units'] for x in rows)+rec.material_units+len(bundle)"
+    },
+    {
+      "path": "hle_unified/selection_policy.py",
+      "line": 114,
+      "function": "proposals",
+      "category": "Model A processing",
+      "source": "effort=sum(sum(x['charges'])+x['content_units'] for x in rows)+3"
+    },
+    {
+      "path": "hle_unified/self_audit.py",
+      "line": 189,
+      "function": "audit",
+      "category": "auditing",
+      "source": "mutable={\"completed\",\"spent\",\"status\",\"failure\",\"result\",\"steps_completed\",\"last_step\",\"binding\"}"
+    },
+    {
+      "path": "hle_unified/self_audit.py",
+      "line": 193,
+      "function": "audit",
+      "category": "auditing",
+      "source": "threshold+=sum(indexed(d,f\"route.{i}.charges.\"))+d[f\"route.{i}.content_units\"]"
+    },
+    {
+      "path": "hle_unified/self_audit.py",
+      "line": 236,
+      "function": "audit",
+      "category": "auditing",
+      "source": "results.append(dict(movement=recipe.name,polarity=recipe.polarity,paid=d[\"spent\"],output=codec.encode(output),"
+    },
+    {
+      "path": "hle_unified/self_execution.py",
+      "line": 183,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "semantic=sum(sum(row[\"charges\"])+row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/self_execution.py",
+      "line": 189,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "required=p[\"units\"]+semantic+recipe.material_units,completed=0,spent=0,"
+    },
+    {
+      "path": "hle_unified/self_execution.py",
+      "line": 190,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=p[\"units\"],route_prepare=p[\"units\"],route_execute=semantic,"
+    },
+    {
+      "path": "hle_unified/self_execution.py",
+      "line": 250,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\",\"completed\",\"spent\")},**{\"input.\"+str(i):x for i,x in enumerate((ref,*sources))}))"
+    },
+    {
+      "path": "hle_unified/self_execution.py",
+      "line": 277,
+      "function": "_enact",
+      "category": "non-Model-A work / work metadata",
+      "source": "raise ValueError(\"unused completed C2 decision required\")"
+    },
+    {
+      "path": "hle_unified/shell.py",
+      "line": 166,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_units = sum(sum(row[\"charges\"])+row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/shell.py",
+      "line": 171,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "requested_route=r.route, required=recall_units+effect_units+route_units, completed=0, spent=0,"
+    },
+    {
+      "path": "hle_unified/shell.py",
+      "line": 172,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "recall_units=recall_units+effect_units, route_prepare=recall_units+effect_units, route_execute=route_units,"
+    },
+    {
+      "path": "hle_unified/shell.py",
+      "line": 219,
+      "function": "_commit",
+      "category": "Model A processing",
+      "source": "\"requested_route\": r.route, \"spent\": data[\"spent\"], \"truncated\": data[\"truncated\"],"
+    },
+    {
+      "path": "hle_unified/shell.py",
+      "line": 241,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k: data[k] for k in (\"required\", \"completed\", \"spent\")},"
+    },
+    {
+      "path": "hle_unified/shell.py",
+      "line": 254,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k: data[k] for k in (\"required\", \"completed\", \"spent\")}, \"input.0\": eref})"
+    },
+    {
+      "path": "hle_unified/shell_assessment.py",
+      "line": 60,
+      "function": "assess",
+      "category": "non-Model-A work / work metadata",
+      "source": "label = \"insufficient_resources\" if min(last[\"energy\"], last[\"time\"]) < remaining else \"incomplete_processing\""
+    },
+    {
+      "path": "hle_unified/shell_audit.py",
+      "line": 109,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if any(d[k] != job[k] for k in (\"actor\", \"target\", \"context\", \"cue\", \"carrier\", \"bearer\", \"demand\", \"spent\", \"requested_route\")):"
+    },
+    {
+      "path": "hle_unified/workflow_agenda.py",
+      "line": 168,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "if min(self.engine.wallet(a)[k] for k in ('energy','time')) == 0:"
+    },
+    {
+      "path": "hle_unified/workflow_agenda.py",
+      "line": 181,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "charged = tuple((a, before[i]['energy']-self.engine.wallet(a)['energy'],"
+    },
+    {
+      "path": "hle_unified/workflow_agenda.py",
+      "line": 182,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "before[i]['time']-self.engine.wallet(a)['time']) for i,a in enumerate(actors))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_audit.py",
+      "line": 39,
+      "function": "audit_agenda",
+      "category": "auditing",
+      "source": "delta = tuple(old[k]-d[k] for k in ('energy','time'))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_audit.py",
+      "line": 41,
+      "function": "audit_agenda",
+      "category": "auditing",
+      "source": "charges[key] = tuple(a+b for a,b in zip(charges.get(key,(0,0)),delta))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_audit.py",
+      "line": 47,
+      "function": "audit_agenda",
+      "category": "auditing",
+      "source": "for actor, energy, time in row['charged']:"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_audit.py",
+      "line": 48,
+      "function": "audit_agenda",
+      "category": "auditing",
+      "source": "if (energy,time) != charges.pop((i,actor),(0,0)): raise ValueError('agenda charge differs')"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_audit.py",
+      "line": 49,
+      "function": "audit_agenda",
+      "category": "auditing",
+      "source": "total += energy"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_audit.py",
+      "line": 98,
+      "function": "audit_agenda",
+      "category": "auditing",
+      "source": "return dict(passed=True, completed_goals=state['stage'], modeled_energy=total,"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population.py",
+      "line": 141,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "if min(self.engine.wallet(a)[k] for k in ('energy', 'time')) == 0:"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population.py",
+      "line": 158,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "charged = tuple((a, before[i]['energy'] - self.engine.wallet(a)['energy'],"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population.py",
+      "line": 159,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "before[i]['time'] - self.engine.wallet(a)['time']) for i, a in enumerate(actors))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population.py",
+      "line": 160,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "if any(a != payer and (energy or time) for a, energy, time in charged):"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population.py",
+      "line": 263,
+      "function": "step",
+      "category": "wallet/payment machinery",
+      "source": "charged=(before['energy'] - after['energy'], before['time'] - after['time']))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 72,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "delta = tuple(old[k] - value[k] for k in ('energy', 'time'))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 75,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "charges[key] = tuple(a + b for a, b in zip(charges.get(key, (0, 0)), delta))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 87,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "for actor, energy, time in row['charged']:"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 89,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "if (energy, time) != charges.pop((turn, actor), (0, 0)):"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 91,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "if energy or time:"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 93,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "total += energy"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 158,
+      "function": "audit_namespaced_agenda",
+      "category": "auditing",
+      "source": "modeled_energy=total, main_selections=native['workflow_selections'], native=native)"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 254,
+      "function": "audit_agenda_population",
+      "category": "auditing",
+      "source": "delta = tuple(old[k] - value[k] for k in ('energy', 'time'))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 257,
+      "function": "audit_agenda_population",
+      "category": "auditing",
+      "source": "charges[key] = tuple(a + b for a, b in zip(charges.get(key, (0, 0)), delta))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 290,
+      "function": "audit_agenda_population",
+      "category": "auditing",
+      "source": "charged = charges.pop((number, actor), (0, 0))"
+    },
+    {
+      "path": "hle_unified/workflow_agenda_population_audit.py",
+      "line": 304,
+      "function": "audit_agenda_population",
+      "category": "auditing",
+      "source": "return dict(passed=True, turns=state['turn'], modeled_energy=total, peer_turns=peer_turns,"
+    },
+    {
+      "path": "hle_unified/workflow_audit.py",
+      "line": 130,
+      "function": "audit",
+      "category": "auditing",
+      "source": "mutable={\"completed\",\"spent\",\"status\",\"failure\",\"result\",\"steps_completed\",\"last_step\",\"binding\"}"
+    },
+    {
+      "path": "hle_unified/workflow_audit.py",
+      "line": 134,
+      "function": "audit",
+      "category": "auditing",
+      "source": "threshold+=sum(indexed(d,f\"route.{i}.charges.\"))+d[f\"route.{i}.content_units\"];thresholds.append(threshold)"
+    },
+    {
+      "path": "hle_unified/workflow_audit.py",
+      "line": 164,
+      "function": "audit",
+      "category": "auditing",
+      "source": "results.append(dict(recipe=r.key,main=r.main,route=r.name,polarity=r.polarity,spent=d[\"spent\"],output=output,inputs=indexed(d,\"source.\")))"
+    },
+    {
+      "path": "hle_unified/workflow_composition_audit.py",
+      "line": 139,
+      "function": "_world",
+      "category": "auditing",
+      "source": "if (d[\"movement\"], d[\"polarity\"], d[\"spent\"], d[\"completed\"]) != (movement, polarity, d[\"required\"], d[\"required\"]):"
+    },
+    {
+      "path": "hle_unified/workflow_composition_audit.py",
+      "line": 145,
+      "function": "_world",
+      "category": "auditing",
+      "source": "\"spent\": d[\"spent\"], \"status\": d[\"status\"],"
+    },
+    {
+      "path": "hle_unified/workflow_composition_audit.py",
+      "line": 185,
+      "function": "audit_pair",
+      "category": "auditing",
+      "source": "if wr[wi][\"spent\"] != ar[wi][\"spent\"]:"
+    },
+    {
+      "path": "hle_unified/workflow_composition_audit.py",
+      "line": 198,
+      "function": "audit_pair",
+      "category": "auditing",
+      "source": "\"comparison_spent\": wr[wi][\"spent\"],"
+    },
+    {
+      "path": "hle_unified/workflow_execution.py",
+      "line": 164,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "if stamp in self._workflow_used: raise ValueError(\"one-attempt commitment already spent\")"
+    },
+    {
+      "path": "hle_unified/workflow_execution.py",
+      "line": 171,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "execution=sum(sum(row[\"charges\"])+row[\"content_units\"] for row in rows)"
+    },
+    {
+      "path": "hle_unified/workflow_execution.py",
+      "line": 176,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "completed=0,spent=0,recall_units=p[\"units\"],route_prepare=p[\"units\"],route_execute=execution,material_units=recipe.material_units,"
+    },
+    {
+      "path": "hle_unified/workflow_execution.py",
+      "line": 220,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "**{k:d[k] for k in (\"required\",\"completed\",\"spent\")},**{\"input.\"+str(i):v for i,v in enumerate((ref,*sources))}))"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_audit.py",
+      "line": 38,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if d['admission_spent']!=op['spent'] or d['movement_complete'] is not False or d['pending_obligation']!=recipe.destination:"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_audit.py",
+      "line": 47,
+      "function": "audit",
+      "category": "auditing",
+      "source": "child=d['child'];completed=False;output=None;spent=0"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_audit.py",
+      "line": 65,
+      "function": "audit",
+      "category": "auditing",
+      "source": "completed=h['status']=='succeeded';output=(h.get('binding') or h.get('result')) if completed else None;spent=h['spent']"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_audit.py",
+      "line": 70,
+      "function": "audit",
+      "category": "auditing",
+      "source": "admission_spent=d['admission_spent'],movement_spent=spent,"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_audit.py",
+      "line": 86,
+      "function": "audit",
+      "category": "auditing",
+      "source": "boundary=job['recall_units']+sum(indexed(job,'route.0.charges.'))+job['route.0.content_units']"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_audit.py",
+      "line": 87,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if job['last_step']!=d['intermediate'] or d['spent']!=job['spent'] or job['spent']!=boundary or d['original_obligation_met'] is not False:"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_execution.py",
+      "line": 81,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "pending_obligation=recipe.destination,admission_spent=d['spent']))"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_execution.py",
+      "line": 91,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "boundary=d['recall_units']+sum(indexed(d,'route.0.charges.'))+d['route.0.content_units']"
+    },
+    {
+      "path": "hle_unified/workflow_interruption_execution.py",
+      "line": 104,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "original_obligation_met=False,spent=current['spent']))"
+    },
+    {
+      "path": "hle_unified/workflow_longitudinal_shell_audit.py",
+      "line": 33,
+      "function": "audit",
+      "category": "auditing",
+      "source": "required=operation['required'], spent=operation['spent'],"
+    },
+    {
+      "path": "hle_unified/workflow_longitudinal_shell_audit.py",
+      "line": 38,
+      "function": "audit",
+      "category": "auditing",
+      "source": "required=data['required'], spent=data['spent'],"
+    },
+    {
+      "path": "hle_unified/workflow_longitudinal_shell_audit.py",
+      "line": 42,
+      "function": "audit",
+      "category": "auditing",
+      "source": "consumers.append(dict(ref=v.ref, key=data['key'], spent=data['spent'], binding=binding,"
+    },
+    {
+      "path": "hle_unified/workflow_longitudinal_shell_audit.py",
+      "line": 45,
+      "function": "audit",
+      "category": "auditing",
+      "source": "cancelled.append(dict(ref=v.ref, spent=data['spent'], steps_completed=data['steps_completed'],"
+    },
+    {
+      "path": "hle_unified/workflow_longitudinal_shell_audit.py",
+      "line": 69,
+      "function": "compare_correction_control",
+      "category": "auditing",
+      "source": "if (wc[0]['required'], wc[0]['spent']) != (cc[0]['required'], cc[0]['spent']):"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 96,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "if any(k not in receipt or receipt[k] != child.get(k) for k in (\"actor\", \"context\", \"status\", \"spent\", \"result\")):"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 126,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "operations[operation] = child[\"spent\"]"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 129,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "for ref, spent in value[\"operations\"]:"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 130,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "if ref in operations and operations[ref] != spent:"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 132,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "operations[ref] = spent"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 153,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "mutable = {\"completed\", \"spent\", \"status\", \"failure\", \"result\", \"steps_completed\", \"last_step\", \"binding\"}"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 158,
+      "function": "audit_parent",
+      "category": "auditing",
+      "source": "threshold += sum(indexed(d, f\"route.{i}.charges.\")) + d[f\"route.{i}.content_units\"]"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_audit.py",
+      "line": 225,
+      "function": "audit_face_pair",
+      "category": "auditing",
+      "source": "responsibility_locus=locus, accumulation_spent=aj[\"spent\"], expenditure_spent=ej[\"spent\"],"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 63,
+      "function": "_prepare_parent",
+      "category": "non-Model-A work / work metadata",
+      "source": "if any(k not in receipt or receipt[k] != d.get(k) for k in (\"actor\", \"context\", \"status\", \"spent\", \"result\")):"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 81,
+      "function": "_prepare_parent",
+      "category": "non-Model-A work / work metadata",
+      "source": "operations[child.operation] = d[\"spent\"]"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 86,
+      "function": "_prepare_parent",
+      "category": "non-Model-A work / work metadata",
+      "source": "for ref, spent in value[\"operations\"]:"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 87,
+      "function": "_prepare_parent",
+      "category": "non-Model-A work / work metadata",
+      "source": "if ref in operations and operations[ref] != spent:"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 89,
+      "function": "_prepare_parent",
+      "category": "non-Model-A work / work metadata",
+      "source": "operations[ref] = spent"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 130,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "execution = sum(sum(row[\"charges\"]) + row[\"content_units\"] for row in route_rows)"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 133,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "required=p[\"units\"] + execution, completed=0, spent=0, recall_units=p[\"units\"], route_prepare=p[\"units\"],"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 134,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "route_execute=execution, material_units=0, steps_completed=0, last_step=None,"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 166,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "paid = min(work_limit, d[\"required\"] - d[\"completed\"], wallet[\"energy\"], wallet[\"time\"]) if reserve else 0"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 167,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "d[\"completed\"] += paid; d[\"spent\"] += paid"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 168,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "d[\"status\"] = \"waiting\" if not reserve else (\"ready\" if d[\"completed\"] == d[\"required\"] else \"partial\")"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 173,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "threshold += sum(indexed(d, prefix + \"charges.\")) + d[prefix + \"content_units\"]"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 191,
+      "function": "_advance",
+      "category": "wallet/payment machinery",
+      "source": "wallet[\"energy\"] -= paid; wallet[\"time\"] -= paid"
+    },
+    {
+      "path": "hle_unified/workflow_nesting_execution.py",
+      "line": 218,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "operation=\"bind\", work_key=ref.identity.key, **{k: d[k] for k in (\"required\", \"completed\", \"spent\")},"
+    },
+    {
+      "path": "hle_unified/workflow_records.py",
+      "line": 76,
+      "function": "__post_init__",
+      "category": "non-Model-A work / work metadata",
+      "source": "if not 0<=self.clock<=1000 or len(self.completed)>8 or len(set(self.completed))!=len(self.completed): raise ValueError(\"bounded hypothetical query required\")"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 23,
+      "function": "extent",
+      "category": "auditing",
+      "source": "if d['required'] != total or d['route_prepare'] != total or d['route_execute'] != 0:"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 74,
+      "function": "reference",
+      "category": "auditing",
+      "source": "effort=recipe.material_units+sum(sum(x['charges'])+x['content_units'] for x in route(s['tim'],s['cursor'],recipe.elements,recipe.origin,recipe.destination,f))"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 234,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if z.get('record_type')=='wallet':wallet=(z['energy'],z['time'])"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 238,
+      "function": "audit",
+      "category": "auditing",
+      "source": "for j,charge in enumerate(indexed(z,f'route.{i}.charges.')):"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 242,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if left<z[f'route.{i}.content_units']:break"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 243,
+      "function": "audit",
+      "category": "auditing",
+      "source": "left-=z[f'route.{i}.content_units'];cursor=z[f'route.{i}.element']"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 256,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if job['spent']!=job['required'] or d['spent']!=job['spent'] or d['completion_claim'] is not False:raise ValueError('unpaid or false completion')"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 268,
+      "function": "audit",
+      "category": "auditing",
+      "source": "decisions.append(dict(selected=d['selected'],recipe=d['recipe'],child=d['child'],spent=d['spent'],status=d['status']))"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 343,
+      "function": "verify_responsiveness",
+      "category": "auditing",
+      "source": "rows.append(dict(file=path.name,sha256=hashlib.sha256(path.read_bytes()).hexdigest(),recipe=d['recipe'],spent=d['spent'],"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 349,
+      "function": "verify_responsiveness",
+      "category": "auditing",
+      "source": "assert d0['spent']==d1['spent']==dc['spent'] and q1 is not None and q1!=qc and q0==qc"
+    },
+    {
+      "path": "hle_unified/workflow_selection_audit.py",
+      "line": 364,
+      "function": "verify_responsiveness",
+      "category": "auditing",
+      "source": "assert d1['recipe']=='workflow-express-accumulation-v1' and d0['spent']==dh['spent']==d1['spent']"
+    },
+    {
+      "path": "hle_unified/workflow_selection_execution.py",
+      "line": 61,
+      "function": "workflow_selection_view",
+      "category": "non-Model-A work / work metadata",
+      "source": "wallet=(self.wallet(r.actor)['energy'], self.wallet(r.actor)['time']),"
+    },
+    {
+      "path": "hle_unified/workflow_selection_execution.py",
+      "line": 77,
+      "function": "_start",
+      "category": "non-Model-A work / work metadata",
+      "source": "d.update(record_type='operation',c7ws=True,required=required,completed=0,spent=0,status='pending',failure=None,result=None,"
+    },
+    {
+      "path": "hle_unified/workflow_selection_execution.py",
+      "line": 78,
+      "function": "_start",
+      "category": "Model A processing",
+      "source": "primitive='bind',route_prepare=required,route_execute=0,started_tick=self._now().tick,"
+    },
+    {
+      "path": "hle_unified/workflow_selection_execution.py",
+      "line": 112,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "work_key=key,required=d['required'],completed=d['completed'],spent=d['spent'],**{'input.0':r.demand})),)"
+    },
+    {
+      "path": "hle_unified/workflow_selection_execution.py",
+      "line": 123,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "spent=d['spent'],status='deferred' if selected is None else 'launched' if child else 'rejected',completion_claim=False))"
+    },
+    {
+      "path": "hle_unified/workflow_selection_policy.py",
+      "line": 50,
+      "function": "proposals",
+      "category": "Model A processing",
+      "source": "effort = sum(sum(x['charges']) + x['content_units'] for x in route("
+    },
+    {
+      "path": "hle_unified/workflow_shell_audit.py",
+      "line": 36,
+      "function": "audit",
+      "category": "auditing",
+      "source": "if d['admission_spent']!=op['spent'] or d['movement_complete'] is not False or d['pending_obligation']!=recipe.destination:"
+    },
+    {
+      "path": "hle_unified/workflow_shell_audit.py",
+      "line": 45,
+      "function": "audit",
+      "category": "auditing",
+      "source": "child=d['child'];completed=False;output=None;spent=0"
+    },
+    {
+      "path": "hle_unified/workflow_shell_audit.py",
+      "line": 60,
+      "function": "audit",
+      "category": "auditing",
+      "source": "completed=h['status']=='succeeded';output=h.get('binding') or h.get('result');spent=h['spent']"
+    },
+    {
+      "path": "hle_unified/workflow_shell_audit.py",
+      "line": 65,
+      "function": "audit",
+      "category": "auditing",
+      "source": "admission_spent=d['admission_spent'],movement_spent=spent,"
+    },
+    {
+      "path": "hle_unified/workflow_shell_execution.py",
+      "line": 78,
+      "function": "_commit",
+      "category": "non-Model-A work / work metadata",
+      "source": "pending_obligation=recipe.destination,admission_spent=d['spent']))"
+    }
+  ],
+  "site_count": 262,
+  "notes": [
+    "Every matching source line is retained, including comments and metadata; site count is not a count of debit implementations.",
+    "Actual debit implementations: OperationEngine._advance, CruxEngine._advance, WorkflowNestingEngine._advance. All other engines delegate through these.",
+    "Route-bearing jobs pay recall_units, then each route hop and one content unit, then material_units. Stored content_units is one seat unit in current code; varying content/syntax sizes live in recall_units and are not seat-priced.",
+    "Selection/admission comparisons, read/delivery work, recall, syntax and material work stay equal currency. Existing time-priced selector affordability policy remains; grade-v1 must not optimize route or support choice.",
+    "Schedulers and raw exhaustion auditors assume a zero minimum wallet; grade-v1 must also handle insufficient positive energy at step admission and continuation after prepaid energy reaches zero.",
+    "spent/completed remain cumulative time, including receipts and child cost summaries. They are not renamed as energy."
+  ]
+}

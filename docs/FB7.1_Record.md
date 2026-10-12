@@ -1,0 +1,13 @@
+# FB7.1 — prospective accounting contract and tests
+
+[probe] Exact entry source 6960145517974f6c69b8ae66b5b56de2c35cbbe1 was cloned, `git fsck --full` passed and the selected modules import under Python 3.12.14 with the repository's baseline import path. The previous failed startup remains untouched. Recovery evidence: evidence/FB7.1/Recovery_20261012.json. The expected-head lease was verified at 522c972b3b1e4259de1bf281271f18f5adcd2d30; the initial automatic review rejection was resolved by inspecting the exact administrative diff and explicit main/lease authority, then retrying the same fast-forward action.
+
+[probe] Accounting_Site_Inventory_v1.json pins 54 module hashes and all 262 matching currency, work and route-price source lines. The three debit implementations are OperationEngine._advance, CruxEngine._advance and WorkflowNestingEngine._advance. All route-bearing request families use these paths. Wallet-only zero checks also occur in scheduler/assessment code; they need model-aware resource-stop handling, without altering route choice. Old count 18 is an R21B result, not this inventory.
+
+[derived] Energy_Contract_v1 specifies whole-step energy on the first time payment, exact once-only continuation, no cancellation refund, and the distinction between a unit seat-content block and separately priced preparation/content-size work. Current seat-content size is exactly one. `spent` remains time/work. Legacy checkpoints need no metadata changes. Experimental creation identity will be committed in the initial world and immutable thereafter.
+
+[source_defined] Energy_Protocol_v1 preregisters all 512 automatic pairs, four core populations under three fixed funding regimes, all 32 sustained-extension cells under the same regimes, negative controls, independent raw reconstruction, historical Phase5 conditioning, exact 742-method regression identities and unchanged-source gates. SHA256 sidecars and additive Contract_Manifest entries were written before any engine implementation. No inherited contract meaning is edited.
+
+[machine-checked] The contract/protocol hashes and source inventory were verified, and Git diff contains no changes under hle_unified/, baseline/, tests or existing tools. Batch 7.1 exit gate is complete. A pre-extension regression was started separately; its outcome is not credited by this record and is saved only when the process finishes.
+
+[open] Next: 7.2 creation identity/payment integration, then independent audit and checkpoint/regression gates. No Phase7 behavior, prediction, or Release1.1 completion is claimed. No theoretical register item is closed. No scheduler was enabled.

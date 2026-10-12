@@ -85,6 +85,16 @@
       "path": "contracts/C7_Workflow_Selection_FB2.4_Amendment_v1.json",
       "sha256": "1a735687ded747bcd6c526fe2ef3a9f4477777c8e4784b08861cbc07b43b0255",
       "bytes": 4982
+    },
+    {
+      "path": "contracts/Energy_Contract_v1.md",
+      "sha256": "a161afea35c86181ddcab3f8d6ba448c72ffb8cb10fc8d8a3a721cad3923ff33",
+      "bytes": 5700
+    },
+    {
+      "path": "contracts/Energy_Protocol_v1.json",
+      "sha256": "581d20465fe780f5d0c6df38e2cbc6fee679a4134e098106f41b7e8f5b103d6b",
+      "bytes": 8408
     }
   ]
 }
