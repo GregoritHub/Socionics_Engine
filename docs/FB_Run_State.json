@@ -1,7 +1,7 @@
 {
   "schema": "srl-final-build-state-v1",
   "status": "running",
-  "current_batch": "7.3",
+  "current_batch": "7.4",
   "completed_batches": [
     "0.1",
     "0.2",
@@ -26,11 +26,12 @@
     "6.2",
     "6.3",
     "7.1",
-    "7.2"
+    "7.2",
+    "7.3"
   ],
-  "next_batch": "7.3",
+  "next_batch": "7.4",
   "run_id": "phase7-20261012T005219Z-a86649e6",
-  "lease_expires_at": "2026-10-12T01:37:43.999893+00:00",
+  "lease_expires_at": "2026-10-12T01:57:01.934831+00:00",
   "updated_on": "2026-10-12",
   "stop_reason": null,
   "release_1_1_authorized": true,
@@ -41,9 +42,9 @@
     "record": "docs/FB7_R5_Authorization.md",
     "scope": "Final Build Plan v1.0 batches 7.1-7.4. Keep legacy-r4 the default; no conditioning feedback."
   },
-  "record": "docs/FB7.2_Record.md",
+  "record": "docs/FB7.3_Record.md",
   "phase7_job_register": "docs/FB7_R5_Authorization.md",
-  "activity": "7.2 complete: 749 exact passing methods and unchanged freeze; implementing observation-only conditioning.",
+  "activity": "7.3 complete: 225 aliases / 130 independently reconstructed histories; preparing frozen final evaluation.",
   "automation_id": "6ac53cec617881919c9d68ea800adde1",
   "automation_enabled": false,
   "automation_status": "Observed disabled on 2026-10-11; no schedule change made.",

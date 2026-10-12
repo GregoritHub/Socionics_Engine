@@ -68,3 +68,5 @@
 [machine-checked] Phase7 recovery succeeded and FB7.1 is complete: exact cloned source, 54-module/262-line accounting inventory, prospective hashed energy contract/protocol, fixed partial-payment rule. R5 authorization supersedes historical awaiting-R5 entries. Next FB7.2; no engine implementation or new test pass claimed here. See FB7.1_Record.md.
 
 [machine-checked] FB7.2 complete: immutable opt-in grade-v1 wallet identity, exact two-currency payment, independent raw audit and next-payment resource stops; all 742 accepted IDs plus seven new methods pass unchanged freeze (749 total). Legacy checkpoint bytes/audit preserved. FB7.3 next.
+
+- FB7.3 accepted: standalone raw reader reproduced all 225 Phase5 aliases (130 unique engine histories), unchanged freeze, two boundary/tamper tests. Next: FB7.4.

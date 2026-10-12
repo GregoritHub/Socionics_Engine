@@ -1,0 +1,7 @@
+test_completed_boundary_partial_cancel_and_empty_ties (tests_energy.test_conditioning.ConditioningTests.test_completed_boundary_partial_cancel_and_empty_ties) ... ok
+test_unpaid_forged_completion_and_missing_wallet_rejected (tests_energy.test_conditioning.ConditioningTests.test_unpaid_forged_completion_and_missing_wallet_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.366s
+
+OK

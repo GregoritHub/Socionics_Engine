@@ -1,0 +1,9 @@
+# FB7.3 — observation-only completed use
+
+[derived] `conditioning_audit.py` reconstructs eight element counts from raw operation revisions and matched wallet debits. A finished Model A hop or content block counts once; preparation, unfinished work and unpaid proposals count zero. Cancellation retains completed use. Axis loads, tilts and tied greatest-load cells are separate from three-element formula sums. No subtype or calibration inference follows. UMA section 15 source caveat is retained.
+
+[machine-checked] `python3 tools/evaluate_conditioning.py evidence/FB7.3/attempt1` reproduced all 225 source aliases, deduplicated to 130 engine histories, covering FB5.1–FB5.6 including historical interrupted/failed attempts. No input was omitted or rejected. Each input's original hash was checked. The complete observations and aliases are in `attempt1/observations.json.gz`; original evidence indices retain archive identities. The frozen source remained unchanged. No execution modules were imported by the standalone process.
+
+[machine-checked] Two focused tests (`PYTHONPATH=baseline/HLE_Rebuild_R21B:. python3 -m unittest tests_energy.test_conditioning -v`) passed: exact one-element boundary change, partial exclusion, cancellation, empty four-way tie, and rejection of omitted/refunded/forged payment. Output: `evidence/FB7.3/tests.log`. Initial development launch errors (wrong module path and unmatched parenthesis) occurred before the acceptance directory was created; corrected before its freeze. An unsupported dotted-package invocation of the old test runner was replaced by unittest; no test result was credited from that failed invocation.
+
+[derived] Production engine, selection, scheduling, Shell and pricing do not import this reader. Existing files from the accepted 7.2 implementation remain unchanged. No world record is written. FB7.3 exit gate is complete; FB7.4 evaluation and candidate decision remain pending.
