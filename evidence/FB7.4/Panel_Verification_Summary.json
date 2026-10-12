@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "P1": "held",
+  "P2": "held",
+  "P3": "held",
+  "pairs": 620,
+  "ample_pairs": 548,
+  "controls": 64,
+  "source_unchanged": true,
+  "execution_imports": [],
+  "failures": [],
+  "parts": [
+    {
+      "path": "audit-part-0/independent_audit.json",
+      "sha256": "b1cd4784767418cecd92e4f8655aaee2b4809541c5c27eb7aa9711cbc05232a6"
+    },
+    {
+      "path": "audit-part-1/independent_audit.json",
+      "sha256": "41f3e389e6f1c49e721a3204a16255ebad2e2bba919ba9e168d34f4025dc5503"
+    },
+    {
+      "path": "audit-part-2/independent_audit.json",
+      "sha256": "4c501699c9a81ca458a7b28e622827d1bb5e00070b9bf714ef557f34af967ac2"
+    },
+    {
+      "path": "audit-part-3/independent_audit.json",
+      "sha256": "cffbd8a7e839675c74e0466455a48a26c4f69b40f917f1f618a1b3f0d9b5f550"
+    }
+  ],
+  "qualifying_scarcity_pairs": [
+    "core-diagnostic-17-tight-energy"
+  ]
+}

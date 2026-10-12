@@ -1,0 +1,10 @@
+{
+  "status": "invalidated and uncredited",
+  "reason": "Summary serialization error corrected; termination was requested before correction, but old subprocesses continued. Actual final summaries for both attempt1 and regression1 reject their source-changed freezes. Their outputs are retained without acceptance credit.",
+  "panel": false,
+  "regression": false,
+  "superseded_by": [
+    "attempt2",
+    "regression2"
+  ]
+}

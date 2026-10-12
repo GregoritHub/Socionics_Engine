@@ -9,3 +9,13 @@
 [open] FB7.4, Release1.1 candidate packaging and decision remain incomplete at this checkpoint. Release1.0 remains accepted; legacy-r4 remains the default.
 
 [derived] Attempt1 and regression1 were interrupted and invalidated after an evaluator summary tried to serialize a WorkflowRequest. Raw records and failure logs are preserved; no pass is credited. The summary now records the actual consequence, while complete requests remain in raw records. Standalone audit output uses the existing reference codec. The first development comparator had accepted equal missing outcomes; pair verification now requires successful generation. Corrected automatic generation, raw reconstruction, exact ample matching and both controls passed before attempt2. Engine/prices/funding are unchanged.
+
+[machine-checked] Regression2 passed all 751 distinct methods: all 742 required legacy IDs plus the seven energy and two conditioning methods. There are no missing or failed IDs. Its complete 1,398-file source freeze equals the paired generator freeze byte-for-byte and remained unchanged. The exact accepted IDs are saved separately.
+
+[machine-checked] Attempt2 generated all 620 pairs (512 automatic, 12 core population, 96 extension population) and 64 withheld-child controls, with no setup or generation failures and unchanged source. Independent reconstruction uses four disjoint 155-pair partitions of these exact raw records with the same unchanged frozen auditor. Audit_Partitions.json records the partition membership, input summary hashes and auditor hash. The incomplete serial audit exited130 and receives no credit; initial partition launch logs are retained.
+
+[derived] Correction to the earlier termination description: the initial termination request did not stop every old subprocess. Attempt1 and regression1 ultimately emitted failed source-unchanged gates, and remain invalidated. Their eventual summaries and all raw output are retained; none is acceptance evidence. See Initial_Attempt_Disposition.json.
+
+[machine-checked] All four independent audit partitions passed. Their disjoint union is exactly the original 620 pair IDs, with 548 ample pairs, 64 rejected withheld-child controls, no raw reconstruction failures, no execution imports and an unchanged source freeze. P1 and P2 held. P3 held in the preregistered core-diagnostic-17-tight-energy pair. Aggregate and component audit hashes are in Panel_Verification_Summary.json. No wallet, price, tolerance or fixture was tuned.
+
+[probe] Sequential cost measurements are now running after all panel/regression/audit workers completed. FB7.4 and final candidate delivery remain pending until costs and packaging are verified.

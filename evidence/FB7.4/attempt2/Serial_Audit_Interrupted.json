@@ -1,0 +1,4 @@
+{
+  "status": "interrupted; exit 130; no result credited",
+  "reason": "Same frozen auditor partitioned across four isolated invocations. Initial process-id termination was unavailable across command namespaces; tool session Ctrl-C stopped the serial audit. No execution or audit source changed."
+}
