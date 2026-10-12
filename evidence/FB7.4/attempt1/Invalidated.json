@@ -1,0 +1,17 @@
+{
+  "status": "interrupted-before-source-correction",
+  "reason": "Evaluator summary serialization cannot encode WorkflowRequest; generated raw evidence retained; never accepted.",
+  "at": "2026-10-12T01:32:10.874561+00:00",
+  "process_ids": [
+    10753,
+    10770,
+    10812,
+    10814,
+    10816,
+    10817,
+    10937,
+    10940,
+    10941,
+    10944
+  ]
+}
