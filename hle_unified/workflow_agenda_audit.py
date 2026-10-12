@@ -27,6 +27,8 @@ def audit_agenda(transactions, access, state):
             if (set(slot) not in ({'initial'},{'result'}) or ('result' in slot
                     and (type(slot['result']) is not int or not 0 <= slot['result'] < i))):
                 raise ValueError('invalid prior-result slot')
+    from .energy_audit import validate_agenda_exhaustion
+    validate_agenda_exhaustion(transactions, state)
     native = native_audit(transactions, access)
     versions = {}; heads = {}; charges = {}
     for tx in transactions:

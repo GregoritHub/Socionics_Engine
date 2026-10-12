@@ -1,0 +1,20 @@
+test_actual_prepaid_exhaustion_and_cancel_preserve_energy (tests_energy.test_energy.EnergyTests.test_actual_prepaid_exhaustion_and_cancel_preserve_energy) ... ok
+test_ample_raw_outputs_and_time_match (tests_energy.test_energy.EnergyTests.test_ample_raw_outputs_and_time_match) ... FAIL
+test_creation_identity_legacy_bytes_and_checkpoint (tests_energy.test_energy.EnergyTests.test_creation_identity_legacy_bytes_and_checkpoint) ... ok
+test_every_time_boundary_resume_and_cancellation (tests_energy.test_energy.EnergyTests.test_every_time_boundary_resume_and_cancellation) ... ok
+test_forged_energy_model_type_and_refund_rejected (tests_energy.test_energy.EnergyTests.test_forged_energy_model_type_and_refund_rejected) ... ok
+test_preextension_legacy_checkpoint_bytes_and_audit (tests_energy.test_energy.EnergyTests.test_preextension_legacy_checkpoint_bytes_and_audit) ... ok
+test_table_all_types_positions_offsets_and_quanta (tests_energy.test_energy.EnergyTests.test_table_all_types_positions_offsets_and_quanta) ... ok
+
+======================================================================
+FAIL: test_ample_raw_outputs_and_time_match (tests_energy.test_energy.EnergyTests.test_ample_raw_outputs_and_time_match)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cab01c7058d3/Socionics_Engine/tests_energy/test_energy.py", line 132, in test_ample_raw_outputs_and_time_match
+    self.assertEqual(worlds[0].access.checkpoint(),worlds[1].access.checkpoint())
+AssertionError: '{"pa[71395 chars]\",114],[\\"@\\",824],[\\"@\\",835],[\\"@\\",8[490879 chars]48"}' != '{"pa[71395 chars]\",115],[\\"@\\",825],[\\"@\\",836],[\\"@\\",8[491514 chars]20"}'
+
+----------------------------------------------------------------------
+Ran 7 tests in 97.897s
+
+FAILED (failures=1)

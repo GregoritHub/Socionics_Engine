@@ -163,7 +163,7 @@ class WorkflowNestingEngine(WorkflowEngine):
         r, prepared, addresses, sources = self._movement_inputs[old.ref.identity]
         wallet_before = self.world.resolve(self._wallets[actor]); wallet = attrs(wallet_before)
         reserve = self._can_reserve(d, old.ref)
-        paid = min(work_limit, d["required"] - d["completed"], wallet["energy"], wallet["time"]) if reserve else 0
+        paid, energy = self._work_payment(d, wallet, work_limit, reserve)
         d["completed"] += paid; d["spent"] += paid
         d["status"] = "waiting" if not reserve else ("ready" if d["completed"] == d["required"] else "partial")
         steps = []; threshold = d["recall_units"]; previous_ref = d["last_step"]
@@ -188,7 +188,7 @@ class WorkflowNestingEngine(WorkflowEngine):
             previous_ref, previous = ref, (kind, target, values)
         current = next_version(old, attributes=attributes(d)); versions = [current, *steps]
         if paid:
-            wallet["energy"] -= paid; wallet["time"] -= paid
+            wallet["energy"] -= energy; wallet["time"] -= paid
             after_wallet = next_version(wallet_before, attributes=attributes(wallet)); versions.append(after_wallet)
         self._batch(cid, actor, versions, evidence=(old.ref,)); self._jobs[actor, key] = current.ref
         if paid: self._wallets[actor] = after_wallet.ref

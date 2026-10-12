@@ -165,7 +165,7 @@ class WorkflowAgenda:
             if self.active is not None:
                 d = self.engine.job_status(a, key)
                 if d['status'] not in ('succeeded', 'failed', 'cancelled'):
-                    if min(self.engine.wallet(a)[k] for k in ('energy','time')) == 0:
+                    if self.engine.resource_exhausted(a, key):
                         self.halted = 'exhausted'
                     else:
                         if d['status'] != 'ready': self.engine.advance(cid+':work', a, key, self.quantum)

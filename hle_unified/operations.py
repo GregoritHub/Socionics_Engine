@@ -71,6 +71,15 @@ class NativeAccess(AccessLedger):
 class OperationEngine:
     SCHEMA = "hle-unified-u4-engine-v1"
 
+    @classmethod
+    def create(cls, world, law, *, resource_model="legacy-r4"):
+        from .energy import initial_world
+        return cls(initial_world(world, resource_model), law)
+
+    @property
+    def resource_model(self):
+        return self._resource_model
+
     def __init__(self, world, law):
         if type(world) is not OperationStore:
             raise ValueError("U4 native store required")
@@ -84,17 +93,25 @@ class OperationEngine:
         self._events, self._pool = [], ValuePool(registry())
         self._lock = world._lock
         self._wallets = {}
+        models = set()
         for identity in world._heads:
             version = world.head(identity)
             if identity.namespace == "u4.wallet":
                 d = attrs(version)
                 actor = d.get("actor")
+                model = d.get("resource_model", "legacy-r4")
+                if model not in ("legacy-r4", "grade-v1") or ("resource_model" in d and model != "grade-v1"):
+                    raise ValueError("invalid resource model identity")
+                models.add(model)
                 if (d.get("record_type") != "wallet" or version.ref != wallet_address(actor)
-                        or set(d) != {"record_type", "actor", "energy", "time", "initial_energy", "initial_time"}
+                        or set(d) != ({"record_type", "actor", "energy", "time", "initial_energy", "initial_time"} | ({"resource_model"} if model == "grade-v1" else set()))
                         or any(type(d[k]) is not int or d[k] < 0 for k in ("energy", "time", "initial_energy", "initial_time"))
                         or d["energy"] != d["initial_energy"] or d["time"] != d["initial_time"]):
                     raise ValueError("invalid finite initial work wallet")
                 self._wallets[actor] = version.ref
+        if len(models) > 1:
+            raise ValueError("mixed resource models in one world")
+        self._resource_model = next(iter(models), "legacy-r4")
 
     def participant_view(self, actor, *, through=None):
         with self._lock:
@@ -317,6 +334,26 @@ class OperationEngine:
             raise ValueError("terminal operation cannot continue")
         return old, attrs(old)
 
+    def resource_exhausted(self, actor, key=None):
+        wallet = self.wallet(actor)
+        if self.resource_model == "legacy-r4":
+            return min(wallet["energy"], wallet["time"]) == 0
+        if key is None:
+            return min(wallet["energy"], wallet["time"]) == 0
+        data = self.job_status(actor, key)
+        if data["status"] == "ready":
+            return False
+        return self._work_payment(data, wallet, 1, True)[0] == 0
+
+    def _work_payment(self, data, wallet, work_limit, reserve):
+        if not reserve:
+            return 0, 0
+        if self.resource_model == "grade-v1":
+            from .energy import payment
+            return payment(data, wallet, work_limit)
+        paid = min(work_limit, data["required"] - data["completed"], wallet["energy"], wallet["time"])
+        return paid, paid
+
     def _advance(self, cid, actor, key, work_limit):
         if type(work_limit) is not int or work_limit < 1:
             raise ValueError("positive integer work limit required")
@@ -326,14 +363,14 @@ class OperationEngine:
         before = self.world.resolve(self._wallets[actor])
         wallet = attrs(before)
         reserve = self._can_reserve(data, old.ref)
-        paid = min(work_limit, data["required"] - data["completed"], wallet["energy"], wallet["time"]) if reserve else 0
+        paid, energy = self._work_payment(data, wallet, work_limit, reserve)
         data["completed"] += paid
         data["spent"] += paid
         data["status"] = "waiting" if not reserve else ("ready" if data["completed"] == data["required"] else "partial")
         value = next_version(old, attributes=attributes(data))
         versions = [value]
         if paid:
-            wallet["energy"] -= paid
+            wallet["energy"] -= energy
             wallet["time"] -= paid
             versions.append(next_version(before, attributes=attributes(wallet)))
         self._batch(cid, actor, versions, evidence=(old.ref,))

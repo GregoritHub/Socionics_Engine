@@ -96,7 +96,9 @@ class Population:
         self.turn += 1
         before = self.engine.wallet(r.actor)
         row = dict(turn=self.turn, actor=r.actor, episode=self.counts[i], key=r.key)
-        if min(before[k] for k in ('energy', 'time')) == 0:
+        pending_key = next((key for key in self._keys(r) if (r.actor, key) in self.engine._jobs
+                            and self.engine.job_status(r.actor, key)['status'] not in ('succeeded', 'failed', 'cancelled')), None)
+        if self.engine.resource_exhausted(r.actor, pending_key):
             self.stopped[i] = 'exhausted'
             row['status'] = 'exhausted'
         elif r.actor in self.engine._locks and not any(

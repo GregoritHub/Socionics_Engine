@@ -136,7 +136,7 @@ class CruxEngine(InstitutionEngine):
         wallet_before = self.world.resolve(self._wallets[actor])
         wallet = attrs(wallet_before)
         reserve = self._can_reserve(d, old.ref)
-        paid = min(work_limit, d["required"] - d["completed"], wallet["energy"], wallet["time"]) if reserve else 0
+        paid, energy = self._work_payment(d, wallet, work_limit, reserve)
         d["completed"] += paid
         d["spent"] += paid
         d["status"] = "waiting" if not reserve else ("ready" if d["completed"] == d["required"] else "partial")
@@ -172,7 +172,7 @@ class CruxEngine(InstitutionEngine):
         current = next_version(old, attributes=attributes(d))
         versions = [current, *steps]
         if paid:
-            wallet["energy"] -= paid
+            wallet["energy"] -= energy
             wallet["time"] -= paid
             after_wallet = next_version(wallet_before, attributes=attributes(wallet))
             versions.append(after_wallet)

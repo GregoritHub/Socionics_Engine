@@ -1,0 +1,10 @@
+test_creation_identity_legacy_bytes_and_checkpoint (tests_energy.test_energy.EnergyTests.test_creation_identity_legacy_bytes_and_checkpoint) ... ok
+test_every_time_boundary_resume_and_cancellation (tests_energy.test_energy.EnergyTests.test_every_time_boundary_resume_and_cancellation) ... ok
+test_forged_energy_model_type_and_refund_rejected (tests_energy.test_energy.EnergyTests.test_forged_energy_model_type_and_refund_rejected) ... ok
+test_preextension_legacy_checkpoint_bytes_and_audit (tests_energy.test_energy.EnergyTests.test_preextension_legacy_checkpoint_bytes_and_audit) ... ok
+test_table_all_types_positions_offsets_and_quanta (tests_energy.test_energy.EnergyTests.test_table_all_types_positions_offsets_and_quanta) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 92.728s
+
+OK

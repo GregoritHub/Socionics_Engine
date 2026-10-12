@@ -95,6 +95,8 @@ def audit_namespaced_agenda(transactions, access, state):
             raise ValueError('agenda charge payer differs')
     if charges:
         raise ValueError('unreported agenda charges')
+    from .energy_audit import validate_agenda_exhaustion
+    validate_agenda_exhaustion(transactions, state)
     template = state['template']
     actor = template['actor']
     actual_results = []

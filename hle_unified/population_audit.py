@@ -9,6 +9,8 @@ from .operations import address
 
 
 def audit_population(transactions, state):
+    from .energy_audit import resource_model, cannot_pay
+    model = resource_model(transactions)
     schema=state.get('schema')
     if schema=='hle-c7-population-v2':
         requests=state['requests'];request_types=['SelectionRequest']*len(requests)
@@ -51,7 +53,14 @@ def audit_population(transactions, state):
         status=row['status']
         if status=='exhausted':
             wallet=[attrs(v) for v in heads.values() if attrs(v).get('record_type')=='wallet' and attrs(v).get('actor')==actor]
-            if not wallet or min(wallet[0][k] for k in ('energy','time'))!=0:raise ValueError('false exhaustion')
+            if not wallet:raise ValueError('missing exhaustion wallet')
+            if model == 'grade-v1':
+                pending = [attrs(v) for v in heads.values() if attrs(v).get('record_type') == 'operation'
+                           and attrs(v).get('actor') == actor and attrs(v).get('key') in
+                           (row['key'], row['key']+':admission', row['key']+':movement', row['key']+':feedback')
+                           and attrs(v).get('status') not in ('succeeded','failed','cancelled')]
+                if not cannot_pay(pending[0] if pending else None, wallet[0]):raise ValueError('false grade exhaustion')
+            elif min(wallet[0][k] for k in ('energy','time'))!=0:raise ValueError('false exhaustion')
             stops[index]='exhausted'
         elif status=='episode_complete':
             decision_namespace='c6.decision' if request_types[index]=='SelectionRequest' else 'c7ws.decision'

@@ -1,0 +1,5 @@
+{
+  "development1": {"passed": true, "methods": 5},
+  "development2": {"passed": false, "methods": 7, "failures": 1, "reason": "Test compared entire access checkpoint including embedded raw world with intentionally different wallet energy/model metadata. Work records and Account outputs matched; first-difference inspection found no protected output mismatch.", "correction": "Compare complete access nodes/events separately; retain exact equality for paid work records and semantic Account outputs. No engine or price changed for this correction."},
+  "legacy_before_tests": {"status":"interrupted_uncredited", "exit_code":130, "reason":"Optional pre-extension serial regression stopped before source changes; frozen legacy checkpoint, ordinary audit and exact restoration saved. Full accepted inventory remains mandatory."}
+}

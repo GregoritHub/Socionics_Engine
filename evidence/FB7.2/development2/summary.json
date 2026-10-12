@@ -1,0 +1,45 @@
+{
+  "passed": false,
+  "tests": 7,
+  "failures": 1,
+  "errors": 0,
+  "seconds": 97.89921370799857,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_actual_prepaid_exhaustion_and_cancel_preserve_energy",
+      "status": "passed",
+      "seconds": 2.7982082459930098
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_ample_raw_outputs_and_time_match",
+      "status": "failed",
+      "seconds": 1.505908344006457
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_creation_identity_legacy_bytes_and_checkpoint",
+      "status": "passed",
+      "seconds": 3.029221766999399
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_every_time_boundary_resume_and_cancellation",
+      "status": "passed",
+      "seconds": 88.52519916200254
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_forged_energy_model_type_and_refund_rejected",
+      "status": "passed",
+      "seconds": 0.8311156509953435
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_preextension_legacy_checkpoint_bytes_and_audit",
+      "status": "passed",
+      "seconds": 0.9169951290023164
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_table_all_types_positions_offsets_and_quanta",
+      "status": "passed",
+      "seconds": 0.2900429500004975
+    }
+  ]
+}

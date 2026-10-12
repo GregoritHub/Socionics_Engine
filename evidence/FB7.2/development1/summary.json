@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "tests": 5,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 92.7306315340029,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_creation_identity_legacy_bytes_and_checkpoint",
+      "status": "passed",
+      "seconds": 3.0475970930056064
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_every_time_boundary_resume_and_cancellation",
+      "status": "passed",
+      "seconds": 87.59653468400211
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_forged_energy_model_type_and_refund_rejected",
+      "status": "passed",
+      "seconds": 0.8517415000023902
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_preextension_legacy_checkpoint_bytes_and_audit",
+      "status": "passed",
+      "seconds": 0.9382913610024843
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_table_all_types_positions_offsets_and_quanta",
+      "status": "passed",
+      "seconds": 0.29366261200630106
+    }
+  ]
+}

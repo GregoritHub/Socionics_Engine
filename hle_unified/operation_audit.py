@@ -17,6 +17,11 @@ def indexed(values, prefix):
 
 
 def audit_transactions(transactions, *, extent_check=None, extended_flags=()):
+    from .energy_audit import resource_model, validate_profiles, debit
+    model = resource_model(transactions)
+    if model == "grade-v1":
+        validate_profiles(transactions)
+    charged_energy = 0
     heads, locks, energy, time = {}, {}, {}, {}
     physical, receipts, attempts, charged = 0, 0, 0, 0
     keys = set()
@@ -64,6 +69,7 @@ def audit_transactions(transactions, *, extent_check=None, extended_flags=()):
                 for i in ids:
                     if locks.get(i) == job.ref.identity:
                         del locks[i]
+        energy_delta = debit(jd, pd) if job and model == "grade-v1" else delta
         for wallet in wallets:
             wd, before = data(wallet), old[wallet.ref.identity]
             actor = wd["actor"]
@@ -72,14 +78,17 @@ def audit_transactions(transactions, *, extent_check=None, extended_flags=()):
                     raise ValueError("invalid initial budget")
                 energy[actor], time[actor] = wd["energy"], wd["time"]
             else:
+                if model == "grade-v1" and any(wd[k] != data(before)[k] for k in ("actor", "initial_energy", "initial_time", "resource_model")):
+                    raise ValueError("changed initial budget or resource model")
                 if not job or actor != jd["actor"] or delta < 1:
                     raise ValueError("unexplained resource write")
-                if wd["energy"] != energy[actor] - delta or wd["time"] != time[actor] - delta or min(wd["energy"], wd["time"]) < 0:
+                if wd["energy"] != energy[actor] - energy_delta or wd["time"] != time[actor] - delta or min(wd["energy"], wd["time"]) < 0:
                     raise ValueError("resource debit does not equal performed work")
                 energy[actor], time[actor] = wd["energy"], wd["time"]
         if delta and (len(wallets) != 1 or old[wallets[0].ref.identity] is None):
             raise ValueError("work has no matching budget debit")
         charged += delta
+        charged_energy += energy_delta
         op = jd.get("primitive")
         successful = job is not None and jd["status"] == "succeeded"
         if materials and (not successful or op not in MATERIAL_OPS - {"inspect"}):
@@ -168,6 +177,6 @@ def audit_transactions(transactions, *, extent_check=None, extended_flags=()):
             stocks.append({"key": value.ref.identity.key, "quantity": m.quantity,
                            "available": m.quantity - consumed, "consumed": consumed})
     return {"passed": True, "transactions": len(transactions), "operation_attempts": attempts,
-            "charged_energy": charged, "charged_time": charged, "physical_commits": physical,
+            "charged_energy": charged_energy, "charged_time": charged, "physical_commits": physical,
             "native_processing_receipts": receipts, "stocks": sorted(stocks, key=lambda s: s["key"]),
             "active_reservations": len(locks)}
