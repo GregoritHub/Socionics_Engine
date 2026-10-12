@@ -1,0 +1,36 @@
+{
+  "schema": "phase7-workspace-recovery-v1",
+  "source_commit": "6960145517974f6c69b8ae66b5b56de2c35cbbe1",
+  "source_tree": "72879e5c9eebfe5647efff22ef6985e7b15c2dbf",
+  "run_id": "phase7-20261012T005219Z-a86649e6",
+  "utc": "2026-10-12T00:52:19.164995+00:00",
+  "commands": [
+    {
+      "command": "git ls-remote https://github.com/GregoritHub/Socionics_Engine.git HEAD",
+      "exit": 0,
+      "head": "6960145517974f6c69b8ae66b5b56de2c35cbbe1"
+    },
+    {
+      "command": "git clone https://github.com/GregoritHub/Socionics_Engine.git Socionics_Engine",
+      "exit": 0
+    },
+    {
+      "command": "git fsck --full",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "command": "unconfigured Python module import",
+      "exit": 1,
+      "output": "ModuleNotFoundError: No module named hle",
+      "resolution": "Use repository tool convention: baseline/HLE_Rebuild_R21B and root on PYTHONPATH."
+    },
+    {
+      "command": "PYTHONPATH=baseline/HLE_Rebuild_R21B:. python3 -c <imports of five 7.1 modules and model_g>",
+      "exit": 0,
+      "python": "3.12.14"
+    }
+  ],
+  "prior_failure_preserved": "evidence/FB7.1/Startup_Attempt_20261011.json",
+  "claim": "Exact git objects verified; source imports execute. No regression or Phase 7 completion claimed."
+}
